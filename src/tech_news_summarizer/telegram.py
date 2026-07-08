@@ -16,12 +16,30 @@ class TelegramError(Exception):
 
 
 def format_digest(category: str, date: dt.date, issue: Issue) -> str:
+    """Per-newsletter digest (fallback path when AI merging is unavailable)."""
     name = CATEGORY_NAMES.get(category, category)
     lines = [f"<b>📰 TLDR {html.escape(name)} — {date.isoformat()}</b>"]
     if issue.tagline:
         lines.append(f"<i>{html.escape(issue.tagline)}</i>")
     lines.append("")
+    lines.extend(_format_issue_body(issue))
+    return "\n".join(lines).strip()
 
+
+def format_combined_digest(date: dt.date, categories: list[str], issue: Issue) -> str:
+    """Single merged digest across all fetched newsletters."""
+    names = ", ".join(CATEGORY_NAMES.get(c, c) for c in categories)
+    lines = [
+        f"<b>📰 TLDR Daily Digest — {date.isoformat()}</b>",
+        f"<i>{html.escape(names)}</i>",
+        "",
+    ]
+    lines.extend(_format_issue_body(issue))
+    return "\n".join(lines).strip()
+
+
+def _format_issue_body(issue: Issue) -> list[str]:
+    lines: list[str] = []
     for section in issue.sections:
         if section.name:
             lines.append(f"<b><u>{html.escape(section.name)}</u></b>")
@@ -35,7 +53,7 @@ def format_digest(category: str, date: dt.date, issue: Issue) -> str:
                 lines.append(f"• <b>{headline}</b>")
             lines.append(f"  {html.escape(story.blurb)}")
             lines.append("")
-    return "\n".join(lines).strip()
+    return lines
 
 
 def split_message(text: str, limit: int = TELEGRAM_LIMIT) -> list[str]:

@@ -1,9 +1,9 @@
 # tech-news-summarizer
 
 Daily digest of [TLDR](https://tldr.tech) newsletters: fetches the latest issues,
-parses out the stories (headline, blurb, link — sponsors filtered out), and posts
-them to your Telegram. Completely free to run: no LLM API involved, and the
-Telegram Bot API costs nothing.
+parses out the stories (headline, blurb, link — sponsors filtered out), merges
+them into **one deduplicated, themed digest** via the opencode API, and posts
+it to your Telegram. Runs twice daily on GitHub Actions' free tier.
 
 Covered newsletters: **Tech, AI, Web Dev, InfoSec, DevOps, Design**
 (TLDR publishes on weekdays; unpublished dates are skipped automatically).
@@ -26,13 +26,15 @@ Fill in `.env`:
   `https://api.telegram.org/bot<TOKEN>/getUpdates` in a browser and copy
   `result[0].message.chat.id`
 - `OPENCODE_API_KEY` *(optional)* — an [opencode](https://opencode.ai) key
-  (copy it from the Zen console) enables AI key-points mode: each newsletter
-  is condensed to the 5–8 most important stories. The default endpoint and
-  model target the **opencode Go subscription** (`deepseek-v4-flash` at
-  `…/zen/go/v1/chat/completions`); pay-as-you-go Zen users set
-  `OPENCODE_API_URL=https://opencode.ai/zen/v1/chat/completions`. Without a
-  key — or if the AI call fails — the full parsed story list is sent instead,
-  so delivery never depends on the AI. Force the full list with `--no-ai`.
+  (copy it from the Zen console) enables the merged digest: all newsletters
+  are combined into one message, cross-newsletter duplicates removed, the
+  10–15 most significant stories grouped into themed sections. The default
+  endpoint and model target the **opencode Go subscription**
+  (`deepseek-v4-flash` at `…/zen/go/v1/chat/completions`); pay-as-you-go Zen
+  users set `OPENCODE_API_URL=https://opencode.ai/zen/v1/chat/completions`.
+  Without a key — or if the AI call fails — one full parsed story list is
+  sent per newsletter instead, so delivery never depends on the AI. Force
+  that mode with `--no-ai`.
 
 ### 2. Test
 
@@ -50,8 +52,11 @@ uv run python -m tech_news_summarizer --categories ai
 ### 3. Schedule via GitHub Actions
 
 The repo ships a scheduled workflow (`.github/workflows/digest.yml`) that runs
-daily at 01:00 UTC (09:00 SGT) on GitHub's free tier — no machine of yours
-needs to be awake.
+twice daily on GitHub's free tier — no machine of yours needs to be awake:
+
+- **13:00 UTC (21:00 SGT)** — TLDR publishes ~6 AM US Eastern (10–11:00 UTC),
+  so this delivers each issue the evening it comes out.
+- **01:00 UTC (09:00 SGT)** — catch-up for late publishes or missed runs.
 
 Setup (once):
 
@@ -73,10 +78,9 @@ Notes:
   60 days of inactivity.
 - Scheduled runs can start 5–15 minutes late during GitHub peak load — fine
   for a news digest.
-- TLDR publishes around 6 AM US Eastern, so the 01:00 UTC run picks up
-  **yesterday's** issue automatically when today's isn't out yet; the state
-  file makes reruns idempotent (a category is only ever sent once per issue
-  date).
+- The runs are always safe to repeat: each fetch falls back to yesterday's
+  issue when today's isn't out yet, and the state file makes everything
+  idempotent (a newsletter issue is only ever sent once).
 
 ## CLI
 
@@ -92,17 +96,19 @@ uv run python -m tech_news_summarizer [--dry-run] [--date YYYY-MM-DD]
 tldr.tech/{category}/{date}  →  fetcher.py    (parse stories: headline, blurb, link;
                                                sponsors and self-promo filtered,
                                                utm_* tracking params stripped)
-                             →  summarizer.py (optional: condense to 5-8 key
-                                               points via opencode Zen; falls
-                                               back to the full list on failure)
-                             →  telegram.py   (HTML message per newsletter,
-                                               split at 4096 chars)
+                             →  summarizer.py (merge all newsletters into one
+                                               digest: dedup cross-newsletter
+                                               stories, pick top 10-15, group
+                                               into themed sections)
+                             →  telegram.py   (one HTML message, split at
+                                               4096 chars if needed)
                              →  state.py      (data/state.json dedup)
 ```
 
-- TLDR issues are already curated summaries, so the digest reuses TLDR's own
-  blurbs verbatim — no AI required.
-- A failing category never blocks the others.
-- If every attempted category fails, a warning message is sent to Telegram and
-  the run exits non-zero.
+- Fallback chain: AI merge fails → one full parsed digest per newsletter
+  (TLDR's own blurbs verbatim). A failing newsletter never blocks the others.
+- URLs in the AI digest are validated against the parsed input — the model
+  cannot introduce links that weren't in the newsletter.
+- If everything fails, a warning message is sent to Telegram and the run
+  exits non-zero.
 - Run logs are visible in the repo's Actions tab.

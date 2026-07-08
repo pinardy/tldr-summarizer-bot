@@ -1,9 +1,10 @@
-"""Condense a parsed issue into key points via the opencode Zen API.
+"""Merge parsed newsletters into one deduplicated digest via the opencode API.
 
-Takes the already-parsed stories (headline + blurb + url) and asks an LLM to
-pick the 5-8 most significant ones. Returns the same Issue shape so the
-Telegram formatter needs no special handling; callers fall back to the full
-parsed issue when this fails.
+Takes the already-parsed stories (headline + blurb + url) from every fetched
+newsletter and asks an LLM to deduplicate cross-newsletter coverage, pick the
+most significant stories overall, and group them into themed sections. Returns
+the same Issue shape so the Telegram formatter needs no special handling;
+callers fall back to per-newsletter parsed digests when this fails.
 """
 
 import json
@@ -14,19 +15,23 @@ import requests
 from .fetcher import Issue, Section, Story
 
 DEFAULT_MODEL = "deepseek-v4-flash"
-KEY_POINTS_SECTION = "🔑 Key points"
 
 SYSTEM_PROMPT = """\
-You condense a tech newsletter into its key points for a software engineer.
+You merge several TLDR newsletters from the same day into one digest for a \
+software engineer.
 
-The user message contains the newsletter's stories as a JSON list of \
-{"headline", "blurb", "url"} objects. Pick the 5-8 most significant stories. \
-For each, write a short punchy headline and a single-sentence summary of what \
-happened and why it matters. Copy the story's "url" value verbatim from the \
-input — never invent or modify URLs.
+The user message contains stories as a JSON list of \
+{"category", "headline", "blurb", "url"} objects, drawn from multiple \
+newsletters. Big stories often appear in more than one newsletter — treat \
+those as ONE story (keep the best url). Select the 10-15 most significant \
+stories overall and group them into 2-4 themed sections with short section \
+names (e.g. "AI & Models", "Security", "Dev Tools"). For each story write a \
+short punchy headline and a single-sentence summary of what happened and why \
+it matters. Copy the story's "url" value verbatim from the input — never \
+invent or modify URLs.
 
 Respond with ONLY a JSON object, no prose and no markdown fences:
-{"points": [{"headline": "...", "summary": "...", "url": "..."}]}\
+{"sections": [{"name": "...", "points": [{"headline": "...", "summary": "...", "url": "..."}]}]}\
 """
 
 
@@ -34,12 +39,17 @@ class SummarizeError(Exception):
     pass
 
 
-def summarize(api_url: str, api_key: str, model: str, category: str, issue: Issue) -> Issue:
-    stories = [s for section in issue.sections for s in section.stories]
-    payload = json.dumps(
-        [{"headline": s.headline, "blurb": s.blurb, "url": s.url} for s in stories],
-        ensure_ascii=False,
-    )
+def summarize_combined(
+    api_url: str, api_key: str, model: str, issues: list[tuple[str, Issue]]
+) -> Issue:
+    """Condense (category, Issue) pairs into a single themed Issue."""
+    stories = [
+        {"category": category, "headline": s.headline, "blurb": s.blurb, "url": s.url}
+        for category, issue in issues
+        for section in issue.sections
+        for s in section.stories
+    ]
+    payload = json.dumps(stories, ensure_ascii=False)
 
     try:
         resp = requests.post(
@@ -49,30 +59,26 @@ def summarize(api_url: str, api_key: str, model: str, category: str, issue: Issu
                 "model": model,
                 "messages": [
                     {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": f"TLDR {category} newsletter stories:\n{payload}"},
+                    {"role": "user", "content": f"Today's TLDR newsletter stories:\n{payload}"},
                 ],
             },
             timeout=120,
         )
     except requests.RequestException as e:
-        raise SummarizeError(f"opencode Zen request failed: {e}") from e
+        raise SummarizeError(f"opencode request failed: {e}") from e
     if resp.status_code != 200:
-        raise SummarizeError(f"opencode Zen returned {resp.status_code}: {resp.text[:300]}")
+        raise SummarizeError(f"opencode returned {resp.status_code}: {resp.text[:300]}")
 
     try:
         content = resp.json()["choices"][0]["message"]["content"]
     except (ValueError, KeyError, IndexError) as e:
-        raise SummarizeError(f"unexpected opencode Zen response shape: {e}") from e
+        raise SummarizeError(f"unexpected opencode response shape: {e}") from e
 
-    valid_urls = {s.url for s in stories if s.url}
-    points = _parse_points(content, valid_urls)
-    return Issue(
-        tagline=issue.tagline,
-        sections=[Section(name=KEY_POINTS_SECTION, stories=points)],
-    )
+    valid_urls = {s["url"] for s in stories if s["url"]}
+    return Issue(tagline="", sections=_parse_sections(content, valid_urls))
 
 
-def _parse_points(content: str, valid_urls: set[str]) -> list[Story]:
+def _parse_sections(content: str, valid_urls: set[str]) -> list[Section]:
     """Parse the model's JSON, tolerating markdown fences; validate defensively."""
     text = content.strip()
     fenced = re.search(r"```(?:json)?\s*(.*?)\s*```", text, re.DOTALL)
@@ -84,10 +90,25 @@ def _parse_points(content: str, valid_urls: set[str]) -> list[Story]:
     except json.JSONDecodeError as e:
         raise SummarizeError(f"model did not return valid JSON: {e}") from e
 
-    raw_points = data.get("points") if isinstance(data, dict) else None
-    if not isinstance(raw_points, list) or not raw_points:
-        raise SummarizeError("model JSON is missing a non-empty 'points' list")
+    raw_sections = data.get("sections") if isinstance(data, dict) else None
+    if not isinstance(raw_sections, list) or not raw_sections:
+        raise SummarizeError("model JSON is missing a non-empty 'sections' list")
 
+    sections: list[Section] = []
+    for raw in raw_sections:
+        if not isinstance(raw, dict) or not isinstance(raw.get("points"), list):
+            continue
+        name = raw.get("name")
+        stories = _parse_points(raw["points"], valid_urls)
+        if stories:
+            sections.append(Section(name=name if isinstance(name, str) else "", stories=stories))
+
+    if not any(s.stories for s in sections):
+        raise SummarizeError("model JSON contained no usable points")
+    return sections
+
+
+def _parse_points(raw_points: list, valid_urls: set[str]) -> list[Story]:
     points: list[Story] = []
     for p in raw_points:
         if not isinstance(p, dict):
@@ -100,7 +121,4 @@ def _parse_points(content: str, valid_urls: set[str]) -> list[Story]:
         if url not in valid_urls:
             url = None
         points.append(Story(headline=headline, blurb=summary, url=url))
-
-    if not points:
-        raise SummarizeError("model JSON contained no usable points")
     return points

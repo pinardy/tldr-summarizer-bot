@@ -2,8 +2,11 @@ name: Daily TLDR digest
 
 on:
   schedule:
-    # 01:00 UTC = 09:00 SGT. Runs daily; the app skips days with nothing new
-    # (weekends have no issues, and the state file dedups everything else).
+    # TLDR publishes ~6 AM US Eastern (10-11:00 UTC). The 13:00 UTC run
+    # (21:00 SGT) delivers issues the evening they're published; the 01:00 UTC
+    # run (09:00 SGT) catches late publishes and missed runs. The state file
+    # dedups everything, so both runs are always safe.
+    - cron: "0 13 * * *"
     - cron: "0 1 * * *"
   workflow_dispatch:
 
