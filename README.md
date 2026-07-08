@@ -1,147 +1,155 @@
-# tech-news-summarizer
+# tldr-summarizer-bot
 
-Daily digest of [TLDR](https://tldr.tech) newsletters: fetches the latest issues,
-parses out the stories (headline, blurb, link — sponsors filtered out), merges
-them into **one deduplicated, themed digest** via the opencode API, and posts
-it to your Telegram. Runs twice daily on GitHub Actions' free tier.
+A personal Telegram bot for [TLDR](https://tldr.tech) newsletters with two
+surfaces, both running free:
+
+1. **Scheduled digest (push)** — twice a day, GitHub Actions fetches the
+   latest issues of six TLDR newsletters, merges them into one deduplicated,
+   themed digest via the opencode API, and sends it to Telegram.
+2. **Conversation (pull)** — a Cloudflare Worker receives your Telegram
+   messages via webhook in real time: build a digest on demand, ask about a
+   topic, or free-form Q&A grounded in today's stories.
 
 Covered newsletters: **Tech, AI, Web Dev, InfoSec, DevOps, Design**
 (TLDR publishes on weekdays; unpublished dates are skipped automatically).
 
+## Architecture
+
+```
+                    ┌──────────────────────────────────────────────┐
+  cron 13:00 &      │ GitHub Actions (.github/workflows/digest.yml) │
+  01:00 UTC ───────►│  uv run python -m tech_news_summarizer       │
+                    │  └─ commits data/state.json back (dedup)     │
+                    └──────────────┬───────────────────────────────┘
+                                   │ one merged digest/day
+                                   ▼
+   you ◄──────────────────────  Telegram  ◄─────────────────────┐
+    │                                                            │
+    │ /digest, /news <topic>, questions                          │ replies
+    ▼                                                            │
+  Telegram ──POST /webhook──► Cloudflare Worker (worker/) ───────┘
+                               ├─ secret-token + chat-id gating
+                               ├─ KV: story cache, digest cache,
+                               │      update dedup, chat history
+                               └─ opencode API for merging & Q&A
+
+  Both paths share:  tldr.tech/{category}/{date}  and  the opencode Go API
+```
+
+**Data flow (Python push pipeline, `src/tech_news_summarizer/`):**
+
+| Stage | Module | What it does |
+|---|---|---|
+| Fetch | `fetcher.py` | GET `tldr.tech/{category}/{date}`; parse stories (headline, blurb, link); filter sponsors/self-promo; strip `utm_*` params. Falls back to yesterday's issue when today's isn't published yet (TLDR publishes ~6 AM US Eastern). |
+| Merge | `summarizer.py` | One LLM call merges all newsletters: dedups cross-newsletter stories, picks the 10–15 most significant, groups into themed sections. URLs are validated against the parsed input — the model can't invent links. |
+| Send | `telegram.py` | One HTML message via the Bot API, split at 4096 chars if needed. |
+| Dedup | `state.py` | `data/state.json` records the last sent issue date per newsletter; committed back to the repo by the workflow (Actions runners are ephemeral). |
+
+**Fallback chain:** no opencode key, `--no-ai`, or the AI call fails → one
+full parsed digest per newsletter (TLDR's own blurbs verbatim). A failing
+newsletter never blocks the others; if *everything* fails, the bot sends a
+warning message and the run exits non-zero.
+
+**Worker (`worker/src/`):** `index.ts` (webhook auth, update-id dedup,
+routing) → `commands.ts` (`/digest`, `/news`, Q&A with short conversation
+memory) → `tldr.ts` (TypeScript port of the parser + KV story cache) /
+`ai.ts` (opencode client). Slow LLM work runs within the request lifetime —
+Cloudflare cancels `ctx.waitUntil` work after 30s, shorter than a digest
+build — and Telegram's webhook retries are neutralized by the update-id
+dedup. Digests are KV-cached for 6h, so repeat `/digest` replies in seconds.
+
 ## Setup
 
-Requires [uv](https://docs.astral.sh/uv/). Dependencies install automatically on first `uv run`.
+### 1. Telegram bot
 
-### 1. Credentials
+- Message [@BotFather](https://t.me/BotFather), send `/newbot`, copy the
+  token (`TELEGRAM_BOT_TOKEN`).
+- Send any message to your new bot, then open
+  `https://api.telegram.org/bot<TOKEN>/getUpdates` and copy
+  `result[0].message.chat.id` (`TELEGRAM_CHAT_ID`).
 
-```bash
-cp .env.example .env
-```
+### 2. opencode API
 
-Fill in `.env`:
+An [opencode](https://opencode.ai) key (`OPENCODE_API_KEY`, from the Zen
+console) powers the merging and Q&A. Defaults target the **opencode Go
+subscription** (`deepseek-v4-flash` at `…/zen/go/v1/chat/completions`);
+pay-as-you-go Zen users set
+`OPENCODE_API_URL=https://opencode.ai/zen/v1/chat/completions`. The key is
+optional for the push pipeline (fallback: parsed digests) but required for
+the conversational worker's AI features.
 
-- `TELEGRAM_BOT_TOKEN` — message [@BotFather](https://t.me/BotFather) on Telegram,
-  send `/newbot`, follow the prompts, copy the token
-- `TELEGRAM_CHAT_ID` — send any message to your new bot, then open
-  `https://api.telegram.org/bot<TOKEN>/getUpdates` in a browser and copy
-  `result[0].message.chat.id`
-- `OPENCODE_API_KEY` *(optional)* — an [opencode](https://opencode.ai) key
-  (copy it from the Zen console) enables the merged digest: all newsletters
-  are combined into one message, cross-newsletter duplicates removed, the
-  10–15 most significant stories grouped into themed sections. The default
-  endpoint and model target the **opencode Go subscription**
-  (`deepseek-v4-flash` at `…/zen/go/v1/chat/completions`); pay-as-you-go Zen
-  users set `OPENCODE_API_URL=https://opencode.ai/zen/v1/chat/completions`.
-  Without a key — or if the AI call fails — one full parsed story list is
-  sent per newsletter instead, so delivery never depends on the AI. Force
-  that mode with `--no-ai`.
-
-### 2. Test
+### 3. Scheduled digest (GitHub Actions)
 
 ```bash
-# Print digests to the terminal without sending anything
-uv run python -m tech_news_summarizer --dry-run --date 2026-07-07
-
-# Send a single newsletter to Telegram
-uv run python -m tech_news_summarizer --categories ai
-
-# Re-running is a no-op (dedup via data/state.json); force with --ignore-state
-uv run python -m tech_news_summarizer --categories ai
-```
-
-### 3. Schedule via GitHub Actions
-
-The repo ships a scheduled workflow (`.github/workflows/digest.yml`) that runs
-twice daily on GitHub's free tier — no machine of yours needs to be awake:
-
-- **13:00 UTC (21:00 SGT)** — TLDR publishes ~6 AM US Eastern (10–11:00 UTC),
-  so this delivers each issue the evening it comes out.
-- **01:00 UTC (09:00 SGT)** — catch-up for late publishes or missed runs.
-
-Setup (once):
-
-```bash
-gh repo create tldr-summarizer-bot --private --source . --push
+gh repo create <name> --private --source . --push
 gh secret set TELEGRAM_BOT_TOKEN
 gh secret set TELEGRAM_CHAT_ID
-gh secret set OPENCODE_API_KEY        # optional, enables AI key points
+gh secret set OPENCODE_API_KEY
 
 # Fire immediately to test:
 gh workflow run digest.yml && gh run watch
 ```
 
-Notes:
+Schedules (`.github/workflows/digest.yml`): **13:00 UTC** delivers each issue
+the evening it publishes (SGT); **01:00 UTC** is the catch-up. Runs are
+idempotent — the state file guarantees each issue is sent once — and the
+state-commit doubles as repo activity, so GitHub never auto-disables the
+schedule. Scheduled runs may start 5–15 minutes late during GitHub peak load.
 
-- **State persistence**: Actions runners are ephemeral, so the workflow
-  commits `data/state.json` back to the repo after each run. This doubles as
-  repo activity, which stops GitHub from auto-disabling the schedule after
-  60 days of inactivity.
-- Scheduled runs can start 5–15 minutes late during GitHub peak load — fine
-  for a news digest.
-- The runs are always safe to repeat: each fetch falls back to yesterday's
-  issue when today's isn't out yet, and the state file makes everything
-  idempotent (a newsletter issue is only ever sent once).
-
-## Talking to the bot
-
-A Cloudflare Worker (`worker/`, free tier) receives your Telegram messages via
-webhook and replies in real time — separate from the scheduled push pipeline,
-same bot:
-
-- `/digest` — build today's combined digest on demand (cached for 6h)
-- `/news <topic>` — today's stories about a topic
-- any other message — free-form Q&A with today's stories as context
-  (short conversation memory kept for follow-ups)
-
-Only the configured `ALLOWED_CHAT_ID` gets answers; webhook calls are
-authenticated with Telegram's `secret_token` header. Slow work (LLM calls)
-runs within the request lifetime — `ctx.waitUntil` alone is capped at 30s,
-which is shorter than a digest build.
-
-Deploy/update (one-time setup needs `wrangler login`, a KV namespace in
-`wrangler.toml`, and four secrets: `TELEGRAM_BOT_TOKEN`, `OPENCODE_API_KEY`,
-`WEBHOOK_SECRET`, `ALLOWED_CHAT_ID`):
+### 4. Conversational worker (Cloudflare)
 
 ```bash
-cd worker
-npm install
+cd worker && npm install
+npx wrangler login
+npx wrangler kv namespace create STORE     # put the id in wrangler.toml
+npx wrangler secret put TELEGRAM_BOT_TOKEN
+npx wrangler secret put OPENCODE_API_KEY
+npx wrangler secret put WEBHOOK_SECRET     # e.g. openssl rand -hex 24
+npx wrangler secret put ALLOWED_CHAT_ID    # your TELEGRAM_CHAT_ID
 npx wrangler deploy
+
 # register the webhook (once):
 curl -X POST "https://api.telegram.org/bot<TOKEN>/setWebhook" \
   -H "content-type: application/json" \
-  -d '{"url": "https://tldr-bot.<subdomain>.workers.dev/webhook", "secret_token": "<WEBHOOK_SECRET>", "allowed_updates": ["message"]}'
+  -d '{"url": "https://<worker>.workers.dev/webhook", "secret_token": "<WEBHOOK_SECRET>", "allowed_updates": ["message"]}'
 ```
 
-Note: the TLDR parser exists twice (Python for the push pipeline, TypeScript
-in `worker/src/tldr.ts`) — keep them in sync if TLDR's HTML changes.
+Then talk to the bot:
 
-## CLI
+- `/digest` — today's combined digest on demand
+- `/news <topic>` — today's stories about a topic
+- anything else — Q&A grounded in today's stories (with follow-up memory)
 
+Only `ALLOWED_CHAT_ID` gets answers; webhook calls must carry Telegram's
+`secret_token` header.
+
+## Local development
+
+Requires [uv](https://docs.astral.sh/uv/) (Python) and Node (worker).
+
+```bash
+cp .env.example .env          # fill in the values from Setup above
+
+# Push pipeline — print digests without sending anything:
+uv run python -m tech_news_summarizer --dry-run --date 2026-07-07
+
+# CLI flags:
+#   --dry-run             print instead of sending
+#   --date YYYY-MM-DD     specific issue date (default: today→yesterday)
+#   --categories tech,ai  subset of newsletters
+#   --ignore-state        re-send even if already sent
+#   --no-ai               skip AI merging; full parsed digest per newsletter
+
+# Worker — local dev server (put dev values in worker/.dev.vars):
+cd worker && npx wrangler dev
 ```
-uv run python -m tech_news_summarizer [--dry-run] [--date YYYY-MM-DD]
-                                      [--categories tech,ai,...] [--ignore-state]
-                                      [--no-ai]
-```
 
-## How it works
+## Notes
 
-```
-tldr.tech/{category}/{date}  →  fetcher.py    (parse stories: headline, blurb, link;
-                                               sponsors and self-promo filtered,
-                                               utm_* tracking params stripped)
-                             →  summarizer.py (merge all newsletters into one
-                                               digest: dedup cross-newsletter
-                                               stories, pick top 10-15, group
-                                               into themed sections)
-                             →  telegram.py   (one HTML message, split at
-                                               4096 chars if needed)
-                             →  state.py      (data/state.json dedup)
-```
-
-- Fallback chain: AI merge fails → one full parsed digest per newsletter
-  (TLDR's own blurbs verbatim). A failing newsletter never blocks the others.
-- URLs in the AI digest are validated against the parsed input — the model
-  cannot introduce links that weren't in the newsletter.
-- If everything fails, a warning message is sent to Telegram and the run
-  exits non-zero.
-- Run logs are visible in the repo's Actions tab.
+- The TLDR parser exists twice (Python `fetcher.py` for the push pipeline,
+  TypeScript `worker/src/tldr.ts` for the worker) — keep them in sync if
+  TLDR's HTML changes.
+- Secrets live only in `.env` / `worker/.dev.vars` (git-ignored), GitHub
+  Actions secrets, and Cloudflare worker secrets — never in the repo.
+- Push-pipeline logs are in the repo's Actions tab; worker logs via
+  `npx wrangler tail`.
