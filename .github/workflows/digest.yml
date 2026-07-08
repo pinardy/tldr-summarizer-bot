@@ -1,0 +1,44 @@
+name: Daily TLDR digest
+
+on:
+  schedule:
+    # 01:00 UTC = 09:00 SGT. Runs daily; the app skips days with nothing new
+    # (weekends have no issues, and the state file dedups everything else).
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write # to commit data/state.json back
+
+concurrency:
+  group: digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Send digests
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+        run: uv run python -m tech_news_summarizer
+
+      - name: Commit updated state
+        if: always() # partial runs still record what was sent
+        run: |
+          if ! git diff --quiet data/state.json 2>/dev/null || [ -n "$(git status --porcelain data/state.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/state.json
+            git commit -m "chore: update digest state [skip ci]"
+            git push
+          else
+            echo "state unchanged"
+          fi

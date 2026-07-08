@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets and runtime state
+.env
+data/*
+# state.json is committed: GitHub Actions runners are ephemeral, so the
+# workflow persists dedup state by committing it back after each run
+!data/state.json

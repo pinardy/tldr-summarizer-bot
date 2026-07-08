@@ -1,0 +1,21 @@
+[project]
+name = "tech-news-summarizer"
+version = "0.1.0"
+description = "Daily TLDR newsletter digest: fetch, parse, publish to Telegram"
+readme = "README.md"
+authors = [
+    { name = "pinardy", email = "pinardy.yang@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+tech-news-summarizer = "tech_news_summarizer.main:cli"
+
+[build-system]
+requires = ["uv_build>=0.11.27,<0.12.0"]
+build-backend = "uv_build"
