@@ -47,7 +47,7 @@ uv run python -m tech_news_summarizer --categories ai
 uv run python -m tech_news_summarizer --categories ai
 ```
 
-### 3. Schedule via GitHub Actions (primary)
+### 3. Schedule via GitHub Actions
 
 The repo ships a scheduled workflow (`.github/workflows/digest.yml`) that runs
 daily at 01:00 UTC (09:00 SGT) on GitHub's free tier — no machine of yours
@@ -78,17 +78,6 @@ Notes:
   file makes reruns idempotent (a category is only ever sent once per issue
   date).
 
-### Alternative: run locally via launchd (macOS)
-
-```bash
-cp launchd/com.pinardy.tech-news-summarizer.plist ~/Library/LaunchAgents/
-launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.pinardy.tech-news-summarizer.plist
-# remove: launchctl bootout gui/$(id -u)/com.pinardy.tech-news-summarizer
-```
-
-Don't run both schedulers at once — the shared state file lives in two places
-(laptop vs repo), so double sends can occur.
-
 ## CLI
 
 ```
@@ -116,4 +105,4 @@ tldr.tech/{category}/{date}  →  fetcher.py    (parse stories: headline, blurb,
 - A failing category never blocks the others.
 - If every attempted category fails, a warning message is sent to Telegram and
   the run exits non-zero.
-- Logs land in `data/run.log` when run via launchd.
+- Run logs are visible in the repo's Actions tab.
