@@ -15,3 +15,9 @@ data/*
 # state.json is committed: GitHub Actions runners are ephemeral, so the
 # workflow persists dedup state by committing it back after each run
 !data/state.json
+
+# Worker
+worker/node_modules/
+worker/.dev.vars
+worker/.wrangler/
+.wrangler/

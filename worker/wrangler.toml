@@ -1,0 +1,10 @@
+name = "tldr-bot"
+main = "src/index.ts"
+compatibility_date = "2026-06-01"
+
+# Secrets (set via `wrangler secret put`):
+#   TELEGRAM_BOT_TOKEN, OPENCODE_API_KEY, WEBHOOK_SECRET, ALLOWED_CHAT_ID
+
+[[kv_namespaces]]
+binding = "STORE"
+id = "af2cfa8b7ce34afaa8d50ef1ee8990aa"

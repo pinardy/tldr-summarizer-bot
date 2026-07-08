@@ -82,6 +82,39 @@ Notes:
   issue when today's isn't out yet, and the state file makes everything
   idempotent (a newsletter issue is only ever sent once).
 
+## Talking to the bot
+
+A Cloudflare Worker (`worker/`, free tier) receives your Telegram messages via
+webhook and replies in real time — separate from the scheduled push pipeline,
+same bot:
+
+- `/digest` — build today's combined digest on demand (cached for 6h)
+- `/news <topic>` — today's stories about a topic
+- any other message — free-form Q&A with today's stories as context
+  (short conversation memory kept for follow-ups)
+
+Only the configured `ALLOWED_CHAT_ID` gets answers; webhook calls are
+authenticated with Telegram's `secret_token` header. Slow work (LLM calls)
+runs within the request lifetime — `ctx.waitUntil` alone is capped at 30s,
+which is shorter than a digest build.
+
+Deploy/update (one-time setup needs `wrangler login`, a KV namespace in
+`wrangler.toml`, and four secrets: `TELEGRAM_BOT_TOKEN`, `OPENCODE_API_KEY`,
+`WEBHOOK_SECRET`, `ALLOWED_CHAT_ID`):
+
+```bash
+cd worker
+npm install
+npx wrangler deploy
+# register the webhook (once):
+curl -X POST "https://api.telegram.org/bot<TOKEN>/setWebhook" \
+  -H "content-type: application/json" \
+  -d '{"url": "https://tldr-bot.<subdomain>.workers.dev/webhook", "secret_token": "<WEBHOOK_SECRET>", "allowed_updates": ["message"]}'
+```
+
+Note: the TLDR parser exists twice (Python for the push pipeline, TypeScript
+in `worker/src/tldr.ts`) — keep them in sync if TLDR's HTML changes.
+
 ## CLI
 
 ```
