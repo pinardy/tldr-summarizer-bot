@@ -1,0 +1,16 @@
+{
+  "name": "TLDR Digest Archive",
+  "short_name": "TLDR Digest",
+  "description": "Daily key points from the TLDR newsletters, by date.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4efe4",
+  "theme_color": "#e8862e",
+  "icons": [
+    { "src": "favicon.png", "sizes": "64x64", "type": "image/png" },
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "logo.png", "sizes": "560x560", "type": "image/png", "purpose": "any" }
+  ]
+}

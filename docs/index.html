@@ -6,6 +6,9 @@
 <title>TLDR Digest Archive</title>
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#e8862e">
+<meta name="mobile-web-app-capable" content="yes">
 <style>
   :root {
     --paper: #f4efe4;
@@ -186,6 +189,14 @@
   window.addEventListener("hashchange", () => showDate(currentTarget(), dates));
   await showDate(currentTarget(), dates);
 })();
+
+// Register the service worker (PWA: installable + offline archive). Requires
+// an https/localhost origin, so it's a no-op when viewed via file://.
+if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  });
+}
 </script>
 </body>
 </html>
