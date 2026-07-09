@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TLDR Summarizer Bot — Extra! Extra!</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #FBF6EA;
+    --paper-deep: #F3EAD6;
+    --ink: #33241A;
+    --ink-soft: #5C4732;
+    --tan: #8A7358;
+    --orange: #F08A24;
+    --orange-deep: #D9731A;
+    --sky: #A8D8F0;
+    --sky-deep: #4A90C4;
+    --rule: #DCCFB4;
+    --display: "Fredoka", "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
+    --body: Georgia, "Times New Roman", serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+  body {
+    margin: 0;
+    background:
+      radial-gradient(circle at 1px 1px, rgba(74, 144, 196, 0.10) 1.1px, transparent 0) 0 0 / 18px 18px,
+      var(--paper);
+    color: var(--ink);
+    font-family: var(--body);
+    line-height: 1.55;
+  }
+
+  /* ── Masthead ─────────────────────────────────────── */
+  .masthead {
+    border-bottom: 3px double var(--ink);
+    background: var(--paper);
+  }
+  .masthead-inner {
+    max-width: 1020px; margin: 0 auto; padding: 10px 20px;
+    display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+    font-family: var(--display); font-size: 0.78rem; font-weight: 500;
+    letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft);
+  }
+  .masthead-inner .price { color: var(--orange-deep); font-weight: 700; }
+
+  /* ── Hero: the front page ─────────────────────────── */
+  .hero {
+    max-width: 1020px; margin: 0 auto; padding: 48px 20px 40px;
+    display: grid; grid-template-columns: 1fr 300px; gap: 40px; align-items: center;
+  }
+  @media (max-width: 760px) { .hero { grid-template-columns: 1fr; text-align: center; } }
+  .kicker {
+    font-family: var(--display); font-weight: 700; font-size: 0.85rem;
+    letter-spacing: 0.22em; text-transform: uppercase; color: var(--sky-deep);
+    margin: 0 0 10px;
+  }
+  h1 {
+    font-family: var(--display); font-weight: 700;
+    font-size: clamp(2.5rem, 6vw, 4.2rem); line-height: 1.02;
+    margin: 0 0 18px; text-wrap: balance;
+    color: var(--orange);
+    text-shadow: 0.045em 0.045em 0 var(--ink);
+    -webkit-text-stroke: 1.5px var(--ink);
+  }
+  .standfirst {
+    font-size: 1.15rem; color: var(--ink-soft); max-width: 34em;
+    margin: 0 0 26px; font-style: italic;
+  }
+  @media (max-width: 760px) { .standfirst { margin-inline: auto; } }
+  .hero-badge { position: relative; justify-self: center; }
+  .hero-badge img {
+    width: 280px; max-width: 70vw; height: auto; display: block;
+    filter: drop-shadow(6px 8px 0 rgba(51, 36, 26, 0.18));
+    animation: settle 0.7s cubic-bezier(0.2, 1.4, 0.4, 1) both;
+  }
+  @keyframes settle { from { transform: translateY(-14px) rotate(-6deg); opacity: 0; } }
+  .stamp {
+    position: absolute; top: -14px; right: -10px;
+    font-family: var(--display); font-weight: 700; font-size: 0.72rem;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--paper); background: var(--orange-deep);
+    border: 2px solid var(--ink); border-radius: 999px;
+    padding: 6px 12px; transform: rotate(8deg);
+    box-shadow: 2px 3px 0 rgba(51, 36, 26, 0.3);
+  }
+  .cta-row { display: flex; gap: 14px; flex-wrap: wrap; }
+  @media (max-width: 760px) { .cta-row { justify-content: center; } }
+  .btn {
+    font-family: var(--display); font-weight: 600; font-size: 1rem;
+    text-decoration: none; padding: 12px 22px; border-radius: 999px;
+    border: 2.5px solid var(--ink); transition: transform 0.12s ease, box-shadow 0.12s ease;
+    display: inline-block;
+  }
+  .btn:hover { transform: translate(-1px, -2px); }
+  .btn:focus-visible { outline: 3px solid var(--sky-deep); outline-offset: 2px; }
+  .btn-primary { background: var(--orange); color: var(--ink); box-shadow: 3px 4px 0 var(--ink); }
+  .btn-primary:hover { box-shadow: 5px 6px 0 var(--ink); }
+  .btn-ghost { background: var(--paper); color: var(--ink); box-shadow: 3px 4px 0 rgba(51,36,26,0.25); }
+  .btn-ghost:hover { box-shadow: 5px 6px 0 rgba(51,36,26,0.25); }
+
+  /* ── Ticker numbers ───────────────────────────────── */
+  .ticker {
+    border-block: 2px solid var(--ink); background: var(--sky);
+    overflow: hidden;
+  }
+  .ticker-inner {
+    max-width: 1020px; margin: 0 auto; padding: 14px 20px;
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; text-align: center;
+  }
+  @media (max-width: 640px) { .ticker-inner { grid-template-columns: repeat(2, 1fr); row-gap: 18px; } }
+  .tick .n {
+    font-family: var(--display); font-weight: 700; font-size: 1.9rem;
+    color: var(--ink); font-variant-numeric: tabular-nums; line-height: 1.1;
+  }
+  .tick .l {
+    font-family: var(--display); font-size: 0.72rem; font-weight: 500;
+    letter-spacing: 0.16em; text-transform: uppercase; color: #2A5A80;
+  }
+
+  /* ── Sections ─────────────────────────────────────── */
+  section { max-width: 1020px; margin: 0 auto; padding: 56px 20px 8px; }
+  .section-head {
+    display: flex; align-items: center; gap: 16px; margin-bottom: 30px;
+  }
+  .section-head::after { content: ""; flex: 1; border-top: 2px dashed var(--rule); }
+  .section-head h2 {
+    font-family: var(--display); font-weight: 700; font-size: 1.5rem; margin: 0;
+    color: var(--ink);
+  }
+  .section-head .no {
+    font-family: var(--display); font-weight: 700; color: var(--paper);
+    background: var(--sky-deep); border: 2px solid var(--ink);
+    width: 34px; height: 34px; border-radius: 50%;
+    display: grid; place-items: center; font-size: 1rem; flex-shrink: 0;
+  }
+
+  /* ── Comic strip: how it works ────────────────────── */
+  .strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+  @media (max-width: 760px) { .strip { grid-template-columns: 1fr; } }
+  .panel {
+    background: var(--paper); border: 2.5px solid var(--ink); border-radius: 14px;
+    padding: 22px; position: relative;
+    box-shadow: 4px 5px 0 rgba(51, 36, 26, 0.16);
+    transition: transform 0.15s ease;
+  }
+  .panel:hover { transform: rotate(-0.6deg) translateY(-3px); }
+  .panel:nth-child(2):hover { transform: rotate(0.6deg) translateY(-3px); }
+  .panel .glyph { font-size: 2rem; line-height: 1; margin-bottom: 10px; }
+  .panel h3 { font-family: var(--display); font-weight: 600; font-size: 1.12rem; margin: 0 0 8px; }
+  .panel p { margin: 0; font-size: 0.97rem; color: var(--ink-soft); }
+  .panel .time {
+    position: absolute; top: -12px; left: 18px;
+    font-family: var(--display); font-size: 0.68rem; font-weight: 600;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    background: var(--sky); border: 2px solid var(--ink); border-radius: 999px;
+    padding: 3px 10px; color: var(--ink);
+  }
+
+  /* ── Two-column spread: the two surfaces ──────────── */
+  .spread { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+  @media (max-width: 760px) { .spread { grid-template-columns: 1fr; } }
+  .column {
+    background: var(--paper-deep); border: 2.5px solid var(--ink); border-radius: 14px;
+    padding: 26px; box-shadow: 4px 5px 0 rgba(51, 36, 26, 0.16);
+  }
+  .column h3 {
+    font-family: var(--display); font-weight: 700; font-size: 1.3rem; margin: 0 0 4px;
+  }
+  .column .dek { font-style: italic; color: var(--tan); margin: 0 0 16px; font-size: 0.95rem; }
+  .column ul { margin: 0; padding-left: 1.1em; }
+  .column li { margin-bottom: 9px; font-size: 0.97rem; }
+  .column li::marker { color: var(--orange-deep); }
+  .column code {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.85em;
+    background: var(--paper); border: 1px solid var(--rule); border-radius: 5px;
+    padding: 1px 5px;
+  }
+  .flow {
+    font-family: var(--display); font-weight: 500; font-size: 0.8rem;
+    display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 16px;
+  }
+  .flow .node {
+    background: var(--paper); border: 2px solid var(--ink); border-radius: 8px;
+    padding: 4px 10px;
+  }
+  .flow .arrow { color: var(--orange-deep); font-weight: 700; }
+
+  /* ── Classifieds: the fine print ──────────────────── */
+  .classifieds { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  @media (max-width: 600px) { .classifieds { grid-template-columns: 1fr; } }
+  .ad {
+    border: 1.5px solid var(--ink); background: var(--paper); border-radius: 8px;
+    padding: 16px 18px;
+  }
+  .ad h4 {
+    font-family: var(--display); font-weight: 600; font-size: 0.82rem;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--sky-deep);
+    margin: 0 0 6px;
+  }
+  .ad p { margin: 0; font-size: 0.9rem; color: var(--ink-soft); }
+
+  /* ── Banner + footer ──────────────────────────────── */
+  .press-photo { padding-top: 56px; }
+  .press-photo img {
+    width: 100%; height: auto; display: block;
+    border: 2.5px solid var(--ink); border-radius: 14px;
+    box-shadow: 5px 6px 0 rgba(51, 36, 26, 0.16);
+  }
+  .press-photo figcaption {
+    font-family: var(--display); font-size: 0.75rem; font-weight: 500;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--tan);
+    text-align: center; margin-top: 10px;
+  }
+  footer {
+    margin-top: 64px; border-top: 3px double var(--ink); background: var(--paper);
+  }
+  .footer-inner {
+    max-width: 1020px; margin: 0 auto; padding: 26px 20px 34px;
+    display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap;
+  }
+  .footer-inner p { margin: 0; font-size: 0.88rem; color: var(--tan); font-style: italic; }
+  .footer-links { display: flex; gap: 18px; font-family: var(--display); font-weight: 600; font-size: 0.92rem; }
+  .footer-links a { color: var(--ink); text-decoration: none; border-bottom: 2px solid var(--orange); }
+  .footer-links a:hover { color: var(--orange-deep); }
+  .footer-links a:focus-visible { outline: 3px solid var(--sky-deep); outline-offset: 2px; }
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="masthead-inner">
+    <span>The Daily Summary · Est. July 2026</span>
+    <span>Singapore Edition</span>
+    <span class="price">Price: $0 / forever</span>
+  </div>
+</div>
+
+<header class="hero">
+  <div>
+    <p class="kicker">Extra! Extra! Read all about it —</p>
+    <h1>Six newsletters. One digest. Zero dollars.</h1>
+    <p class="standfirst">
+      TLDR Summarizer Bot reads the day's TLDR Tech, AI, Web Dev, InfoSec,
+      DevOps and Design newsletters so you don't have to — merging them into
+      one deduplicated, themed briefing delivered to your Telegram every
+      evening. And if you have a question about the day's news, just ask it.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://pinardy.github.io/tldr-summarizer-bot/">Read the live archive</a>
+      <a class="btn btn-ghost" href="https://github.com/pinardy/tldr-summarizer-bot">Browse the source</a>
+    </div>
+  </div>
+  <div class="hero-badge">
+    <img src="logo.png" alt="TLDR bot badge: a cartoon owl reading a newspaper" width="280" height="280">
+    <span class="stamp">Hot off the press</span>
+  </div>
+</header>
+
+<div class="ticker" role="list" aria-label="Project numbers">
+  <div class="ticker-inner">
+    <div class="tick" role="listitem"><div class="n">6</div><div class="l">newsletters read daily</div></div>
+    <div class="tick" role="listitem"><div class="n">~15</div><div class="l">key points per digest</div></div>
+    <div class="tick" role="listitem"><div class="n">2×</div><div class="l">scheduled runs a day</div></div>
+    <div class="tick" role="listitem"><div class="n">$0</div><div class="l">monthly running cost</div></div>
+  </div>
+</div>
+
+<section>
+  <div class="section-head"><span class="no" aria-hidden="true">1</span><h2>A day in the life of a digest</h2></div>
+  <div class="strip">
+    <div class="panel">
+      <span class="time">21:00 SGT · fetch</span>
+      <div class="glyph" aria-hidden="true">🗞️</div>
+      <h3>The paper round</h3>
+      <p>GitHub Actions wakes as the day's TLDR issues publish, fetches all six
+      from tldr.tech, and parses every story — headline, blurb, link — while
+      filtering out sponsors, self-promo, and tracking parameters.</p>
+    </div>
+    <div class="panel">
+      <span class="time">+30 seconds · merge</span>
+      <div class="glyph" aria-hidden="true">🦉</div>
+      <h3>The editor's desk</h3>
+      <p>One LLM call (opencode's <em>deepseek-v4-flash</em>, covered by a Go
+      subscription) merges ~75 stories into the 10–15 that matter, deduplicates
+      cross-newsletter coverage, and groups them into themed sections. Every
+      link is validated against the source — no hallucinated URLs.</p>
+    </div>
+    <div class="panel">
+      <span class="time">+90 seconds · deliver</span>
+      <div class="glyph" aria-hidden="true">📬</div>
+      <h3>The evening edition</h3>
+      <p>The digest lands in Telegram as one tidy message, gets archived to the
+      public website, and the dedup ledger is committed back to the repo — so
+      no issue is ever delivered twice, even across retries and reruns.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-head"><span class="no" aria-hidden="true">2</span><h2>Two ways to get your news</h2></div>
+  <div class="spread">
+    <div class="column">
+      <h3>📮 The subscription</h3>
+      <p class="dek">Scheduled push — it comes to you</p>
+      <ul>
+        <li>Runs at <strong>21:00</strong> (same-day delivery) and <strong>09:00 SGT</strong> (catch-up) on GitHub Actions' free tier — no machine of yours needs to be awake.</li>
+        <li>Weekends and holidays skip themselves: no issue published, nothing sent.</li>
+        <li>If the AI is ever unavailable, delivery degrades gracefully to full per-newsletter story lists — the digest always arrives.</li>
+        <li>Every digest is archived to a static <strong>GitHub Pages</strong> site, browsable by date.</li>
+      </ul>
+      <div class="flow" aria-label="Push pipeline">
+        <span class="node">cron</span><span class="arrow" aria-hidden="true">→</span>
+        <span class="node">parse</span><span class="arrow" aria-hidden="true">→</span>
+        <span class="node">merge</span><span class="arrow" aria-hidden="true">→</span>
+        <span class="node">Telegram</span><span class="arrow" aria-hidden="true">→</span>
+        <span class="node">archive</span>
+      </div>
+    </div>
+    <div class="column">
+      <h3>💬 The newsroom hotline</h3>
+      <p class="dek">Real-time pull — you ask, it answers</p>
+      <ul>
+        <li>A <strong>Cloudflare Worker</strong> (free tier) receives your Telegram messages by webhook, instantly.</li>
+        <li><code>/digest</code> builds today's briefing on demand — cached, so repeats answer in seconds.</li>
+        <li><code>/news kubernetes</code> or any free-form question gets answered from today's actual stories, with conversation memory for follow-ups.</li>
+        <li>Private by design: secret-token webhook auth, and only one chat ID ever gets an answer.</li>
+      </ul>
+      <div class="flow" aria-label="Pull pipeline">
+        <span class="node">message</span><span class="arrow" aria-hidden="true">→</span>
+        <span class="node">Worker</span><span class="arrow" aria-hidden="true">→</span>
+        <span class="node">KV cache</span><span class="arrow" aria-hidden="true">→</span>
+        <span class="node">answer</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-head"><span class="no" aria-hidden="true">3</span><h2>The fine print (it's all good news)</h2></div>
+  <div class="classifieds">
+    <div class="ad">
+      <h4>Wanted: no servers</h4>
+      <p>The whole system is scheduled compute and edge functions. Nothing to
+      patch, restart, or pay for at 3am.</p>
+    </div>
+    <div class="ad">
+      <h4>Lost &amp; found: state</h4>
+      <p>Actions runners are ephemeral, so the dedup ledger is committed back
+      to git after every run — version-controlled memory.</p>
+    </div>
+    <div class="ad">
+      <h4>For sale: nothing</h4>
+      <p>GitHub Actions free tier, Cloudflare Workers free tier, and an
+      already-paid opencode Go subscription. Marginal cost: zero.</p>
+    </div>
+    <div class="ad">
+      <h4>Situations vacant: none</h4>
+      <p>Failures self-heal: fetch errors skip a newsletter, AI errors fall
+      back to parsed digests, total failure sends a Telegram warning.</p>
+    </div>
+  </div>
+</section>
+
+<section class="press-photo" style="padding-top: 56px;">
+  <figure style="margin: 0;">
+    <img src="banner.jpg" alt="Illustrated newspaper spread announcing the TLDR daily summary bot">
+    <figcaption>Front page of the very first edition · generated, like the summaries, by a machine that read the news</figcaption>
+  </figure>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <p>Set in Fredoka &amp; Georgia · powered by tldr.tech, GitHub Actions, Cloudflare Workers &amp; opencode</p>
+    <nav class="footer-links" aria-label="Project links">
+      <a href="https://pinardy.github.io/tldr-summarizer-bot/">Digest archive</a>
+      <a href="https://github.com/pinardy/tldr-summarizer-bot">GitHub</a>
+      <a href="https://tldr.tech">tldr.tech</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
