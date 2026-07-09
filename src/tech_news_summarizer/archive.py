@@ -78,3 +78,12 @@ def _save(
     )
     with open(archive_dir / "index.json", "w") as f:
         json.dump(dates, f, indent=2)
+
+    # Also emit a script-loadable copy of the index + newest day so the page
+    # renders when opened via file:// (where browsers block fetch()).
+    with open(archive_dir / f"{dates[0]}.json") as f:
+        latest = json.load(f)
+    with open(archive_dir / "data.js", "w") as f:
+        f.write("window.__DIGEST_DATA = ")
+        json.dump({"index": dates, "latest": latest}, f, ensure_ascii=False)
+        f.write(";\n")

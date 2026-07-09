@@ -83,8 +83,11 @@
   sources: <a href="https://tldr.tech">tldr.tech</a>
 </footer>
 
+<script src="data/data.js"></script>
 <script>
 (async function () {
+  // Fallback for file:// viewing, where fetch() of local JSON is blocked.
+  const embedded = window.__DIGEST_DATA || null;
   const datesEl = document.getElementById("dates");
   const contentEl = document.getElementById("content");
   const currentDateEl = document.getElementById("current-date");
@@ -129,9 +132,18 @@
       a.classList.toggle("active", a.dataset.date === date);
     }
     try {
-      const resp = await fetch(`data/${date}.json`);
-      if (!resp.ok) throw new Error(resp.status);
-      const day = await resp.json();
+      let day;
+      try {
+        const resp = await fetch(`data/${date}.json`);
+        if (!resp.ok) throw new Error(resp.status);
+        day = await resp.json();
+      } catch (e) {
+        if (embedded && embedded.latest && embedded.latest.date === date) {
+          day = embedded.latest;
+        } else {
+          throw e;
+        }
+      }
       contentEl.replaceChildren();
       const mode = day.mode === "combined" ? "combined digest" : "per-newsletter digests";
       contentEl.appendChild(
@@ -147,7 +159,9 @@
   try {
     const resp = await fetch("data/index.json");
     dates = await resp.json();
-  } catch {}
+  } catch {
+    if (embedded) dates = embedded.index || [];
+  }
 
   if (!dates.length) {
     contentEl.replaceChildren(el("p", "empty", "No digests archived yet — check back after the next scheduled run."));
