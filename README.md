@@ -101,6 +101,19 @@ Then talk to the bot:
 
 Only `ALLOWED_CHAT_ID` gets answers; webhook calls must carry Telegram's `secret_token` header.
 
+## Archive page
+
+Every sent digest is also written to `docs/data/{date}.json` (committed back
+by the workflow, same as the state file), and `docs/index.html` is a static
+archive page that lists all dates and renders each day's digest — no build
+step, no dependencies.
+
+- **Preview locally:** `python3 -m http.server -d docs` → http://localhost:8000
+- **Publish via GitHub Pages** (requires a public repo on the free plan):
+  Settings → Pages → *Deploy from a branch* → `main`, folder `/docs`.
+  Artifacts accumulate from now regardless, so the archive is already
+  populated whenever you flip the repo public.
+
 ## Local development
 
 Requires [uv](https://docs.astral.sh/uv/) (Python) and Node (worker).

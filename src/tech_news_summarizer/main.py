@@ -5,7 +5,7 @@ import datetime as dt
 import logging
 import sys
 
-from . import fetcher, state, summarizer, telegram
+from . import archive, fetcher, state, summarizer, telegram
 from .config import CATEGORIES, Settings, load_settings
 
 log = logging.getLogger("tech_news_summarizer")
@@ -97,6 +97,10 @@ def _deliver_combined(
         state.mark_sent(run_state, category, date)
     state.save_state(run_state, settings.state_path)
     log.info("combined digest sent to Telegram (%s)", ", ".join(c for c, _, _ in fetched))
+    try:
+        archive.save_combined(digest_date, [c for c, _, _ in fetched], merged)
+    except Exception:
+        log.warning("failed to write archive artifact", exc_info=True)
     return 0
 
 
@@ -107,7 +111,7 @@ def _deliver_per_newsletter(
     fetch_failures: list[str],
     dry_run: bool,
 ) -> int:
-    successes: list[str] = []
+    successes: list[tuple[str, dt.date, fetcher.Issue]] = []
     failures: list[str] = list(fetch_failures)
     for category, date, issue in fetched:
         try:
@@ -121,10 +125,16 @@ def _deliver_per_newsletter(
                 state.mark_sent(run_state, category, date)
                 state.save_state(run_state, settings.state_path)
                 log.info("%s: sent to Telegram", category)
-            successes.append(category)
+            successes.append((category, date, issue))
         except Exception:
             log.exception("%s: failed", category)
             failures.append(category)
+
+    if successes and not dry_run:
+        try:
+            archive.save_per_newsletter(max(d for _, d, _ in successes), successes)
+        except Exception:
+            log.warning("failed to write archive artifact", exc_info=True)
 
     if failures and not successes:
         return _report_total_failure(settings, failures, dry_run)

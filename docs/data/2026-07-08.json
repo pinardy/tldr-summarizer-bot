@@ -1,0 +1,110 @@
+{
+  "date": "2026-07-08",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, Web Dev, InfoSec, DevOps, Design",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "GPT-5.6 Sol Launch",
+              "blurb": "OpenAI launched GPT-5.6 Sol, Terra, and Luna, with Sol as the flagship model, Terra as a balanced budget option, and Luna as a fast cheap model, making frontier AI more accessible across different performance tiers.",
+              "url": "https://x.com/OpenAI/status/2074704958419792299"
+            },
+            {
+              "headline": "Microsoft Replaces OpenAI with Own Models in Office Apps",
+              "blurb": "Microsoft replaced OpenAI and Anthropic models with its own in-house MAI models in Excel and Outlook, signaling a move to control the full enterprise AI stack and reduce dependence on external labs.",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-07/microsoft-replaces-openai-anthropic-with-own-ai-in-some-apps"
+            },
+            {
+              "headline": "China May Restrict Access to Its Most Powerful AI Models",
+              "blurb": "Chinese authorities are considering restricting foreign access to the country's most advanced AI models, which could end the open-source advantage that fueled China's AI rise.",
+              "url": "https://time.com/article/2026/07/07/china-ai-models-alibaba-bytedance/"
+            },
+            {
+              "headline": "DeepSeek Plans to Build Its Own AI Chips",
+              "blurb": "DeepSeek plans to design its own data center inference chips to cut reliance on Huawei and Nvidia, a strategic move to stay competitive amid US export controls.",
+              "url": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/"
+            },
+            {
+              "headline": "Gemma 4 Open‑Weight Multimodal Models Released",
+              "blurb": "Google released Gemma 4, a family of open-weight multimodal models up to 31B parameters with dense and MoE architectures, achieving strong benchmarks under Apache 2.0, giving developers free access to powerful local models.",
+              "url": "https://arxiv.org/html/2607.02770v1"
+            },
+            {
+              "headline": "Claude Cowork Goes Mobile and Web",
+              "blurb": "Anthropic extended Claude Cowork sessions to mobile and web, allowing long-running agent tasks to continue without needing an open laptop, improving agent portability and reliability.",
+              "url": "https://claude.com/blog/cowork-web-mobile/"
+            }
+          ]
+        },
+        {
+          "name": "Security & Threats",
+          "stories": [
+            {
+              "headline": "Januscape: 16‑Year‑Old KVM Bug Enables Cloud VM Escape",
+              "blurb": "The Januscape vulnerability (CVE-2026-53359) is a 16-year-old use-after-free in Linux's KVM hypervisor that lets guest VMs corrupt host kernel memory, threatening multi-tenant clouds if left unpatched.",
+              "url": "https://securityaffairs.com/194868/security/januscape-16-year-old-linux-kvm-bug-enables-cloud-vm-escape-attacks.html"
+            },
+            {
+              "headline": "GitLost: Prompt Injection Leaks Private GitHub Repos",
+              "blurb": "GitLost demonstrated that a crafted GitHub issue can trick GitHub's Agentic Workflow into reading and posting contents from private repos through prompt injection, exposing the risk of autonomous code workflows.",
+              "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/"
+            },
+            {
+              "headline": "Rogue Agent: DialogFlow CX Vulnerability Allows Code Execution",
+              "blurb": "Rogue Agent is a DialogFlow CX flaw that allows anyone with an update permission to execute arbitrary Python across all agents in a project, bypassing VPC Service Controls and exfiltrating chat history.",
+              "url": "https://www.varonis.com/blog/rogue-agent-dialogflow-attack"
+            },
+            {
+              "headline": "Writer AI Flaw Leaks Session Tokens Across Tenants",
+              "blurb": "A session isolation bug in Writer's agent previews let attackers steal session cookies from sandboxed code and hijack other tenants' accounts, highlighting the need for strict isolation in AI agent platforms.",
+              "url": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html"
+            },
+            {
+              "headline": "First AI‑Run Ransomware Attack Uses Agent to Encrypt Databases",
+              "blurb": "The JadePuffer ransomware incident is the first observed AI-run attack: an agent breached a Langflow host, pivoted to MySQL, encrypted thousands of records, and generated its own ransom note – compounding the threat of automated intrusion.",
+              "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/"
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure & Tools",
+          "stories": [
+            {
+              "headline": "Cloudflare Workers Cache Slashes CPU Bills",
+              "blurb": "Cloudflare Workers Cache adds a tiered cache in front of Workers, eliminating CPU charges for cached responses with one line in Wrangler, making server-rendered apps far more cost-effective.",
+              "url": "https://blog.cloudflare.com/workers-cache/"
+            },
+            {
+              "headline": "PgDog: A Postgres Connection Pooler That Handles Session State",
+              "blurb": "PgDog is a new Rust-based Postgres connection pooler that uses a built-in SQL parser to preserve session state, SET commands, and LISTEN/NOTIFY – features other poolers break – without app changes.",
+              "url": "https://pgdog.dev/blog/why-yet-another-connection-pooler"
+            },
+            {
+              "headline": "Cube Sandbox: 60ms Hardware‑Isolated Agent Sandboxes",
+              "blurb": "Cube Sandbox by Tencent launches hardware-isolated environments for AI agents in under 60ms, uses RustVMM and KVM with 5MB overhead, and is compatible with the E2B SDK, offering a fast and cheap sandboxing solution.",
+              "url": "https://github.com/TencentCloud/CubeSandbox"
+            },
+            {
+              "headline": "Free GitHub Security Settings Every Maintainer Should Enable",
+              "blurb": "GitHub Security Lab's Protect Your Project wizard helps maintainers enable six free security settings in minutes, drastically lowering the risk of supply-chain and credential attacks on open source repositories.",
+              "url": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

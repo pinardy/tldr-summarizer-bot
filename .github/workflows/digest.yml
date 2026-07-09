@@ -33,15 +33,15 @@ jobs:
           OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
         run: uv run python -m tech_news_summarizer
 
-      - name: Commit updated state
+      - name: Commit updated state and archive
         if: always() # partial runs still record what was sent
         run: |
-          if ! git diff --quiet data/state.json 2>/dev/null || [ -n "$(git status --porcelain data/state.json)" ]; then
+          if [ -n "$(git status --porcelain data/state.json docs/data)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/state.json
-            git commit -m "chore: update digest state [skip ci]"
+            git add data/state.json docs/data
+            git commit -m "chore: update digest state and archive [skip ci]"
             git push
           else
-            echo "state unchanged"
+            echo "state and archive unchanged"
           fi
