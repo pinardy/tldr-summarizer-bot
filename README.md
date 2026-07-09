@@ -114,6 +114,14 @@ step, no dependencies.
   Artifacts accumulate from now regardless, so the archive is already
   populated whenever you flip the repo public.
 
+The page is also an installable **PWA** (`docs/manifest.webmanifest` +
+`docs/sw.js`): add it to your home screen for one-tap access, and a service
+worker caches the shell for offline reading. Digest data is fetched
+network-first (fresh news always wins; the cache is only an offline
+fallback), so the archive stays current. The service worker needs an
+https/localhost origin, so it's inactive when opening the page via `file://`
+— no web-push (Telegram is the push channel).
+
 ## Local development
 
 Requires [uv](https://docs.astral.sh/uv/) (Python) and Node (worker).
