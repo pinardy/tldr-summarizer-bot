@@ -10,16 +10,24 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 # TLDR newsletter URL slugs (https://tldr.tech/<category>/<YYYY-MM-DD>).
 # Note: Web Dev lives at "dev" — "webdev" is a redirect.
-CATEGORIES = ["tech", "ai", "dev", "infosec", "devops", "design"]
+#
+# Cadence varies per newsletter, so not every slug has an issue every weekday
+# (fetch_issue returns None for unpublished days and the run skips it):
+#   daily (weekdays): tech, ai, it, dev, infosec, design
+#   Mon/Wed/Fri:      devops
+#   Mon & Thu:        data
+CATEGORIES = ["tech", "ai", "it", "dev", "infosec", "devops", "design", "data"]
 
 # Human-readable names for Telegram headers.
 CATEGORY_NAMES = {
     "tech": "Tech",
     "ai": "AI",
+    "it": "IT",
     "dev": "Web Dev",
     "infosec": "InfoSec",
     "devops": "DevOps",
     "design": "Design",
+    "data": "Data",
 }
 
 

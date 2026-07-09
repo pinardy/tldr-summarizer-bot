@@ -9,9 +9,9 @@ A personal Telegram bot for [TLDR](https://tldr.tech) newsletters with two surfa
 1. **Scheduled digest (push)** — twice a day, GitHub Actions fetches the latest issues of six TLDR newsletters, merges them into one deduplicated, themed digest via the opencode API, and sends it to Telegram.
 2. **Conversation (pull)** — a Cloudflare Worker receives your Telegram messages via webhook in real time: build a digest on demand, ask about a topic, or free-form Q&A grounded in today's stories.
 
-Covered newsletters: **Tech, AI, Web Dev, InfoSec, DevOps, Design**
+Covered newsletters: **Tech, AI, IT, Web Dev, InfoSec, DevOps, Design, Data**
 
-*(TLDR publishes on weekdays; unpublished dates are skipped automatically).*
+*(TLDR publishes on weekdays and cadence varies per newsletter — e.g. Data runs Mon & Thu, DevOps Mon/Wed/Fri — so unpublished dates are skipped automatically).*
 
 ## Architecture
 

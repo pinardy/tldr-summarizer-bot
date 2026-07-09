@@ -14,14 +14,18 @@ export interface DayStories {
   categories: string[];
 }
 
-export const CATEGORIES = ["tech", "ai", "dev", "infosec", "devops", "design"];
+// Keep in sync with src/tech_news_summarizer/config.py. Cadence varies, so
+// not every slug publishes daily — fetchIssue returns null for missing days.
+export const CATEGORIES = ["tech", "ai", "it", "dev", "infosec", "devops", "design", "data"];
 export const CATEGORY_NAMES: Record<string, string> = {
   tech: "Tech",
   ai: "AI",
+  it: "IT",
   dev: "Web Dev",
   infosec: "InfoSec",
   devops: "DevOps",
   design: "Design",
+  data: "Data",
 };
 
 const UA =
