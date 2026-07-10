@@ -10,7 +10,7 @@
 //     and offline while still picking up shell changes on the next visit.
 //
 // Bump CACHE_VERSION whenever the shell assets change to evict the old cache.
-const CACHE_VERSION = "tldr-digest-v1";
+const CACHE_VERSION = "tldr-digest-v2";
 
 const SHELL_ASSETS = [
   "./",
@@ -18,6 +18,8 @@ const SHELL_ASSETS = [
   "favicon.png",
   "apple-touch-icon.png",
   "logo.png",
+  "icon-maskable-192.png",
+  "icon-maskable-512.png",
   "banner.jpg",
   "manifest.webmanifest",
   "data/data.js",
