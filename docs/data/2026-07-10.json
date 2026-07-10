@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-10",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "OpenAI releases GPT-5.6 with Sol, Terra, Luna and multi-agent coordination",
+              "blurb": "The three-tier model lineup offers frontier intelligence at lower token costs, with Sol achieving the first ARC-AGI-3 win and introducing an 'ultra' multi-agent setting for complex tasks.",
+              "url": "https://openai.com/index/gpt-5-6/"
+            },
+            {
+              "headline": "Meta launches Muse Spark 1.1 with aggressive API pricing",
+              "blurb": "Meta's new model tier charges 25% of competing API prices for state-of-the-art agentic reasoning and tool use, with a free tier up to a usage limit.",
+              "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+            },
+            {
+              "headline": "Apple explores running 27B-parameter models directly on iPhones",
+              "blurb": "Apple is testing PrismML's technology to run large AI models like Qwen 3.6 locally on iPhone Pro, enabling more on-device Apple Intelligence features with better privacy.",
+              "url": "https://www.macrumors.com/2026/07/09/apple-prismml-larger-on-device-ai-models/"
+            },
+            {
+              "headline": "OpenAI accused of hiding evidence in copyright case, faces possible sanctions",
+              "blurb": "A privacy engineer's revelation that OpenAI misled the court about searching ChatGPT logs could lead to serious penalties in the lawsuit with news organizations.",
+              "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
+            }
+          ]
+        },
+        {
+          "name": "Security & Compliance",
+          "stories": [
+            {
+              "headline": "npm 12 disables install scripts by default to curb supply chain attacks",
+              "blurb": "The new version requires explicit allowlisting for install scripts, git dependencies, and remote URL installs, significantly reducing attack surface for the JavaScript ecosystem.",
+              "url": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html"
+            },
+            {
+              "headline": "Microsoft patches RoguePlanet zero-day in Defender after public dispute",
+              "blurb": "The Malware Protection Engine update fixes a race condition granting SYSTEM privileges, weeks after exploit code was published and following public clashes with researcher Nightmare Eclipse.",
+              "url": "https://www.theregister.com/security/2026/07/09/microsoft-closes-book-on-nightmare-eclipses-rogueplanet-zero-day/5269280"
+            },
+            {
+              "headline": "Discord AI moderation bug wrongfully bans 8,000 users in 24 hours",
+              "blurb": "A glitch in Discord's new AI content model targeted geometric images, causing mass bans and a 40x spike in appeals, highlighting the fragility of automated moderation.",
+              "url": "https://www.programming-helper.com/tech/discord-ai-moderation-glitch-wrongful-bans-8000-users-2026"
+            },
+            {
+              "headline": "Proof-of-concept turns defensive AI agents into remote code execution vectors",
+              "blurb": "Researchers demonstrated that prompt injection in a tampered open-source library can trick Claude Code and Codex into running malicious scripts during security reviews.",
+              "url": "https://ainowinstitute.org/publications/friendly-fire-exploit-brief"
+            }
+          ]
+        },
+        {
+          "name": "Dev Tools & Infrastructure",
+          "stories": [
+            {
+              "headline": "GitHub automates repository ownership at scale across its internal org",
+              "blurb": "GitHub assigned validated owners to every active repository in its primary organization within 45 days, archiving unowned ones and making ownership the foundation for security.",
+              "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/"
+            },
+            {
+              "headline": "PostHog shares pipeline for fast code review of AI-generated code",
+              "blurb": "PostHog built a workflow that delegates review to agents, removing humans as bottleneck while maintaining quality, with human oversight only for critical changes.",
+              "url": "https://newsletter.posthog.com/p/code-review-tips"
+            },
+            {
+              "headline": "Bun rewrites its runtime from Zig to Rust for better ecosystem support",
+              "blurb": "The JavaScript runtime is migrating to Rust for high-level code while keeping Zig for JavaScriptCore bindings, citing safer concurrency and stronger ecosystem.",
+              "url": "https://bun.com/blog/bun-in-rust"
+            },
+            {
+              "headline": "etcd v3.7.0 ships RangeStream, reducing latency and memory for large queries",
+              "blurb": "The new feature streams large results in chunks, improving Kubernetes control plane CPU usage and completing the removal of legacy v2 store dependencies.",
+              "url": "https://kubernetes.io/blog/2026/07/08/announcing-etcd-3.7/"
+            },
+            {
+              "headline": "IBM and Red Hat launch Lightwell products to secure open-source from AI attacks",
+              "blurb": "Lightwell Network and Clearinghouse Premier use AI-driven remediation and backports to deliver validated security fixes for open-source dependencies, keeping fixes upstream.",
+              "url": "https://www.zdnet.com/article/ibm-and-red-hat-have-moved-project-lightwell-from-vision-to-product/"
+            },
+            {
+              "headline": "JetBrains unifies AI-assisted development with a governance suite for enterprises",
+              "blurb": "The new layer centralizes management of multiple AI coding tools within JetBrains IDEs, providing shared context, cost controls, usage visibility, and compliance.",
+              "url": "https://www.infoworld.com/article/4195002/jetbrains-seeks-to-unify-fragmented-ai-based-software-development-with-governance-suite.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
