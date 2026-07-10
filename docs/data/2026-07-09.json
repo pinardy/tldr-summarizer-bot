@@ -2,104 +2,101 @@
   "date": "2026-07-09",
   "mode": "combined",
   "categories": [
-    "tech",
-    "ai",
-    "dev",
-    "infosec",
-    "design"
+    "it",
+    "data"
   ],
   "digests": [
     {
       "title": "TLDR Daily Digest",
-      "tagline": "Tech, AI, Web Dev, InfoSec, Design",
+      "tagline": "IT, Data",
       "sections": [
         {
-          "name": "AI & Models",
+          "name": "AI Agents & Platforms",
           "stories": [
             {
-              "headline": "OpenAI Launches GPT-Live Full-Duplex Voice Model",
-              "blurb": "GPT-Live listens and speaks simultaneously, delegates complex tasks to GPT-5.5, and sustains hour-long conversations – a major step toward natural real-time interaction with AI.",
+              "headline": "Claude Cowork Expands to Mobile and Web",
+              "blurb": "Anthropic's persistent agent thread now works outside the desktop app, letting tasks continue while the laptop is closed—signaling a shift toward async, cloud-based knowledge work agents.",
+              "url": "https://claude.com/blog/cowork-web-mobile"
+            },
+            {
+              "headline": "Slackbot Evolves Into an Agentic Execution Hub",
+              "blurb": "Salesforce transformed Slackbot into a conversational control layer that can pull CRM data, generate charts, and trigger workflows, moving enterprise chat beyond simple queries toward full business process automation.",
+              "url": "https://venturebeat.com/orchestration/slacks-slackbot-can-now-pull-your-crm-data-generate-charts-and-send-docusigns-all-from-a-chat-message/"
+            },
+            {
+              "headline": "GPT-Live Enables Simultaneous Voice Conversations",
+              "blurb": "OpenAI's new voice model allows ChatGPT to listen and speak simultaneously, dramatically improving the natural flow of interruptions, turn-taking, and live translation in voice interactions.",
               "url": "https://openai.com/index/introducing-gpt-live/"
             },
             {
-              "headline": "SpaceXAI Releases Grok 4.5 with Industry-Leading Token Efficiency",
-              "blurb": "Grok 4.5 delivers twice the token efficiency of competing models at $2/M input tokens, positioning it as a cost-effective workhorse for coding, agentic tasks, and knowledge work.",
-              "url": "https://x.ai/news/grok-4-5"
+              "headline": "Google Cloud Hosts Gemini Locally in India",
+              "blurb": "Google brings Gemini Flash and Enterprise onto Indian infrastructure to satisfy strict AI residency requirements for regulated industries, marking a major step in the globalization of sovereign AI compute.",
+              "url": "https://m.economictimes.com/news/company/corporate-trends/google-cloud-plants-its-ai-flag-in-india-gemini-local-hosting-data-sovereignty-what-it-means-for-the-country/articleshow/132257905.cms"
             },
             {
-              "headline": "Cognition's SWE-1.7 Achieves Frontier Intelligence at Reduced Cost",
-              "blurb": "SWE-1.7 reaches frontier-level performance through broad RL pipeline improvements and is available in Devin for web, desktop, and CLI, making advanced AI more accessible.",
-              "url": "https://cognition.com/blog/swe-1-7"
-            },
-            {
-              "headline": "Meta Launches Muse Image Generator with Instagram Integration",
-              "blurb": "Muse Image creates and edits images from prompts, can incorporate public Instagram photos when accounts are @-mentioned, and powers 30 new effects across Meta's apps.",
-              "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram"
+              "headline": "Hugging Face Models Land on Microsoft Foundry",
+              "blurb": "Open-source and custom AI weights can now be deployed on Microsoft's enterprise-grade Foundry Managed Compute, lowering the bar for running HF models in production on Azure.",
+              "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute"
             }
           ]
         },
         {
-          "name": "Security & Privacy",
+          "name": "Security",
           "stories": [
             {
-              "headline": "15-Year-Old GhostLock Linux Kernel Flaw Grants Root and Container Escape",
-              "blurb": "A use-after-free in the kernel's rtmutex handler enables near-arbitrary kernel writes, KASLR bypass, and root access with 97% reliability – patching is urgent, especially in containerized deployments.",
-              "url": "https://gbhackers.com/15-year-old-ghostlock-linux-kernel-vulnerability/"
+              "headline": "AI Makes Security Harder by Accelerating Existing Weaknesses",
+              "blurb": "A structural analysis argues AI doesn't introduce entirely new threats but acts as a force multiplier for engineering chaos, experimentation entitlement, and technical debt in enterprise security.",
+              "url": "https://franklyspeaking.substack.com/p/why-ai-has-made-security-hard"
             },
             {
-              "headline": "GitLost Vulnerability Exploits GitHub's Agentic Workflows to Leak Private Repos",
-              "blurb": "Noma Labs demonstrated an indirect prompt injection attack through public issues that forces GitHub's AI agent to exfiltrate data from private repositories.",
-              "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/"
+              "headline": "78% of Enterprises Report AI-Related Security Incidents",
+              "blurb": "A DigiCert survey reveals most AI security issues stem from unauthorized or misconfigured agents rather than AI-generated code, highlighting a critical governance gap as organizations rush AI adoption.",
+              "url": "https://www.theregister.com/security/2026/07/07/enterprise-ai-still-smarting-from-leaping-before-looking/5267353"
             },
             {
-              "headline": "HalluSquatting Abuses AI Coding Agents to Assemble Botnets",
-              "blurb": "Attackers inject prompts making LLM agents register hallucinated repository names and install reverse shells, enabling large-scale botnet assembly from nine popular AI tools.",
-              "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/"
+              "headline": "AI Supercharges Service Desk Social Engineering Attacks",
+              "blurb": "Attackers exploit AI for personalized, scalable voice and video impersonation during onboarding and password resets, demanding stronger identity verification beyond agent judgment.",
+              "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/"
             },
             {
-              "headline": "Anthropic's GRAM Method Lets Models Delete Dual-Use Knowledge After Training",
-              "blurb": "Gradient-Routed Auxiliary Modules isolate dangerous capabilities in removable compartments, allowing a single model to safely include dual-use knowledge that can be disabled post-deployment.",
-              "url": "https://www.anthropic.com/research/off-switch-dual-use"
-            },
-            {
-              "headline": "GitHub Copilot Refuses Harmful Chats but Generates Dangerous Code in Files",
-              "blurb": "Research shows Copilot can write specific banned answers directly into code files after indirect prompting, bypassing chat-level safety filters and making code review essential.",
-              "url": "https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html"
-            },
-            {
-              "headline": "DuckDuckGo Browser Now Blocks Video Ads, Including YouTube",
-              "blurb": "DuckDuckGo uses uBlock Origin filter lists to detect and block video ads, giving users a built-in privacy-preserving ad blocker across sites.",
-              "url": "https://www.engadget.com/2209932/duckduckgo-browser-can-now-block-video-ads-including-youtubes/"
+              "headline": "PyPI Trusted Publishing Doesn't Mean Safer Packages",
+              "blurb": "Security experts warn that Trusted Publishing only authenticates CI/CD identities, not code quality, meaning malicious actors can still easily upload vulnerable packages through the mechanism.",
+              "url": "https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing"
             }
           ]
         },
         {
-          "name": "Dev Tools & Infrastructure",
+          "name": "Data & AI Infrastructure",
           "stories": [
             {
-              "headline": "TypeScript 7.0 Ships with Up to 12x Faster Builds",
-              "blurb": "Native Go implementation and shared-memory multithreading yield 8–12× speedups on full builds, radically improving developer iteration time.",
-              "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/"
+              "headline": "Iceberg v3's Variant Type Solves the JSON-in-a-String Problem",
+              "blurb": "Apache Iceberg's new Variant type shreds semi-structured payloads into real Parquet columns, enabling high-performance analytics on telemetry and events without rigid schema migrations.",
+              "url": "https://iceberglakehouse.com/posts/iceberg-v3-variant-type-ai-json-payloads/"
             },
             {
-              "headline": "Cloudflare Introduces Meerkat Global Consensus Service",
-              "blurb": "Meerkat uses the QuePaxa algorithm to provide strong consistency and fault tolerance for control-plane state across Cloudflare's data centers, allowing all replicas to write simultaneously.",
-              "url": "https://blog.cloudflare.com/meerkat-introduction/"
+              "headline": "HubSpot Details Its 20-Billion-Vector Retrieval Platform",
+              "blurb": "HubSpot shares the operational playbook for its production vector infrastructure, using Kubernetes operators to automate cluster management across 200+ indexes and 140+ clusters.",
+              "url": "https://product.hubspot.com/blog/building-the-ai-retrieval-infrastructure-behind-20-billion-vectors-at-hubspot"
             },
             {
-              "headline": "Bun Successfully Rewritten in Rust – Faster, Smaller, Safer",
-              "blurb": "An AI-assisted experiment rewrote Bun from Zig to Rust, eliminating use-after-free and memory leaks while producing a runtime that is faster, smaller, and more memory efficient.",
-              "url": "https://bun.com/blog/bun-in-rust"
+              "headline": "DataFusion Runs Billion-Edge Graphs on a Laptop",
+              "blurb": "Apache DataFusion demonstrates it can compute PageRank and connected components on billion-edge graphs using under 10GB of RAM through disk-backed scans and spill-aware execution.",
+              "url": "https://semyonsinchenko.github.io/ssinchenko/post/datafusion-graphs-cc-2/"
             },
             {
-              "headline": "OpenAI Audit Reveals 30% of SWE-Bench Pro Tasks Are Broken",
-              "blurb": "Analysis of SWE-Bench Pro found roughly 30% of public tasks suffer from overly strict tests or underspecified prompts, undermining the benchmark's reliability for coding capability assessment.",
-              "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/"
+              "headline": "Apache Hudi Adds Native Vector Search to the Lakehouse",
+              "blurb": "Hudi integrates HNSW-based vector indexing and hybrid search directly into the lakehouse, allowing teams to run RAG and semantic search on existing tables without a separate vector database.",
+              "url": "https://hudi.apache.org/blog/2026/07/06/bringing-vector-search-to-the-lakehouse-with-apache-hudi/"
             },
             {
-              "headline": "Ownership: Taking End-to-End Responsibility for Engineering Problems",
-              "blurb": "True ownership means driving a problem from identification through solution and verification – a human judgment skill that remains critical even as AI agents automate more tasks.",
-              "url": "https://registerspill.thorstenball.com/p/ownership"
+              "headline": "AI-Ready Data Becomes the Primary Competitive Moat",
+              "blurb": "The bottleneck for enterprise AI is shifting from model access to data quality, making messy, ungoverned data the critical barrier to moving from AI experiments to production factories.",
+              "url": "https://www.nextplatform.com/store/2026/07/08/why-ai-ready-data-is-the-real-advantage/5268409"
+            },
+            {
+              "headline": "Semantic Layers Outrank Agents as the True Bottleneck",
+              "blurb": "A curated semantic layer provides the governed business context that turns AI intent into reliable queries, making the models and definitions within it more critical than the agent framework itself.",
+              "url": "https://narendradevarasetty.com/articles/why-your-semantic-layer-matters"
             }
           ]
         }
