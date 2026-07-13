@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-13",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design",
+    "data"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design, Data",
+      "sections": [
+        {
+          "name": "AI",
+          "stories": [
+            {
+              "headline": "Apple Sues OpenAI for Trade Secret Theft",
+              "blurb": "Apple filed a lawsuit alleging OpenAI stole confidential hardware and design secrets from former employees, potentially straining their AI partnership and setting up a major legal battle.",
+              "url": "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html?unlocked_article_code=1.xVA.ioDl._RZeRJKFIYdf&smid=url-share"
+            },
+            {
+              "headline": "Apple's Hardware Evolution Driven by AI Ambitions",
+              "blurb": "AI investments originally made for the canceled car project now power Macs and servers, with the M-series chips reflecting how deeply AI is reshaping Apple's product design and release schedules.",
+              "url": "https://www.bloomberg.com/news/newsletters/2026-07-12/apple-s-chip-plans-m6-m7-pro-m7-max-m7-ultra-m8-details-touch-macbook-pro?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MzkxMjY1MCwiZXhwIjoxNzg0NTE3NDUwLCJhcnRpY2xlSWQiOiJUSTJFVzFSMjRVOEswMCIsImJjb25uZWN0SWQiOiI2NTc1NjkyN0UwMkM0N0MwQkQ0MDNEQTJGMEUyNzIyMyJ9.wIArJVWB1ST8yeIXgP9B-hXmhsBq_3WnFBf0X5faPNc"
+            },
+            {
+              "headline": "Tencent Eyes Stake in AI Agent Startup Manus",
+              "blurb": "Tencent is negotiating to become the largest shareholder in Manus after Chinese regulators blocked Meta's acquisition, signaling the high value of agentic AI technology and potential integration with WeChat's ecosystem.",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-10/tencent-in-talks-to-become-largest-holder-of-manus-ft-reports-mrectviz?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MzkxMzc0MiwiZXhwIjoxNzg0NTE4NTQyLCJhcnRpY2xlSWQiOiJUSFhVV0tUOTZPU0gwMCIsImJjb25uZWN0SWQiOiI2NTc1NjkyN0UwMkM0N0MwQkQ0MDNEQTJGMEUyNzIyMyJ9.FnGsFX8R8dbD96wacd1QBxBbJLGL_SxNyc5fWH59Y0A"
+            }
+          ]
+        },
+        {
+          "name": "Security",
+          "stories": [
+            {
+              "headline": "Malicious npm Package Steals Crypto Wallet Credentials",
+              "blurb": "A compromised version of the Injective TypeScript SDK on npm was found to exfiltrate mnemonics and private keys, requiring developers to audit dependencies and rotate credentials immediately.",
+              "url": "https://socket.dev/blog/compromised-injective-sdk-npm-package"
+            },
+            {
+              "headline": "New Phishing Attack Abuses Microsoft OAuth Device Code Flow",
+              "blurb": "Attackers chain legitimate open redirects and CAPTCHA pages to trick victims into authorizing a stolen device code on Microsoft's genuine login page, granting long-term access to email, OneDrive, and Teams without triggering MFA alarms.",
+              "url": "https://securelist.com/microsoft-device-code-phishing-attack/120350/"
+            },
+            {
+              "headline": "Progress Software Orders Emergency ShareFile Shutdown",
+              "blurb": "Progress Software instructed all ShareFile customers to immediately take Windows Storage Zone Controllers offline after detecting a credible external threat, with no fix yet available and forensic investigation ongoing.",
+              "url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html"
+            }
+          ]
+        },
+        {
+          "name": "Dev Tools",
+          "stories": [
+            {
+              "headline": "Claude Code Gains In-App Browser for Interactive Web Access",
+              "blurb": "Anthropic's Claude Code now includes a sandboxed browser that reads, clicks, and interacts with websites alongside local dev servers, reducing context-switching for AI-assisted development.",
+              "url": "https://threadreaderapp.com/thread/2075635283211772279.html"
+            },
+            {
+              "headline": "GitHub Enforces Ownership for Every Repository",
+              "blurb": "GitHub resolved ownership ambiguity by introducing first-class repository ownership via custom properties, warning and archiving unowned repos to improve security workflows like secret scanning remediation.",
+              "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/"
+            },
+            {
+              "headline": "Cursor Expands Beyond Code to General Task Automation",
+              "blurb": "The popular AI code editor is developing an agent that handles emails, spreadsheets, and engineering tasks, signaling a move toward a broader virtual assistant role.",
+              "url": "https://threadreaderapp.com/thread/2075311381641916622.html"
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure",
+          "stories": [
+            {
+              "headline": "pgrust: Rust Rewrite of PostgreSQL Reaches Full Compatibility",
+              "blurb": "pgrust now passes all 46,000+ Postgres regression tests, booting from existing data directories and promising up to 50% faster transactional and 300x faster analytical workloads via a thread-per-connection model.",
+              "url": "https://github.com/malisper/pgrust"
+            },
+            {
+              "headline": "Real-World Comparison: Traefik Beats Nginx and Caddy for Kubernetes",
+              "blurb": "A six-week production comparison at a logistics company found that Traefik, despite 11% higher memory use, saved 6 hours per month of operator time over Nginx and Caddy by reducing route configuration time from 23 to 4 minutes.",
+              "url": "https://blog.stackademic.com/nginx-vs-caddy-vs-traefik-in-2026-i-ran-all-three-under-real-production-load-64e412f4062b?source=rss------kubernetes-5&amp%3Butm_source=tldrdevops"
+            },
+            {
+              "headline": "Five Common Causes Behind Thousands of Postgres Outages",
+              "blurb": "Postgres outages often stem from vacuum issues, transaction ID wraparound, connection limits, bad query plans, and JSON storage problems—issues that worsen without dedicated DBA support and are worth proactively monitoring.",
+              "url": "https://malisper.me/the-four-horsemen-behind-thousands-of-postgres-outages/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
