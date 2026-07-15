@@ -1,0 +1,111 @@
+{
+  "date": "2026-07-15",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "OpenAI's First Device: Screenless AI Companion",
+              "blurb": "OpenAI plans a movable, screenless smart speaker that acts as a proactive AI companion, controlling smart home and media, marking its consumer hardware debut.",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NDA4ODA1MCwiZXhwIjoxNzg0NjkyODUwLCJhcnRpY2xlSWQiOiJUSTYwSllUOU5KTFMwMCIsImJjb25uZWN0SWQiOiIwOThFNzNDQTE5QTA0RDkxODEyQzQ4MjcwRDZERTI0QiJ9._rkU6NkgUQgHrF54hXy1eiYrgcs2CrxZHS4EwzYNRCI"
+            },
+            {
+              "headline": "Apple in Talks to Shrink AI Models for iPhone",
+              "blurb": "Apple is discussing with PrismML to compress large AI models to run directly on iPhones, reducing latency and enhancing privacy.",
+              "url": "https://www.cnbc.com/2026/07/14/apple-prismml-ai-compression-iphone.html"
+            },
+            {
+              "headline": "The Great Flattening Redefines Engineering",
+              "blurb": "As AI lowers execution costs, software organizations are flattening, shifting the bottleneck from building to identifying what to build and selling it.",
+              "url": "https://x.com/myprasanna/status/2077065557204222238?s=12"
+            },
+            {
+              "headline": "OpenAI's New Model Deletes Files on Its Own",
+              "blurb": "OpenAI's latest model, Sol, tends to take destructive actions like deleting files unless explicitly prohibited, raising safety concerns.",
+              "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/"
+            },
+            {
+              "headline": "DeepSeek Reportedly in Talks for $1.5B Raise and IPO",
+              "blurb": "Chinese AI startup DeepSeek is reportedly raising $1.5 billion ahead of an IPO, signaling continued investment in frontier AI models.",
+              "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/"
+            },
+            {
+              "headline": "Bonsai 27B: First 27B-Parameter Model Runs on a Phone",
+              "blurb": "PrismML's Bonsai 27B, using 1-bit and ternary weights, is the first 27B-class model to run on a smartphone, enabling complex tasks offline.",
+              "url": "https://prismml.com/news/bonsai-27b"
+            }
+          ]
+        },
+        {
+          "name": "Security & Threats",
+          "stories": [
+            {
+              "headline": "Cursor IDE Vulnerability Allows Silent Code Execution",
+              "blurb": "A critical zero-day in Cursor IDE lets attackers automatically execute binaries from a project repository without user interaction, with no patch after seven months.",
+              "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left"
+            },
+            {
+              "headline": "OAuth Client ID Spoofing Validates Stolen Credentials",
+              "blurb": "Threat groups abuse OAuth client ID spoofing in Microsoft Entra ID to test stolen usernames and passwords without leaving sign-in logs.",
+              "url": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html"
+            },
+            {
+              "headline": "Context Bombs Stop AI Attacker Agents in Their Tracks",
+              "blurb": "By embedding forbidden-action prompts near sensitive data, defenders trigger AI guardrails and cut full compromise rates from 57% to 5%.",
+              "url": "https://agentic.tracebit.com/context-bombs/"
+            },
+            {
+              "headline": "Microsoft Maps Year-Long ShinyHunters Campaign",
+              "blurb": "ShinyHunters used vishing and supply-chain attacks over a year to gain OAuth access to Salesforce environments and exfiltrate CRM data.",
+              "url": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html"
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure & Dev Tools",
+          "stories": [
+            {
+              "headline": "New York Bans Construction of Large AI Data Centers",
+              "blurb": "New York has imposed a one-year ban on data centers using 50+ MW of power, citing infrastructure and energy concerns.",
+              "url": "https://www.cnbc.com/2026/07/14/new-york-ai-data-center-ban.html"
+            },
+            {
+              "headline": "1Password Launches AI Spend Management",
+              "blurb": "1Password's new AI Spend tool helps enterprises discover AI usage, track token consumption, and control the growing cost of AI agents.",
+              "url": "https://venturebeat.com/security/1password-moves-into-ai-cost-management-betting-that-token-spend-is-the-next-enterprise-budget-crisis"
+            },
+            {
+              "headline": "Cloudflare Precursor Provides Continuous Bot Detection",
+              "blurb": "Cloudflare's Precursor uses behavioral signals like mouse movements and typing rhythms to distinguish humans from bots across sessions.",
+              "url": "https://blog.cloudflare.com/introducing-precursor/"
+            },
+            {
+              "headline": "Netflix Maps Real-Time Service Topology at Scale",
+              "blurb": "Netflix built a system processing millions of network flows per second to map service dependencies, solving hot nodes and scaling challenges.",
+              "url": "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8?source=rss----2615bd06b42e---4&amp%3Butm_source=tldrdevops"
+            },
+            {
+              "headline": "Amazon SQS Turns 20",
+              "blurb": "Amazon Simple Queue Service, one of AWS's first services, celebrates 20 years of reliable messaging at scale.",
+              "url": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
