@@ -12,7 +12,9 @@ Or just ask me anything about today's tech news.`;
 
 // Same merging prompt as the Python pipeline (summarizer.py).
 const DIGEST_PROMPT = `You merge several TLDR newsletters from the same day into one digest for a \
-software engineer.
+reader who follows software engineering, AI, security, IT, data, and design \
+news with equal interest — significance is judged within each field, not \
+against the others.
 
 The user message contains stories as a JSON list of \
 {"category", "headline", "blurb", "url"} objects, drawn from multiple \

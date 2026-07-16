@@ -18,7 +18,9 @@ DEFAULT_MODEL = "deepseek-v4-flash"
 
 SYSTEM_PROMPT = """\
 You merge several TLDR newsletters from the same day into one digest for a \
-software engineer.
+reader who follows software engineering, AI, security, IT, data, and design \
+news with equal interest — significance is judged within each field, not \
+against the others.
 
 The user message contains stories as a JSON list of \
 {"category", "headline", "blurb", "url"} objects, drawn from multiple \
