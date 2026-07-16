@@ -9,14 +9,51 @@
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#e8862e">
 <meta name="mobile-web-app-capable" content="yes">
+<script>
+  // Apply the theme before first paint to avoid a flash of the wrong mode.
+  // Stored preference wins; otherwise follow the OS setting.
+  (function () {
+    let stored = null;
+    try { stored = localStorage.getItem("theme"); } catch {}
+    const theme = stored ||
+      (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    document.documentElement.dataset.theme = theme;
+  })();
+</script>
 <style>
   :root {
+    color-scheme: light;
     --paper: #f4efe4;
     --card: #fdfaf2;
     --ink: #2b2118;
     --muted: #7a6a55;
     --accent: #e8862e;
     --rule: #d8cdb8;
+    --blurb: #4a3d2e;
+    --banner-dim: none;
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --paper: #1e1a14;
+    --card: #2a241c;
+    --ink: #ece4d4;
+    --muted: #a4937a;
+    --rule: #453b2d;
+    --blurb: #cfc4b0;
+    --banner-dim: brightness(0.85);
+  }
+  /* No-JS fallback: follow the OS when the early script never ran. */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme]) {
+      color-scheme: dark;
+      --paper: #1e1a14;
+      --card: #2a241c;
+      --ink: #ece4d4;
+      --muted: #a4937a;
+      --rule: #453b2d;
+      --blurb: #cfc4b0;
+      --banner-dim: brightness(0.85);
+    }
   }
   * { box-sizing: border-box; }
   body {
@@ -27,7 +64,15 @@
     line-height: 1.5;
   }
   header { max-width: 900px; margin: 0 auto; padding: 24px 16px 0; text-align: center; }
-  header img { max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--rule); }
+  header img { max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--rule); filter: var(--banner-dim); }
+  #theme-toggle {
+    position: fixed; top: 12px; right: 12px; z-index: 10;
+    width: 40px; height: 40px; font-size: 1.1rem; line-height: 1;
+    background: var(--card); color: var(--ink);
+    border: 1px solid var(--rule); border-radius: 50%;
+    cursor: pointer;
+  }
+  #theme-toggle:hover { border-color: var(--accent); }
   h1 { font-size: 1.6rem; margin: 16px 0 4px; }
   .subtitle { color: var(--muted); font-style: italic; margin: 0 0 20px; }
   .layout {
@@ -58,7 +103,7 @@
   .story a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--accent); }
   .story a:hover { color: var(--accent); }
   .story .headline { font-weight: bold; }
-  .story .blurb { margin: 2px 0 0; color: #4a3d2e; font-size: 0.95rem; }
+  .story .blurb { margin: 2px 0 0; color: var(--blurb); font-size: 0.95rem; }
   .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 16px; }
   .empty { color: var(--muted); font-style: italic; padding: 40px 0; text-align: center; }
   footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding-bottom: 32px; }
@@ -66,6 +111,7 @@
 </style>
 </head>
 <body>
+<button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
 <header>
   <img src="banner.jpg" alt="TLDR digest bot">
   <h1>TLDR Digest Archive</h1>
@@ -188,6 +234,25 @@
   }
   window.addEventListener("hashchange", () => showDate(currentTarget(), dates));
   await showDate(currentTarget(), dates);
+})();
+
+// Dark/light toggle: persists the choice and keeps the button icon and the
+// browser-chrome color (theme-color meta) in sync with the active theme.
+(function () {
+  const btn = document.getElementById("theme-toggle");
+  const meta = document.querySelector('meta[name="theme-color"]');
+  function apply(theme) {
+    document.documentElement.dataset.theme = theme;
+    btn.textContent = theme === "dark" ? "☀️" : "🌙";
+    btn.setAttribute("aria-pressed", theme === "dark");
+    if (meta) meta.content = theme === "dark" ? "#1e1a14" : "#e8862e";
+  }
+  apply(document.documentElement.dataset.theme || "light");
+  btn.addEventListener("click", () => {
+    const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+    try { localStorage.setItem("theme", next); } catch {}
+    apply(next);
+  });
 })();
 
 // Register the service worker (PWA: installable + offline archive). Requires
