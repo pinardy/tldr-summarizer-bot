@@ -116,11 +116,15 @@ step, no dependencies.
 
 The page is also an installable **PWA** (`docs/manifest.webmanifest` +
 `docs/sw.js`): add it to your home screen for one-tap access, and a service
-worker caches the shell for offline reading. Digest data is fetched
-network-first (fresh news always wins; the cache is only an offline
-fallback), so the archive stays current. The service worker needs an
-https/localhost origin, so it's inactive when opening the page via `file://`
-— no web-push (Telegram is the push channel).
+worker keeps the news readable on a poor or absent connection. The shell is
+cached for instant/offline loads; digest data is fetched **network-first with
+a short timeout** — fresh news wins when the network is healthy, but a slow
+connection falls back to the cached copy instead of hanging (the network
+response still refreshes the cache when it lands). On activation the worker
+also **pre-caches the most recent days** so recent digests are available
+offline even for days you never opened while online. The service worker needs
+an https/localhost origin, so it's inactive when opening the page via
+`file://` — no web-push (Telegram is the push channel).
 
 ## Local development
 
