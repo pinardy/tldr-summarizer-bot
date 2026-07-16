@@ -79,7 +79,12 @@
     max-width: 900px; margin: 0 auto; padding: 0 16px 48px;
     display: grid; grid-template-columns: 170px 1fr; gap: 24px;
   }
-  @media (max-width: 640px) { .layout { grid-template-columns: 1fr; } }
+  /* Mobile: single column with the news first — dates move below the digest. */
+  @media (max-width: 640px) {
+    .layout { grid-template-columns: 1fr; }
+    .layout nav { order: 2; }
+    .layout main { order: 1; }
+  }
   nav h2, main h2 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); border-bottom: 2px solid var(--ink); padding-bottom: 4px; }
   nav ul { list-style: none; padding: 0; margin: 0; max-height: 70vh; overflow-y: auto; }
   nav a {
