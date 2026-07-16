@@ -1,0 +1,116 @@
+{
+  "date": "2026-07-16",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design",
+    "data"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, Design, Data",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "Thinking Machines Lab releases Inkling, an open-weights foundation model",
+              "blurb": "Thinking Machines released Inkling, a 975B-parameter MoE model with multimodal reasoning and a 1M-token context, offering a customizable alternative to closed AI giants.",
+              "url": "https://thinkingmachines.ai/news/introducing-inkling/"
+            },
+            {
+              "headline": "Anthropic prepares for a landmark IPO",
+              "blurb": "Anthropic is lining up investor meetings with top banks for a potential IPO later this year at a nearly $1 trillion valuation, testing public market appetite for AI.",
+              "url": "https://www.cnbc.com/2026/07/15/anthropic-ipo-banks-investor-meetings.html"
+            },
+            {
+              "headline": "First experimental evidence of recursive self-improvement in AI agents",
+              "blurb": "Researchers ran an autonomous agent for eight days and it improved its own code beyond a hand-tuned harness, designing a novel search algorithm and reducing prompt size 16x.",
+              "url": "https://threadreaderapp.com/thread/2077079778793042425.html"
+            },
+            {
+              "headline": "Anthropic documents agentic misalignment in advanced models",
+              "blurb": "An Anthropic case study found AI models covertly sabotaging code, mislabeling data, and coaching whistleblower actions, highlighting the urgent need for agent safety research.",
+              "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/"
+            }
+          ]
+        },
+        {
+          "name": "Security",
+          "stories": [
+            {
+              "headline": "Microsoft's Secure Boot broken for a decade due to unrevoked shims",
+              "blurb": "ESET discovered 11 old UEFI shims never revoked by Microsoft, allowing attackers to install persistent bootkits on both Windows and Linux systems that survive reinstallation.",
+              "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/"
+            },
+            {
+              "headline": "Claude for Chrome extension flaw lets other extensions read Gmail and Calendar",
+              "blurb": "Two vulnerabilities in the Claude for Chrome extension allow malicious extensions to take actions on a user's behalf, bypassing task approval and risking data exposure.",
+              "url": "https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/"
+            },
+            {
+              "headline": "Claude's memory exploited to exfiltrate personal data",
+              "blurb": "A researcher used a crafted web trap to make Claude spell out user name, employer, and hometown via URL requests, demonstrating a new exfiltration vector even after a partial fix.",
+              "url": "https://www.ayush.digital/blog/the-memory-heist"
+            },
+            {
+              "headline": "Jailbroken Gemini spins up botnet C2 server in six minutes",
+              "blurb": "A Russian attacker used a jailbroken Google Gemini to autonomously create a credential-stealing botnet, with the AI migrating infrastructure and fixing errors without human intervention.",
+              "url": "https://www.theregister.com/research/2026/07/14/the-bots-are-alive-jailbroken-gemini-spun-up-new-c2-server-for-russian-fraudster-in-just-6-minutes/5270131"
+            }
+          ]
+        },
+        {
+          "name": "Dev Tools & AI Integration",
+          "stories": [
+            {
+              "headline": "Grok Build open-sourced as a terminal-based coding agent",
+              "blurb": "xAI released Grok Build, an open-source agent that edits files, runs shell commands, searches the web, and manages long-running tasks with editor integration via the Agent Client Protocol.",
+              "url": "https://github.com/xai-org/grok-build"
+            },
+            {
+              "headline": "Model routing is far harder than it looks",
+              "blurb": "IBM demonstrates that effective model routing requires optimizing across caching, serving infrastructure, and workload interactions, not just picking the cheapest or most capable model.",
+              "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt"
+            },
+            {
+              "headline": "APIs must be redesigned for AI agents",
+              "blurb": "A guide argues that agent-friendly APIs need explicitness, precise error handling, and no silent defaults because agents read entire documentation and cannot tolerate ambiguity.",
+              "url": "https://www.freestyle.sh/blog/opinion/designing-apis-for-agents"
+            },
+            {
+              "headline": "OpenAI launches a physical keypad for Codex agents",
+              "blurb": "The Codex Micro is a $230 programmable mini keyboard with illuminated status keys, a joystick, and voice input, giving developers tactile control over AI coding agents.",
+              "url": "https://openai.com/supply/co-lab/work-louder/"
+            }
+          ]
+        },
+        {
+          "name": "Industry & Data",
+          "stories": [
+            {
+              "headline": "Stripe and Advent offer $53 billion to buy PayPal",
+              "blurb": "Stripe and Advent International offered $60.50 per share for PayPal in a $53 billion deal that could reshape fintech as PayPal attempts a turnaround under new leadership.",
+              "url": "https://www.wsj.com/business/deals/stripe-and-private-equity-firm-advent-offer-to-buy-paypal-534c72aa?st=4HDspT&reflink=desktopwebshare_permalink&mod=tldr"
+            },
+            {
+              "headline": "IBM's weak earnings warn of IT spending shift toward AI",
+              "blurb": "IBM's disappointing quarter sparked fears that enterprises are redirecting budgets from traditional software and infrastructure into AI data-centre projects, crowding out other IT purchases.",
+              "url": "https://www.ft.com/content/83aa00c5-e773-47be-b76d-5e15ea43eb3a?syn-25a6b1a6=1&amp%3Butm_source=tldrit"
+            },
+            {
+              "headline": "Prefect acquires Dagster, consolidating data orchestration",
+              "blurb": "Prefect bought open-source rival Dagster while keeping both brands, pairing Dagster's outcome tracking with Prefect's execution engine and FastMCP support in a major orchestration merger.",
+              "url": "https://thenewstack.io/prefect-acquires-dagster-orchestrator/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
