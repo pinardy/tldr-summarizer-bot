@@ -17,7 +17,7 @@
 //
 // Bump CACHE_VERSION whenever the shell assets change to evict the old cache
 // (also re-runs activate, which re-warms the digest cache).
-const CACHE_VERSION = "tldr-digest-v3";
+const CACHE_VERSION = "tldr-digest-v4";
 
 // How long to wait for the network before falling back to cached digest data.
 const NET_TIMEOUT_MS = 3500;
