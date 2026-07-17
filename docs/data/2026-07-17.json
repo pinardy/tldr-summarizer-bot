@@ -1,0 +1,111 @@
+{
+  "date": "2026-07-17",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design",
+      "sections": [
+        {
+          "name": "AI",
+          "stories": [
+            {
+              "headline": "Google Gemini 3.5 Pro Delayed as Coding Performance Falls Short",
+              "blurb": "Google's next-gen AI model is months behind schedule, particularly in coding, frustrating teams and raising fears of losing ground to competitors.",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NDI2OTE3MiwiZXhwIjoxNzg0ODczOTcyLCJhcnRpY2xlSWQiOiJUSUE1MDNLR1pBSVQwMCIsImJjb25uZWN0SWQiOiIwOThFNzNDQTE5QTA0RDkxODEyQzQ4MjcwRDZERTI0QiJ9.O0SviXMAGu0iKNg_uO7uhvm9WNFIOkTzDWQqg889I1o"
+            },
+            {
+              "headline": "Kimi K3: 2.8 Trillion Parameter Open Model Released",
+              "blurb": "Moonshot launched a multimodal model with 1M context window and plans to release open weights on July 27, positioning it as a major open-source contender.",
+              "url": "https://www.kimi.com/blog/kimi-k3"
+            },
+            {
+              "headline": "OpenAI Trains GPT‑Red to Automatically Audit and Harden Models Against Attacks",
+              "blurb": "GPT‑Red runs automated prompt injections against internal models and live agents, then uses those attacks to make GPT‑5.x more robust without hurting capabilities.",
+              "url": "https://openai.com/index/unlocking-self-improvement-gpt-red/"
+            },
+            {
+              "headline": "Schema Harness Helps Frontier Models Score 99% on ARC‑AGI‑3 Benchmark",
+              "blurb": "By treating each game environment as an executable program to model and test, Schema enables agents to achieve near-perfect accuracy on the challenging abstraction and reasoning corpus.",
+              "url": "https://x.com/havenfeng/status/2077770348876247502?s=12"
+            }
+          ]
+        },
+        {
+          "name": "Security",
+          "stories": [
+            {
+              "headline": "CISA Orders Immediate Patching of Three Actively Exploited SharePoint Vulnerabilities",
+              "blurb": "The agency warns that on-premises SharePoint servers are under attack and that patching alone may not fully remove attacker persistence.",
+              "url": "https://www.computerworld.com/article/4197818/cisa-urges-immediate-sharepoint-hardening-as-exploits-mount-2.html"
+            },
+            {
+              "headline": "Millions of Shark Robot Vacuums Exposed to Remote Control and Surveillance",
+              "blurb": "Misconfigured AWS IoT Core policies allow attackers to take over devices, steal Wi‑Fi passwords and house maps, and watch live camera feeds; no patch after months.",
+              "url": "https://tokay0.com/posts/millions-of-shark-vacuums-vulnerable-to-rce.html"
+            },
+            {
+              "headline": "TuxBot v3 IoT Botnet Uses LLM-Assisted Development to Evade Defenses",
+              "blurb": "Unit 42 details a botnet with seven persistence mechanisms, encrypted peer-to-peer fallbacks, and AI‑generated exploits, linked to the Keksec ecosystem.",
+              "url": "https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/"
+            },
+            {
+              "headline": "OAuth Client ID Spoofing Enables Stealthy Account Enumeration in Microsoft Entra ID",
+              "blurb": "Attackers use spoofed client IDs to trick Azure AD into revealing valid usernames and password validity through differential error codes without generating sign-in logs.",
+              "url": "https://www.proofpoint.com/us/blog/threat-insight/oauth-client-id-spoofing-why-fake-client-ids-are-gaining-traction-stealthy"
+            }
+          ]
+        },
+        {
+          "name": "Engineering",
+          "stories": [
+            {
+              "headline": "Bun Completes 11‑Day Rewrite from Zig to Rust Using 64 AI Agents",
+              "blurb": "The $165,000 migration of 535,000 lines of code with Claude Fable demonstrates AI is now cost‑effective for major codebase migrations when projects are well‑engineered.",
+              "url": "https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-buns-rapid-rust-rewrite-with-ai/"
+            },
+            {
+              "headline": "Slack’s Shipyard Brings Immutable Deployments and Progressive Rollouts to EC2",
+              "blurb": "The platform replaces long-lived patched instances with hardened golden images, bringing modern container‑like practices to legacy EC2 workloads.",
+              "url": "https://slack.engineering/shipyard-how-we-built-slacks-next-generation-ec2-platform/"
+            },
+            {
+              "headline": "Turso Builds a Modern Postgres‑Compatible Database in Rust Called Limbo",
+              "blurb": "Limbo aims to revamp PostgreSQL’s architecture with async I/O, modular storage, and a simpler codebase for easier extensibility and cloud‑native deployment.",
+              "url": "https://turso.tech/blog/a-new-modern-version-of-postgres-in-rust"
+            }
+          ]
+        },
+        {
+          "name": "Tech & Design",
+          "stories": [
+            {
+              "headline": "Double Neural Bypass with AI Restores Hand Movement and Touch in Paralyzed Man",
+              "blurb": "Researchers combined a brain-computer interface, AI, and spinal stimulation to produce long-lasting recovery in a patient paralysed from the chest down.",
+              "url": "https://thenextweb.com/news/feinstein-double-neural-bypass-bci-paralysis-nature-medicine"
+            },
+            {
+              "headline": "iPhone 18 Pro Leaks Point to a Larger, Heavier Design with 2nm Chip and Variable Aperture",
+              "blurb": "Rumors suggest a refined Dynamic Island, faster A20 Pro, variable‑aperture main camera, larger battery, and a likely price increase to $1,199–$1,299.",
+              "url": "https://www.creativebloq.com/design/product-design/iphone-18-pro-leaks-point-to-a-bigger-better-and-heavier-smartphone-from-apple"
+            },
+            {
+              "headline": "Facebook’s Design Drift from Chronological Feed to Algorithmic Engagement Erodes Trust",
+              "blurb": "The gradual shift from user‑controlled to engagement-optimized feed, combined with feature fragmentation, shows how products can regress through small, reasonable decisions.",
+              "url": "https://webdesignerdepot.com/facebooks-design-didnt-evolve-it-regressed/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
