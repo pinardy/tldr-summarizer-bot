@@ -86,7 +86,14 @@
     .layout main { order: 1; }
   }
   nav h2, main h2 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); border-bottom: 2px solid var(--ink); padding-bottom: 4px; }
-  nav ul { list-style: none; padding: 0; margin: 0; max-height: 70vh; overflow-y: auto; }
+  nav ul { list-style: none; padding: 0; margin: 0; }
+  #dates { max-height: 70vh; overflow-y: auto; }
+  nav summary {
+    cursor: pointer; padding: 6px 8px; font-weight: bold;
+    font-variant-numeric: tabular-nums; user-select: none;
+  }
+  nav summary:hover { background: var(--card); }
+  nav details ul { padding-left: 10px; }
   nav a {
     display: block; padding: 6px 8px; color: var(--ink); text-decoration: none;
     border-left: 3px solid transparent; font-variant-numeric: tabular-nums;
@@ -185,7 +192,12 @@
     currentDateEl.textContent = date;
     contentEl.replaceChildren(el("p", "empty", "Loading…"));
     for (const a of datesEl.querySelectorAll("a")) {
-      a.classList.toggle("active", a.dataset.date === date);
+      const active = a.dataset.date === date;
+      a.classList.toggle("active", active);
+      if (active) {
+        const group = a.closest("details");
+        if (group) group.open = true;
+      }
     }
     try {
       let day;
@@ -224,12 +236,32 @@
     return;
   }
 
+  // Group dates by year-month; keep the current month expanded, collapse the rest.
+  const now = new Date();
+  const currentMonth = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}`;
+  const monthFmt = new Intl.DateTimeFormat("en", { month: "long", year: "numeric" });
+  const groups = new Map();
   for (const date of dates) {
+    const month = date.slice(0, 7);
+    if (!groups.has(month)) groups.set(month, []);
+    groups.get(month).push(date);
+  }
+  for (const [month, monthDates] of groups) {
+    const details = document.createElement("details");
+    details.open = month === currentMonth;
+    details.appendChild(el("summary", null, monthFmt.format(new Date(`${month}-01T00:00:00`))));
+    const ul = document.createElement("ul");
+    for (const date of monthDates) {
+      const li = document.createElement("li");
+      const a = el("a", null, date);
+      a.href = `#${date}`;
+      a.dataset.date = date;
+      li.appendChild(a);
+      ul.appendChild(li);
+    }
+    details.appendChild(ul);
     const li = document.createElement("li");
-    const a = el("a", null, date);
-    a.href = `#${date}`;
-    a.dataset.date = date;
-    li.appendChild(a);
+    li.appendChild(details);
     datesEl.appendChild(li);
   }
 
