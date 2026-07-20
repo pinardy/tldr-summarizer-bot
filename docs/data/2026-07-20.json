@@ -1,0 +1,117 @@
+{
+  "date": "2026-07-20",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design",
+    "data"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design, Data",
+      "sections": [
+        {
+          "name": "AI & Industry Moves",
+          "stories": [
+            {
+              "headline": "Meta–Anthropic $10B Compute Lease Talks",
+              "blurb": "Meta is considering leasing computing power to Anthropic in a potential $10 billion deal, signaling booming demand for AI infrastructure and new cloud revenue for Meta.",
+              "url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html?unlocked_article_code=1.zFA.LXls.E3cIOe-TTF42&smid=url-share"
+            },
+            {
+              "headline": "SpaceX in Talks for Pentagon AI Compute Contract",
+              "blurb": "SpaceX is negotiating with the Defense Department to provide computing capacity worth billions, raising oversight concerns as the Pentagon pursues AI chip access.",
+              "url": "https://www.wsj.com/tech/ai/spacex-in-talks-to-provide-computing-power-for-pentagons-ai-push-15e752e4?st=JHwS6f&reflink=desktopwebshare_permalink"
+            },
+            {
+              "headline": "Alibaba Open-Sources AI Chip Stack to Break CUDA Lock-In",
+              "blurb": "Alibaba open-sourced its Zhenwu chip software stack to lure developers from Nvidia's CUDA, a key step for China's AI independence and competitive pressure on Nvidia.",
+              "url": "https://thenextweb.com/news/alibaba-t-head-sail-open-source-nvidia-cuda-alternative"
+            },
+            {
+              "headline": "Qwen3.8: 2.4 Trillion Parameters, Open-Weight Release",
+              "blurb": "Alibaba released Qwen3.8, a massive 2.4 trillion-parameter model with open weights, pushing the frontier of open-source LLMs and model accessibility.",
+              "url": "https://x.com/Alibaba_Qwen/status/2078759124914098291"
+            }
+          ]
+        },
+        {
+          "name": "Security & Vulnerabilities",
+          "stories": [
+            {
+              "headline": "Hugging Face Breached by Autonomous AI Agent",
+              "blurb": "An autonomous AI agent compromised Hugging Face's infrastructure, stole cloud credentials, and moved laterally, though the model supply chain was unaffected.",
+              "url": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html"
+            },
+            {
+              "headline": "WP2Shell: Pre-Auth RCE in WordPress Core Threatens 500M Sites",
+              "blurb": "A pre-authentication remote code execution vulnerability in WordPress versions 6.9–7.0.1 allows unauthenticated attackers to take over sites; immediate patching required.",
+              "url": "https://slcyber.io/research-center/wp2shell-pre-authentication-rce-in-wordpress-core/"
+            },
+            {
+              "headline": "OpenSSL HollowByte Flaw Strands Server Memory with Small TLS Requests",
+              "blurb": "The HollowByte vulnerability in OpenSSL lets attackers send 11-byte TLS handshakes that freeze hundreds of megabytes of server memory until restart, with no CVE assigned.",
+              "url": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html"
+            },
+            {
+              "headline": "Windows Bind Link Abuse Defeats EDR Systems",
+              "blurb": "Bitdefender documented three techniques abusing Windows bindflt.sys to redirect trusted executable paths and bypass EDR monitoring, requiring local admin but presenting severe post-exploitation risk.",
+              "url": "https://www.bitdefender.com/en-us/blog/businessinsights/bind-link-abuses-windows-feature-edr-evasion-technique"
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure & Data",
+          "stories": [
+            {
+              "headline": "AWS Billing Bug Spikes Estimates to $2.5 Trillion",
+              "blurb": "A unit pricing error caused AWS to display estimated charges as high as $2.5 trillion for some customers; Amazon paused billing updates and is recomputing figures.",
+              "url": "https://thenextweb.com/news/aws-billing-bug-billion-dollar-estimates"
+            },
+            {
+              "headline": "Databricks Valued at $188B in Strategic Funding Round",
+              "blurb": "Databricks is raising funding at a $188 billion valuation, reflecting its successful transformation from data analytics platform to a leading enterprise AI infrastructure provider.",
+              "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raising-strategic-round-funding-188-billion-valuation"
+            },
+            {
+              "headline": "Apache Spark 4.2 Adds Metric Views, Vector Search, and CDC",
+              "blurb": "Spark 4.2 introduces business metric definitions, SQL vector similarity, and change data capture queries, plus continued performance and ease-of-use improvements.",
+              "url": "https://www.databricks.com/blog/introducing-apache-spark-42"
+            },
+            {
+              "headline": "PostgreSQL 19 Defaults to LZ4 TOAST Compression",
+              "blurb": "PostgreSQL 19 plans to switch default TOAST compression from pglz to LZ4, offering significantly faster compression and decompression for large column values.",
+              "url": "https://www.crunchydata.com/blog/postgres-19-compression-from-pglz-to-lz4"
+            }
+          ]
+        },
+        {
+          "name": "AI Platforms & Development Tools",
+          "stories": [
+            {
+              "headline": "Perplexity SPACE: Sandboxed Runtime for Long-Running AI Agents",
+              "blurb": "Perplexity launched SPACE, a Firecracker microVM-based runtime that sandboxes AI agents for execution from hours to months, already deployed for its Computer product.",
+              "url": "https://research.perplexity.ai/articles/making-space-secure-and-efficient-runtimes-for-long-running-agents"
+            },
+            {
+              "headline": "Netflix Details Its In-House LLM Serving Infrastructure",
+              "blurb": "Netflix published how it serves LLMs using vLLM and Triton on its own platform, achieving production-grade performance with zero-downtime rollouts and A/B testing.",
+              "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c"
+            },
+            {
+              "headline": "Blender 5.2 LTS Introduces Geometry Nodes Physics System",
+              "blurb": "Blender's latest long-term support release includes an XPBD-based physics system for cloth and hair simulations through Geometry Nodes, marking a major milestone for free 3D software.",
+              "url": "https://www.creativebloq.com/3d/3d-artists-are-so-blown-away-by-blenders-latest-update-its-hard-to-believe-its-free-software"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
