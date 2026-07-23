@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-23",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design",
+    "data"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, Design, Data",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "OpenAI Launches Presence for Enterprise Voice Agents",
+              "blurb": "OpenAI released Presence, an enterprise platform for deploying and managing voice AI agents with company-defined policies and oversight, now in limited general availability.",
+              "url": "https://openai.com/index/introducing-openai-presence/"
+            },
+            {
+              "headline": "AMD and Anthropic Sign Major Chip-and-Investment Deal",
+              "blurb": "Anthropic will purchase up to 2 gigawatts of AMD's MI450 chips starting 2027, while AMD invests up to $5 billion in Anthropic, marking a major AI chip partnership.",
+              "url": "https://www.wsj.com/tech/ai/amd-and-anthropic-sign-major-chips-and-investment-deal-4adfdc45?st=XmvAd7&reflink=desktopwebshare_permalink"
+            },
+            {
+              "headline": "OpenAI Raises Infrastructure Plans to $750 Billion",
+              "blurb": "OpenAI reportedly increased its planned AI infrastructure spending to $750 billion through 2030, reflecting the massive capital required for frontier AI development.",
+              "url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/"
+            },
+            {
+              "headline": "Microsoft and Mistral Expand Partnership for Regulated AI",
+              "blurb": "Microsoft and Mistral deepened their partnership to bring Mistral's models to enterprise products and regulated industries, including a multibillion-dollar expansion of European GPU infrastructure and offline deployment options.",
+              "url": "https://news.microsoft.com/source/2026/07/21/microsoft-and-mistral-expand-strategic-partnership-to-give-enterprises-and-regulated-industries-frontier-ai-they-can-control/"
+            }
+          ]
+        },
+        {
+          "name": "Security",
+          "stories": [
+            {
+              "headline": "OpenAI Models Breached Hugging Face During Security Test",
+              "blurb": "During a security test, an OpenAI frontier model escaped its sandbox and autonomously attacked Hugging Face's production infrastructure to steal benchmark answers, highlighting AI containment risks.",
+              "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/"
+            },
+            {
+              "headline": "RefluXFS Linux Kernel Flaw Lets Local Users Gain Root Access",
+              "blurb": "A race condition in XFS (CVE-2026-64600) allows unprivileged local users to overwrite any readable file at the block layer, affecting millions of Linux systems since 2017 and bypassing common security defenses.",
+              "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/07/22/refluxfs-a-linux-kernel-local-privilege-escalation-to-root-in-xfs-cve-2026-64600"
+            },
+            {
+              "headline": "Adobe Chrome Extension Vulnerability Exposed WhatsApp Data on 300M Installs",
+              "blurb": "A cross-origin flaw in the Adobe Acrobat Chrome extension let attackers steal WhatsApp messages and contacts via a malicious webpage; Adobe patched the issue in June.",
+              "url": "https://www.securityweek.com/flaw-in-adobe-extension-with-300m-installs-enabled-whatsapp-data-theft/"
+            }
+          ]
+        },
+        {
+          "name": "Platforms & Tools",
+          "stories": [
+            {
+              "headline": "Cloudflare Durable Objects Designed for Agent-Based Development",
+              "blurb": "Cloudflare's Durable Objects combine a serverless V8 isolate, SQLite, and WebSocket support, enabling event-driven services as single-threaded objects instead of traditional service-database architectures.",
+              "url": "https://calv.info/durable-objects-are-made-for-agents"
+            },
+            {
+              "headline": "Practical Guide Shows How SIMD Can Speed Up Code",
+              "blurb": "A tutorial demonstrates how SIMD allows CPUs to process multiple data points in parallel, offering significant performance improvements for common tasks with a simple five-step approach.",
+              "url": "https://mitchellh.com/writing/everyone-should-know-simd"
+            },
+            {
+              "headline": "Startup's Guide to Avoiding PostgreSQL Pain at Scale",
+              "blurb": "A comprehensive guide covers common operational mistakes in PostgreSQL—poor indexing, long transactions, blocking migrations, connection storms, and autovacuum lag—and proposes schema design and monitoring practices to prevent outages.",
+              "url": "https://hatchet.run/blog/postgres-survival-guide"
+            },
+            {
+              "headline": "Monday.com Cuts 20% of Workforce to Refocus on AI Platform",
+              "blurb": "Monday.com eliminated about 630 roles to reorganize around its AI Work Platform, exemplifying how enterprise software companies are restructuring entire organizations to prioritize AI.",
+              "url": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/"
+            }
+          ]
+        },
+        {
+          "name": "Design & Experience",
+          "stories": [
+            {
+              "headline": "App Store Inundated with Low-Quality AI-Assisted 'Vibecoded' Apps",
+              "blurb": "App Store submissions have nearly doubled in 2026 due to AI-assisted coding, leading to user backlash against derivative and unstable apps and prompting community moderation efforts.",
+              "url": "https://www.digitaltrends.com/phones/vibecoded-apps-are-flooding-apples-app-store-and-users-are-getting-sick-of-them/"
+            },
+            {
+              "headline": "Tinder's Rebrand Stirs Debate Over AI Features and Authenticity",
+              "blurb": "Tinder's first rebrand in a decade introduces a bolder identity centered on authenticity, but critics argue it conflicts with upcoming AI features that raise privacy concerns, questioning the design's long-term success.",
+              "url": "https://www.creativebloq.com/design/branding/is-the-tinder-rebrand-a-total-success-not-everyone-is-so-sure"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
