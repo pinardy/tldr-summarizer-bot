@@ -1,0 +1,115 @@
+{
+  "date": "2026-07-28",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, Design",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "Nvidia Backs Ilya Sutskever's Safe Superintelligence with GPU Access and Investment",
+              "blurb": "Nvidia made a substantial investment and long-term partnership with Ilya Sutskever's startup, providing access to its flagship GPUs after a rare peek at its secret research, signaling the company's bet on advanced AI safety work.",
+              "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/"
+            },
+            {
+              "headline": "Anthropic Opposes Blanket Bans on Open-Weight AI Models",
+              "blurb": "Anthropic argued that less capable open-weight releases are a public good and instead advocated for tighter chip controls, action against distillation, and mandatory safety testing, shaping the policy debate around open AI models.",
+              "url": "https://www.anthropic.com/news/position-open-weights-models"
+            },
+            {
+              "headline": "China's Moonshot Releases Kimi K3, a 2.8 Trillion Open-Weight MoE Model",
+              "blurb": "Moonshot AI open-sourced Kimi K3, a 2.8T parameter mixture-of-experts model with native visual understanding and a 1M-token context window, along with attention kernels and agent infrastructure, significantly raising the bar for open models.",
+              "url": "https://threadreaderapp.com/thread/2081760186235289764.html"
+            },
+            {
+              "headline": "Black Forest Labs Launches FLUX 3 with 20-Second Video and Audio Generation",
+              "blurb": "Black Forest Labs unveiled FLUX 3, its first public video generation model capable of multi-shot continuity and native audio, extending its architecture toward robotic tasks and marking a major advance in generative AI.",
+              "url": "https://venturebeat.com/technology/black-forest-labs-launches-flux-3-capable-of-generating-images-and-20-second-video-with-audio-but-in-limited-release-to-start"
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure & Cloud",
+          "stories": [
+            {
+              "headline": "OpenAI Nears $500 Billion Data Center Deal with Nvidia Financing Backstop",
+              "blurb": "OpenAI is close to leasing a $500 billion data center in Ohio, with Nvidia considering a $250 billion backstop for the project, underscoring the enormous scale of AI infrastructure investments and the financial risks involved.",
+              "url": "https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html?unlocked_article_code=1.1FA.IBnW.rbhWt5-1bZFI&smid=url-share"
+            },
+            {
+              "headline": "Tech Sector's $1 Trillion AI Infrastructure Spend Drives Up Customer Prices",
+              "blurb": "Companies are spending roughly $1 trillion on AI infrastructure this year, pushing global IT spending toward $6.37 trillion and increasing costs for hardware, cloud, and enterprise software as vendors bundle AI and shift expenses to customers.",
+              "url": "https://www.theregister.com/ai-and-ml/2026/07/27/tech-sector-pours-1t-into-ai-and-sends-customers-the-bill/5278845"
+            },
+            {
+              "headline": "Cloudmaxxing: Nvidia Considers $250 Billion Data Center Guarantee, Exposing Itself to Risk",
+              "blurb": "Nvidia is reportedly considering guaranteeing up to $250 billion for a 10-gigawatt data center involving SoftBank and potentially OpenAI, raising concerns about technology suppliers' exposure if AI demand falls short.",
+              "url": "https://www.reuters.com/commentary/breakingviews/cloudmaxxing-sucks-nvidia-into-dangerous-game-2026-07-27/"
+            }
+          ]
+        },
+        {
+          "name": "Security & Cyber",
+          "stories": [
+            {
+              "headline": "ChatGPT Workspace Agent Vulnerability Allowed Silent, Persistent Agent Deployment via Phishing Link",
+              "blurb": "A flaw in ChatGPT Workspace Agent Builder let attackers deploy malicious agents with full account access through a single URL, highlighting the risks of agentic deep links and prompting a patch from OpenAI.",
+              "url": "https://cybersecuritynews.com/chatgpt-agentforger-vulnerability/"
+            },
+            {
+              "headline": "Hackers Hijack Hotel Wi-Fi DNS to Redirect Login Pages and Steal Microsoft 365 Credentials",
+              "blurb": "ReliaQuest uncovered a campaign where attackers modified hotel Wi-Fi DNS settings to present fake login prompts, using device code flow to bypass MFA and steal accounts, demonstrating a practical insider threat.",
+              "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/"
+            },
+            {
+              "headline": "UK Watchdog Assesses Kimi K3's Cyber Capabilities, Finds Autonomous Attack Abilities Against Small Networks",
+              "blurb": "The UK AISI and CAISI evaluated Moonshot's Kimi K3 and reported it can autonomously execute simple cyber attack chains, though well behind frontier US models, raising policy concerns about open-weight releases.",
+              "url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities"
+            },
+            {
+              "headline": "GitHub Pays Security Researcher $100,000 for Critical Remote Code Execution Vulnerability",
+              "blurb": "GitHub awarded one of its largest bounties ever for CVE-2026-3854, an unauthenticated RCE flaw in repository URL handling, emphasizing the importance of the platform's bug bounty program.",
+              "url": "https://runtimewire.com/article/github-issues-100-000-bounty-for-critical-rce-vulnerability-disclosed-by-sagitz"
+            }
+          ]
+        },
+        {
+          "name": "Developer & Design",
+          "stories": [
+            {
+              "headline": "Octane: A React Replacement That Achieves Hand-Written DOM Speed by Removing Virtual DOM",
+              "blurb": "Octane is an open-source UI library compiled from React-like syntax that eliminates virtual DOM overhead, Suspense waterfalls, and hook rules, promising near-hand-written performance.",
+              "url": "https://github.com/octanejs/octane"
+            },
+            {
+              "headline": "TanStack.com Replaces React Server Components with Simpler SSR After Optimizing Content Renderer",
+              "blurb": "The TanStack team moved away from React Server Components because the architectural overhead no longer justified the benefits once their underlying renderer was optimized, offering a real-world cost-benefit analysis of RSC.",
+              "url": "https://tanstack.com/blog/we-stopped-using-rsc-on-tanstack-com"
+            },
+            {
+              "headline": "How Duolingo Weaponized Guilt and Loss Aversion to Build a Compulsive Design System",
+              "blurb": "A deep dive into Duolingo's use of streaks, guilt, and an emotionally responsive mascot to drive retention, illustrating the power and ethical boundaries of behavioral design.",
+              "url": "https://medium.com/@Jason-Han/the-architecture-of-guilt-how-duolingo-weaponized-negative-emotion-to-build-a-design-system-a1ea491e7813"
+            },
+            {
+              "headline": "Midjourney Acquires Social Astrology App Co-Star, Absorbs Its 4.3 Million Users",
+              "blurb": "Midjourney expanded its consumer portfolio by acquiring Co-Star, an AI-driven astrology app, signaling the AI lab's move beyond image generation into lifestyle and personalized AI experiences.",
+              "url": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
