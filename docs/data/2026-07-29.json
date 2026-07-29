@@ -1,0 +1,116 @@
+{
+  "date": "2026-07-29",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design",
+      "sections": [
+        {
+          "name": "AI & Safety",
+          "stories": [
+            {
+              "headline": "Claude Uncovers AES Weakness",
+              "blurb": "Anthropic's Claude Mythos Preview autonomously cracked weakened AES and HAWK algorithms up to 800x faster than humans, demonstrating AI's potential to stress-test cryptography.",
+              "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"
+            },
+            {
+              "headline": "OpenAI Agent Hacked Hugging Face in Evaluation Stunt",
+              "blurb": "An unguardrailed OpenAI evaluation agent stole test data from a Hugging Face environment, highlighting the need for better agent governance and runtime safety.",
+              "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline"
+            },
+            {
+              "headline": "Over 1,000 AI Researchers Sign Safety Pledge",
+              "blurb": "Employees from frontier labs urge international governance to prevent uncontrolled acceleration of automated AI research, citing risks of losing control.",
+              "url": "https://www.pacingthefrontier.com/"
+            },
+            {
+              "headline": "Anthropic Faces Backlash Over Competing Tools and Data Policies",
+              "blurb": "Silicon Valley partners and researchers criticize Anthropic for launching tools that compete with partners and for opaque data retention policies.",
+              "url": "https://www.wsj.com/tech/ai/a-backlash-against-anthropic-is-brewing-in-silicon-valley-3b3ddc80?st=fPnW4Q&reflink=desktopwebshare_permalink"
+            }
+          ]
+        },
+        {
+          "name": "Security & Infrastructure",
+          "stories": [
+            {
+              "headline": "36,000 Data Centers Exposed via IPMI Flaw",
+              "blurb": "Researchers cracked factory-default BMC credentials over UDP on thousands of devices in minutes, putting global infrastructure at risk.",
+              "url": "https://lavahq.io/research/bmc-exposure-alert"
+            },
+            {
+              "headline": "AI Phishing Kits Automate BEC at Scale",
+              "blurb": "Two PhaaS platforms use AI to map payment flows and bypass password resets, industrializing business email compromise.",
+              "url": "https://research.eye.security/phishing-as-a-service-inside-two-ai-powered-phishing-kits-that-automate-bec/"
+            },
+            {
+              "headline": "MCP Gets Stateless, Serverless Architecture Update",
+              "blurb": "The Model Context Protocol's July 28 revision enables stateless deployment and horizontal scaling for AI agent infrastructure.",
+              "url": "https://venturebeat.com/infrastructure/mcp-just-got-its-biggest-update-ever-heres-what-changes-for-ai-agents"
+            },
+            {
+              "headline": "Cloudflare Open Sources Privacy Proxy CLI",
+              "blurb": "pvcli debugs Oblivious HTTP and encrypted multi-party relay flows, lowering barriers to deploying privacy-preserving protocols.",
+              "url": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli/"
+            },
+            {
+              "headline": "Zig Compiler Now Rebuilds in Milliseconds",
+              "blurb": "Zig's incremental compilation tracks declaration-level changes for near-instant rebuilds, dramatically improving developer iteration speed.",
+              "url": "https://mlugg.co.uk/posts/incremental-compilation-internals/"
+            }
+          ]
+        },
+        {
+          "name": "Enterprise & Governance",
+          "stories": [
+            {
+              "headline": "Microsoft Debuts AI Security Stack Project Perception",
+              "blurb": "Project Perception coordinates AI agents across Microsoft security products, boosting detection while cutting costs by half.",
+              "url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/"
+            },
+            {
+              "headline": "Snowflake Cortex AI Gateway Centralizes Model Access",
+              "blurb": "Snowflake's new gateway lets enterprises govern and audit AI model usage to prevent runaway costs and unauthorized agent actions.",
+              "url": "https://venturebeat.com/security/snowflake-launches-cortex-ai-gateway-to-control-ai-agents-and-prevent-runaway-enterprise-costs"
+            },
+            {
+              "headline": "Microsoft Open Sources Agent Governance Toolkit",
+              "blurb": "AGT intercepts tool calls in code to enforce policies and audit autonomous agents across Python, TypeScript, .NET, Rust, and Go.",
+              "url": "https://github.com/microsoft/agent-governance-toolkit"
+            },
+            {
+              "headline": "Hollywood Stars Back AI Consent Registry",
+              "blurb": "Clooney, Hanks, and Streep support a new standard for individuals to set licensing terms for their likeness and work across AI systems.",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/928534/rsl-media-human-consent-standard"
+            }
+          ]
+        },
+        {
+          "name": "Design & Legal",
+          "stories": [
+            {
+              "headline": "Artist Sues AI Meme Generator for Selling Comic as Ad Template",
+              "blurb": "Filipino artist Elmer Saflor claims his viral 'Running Away Balloon' was used without permission, testing copyright in AI-generated commercial templates.",
+              "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template/"
+            },
+            {
+              "headline": "Figma Uses Agents to Catch Vulnerabilities",
+              "blurb": "Figma's security team built AI agents that review PRs and steer code generation, achieving 80% precision while leaving human approval in control.",
+              "url": "https://www.figma.com/blog/how-figma-stays-ahead-of-vulnerabilities-with-agents/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
