@@ -116,6 +116,19 @@
   .story a:hover { color: var(--accent); }
   .story .headline { font-weight: bold; }
   .story .blurb { margin: 2px 0 0; color: var(--blurb); font-size: 0.95rem; }
+  /* Collapsed descriptions: titles only, tap a story to peek at one blurb. */
+  #content.collapsed .story { margin: 0 0 8px; cursor: pointer; }
+  #content.collapsed .story .blurb { display: none; }
+  #content.collapsed .story.open .blurb { display: block; }
+  .controls { display: flex; align-items: baseline; gap: 12px; margin-bottom: 16px; }
+  .controls .meta { flex: 1; margin: 0; }
+  #blurb-toggle {
+    font: inherit; font-size: 0.8rem; white-space: nowrap;
+    background: var(--card); color: var(--muted);
+    border: 1px solid var(--rule); border-radius: 6px;
+    padding: 3px 10px; cursor: pointer;
+  }
+  #blurb-toggle:hover { border-color: var(--accent); color: var(--ink); }
   .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 16px; }
   .empty { color: var(--muted); font-style: italic; padding: 40px 0; text-align: center; }
   footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding-bottom: 32px; }
@@ -182,6 +195,12 @@
         }
         div.appendChild(headline);
         div.appendChild(el("p", "blurb", story.blurb));
+        // In collapsed view, tapping a story (not its link) peeks at its blurb.
+        div.addEventListener("click", (e) => {
+          if (e.target.closest("a")) return;
+          if (!contentEl.classList.contains("collapsed")) return;
+          div.classList.toggle("open");
+        });
         article.appendChild(div);
       }
     }
@@ -214,9 +233,27 @@
       }
       contentEl.replaceChildren();
       const mode = day.mode === "combined" ? "combined digest" : "per-newsletter digests";
-      contentEl.appendChild(
+      // Descriptions collapse by default when they are NOT AI-summarized
+      // (per-newsletter fallback = verbatim TLDR blurbs, too long to scan).
+      contentEl.classList.toggle("collapsed", day.mode !== "combined");
+      const controls = el("div", "controls");
+      controls.appendChild(
         el("p", "meta", `${mode} · newsletters: ${(day.categories || []).join(", ")}`)
       );
+      const blurbToggle = el("button", null);
+      blurbToggle.id = "blurb-toggle";
+      const syncBlurbToggle = () => {
+        const collapsed = contentEl.classList.contains("collapsed");
+        blurbToggle.textContent = collapsed ? "Show descriptions" : "Hide descriptions";
+        blurbToggle.setAttribute("aria-expanded", String(!collapsed));
+      };
+      blurbToggle.addEventListener("click", () => {
+        contentEl.classList.toggle("collapsed");
+        syncBlurbToggle();
+      });
+      syncBlurbToggle();
+      controls.appendChild(blurbToggle);
+      contentEl.appendChild(controls);
       for (const digest of day.digests || []) contentEl.appendChild(renderDigest(digest));
     } catch {
       contentEl.replaceChildren(el("p", "empty", `No digest found for ${date}.`));
