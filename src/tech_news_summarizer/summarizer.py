@@ -8,13 +8,24 @@ callers fall back to per-newsletter parsed digests when this fails.
 """
 
 import json
+import logging
 import re
+import time
 
 import requests
 
 from .fetcher import Issue, Section, Story
 
+log = logging.getLogger("tech_news_summarizer")
+
 DEFAULT_MODEL = "deepseek-v4-flash"
+
+# One retry on transient failures (timeouts, connection errors, 5xx): a single
+# slow opencode response used to push the whole day into the per-newsletter
+# fallback. 4xx errors are not retried — they won't heal on a second attempt.
+REQUEST_TIMEOUT_SECONDS = 180
+REQUEST_ATTEMPTS = 2
+RETRY_DELAY_SECONDS = 5
 
 SYSTEM_PROMPT = """\
 You merge several TLDR newsletters from the same day into one digest for a \
@@ -53,23 +64,17 @@ def summarize_combined(
     ]
     payload = json.dumps(stories, ensure_ascii=False)
 
-    try:
-        resp = requests.post(
-            api_url,
-            headers={"Authorization": f"Bearer {api_key}"},
-            json={
-                "model": model,
-                "messages": [
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": f"Today's TLDR newsletter stories:\n{payload}"},
-                ],
-            },
-            timeout=120,
-        )
-    except requests.RequestException as e:
-        raise SummarizeError(f"opencode request failed: {e}") from e
-    if resp.status_code != 200:
-        raise SummarizeError(f"opencode returned {resp.status_code}: {resp.text[:300]}")
+    resp = _post_with_retry(
+        api_url,
+        headers={"Authorization": f"Bearer {api_key}"},
+        body={
+            "model": model,
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": f"Today's TLDR newsletter stories:\n{payload}"},
+            ],
+        },
+    )
 
     try:
         content = resp.json()["choices"][0]["message"]["content"]
@@ -78,6 +83,34 @@ def summarize_combined(
 
     valid_urls = {s["url"] for s in stories if s["url"]}
     return Issue(tagline="", sections=_parse_sections(content, valid_urls))
+
+
+def _post_with_retry(api_url: str, headers: dict, body: dict) -> requests.Response:
+    """POST to opencode, retrying once on timeouts, connection errors and 5xx."""
+    last_error: SummarizeError | None = None
+    for attempt in range(1, REQUEST_ATTEMPTS + 1):
+        try:
+            resp = requests.post(
+                api_url, headers=headers, json=body, timeout=REQUEST_TIMEOUT_SECONDS
+            )
+        except requests.RequestException as e:
+            last_error = SummarizeError(
+                f"opencode request failed (attempt {attempt}/{REQUEST_ATTEMPTS}): {e}"
+            )
+            last_error.__cause__ = e
+        else:
+            if resp.status_code == 200:
+                return resp
+            last_error = SummarizeError(
+                f"opencode returned {resp.status_code} "
+                f"(attempt {attempt}/{REQUEST_ATTEMPTS}): {resp.text[:300]}"
+            )
+            if resp.status_code < 500:
+                raise last_error  # 4xx (bad key, bad request) won't heal on retry
+        if attempt < REQUEST_ATTEMPTS:
+            log.warning("%s — retrying in %ds", last_error, RETRY_DELAY_SECONDS)
+            time.sleep(RETRY_DELAY_SECONDS)
+    raise last_error
 
 
 def _parse_sections(content: str, valid_urls: set[str]) -> list[Section]:

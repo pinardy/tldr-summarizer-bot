@@ -20,7 +20,8 @@ concurrency:
 jobs:
   digest:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # Worst case AI step is ~6 min (2 attempts x 180s + delay); keep headroom.
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
