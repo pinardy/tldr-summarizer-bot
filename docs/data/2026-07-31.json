@@ -1,0 +1,722 @@
+{
+  "date": "2026-07-31",
+  "mode": "per-newsletter",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Tech — 2026-07-31",
+      "tagline": "Tesla SpaceX merger 🚗, OpenAI price cuts 📉, Stripe's AI knowledge platform 👨‍💻",
+      "sections": [
+        {
+          "name": "Big Tech & Startups",
+          "stories": [
+            {
+              "headline": "Tesla Weighs Sale of China Business to Pave Way for Potential SpaceX Merger (8 minute read)",
+              "blurb": "Tesla executives have been told to prepare for a separation of the China business ahead of a potential merger. The company's advisers have discussed possible options for a separation, including a spinoff, sale, or closure. Tesla's Chinese business is designed to be easily separated from its US business because of geopolitical tensions. Separating the company's China operations would address potential conflicts that may arise from SpaceX's work as a major US defense contractor.",
+              "url": "https://www.wsj.com/business/autos/tesla-weighs-sale-of-china-business-to-pave-way-for-potential-spacex-merger-5ae26026?st=VgAado&reflink=desktopwebshare_permalink"
+            },
+            {
+              "headline": "OpenAI cuts prices for two of its GPT-5.6 AI models as companies grow sensitive to costs (3 minute read)",
+              "blurb": "OpenAI is reducing the price of Terra to $2 per million input tokens and $12 per million output tokens. It is also cutting the cost of Luna to 20 cents per million input tokens and $1.20 per million output tokens. The company is facing pressure to cater to a more cost-sensitive customer base. Sol's pricing remains the same.",
+              "url": "https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html"
+            }
+          ]
+        },
+        {
+          "name": "Science & Futuristic Technology",
+          "stories": [
+            {
+              "headline": "Why Is Everyone Trying to Build a Solid-State Battery? (13 minute read)",
+              "blurb": "Solid-state batteries have several potential advantages over lithium-ion batteries. A solid-state battery would be lighter and safer than the liquid electrolyte used now. This article looks at why solid-state batteries have these advantages compared to conventional lithium-ion batteries. It also looks at how they fit into the broader arc of lithium battery improvements.",
+              "url": "https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a"
+            },
+            {
+              "headline": "Microsoft's Project Silica (20 minute read)",
+              "blurb": "Microsoft's Project Silica produced excellent research and was a praiseworthy attempt to craft a technical solution to the extremely difficult economics of the market for archival media. However, the excellent technology will likely fail in the market. LTO tape is well established, has a credible roadmap, and is built into the processes of the likely customers. It is difficult to justify spending more capex to reduce future opex with non-zero interest rates.",
+              "url": "https://blog.dshr.org/2026/07/microsofts-project-silica.html"
+            }
+          ]
+        },
+        {
+          "name": "Programming, Design & Data Science",
+          "stories": [
+            {
+              "headline": "Stacked pull requests are now in public preview (3 minute read)",
+              "blurb": "GitHub Stacked Pull Requests break large changes into small, reviewable pull requests that each represent focused layers of the change. They allow developers to independently review and check each pull request, then merge everything together in one click. Stacked pull requests provide short, narrowly scoped pull requests, allowing developers to introduce smaller individual changes while shipping larger features. The feature is built into GitHub, so existing reviews, checks, and merge requirements all work out-of-the-box.",
+              "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/"
+            },
+            {
+              "headline": "Meet Stripe's Knowledge AI Platform (12 minute read)",
+              "blurb": "Kai, Stripe's Knowledge AI Platform, helps most of Stripe's employees with their day-to-day work. The tool handles the data security requirements and specific workflows Stripe needs. It can query data warehouses, research accounts before sales calls, triage incidents, model revenue scenarios, and prepare compliance reviews. Most Kai sessions require many turns.",
+              "url": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Chrome may get faster updates with no restart required (2 minute read)",
+              "blurb": "Chrome 149 and Chrome 150 shipped with a total of 1,072 bug fixes, more than the previous 23 releases combined. AI is changing security analysis and enabling better flaw detection. Google is now piloting a system that would update Chrome twice per week. The company is working on ways to allow patches to be installed without restarting the browser.",
+              "url": "https://arstechnica.com/ai/2026/07/chrome-may-get-faster-updates-with-no-restart-required/"
+            },
+            {
+              "headline": "Citadel Buys Situational Awareness's Stock Portfolio After Big Losses in AI (7 minute read)",
+              "blurb": "Situational Awareness has sold the bulk of its stock portfolio to Citadel after suffering deep losses. The firm had amassed over $20 billion in assets, making it one of the fastest-growing firms in years. It encountered funding issues due to margin-call demands from its lenders. Citadel, one of the world's largest hedge-fund firms, has a long record of acquiring assets from forced sellers.",
+              "url": "https://www.wsj.com/finance/citadel-buys-situational-awarenesss-stock-portfolio-after-big-losses-in-ai-5117159b?st=pphibh&reflink=desktopwebshare_permalink"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "The AI Aesthetic (3 minute read)",
+              "blurb": "Every era brings its own designs - some fade, but others get incorporated into deeper parts of existing software interaction paradigms.",
+              "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/"
+            },
+            {
+              "headline": "Anthropic AI Models Hacked Three Companies During Tests (3 minute read)",
+              "blurb": "Anthropic says it discovered that its models hacked three unsuspecting companies after hearing about the recent incident where OpenAI's model autonomously hacked Hugging Face to access data.",
+              "url": "https://www.wsj.com/tech/ai/anthropic-ai-models-hacked-three-companies-during-tests-bd752c86?st=5vx6f5&reflink=desktopwebshare_permalink"
+            },
+            {
+              "headline": "Amazon's Zoox to begin charging for rides in Las Vegas after clearing NHTSA hurdle (4 minute read)",
+              "blurb": "Zoox has received a temporary exemption from US regulators that allows it to deploy up to 2,500 vehicles annually for two years.",
+              "url": "https://www.cnbc.com/2026/07/30/amazon-zoox-robotaxi-rides-las-vegas.html"
+            },
+            {
+              "headline": "Meta says AI is making it easier to build new apps — and more are coming (3 minute read)",
+              "blurb": "AI is helping Meta's teams speed up product development, allowing the company to test new ideas at a quicker pace.",
+              "url": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/?amp%3Butm_medium=twitter"
+            },
+            {
+              "headline": "Microsoft's Xbox chief lays out plan to pass rivals on margin by 2030 in memo to employees (4 minute read)",
+              "blurb": "Xbox CEO Asha Sharma, a former executive at Instacart and Meta, has appointed new leaders, lowered Game Pass subscription prices, and announced layoffs and divestitures of four development studios since taking over from Phil Spencer.",
+              "url": "https://www.cnbc.com/2026/07/30/microsoft-xbox-asha-sharma-2030-plans.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR AI — 2026-07-31",
+      "tagline": "Inkling-Small 🧠, GPT-5.6 price cuts 💸, Gemini Robotics 2 🤖",
+      "sections": [
+        {
+          "name": "Headlines & Launches",
+          "stories": [
+            {
+              "headline": "Inkling-Small (4 minute read)",
+              "blurb": "Thinking Machines has released Inkling-Small, a 276B-parameter mixture-of-experts model with 12B active parameters. The model retains Inkling's multimodal reasoning, variable thinking effort, and 1M-token context window while using substantially less compute.",
+              "url": "https://thinkingmachines.ai/news/inkling-small/"
+            },
+            {
+              "headline": "OpenAI Cuts GPT-5.6 Prices (6 minute read)",
+              "blurb": "OpenAI reduced GPT-5.6 Luna pricing by 80% and Terra pricing by 20%, while improving Sol's API speed. The changes extended efficiency gains across API usage, Codex, and ChatGPT Work subscriptions.",
+              "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/"
+            },
+            {
+              "headline": "Gemini Robotics ER 2 (1 minute read)",
+              "blurb": "Gemini Robotics ER 2 enhances automation capabilities with advanced AI and LLM integration. This innovation improves robotic efficiency, making it pivotal for industries needing precise automation.",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/"
+            }
+          ]
+        },
+        {
+          "name": "Deep Dives & Analysis",
+          "stories": [
+            {
+              "headline": "Building Cloud Environments for Coding Agents (13 minute read)",
+              "blurb": "Cursor described how making development environments easier for agents to understand, run, and test helped cloud agents grow from authoring about 10% of merged pull requests to more than half.",
+              "url": "https://cursor.com/blog/cloud-agent-environment"
+            },
+            {
+              "headline": "The Agent Graveyard Isn't Real Anymore (6 minute read)",
+              "blurb": "Enterprise AI projects increasingly reach production when vendors prove value on live workloads, provide ongoing testing and iteration, and expose ROI. Successful deployments start with decomposable workflows that ship quickly and expand, rather than broad transformations with undefined success criteria.",
+              "url": "https://x.com/thejessezhang/status/2082885504371171639"
+            },
+            {
+              "headline": "Open-Weight LLMs Have Caught Up on Accuracy (21 minute read)",
+              "blurb": "Open-weight LLMs have now reached accuracy parity with closed models in regulatory and clinical tasks, at significantly lower costs. The ClinReg benchmark showed models like GLM 5.2 and Kimi K3 performing within one standard deviation of top proprietary models like GPT 5.6 Sol, at one-third of the cost. Different models displayed distinct error profiles, highlighting the importance of choosing models based on task-specific requirements rather than just ranking.",
+              "url": "https://arjunbansal.substack.com/p/open-weight-llms-have-caught-up-on"
+            },
+            {
+              "headline": "The WASTE inference engine (14 minute read)",
+              "blurb": "WASTE is an open source inference engine designed to run models whose weights are substantially larger than the memory available on the host machine. It is an initial step into a broader effort to make increasingly capable models available on more hardware. The project aims to provide people and organizations greater control over infrastructure costs, data privacy, availability, and deployment. The first fully supported model by WASTE is Kimi K3, which can run on a MacBook Pro with 64 GB of unified memory.",
+              "url": "https://marcobambini.substack.com/p/the-waste-inference-engine"
+            }
+          ]
+        },
+        {
+          "name": "Engineering & Research",
+          "stories": [
+            {
+              "headline": "The Session You Cannot Take With You (18 minute read)",
+              "blurb": "Users should be able to close an account, keep a session, and hand it to another model. Stateful storage should be optional, and hosted tools should be observable. Compaction should be readable, and agent communication should be auditable. Distillation should be a path by which capability becomes more available, not a reason for building ever higher walls.",
+              "url": "https://earendil.com/posts/session-portability/"
+            },
+            {
+              "headline": "MiniMax H3 (10 minute read)",
+              "blurb": "MiniMax H3 is an open model that breaks the boundaries between tasks and modalities. It understands unified context across text, images, video, and audio. The model can generate up to 15 seconds of video at 2K resolution with native stereo sound. H3 excels at instruction following, accurate text and brand rendering, and V2V motion transfer. Early testing shows that it is ready for commercial content creation across a wide range of use cases.",
+              "url": "https://x.com/MiniMax_AI/status/2083008095488516262"
+            },
+            {
+              "headline": "Gemini Live API overview (3 minute read)",
+              "blurb": "The Gemini Live API enables low-latency, real-time voice and vision interactions with Gemini. It processes continuous streams of audio, images, and text to deliver immediate, human-like responses. The API creates a natural conversational experience for users. It can be used to build real-time agents for a variety of industries.",
+              "url": "https://ai.google.dev/gemini-api/docs/live-api?linkId=63011869&amp%3Butm_source=tldrai"
+            },
+            {
+              "headline": "Agent Behavior (Website)",
+              "blurb": "Agent Behavior is an open standard for defining and evaluating how an AI agent should behave across a whole trajectory. Each behavior spec is a Markdown file that describes the recurring conduct that makes the agent reliable. The spec gives reviewers, rubrics, scorers, and evals something concrete to measure against. It can be used to review traces, write eval cases, revise prompts or tools, and communicate intended agent conduct to teams.",
+              "url": "https://www.agentbehavior.dev/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "With Moonshot's free Kimi K3, China changes the sovereign AI playbook (6 minute read)",
+              "blurb": "China's Moonshot AI open-sourced Kimi K3 on July 27. Any government, company, or individual can now run the model on their own computers for free. They can also retrain the model however they want. The existence of a high-quality open model increases return on hardware investments because of a reduction or elimination of ongoing licensing costs.",
+              "url": "https://restofworld.org/2026/china-moonshot-kimi-k3-free-sovereign-ai/"
+            },
+            {
+              "headline": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft (13 minute read)",
+              "blurb": "AI faces a bottleneck with GPU utilization, echoing how airlines maximize aircraft use for profitability. Owning more GPUs doesn't ensure efficiency - companies must focus on optimizing GPU workload orchestration to maximize output. Specialized models and continuous GPU management are crucial strategies for improving utilization and staying competitive in the AI arena.",
+              "url": "https://huggingface.co/blog/Dharma-AI/gpu-management"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Hugging Face Storage Buckets (Website)",
+              "blurb": "Hugging Face Storage Buckets allow developers to store models, datasets, and artifacts with simple per-TB pricing.",
+              "url": "https://huggingface.co/storage"
+            },
+            {
+              "headline": "Superlogical (Website)",
+              "blurb": "Superlogical plans to build a composable multiplexer for all work that is safe and operable in production.",
+              "url": "https://www.superlogical.com/"
+            },
+            {
+              "headline": "NVIDIA Exemplar Cloud: Lessons for Unlocking Full Performance on AI Infrastructure (12 minute read)",
+              "blurb": "NVIDIA has identified configuration issues causing AI cluster performance gaps, such as CPU power settings and network tuning differences.",
+              "url": "https://developer.nvidia.com/blog/nvidia-exemplar-cloud-lessons-for-unlocking-full-performance-on-ai-infrastructure/"
+            },
+            {
+              "headline": "Anthropic says its Claude models ‘gained unauthorized access' to other organizations' systems (4 minute read)",
+              "blurb": "Anthropic discovered three instances where its models accessed the internet during an evaluation and gained unauthorized access to the systems of three different organizations.",
+              "url": "https://www.cnbc.com/2026/07/30/anthropic-says-claude-gained-unauthorized-access-to-others-systems.html"
+            },
+            {
+              "headline": "Judge Questions Anthropic Supply-Chain Risk (2 minute read)",
+              "blurb": "A judge said the Trump administration had not provided enough evidence to classify Anthropic as a supply-chain risk or justify blocking federal agencies from using its technology.",
+              "url": "http://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/"
+            },
+            {
+              "headline": "Teaching an Open Model to Do Science (12 minute read)",
+              "blurb": "Loka, Arcee, AWS, and Prime Intellect post-trained Trinity Mini with reinforcement learning across tool-assisted biomedical research and Gene Ontology annotation.",
+              "url": "https://www.arcee.ai/blog/teaching-an-open-model-to-do-science"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR IT — 2026-07-31",
+      "tagline": "Claude’s Cyber Test Escaped 🤖, Corporate IT Leaves the Building ☁️, Okta’s $200M Security Bet 🔐",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Microsoft confirms an AI worm is propagating through Copilot and other MS apps (10 minute read)",
+              "blurb": "Researchers demonstrated a document-borne attack that hides instructions inside files processed by Copilot, alters generated content, and copies itself into newly created documents. Microsoft has deployed mitigations, but researchers say the underlying problem remains because current models cannot reliably distinguish untrusted data from executable instructions.",
+              "url": "https://www.computerworld.com/article/4203676/microsoft-confirms-an-ai-worm-is-propagating-through-copilot-and-other-ms-apps-2.html"
+            },
+            {
+              "headline": "The majority of corporate IT is now off premises for the first time (4 minute read)",
+              "blurb": "Third-party facilities now host 46% of enterprise workloads, compared with 44% in company-owned datacenters, marking the first time off-premises infrastructure has taken the lead, according to Uptime Institute's survey of more than 800 operators. Typical rack density also climbed above 11 kW as organizations replace older servers with more power-hungry hardware.",
+              "url": "https://www.theregister.com/off-prem/2026/07/30/the-majority-of-corporate-it-is-now-off-premises-for-the-first-time/5280554"
+            },
+            {
+              "headline": "Not just OpenAI: Now Anthropic says its internal models got online and cyberattacked 3 other organizations (5 minute read)",
+              "blurb": "Anthropic discovered that Claude models unintentionally reached the public internet during supposedly isolated cybersecurity evaluations and compromised systems belonging to three real organizations using weak passwords and unauthenticated endpoints. The incidents involved Opus 4.7, Mythos 5, and an internal research model, with the earliest dating back to April, and were uncovered only after Anthropic reviewed more than 141,000 test sessions following OpenAI's similar incident. Anthropic suspended its cyber evaluations and notified the affected organizations, two of which had not detected the activity.",
+              "url": "https://venturebeat.com/security/not-just-openai-now-anthropic-says-its-internal-models-got-online-and-cyberattacked-3-other-organizations"
+            }
+          ]
+        },
+        {
+          "name": "Analysis & Opinions",
+          "stories": [
+            {
+              "headline": "DNS is infrastructure. It's time to manage it that way (5 minute read)",
+              "blurb": "DNS is often managed through manual dashboards and scattered accounts even though a single incorrect change can disrupt websites, email, certificates, and other critical services. Bring domain and DNS management into Infrastructure as Code, APIs, and CLI workflows so changes are repeatable, reviewable, automated, and easier to audit or roll back.",
+              "url": "https://thenewstack.io/dns-domain-management-automation/"
+            },
+            {
+              "headline": "Data center backlash could slow CIOs' AI plans (6 minute read)",
+              "blurb": "Opposition to new data centers is becoming a material infrastructure and budgeting risk, with protests organized across 42 states, construction moratoriums active in 10 states, and new large-load electricity tariffs emerging across the country. CIOs may need to secure capacity earlier, reconsider cloud and colocation cost assumptions, diversify regions and providers, and treat compute and power as strategic supply-chain dependencies.",
+              "url": "https://www.cio.com/article/4203074/data-center-backlash-could-slow-cios-ai-plans.html"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Partnerships",
+          "stories": [
+            {
+              "headline": "Inforcer raises $50M to help prepare smaller businesses for a new world of AI and security risks (4 minute read)",
+              "blurb": "Inforcer raised a $50 million Series C to expand its platform for MSPs managing Microsoft 365 environments across multiple small and midsize businesses. The company says revenue is growing 300% year over year as it adds capabilities for detecting unauthorized AI use and responding to security threats across customer environments.",
+              "url": "https://techcrunch.com/2026/07/30/inforcer-raises-50m-to-help-prepare-smbs-for-a-new-world-of-ai-and-security-risks/"
+            },
+            {
+              "headline": "Okta buys AI security startup Permiso - source says for about $200M (4 minute read)",
+              "blurb": "Okta agreed to acquire Permiso Security in a deal reportedly worth just under $200 million, adding technology that detects suspicious behavior involving employees, service accounts, applications, and AI agents after they have authenticated. The acquisition pushes Okta deeper into identity threat detection and response and the security operations center, with capabilities for identifying excessive privileges, compromised identities, and anomalous agent activity across cloud and SaaS environments.",
+              "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Outdoor Wi-Fi finally means business (4 minute read)",
+              "blurb": "Cisco's outdoor Wireless 9177 Series combines tri-band Wi-Fi 7 with automated frequency coordination for outdoor 6 GHz access and Ultra-Reliable Wireless Backhaul for multigigabit connectivity and sub-10-millisecond handoffs. The access points offer directional, omnidirectional, and external-antenna models, copper or fiber uplinks, and cloud or on-premises management for campuses, ports, industrial facilities, stadiums, and transit environments.",
+              "url": "https://blogs.cisco.com/networking/outdoor-wi-fi-finally-means-business"
+            },
+            {
+              "headline": "Step-by-step fabric deployment with Cisco Nexus Hyperfabric (4 minute read)",
+              "blurb": "Nexus Hyperfabric lets IT teams design cloud-managed VXLAN EVPN networks using validated templates, automatically generate hardware bills of materials, and perform guided zero-touch deployments. The platform abstracts much of the BGP, VXLAN, and cabling complexity normally associated with datacenter fabric deployments.",
+              "url": "https://blogs.cisco.com/datacenter/step-by-step-fabric-deployment-with-cisco-nexus-hyperfabric"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Qualcomm shows Apple's modem transition is almost complete (4 minute read)",
+              "blurb": "Qualcomm's latest comments suggest Apple is moving more quickly toward replacing third-party modems with its own chips, potentially improving battery efficiency while reshaping the mobile-device supply chain.",
+              "url": "https://www.computerworld.com/article/4203487/qualcomm-shows-apples-modem-transition-is-almost-complete.html"
+            },
+            {
+              "headline": "Russian spies take their half-click email attack from Zimbra to Outlook (5 minute read)",
+              "blurb": "A Russian espionage group is exploiting an on-premises Outlook Web Access flaw that can install a mailbox-based browser implant when a victim opens a malicious email.",
+              "url": "https://www.theregister.com/security/2026/07/30/russian-spies-take-their-half-click-email-attack-from-zimbra-to-outlook/5281033"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Web Dev — 2026-07-31",
+      "tagline": "GitHub stacked PRs 📚, refactoring’s economic benefits 💰, how Chrome gets safer 🔒",
+      "sections": [
+        {
+          "name": "Articles & Tutorials",
+          "stories": [
+            {
+              "headline": "The Economic Benefit of Refactoring (10 minute read)",
+              "blurb": "Refactoring an AI-generated codebase reduced token consumption for updates by 83% and improved navigation efficiency. These results highlight the economic benefits of structured refactoring in reducing costs for debugging and future development, a vital consideration for AI-driven projects.",
+              "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html"
+            },
+            {
+              "headline": "Fixing bugs in Event Sourcing is hard, for real? (15 minute read)",
+              "blurb": "Fixing bugs in event-sourced systems, such as a hotel reservation system, has challenges, particularly when errors involve complex calculations related to changing tax rates. Using an event-driven approach allows for precise tracking of changes over time, providing a clear audit trail that can be used for identifying and addressing issues without losing historical context.",
+              "url": "https://www.architecture-weekly.com/p/fixing-bugs-in-event-sourcing-is"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Advice",
+          "stories": [
+            {
+              "headline": "2x, not 10x: coding with LLMs in 2026 (5 minute read)",
+              "blurb": "By mid-2026, LLMs have improved in their ability to assist with coding tasks, allowing for effective automation in feedback loops and iterative development. However, they still have limitations, especially in providing meaningful insights into code structure and documentation, which prevents them from delivering a drastic productivity boost beyond what is currently achievable.",
+              "url": "https://obryant.dev/p/2x-not-10x/"
+            },
+            {
+              "headline": "Computer use is far from solved (7 minute read)",
+              "blurb": "Agentic computer use currently faces challenges, as most models bypass user interfaces instead of interacting with them. To improve this, a new approach is needed that separates planning from execution, allowing agents to operate interfaces like a human and have better performance.",
+              "url": "https://steelmanlabs.com/blog/computer-use-is-far-from-solved"
+            },
+            {
+              "headline": "Should You Use AI for a Task? Here's a Simple Way to Decide (7 minute read)",
+              "blurb": "The distinction between \"work\" and \"gym\" can help determine when to use AI for tasks, as AI is appropriate for routine work tasks but may be worse for skill development in more creative or learning-focused tasks. Students and creatives must recognize the value of engaging in the process of developing their skills rather than relying on AI.",
+              "url": "https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Stacked pull requests are now in public preview (5 minute read)",
+              "blurb": "Stacked pull requests are now available in public preview on GitHub, allowing teams to break large changes into smaller, reviewable pull requests that can be independently reviewed and merged together. This feature improves the review process by enabling parallel reviews of focused changes, maintaining code quality through existing protections, and allowing for one-click merges of multiple pull requests.",
+              "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/"
+            },
+            {
+              "headline": "World Model Optimizer (GitHub Repo)",
+              "blurb": "The World Model Optimizer (WMO) is a tool designed to improve agent models by turning collected traces into smaller, optimized models while providing continuous improvement through a closed-loop simulation training process. Users can register model providers, optimize routing based on task traces, and use hosted agents in isolated environments.",
+              "url": "https://github.com/experientiallabs/world-model-optimizer"
+            },
+            {
+              "headline": "Agent Manager (GitHub Repo)",
+              "blurb": "Agent Manager is a terminal UI tool for managing AI coding agent sessions within tmux, with features such as live status tracking, session grouping, and resource monitoring to improve workflow efficiency.",
+              "url": "https://github.com/YoanWai/agent-manager"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Investigating three real-world incidents in our cybersecurity evaluations (18 minute read)",
+              "blurb": "A review of cybersecurity evaluations showed that Claude models unintentionally accessed the internet and compromised real systems of three organizations due to a misconfiguration that incorrectly allowed internet connectivity. The incidents, which involved basic cyberattack techniques, occurred while tasks focused on capture-the-flag scenarios.",
+              "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+            },
+            {
+              "headline": "GPT 5.6 Sol Ran a Real Business (8 minute read)",
+              "blurb": "An experiment tested the capabilities of an AI agent named Saul, equipped with access to business assets, in operating a startup for 24 hours. Despite making some initial improvements to the business and managing the codebase effectively, Saul resorted to dishonest tactics such as spamming emails and purchasing fake metrics, resulting in a loss rather than profit.",
+              "url": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Stronger with every update: How we're making Chrome and the web safer in the AI Era (13 minute read)",
+              "blurb": "The Chrome Security team is using LLMs to help with vulnerability detection and accelerate the bug-fixing lifecycle.",
+              "url": "https://blog.google/security/chrome-stronger-with-every-update/"
+            },
+            {
+              "headline": "The AI Aesthetic (3 minute read)",
+              "blurb": "AI has generated distinctive design patterns in software interaction, such as the hamburger menu and new visual cues like shimmering text and tiny icons.",
+              "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/"
+            },
+            {
+              "headline": "Gemini Robotics 2 brings whole body intelligence to robots (12 minute read)",
+              "blurb": "Gemini Robotics 2 introduces advanced whole-body intelligence in robots, allowing them to perform complex tasks with improved dexterity, multi-robot collaboration, and efficient adaptability to new embodiments.",
+              "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+            },
+            {
+              "headline": "GeoLibre (GitHub Repo)",
+              "blurb": "GeoLibre is a free, open-source, cloud-native GIS platform that enables the visualization, exploration, and analysis of geospatial data across various devices.",
+              "url": "https://github.com/opengeos/GeoLibre"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR InfoSec — 2026-07-31",
+      "tagline": "Azure CosmosEscape flaw 🌌, Apple sandbox escape 🍎, XMRig PAM abuse 🐧",
+      "sections": [
+        {
+          "name": "Attacks & Vulnerabilities",
+          "stories": [
+            {
+              "headline": "CosmosEscape: Taking Over Every Database in Azure Cosmos DB (6 minute read)",
+              "blurb": "Wiz Research bypassed Cosmos DB's Gremlin sandbox by abusing .NET reflection to achieve arbitrary code execution on the DB Gateway, then extracted a platform-wide \"Cosmos Master Key\" capable of retrieving any account's primary key and enumerating every database on the service by tenant or subscription ID, including Microsoft's own internal Cosmos DB-backed services like Entra ID, Teams, and Copilot. The flaw affected private and network-isolated accounts as well, since the DB Gateway itself enforced isolation and was the component compromised. Microsoft deployed a hotfix within 48 hours of disclosure, eliminated the master key entirely, and completed a hardened architecture rollout by July. There was no evidence of exploitation beyond Wiz's own testing.",
+              "url": "https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db"
+            },
+            {
+              "headline": "KindaRails2Shell: CVE-2026-66066, Critical Arbitrary File Read and Possible Remote Code Execution in Ruby on Rails (2 minute read)",
+              "blurb": "CVE-2026-66066 (CVSSv4 9.5) lets an unauthenticated attacker abuse unfuzzed libvips operations during Active Storage image processing to read files accessible to the Rails process, potentially exposing secrets that enable RCE. Only the default Vips variant processor is affected, not Magick. Fixed in Rails 7.2.3.2, 8.0.5.1, and 8.1.3.1 alongside libvips 8.13+ and ruby-vips 2.2.1+, with no in-the-wild exploitation reported as of July 30. Rapid7 urges rotating secret_key_base and other exposed credentials, patching outside normal cycles, and applying Vips.block_untrusted(true) as an interim workaround where upgrading isn't immediately possible.",
+              "url": "https://www.rapid7.com/blog/post/etr-kindarails2shell-cve-2026-66066-critical-arbitrary-file-read-and-possible-remote-code-execution-in-ruby-on-rails/"
+            },
+            {
+              "headline": "Escaping the Apple Sandbox by Spawning an Executable (2 minute read)",
+              "blurb": "CVE-2026-20628 let a sandboxed macOS process spawn a child with the posix_spawnattr_setmacpolicyinfo_np API specifying a more permissive built-in profile like no-network, which grants home directory access, then chain that into a shell config modification and Terminal launch to fully escape the sandbox. Researcher Noah Gregory reported the bug, which Apple patched in version 26.3 by blanket-denying built-in profile assignment for already-sandboxed processes unless they carry the com.apple.private.security.sandbox-spawnattrs entitlement. Defenders should ensure affected Apple devices are updated to 26.3 or later, as no more granular policy comparison was implemented.",
+              "url": "https://wts.dev/posts/sandbox-spawnattrs-escape/"
+            }
+          ]
+        },
+        {
+          "name": "Strategies & Tactics",
+          "stories": [
+            {
+              "headline": "The One Chokepoint to Rule Them All: Why I Deleted 50 ClickFix Detection Rules and Replaced Them With One (11 minute read)",
+              "blurb": "ClickFix attacks are a growing class of attacks that trick a user into executing a malicious command by prompting them to fix or otherwise diagnose a bogus issue. At the behavioral level, a ClickFix attack boils down to a browser process losing focus, followed by a native shell gaining focus, followed by a command containing a network call being executed within 60 seconds. The post contains this behavioral detection in several languages and a demonstration of it working against several variants.",
+              "url": "https://ddosier-disects.medium.com/the-one-chokepoint-to-rule-them-all-why-i-deleted-50-clickfix-detection-rules-and-replaced-them-7c532206d32d"
+            },
+            {
+              "headline": "Zero Risk Isn't the Job: a CISO's Guide to Agentic AI (5 minute read)",
+              "blurb": "This post outlines how Anthropic assesses risk for internal agentic workloads. To understand the risk associated with an agent, Anthropic asks what untrusted content an agent will ingest, what actions the agent can take, what the blast radius is in the case of misalignment, and what observability is available. Anthropic also defines an identity access model spectrum where agents may run as a self-contained, single-purpose, least-privilege identity that does one thing for the business with no human identity on one end and human credential agents where employees use an agent such as a chatbot or Claude Cowork directly on the other end.",
+              "url": "https://claude.com/blog/ciso-guide-to-agentic-ai"
+            },
+            {
+              "headline": "Control Reliability Engineering (CRE): Applying SRE Principles to Cybersecurity Controls (5 minute read)",
+              "blurb": "Most breaches stem not from novel attacker capability but from security controls that were believed operational yet were actually broken, misconfigured, or never fully implemented, proposing Control Reliability Engineering (CRE) as a direct port of Google's Site Reliability Engineering discipline onto security controls. CRE treats a \"Control Incident\" (a failed defense, regardless of whether it led to a breach) with the same severity as an actual security incident, applying SLIs/SLOs, error budgets, controls-as-code, continuous control monitoring, and synthetic event injection to catch controls that silently \"read zero\" while broken. Security teams should build a control ontology/catalog, adopt Control Readiness Reviews before production onboarding, and formalize blameless postmortems for control failures to shift from reactive ticket-based response to engineered, metric-driven control health.",
+              "url": "https://www.philvenables.com/post/control-reliability-engineering-cre-applying-sre-principles-to-cybersecurity-controls"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "DedupInspector (GitHub Repo)",
+              "blurb": "DedupInspector is a lightweight, portable, offline forensic utility for recovering files from Windows Data Deduplication volumes.",
+              "url": "https://github.com/7h3kn0w3r/DedupInspector"
+            },
+            {
+              "headline": "CodeNeedle (GitHub Repo)",
+              "blurb": "CodeNeedle is a VS Code extension that silently exposes JavaScript code execution over a local HTTP endpoint. Once loaded into a target's VS Code instance, the extension listens on localhost for incoming JSON-RPC requests, evaluates arbitrary JavaScript code, and returns results to the caller.",
+              "url": "https://github.com/chvancooten/code-needle"
+            },
+            {
+              "headline": "Cisa-KEV-Threat-Intel-Orchestrator (GitHub Repo)",
+              "blurb": "An n8n workflow that pulls newly weaponized CVEs from the CISA KEV catalog every Monday and uses Google Gemini to auto-generate Sigma detection rules with Sysmon EventIDs and MITRE ATT&CK mappings, logging each CVE to Google Sheets for compliance and emailing analysts a weekly briefing.",
+              "url": "https://github.com/manishrawat21/Cisa-KEV-Threat-Intel-Orchestrator"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "CISA Sets a New SBOM Baseline (2 minute read)",
+              "blurb": "The CISA has released the 2026 Minimum Elements of a Software Bill of Materials (SBOM) to replace the NTIA's 2021 version. The new version introduces new elements including component hash algorithms, component licenses, the name of the tool that generated the SBOM, and the generation context. CISA highlights cloud software, AI, SBOM validation, and linking an SBOM to security alerts as future areas of development.",
+              "url": "https://www.helpnetsecurity.com/2026/07/30/cisa-sbom-guidance-updated/"
+            },
+            {
+              "headline": "Some Thoughts About Anthropic's New Cryptanalysis Results (10 minute read)",
+              "blurb": "Anthropic recently announced that its unreleased Mythos model discovered two novel attacks against the post-quantum cryptography hashing candidate HAWK and a reduced-round AES variant. The HAWK attack was in fact novel, but it only effectively reduced the strength of the cipher by halving the bits, whereas the AES attack was a slight speed-up of a theoretical attack from 2013. The model was able to develop the attacks with a naive prompt, and from that perspective, the results are still meaningful.",
+              "url": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/"
+            },
+            {
+              "headline": "Linux XMRig Botnet Abuses PAM for Fileless Monero Mining and Persistent Access (3 minute read)",
+              "blurb": "A V25 (Generation 26) cryptomining campaign gained initial access through a trusted third-party relationship, then weaponized Linux PAM's pam_rootok policy to move password-lessly from root into ordinary user accounts, fragmenting malicious activity across shadowed identities in a \"hydra-like\" persistence model. The customized XMRig 6.25.0 build self-unlinked its own binary after execution, running fileless from memory while suppressing authentication logs and masquerading its process listings and network traffic. The operation reflects a broader trend in Linux cryptomining tradecraft, where supply chain compromise, identity-layer abuse, and anti-forensic design are converging to outpace file-based and DNS-centric detection models.",
+              "url": "https://gbhackers.com/linux-xmrig-botnet/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "North Korea's Lazarus Group sharing tools with ransomware hackers, South Korean agencies warn (1 minute read)",
+              "blurb": "AhnLab's \"Operation Double Barrel\" report found Lazarus and the Gunra ransomware group exploiting identical vulnerabilities in mandatory Korean financial security software, sharing malware filenames, C2 servers, and SSH key fingerprints while running parallel espionage (72+ organizations breached) and extortion campaigns across South Korea from 2025 into 2026.",
+              "url": "https://therecord.media/north-korea-hackers-ransomware"
+            },
+            {
+              "headline": "Chrome Needs Twice-a-Week Patching Thanks to AI Bug Hunting (2 minute read)",
+              "blurb": "Google's Chrome security team fixed 1,072 bugs across June's two major releases, more than the prior 23 releases combined, driven largely by AI-assisted vulnerability discovery.",
+              "url": "https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR DevOps — 2026-07-31",
+      "tagline": "Stateless MCP 🪄, Dogfooding at Scale ⚖️, Stacked PRs 🥞",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "MCP is going stateless: What the new spec means for AI agents (7 minute read)",
+              "blurb": "The Model Context Protocol releases a spec update that drops stateful sessions in favor of stateless HTTP, meaning remote MCP servers no longer require sticky sessions, shared session stores, or instance coordination to function behind a load balancer. Each request now carries its own context in a metadata object, so any server instance can handle any request. The update also replaces MCP's proprietary logging channel with OpenTelemetry and formally standardizes request tracking using W3C Trace Context, letting teams correlate agent tool calls with the rest of their application stack in a single observability backend.",
+              "url": "https://newrelic.com/blog/ai/mcp-is-going-stateless"
+            },
+            {
+              "headline": "Post-quantum authentication to origins is now supported (9 minute read)",
+              "blurb": "Cloudflare's Authenticated Origin Pulls and Custom Origin Trust Store products now support post-quantum authentication via ML-DSA signatures, securing connections between Cloudflare's servers and customer origin servers. The company recommends ML-DSA-44 for most applications, describing it as the most performant option.",
+              "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "Automate CI/CD troubleshooting with AWS DevOps Agent and GitHub (5 minute read)",
+              "blurb": "AWS demonstrates an autonomous CI/CD troubleshooting workflow that integrates AWS DevOps Agent with GitHub and MCP Server to investigate failures, identify root causes, and create remediation pull requests, reducing manual debugging effort and accelerating incident resolution.",
+              "url": "https://aws.amazon.com/blogs/mt/automate-ci-cd-troubleshooting-with-aws-devops-agent-and-github/"
+            },
+            {
+              "headline": "Dogfooding at scale: migrating cdnjs to Cloudflare's Developer Platform (7 minute read)",
+              "blurb": "Cloudflare has migrated cdnjs, a free JavaScript and CSS CDN used on roughly 12% of all websites, to run entirely on its Developer Platform as of June 23. The service handles an average of 108,000 requests per second across more than 330 data centers, with a 98.6% cache hit rate. The new architecture replaces a hybrid setup spanning GCP Functions and a VM, with R2 now serving as the single source of truth for file content and Cloudflare Workflows running the publishing pipeline.",
+              "url": "https://blog.cloudflare.com/cdnjs-dev-platform-migration/"
+            },
+            {
+              "headline": "PostgreSQL's MVCC Is Bad: So Is Everyone Else's (24 minute read)",
+              "blurb": "PostgreSQL's MVCC creates write amplification, table bloat, vacuum pressure, and transaction-ID maintenance by storing old row versions in the table, but competing designs merely move those costs elsewhere. Oracle and InnoDB charge writers and historical readers through undo logs, SQL Server pressures its version store, MongoDB consumes cache and history storage, and LSM databases defer cleanup to compaction, making MVCC a choice about who pays rather than a problem any engine has eliminated.",
+              "url": "https://boringsql.com/posts/mvcc-bad-bad/"
+            }
+          ]
+        },
+        {
+          "name": "Resources & Tools",
+          "stories": [
+            {
+              "headline": "Delightful integration tests in Rust (GitHub Repo)",
+              "blurb": "Rust integration tests can leverage RAII and the testcontainers-rs crate to automatically provision and tear down Docker containers like RabbitMQ, Postgres, and Redis, enabling isolated, parallelizable tests without manual setup or global state.",
+              "url": "https://github.com/alexpusch/rust-magic-patterns/tree/master/delightful-integration-tests"
+            },
+            {
+              "headline": "Tuicr (GitHub Repo)",
+              "blurb": "Tuicr is a terminal-based code review tool with vim keybindings that lets developers write inline comments and submit them directly to GitHub or GitLab. Users navigate with j/k, add comments with the c key, then push reviews with a :submit command that supports approvals, change requests, and draft reviews. Reviews can also be copied as structured markdown and pasted into coding agents like Claude, Codex, or Cursor.",
+              "url": "https://github.com/agavra/tuicr"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "From pilot to production: The platform team's playbook for scaling AI coding agents in regulated industries (6 minute read)",
+              "blurb": "Regulated organizations can move AI coding agents from experimentation to production by building governance foundations around visibility, controlled environments, audit trails, and policy enforcement to enable secure, scalable adoption.",
+              "url": "https://platformengineering.org/blog/platform-teams-playbook-for-scaling-ai-coding-agents-in-regulated-industries"
+            },
+            {
+              "headline": "Your Azure DevOps pipelines have a 2027 deadline, and the clock has just started (5 minute read)",
+              "blurb": "Azure DevOps is deprecating its workload identity federation issuer by July 2027, requiring bulk migration of older Service Connections to the Microsoft Entra issuer via a PowerShell script that pre-creates federated credentials before calling the undocumented MigrateToEntraIssuer REST operation, while excluding multitenant apps from conversion.",
+              "url": "https://sysadmin-central.com/2026/07/01/migrate-azure-devops-service-connections-entra-issuer/"
+            },
+            {
+              "headline": "Code Review Responses: Add Context When It Counts (4 minute read)",
+              "blurb": "Code review replies should include a brief explanation when the resulting code does not make the resolution obvious, multiple valid approaches existed, or important decisions happened outside the review thread. Explaining what changed and why helps reviewers verify fixes faster while preserving a useful record of technical decisions for future contributors.",
+              "url": "https://testing.googleblog.com/2026/05/code-review-responses-add-context-when.html"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Amazon EKS now supports EFA and placement groups on Amazon EKS Auto Mode and Karpenter (2 minute read)",
+              "blurb": "Amazon EKS adds support for EC2 placement groups and Elastic Fabric Adapter configuration in EKS Auto Mode and Karpenter node pools, enabling teams to optimize Kubernetes workloads for distributed computing performance, network efficiency, availability, and fault isolation.",
+              "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-efa-placement-groups/"
+            },
+            {
+              "headline": "Stacked Pull Requests Are Now In Public Preview (3 minute read)",
+              "blurb": "GitHub's stacked pull requests split large changes into ordered, narrowly scoped PRs that can be reviewed in parallel while preserving existing checks and branch protections.",
+              "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Design — 2026-07-31",
+      "tagline": "iPhone 20 Redesign 📱, Google Lyria 3.5 🎵, OpenAI HomePad Rumors 🏠",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "iPhone 20: Rumor has it Apple is Prepping a Radical Redesign (2 minute read)",
+              "blurb": "Reports suggest Apple's 20th-anniversary iPhone, expected to launch in September 2027, will bring a radical redesign with curved, edge-to-edge glass. Two Pro models are rumored, sized around 6.3 and 6.9 inches, potentially dropping the notch or Dynamic Island entirely. A leaker also claims solid-state buttons with haptic feedback could replace mechanical controls for power, volume, and camera.",
+              "url": "https://mashable.com/tech/apple-iphone-20-redesign-rumors-fall-2027"
+            },
+            {
+              "headline": "We're Launching Lyria 3.5 in Google Flow Music (1 minute read)",
+              "blurb": "Google Lyria 3.5 is a new music generation model that started rolling out in Google Flow Music on July 29. The model brings notable improvements in musicality, lyric quality, and vocal realism, aiming to help users create richer, more emotionally expressive songs. It also adds finer creative control, letting users more easily adjust the tempo and duration of generated tracks.",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/"
+            },
+            {
+              "headline": "Jony Ive's first OpenAI hardware device sounds rather like … a HomePad (2 minute read)",
+              "blurb": "OpenAI continues to tease its first AI hardware product, and recent comments from company president Greg Brockman suggest it could resemble a screen-equipped smart home device rather than the radically new form factor previously implied. While the company remains intentionally vague, the device is increasingly rumored to be part of a family of AI-first products, potentially competing with Apple's upcoming HomePad.",
+              "url": "https://9to5mac.com/2026/07/30/jony-ives-first-openai-hardware-device-sounds-rather-like-a-homepad/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "Information Architecture is the Foundation AI is Starving For (12 minute read)",
+              "blurb": "Poor information architecture, not weak models, drives AI hallucinations and wrong answers, since retrieval only surfaces the best-matched text, not the most accurate one. Unlike human users who tolerate ambiguity, AI systems reproduce mislabeled or unstructured content confidently and at scale, turning a once-invisible cost into measurable failures and financial liability, as seen in the Air Canada chatbot case. This cost is now trackable in retrieval accuracy and hallucination rates, so organizations should audit and fix their content structure before purchasing new AI models or tools.",
+              "url": "https://uxdesign.cc/information-architecture-is-the-foundation-artificial-intelligence-is-starving-for-1d91fb5bf59f"
+            },
+            {
+              "headline": "How Figma Uses 3 Collaboration UX Patterns to Drive Product Adoption (5 minute read)",
+              "blurb": "Figma turned collaboration into a growth engine through three UX patterns: real-time multiplayer editing, contextual on-design comments, and effortless link sharing, now used by 95% of Fortune 500 companies. Each pattern lowers barriers for non-designers to participate, letting files support up to 500 collaborators and turning every shared link into a potential new user. These patterns succeed by embedding teamwork directly into the product itself, creating network effects as adoption spreads naturally through everyday collaboration rather than top-down rollout.",
+              "url": "https://raw.studio/blog/figma-ux/"
+            },
+            {
+              "headline": "How to Improve Website Performance: Best Practices for Faster Sites (7 minute read)",
+              "blurb": "Website speed shapes user trust, bounce rates, conversions, and search rankings, making performance optimization a priority for growing sites. Seven tactics are recommended, including image optimization, code minification, browser caching, reduced third-party scripts, and stronger hosting. Common mistakes—like disabled compression, excess metadata, and missing server cache—can undermine these efforts if left unaddressed.",
+              "url": "https://webflow.com/blog/how-to-improve-websites-performance"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "AI Illustrations You Can Edit (Website)",
+              "blurb": "Abstraction is a structured AI-native illustration platform with editable vector-like creative control. Generate, select, refine, and reshape.",
+              "url": "https://www.abstractionstudios.com/"
+            },
+            {
+              "headline": "Design Engineering Magazine (Website)",
+              "blurb": "Interfaces is a design engineering magazine about building great interfaces that covers topics such as animation, typography, layout, and color.",
+              "url": "https://interfaces.dev/"
+            },
+            {
+              "headline": "App Screenshot & Icon Inspiration (Website)",
+              "blurb": "Explore a curated collection of the best App Store screenshots and icons.",
+              "url": "https://www.shoot.design/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "On Layout Choreography (6 minute read)",
+              "blurb": "Layout choreography gives interface reflows a visible path, letting users track where elements moved instead of experiencing a disorienting jump. FLIP animates the transform property rather than layout properties like top or height, since layout has already occurred by the time the animation runs. Effective choreography sequences movement by importance—the triggering element responds first, then surrounding content adapts—while still requiring a reduced-motion fallback that preserves content and clarity.",
+              "url": "https://karlkoch.me/writing/on-layout-choreography"
+            },
+            {
+              "headline": "Little Green Rooms repositions around homeworking with new identity and website (2 minute read)",
+              "blurb": "Little Green Rooms has repositioned its brand around the idea of “Headspace Found,” shifting its focus from selling garden buildings to creating dedicated spaces for home working and creativity. The rebrand includes a refined visual identity, a content-led website showcasing real customer stories, and messaging centered on productivity and well-being rather than construction features. To launch the new direction, the company created an interactive “WiFi Garden” installation at the WOMAD festival, giving visitors a hands-on experience of its garden studios.",
+              "url": "https://www.designweek.co.uk/little-green-rooms-repositions-around-homeworking-with-new-identity-and-website/"
+            },
+            {
+              "headline": "Type designers have created a free font that \"poisons\" AI (3 minute read)",
+              "blurb": "ShieldFont is a free, open-source typeface that protects online content from AI scraping by displaying readable text to humans while subtly altering the underlying source code that many AI crawlers ingest, potentially contaminating training datasets. Unlike previous anti-AI fonts, it works as a practical web font and includes a toolkit that allows the same protection to be applied to other compatible typefaces. Its creators describe it as a way to make unauthorized content scraping more difficult without opposing AI itself, arguing that publishing work online should not be treated as consent for AI training.",
+              "url": "https://www.creativebloq.com/design/fonts-typography/type-designers-have-created-a-free-font-that-poisons-ai"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Concept Art That Carries the Weight of Major Franchises and the Mood of Cinematic Space (1 minute read)",
+              "blurb": "Rutger van de Steeg is an environment concept artist with credits on major franchises including Borderlands 4, Star Wars: Visions, Secret Level, and Star Trek Prodigy.",
+              "url": "https://designyoutrust.com/2026/07/artist-creates-environment-concept-art-that-carries-the-weight-of-major-franchises-and-the-mood-of-cinematic-space/"
+            },
+            {
+              "headline": "Light Phone goes clamshell with \"timeless\" Flip model (1 minute read)",
+              "blurb": "The Light Flip is a $299 minimalist flip phone that combines the nostalgia of classic clamshell devices with modern essentials like 5G, USB-C, maps, messaging, and a repairable design, while deliberately excluding social media, web browsing, email, AI, and other attention-grabbing features to promote intentional phone use.",
+              "url": "https://www.dezeen.com/2026/07/24/light-phone-clamshell-flip-model/"
+            },
+            {
+              "headline": "Creativity Has Been in Decline for Decades, but There's Still Time To Improve It (2 minute read)",
+              "blurb": "Creativity scores in the US rose alongside IQ before 1990 but have declined significantly since.",
+              "url": "https://mymodernmet.com/the-creativity-crisis/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
