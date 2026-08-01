@@ -36,10 +36,11 @@ class Settings:
     telegram_bot_token: str
     telegram_chat_id: str
     opencode_api_key: str = ""  # optional — empty means no AI summarization
-    # Default endpoint is the opencode Go subscription; pay-as-you-go Zen is
-    # https://opencode.ai/zen/v1/chat/completions (set OPENCODE_API_URL).
-    opencode_api_url: str = "https://opencode.ai/zen/go/v1/chat/completions"
-    opencode_model: str = "deepseek-v4-flash"
+    # Any OpenAI-compatible chat/completions endpoint works; the OPENCODE_*
+    # names are historical. Default is Gemini's compatibility endpoint —
+    # OPENCODE_API_KEY then holds a Gemini API key (https://ai.google.dev).
+    opencode_api_url: str = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+    opencode_model: str = "gemini-3.5-flash"
     state_path: Path = field(default_factory=lambda: PROJECT_ROOT / "data" / "state.json")
     categories: tuple[str, ...] = tuple(CATEGORIES)
 
@@ -71,6 +72,6 @@ def load_settings(require_telegram: bool = True) -> Settings:
         telegram_chat_id=os.environ.get("TELEGRAM_CHAT_ID", ""),
         opencode_api_key=os.environ.get("OPENCODE_API_KEY", ""),
         opencode_api_url=os.environ.get("OPENCODE_API_URL")
-        or "https://opencode.ai/zen/go/v1/chat/completions",
-        opencode_model=os.environ.get("OPENCODE_MODEL") or "deepseek-v4-flash",
+        or "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+        opencode_model=os.environ.get("OPENCODE_MODEL") or "gemini-3.5-flash",
     )

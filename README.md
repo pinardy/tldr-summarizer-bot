@@ -6,7 +6,7 @@
 
 A personal Telegram bot for [TLDR](https://tldr.tech) newsletters with two surfaces, both running free:
 
-1. **Scheduled digest (push)** — twice a day, GitHub Actions fetches the latest issues of six TLDR newsletters, merges them into one deduplicated, themed digest via the opencode API, and sends it to Telegram.
+1. **Scheduled digest (push)** — twice a day, GitHub Actions fetches the latest issues of six TLDR newsletters, merges them into one deduplicated, themed digest via an LLM (Gemini by default), and sends it to Telegram.
 2. **Conversation (pull)** — a Cloudflare Worker receives your Telegram messages via webhook in real time: build a digest on demand, ask about a topic, or free-form Q&A grounded in today's stories.
 
 Covered newsletters: **Tech, AI, IT, Web Dev, InfoSec, DevOps, Design, Data**
@@ -31,9 +31,9 @@ Covered newsletters: **Tech, AI, IT, Web Dev, InfoSec, DevOps, Design, Data**
                                ├─ secret-token + chat-id gating
                                ├─ KV: story cache, digest cache,
                                │      update dedup, chat history
-                               └─ opencode API for merging & Q&A
+                               └─ LLM API (Gemini) for merging & Q&A
 
-  Both paths share:  tldr.tech/{category}/{date}  and  the opencode Go API
+  Both paths share:  tldr.tech/{category}/{date}  and  the Gemini API (OpenAI-compatible)
 ```
 
 **Data flow (Python push pipeline, `src/tech_news_summarizer/`):**
@@ -45,10 +45,10 @@ Covered newsletters: **Tech, AI, IT, Web Dev, InfoSec, DevOps, Design, Data**
 | Send | `telegram.py` | One HTML message via the Bot API, split at 4096 chars if needed. |
 | Dedup | `state.py` | `data/state.json` records the last sent issue date per newsletter; committed back to the repo by the workflow (Actions runners are ephemeral). |
 
-**Fallback chain:** no opencode key, `--no-ai`, or the AI call fails → one full parsed digest per newsletter (TLDR's own blurbs verbatim). A failing newsletter never blocks the others; if *everything* fails, the bot sends a warning message and the run exits non-zero.
+**Fallback chain:** no LLM API key, `--no-ai`, or the AI call fails → one full parsed digest per newsletter (TLDR's own blurbs verbatim). A failing newsletter never blocks the others; if *everything* fails, the bot sends a warning message and the run exits non-zero.
 
 **Worker (`worker/src/`):** `index.ts` (webhook auth, update-id dedup, routing) → `commands.ts` (`/digest`, `/news`, Q&A with short conversation memory) → `tldr.ts` (TypeScript port of the parser + KV story cache) /
-`ai.ts` (opencode client). Slow LLM work runs within the request lifetime — Cloudflare cancels `ctx.waitUntil` work after 30s, shorter than a digest build — and Telegram's webhook retries are neutralized by the update-id dedup. Digests are KV-cached for 6h, so repeat `/digest` replies in seconds.
+`ai.ts` (LLM API client). Slow LLM work runs within the request lifetime — Cloudflare cancels `ctx.waitUntil` work after 30s, shorter than a digest build — and Telegram's webhook retries are neutralized by the update-id dedup. Digests are KV-cached for 6h, so repeat `/digest` replies in seconds.
 
 ## Setup
 
@@ -57,11 +57,11 @@ Covered newsletters: **Tech, AI, IT, Web Dev, InfoSec, DevOps, Design, Data**
 - Message [@BotFather](https://t.me/BotFather), send `/newbot`, copy the token (`TELEGRAM_BOT_TOKEN`).
 - Send any message to your new bot, then open `https://api.telegram.org/bot<TOKEN>/getUpdates` and copy `result[0].message.chat.id` (`TELEGRAM_CHAT_ID`).
 
-### 2. opencode API
+### 2. LLM API (Gemini by default)
 
-An [opencode](https://opencode.ai) key (`OPENCODE_API_KEY`, from the Zen console) powers the merging and Q&A. Defaults target the **opencode Go subscription** (`deepseek-v4-flash` at `…/zen/go/v1/chat/completions`); pay-as-you-go Zen users set `OPENCODE_API_URL=https://opencode.ai/zen/v1/chat/completions`. The key is optional for the push pipeline (fallback: parsed digests) but required for the conversational worker's AI features.
+An LLM API key (`OPENCODE_API_KEY` — the name is historical) powers the merging and Q&A. The default endpoint is **Gemini's OpenAI-compatible API** (`gemini-3.5-flash` at `generativelanguage.googleapis.com/v1beta/openai/chat/completions`), so the easiest setup is a free [Gemini API key from Google AI Studio](https://ai.google.dev). The key is optional for the push pipeline (fallback: parsed digests) but required for the conversational worker's AI features.
 
-For the scheduled pipeline, the model and endpoint can be overridden without a code change via GitHub **repository variables** (Settings → Secrets and variables → Actions → Variables): set `OPENCODE_MODEL` and/or `OPENCODE_API_URL`. Useful when a model becomes unavailable (e.g. region-gated) — switch models by editing the variable; unset variables fall back to the defaults above.
+Any OpenAI-compatible chat/completions endpoint works — set `OPENCODE_API_URL` and `OPENCODE_MODEL` to switch (e.g. back to opencode Go: `https://opencode.ai/zen/go/v1/chat/completions` with `deepseek-v4-flash`). For the scheduled pipeline these can be set without a code change via GitHub **repository variables** (Settings → Secrets and variables → Actions → Variables); for the worker, via `wrangler.toml` `[vars]`. Unset overrides fall back to the Gemini defaults.
 
 ### 3. Scheduled digest (GitHub Actions)
 
