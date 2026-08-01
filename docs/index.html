@@ -63,18 +63,25 @@
     font-family: Georgia, "Times New Roman", serif;
     line-height: 1.5;
   }
-  header { max-width: 900px; margin: 0 auto; padding: 24px 16px 0; text-align: center; }
-  header img { max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--rule); filter: var(--banner-dim); }
+  /* Compact masthead: the news should start near the top of the first screen,
+     so the banner is a capped strip rather than a full-height image. */
+  header { max-width: 900px; margin: 0 auto; padding: 16px 16px 0; text-align: center; position: relative; }
+  header img {
+    width: 100%; max-height: 110px; object-fit: cover; object-position: center 35%;
+    border-radius: 10px; border: 1px solid var(--rule); filter: var(--banner-dim);
+  }
+  /* Inside the header (over the banner corner) so it scrolls away with it
+     instead of floating over article text. */
   #theme-toggle {
-    position: fixed; top: 12px; right: 12px; z-index: 10;
+    position: absolute; top: 26px; right: 26px;
     width: 40px; height: 40px; font-size: 1.1rem; line-height: 1;
     background: var(--card); color: var(--ink);
     border: 1px solid var(--rule); border-radius: 50%;
     cursor: pointer;
   }
   #theme-toggle:hover { border-color: var(--accent); }
-  h1 { font-size: 1.6rem; margin: 16px 0 4px; }
-  .subtitle { color: var(--muted); font-style: italic; margin: 0 0 20px; }
+  h1 { font-size: 1.4rem; margin: 10px 0 0; }
+  .subtitle { color: var(--muted); font-style: italic; margin: 0 0 12px; font-size: 0.9rem; }
   .layout {
     max-width: 900px; margin: 0 auto; padding: 0 16px 48px;
     display: grid; grid-template-columns: 170px 1fr; gap: 24px;
@@ -85,41 +92,76 @@
     .layout nav { order: 2; }
     .layout main { order: 1; }
   }
+  /* Desktop: keep the date nav in view while scrolling the digest. */
+  @media (min-width: 641px) {
+    .layout nav { position: sticky; top: 16px; align-self: start; }
+  }
   nav h2, main h2 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); border-bottom: 2px solid var(--ink); padding-bottom: 4px; }
   nav ul { list-style: none; padding: 0; margin: 0; }
   #dates { max-height: 70vh; overflow-y: auto; }
+  /* On mobile the dates list sits at the page bottom; give it full height
+     instead of a nested scrollbar. (Must come after the base #dates rule.) */
+  @media (max-width: 640px) {
+    #dates { max-height: none; overflow-y: visible; }
+  }
   nav summary {
-    cursor: pointer; padding: 6px 8px; font-weight: bold;
+    cursor: pointer; padding: 10px 8px; font-weight: bold;
     font-variant-numeric: tabular-nums; user-select: none;
   }
   nav summary:hover { background: var(--card); }
   nav details ul { padding-left: 10px; }
   nav a {
-    display: block; padding: 6px 8px; color: var(--ink); text-decoration: none;
+    display: block; padding: 10px 8px; color: var(--ink); text-decoration: none;
     border-left: 3px solid transparent; font-variant-numeric: tabular-nums;
   }
   nav a:hover { background: var(--card); }
   nav a.active { border-left-color: var(--accent); background: var(--card); font-weight: bold; }
-  article.digest {
-    background: var(--card); border: 1px solid var(--rule); border-radius: 10px;
-    padding: 20px 24px; margin-bottom: 20px;
+  /* Prev/next day switcher next to the heading — switch days without
+     scrolling to the dates list. */
+  .day-nav { display: flex; align-items: center; gap: 8px; }
+  .day-nav h2 { flex: 1; margin: 0; }
+  .day-nav button {
+    font: inherit; font-size: 1.15rem; line-height: 1;
+    min-width: 44px; min-height: 40px;
+    background: var(--card); color: var(--ink);
+    border: 1px solid var(--rule); border-radius: 8px;
+    cursor: pointer;
   }
-  article.digest > h3 { margin: 0 0 2px; font-size: 1.25rem; }
-  .tagline { color: var(--muted); font-style: italic; margin: 0 0 14px; }
+  .day-nav button:hover:not(:disabled) { border-color: var(--accent); }
+  .day-nav button:disabled { opacity: 0.35; cursor: default; }
+  /* Newsletter cards are collapsible; on fallback days they start closed so
+     the page opens as a short list instead of ~100 stories. */
+  details.digest {
+    background: var(--card); border: 1px solid var(--rule); border-radius: 10px;
+    padding: 16px 24px; margin-bottom: 16px;
+  }
+  details.digest > summary { cursor: pointer; list-style: none; }
+  details.digest > summary::-webkit-details-marker { display: none; }
+  details.digest > summary::before { content: "▸ "; color: var(--accent); font-size: 0.9em; }
+  details.digest[open] > summary::before { content: "▾ "; }
+  details.digest > summary h3 { display: inline; margin: 0; font-size: 1.2rem; }
+  details.digest > summary .count { color: var(--muted); font-size: 0.85rem; margin-left: 8px; white-space: nowrap; }
+  .tagline { color: var(--muted); font-style: italic; margin: 6px 0 14px; }
   .section-name {
     font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.14em;
     color: var(--accent); border-bottom: 1px solid var(--rule);
     padding-bottom: 3px; margin: 18px 0 10px;
   }
-  .story { margin: 0 0 12px; }
+  /* Stories are <details>: the chevron signals tap-to-expand and the summary
+     is keyboard-focusable for free. */
+  details.story { margin: 0 0 10px; }
+  details.story > summary { cursor: pointer; list-style: none; }
+  details.story > summary::-webkit-details-marker { display: none; }
+  details.story > summary::before {
+    content: "▸"; color: var(--muted); font-size: 0.75em;
+    /* A padded chevron is an easier expand target next to the headline link. */
+    padding: 4px 10px 4px 2px; margin-right: 1px;
+  }
+  details.story[open] > summary::before { content: "▾"; }
   .story a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--accent); }
   .story a:hover { color: var(--accent); }
   .story .headline { font-weight: bold; }
-  .story .blurb { margin: 2px 0 0; color: var(--blurb); font-size: 0.95rem; }
-  /* Collapsed descriptions: titles only, tap a story to peek at one blurb. */
-  #content.collapsed .story { margin: 0 0 8px; cursor: pointer; }
-  #content.collapsed .story .blurb { display: none; }
-  #content.collapsed .story.open .blurb { display: block; }
+  .story .blurb { margin: 2px 0 0 18px; color: var(--blurb); font-size: 0.95rem; }
   .controls { display: flex; align-items: baseline; gap: 12px; margin-bottom: 16px; }
   .controls .meta { flex: 1; margin: 0; }
   #blurb-toggle {
@@ -136,9 +178,9 @@
 </style>
 </head>
 <body>
-<button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
 <header>
   <img src="banner.jpg" alt="TLDR digest bot">
+  <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   <h1>TLDR Digest Archive</h1>
   <p class="subtitle">Daily key points from the TLDR newsletters, by date</p>
 </header>
@@ -149,7 +191,11 @@
     <ul id="dates"></ul>
   </nav>
   <main>
-    <h2 id="current-date">&nbsp;</h2>
+    <div class="day-nav">
+      <button id="prev-day" aria-label="Older digest" title="Older digest" disabled>‹</button>
+      <h2 id="current-date">&nbsp;</h2>
+      <button id="next-day" aria-label="Newer digest" title="Newer digest" disabled>›</button>
+    </div>
     <div id="content"><p class="empty">Loading…</p></div>
   </main>
 </div>
@@ -167,6 +213,8 @@
   const datesEl = document.getElementById("dates");
   const contentEl = document.getElementById("content");
   const currentDateEl = document.getElementById("current-date");
+  const prevBtn = document.getElementById("prev-day");
+  const nextBtn = document.getElementById("next-day");
 
   function el(tag, className, text) {
     const node = document.createElement(tag);
@@ -175,14 +223,23 @@
     return node;
   }
 
-  function renderDigest(digest) {
-    const article = el("article", "digest");
-    article.appendChild(el("h3", null, digest.title));
-    if (digest.tagline) article.appendChild(el("p", "tagline", digest.tagline));
+  // cardOpen: whether the newsletter card starts expanded.
+  // storiesOpen: whether story descriptions start expanded.
+  function renderDigest(digest, cardOpen, storiesOpen) {
+    const card = el("details", "digest");
+    card.open = cardOpen;
+    const cardSummary = el("summary");
+    cardSummary.appendChild(el("h3", null, digest.title));
+    const n = (digest.sections || []).reduce((t, s) => t + (s.stories || []).length, 0);
+    cardSummary.appendChild(el("span", "count", `${n} stories`));
+    card.appendChild(cardSummary);
+    if (digest.tagline) card.appendChild(el("p", "tagline", digest.tagline));
     for (const section of digest.sections || []) {
-      if (section.name) article.appendChild(el("div", "section-name", section.name));
+      if (section.name) card.appendChild(el("div", "section-name", section.name));
       for (const story of section.stories || []) {
-        const div = el("div", "story");
+        const storyEl = el("details", "story");
+        storyEl.open = storiesOpen;
+        const summary = el("summary");
         const headline = el("span", "headline");
         if (story.url) {
           const a = el("a", null, story.headline);
@@ -193,22 +250,24 @@
         } else {
           headline.textContent = story.headline;
         }
-        div.appendChild(headline);
-        div.appendChild(el("p", "blurb", story.blurb));
-        // In collapsed view, tapping a story (not its link) peeks at its blurb.
-        div.addEventListener("click", (e) => {
-          if (e.target.closest("a")) return;
-          if (!contentEl.classList.contains("collapsed")) return;
-          div.classList.toggle("open");
-        });
-        article.appendChild(div);
+        summary.appendChild(headline);
+        storyEl.appendChild(summary);
+        storyEl.appendChild(el("p", "blurb", story.blurb));
+        card.appendChild(storyEl);
       }
     }
-    return article;
+    return card;
   }
 
   async function showDate(date, dates) {
     currentDateEl.textContent = date;
+    // Prev = older day, next = newer day (the index is newest-first).
+    const i = dates.indexOf(date);
+    prevBtn.disabled = i < 0 || i >= dates.length - 1;
+    nextBtn.disabled = i <= 0;
+    prevBtn.dataset.target = prevBtn.disabled ? "" : dates[i + 1];
+    nextBtn.dataset.target = nextBtn.disabled ? "" : dates[i - 1];
+
     contentEl.replaceChildren(el("p", "empty", "Loading…"));
     for (const a of datesEl.querySelectorAll("a")) {
       const active = a.dataset.date === date;
@@ -232,29 +291,34 @@
         }
       }
       contentEl.replaceChildren();
-      const mode = day.mode === "combined" ? "combined digest" : "per-newsletter digests";
-      // Descriptions collapse by default when they are NOT AI-summarized
-      // (per-newsletter fallback = verbatim TLDR blurbs, too long to scan).
-      contentEl.classList.toggle("collapsed", day.mode !== "combined");
+      // Fallback days (no AI summary) start compact: newsletter cards closed,
+      // descriptions collapsed. Summarized days start fully expanded.
+      const summarized = day.mode === "combined";
+      const modeLabel = summarized
+        ? "combined digest"
+        : "full newsletters (AI summary unavailable)";
       const controls = el("div", "controls");
       controls.appendChild(
-        el("p", "meta", `${mode} · newsletters: ${(day.categories || []).join(", ")}`)
+        el("p", "meta", `${modeLabel} · ${(day.categories || []).join(", ")}`)
       );
+      let descriptionsShown = summarized;
       const blurbToggle = el("button", null);
       blurbToggle.id = "blurb-toggle";
       const syncBlurbToggle = () => {
-        const collapsed = contentEl.classList.contains("collapsed");
-        blurbToggle.textContent = collapsed ? "Show descriptions" : "Hide descriptions";
-        blurbToggle.setAttribute("aria-expanded", String(!collapsed));
+        blurbToggle.textContent = descriptionsShown ? "Hide descriptions" : "Show descriptions";
+        blurbToggle.setAttribute("aria-expanded", String(descriptionsShown));
       };
       blurbToggle.addEventListener("click", () => {
-        contentEl.classList.toggle("collapsed");
+        descriptionsShown = !descriptionsShown;
+        for (const s of contentEl.querySelectorAll("details.story")) s.open = descriptionsShown;
         syncBlurbToggle();
       });
       syncBlurbToggle();
       controls.appendChild(blurbToggle);
       contentEl.appendChild(controls);
-      for (const digest of day.digests || []) contentEl.appendChild(renderDigest(digest));
+      for (const digest of day.digests || []) {
+        contentEl.appendChild(renderDigest(digest, summarized, descriptionsShown));
+      }
     } catch {
       contentEl.replaceChildren(el("p", "empty", `No digest found for ${date}.`));
     }
@@ -300,6 +364,12 @@
     const li = document.createElement("li");
     li.appendChild(details);
     datesEl.appendChild(li);
+  }
+
+  for (const btn of [prevBtn, nextBtn]) {
+    btn.addEventListener("click", () => {
+      if (btn.dataset.target) location.hash = `#${btn.dataset.target}`;
+    });
   }
 
   function currentTarget() {
