@@ -32,6 +32,11 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          # Repository variables (Settings -> Secrets and variables -> Actions
+          # -> Variables): switch model/endpoint without a code change. Unset
+          # variables fall back to the config.py defaults.
+          OPENCODE_MODEL: ${{ vars.OPENCODE_MODEL }}
+          OPENCODE_API_URL: ${{ vars.OPENCODE_API_URL }}
         run: uv run python -m tech_news_summarizer
 
       - name: Commit updated state and archive

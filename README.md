@@ -61,6 +61,8 @@ Covered newsletters: **Tech, AI, IT, Web Dev, InfoSec, DevOps, Design, Data**
 
 An [opencode](https://opencode.ai) key (`OPENCODE_API_KEY`, from the Zen console) powers the merging and Q&A. Defaults target the **opencode Go subscription** (`deepseek-v4-flash` at `…/zen/go/v1/chat/completions`); pay-as-you-go Zen users set `OPENCODE_API_URL=https://opencode.ai/zen/v1/chat/completions`. The key is optional for the push pipeline (fallback: parsed digests) but required for the conversational worker's AI features.
 
+For the scheduled pipeline, the model and endpoint can be overridden without a code change via GitHub **repository variables** (Settings → Secrets and variables → Actions → Variables): set `OPENCODE_MODEL` and/or `OPENCODE_API_URL`. Useful when a model becomes unavailable (e.g. region-gated) — switch models by editing the variable; unset variables fall back to the defaults above.
+
 ### 3. Scheduled digest (GitHub Actions)
 
 ```bash

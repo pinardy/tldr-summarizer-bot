@@ -63,12 +63,14 @@ def load_settings(require_telegram: bool = True) -> Settings:
             f"Copy .env.example to {PROJECT_ROOT / '.env'} and fill them in."
         )
 
+    # "or" (not a get() default) so that empty strings fall back too: the
+    # workflow always exports OPENCODE_MODEL/OPENCODE_API_URL, and an unset
+    # repository variable arrives as "".
     return Settings(
         telegram_bot_token=os.environ.get("TELEGRAM_BOT_TOKEN", ""),
         telegram_chat_id=os.environ.get("TELEGRAM_CHAT_ID", ""),
         opencode_api_key=os.environ.get("OPENCODE_API_KEY", ""),
-        opencode_api_url=os.environ.get(
-            "OPENCODE_API_URL", "https://opencode.ai/zen/go/v1/chat/completions"
-        ),
-        opencode_model=os.environ.get("OPENCODE_MODEL", "deepseek-v4-flash"),
+        opencode_api_url=os.environ.get("OPENCODE_API_URL")
+        or "https://opencode.ai/zen/go/v1/chat/completions",
+        opencode_model=os.environ.get("OPENCODE_MODEL") or "deepseek-v4-flash",
     )
