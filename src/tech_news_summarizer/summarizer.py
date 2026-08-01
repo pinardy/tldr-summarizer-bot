@@ -1,4 +1,4 @@
-"""Merge parsed newsletters into one deduplicated digest via the opencode API.
+"""Merge parsed newsletters into one deduplicated digest via an OpenAI-compatible LLM API (Gemini by default).
 
 Takes the already-parsed stories (headline + blurb + url) from every fetched
 newsletter and asks an LLM to deduplicate cross-newsletter coverage, pick the
@@ -18,10 +18,8 @@ from .fetcher import Issue, Section, Story
 
 log = logging.getLogger("tech_news_summarizer")
 
-DEFAULT_MODEL = "deepseek-v4-flash"
-
 # One retry on transient failures (timeouts, connection errors, 5xx): a single
-# slow opencode response used to push the whole day into the per-newsletter
+# slow LLM API response used to push the whole day into the per-newsletter
 # fallback. 4xx errors are not retried — they won't heal on a second attempt.
 REQUEST_TIMEOUT_SECONDS = 180
 REQUEST_ATTEMPTS = 2
@@ -79,14 +77,14 @@ def summarize_combined(
     try:
         content = resp.json()["choices"][0]["message"]["content"]
     except (ValueError, KeyError, IndexError) as e:
-        raise SummarizeError(f"unexpected opencode response shape: {e}") from e
+        raise SummarizeError(f"unexpected LLM API response shape: {e}") from e
 
     valid_urls = {s["url"] for s in stories if s["url"]}
     return Issue(tagline="", sections=_parse_sections(content, valid_urls))
 
 
 def _post_with_retry(api_url: str, headers: dict, body: dict) -> requests.Response:
-    """POST to opencode, retrying once on timeouts, connection errors and 5xx."""
+    """POST to the LLM API, retrying once on timeouts, connection errors and 5xx."""
     last_error: SummarizeError | None = None
     for attempt in range(1, REQUEST_ATTEMPTS + 1):
         try:
@@ -95,14 +93,14 @@ def _post_with_retry(api_url: str, headers: dict, body: dict) -> requests.Respon
             )
         except requests.RequestException as e:
             last_error = SummarizeError(
-                f"opencode request failed (attempt {attempt}/{REQUEST_ATTEMPTS}): {e}"
+                f"LLM API request failed (attempt {attempt}/{REQUEST_ATTEMPTS}): {e}"
             )
             last_error.__cause__ = e
         else:
             if resp.status_code == 200:
                 return resp
             last_error = SummarizeError(
-                f"opencode returned {resp.status_code} "
+                f"LLM API returned {resp.status_code} "
                 f"(attempt {attempt}/{REQUEST_ATTEMPTS}): {resp.text[:300]}"
             )
             if resp.status_code < 500:
