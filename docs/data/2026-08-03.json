@@ -1,0 +1,799 @@
+{
+  "date": "2026-08-03",
+  "mode": "per-newsletter",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design",
+    "data"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Tech — 2026-08-03",
+      "tagline": "OpenAI Astra 🤖, Larry Ellison's bet 💰, GitHub CLI stacked diffs 👨‍💻",
+      "sections": [
+        {
+          "name": "Big Tech & Startups",
+          "stories": [
+            {
+              "headline": "OpenAI's next major model Astra claims breakthroughs on 10 long-standing math problems (3 minute read)",
+              "blurb": "OpenAI recently gave a sneak peek into its next model, named Astra. An internal version of the model was able to create breakthroughs on 10 long-standing problems in mathematics and theoretical computer science. The total number of tokens used to discover all ten solutions would have cost around $2,000 at GPT-5.6 Sol API rates. Each solution was formalized in Lean, allowing them to be verified using the theorem-proving system.",
+              "url": "https://www.neowin.net/news/openais-next-major-model-astra-claims-breakthroughs-on-10-long-standing-math-problems/"
+            },
+            {
+              "headline": "Apple Is Reinventing Itself as the World's Biggest Subscription Provider (14 minute read)",
+              "blurb": "Apple's new Apple Upgrade leasing program hints at the company's next era of growth. Due to memory shortages, hardware prices have increased, and prices are only going to get steeper. Apple appears to be changing the psychology of the purchase. Instead of asking customers to justify spending more than $1,000 on a device, it's asking whether they can afford roughly a dollar a day, which is a much easier decision.",
+              "url": "https://www.bloomberg.com/news/newsletters/2026-08-02/apple-subscriptions-macbook-air-shortages-apple-to-make-glasses-health-device-msbvajjp?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NTczMTYwOSwiZXhwIjoxNzg2MzM2NDA5LCJhcnRpY2xlSWQiOiJUSjVBVzFSMjRVOEQwMCIsImJjb25uZWN0SWQiOiJBOEExRDhFQTI5OTc0OTRGQTQ1QUE2REJBMjAwNTM3MSJ9.Zi5HwLXP1D7VcI7qp1L6rHaonUCI15NK_Ob_1M5rXOA"
+            }
+          ]
+        },
+        {
+          "name": "Science & Futuristic Technology",
+          "stories": [
+            {
+              "headline": "Montana's plan to become an experimental medical hub just pushed forward (14 minute read)",
+              "blurb": "Any biotech company with an experimental drug in Montana now has a clear path to selling it to consumers. Companies can now pay $12,500 to apply to a newly established board for approval, as long as the drugs have been through preliminary testing. The drugs will be sold via experimental treatment clinics, the first of which is likely to be open by the end of the year. Patients must provide fully informed consent, and each application must be reviewed by a board that includes a Montana-certified doctor, expert scientists, and an ethicist.",
+              "url": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/"
+            },
+            {
+              "headline": "A Tech Founder Wanted to Start a New Country. An Actual Country Got in the Way (12 minute read)",
+              "blurb": "Balaji Srinivasan, a tech founder, said that he believed the US was descending into anarchy, so he decided to build a new city from scratch. He started by creating a tech community in Malaysia, setting up a campus with co-working spaces, a high-end gym, and meals designed by longevity guru Bryan Johnson. Two years in, his vision is now colliding with reality. The project has been shut down over licensing issues. Within hours of the government announcement, Srinivasan signed an agreement to open a campus in Kazakhstan.",
+              "url": "https://www.wsj.com/tech/a-tech-founder-wanted-to-start-a-new-country-an-actual-country-got-in-the-way-52cd21e5?st=NJoFrL&reflink=desktopwebshare_permalink"
+            }
+          ]
+        },
+        {
+          "name": "Programming, Design & Data Science",
+          "stories": [
+            {
+              "headline": "gh stack (GitHub Repo)",
+              "blurb": "GitHub Stacked PRs break large changes into a chain of small, reviewable pull requests that build on each other. gh stack is a GitHub CLI extension for managing stacked branches and pull requests. It automates creating branches, keeping them rebased, setting correct PR base branches, and navigating between layers. gh stack offers AI agent integration.",
+              "url": "https://github.com/github/gh-stack"
+            },
+            {
+              "headline": "Devtools must be open source (8 minute read)",
+              "blurb": "Before AI, development costs made it rational for complex software to ship with large configuration files, extension systems, and plug-in systems. Now, the cost of creating software and making changes has dropped dramatically. Software that can be personalized doesn't need a plugin system or config file. Users can just make the changes they need themselves, with the help of agents if required.",
+              "url": "https://blog.exe.dev/devtools-must-be-open-source"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Larry Ellison Bet It All on the AI Boom. Will He Be the Face of the AI Bubble? (47 minute read)",
+              "blurb": "When Trump came into office, he took the guardrails that were hindering AI development, and Larry Ellison cashed in by signing several large infrastructure deals. This big bet on AI was built on an astronomical amount of debt in every imaginable form. The hypothesis was that whoever controlled the most computing power would control the AI economy. Investors have started questioning whether this level of spending is sustainable in recent weeks and are concerned about whether the money being pumped into data centers will ever return the promised profits.",
+              "url": "https://www.nytimes.com/2026/07/31/magazine/larry-ellison-ai-oracle.html?unlocked_article_code=1.2lA.WPxx.tH2fnLqJqFxC&smid=url-share"
+            },
+            {
+              "headline": "His Wedding Guests Were Arriving—Just as His $45 Billion Fund Was Falling Apart (17 minute read)",
+              "blurb": "Leopold Aschenbrenner had planned a multiday celebration for his wedding, but his fund started unraveling just when guests started to arrive. The 24-year-old investor had built a $45 billion investment powerhouse that primarily bought stocks in the AI trade. The firm borrowed too much money to make these AI bets, leaving it at risk as they faltered. Citadel then swooped in and purchased the vast majority of the firm's public stock portfolio at a discount of more than 10% to the market value of those shares. The firm is left with a portfolio of stocks and stakes in startups valued at more than $10 billion, but it is still alive.",
+              "url": "https://www.wsj.com/finance/leopold-aschenbrenner-situational-awareness-ai-fund-597633d3?st=jDa2Aq&reflink=desktopwebshare_permalink"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Mathematics Without Mathematicians (6 minute read)",
+              "blurb": "OpenAI recently announced the solution to ten open problems in mathematics discovered by a yet-unreleased model.",
+              "url": "https://borretti.me/article/mathematics-without-mathematicians"
+            },
+            {
+              "headline": "The New Defcon Badges Pack a Unique Open Source Chip That Doubles as a Security Key (5 minute read)",
+              "blurb": "The Baochip-1x is a mostly open-source microcontroller with a core module that can be removed and used as a hardware security token.",
+              "url": "https://www.wired.com/story/defcon-34-badge-baochip-andrew-bunnie-huang/"
+            },
+            {
+              "headline": "The development pipeline is a production system (2 minute read)",
+              "blurb": "A team with a broken development pipeline can't produce software.",
+              "url": "https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system"
+            },
+            {
+              "headline": "Software abundance (3 minute read)",
+              "blurb": "While code is easier and faster to write, good software is still hard to get right as it needs care and requires good judgment.",
+              "url": "https://nader.substack.com/p/software-abundance"
+            },
+            {
+              "headline": "The Race to Build an American Alternative to Cheap AI From China (5 minute read)",
+              "blurb": "Despite growing calls for the US to develop stronger open-weight models to compete with China, investors are reluctant to back open-weight startups.",
+              "url": "https://www.wsj.com/tech/ai/the-race-to-build-an-american-alternative-to-cheap-ai-from-china-2e99a28a?st=Q9CJXs&reflink=desktopwebshare_permalink"
+            },
+            {
+              "headline": "I can't stop thinking about the Unicontext (17 minute read)",
+              "blurb": "The unicontext is a scenario in which the ways you should act become the same across all different contexts.",
+              "url": "https://storytellingedge.substack.com/p/the-5-most-interesting-ideas-of-2026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR AI — 2026-08-03",
+      "tagline": "DeepSeek V4 Flash ⚡, OpenAI’s math breakthrough 🔢, Qwen 3.8-Max 🤖",
+      "sections": [
+        {
+          "name": "Headlines & Launches",
+          "stories": [
+            {
+              "headline": "Qwen3.8-Max: A New Bar for Coding and Cowork (25 minute read)",
+              "blurb": "Qwen 3.8-Max is now available. The open weights will be released next week. The model, which has 2.4 trillion parameters, delivers comprehensive improvements across coding, work, research, and long-horizon tasks. It can answer questions as well as complete complex tasks end-to-end with greater reliability.",
+              "url": "https://qwen.ai/blog?id=qwen3.8&amp%3Butm_source=tldrai"
+            },
+            {
+              "headline": "Ten advances in mathematics and theoretical computer science (4 minute read)",
+              "blurb": "OpenAI has shared a selection of ten results discovered while evaluating an unreleased model. Each resolves or makes substantial progress on a long-standing open problem. These problems span high-dimensional geometry, coding theory, arithmetic circuit complexity, group theory, operator algebras, quantum complexity, lattice cryptography and extremal combinatorics. All of these problems are of substantial interest to their respective mathematical communities. Several are of broad interest across mathematics as a whole.",
+              "url": "https://openai.com/index/ten-advances-in-mathematics/"
+            },
+            {
+              "headline": ")",
+              "blurb": "",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+            }
+          ]
+        },
+        {
+          "name": "Deep Dives & Analysis",
+          "stories": [
+            {
+              "headline": "Microsoft tests new MAI Realtime voice model (2 minute read)",
+              "blurb": "Microsoft's first native real-time voice model, MAI Realtime, has surfaced as a hidden early-access entry in the company's MAI Playground. The listing points to a bidirectional, full-duplex system that can listen and speak at the same time rather than trading turns. There are two voices available, both noticeably more natural than what Copilot's voice mode currently delivers. The model will likely be made available on Microsoft Foundry and Copilot voice, but no timeline is available.",
+              "url": "https://www.testingcatalog.com/exclusive-microsoft-tests-new-mai-realtime-voice-model/"
+            }
+          ]
+        },
+        {
+          "name": "Engineering & Research",
+          "stories": [
+            {
+              "headline": "smevals (GitHub Repo)",
+              "blurb": "smevals is a framework for running evals against AI models, small and large. An Eval is a collection of Tasks used to determine how good a particular model or model-and-harness configuration is at a specific high-level capability. Tasks are the individual exercises that a model must complete for its abilities to be evaluated. Evals can optionally be grouped into Suites of related Evals, primarily as a mechanism for organizing them on disk.",
+              "url": "https://github.com/prime-radiant-inc/smevals"
+            },
+            {
+              "headline": "Ramp SWE-Bench (3 minute read)",
+              "blurb": "Ramp built a private benchmark from 80 production backend tasks spanning payments, accounting, procurement, treasury, and fraud. It scores review-ready patches that pass tests within 45 minutes, exposing model trade-offs across accuracy, latency, and cost without public-benchmark contamination.",
+              "url": "https://labs.ramp.com/swebench"
+            },
+            {
+              "headline": "MSLK kernel reference (Website)",
+              "blurb": "MSLK (Meta Superintelligence Labs Kernels) is a library of fused GPU kernels for transformer workloads. It contains a collection of high-performance kernels and optimizations built on top of PyTorch primitives for GenAI training and inference. MSLK is released in accordance with the PyTorch release schedule. There is no guarantee that each release works in conjunction with PyTorch releases that are older than the one that the MSLK release corresponds to.",
+              "url": "https://lucasb.eyer.be/lab/mslk/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "The Math Superstar Who's Terrified of AI—and Just Took a Job at OpenAI (9 minute read)",
+              "blurb": "Jacob Tsimerman, who recently won the Fields Medal, is starting a position at OpenAI. Tsimerman previously wrote a paper categorizing the ways AI might kill everyone. He appears to be so worried about the dangers of AI that he's pivoting to work on AI safety. The star professor wants to use math to advance the study of AI and ensure that the technology won't lead to our extinction.",
+              "url": "https://www.wsj.com/tech/ai/openai-jacob-tsimerman-fields-medal-ai-safety-391d0f79?st=uzS3Yg&reflink=desktopwebshare_permalink"
+            },
+            {
+              "headline": "A new era of AI testing (2 minute read)",
+              "blurb": "Andrej Karpathy asked Opus 5 to make a Three.js render of the first paragraph of The Lord of the Rings with a 1-million-token budget, and the model returned 5,500 lines of code that procedurally rendered the story. The LLM orchestrated the polygon assets and wrote code that animated it all according to the story. No human would have the stamina and patience to write something this custom, so they are a good test of what LLMs are capable of. A video of the generated animation is available in the post.",
+              "url": "https://threadreaderapp.com/thread/2083749667410727319.html"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "APEX-Accounting: AI Productivity Benchmark for Accounting (6 minute read)",
+              "blurb": "APEX-Accounting, created by Ramp and Mercor, tests AI models' ability to complete accounting tasks across 160 scenarios.",
+              "url": "https://www.mercor.com/blog/introducing-the-ai-productivity-index-for-accounting/"
+            },
+            {
+              "headline": "When Genius Fails—The Intellectual Arrogance of the AI Labs (12 minute read)",
+              "blurb": "Leopold Aschenbrenner's hedge fund, Situational Awareness, crashed after taking high-risk leveraged bets on the AI boom.",
+              "url": "https://weightythoughts.com/p/when-genius-failsthe-intellectual"
+            },
+            {
+              "headline": "Google is aiming to close feature gaps on Gemini desktop (2 minute read)",
+              "blurb": "Google is enhancing the Gemini desktop app by adding dedicated tabs for image and video generation and introducing a camera attachment feature for capturing photos.",
+              "url": "https://www.testingcatalog.com/google-is-aiming-to-close-feature-gaps-on-gemini-desktop/"
+            },
+            {
+              "headline": "Claude Cyber Evaluations (12 minute read)",
+              "blurb": "Anthropic found three evaluation runs in which Claude accessed the public internet and compromised real organizations after mistakenly treating them as capture-the-flag targets.",
+              "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR IT — 2026-08-03",
+      "tagline": "221K AI secrets exposed 🔐, EU’s $11.4B AI bet 🇪🇺, Scale AI’s new CEO 🤖",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Scanning 7.6 Petabytes of HuggingFace Training Data for Secrets (14 minute read)",
+              "blurb": "Truffle Security Co. says it scanned 7.6 petabytes of public Hugging Face datasets and found 221,303 live, unique credentials across 6,003 datasets. The verified secrets included software supply-chain tokens, cloud credentials, database logins, communications keys, and AI-provider keys that the company says represent at least $920,000 in potential annual inference charges at default spending caps.",
+              "url": "https://trufflesecurity.com/blog/scanning-7-6-petabytes-of-ai-training-data-for-secrets"
+            },
+            {
+              "headline": "Scale AI hires former Google Cloud COO as CEO (3 minute read)",
+              "blurb": "Scale AI appointed Francis deSouza as CEO as it expands beyond training data and evaluations into enterprise AI applications. The company expects its applications business to become larger than its original data operation within 18 months.",
+              "url": "https://www.axios.com/2026/07/30/scale-ai-google-cloud-coo-francis-desouza"
+            },
+            {
+              "headline": "EU plans seven AI gigafactories in $11.4B compute push (4 minute read)",
+              "blurb": "The EU plans to invest €10 billion in seven AI gigafactories, each designed to house at least 100,000 advanced chips. Officials hope the funding will attract another €20 billion privately and reduce Europe's reliance on foreign AI infrastructure.",
+              "url": "https://apnews.com/article/88b83cd517a4d47c115605e636d0b3e4"
+            }
+          ]
+        },
+        {
+          "name": "Analysis & Opinions",
+          "stories": [
+            {
+              "headline": "I'm (mostly) picking models on speed now, not intelligence (5 minute read)",
+              "blurb": "AI models have reached a sufficient intelligence level for many everyday tasks, making inference speed a more important factor in model choice. 100–200 tokens per second feels fast for human use, while tool calls and human oversight limit the benefits of faster models and intensifying competition may drive prices down.",
+              "url": "https://martinalderson.com/posts/speed-vs-intelligence/"
+            },
+            {
+              "headline": "Most corporate IT now runs outside company-owned data centers (5 minute read)",
+              "blurb": "Companies now place 46% of their workloads with cloud and colocation providers, compared with 44% in their own data centers. AI is also making capacity planning harder while worsening staffing shortages and the cost of infrastructure failures.",
+              "url": "https://www.networkworld.com/article/4203054/most-corporate-it-is-off-premises-ai-is-reshaping-infrastructure-uptime-reports.html"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Partnerships",
+          "stories": [
+            {
+              "headline": "Gyrus-Dev/frosty: AI Agent for Snowflake (GitHub Repo)",
+              "blurb": "Frosty is an open-source, self-hosted framework from Gyrus Inc that converts plain-English requests into Snowflake queries and administrative operations. The 153-agent system covers data engineering, security, governance, cost monitoring, and inspection, while its safety layer blocks DROP statements and requires approval for CREATE OR REPLACE operations. Users can run it locally with their Snowflake credentials and a supported language model.",
+              "url": "https://github.com/Gyrus-Dev/frosty"
+            },
+            {
+              "headline": "Meta sees an enterprise business beyond AI agents (3 minute read)",
+              "blurb": "Meta says it could sell businesses APIs, AI agents, compute capacity, and other enterprise services. The strategy could turn its enormous internal AI infrastructure investment into a new revenue stream beyond advertising.",
+              "url": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Static Devirtualization of Tencent VM (12 minute read)",
+              "blurb": "Classic virtual-machine obfuscators remain vulnerable to flexible lifting, recompilation, and guided symbolic execution. A static devirtualization approach for Tencent VM obfuscation analyzes the VM dispatcher, boxed native instructions, and CET/SEH compatibility mechanisms to symbolically recover bytecode-driven control flow and virtualized loops.",
+              "url": "https://back.engineering/blog/31/07/2026/"
+            },
+            {
+              "headline": "Uber is building an autonomous vehicle empire, and here's every company it's using to do it (18 minute read)",
+              "blurb": "Uber has partnered with or invested in more than 30 autonomous vehicle companies over the past two years, rebuilding an AV strategy focused on integrating outside technology and fleets globally. TechCrunch's tracker details deals involving robotaxis, autonomous trucks, sidewalk robots, drones, fleet operators and vehicle makers, including major investments in Aurora and Lucid.",
+              "url": "https://techcrunch.com/2026/08/01/ubers-autonomous-vehicle-deal-tracker/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Europe Is Rewriting Its Quantum Roadmaps and Asking for Comments (15 minute read)",
+              "blurb": "The European Quantum Flagship has opened a public consultation on six draft technology roadmaps intended to guide the EU's quantum research, industry, and procurement priorities through 2035.",
+              "url": "https://postquantum.com/quantum-policies/eu-quantum-flagship-roadmaps/"
+            },
+            {
+              "headline": "Google Cloud expands storage and networking for AI clusters (4 minute read)",
+              "blurb": "Google Cloud has made Managed Lustre generally available, with four performance tiers and support for up to 8 PB of storage.",
+              "url": "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Web Dev — 2026-08-03",
+      "tagline": "GPT-5.6 gets cheaper 💰, how to build an OS 💻, SwiftUI after 7 years 🗑",
+      "sections": [
+        {
+          "name": "Articles & Tutorials",
+          "stories": [
+            {
+              "headline": "How to Build an OS Without Being a Degenerate (11 minute read)",
+              "blurb": "Building an operating system effectively involves labeling your project honestly, starting from an established OS, and engaging in reading to understand the components thoroughly before coding. There needs to be a focus on creating genuine drivers and collaborative argumentation within a team are necessary for meaningful development in OS creation.",
+              "url": "https://www.seuros.com/blog/how-to-build-an-os-without-being-a-degenerate/"
+            },
+            {
+              "headline": "Curiosity reduced the heap size by 60% (3 minute read)",
+              "blurb": "An agent kept filtering a Ruby warning out of its test output, and chasing it down revealed that the OpenTelemetry AWS instrumentation was force-loading about 200 SDK service classes at boot when the app only needed a handful. A small patch that skips unresolved autoloads cut VM classes and heap roughly 60% and boot time 36%. Following an odd signal for five minutes is now cheap enough to do routinely.",
+              "url": "https://mostlyobvio.us/2026/07/curiosity-reduced-the-heap-size-by-60/"
+            },
+            {
+              "headline": "Why DoorDash, Instacart, and Uber Eats Integrated LLMs Into Search Three Different Ways (10 minute read)",
+              "blurb": "Food search breaks keyword retrieval every way at once with synonyms, typos, bilingual collisions, a long tail with no conversion data, and hard constraints where “vegan chicken sandwich” scores as similar to something that violates the whole point. Three companies solved it off the same research base and landed at different depths of LLM integration: DoorDash keeps it offline enriching a knowledge graph, Instacart puts it at query understanding with a head/tail split, and Uber Eats makes a fine-tuned Qwen the embedding backbone of two-tower retrieval.",
+              "url": "https://blog.bytebytego.com/p/why-doordash-instacart-and-uber-eats"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Advice",
+          "stories": [
+            {
+              "headline": "Developers are attached to tools because tools encode trust (14 minute read)",
+              "blurb": "Developers often struggle to trust new coding tools, especially as AI-driven systems become more integrated into the software development lifecycle. The shift to these tools can challenge established processes and cultural practices, leading to broken workflows despite having advanced technology at their disposal. To regain trust, teams need to establish clear, defined workflows that prioritize human oversight and accountability.",
+              "url": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/"
+            },
+            {
+              "headline": "My Agentic Coding Setup, July 2026 (21 minute read)",
+              "blurb": "Running agents unattended, with approvals off, in parallel, with work that survives closing your laptop and follows you to your phone, turns out to require getting development off your local machine entirely, onto a disposable Ubuntu VM joined to a Tailscale tailnet. Tailscale does the heavy lifting (SSH from any network, HTTPS certs so agent dev servers are secure contexts and stay private), with git worktrees and a Portless wrapper keeping parallel agents from colliding. Safety is handled by blast radius rather than prevention: push to GitHub constantly, treat the VM as expendable.",
+              "url": "https://domenic.me/agentic-coding-setup/"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Use WebMCP Tool (GitHub Repo)",
+              "blurb": "This is a React hook that exposes your app's functions as callable tools for browser AI agents via the experimental WebMCP spec, wrapping the imperative document.modelContext.registerTool API so tools register on mount and unregister on unmount. This means that the agent only ever sees tools for what's actually rendered, making it useful to prototype with.",
+              "url": "https://github.com/GoogleChromeLabs/use-webmcp-tool"
+            },
+            {
+              "headline": "Mu (GitHub Repo)",
+              "blurb": "Mu provides a set of integrated tools for agents, allowing easy access to various services such as web search, email, and weather, all through a single connection while enabling self-hosting and customization.",
+              "url": "https://github.com/micro/mu"
+            },
+            {
+              "headline": "Octane (Website)",
+              "blurb": "Octane is a new programming framework that builds upon React's concepts, offering a compiled, performance-focused model without the constraints of rules for hooks, allowing for more flexible code organization, improved asynchronous behavior, and better DOM management.",
+              "url": "https://octanejs.dev/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Advancing the price-performance frontier with GPT-5.6 (8 minute read)",
+              "blurb": "GPT-5.6 Luna has become cheaper by 80% to $0.20/M input and $1.20/M output. Terra has dropped20% to $2/M and $12/M. Sol is the same, with the cuts also flowing through Codex and ChatGPT Work quotas, and Priority Processing becoming Fast mode: 2.5× faster on Sol at 2× price, same capability, backward compatible with priority tags.",
+              "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/"
+            },
+            {
+              "headline": "SwiftUI After 7 Years: A Story of Mediocrity (17 minute read)",
+              "blurb": "Seven years after its launch, SwiftUI is still plagued by performance issues, unpredictable layout behavior, and a frustratingly inconsistent API, leaving many developers feeling like they are working with a perpetual beta. The framework's promise of cross-platform support and ease of use has failed to materialize in practice, resulting in a landscape where developers must constantly implement workarounds and deal with a lack of backward compatibility.",
+              "url": "https://ykvm.com/2026/07/swiftui-a-story-of-mediocrity/"
+            },
+            {
+              "headline": "Is memory the moat? (7 minute read)",
+              "blurb": "Recent advancements in open-source AI models, like Kimi K3, show a new era of competitive capabilities compared to traditional closed-source models. Kimi K3's impressive size and processing power show the advantages of AMD's MI355X graphics card, which offers large cost efficiency and performance per dollar despite challenges with software support.",
+              "url": "https://www.wafer.ai/blog/kimi-k3-mi355x"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "ByteDance Seed: One-take Creation, Flexible Referencing — Introducing Seedance 2.5 (14 minute read)",
+              "blurb": "Seedance 2.5 is a new video creation model that is much better at long-form storytelling, multimodal referencing, and editing capabilities, allowing users to produce high-quality, cohesive videos of up to 30 seconds in a single pass.",
+              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
+            },
+            {
+              "headline": "The myth of Snow Leopard (3 minute read)",
+              "blurb": "The myth of Snow Leopard, a 2010 Mac OS X version marketed by Apple as focusing on stability and efficiency rather than new features, shows the ongoing desire for software that prioritizes quality and reliability over constant updates and innovations.",
+              "url": "https://www.rubenerd.au/the-myth-of-snow-leopard/"
+            },
+            {
+              "headline": "Kakehashi (GitHub Repo)",
+              "blurb": "Kakehashi is a userspace translation layer that enables macOS ARM64 applications to run on Linux aarch64 by loading Darwin Mach-O binaries, translating BSD syscalls, and facilitating the execution of tools like 7-Zip and curl with Docker support.",
+              "url": "https://github.com/wie-project/kakehashi"
+            },
+            {
+              "headline": "Platform engineering still matters (3 minute read)",
+              "blurb": "Despite the rise of agentic coding tools that seem to lower the cost of writing code, the value of reusable platform components is still high, as using existing code can often be more cost-effective than creating custom solutions from scratch.",
+              "url": "https://evnm.substack.com/p/platform-engineering-still-matters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR InfoSec — 2026-08-03",
+      "tagline": "Ruby On Rails ActiveStorage Flaw 🚂, Amgen Cloud Breach ☁️, HuggingFace Secrets 🔑",
+      "sections": [
+        {
+          "name": "Attacks & Vulnerabilities",
+          "stories": [
+            {
+              "headline": "Amgen Says Cloud Data Breach Exposed Patient Health, Proprietary Info (2 minute read)",
+              "blurb": "Pharmaceutical company Amgen stated that it suffered a data breach after attackers stole data via a third-party cloud provider. Amgen stated that the stolen data includes proprietary information and patient PHI, but they have not yet determined whether additional data was stolen.",
+              "url": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/"
+            },
+            {
+              "headline": "Rails Patches Critical Active Storage Flaw with RCE Potential (2 minute read)",
+              "blurb": "The Rails framework for Ruby disclosed a new vulnerability in Active Storage that could enable arbitrary reads. The vulnerability is exploitable when libvips is used, and the server allows for image uploads from untrusted users. Security researchers highlighted that this vulnerability could be exploited to read the Rails master key, which could compromise all cryptographic operations and lead to RCE.",
+              "url": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/"
+            },
+            {
+              "headline": "Hackers Steal Sensitive Data from UK Department for Education and Police (2 minute read)",
+              "blurb": "The UK's Department for Education (DfE) and a police database were hacked by a new ransomware gang which stole 740k lines of data. The DfE's data was stolen from a help-desk portal and includes full names, email addresses, phone numbers, and job titles for staff and parents. The police database that was compromised provides legal assistance to UK police forces and includes names, the force or organization they're assigned to, and work email addresses.",
+              "url": "https://www.theguardian.com/technology/2026/jul/29/department-for-education-police-hackers-cybercrime"
+            }
+          ]
+        },
+        {
+          "name": "Strategies & Tactics",
+          "stories": [
+            {
+              "headline": "Fake Claude Install Guide Leads to MacSync Stealer and RAT: What We Pulled From the Attacker's Servers (35 minute read)",
+              "blurb": "Huntress traced a malvertising chain that walked a victim from a poisoned Google ad through a weaponized claude.ai/share page into a curl|zsh loader, unfolding into a six-stage macOS kill chain that phished Full Disk Access and a confirmed account password, then dropped a native Mach-O RAT, a signed Screen Recording helper, and trojanized Ledger/Trezor wallet apps rewritten in place to phish BIP39 recovery phrases. The tradecraft resembles the AMOS/Atomic Stealer lineage based on shared techniques and Russian-language code comments, which Huntress frames as a family resemblance rather than named-actor attribution. Defenders should hunt behaviorally for curl -k piped into zsh, a com.apple.* LaunchAgent paired with a ~/.local/.mpwd file, and ad-hoc-signed apps whose ElectronAsarIntegrity hash doesn't match the shipped app.asar.",
+              "url": "https://www.huntress.com/blog/macsync-stealer-rat-reverse-engineering"
+            },
+            {
+              "headline": "Static Devirtualization of Tencent VM (10 minute read)",
+              "blurb": "Back Engineering Labs published a technical devirtualization of Tencent's ACE anti-cheat VM obfuscation, detailing how the .tvm dispatcher preserves CET shadow-stack and SEH/unwind semantics via boxed native instructions, RDSSPQ/INCSSPQ balancing, and phantom unwind info, and how guided symbolic execution recompiles virtualized functions back to native code. The team reported 815 of 865 virtualized functions (94.2%) recovered across four ACE kernel drivers, offered a third party for independent validation, and flagged ranged for-loops as a known limitation causing infinite-loop mis-lifts.",
+              "url": "https://back.engineering/blog/31/07/2026/"
+            },
+            {
+              "headline": "From /init to Code Execution - Prompt Injection Experiments with Opus-5 in Claude Code (7 minute read)",
+              "blurb": "The author of this post ran an experiment in which they had Claude Code running Opus 5 in yolo mode analyze a hit repo which contained an image file with a hidden message that led the model to a Star Trek-themed challenge. The challenge is a web server that features six challenges, with the final two requiring the model to download and execute a remote Python script which contains an encoded malicious command. Opus 5 determined that it shouldn't directly run the script but extracted and ran the malicious command, believing that it contained the solution to the challenge.",
+              "url": "https://veganmosfet.codeberg.page/posts/2026-07-27-opus5/"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Furtex (GitHub Repo)",
+              "blurb": "Furtex is a post-exploitation and evasion research toolkit for Linux, built around io_uring and eBPF.",
+              "url": "https://github.com/MatheuZSecurity/Furtex"
+            },
+            {
+              "headline": "sandbox-attacksurface-analysis-tools (GitHub Repo)",
+              "blurb": "A collection of tools from Google Project Zero to analyze Windows sandboxes for exposed attack surface",
+              "url": "https://github.com/googleprojectzero/sandbox-attacksurface-analysis-tools"
+            },
+            {
+              "headline": "Impacket for Pentester: atexec (12 minute read)",
+              "blurb": "This walkthrough walks through Impacket's atexec module across the full Windows Task Scheduler (ATSVC/TSCH) abuse chain over SMB, demonstrating plaintext, Pass-the-Hash, Pass-the-Ticket, and Pass-the-Key execution against a Server 2019 DC before weaponizing a Base64 PowerShell payload with -silentcommand into a full interactive reverse shell. It's a solid operational reference rather than new tooling, no repo to evaluate, though the closing detection notes add real blue-team value.",
+              "url": "https://www.hackingarticles.in/impacket-for-pentester-atexec/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Scanning 7.6 Petabytes of HuggingFace Training Data for Secrets (12 minute read)",
+              "blurb": "Truffle Security scanned all 7.6 petabytes of public Hugging Face datasets (187 million files) with TruffleHog and found 221,303 live, unique credentials across 6,003 datasets, including 349 GitHub PATs with repo-write/CI/admin:org scope, 318 Docker Hub push tokens, 8,557 live GCP service-account keys, 8,594 working database logins, and 742 OpenAI plus 26 Anthropic keys carrying a conservative $920K/year inference-abuse floor. Leaks compounded through scrape corpora like The Stack and Common Crawl, with 44% of unique secrets appearing in more than one dataset and one AWS key, pasted into a chatbot, mirrored across 1,131 datasets. Hugging Face was notified pre-publication and contributed native storage-bucket scanning to TruffleHog. The company withheld all names, dataset paths, and key material, and recommends scanning corpora before publishing or training and treating any publicly exposed key as burned.",
+              "url": "https://trufflesecurity.com/blog/scanning-7-6-petabytes-of-ai-training-data-for-secrets"
+            },
+            {
+              "headline": "87% of Organizations Are Pursuing PQC. Only 7% Have Deployed It (7 minute read)",
+              "blurb": "DigiCert's second annual Quantum Readiness Outlook, which surveyed 1,001 IT and security decision-makers across the US, UK, and Australia, found 87% of organizations are planning, testing, or implementing PQC, yet only 7% have deployed quantum-safe or hybrid certificates at scale, up less than two points from 5% a year earlier. The analysis argues the barrier data (legacy complexity, performance, and budget) shows this has shifted from an awareness problem to an execution problem, and flags that the certificate-only metric masks progress elsewhere while saying nothing about the arguably more urgent Trust Now, Forge Later signature-forgery threat.",
+              "url": "https://postquantum.com/security-pqc/digicert-quantum-readiness-outlook-2026/"
+            },
+            {
+              "headline": "Inside the Falcon: How CrowdStrike Catches You (21 minute read)",
+              "blurb": "A reverse-engineering teardown mapped csagent.sys's full detection surface: six kernel callback sources (process, thread, image, object, registry, and file), a firewall-grade WFP network engine capable of injecting TCP resets to kill C2 flows, an FLTMGR minifilter hooking 12 IRP majors, and the cspcm4 \"pinned\" broker module. The dissection traced verdicts to a single vtable call into g_DetectionEngine, a detection object loaded at runtime from cloud-pushed channel files rather than compiled into the driver, and documented seams including a user-mode-only trust boundary on Object/Registry callbacks, hash-or-signature resolution failures that skip full rule matching, and a 10,000-flow WFP tracking cap. The author tied this same swappable cloud-content architecture to the July 2024 CrowdStrike outage, attributing that crash to a bad channel-file object rather than a code defect in the sensor binary.",
+              "url": "https://0xdbgman.github.io/posts/inside-the-falcon-how-crowdstrike-catches-you/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Arch Linux Suspends AUR Package Adoptions to Block Ongoing Malicious Commit Campaign (2 minute read)",
+              "blurb": "Arch Linux's DevOps team disabled AUR package adoptions platform-wide on July 30 after attackers began systematically adopting orphaned/unmaintained packages and pushing malicious PKGBUILD commits that execute payloads via makepkg.",
+              "url": "https://gbhackers.com/arch-linux-suspends-aur-package-adoptions/"
+            },
+            {
+              "headline": "Singapore Launches AI Cyber Risk Taskforce to Bolster Financial Sector Resilience (2 minute read)",
+              "blurb": "MAS and the Association of Banks in Singapore launched the AI-Driven Cyber and Technology Risk Taskforce (ACT), uniting DBS, OCBC, UOB, SGX, NETS, and BCS since May to share AI threat intelligence, run proof-of-concept trials of AI-enabled defense tools, and develop sector guidance against frontier AI-driven attacks.",
+              "url": "https://www.crowdfundinsider.com/2026/08/294588-singapore-launches-ai-cyber-risk-taskforce-to-bolster-financial-sector-resilience/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR DevOps — 2026-08-03",
+      "tagline": "Kubernetes v1.37 📦, Speed Over Intelligence 🐎, Terraform AzureRM 🪐",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Terraform AzureRM provider 5.0 now generally available (6 minute read)",
+              "blurb": "Terraform AzureRM Provider 5.0 is generally available with improved Azure subscription control, opt-in preflight validation, updated validation defaults, and removal of deprecated resources and properties. The major release simplifies provider behavior, improves infrastructure feedback, and requires users to review configurations before upgrading.",
+              "url": "https://www.hashicorp.com/en/blog/terraform-azurerm-provider-50-now-generally-available"
+            },
+            {
+              "headline": "Kubernetes v1.37 Sneak Peek (5 minute read)",
+              "blurb": "Kubernetes v1.37, planned for release on August 26, will deprecate ipvs mode in kube-proxy, with clusters running that mode now logging a deprecation warning on startup. Static pods will no longer be allowed to reference Secrets or ConfigMaps via API fields, closing a long-standing bug, and the --filename flag for kubectl run is also being deprecated. The metrics.k8s.io API will graduate to stable after nearly nine years in beta, and kubelet in User Namespace (Rootless Mode) moves to beta, allowing node components to run without host-level root privileges. Cgroup v1 support continues its phaseout, with removal planned for a future release.",
+              "url": "https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "Speed Is Becoming More Important Than Intelligence for AI Models (5 minute read)",
+              "blurb": "Once models are capable enough for everyday coding, research, and analysis, inference speed can matter more than marginal gains in intelligence, with roughly 100–200 output tokens per second feeling fast enough for interactive work. Further model acceleration eventually produces diminishing returns because tool calls, databases, local hardware, and human review become the dominant bottlenecks, shifting competition toward serving speed and price.",
+              "url": "https://martinalderson.com/posts/speed-vs-intelligence/"
+            },
+            {
+              "headline": "Deploy Enterprise PowerShell Modules Using Azure Artifacts (7 minute read)",
+              "blurb": "Enterprise PowerShell modules can be distributed via a private Azure Artifacts feed using PSResourceGet, with Azure DevOps pipelines handling GitVersion-based semantic versioning, Key Vault code signing, and JEA restricting privileged runtime access.",
+              "url": "https://adamtheautomator.com/deploy-enterprise-powershell-modules-using-azure/"
+            },
+            {
+              "headline": "Scaling Kubernetes pods with KEDA based on Amazon SQS queue depth (3 minute read)",
+              "blurb": "This article walks through how to use KEDA to scale Kubernetes worker pods based on Amazon SQS queue depth rather than CPU or memory usage. The core idea is that in queue-driven systems, the number of messages waiting is a more accurate signal of demand than infrastructure utilization. KEDA calculates desired replica counts using the formula: outstanding messages divided by a configured per-pod target. It can scale deployments all the way down to zero when queues are empty.",
+              "url": "https://www.cncf.io/blog/2026/07/31/scaling-kubernetes-pods-with-keda-based-on-amazon-sqs-queue-depth/"
+            }
+          ]
+        },
+        {
+          "name": "Resources & Tools",
+          "stories": [
+            {
+              "headline": "DwarfStar (GitHub Repo)",
+              "blurb": "DwarfStar is a native inference engine built specifically for running DeepSeek V4 Flash and DeepSeek V4 PRO locally, with additional support for GLM 5.2. It is not a general GGUF runner. The project includes model loading, prompt rendering, tool calls, KV state, an HTTP server, and a coding agent built and tested together. It supports Metal on macOS, CUDA, and ROCm backends, and can split large models across multiple machines using pipeline or tensor parallelism over Thunderbolt or TCP.",
+              "url": "https://github.com/antirez/ds4"
+            },
+            {
+              "headline": "Kaneo (GitHub Repo)",
+              "blurb": "Kaneo is an open source project management tool built around a minimal feature set, on the premise that most competing platforms include too many features rather than too few. It supports Docker Compose and Kubernetes deployments, and a CLI tool called drim handles HTTPS, database setup, and service configuration automatically.",
+              "url": "https://github.com/usekaneo/kaneo"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "How CloudFormation express mode accelerates your development cycle (7 minute read)",
+              "blurb": "AWS CloudFormation Express mode reports stack completion as soon as resource configuration is applied rather than waiting for full stabilization, speeding development iteration and AI agent workflows while preserving dependency ordering and rollback options.",
+              "url": "https://aws.amazon.com/blogs/devops/how-cloudformation-express-mode-accelerates-your-development-cycle/"
+            },
+            {
+              "headline": "Faster Floating-Point Math With Rust's New API (7 minute read)",
+              "blurb": "Rust 1.98 adds algebraic floating-point operations that let developers explicitly permit reassociation and fused instructions without enabling every risky optimization associated with fast-math. Allowing the compiler to reorder independent calculations can unlock SIMD vectorization and significantly accelerate numerical workloads, with the tradeoff that results may vary slightly because floating-point addition is not associative.",
+              "url": "https://pythonspeed.com/articles/faster-float-math-rust/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Docker OIDC connections for GitHub Actions available for Docker Orgs (3 minute read)",
+              "blurb": "Docker now supports OpenID Connect (OIDC) for GitHub Actions, letting workflows authenticate with short-lived, per-run tokens instead of stored personal access tokens or organization access tokens.",
+              "url": "https://www.docker.com/blog/docker-oidc-connections-for-github-actions-available-for-docker-orgs/"
+            },
+            {
+              "headline": "Retirement of Azure DevOps issuer in Workload identity federation service connections (5 minute read)",
+              "blurb": "Microsoft is deprecating the Azure DevOps issuer for workload identity federation service connections, retiring it by July 1, 2027, and standardizing on the Microsoft Entra issuer, excluding multitenant apps and non-public cloud scenarios.",
+              "url": "https://devblogs.microsoft.com/devops/retirement-of-azure-devops-issuer-in-workload-identity-federation-service-connections/"
+            },
+            {
+              "headline": "Make OCI Compute Logs Part of Your Security Posture (5 minute read)",
+              "blurb": "Oracle Log Analytics enables security teams to collect OCI Compute instance logs via the Add Data workflow and analyze access activity, failed logins, and privilege escalation attempts through curated Compute dashboards for deeper investigation.",
+              "url": "https://blogs.oracle.com/observability/compute-logs-security-posture-la"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Design — 2026-08-03",
+      "tagline": "Pixel Fold Leaks 📱, Figma Make Upgrades 🎨, Reddit Goes TikTok 🎥",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Pixel 11 Pro Fold Design Leaks Ahead of Google Launch Event (1 minute read)",
+              "blurb": "Leaked marketing renders from Evan Blass reportedly reveal the unannounced Pixel 11 Pro Fold, alongside new Pixel Buds and a Pixel Watch, ahead of Google's launch event. The foldable appears similar to last year's model, keeping a tall outer screen and 8-inch inner display, but with a redesigned camera array featuring a glowy light teased for the Pixel 11 Pro. Google's Made by Google event is set for August 12th, where these devices are expected to be announced, though prices may rise.",
+              "url": "https://www.theverge.com/tech/973249/pixel-11-pro-fold-buds-watch-leaks-google-launch-event"
+            },
+            {
+              "headline": "A Properties Panel and Annotations, Now in Figma Make (4 minute read)",
+              "blurb": "Figma Make now includes a properties panel and annotations, letting users edit designs visually or with in-context prompts instead of relying solely on text. The properties panel adjusts spacing, typography, and layout directly, while annotations let users mark elements and describe changes like hover effects or animations for the agent to apply. Both features roll out to all seats and plans, consume credits, and currently only work with new Make designs, not previously created ones.",
+              "url": "https://www.figma.com/blog/properties-panel-and-annotations-now-in-figma-make/"
+            },
+            {
+              "headline": "Reddit is testing a new way to watch and listen to its viral posts (1 minute read)",
+              "blurb": "Reddit is testing a new TikTok-inspired video experience that would let users watch videos based on viral Reddit posts and listen to narrated stories in the background. CEO Steve Huffman said the company is responding to the popularity of Reddit-story content on platforms like TikTok, where millions of videos already repurpose Reddit discussions with text-to-speech narration. The feature is expected to enter testing later this year, as Reddit continues expanding its video offerings following the recent launch of video comments.",
+              "url": "https://techcrunch.com/2026/07/31/reddit-is-testing-a-new-way-to-watch-and-listen-to-its-viral-posts/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "Jakob's law: How to apply it as AI collapses surfaces into one chat box (15 minute read)",
+              "blurb": "Jakob's Law still applies in the AI era, but the reference point has shifted from websites to AI assistants like ChatGPT, Claude, and Copilot. As users increasingly start tasks through conversational interfaces rather than individual apps, products need to be discoverable, understandable, and usable through assistants by using clear naming, structured data, standard UI patterns, and protocols like MCP and A2UI. Rather than designing only for users who visit an app directly, designers should also optimize for products that work behind the scenes, with AI assistants becoming the primary interface for many tasks.",
+              "url": "https://uxdesign.cc/jakobs-law-how-to-apply-it-as-ai-collapses-surfaces-into-one-chat-box-d8ebc9a727db"
+            },
+            {
+              "headline": "How To Reduce AI Drifting in Design (7 minute read)",
+              "blurb": "Design systems drift when Figma components and front-end code fall out of sync, and AI often widens that gap rather than closing it. A proposed fix uses \"component contracts\" — plain-language specs that become the shared source of truth — paired with harness engineering, deterministic guardrails surrounding an AI model. Testing showed an AI agent scored 100/100 building screens from a contract catalog, versus 69/100 when ungoverned.",
+              "url": "https://smart-interface-design-patterns.com/articles/ai-drift-design-systems/"
+            },
+            {
+              "headline": "Your people get AI. Get out of their way (12 minute read)",
+              "blurb": "Despite widespread investment in AI, 95% of corporate AI projects fail, not because of the technology but because bureaucracy, excessive approvals, and a lack of trust prevent capable employees from using it effectively. Smaller, empowered teams can make fast decisions and focus on solving real problems, while large organizations often reward control over judgment, creating \"organizational debt\" that slows innovation. The companies that will benefit most from AI won't be those with the best tools - they'll be the ones that trust their people, remove unnecessary layers of management, and let experienced employees openly experiment, share what works, and make decisions.",
+              "url": "https://uxdesign.cc/your-people-get-ai-get-out-of-their-way-131370c157f8"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Visual Website Builder and CMS (Website)",
+              "blurb": "Ycode is an all-in-one website builder and CMS to design, host, and update your custom design website.",
+              "url": "https://www.ycode.com/"
+            },
+            {
+              "headline": "AI Image Enhancement and Upscaling with Full Control (Website)",
+              "blurb": "Enhance, upscale, and repair photos and graphics with UpSynth. AI-powered upscaling, restoration, and modification in one seamless editor.",
+              "url": "https://upsynth.ai/"
+            },
+            {
+              "headline": "Self-improving Websites (Website)",
+              "blurb": "Give your website a goal and put it on Auto Loop. Robynn audits, recommends, and ships approved improvements every week using your brand and analytics.",
+              "url": "https://robynn.ai/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Google's SynthID Watermark is Hard to Break, but it Doesn't Solve AI Disinformation (9 minute read)",
+              "blurb": "Google's SynthID watermark survived 300 rounds of simulated compression and resizing in testing, though cropping combined with heavy compression eventually defeated it. Even so, watermarking can't solve AI disinformation broadly, since fragmented detection systems, usage limits, and unlabeled open-source models leave huge gaps. Experts argue the better long-term strategy is authenticating genuine content via cryptographic metadata like C2PA rather than trying to flag every piece of synthetic media.",
+              "url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/"
+            },
+            {
+              "headline": "Bethesda's new logo design brings peak gaming nostalgia with a nod to its iconic original branding (4 minute read)",
+              "blurb": "To celebrate its 40th anniversary, Bethesda has introduced a new retro-futuristic logo that replaces its clean, corporate identity with one inspired by the company's original 1980s and 1990s branding. The redesign brings back the \"Bethesda Softworks\" name, uses an angular cyberpunk-inspired typeface reminiscent of its early years, and aims to better reflect the publisher's long history and personality. Fans have overwhelmingly praised the change, seeing it as a welcome return to Bethesda's roots and a reminder that distinctive branding can be more memorable than generic minimalism.",
+              "url": "https://www.creativebloq.com/design/logos-icons/looks-fire-gamers-say-of-bethesdas-nostalgic-new-logo-design"
+            },
+            {
+              "headline": "For 100 years no one noticed it, but this rebrand finally gives Gunnersbury Museum a reason to be found (6 minute read)",
+              "blurb": "Gunnersbury Museum and Park has introduced a new modular identity by Wiedemann Lampe to solve a long-standing visibility problem: most people knew the park but not the museum. The system uses separate symbols and colors—a green tree for the park and a purple building for the museum—that combine into a yellow identity when representing both together, giving each its own voice while maintaining a cohesive brand. Supported by flexible illustrations, human-focused photography, and intuitive yellow wayfinding, the rebrand is designed to increase awareness, encourage exploration, and help the historic site become a more recognizable cultural destination.",
+              "url": "https://www.creativeboom.com/news/for-100-years-nobody-noticed-the-museum-in-the-park-wiedemann-lampes-rebrand-finally-gives-gunnersbury-a-reason-to-be-found/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "The AI Aesthetic (2 minute read)",
+              "blurb": "AI has spawned distinct design idioms—sparkle emojis, streaming text, shimmering \"thinking\" indicators, tiny icons, and beige/cream palettes with orange accents—some likely to fade, others already spreading into broader software design.",
+              "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/"
+            },
+            {
+              "headline": "Chunking: How to Design for a Brain that Can Only Hold Four Things (6 minute read)",
+              "blurb": "Design that groups information into meaningful units reduces cognitive load and errors.",
+              "url": "https://unmatchedstyle.com/news/chunking-how-to-design-for-a-brain-that-can-only-hold-four-things.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Data — 2026-08-03",
+      "tagline": "DoorDash’s Agent Control Plane 🚦, OpenAI Shreds Analytics Costs 💸, SQL on Video 🎥",
+      "sections": [
+        {
+          "name": "Deep Dives",
+          "stories": [
+            {
+              "headline": "How DoorDash Built a Centralized Gateway for AI Agent-Tool Access (13 minute read)",
+              "blurb": "DoorDash built a centralized Agent Gateway that gives AI agents governed access to MCP tools, handling identity, authorization, credentials, filtering, observability, and rate limits. It now supports 200+ MCP servers and millions of weekly calls while improving security, reliability, and control.",
+              "url": "https://careersatdoordash.com/blog/how-doordash-built-a-centralized-gateway-for-ai-agent-tool-access/"
+            },
+            {
+              "headline": "Parting the Clouds: The Rise of Disaggregated Systems (47 minute video)",
+              "blurb": "Cloud databases are increasingly separating stateless compute from shared storage to improve elasticity, failover, and pay-per-use economics. The tradeoff is remote I/O latency and bandwidth, so systems such as Aurora, AlloyDB, DSQL, PolarDB, and TaurusDB lean on buffering, prefetching, pushdown, RDMA/CXL, and careful log/storage design.",
+              "url": "https://www.infoq.com/presentations/disaggregation-industrial-systems/"
+            },
+            {
+              "headline": "Leveraging Data Assets features in Airflow 3.0 to optimise resource utilization by more than 30% (11 minute read)",
+              "blurb": "Halodoc migrated Airflow workloads from polling sensors and synchronous Redshift loads to Airflow 3.x Assets and deferrable operators. Across 160 DAGs, the team reduced worker CPU from 26.1% to 7.71% and worker memory from 49.2% to 30.8%, while also lowering scheduler load and reducing Redshift table-locking errors by about 38%.",
+              "url": "https://blogs.halodoc.io/leveraging-data-assets-features-in-airflow-3-0-to-optimise-resource-utilization-by-more-than-30/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Advice",
+          "stories": [
+            {
+              "headline": "OpenAI Just Made Analytics 10x Cheaper (6 minute read)",
+              "blurb": "OpenAI's cheaper GPT 5.6 Luna shifts agentic analytics toward small, fast models paired with low-latency analytical databases, delivering highly accurate SQL answers for under half a cent while making frequent evals far more affordable. The advantage now comes less from using the smartest model and more from strong business context, rigorous model-agnostic evals, and a responsive data platform.",
+              "url": "https://motherduck.com/blog/openai-just-made-analytics-10x-cheaper/"
+            },
+            {
+              "headline": "Beyond Happy Path Engineering: Databases (18 minute read)",
+              "blurb": "Production databases fail at the edges: stale replica reads, ambiguous commits, deadlocks, and live migrations can break flows that pass the happy-path tests. The practical takeaway is to enforce invariants at the database boundary with guarded writes, constraints, short transactions, idempotent retries, and explicit recovery procedures.",
+              "url": "https://blog.gaborkoos.com/posts/2026-08-01-Beyond-Happy-Path-Engineering-Databases/"
+            },
+            {
+              "headline": "Kafka's Broken Promise: There is No Goldilocks Log (7 minute read)",
+              "blurb": "Kafka's partitioned stream model is a poor fit for router-style workloads with millions of independently keyed ordered logs. OpenData Log is built in Rust on object storage and SlateDB. It uses segmented LSM storage, key-based scans, metadata-only splits, and read replicas to support high-cardinality log routing more cheaply.",
+              "url": "https://www.opendata.dev/blog/announcing-opendata-log"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Xberg (GitHub Repo)",
+              "blurb": "Xberg is an open-source engine that extracts text, tables, metadata, and structured data from 101 formats, including PDFs, images, audio, video, URLs, archives, and code. Its Rust core supports 15 languages plus OCR, transcription, embeddings, structured extraction, and deployment through libraries, CLI, REST, MCP, Docker, or Helm.",
+              "url": "https://github.com/xberg-io/xberg"
+            },
+            {
+              "headline": "Video Needs a Knowledge Base (6 minute read)",
+              "blurb": "Video is difficult to use because it can be stored and watched but not queried, forcing manual review or repeated AI processing. CreativAI's platform structures footage once into a searchable knowledge base for fast queries across robotics, logistics, safety, compliance, and physical AI use cases.",
+              "url": "https://creativ-ai.com/blogs/video-needs-a-knowledge-base"
+            },
+            {
+              "headline": "Asynchronous I/O in DuckDB: Work, Thread, Work (12 minute read)",
+              "blurb": "DuckDB is adding asynchronous I/O so worker threads stop blocking on S3-backed Parquet and CSV reads. The design separates async and worker pools, adds read-ahead and memory governance, and shows some large performance wins: TPC-H Q6 on 22 GB Parquet fell from 8.23s to 2.84s, while a large CSV scan time improved by nearly 20x.",
+              "url": "https://duckdb.org/2026/07/31/asynchronous-io.html"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Data lessons from inside Meta (Shridhar Iyer) (12 minute read)",
+              "blurb": "Meta's data platform evolved into a strongly typed, unified stack with centralized catalog, taxonomy, lineage, and policy layers. Its scale lessons: one truncated debug column saved millions of dollars, core tables serving 40–50% of the warehouse required versioning rather than deletion, and AI-readiness starts with reusable workflow primitives.",
+              "url": "https://roundup.getdbt.com/p/data-lessons-from-inside-meta-shridhar"
+            },
+            {
+              "headline": "Crowdsourced taxonomy verification: A feedback-driven framework for refining knowledge graph relationships via online search interactions (6 minute read)",
+              "blurb": "Grab treats knowledge-graph relationships as hypotheses that can be validated with live search behavior. Candidate parent, child, and sibling relationships are injected into suggestions, then clicks, dwell time, scrolls, and conversions are aggregated into confidence scores that promote or prune taxonomy edges.",
+              "url": "https://engineering.grab.com/crowdsourced-taxonomy-verification"
+            },
+            {
+              "headline": "PGSimCity (Tool)",
+              "blurb": "PGSimCity is an interactive educational simulator that represents a PostgreSQL database as a 3D city. You can adjust workload settings or trigger scenarios such as checkpoint storms, cache thrashing, autovacuum blockages, lock pile-ups, and replication lag to see how PostgreSQL's internal systems affect performance.",
+              "url": "https://nikolays.github.io/PGSimCity/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Microsoft almost gave away the keys to everyone's Azure Cosmos DBs (2 minute read)",
+              "blurb": "A sharp reminder that managed NoSQL platforms can still expose master keys, so cloud secret posture and key rotation assumptions need regular review.",
+              "url": "https://www.infoworld.com/article/4203930/microsoft-almost-gave-away-the-keys-to-everyones-azure-cosmos-dbs-2.html"
+            },
+            {
+              "headline": "Postgres Index Types Explained: B-tree, GIN, BRIN, and Operators (5 minute read)",
+              "blurb": "A practical refresher on matching Postgres index types to equality, range, array, JSONB, text-search, and append-only time-series access patterns.",
+              "url": "https://levelup.gitconnected.com/postgres-index-types-explained-b-tree-gin-brin-and-operators-6d89177af2e2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
