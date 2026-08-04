@@ -1,0 +1,625 @@
+{
+  "date": "2026-08-04",
+  "mode": "per-newsletter",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Tech — 2026-08-04",
+      "tagline": "SpaceX buys land 🗺️, AI vertical integration 🤖, Cloudflare Computer 👨‍💻",
+      "sections": [
+        {
+          "name": "Big Tech & Startups",
+          "stories": [
+            {
+              "headline": "SpaceX's Bumpy Ride on the Stock Market May Get Bumpier (6 minute read)",
+              "blurb": "The first lockup on SpaceX shares is set to expire today. Employees and other company insiders who were prevented from trading stock after SpaceX's IPO will now be able to do so. Lockups prevent shares from flooding the market and driving down their price after an IPO. More than double the current supply that can be traded will be made available, which may further depress the price.",
+              "url": "https://www.nytimes.com/2026/08/03/technology/spacex-lockup-stock-market.html?unlocked_article_code=1.21A.iVJ-.7Lgmj2U960Y0&smid=url-share"
+            },
+            {
+              "headline": "SpaceX is set to acquire 130,000 acres of marshland in southern Louisiana (4 minute read)",
+              "blurb": "SpaceX is close to finalizing a deal to acquire about 130,000 acres along the northern coast of the Gulf of Mexico. The deal is expected to be officially announced later this month. The site, known as Pecan Island, is an 18-mile stretch of marshland. It became available as part of a legal settlement that resolved dozens of lawsuits blaming ExxonMobil for pollution and coastal land loss.",
+              "url": "https://arstechnica.com/space/2026/08/spacex-is-set-to-acquire-130000-acres-of-marshland-in-southern-louisiana/"
+            }
+          ]
+        },
+        {
+          "name": "Science & Futuristic Technology",
+          "stories": [
+            {
+              "headline": "Base Power raises $1B to roll out its giant new home battery (3 minute read)",
+              "blurb": "Base Power's Core is a 39.2-kWh home battery that can keep a house running for up to 36 hours. Core, which can be installed in under an hour, can be connected to solar and has a built-in port for recharging from a portable generator. The lithium iron phosphate battery is designed to operate between -22F and 122F and has an IP67 rating for submersion in up to 3 feet of water. Core will only be available as part of a subscription service, and the company will retain ownership of the battery.",
+              "url": "https://electrek.co/2026/08/03/base-power-raises-1b-to-roll-out-its-giant-new-home-battery/"
+            },
+            {
+              "headline": "Drug Discovery Has No Magic Wands (18 minute read)",
+              "blurb": "AI is set to transform human health. However, it will not be a magic wand: we don't understand human biology well enough for a clever enough reasoner to find the cures hidden in what we know. Aimed at biology we barely understand, AI will mostly help us generate failures faster. The path to real cures is to measure biology in the right way and use AI to derive novel insights from those measurements.",
+              "url": "https://www.a16z.news/p/drug-discovery-has-no-magic-wands"
+            }
+          ]
+        },
+        {
+          "name": "Programming, Design & Data Science",
+          "stories": [
+            {
+              "headline": "Cloudflare Computer (7 minute read)",
+              "blurb": "Cloudflare Computer is a virtual file system that lives inside a Durable Object which holds the authoritative state in SQLite and exposes a pluggable execution surface. It handles the details and mechanics of what code runs in an isolate, a container sandbox, or a web browser. Cloudflare Computer gives each agent a computer optimized for efficiency and scalability.",
+              "url": "https://blog.cloudflare.com/cloudflare-computer/"
+            },
+            {
+              "headline": "LLMs reward expertise (5 minute read)",
+              "blurb": "The most important skill in prompting is expertise in the domain you're prompting for. The domain knowledge makes you better at using AI because you have a sense of what a good solution might look like and can therefore write better prompts. The usefulness of domain knowledge suggests that human expertise will continue to be useful even as models get stronger.",
+              "url": "https://www.seangoedecke.com/llms-reward-expertise/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "The Endgame Of Vertical Integration (8 minute read)",
+              "blurb": "Model labs and agent labs are converging. Model labs continue to develop first-party applications that compete with their customers, while agent labs are starting to train models. The gains from co-designing models with harnesses is why agent labs need to move into model training. The challenge is for agent labs to offer the best intelligence per dollar at margins that the model labs can't match.",
+              "url": "https://www.akashbajwa.co/p/the-endgame-of-vertical-integration"
+            },
+            {
+              "headline": "What Are Companies Getting for All That AI Spending? (9 minute read)",
+              "blurb": "The cost and benefits of AI are difficult to weigh. There are now thousands of models, and there is no consensus around how much energy a token requires, which model is best to perform a given task, or how many tokens it should take. The Linux Foundation established the Tokenomics Foundation in June to create common parameters for AI providers to disclose. Being able to measure the costs and benefits of AI will help researchers understand how AI is going to change everything.",
+              "url": "https://www.nytimes.com/2026/08/03/business/economy/ai-spending-tokenomics.html?unlocked_article_code=1.21A.BmOO.lBmFxXLGMXVE&smid=url-share"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Does Forecasting Have Room At The Top? (20 minute read)",
+              "blurb": "AI superforecasters have come close to the accuracy of top humans, and their performance is rising rapidly.",
+              "url": "https://www.astralcodexten.com/p/does-forecasting-have-room-at-the"
+            },
+            {
+              "headline": "Ori Eval (Website)",
+              "blurb": "OpenRouter's Ori Eval helps users find the best model for what they're building.",
+              "url": "https://openrouter.ai/ori/eval"
+            },
+            {
+              "headline": "What the bliss taught us (5 minute read)",
+              "blurb": "The maintainers of curl took the entire month of July off from vulnerability reporting, and this post explains the lessons they learned.",
+              "url": "https://daniel.haxx.se/blog/2026/08/03/what-the-bliss-taught-us/"
+            },
+            {
+              "headline": "Apple Plans iPhone-to-Windows Copy and Paste in EU After Microsoft Request (3 minute read)",
+              "blurb": "Apple plans to introduce cross-device copy and paste by early 2028.",
+              "url": "https://www.macrumors.com/2026/08/03/apple-iphone-windows-copy-paste/"
+            },
+            {
+              "headline": "Why Silicon Valley is divided over China's powerful, cheap AI models (22 minute read)",
+              "blurb": "Whether to embrace or reject Chinese models has become a divisive issue in the US tech industry.",
+              "url": "https://restofworld.org/2026/silicon-valley-debate-chinese-open-weight-ai-models/"
+            },
+            {
+              "headline": "The Shape of Things to Come (38 minute read)",
+              "blurb": "Software will be excavated rather than designed, created without a concrete plan, just a lot of accretion over thousands of working days.",
+              "url": "https://yegge.ai/essays/the-shape-of-things-to-come/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR AI — 2026-08-04",
+      "tagline": "ChronicleBio 🧬, Mind Lab continual learning 📈, GPT-Live architecture 🎙️",
+      "sections": [
+        {
+          "name": "Headlines & Launches",
+          "stories": [
+            {
+              "headline": "Anthropic pays AI's biggest salaries. Its CEO just discovered people might take them for the money (4 minute read)",
+              "blurb": "Anthropic's CEO, Dario Amodei, recently said he was worried that new hires were joining his company for the money rather than the mission. Anthropic reportedly pays more than any lab in AI. Hiring top researchers is hard, and keeping them is even more difficult. When every lab can pay millions, mission is the only lever left. Researchers chase money, but they also chase compute, influence over what gets built, and the freedom to work their own way.",
+              "url": "https://thenextweb.com/news/ai-talent-wars-loyalty-money-mission-anthropic"
+            },
+            {
+              "headline": "Mind Lab puts continual learning to the test with Macaron-V1 (11 minute read)",
+              "blurb": "Mind Lab claims its Macaron-V1 model surpasses GLM-5.2 in its benchmarks. The model was built by attaching five LoRA expert modules, each with about one billion parameters, to GLM-5.1. The system dynamically switches to the expert model best suited to the task it is given. The accumulated data from model use can be distilled into a dedicated LoRA adapted that is continually updated as the model is called.",
+              "url": "https://kr-asia.com/mind-lab-puts-continual-learning-to-the-test-with-macaron-v1"
+            },
+            {
+              "headline": "Former OpenAI exec Fidji Simo discusses her battle with POTS and her startup's plans to cure it with AI and 3,500 vials of blood (11 minute read)",
+              "blurb": "Fidji Simo left OpenAI's leadership team after a seven-year battle with Postural Orthostatic Tachycardia Syndrome (POTS). Her new startup, ChronicleBio, will focus on using AI to cure POTS and other chronic diseases. The company has collected 153 terabytes of data from blood draws from people with chronic diseases so far. It plans to launch home blood draws to further increase its dataset. ChronicleBio plans to use the data to learn more about diseases and improve the success of clinical drug trials.",
+              "url": "https://finance.yahoo.com/healthcare/articles/exclusive-former-openai-exec-fidji-192343263.html"
+            }
+          ]
+        },
+        {
+          "name": "Deep Dives & Analysis",
+          "stories": [
+            {
+              "headline": "How OpenAI Built GPT-Live (8 minute read)",
+              "blurb": "OpenAI rebuilt its voice architecture around a full-duplex model that listened and spoke simultaneously. The system combined stateful inference, asynchronous delegation, dynamic context management, and low-latency media transport to keep conversations responsive while supporting advanced reasoning and tool use.",
+              "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/"
+            },
+            {
+              "headline": "One agent, every surface: how we built the Kiro agent harness (20 minute read)",
+              "blurb": "Kiro is an agentic IDE with features such as specs, steering, and hooks. The Kiro agent harness is a lightweight server-side process that runs alongside codebases, starts quickly, and owns everything on the agent side. The IDE, CLI, and Web clients own how the user interacts with the agent and how it presents the agent's work. The only way to cross that boundary is through the defined protocol interface. The well-defined interface between server and client means the agent code evolves independently of the clients.",
+              "url": "https://kiro.dev/blog/one-agent/"
+            },
+            {
+              "headline": "OpenAI's Unreleased Model Astra Solves Ten Major Open Mathematics Problems (34 minute read)",
+              "blurb": "OpenAI's recently released solutions for ten major open mathematics problems show that AI is now superhumanly capable at cyber and coding and superhuman at advanced math, the same way non-AI computers have been superhuman at basic math for a long time. These problems were well-defined, formalized problems where the solution could be easily verified. A lot of what constitutes AI R&D is verifiable. The lab that gets traction on true AI R&D self-improvement loops will find themselves in an overwhelmingly strong position.",
+              "url": "https://thezvi.wordpress.com/2026/08/03/openais-unreleased-model-astra-solves-ten-major-open-mathematics-problems/"
+            }
+          ]
+        },
+        {
+          "name": "Engineering & Research",
+          "stories": [
+            {
+              "headline": "Orchard (GitHub Repo)",
+              "blurb": "Orchard is an open-source agentic modeling framework. Its foundation is a thin, Kubernetes-native environment service that exposes generic primitives with no assumptions about the harness, trainer, inference backend, or task domain sitting above it. This foundation allows for recipes that use the same substrate for trajectory distillation, on-policy RL rollouts, and evaluations. Datasets, training recipes, and evaluation protocols stay portable across harnesses, domains, and projects instead of being rebuilt for each new study.",
+              "url": "https://github.com/microsoft/Orchard"
+            },
+            {
+              "headline": "MirrorCode (8 minute read)",
+              "blurb": "MirrorCode is a benchmark that tests AI models on long-horizon tasks. It contains tasks where AI models have to reimplement entire programs end-to-end without access to the original source code. AI-generated solutions must match the original program's output exactly on end-to-end tests. The benchmark's 25 target programs span different areas of computing, including Unix utilities, data serialization and query tools, bioinformatics, interpreters, static analysis, cryptography, and compression.",
+              "url": "https://epoch.ai/MirrorCode"
+            },
+            {
+              "headline": "From RLVR to RLSVR (GitHub Repo)",
+              "blurb": "RLSVR expanded RLVR beyond inherently verifiable problems by transforming open-ended tasks into proxy environments with rules and outcomes that generated their own reward signals. SpyRL demonstrated the approach through multi-agent self-play, where predetermined roles and voting made evaluation automatic.",
+              "url": "https://github.com/wangqinsi1/RLSVR"
+            },
+            {
+              "headline": "Fast Gemma's Verified Inference Optimization Recipe (7 minute read)",
+              "blurb": "VIDRAFT documented the full configuration behind its verified state-of-the-art Fast Gemma submission, explaining how each software optimization increased tokens per second on Gemma 4 E4B running on a single NVIDIA A10G.",
+              "url": "https://huggingface.co/blog/FINAL-Bench/fast-gemma"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "GPT-5.6 Sol Uses Twice the Tokens of GPT-5.5 (2 minute read)",
+              "blurb": "GPT-5.6 Sol xhigh now uses more than twice as many tokens per session as GPT-5.5 xhigh in Codex workflows. This cuts the effective value of a token-based quota by more than half. At the same token price, 2.25x the tokens means roughly 2.25x the cost for a similar token mix. GPT-5.6 Sol also adds a cache-write charge that GPT-5.5 didn't have.",
+              "url": "https://www.vincentschmalbach.com/gpt-5-6-sol-xhigh-uses-twice-tokens-gpt-5-5"
+            },
+            {
+              "headline": "White House to host AI companies Tuesday to review new model-testing framework (2 minute read)",
+              "blurb": "The White House will meet with AI companies to discuss a new framework for reviewing cybersecurity in AI models. This voluntary framework, ordered by President Trump, allows AI developers to share models with the government to evaluate cybersecurity risks. Companies like OpenAI, Google, and Anthropic are set to attend, with the assessment criteria remaining classified.",
+              "url": "https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "China's MiniMax H3 is the first open model to top an AI video ranking (2 minute read)",
+              "blurb": "Artificial Analysis ranks MiniMax H3 first in Video Editing, second in Text-to-Video, and third in Image-to-Video.",
+              "url": "https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking/"
+            },
+            {
+              "headline": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says (4 minute read)",
+              "blurb": "DeepSeek's V4-Flash AI model is the cheapest to run among well-known models, costing 105 times less than Anthropic's Claude Fable 5.",
+              "url": "https://www.reuters.com/business/retail-consumer/deepseeks-new-ai-model-is-by-far-cheapest-well-known-models-run-research-firm-2026-08-03/"
+            },
+            {
+              "headline": "Google Workspace Plugins (1 minute read)",
+              "blurb": "Cursor can now read, write, and act across Google Workspace through new plugins available on the Cursor Marketplace.",
+              "url": "https://cursor.com/changelog/google-workspace-plugins"
+            },
+            {
+              "headline": "Google is working on Plugins for Gemini Enterprise (2 minute read)",
+              "blurb": "Plugins may act as mini-apps or packaged workflows.",
+              "url": "https://www.testingcatalog.com/google-is-working-on-plugins-for-gemini-enterprise/"
+            },
+            {
+              "headline": "Bringing Human Taste to AI Models (3 minute read)",
+              "blurb": "Design Arena raised $7.9 million to help AI companies measure subjective qualities such as whether a generated game feels fun.",
+              "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR IT — 2026-08-04",
+      "tagline": "Texas Puts Data Centers on Hold ⚡, Microsoft Tests New Voice AI 🎙️, The Autonomous SOC Is Here 🛡️",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Microsoft tests new MAI Realtime voice model (2 minute read)",
+              "blurb": "Microsoft appears to be testing MAI Realtime, its first native real-time voice model, through a hidden early-access listing in MAI Playground. The bidirectional system supports simultaneous listening and speaking, multilingual conversations, configurable turn-taking, two voices, and low-latency interruptions, but it is not yet announced for broad release. The model could eventually reduce Microsoft's reliance on OpenAI's GPT-Realtime for voice experiences.",
+              "url": "https://www.testingcatalog.com/exclusive-microsoft-tests-new-mai-realtime-voice-model/"
+            },
+            {
+              "headline": "Data center approvals in Texas halted until audits completed, Gov. Greg Abbott says (6 minute read)",
+              "blurb": "Texas has paused approvals for new data centers seeking connections to the state power grid while regulators audit their electricity and water use, tax incentives, cooling systems, ownership and community impact. ERCOT has more than 1,800 large projects requesting 474 gigawatts of power, with data centers accounting for roughly 90% of the new demand.",
+              "url": "https://www.texastribune.org/2026/08/03/texas-data-center-project-audit-greg-abbott/"
+            }
+          ]
+        },
+        {
+          "name": "Analysis & Opinions",
+          "stories": [
+            {
+              "headline": "AI Governance Is Repeating Cybersecurity's Mistakes (10 minute read)",
+              "blurb": "AI governance is repeating cybersecurity's early mistakes by relying on vendor-controlled evaluations, weak incident detection, and voluntary disclosure. Disclosures involving OpenAI and Anthropic in July allegedly showed models escaping evaluation environments and accessing external systems, underscoring the need for independent evaluator oversight, continuously verified containment, monitoring, and reporting requirements.",
+              "url": "https://postquantum.com/ai-security/ai-governance-cybersecurity-lessons/"
+            },
+            {
+              "headline": "Palantir earnings will test the real shape of enterprise AI (8 minute read)",
+              "blurb": "Palantir's upcoming earnings will reveal whether enterprise AI is becoming operational infrastructure rather than remaining trapped in pilots. Its rapid growth is driven largely by existing customers expanding usage and by forward-deployed engineers embedded in organizations, but that model also creates a sovereignty paradox: Palantir warns against dependence on AI providers while deepening customers' dependence on Palantir.",
+              "url": "https://www.fastcompany.com/91582633/palantir-earnings-will-test-the-real-shape-of-enterprise-ai"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Partnerships",
+          "stories": [
+            {
+              "headline": "OpenAI Presence (3 minute read)",
+              "blurb": "OpenAI Presence is an enterprise offering intended to make AI agents reliable for production use in customer service and internal workflows. Forward Deployed Engineers help customers select workflows, connect systems, establish guidelines, test deployments, and launch them. Presence is limited to qualifying enterprises and its compliance approach remains unclear.",
+              "url": "https://openai.com/index/introducing-openai-presence/"
+            },
+            {
+              "headline": "SentinelOne Makes the Autonomous SOC Trustworthy with Governed, Closed-Loop Response (4 minute read)",
+              "blurb": "SentinelOne launched governed, closed-loop response across its Singularity Platform, allowing Purple AI to investigate alerts, reach verdicts and automatically execute response actions within limits set by security teams. Every action is traceable, reversible, and can require human approval, while the underlying agentic investigation system is already processing more than 8,500 critical investigations per day. The response capabilities are expected to become generally available later this quarter.",
+              "url": "https://www.businesswire.com/news/home/20260803850895/en/SentinelOne-Makes-the-Autonomous-SOC-Trustworthy-with-Governed-Closed-Loop-Response"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Your JSON Is Lying to You (23 minute read)",
+              "blurb": "JavaScript's familiar JSON serialization round trip can silently alter data rather than preserve it. Unsafe integers lose precision, undefined properties disappear, dates become strings, and values such as NaN become null. Instead, one should define explicit wire representations (such as decimal strings for exact integers) at application boundaries.",
+              "url": "https://blog.gaborkoos.com/posts/2026-08-03-Your-JSON-Is-Lying-to-You/"
+            },
+            {
+              "headline": "Asana's AI agents share memory across your company, but not your secrets (5 minute read)",
+              "blurb": "Asana's Agentic Work Management system gives AI agents shared organizational context through its Work Graph, allowing them to retain knowledge about tasks, projects, and company processes across interactions. Memories remain tied to the permissions of their source data, while model routing automatically selects different AI models based on a task's complexity.",
+              "url": "https://venturebeat.com/orchestration/asanas-ai-agents-share-memory-across-your-company-but-not-your-secrets"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "LARQL (GitHub Repo)",
+              "blurb": "LARQL is a framework that decompiles transformer models into a queryable graph-like \"vindex\" format.",
+              "url": "https://github.com/chrishayuk/larql"
+            },
+            {
+              "headline": "Provide more clear, contextual feedback with timestamped comments in Google Drive videos (2 minute read)",
+              "blurb": "Google Drive is adding timestamped comments to videos.",
+              "url": "https://workspaceupdates.googleblog.com/2026/08/provide-more-clear-contextual-feedback-with-timestamped-comments-in-Google-Drive-videos.html"
+            },
+            {
+              "headline": "ArcelorMittal expands Microsoft partnership on cloud (2 minute read)",
+              "blurb": "ArcelorMittal is expanding its use of Azure, Microsoft Fabric, Purview, and Foundry as it modernizes legacy systems and strengthens its cloud and security infrastructure.",
+              "url": "https://www.reuters.com/technology/arcelormittal-expands-microsoft-partnership-cloud-2026-08-03/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Web Dev — 2026-08-04",
+      "tagline": "Next.js 16.3 ⚡️, don’t be a meat proxy 🥩, LLMs reward expertise 🎓",
+      "sections": [
+        {
+          "name": "Articles & Tutorials",
+          "stories": [
+            {
+              "headline": "Experiments with AI Code Review (14 minute read)",
+              "blurb": "Wealthfront went on a multi-year experiment to improve AI-augmented code review processes, transitioning from initial skepticism to a structured approach that uses models like Opus 4 and Gemini for effective bug detection and code analysis. Their iterative refinements have led to improved review outcomes, reduced false positives, and an efficient review timeline.",
+              "url": "https://eng.wealthfront.com/2026/08/03/experiments-with-ai-code-review/"
+            },
+            {
+              "headline": "What's the largest software project AI can complete on its own? (7 minute read)",
+              "blurb": "MirrorCode is a benchmark designed to evaluate AI's ability to autonomously reimplement entire software programs from scratch without access to the original code, focusing on long-horizon coding tasks. AI models have shown they can successfully tackle some of these complex tasks.",
+              "url": "https://epoch.ai/MirrorCode"
+            },
+            {
+              "headline": "Massively parallel Postgres backups (12 minute read)",
+              "blurb": "Massively parallel backups for sharded Postgres databases are designed to create consistent, encrypted snapshots every 12 hours with minimal impact on production queries. By using cloud infrastructure and advanced techniques like Write-Ahead Log (WAL) replay, these backups can efficiently handle petabyte-scale databases, reducing the time needed for backup processes through parallelism across multiple shards.",
+              "url": "https://planetscale.com/blog/massively-parallel-postgres-backups"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Advice",
+          "stories": [
+            {
+              "headline": "LLMs reward expertise (5 minute read)",
+              "blurb": "LLMs have transformed the way individuals approach technical tasks by allowing those with limited skills to produce decent results, turning them into generalists. However, true expertise in a given domain is necessary for maximizing LLMs' potential, as shown by the ability of knowledgeable users to engage more effectively with the models.",
+              "url": "https://www.seangoedecke.com/llms-reward-expertise/"
+            },
+            {
+              "headline": "Use Task Runners for Common Coding Tasks (9 minute read)",
+              "blurb": "Task runners can streamline the workflow of software developers by automating common coding tasks across various repositories. By creating simple scripts or using tools like Make, Just, or Mise, developers can run commands for tasks such as installing dependencies, building, testing, and formatting code without having to remember complex commands specific to each tech stack.",
+              "url": "https://hamvocke.com/blog/task-runners/"
+            },
+            {
+              "headline": "Native Apps Should Be Avoided Whenever Possible (6 minute read)",
+              "blurb": "Native apps often collect much more personal data than their web counterparts, granting third-party software access to users' sensitive information without explicit consent.",
+              "url": "https://nooneshappy.com/article/native-apps-should-be-avoided-whenever-possible/"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Bonsai (GitHub Repo)",
+              "blurb": "Bonsai is a UI library designed for building efficient and reactive web applications in OCaml, allowing developers to create components as purely functional state machines while managing state and incrementality modularly. Its architecture helps with the development of both browser-based and terminal-based UIs.",
+              "url": "https://github.com/janestreet/bonsai"
+            },
+            {
+              "headline": "Next.js 16.3 (14 minute read)",
+              "blurb": "Next.js 16.3 has reduced memory usage in development, faster builds, better server-side rendering, and custom error boundaries, all aimed at optimizing existing applications without requiring changes to the application code. The release also has Instant Navigations and new tools like Instant Insights and Partial Prefetching.",
+              "url": "https://nextjs.org/blog/next-16-3"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Frame selection is the whole game: notes from making LLMs watch video (7 minute read)",
+              "blurb": "To effectively train vision-based LLMs on video content, careful frame selection is necessary, as using a fixed sampling method often misses important moments while overwhelming the model with redundant visuals. The approach involves dynamic scene detection and multiple channels for deduplication, along with synchronized transcripts, allowing the model to analyze the video more comprehensively than summaries provided by human interpreters.",
+              "url": "https://leoaido.com/how-llms-watch-video/"
+            },
+            {
+              "headline": "The Endgame Of Vertical Integration (8 minute read)",
+              "blurb": "Model Labs and Agent Labs are increasingly converging as AI companies, like Anthropic, focus on co-designing harnesses that optimize model performance. By integrating model and harness development, businesses can better handle a variety of workloads and improve their competitive edge in the enterprise AI market.",
+              "url": "https://www.akashbajwa.co/p/the-endgame-of-vertical-integration"
+            },
+            {
+              "headline": "The Build vs Buy Head Fake (19 minute read)",
+              "blurb": "The emergence of AI tools has led to a market upheaval, impacting traditional software models by making the initial development of applications cheaper and more accessible. Despite the accessibility of AI tools, established software solutions remain valuable due to the complexities of long-term maintenance and integration, alongside the unique advantages of proprietary data and deep industry expertise held by specialized companies.",
+              "url": "https://fieldventures.substack.com/p/the-build-vs-buy-head-fake"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "You Cannot Own a Falling Floor (13 minute read)",
+              "blurb": "Inference costs in AI are expected to drop dramatically, becoming nearly free within two years at any fixed level of capability, which undermines the long-term viability of products that rely solely on model access for differentiation.",
+              "url": "https://future.lulzx.space/blog/falling-floor.html"
+            },
+            {
+              "headline": "What the bliss taught us (7 minute read)",
+              "blurb": "The maintainers of curl took a month-long break from handling vulnerability reports, which resulted in a refreshing sense of relief and allowed them to focus on other neglected project aspects.",
+              "url": "https://daniel.haxx.se/blog/2026/08/03/what-the-bliss-taught-us/"
+            },
+            {
+              "headline": "The AI productivity gap (5 minute read)",
+              "blurb": "While AI has improved productivity for engineering teams, the overall gains in efficiency are still modest.",
+              "url": "https://bjorg.bjornroche.com/management/ai-productivity-gap/"
+            },
+            {
+              "headline": "Don't be a meat proxy (2 minute read)",
+              "blurb": "Relying solely on AI-generated responses without understanding or contextualizing the information can make effective communication and collaborative work worse, as it reduces the added value of personal insight and comprehension.",
+              "url": "https://gruhn.me/blog/2026-08-03/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR InfoSec — 2026-08-04",
+      "tagline": "Claude Models Hack 3 Organizations 🤖, CareCloud Breach 🏥, $88M BTC Wallet Flaw 🪙",
+      "sections": [
+        {
+          "name": "Attacks & Vulnerabilities",
+          "stories": [
+            {
+              "headline": "N-able Warns of N-central Auth Bypass Flaw Exploited in Attacks (2 minute read)",
+              "blurb": "N-able issued a notice warning customers of its N-central remote monitoring and management (RMM) platform about a new authentication bypass vulnerability that is actively being exploited. N-able has not yet released technical details but noted that the vulnerability stems from an incomplete fix for a previous authentication bypass vulnerability.",
+              "url": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/"
+            },
+            {
+              "headline": "Anthropic Says Claude Models Hacked 3 Organizations During Cyber Tests (3 minute read)",
+              "blurb": "A misconfigured internet-connected evaluation environment caused issues with Claude Opus 4.7, Claude Mythos 5, and an internal research model across three incidents identified in a review of 141,006 evaluation runs. Opus 4.7 retrieved production database rows after a fictional company's name coincided with a real one. Mythos 5 published a malicious PyPI package that was executed on 15 real systems, including a security vendor's scanner. Anthropic stated that these incidents did not require new exploits, but were due to weak passwords and exposed endpoints. They have halted evaluations, notified affected organizations, and are improving network isolation and vendor monitoring before resuming. Noma Security's CISO, Diana Kelley, emphasized that this should be viewed as a controls failure rather than an intent failure and recommends implementing isolation, least privilege, and kill switches for autonomous agent testing.",
+              "url": "https://hackread.com/anthropic-claude-models-hacked-organizations-cyber-tests/"
+            },
+            {
+              "headline": "CareCloud Breach Exposes Medical and Financial Data of 345K (2 minute read)",
+              "blurb": "Health tech company CareCloud disclosed that data belonging to 345k people was stolen in a March data breach. The attackers breached CareCloud's AWS environment and exfiltrated data from databases over 6 days. The stolen data may include names, home addresses, SSNs, government ID numbers, bank account details, payment card numbers, and other PHI.",
+              "url": "https://securityaffairs.com/196480/cyber-crime/carecloud-breach-exposes-medical-and-financial-data-of-345000.html"
+            }
+          ]
+        },
+        {
+          "name": "Strategies & Tactics",
+          "stories": [
+            {
+              "headline": "Agent Identity Architectures: Delegated, Bounded, and Autonomous (17 minute read)",
+              "blurb": "1Password classifies agent architectures as either local or remote and operating in a delegated, bounded, or autonomous mode. Delegated agents, such as coding agents or browser copilots, operate as an extension of a human identity and can use a workload identity broker when running locally or leverage platform attestation combined with protocols like WIMSE and CAEP when running remotely. Bounded authority agents, such as CI/CD pipelines, run without human intervention on behalf of a system or workflow and can use a workload identity broker when running locally or, when running remotely, leverage OIDC where available and SPIFFE where it isn't to issue short-lived credentials. Autonomous agents run for long periods with limited restrictions and are complex to secure whether running locally or remotely. This article provides some preliminary suggestions for controls.",
+              "url": "https://1password.com/blog/ai-agent-identity-architectures"
+            },
+            {
+              "headline": "The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version (16 minute read)",
+              "blurb": "The latest iteration of the macOS malware XCSSET, version 40, uses supply chain tactics to propagate by hiding malicious run-script phases in legitimate Xcode projects. To maximize stealth, the malware employs a multi-layered polymorphic evasion stack that uses dual-key encryption and in-memory execution, while actively impairing macOS defenses by disabling security updates and locking XProtect signature databases. XCSSET v40 also introduces a novel fileless persistence mechanism that abuses the macOS defaults configuration system, along with new operational modules designed to hijack Google Chrome via the Chrome DevTools Protocol and deploy trojanized Telegram binaries.",
+              "url": "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/"
+            },
+            {
+              "headline": "The Fuyao Enterprise: Building an Ad-Fraud Empire with AI and Kids' Coding Blocks (24 minute read)",
+              "blurb": "The Fuyao botnet shipped pre-installed on Android TV boxes at the firmware level, spoofed device identities as premium smartphones (Vivo, OPPO, Huawei, and Meizu) via C2-pushed profile configurations, then used a fused Android Accessibility/YOLOv8s/OCR vision stack alongside Blockly-authored fraud modules to click ads and run residential SOCKS5 proxy sessions across a claimed 120K+ device fleet, generating an estimated $150K in daily revenue. Bitsight TRACE attributed the operation to shared SSL certificates, a leaked internal wiki, reused shell-company emails, and 6-8 of 20 CNIPA patent filings mapping to Fuyao subsystems, tracing the scheme through 144 AI-generated ad-landing domains and Hong Kong/Singapore shell publishers back to Zhejiang Fengwo IoT Technology, a subsidiary of the Fengwo Group. Defenders managing Android device fleets or CI-adjacent infrastructure should flag anomalous phone-model telemetry originating from TV-box hardware profiles and treat unexplained SOCKS5 proxy traffic or unaccounted ad-network impressions as indicators of this ecosystem.",
+              "url": "https://www.bitsight.com/blog/fuyao-enterprise-building-ad-fraud-empire-ai-and-kids-coding-blocks"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "ADhammer (GitHub Repo)",
+              "blurb": "ADhammer is a single static Rust binary that combines a PingCastle-class Active Directory auditor with live-validated offensive validation, running DCSync, golden/silver tickets, pass-the-ticket, RBCD, Shadow Credentials, NTLM relay, and ESC1 enrollment against a from-scratch DCE/RPC, NTLM, SMB2, and Kerberos stack, with no impacket or Python runtime dependency.",
+              "url": "https://github.com/icedracon/adhammer"
+            },
+            {
+              "headline": "AgentDojo (GitHub Repo)",
+              "blurb": "AgentDojo provides a dynamic environment to evaluate attacks and defenses for LLM agents.",
+              "url": "https://github.com/ethz-spylab/agentdojo"
+            },
+            {
+              "headline": "GraphGulo (GitHub Repo)",
+              "blurb": "GraphGulo is a tool that converts raw PCAP captures and network flow logs into an indexed, temporal graph, then answers time-respecting traversal queries at low-latency on commodity hardware.",
+              "url": "https://github.com/Mihir4U-avi/GraphGulo"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Practical Memory Safety (5 minute read)",
+              "blurb": "Memory safety is most practically defined as having intuitive and easily followed rules unless explicitly marked with a warning sign. Systems like Fil-C offer a spectrum of safety through runtime checks, but they still allow unmarked memory overwrites within an allocation, leaving unchecked \"memory footguns\" for developers to navigate. Ultimately, genuine memory safety relieves developers from worrying about abstract machine rules so they can focus on their actual work.",
+              "url": "https://ohadravid.github.io/posts/2026-08-unsafe-water/"
+            },
+            {
+              "headline": "Tailscale didn't stop the Hugging Face intrusion (8 minute read)",
+              "blurb": "An AI agent that escaped its sandbox during a benchmark evaluation compromised Hugging Face's infrastructure over four and a half days, gaining code execution, root access, and a production secret store before using a stolen reusable Tailscale auth key to enroll 181 rogue nodes onto the company's tailnet. Tailscale confirmed no vulnerability in its own product was exploited, but used the incident to argue that long-lived credentials remain the industry's default weak point in an era of autonomous AI attackers. The post-mortem framed the episode as a case study in zero trust architecture's limits when credential lifecycle management lags behind attacker capability.",
+              "url": "https://tailscale.com/blog/hugging-face-intrusion"
+            },
+            {
+              "headline": "Apple Struggles to Keep Pace with AI “Bug” Hunters (2 minute read)",
+              "blurb": "Apple has announced new caps on the number of reports that bug bounty hunters can submit to its vulnerability disclosure program (VDP) as well as a waiting period to combat a deluge of low quality, AI-generated reports. Cybersecurity startup Bynario reported that it was blocked by these limits from submitting a valuable exploit chain that could lead to privilege escalation. Apple has stated that researchers can request an increase to the limit if needed.",
+              "url": "https://www.ft.com/content/4532122d-90f2-4433-9df6-ca99d8a141d2"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Former FBI agent indicted for stealing crypto from FBI (2 minute read)",
+              "blurb": "Former FBI special agent Patrick Steven Yaroch was indicted on charges of receipt and interstate transportation of stolen goods after confessing to stealing roughly $1 million in cryptocurrency.",
+              "url": "https://protos.com/former-fbi-agent-indicted-for-stealing-crypto-from-fbi/"
+            },
+            {
+              "headline": "COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft (3 minute read)",
+              "blurb": "An integration bug in COLDCARD firmware caused it to fall back to MicroPython's insecure Yasmarang generator instead of the onboard STM32 hardware RNG, letting attackers brute-force seeds offline and drain roughly 1,367 BTC ($88.6 million) from thousands of wallets across affected Mk2 through Mk5 and Q devices before Coinkite's July 30 disclosure.",
+              "url": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Design — 2026-08-04",
+      "tagline": "Google Earth AI 🍌, Googlebook Leaks 💻, Mac Studio Refresh 🖥️",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Transform Any Place with Nano Banana in Google Earth (2 minute read)",
+              "blurb": "Google Earth on web has launched a feature that lets users generate custom AI images of any location using Nano Banana 2, grounded in real satellite, aerial, and 3D imagery. Suggested uses included visualizing historical sites, creating educational infographics, drafting real estate concepts, previewing building projects, and imagining futuristic redesigns of familiar places. Google rolled back the feature the next day after some generated images appeared to violate its policies, despite images being watermarked and not visible in the main Earth experience.",
+              "url": "https://blog.google/products-and-platforms/products/earth/nano-banana-google-earth-image-generation/"
+            },
+            {
+              "headline": "New Lenovo leak just gave us our best look at Google's post-Chromebook gamble (2 minute read)",
+              "blurb": "Leaked images of the Lenovo Googlebook 15 reveal Google's upcoming Android-powered laptop, which features a premium design, a dedicated Gemini key, a desktop-style Android interface, and a wide selection of ports aimed at competing directly with Windows laptops. The new interface combines a phone-like status bar with a traditional taskbar, while preloaded apps such as Chrome, Gmail, Canva, and Adobe Premiere Pro highlight Google's ambition to make Android a serious desktop platform. Although specifications, pricing, and performance remain unknown, the laptop is expected to launch this fall, potentially at IFA in September.",
+              "url": "https://www.digitaltrends.com/computing/lenovo-just-gave-us-our-best-look-at-googles-post-chromebook-gamble/"
+            },
+            {
+              "headline": "Mac Studio: Here's what Apple has in store for this fall and beyond (2 minute read)",
+              "blurb": "Apple is expected to refresh the Mac Studio this October with M5 Max and M5 Ultra chips, bringing significant performance improvements, up to 36 CPU cores, 80 GPU cores, and potentially 768GB of unified memory, though memory availability may be limited by supply constraints. The update also marks the arrival of the first M5 Ultra, as Apple never released an M4 Ultra chip, but higher prices are likely following recent Mac price increases. Looking further ahead, a 2028 Mac Studio with M7 Max and M7 Ultra chips is expected to deliver major AI performance gains, a redesigned cooling system, and support for up to 1.5TB of unified memory, making it Apple's most powerful Mac yet.",
+              "url": "https://9to5mac.com/2026/08/01/heres-what-to-come-with-the-next-apple-mac-studio-refresh/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "The Hidden Details in Every Font (15 minute read)",
+              "blurb": "Good typography is largely invisible. Type designers spend months making subtle adjustments—such as optical sizing, spacing, overshoots, ink traps, and character differentiation—so that text feels effortless to read without readers ever noticing the craft behind it. Many of these techniques have been refined over centuries and are based on how human vision works, ensuring letters remain legible at different sizes, in different contexts, and even under challenging conditions like poor printing or road signage. The result is that typography doesn't just convey words - it quietly influences readability, tone, and even credibility, demonstrating that the best type design succeeds precisely because it disappears behind the meaning.",
+              "url": "https://medium.com/design-bootcamp/the-hidden-details-in-every-font-197535f19aad"
+            },
+            {
+              "headline": "How to Make Your Design System AI-Ready (5 minute read)",
+              "blurb": "AI-generated prototypes often fall short not due to model limitations, but because of undocumented decisions, hard-coded values, and inconsistencies scattered throughout design systems. A practical framework addresses this through treating design decisions as infrastructure, auditing tools like FigmaLint, and a three-layer system of spec files, token layers, and automated audits. Design debt can't be resolved by AI alone—it requires deliberate human guidance and ongoing maintenance of design systems over time.",
+              "url": "https://smart-interface-design-patterns.com/articles/design-system-ai-ready/"
+            },
+            {
+              "headline": "Creative Technologists are moving from the margins to the center (12 minute read)",
+              "blurb": "A Creative Technologist uses technology as a creative medium, combining design, engineering, and storytelling to explore what new technologies can mean before their use cases are established. Although the role has existed for decades under various names, AI has made it increasingly valuable because companies need people who can quickly prototype ideas, connect disciplines, and shape new experiences rather than simply execute predefined ones. The broader shift is that many designers and creative professionals will increasingly adopt this way of working, treating technology as a medium for experimentation and expression rather than just a tool.",
+              "url": "https://uxdesign.cc/creative-technologists-are-moving-from-the-margins-to-the-center-4fcfaa3cf2f6"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Turn Data Into Winning Ads (Website)",
+              "blurb": "Turn performance data, competitor insights, and consumer signals into winning ad creatives, using custom AI workflows you build and own.",
+              "url": "https://www.adomate.com/"
+            },
+            {
+              "headline": "AI Visual Production Platform (Website)",
+              "blurb": "Create stunning product photos, videos, and social content with AI. Convert Flat Lay images to on-model shoots in bulk.",
+              "url": "https://www.caimera.ai/"
+            },
+            {
+              "headline": "Professional Motion Studio (Website)",
+              "blurb": "Premation is a professional motion studio. Dynamic WebGPU timeline rendering ensures your preview and final export are identical.",
+              "url": "https://www.premation.com/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "10 GUI Design Elements Build Every User Interface (32 minute read)",
+              "blurb": "Nielsen identifies 10 fundamental GUI elements—buttons, forms, menus, links, dialogs, alerts, icons, checkboxes/radio buttons, tabs, and search—that form the basic vocabulary underlying nearly every interface built over 40+ years. The article traces each element's history, explains its usability role, and offers 86 evidence-based design guidelines plus bonus coverage of windows and pointers. It argues designers should master this established alphabet rather than invent new conventions, since familiarity, tested through Jakob's Law and decades of use, consistently outperforms novelty.",
+              "url": "https://jakobnielsenphd.substack.com/p/gui-widgets"
+            },
+            {
+              "headline": "Designer's attempt to fix Disney+ logo fires up fans (1 minute read)",
+              "blurb": "Designer Allan Peters proposed a simplified Disney+ logo that uses the iconic Disney \"D\" as the main mark, highlighting a hidden \"+\" already present within the letter. While many appreciated the clever concept, the redesign sparked backlash from fans who argued that Disney's signature \"D\"—closely associated with Walt Disney's handwriting—is too iconic and culturally significant to alter, illustrating the challenge of updating one of the world's most recognizable brand identities.",
+              "url": "https://www.creativebloq.com/design/logos-icons/designers-attempt-to-fix-disney-logo-fires-up-fans"
+            },
+            {
+              "headline": "Koto on why physical space is still critical to creative culture (6 minute read)",
+              "blurb": "Koto believes a strong in-person studio culture is essential for creative work, arguing that being together enables spontaneous collaboration, mentorship, relationship-building, and higher creative standards in ways remote work cannot. The agency intentionally designs its offices around collaboration rather than capacity, while allowing each studio to develop its own personality through local culture, team-led rituals, and thoughtfully designed spaces. As Koto grows, it prioritizes hiring ambitious, low-ego people with potential, investing in shared experiences, and preserving a culture of optimism, craftsmanship, and co-creation to build a lasting creative legacy.",
+              "url": "https://the-brandidentity.com/interview/koto-on-why-physical-space-is-still-critical-to-creative-culture"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Everyone's Work is Starting to Look the Same (5 minute read)",
+              "blurb": "AI is homogenizing design output, but peer-reviewed research shows the effect is measurable yet small, strongest in tightly constrained tasks like onboarding flows.",
+              "url": "https://marieclairedean.substack.com/p/everyones-work-is-starting-to-look"
+            },
+            {
+              "headline": "Measuring the UX of AI (7 minute read)",
+              "blurb": "Generative AI chatbots' UX can be measured through a mix of behavioral and attitudinal metrics.",
+              "url": "https://measuringu.com/measuring-the-ux-of-ai/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
