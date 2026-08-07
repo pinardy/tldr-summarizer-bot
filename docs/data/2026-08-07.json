@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-07",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design",
+      "sections": [
+        {
+          "name": "AI, Hardware & Tech Frontiers",
+          "stories": [
+            {
+              "headline": "Tesla and SpaceX to Build Massive $16.8B 'Terafab' in Texas",
+              "blurb": "The 100-million-square-foot megafactory will consolidate logic, memory, packaging, and testing under one roof to manufacture a terawatt of compute annually.",
+              "url": "https://electrek.co/2026/08/06/tesla-spacex-terafab-grimes-county-16-8-billion/"
+            },
+            {
+              "headline": "AMD Acquires Taalas to Hardwire AI Models Directly Into Silicon",
+              "blurb": "By etching model weights into silicon, Taalas’ technology bypasses traditional GPU memory bottlenecks to drastically accelerate AI inference.",
+              "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344"
+            },
+            {
+              "headline": "Leaked Details Reveal OpenAI's Displayless Smart Speaker Slated for 2027",
+              "blurb": "The upcoming hockey puck-sized hardware device will cost over $300 and use moving parts to give the AI agent a unique physical personality.",
+              "url": null
+            },
+            {
+              "headline": "Scientists Use AI to Create Viable, Non-Natural Viruses for the First Time",
+              "blurb": "Researchers trained an AI model on natural DNA structures to design entirely synthetic viruses that successfully infected bacteria.",
+              "url": "https://www.nytimes.com/2026/08/06/science/ai-viruses-bacteria-arc.html?unlocked_article_code=1.3lA.pm4x._XyPxLroIp7d&smid=url-share"
+            },
+            {
+              "headline": "Tech Leaders Release Agent Plugins 1.0.0 Standard for Reusable AI Skills",
+              "blurb": "The new open-source packaging specification establishes a consistent, portable format for AI Agent Skills and MCP servers across various clients.",
+              "url": "https://vercel.com/blog/introducing-agent-plugins"
+            }
+          ]
+        },
+        {
+          "name": "Security & Systems Engineering",
+          "stories": [
+            {
+              "headline": "TONTOU Attack Bypasses Spectre v2 Mitigation to Leak Linux Password Hashes",
+              "blurb": "MIT CSAIL researchers discovered a branch predictor vulnerability that re-poisons CPU state in the gap after isolation, letting unprivileged code leak sensitive data.",
+              "url": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/"
+            },
+            {
+              "headline": "Unpatched Leaks Bypass Apple's Private Relay to Expose Real IP Addresses",
+              "blurb": "Researchers identified three vulnerabilities in Safari's WebKit—including WebTransport and DNS prefetching—that allow malicious websites to discover users' true IP addresses.",
+              "url": "https://www.privacyguides.org/news/2026/08/05/apples-private-relay-leaks-your-real-ip-address-in-safari/"
+            },
+            {
+              "headline": "NatJack Exploits Bypass Traditional NAT Security Assumptions",
+              "blurb": "Presented at Black Hat, the newly discovered class of attacks manipulates network address translation connection tables to hijack sessions and poison DNS.",
+              "url": "https://www.networkworld.com/article/4206287/natjack-exploits-put-nat-security-assumptions-to-the-test-at-black-hat.html"
+            },
+            {
+              "headline": "GitHub Actions Suffers Severe Outage Highlighting Infrastructure Growing Pains",
+              "blurb": "A major system-wide failure throttled webhook triggers and left both hosted and self-hosted runners stranded, disrupting developer pipelines globally.",
+              "url": "https://kernel.pryanic.com/posts/github-actions-is-having-one-of-the-worst-days-in-its-history"
+            },
+            {
+              "headline": "Amazon DynamoDB Adds Native Real-Time Vector Search Support",
+              "blurb": "Developers can now store high-dimensional embeddings and run similarity queries directly inside DynamoDB without needing external databases.",
+              "url": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/"
+            }
+          ]
+        },
+        {
+          "name": "Design & Developer UX",
+          "stories": [
+            {
+              "headline": "Figma's Code Connect for MCP Significantly Cuts AI Coding Costs",
+              "blurb": "By linking Figma components to production codebase elements, the tool reduces token usage by nearly 30% and improves the output quality of coding agents.",
+              "url": "https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp/"
+            },
+            {
+              "headline": "Design Arena Raises $7.9M to Sell Crowdsourced AI Design Feedback",
+              "blurb": "The startup has built a $60 million ARR business by allowing millions of users to rank AI-generated designs and selling that human-taste dataset to AI labs.",
+              "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/"
+            },
+            {
+              "headline": "LinkedIn Introduces 'Anti-Slop' Flag to Combat AI-Generated Feed Bloat",
+              "blurb": "The platform is rolling out user-facing buttons to report AI-generated low-value content, aiming to retrain feed algorithms amidst a rise in automated posting.",
+              "url": "https://www.fastcompany.com/91584892/linkedins-new-anti-slop-button-is-coming-to-every-platform"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
