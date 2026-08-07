@@ -134,6 +134,8 @@
   details.digest {
     background: var(--card); border: 1px solid var(--rule); border-radius: 10px;
     padding: 16px 24px; margin-bottom: 16px;
+    /* Breathing room when a card is scrolled to the viewport top on expand. */
+    scroll-margin-top: 8px;
   }
   details.digest > summary { cursor: pointer; list-style: none; }
   details.digest > summary::-webkit-details-marker { display: none; }
@@ -171,6 +173,20 @@
     padding: 3px 10px; cursor: pointer;
   }
   #blurb-toggle:hover { border-color: var(--accent); color: var(--ink); }
+  /* Mobile: an expanded card can be ~100 stories long, so closing it again
+     shouldn't require scrolling back to its heading — offer a collapse
+     control at the bottom of the open card. */
+  .collapse-card { display: none; }
+  @media (max-width: 640px) {
+    .collapse-card {
+      display: block; width: 100%; margin-top: 16px;
+      font: inherit; font-size: 0.85rem;
+      background: none; color: var(--muted);
+      border: 1px solid var(--rule); border-radius: 8px;
+      padding: 8px; cursor: pointer;
+    }
+    .collapse-card:hover { border-color: var(--accent); color: var(--ink); }
+  }
   .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 16px; }
   .empty { color: var(--muted); font-style: italic; padding: 40px 0; text-align: center; }
   footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding-bottom: 32px; }
@@ -232,6 +248,17 @@
     cardSummary.appendChild(el("h3", null, digest.title));
     const n = (digest.sections || []).reduce((t, s) => t + (s.stories || []).length, 0);
     cardSummary.appendChild(el("span", "count", `${n} stories`));
+    // Mobile: expanding a card mid-screen leaves the reader partway into it,
+    // so align the card's top with the viewport on open. The click handler
+    // (rather than a toggle listener) avoids firing on the initial render,
+    // and the state check runs after the default action flips `open`.
+    cardSummary.addEventListener("click", () => {
+      requestAnimationFrame(() => {
+        if (card.open && matchMedia("(max-width: 640px)").matches) {
+          card.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      });
+    });
     card.appendChild(cardSummary);
     if (digest.tagline) card.appendChild(el("p", "tagline", digest.tagline));
     for (const section of digest.sections || []) {
@@ -256,6 +283,14 @@
         card.appendChild(storyEl);
       }
     }
+    const collapseBtn = el("button", "collapse-card", "▴ Collapse section");
+    collapseBtn.addEventListener("click", () => {
+      card.open = false;
+      // Closing removes most of the page height; jump back to the card's
+      // heading so the reader isn't left at an arbitrary scroll position.
+      card.scrollIntoView({ block: "start" });
+    });
+    card.appendChild(collapseBtn);
     return card;
   }
 
