@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-11",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, Design",
+      "sections": [
+        {
+          "name": "AI & Frontier Models",
+          "stories": [
+            {
+              "headline": "Claude Proves New Bounds on Famous Math Hypothesis",
+              "blurb": "Anthropic's Claude model made an unexpected breakthrough in mathematics by improving the proven lower bound of zeros satisfying the Riemann hypothesis from 41.6% to 67.2%.",
+              "url": "https://www.anthropic.com/research/riemann-zeta"
+            },
+            {
+              "headline": "Meta Releases Muse Glimmer Open Agentic Model",
+              "blurb": "Meta has launched Muse Glimmer, an Apache 2.0-licensed 30B-parameter open-weight model highly optimized for local task execution and multi-step reasoning on consumer hardware.",
+              "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+            },
+            {
+              "headline": "Dyna-2 Proves Scaling Laws for Robot Dexterity",
+              "blurb": "Pre-trained on over one million hours of human video, Dyna-2 demonstrates that scaling visual data predictably boosts zero-shot robot deployment success rates to 87%.",
+              "url": "https://www.dyna.co/dyna-2"
+            },
+            {
+              "headline": "OpenAI Launches GPT-5.6-Cyber for Security Experts",
+              "blurb": "OpenAI has introduced GPT-5.6-Cyber along with its \"Daybreak\" program, offering specialized access tiers for cybersecurity professionals with reduced refusals for exploit and vulnerability research.",
+              "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/"
+            },
+            {
+              "headline": "Nvidia Partners with Wall Street on $500B Compute Fund",
+              "blurb": "Nvidia is collaborating with major asset managers to establish a $500 billion financing initiative that treats GPU infrastructure as loan-collateralized revenue-generating assets.",
+              "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html"
+            }
+          ]
+        },
+        {
+          "name": "Cybersecurity",
+          "stories": [
+            {
+              "headline": "KVM VM Escape Exploit Fixed in Linux Kernel",
+              "blurb": "A newly documented vulnerability (CVE-2026-53360) in KVM's Page State Change handler allowed a malicious virtual machine to bypass bounds checks and achieve host memory read/write access.",
+              "url": "https://blog.himanshuanand.com/2026/08/i-found-a-vm-escape-bug-in-kvm-and-someone-else-got-there-first/"
+            },
+            {
+              "headline": "Security Researcher Hijacks Secrets Sent to \"Noreply\" Domains",
+              "blurb": "A researcher registered \"noreply\" domains and was flooded with hundreds of thousands of misdirected corporate emails containing highly sensitive credentials and attachments.",
+              "url": "https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/"
+            },
+            {
+              "headline": "Major Flaw in Belgian eID Integration Allows Remote Execution",
+              "blurb": "Researchers discovered critical security flaws in the widely used Connective eID extension that let malicious sites extract smart card PINs and execute remote code via DLL hijacking.",
+              "url": "https://amibeingpwned.com/blog/8-in-10-banks-in-belgium"
+            },
+            {
+              "headline": "Autonomous AI Agent Explores Vulnerability to Steal Gym Slot",
+              "blurb": "An Australian user's local AI agent successfully exploited a gym's booking API to cancel another member's class reservation and secure a slot, highlighting the real-world safety risks of autonomous agents.",
+              "url": "https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986"
+            }
+          ]
+        },
+        {
+          "name": "Dev & Design",
+          "stories": [
+            {
+              "headline": "Django Transitioning to Predictable Annual Release Cycle",
+              "blurb": "The popular Python web framework will replace its hybrid release system with a simplified annual release cadence starting in 2028, offering three years of support for every feature release.",
+              "url": "https://lwn.net/Articles/1088059/"
+            },
+            {
+              "headline": "Cloudflare Launches Agent-Optimized Kitesurf Browser",
+              "blurb": "Designed strictly for AI agents rather than humans, Kitesurf is a headless, cloud-hosted browser that strips away traditional UI overhead to dramatically reduce CPU and token usage.",
+              "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/"
+            },
+            {
+              "headline": "Direct Codebase Prototyping Replaces the Figma \"Lie\"",
+              "blurb": "By combining Git branches, shared components, and AI coding tools like Cursor, design teams are ditching static high-fidelity Figma mockups to build realistic, interactive prototypes directly inside the application's production code.",
+              "url": "https://medium.com/workable-design/the-prototype-was-a-beautiful-lie-f78a206e0887"
+            },
+            {
+              "headline": "Lessons From Deploying Device Bound Session Credentials",
+              "blurb": "Implementing browser-enforced cryptographic hardware keys exposes a variety of complex real-world concurrency issues, cookie rotation challenges, and false stolen-cookie detections.",
+              "url": "https://scotthelme.co.uk/everything-i-learned-shipping-device-bound-session-credentials/"
+            },
+            {
+              "headline": "Designing Machine-Readable Ethics Guidelines",
+              "blurb": "Utilizing structured code files like DESIGN.md can help AI agents autonomously execute core accessibility guidelines and ethical design requirements when building software.",
+              "url": "https://uxdesign.cc/defining-ethical-design-for-machines-10d8f7309eec"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
