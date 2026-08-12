@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-12",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "Gemini Hits 1 Billion Monthly Users in Record Time",
+              "blurb": "Google's Gemini has reached 1 billion monthly active users faster than any other product in the company's history, highlighting its rapid integration across Google's core ecosystem.",
+              "url": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/"
+            },
+            {
+              "headline": "SpaceXAI Launches Grok Bot to Orchestrate Autonomous Agent Teams",
+              "blurb": "SpaceXAI has unveiled Grok Bot, an agentic system that equips AI bots with individual virtual environments and access to external applications to execute complex, multi-step business workflows autonomously.",
+              "url": "http://x.ai/news/introducing-grok-bot"
+            },
+            {
+              "headline": "Exploit Replays API Data to Steal Proprietary LLM Reasoning Traces",
+              "blurb": "Researchers discovered that encrypted reasoning traces from Anthropic, OpenAI, and Google can be replayed into weaker sibling models to extract plaintext chains of thought, creating a massive risk for leaks of sensitive enterprise data.",
+              "url": "https://stolen-thoughts.com/"
+            },
+            {
+              "headline": "DeepMind Shuffles Leadership to Prioritize Product Execution",
+              "blurb": "Koray Kavukcuoglu has been promoted to lead Google DeepMind, reporting directly to Sundar Pichai as the tech giant shifts its focus from pure AI research to rapid model execution and deployment.",
+              "url": "https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html"
+            },
+            {
+              "headline": "OpenAI COO Brad Lightcap Exits to Start New Venture",
+              "blurb": "Longtime COO Brad Lightcap is leaving OpenAI to start a new project, adding to a string of recent executive departures as the company structures its leadership ahead of an anticipated public offering.",
+              "url": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/"
+            }
+          ]
+        },
+        {
+          "name": "Security & Infrastructure",
+          "stories": [
+            {
+              "headline": "Zoom Patches Critical Zero-Click Remote Code Execution Flaw",
+              "blurb": "Zoom has released critical patches to mitigate 'Zoomsday,' a stack buffer overflow vulnerability in its meeting annotation protocol that allowed unauthenticated participants to execute code silently across all unpatched systems.",
+              "url": "https://securityaffairs.com/197042/hacking/zoom-patches-zoomsday-zero-click-flaw-enabling-remote-code-execution.html"
+            },
+            {
+              "headline": "Active Zero-Day SQL Injection Exploit Targets Metabase",
+              "blurb": "A maximum-severity SQL injection vulnerability in Metabase is actively being exploited to bypass authentication and compromise connected database credentials, prompting warnings for self-hosted users to patch immediately.",
+              "url": "https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius"
+            },
+            {
+              "headline": "AI Agent Chains SharePoint Vulnerabilities to Achieve RCE",
+              "blurb": "Security researchers successfully utilized an AI assistant to chain two distinct SharePoint bugs into an unauthenticated remote code execution exploit, highlighting how automated tools are accelerating threat validation.",
+              "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html"
+            },
+            {
+              "headline": "CNCF Graduates Cloud Native Buildpacks as Container Assembly Standard",
+              "blurb": "The Cloud Native Computing Foundation has officially graduated Cloud Native Buildpacks, validating the open-source project's security and maturity for generating production-ready, OCI-compliant container images directly from source code.",
+              "url": "https://www.cncf.io/announcements/2026/08/11/cncf-announces-graduation-of-cloud-native-buildpacks-advancing-the-standard-for-container-builds/"
+            }
+          ]
+        },
+        {
+          "name": "Dev, Design & Ethics",
+          "stories": [
+            {
+              "headline": "Modular Releases Mojo 1.0 to Bring Stability to AI Programming",
+              "blurb": "Mojo has officially graduated to version 1.0, maturing from an experimental language into a stable, general-purpose platform that merges Python's usability with C-level systems performance.",
+              "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here"
+            },
+            {
+              "headline": "Spotify to Label and Restrict Algorithmic Reach of 'AI Personas'",
+              "blurb": "Spotify will begin labeling AI-generated artist identities with 'AI Persona' badges and excluding them from editorial and algorithmic recommendations unless users explicitly follow them, aiming to preserve human artist discovery.",
+              "url": "https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/"
+            },
+            {
+              "headline": "ShieldFont Scrambles HTML to Break AI Web Scraping",
+              "blurb": "A new tool called ShieldFont uses font ligature substitutions to swap words in HTML source code, rendering scrapers useless by serving them scrambled decoy text while presenting perfectly readable content to human eyes.",
+              "url": "https://www.fastcompany.com/91585494/this-font-looks-perfectly-normal-to-humans-but-confuses-ai"
+            },
+            {
+              "headline": "PostgreSQL Subtransactions Introduce Severe Performance Risks",
+              "blurb": "Accumulating too many subtransactions in PostgreSQL can exhaust memory caches and severely degrade database throughput, demanding that developers keep transactions short and monitor active subtransaction IDs.",
+              "url": "https://planetscale.com/blog/the-dangers-of-postgres-subtransactions"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
