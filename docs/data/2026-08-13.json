@@ -1,0 +1,96 @@
+{
+  "date": "2026-08-13",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design",
+    "data"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, Design, Data",
+      "sections": [
+        {
+          "name": "AI & Software Development",
+          "stories": [
+            {
+              "headline": "Grok 4.6 Launches with Agentic Upgrades",
+              "blurb": "SpaceXAI has released Grok 4.6, matching GPT-5.6 Sol's performance with a strong focus on long-running agent tasks, which substantially lowers the cost of advanced AI intelligence.",
+              "url": "https://x.ai/news/grok-4-6"
+            },
+            {
+              "headline": "Microsoft Introduces MAI-Thinking-1 Reasoning Model",
+              "blurb": "Microsoft launched MAI-Thinking-1, a medium-sized reasoning model aimed at making complex coding, math, and knowledge tasks cost-efficient for enterprise workloads.",
+              "url": "https://microsoft.ai/news/introducing-mai-thinking-1/"
+            },
+            {
+              "headline": "How Astro Used AI Subagents to Achieve Zero GitHub Issues",
+              "blurb": "The Astro team built an automated triage pipeline using AI subagents to reproduce, diagnose, and resolve bugs, proving that software factories can effectively eliminate development bottlenecks.",
+              "url": "https://blog.cloudflare.com/astro-issue-triage/"
+            },
+            {
+              "headline": "Figma Releases Model Context Protocol Server for AI Agents",
+              "blurb": "Figma's new MCP server allows developers to execute Figma Weave tools directly inside AI clients like ChatGPT and Claude, keeping design context unbroken within conversational workflows.",
+              "url": "https://www.figma.com/release-notes/?title=figma-mcp-run-weave-tools-right-from-your-favorite-agent&amp%3Butm_source=tldrdesign"
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure, Databases & Security",
+          "stories": [
+            {
+              "headline": "Databricks Acquires Electric to Build Local Databases for AI Agents",
+              "blurb": "Databricks is acquiring Electric to integrate PGlite, a WASM Postgres engine, into AI agent sandboxes, enabling low-latency local execution while maintaining a centralized source of truth.",
+              "url": "https://www.databricks.com/blog/electric-joins-databricks-bring-wasm-postgres-ai-agent-sandboxes"
+            },
+            {
+              "headline": "Tailscale Helps Uncover a 16-Year-Old SQLite Bug",
+              "blurb": "After a rigorous six-month investigation, Tailscale and SQLite developers resolved a deep WAL-reset bug that was causing silent database corruption, significantly improving reliability for SQLite-backed platforms.",
+              "url": "https://tailscale.com/blog/sqlite-wal-reset-bug"
+            },
+            {
+              "headline": "Critical Docker Vulnerability Allows Host Takeover",
+              "blurb": "The newly discovered CopyEscape vulnerability (CVE-2026-17106) exploits a race condition in the docker cp command to let malicious containers overwrite host binaries and gain root access.",
+              "url": "https://gbhackers.com/docker-copyescape-vulnerability/"
+            },
+            {
+              "headline": "Supply Chain Attack on LiteLLM Exposes Over 2,500 Organizations",
+              "blurb": "A trojanized test dependency automatically executed malicious code across 434,000 CI/CD pipelines, making it critical for affected teams to immediately rotate active credentials.",
+              "url": "https://www.securityweek.com/over-2500-organizations-impacted-by-litellm-supply-chain-attack/"
+            },
+            {
+              "headline": "OpenAI Expands Daybreak Cyber Program with GPT-5.6-Cyber",
+              "blurb": "OpenAI launched GPT-5.6-Cyber and expanded its Daybreak defense program to grant trusted defenders access to models with reduced refusals for detecting and patching critical zero-day vulnerabilities.",
+              "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/"
+            },
+            {
+              "headline": "Stripe Uses Graph Search to Automate MongoDB Incident Recovery",
+              "blurb": "Stripe automated database incident responses by using Dijkstra-based graph search and state machines, dramatically reducing pager alerts and manual downtime.",
+              "url": "https://stripe.dev/blog/how-stripe-uses-graph-search-and-state-machines-to-auto-remediate-a-global-database-fleet"
+            }
+          ]
+        },
+        {
+          "name": "Design & Strategy",
+          "stories": [
+            {
+              "headline": "Taste Remains the Final Frontier of Human Work",
+              "blurb": "As AI drastically reduces the time and friction of generating content, human taste becomes the ultimate scarce resource needed to curate what is actually worth keeping.",
+              "url": "https://notashelf.dev/posts/taste-is-all-thats-left"
+            },
+            {
+              "headline": "Anthropic Integrates Invisible Watermarks for Claude Output",
+              "blurb": "Anthropic is embedding metadata and text watermarks into Claude's generations to align with voluntary codes of practice under the EU AI Act.",
+              "url": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
