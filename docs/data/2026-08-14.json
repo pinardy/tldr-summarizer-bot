@@ -1,0 +1,106 @@
+{
+  "date": "2026-08-14",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "OpenAI Previews Ultrafast GPT-5.6 Sol Tier",
+              "blurb": "OpenAI and Cerebras have introduced a preview tier for GPT-5.6 Sol that outputs up to 750 tokens per second, enabling real-time, low-latency AI performance for critical operations without resorting to smaller models.",
+              "url": "https://openai.com/index/previewing-ultrafast/"
+            },
+            {
+              "headline": "Google Launches Gemini 3.7 Flash with Big Price Cuts",
+              "blurb": "Just weeks after its previous release, Google has rolled out Gemini 3.7 Flash with deep introductory price cuts to capture developers building high-frequency coding and agentic workflows.",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+            },
+            {
+              "headline": "Anthropic Eyes a Massive $2 Trillion Valuation",
+              "blurb": "Investors project that Anthropic could target a historic $2 trillion valuation when it goes public, buoyed by rapid revenue growth and intense enterprise demand for its Claude models.",
+              "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/"
+            },
+            {
+              "headline": "DeepSeek Unveils Modular Harness Developer Preview",
+              "blurb": "DeepSeek has launched an open developer preview of its agentic harness, offering a highly modular plugin system that ensures complete traceability of AI actions via append-only session logs.",
+              "url": "https://deepseek.com/harness/en/"
+            }
+          ]
+        },
+        {
+          "name": "Dev & Infrastructure",
+          "stories": [
+            {
+              "headline": "Docker Releases First-Party Virtualization Layer Beta",
+              "blurb": "Docker has announced the public beta of Docker VMM, an in-house virtualization engine for Mac and Windows designed to deliver faster container startup and more efficient memory management.",
+              "url": "https://www.docker.com/blog/docker-vmm-public-beta/"
+            },
+            {
+              "headline": "Tailscale Uncovers a 16-Year-Old SQLite WAL Bug",
+              "blurb": "Tailscale engineers worked with SQLite maintainers to trace and resolve a highly elusive concurrent write race condition that had caused silent database corruption for over a decade.",
+              "url": "https://tailscale.com/blog/sqlite-wal-reset-bug"
+            },
+            {
+              "headline": "Databricks Smart Routing Lowers AI Gateway Cost by 30%+",
+              "blurb": "Databricks has debuted Smart Routing in beta, automatically directing coding tasks to appropriate models based on complexity to match frontier-level performance at a fraction of the cost.",
+              "url": "https://www.databricks.com/blog/smart-routing-unity-ai-gateway-match-frontier-quality-30-lower-cost-task"
+            },
+            {
+              "headline": "Enterprise SSD Prices Surge 6.5x Year-Over-Year",
+              "blurb": "Prices for high-capacity 30TB enterprise SSDs have rocketed, drastically altering the financial math of large GPU and AI infrastructure deployments where storage is becoming a dominant cost.",
+              "url": "https://www.theregister.com/flash/2026/08/11/ssd-prices-still-rocketing-up-faster-than-disk/5286189"
+            }
+          ]
+        },
+        {
+          "name": "Security & Policy",
+          "stories": [
+            {
+              "headline": "Researcher Discloses Windows Zero-Day Following Legal Threats",
+              "blurb": "After facing legal pressure from Microsoft, a security researcher published 'ShieldBreak,' an unpatched privilege-escalation exploit that bypasses Windows Defender's previous security fixes.",
+              "url": "https://techcrunch.com/2026/08/12/after-microsoft-threatened-legal-action-a-security-researcher-publishes-a-new-windows-zero-day-bug/"
+            },
+            {
+              "headline": "US to Authorize Private Cybersecurity Firms to Hack Back",
+              "blurb": "The Trump administration is preparing to let vetted private security firms launch offensive cyber operations against overseas ransomware and financial fraud networks, subject to compliance requirements.",
+              "url": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/"
+            },
+            {
+              "headline": "PortSwigger Demonstrates AI-Driven Vulnerability Research",
+              "blurb": "PortSwigger's new 'HTTP Terminator' successfully executed advanced AI security research at scale, discovering hundreds of verified web desynchronization vulnerabilities across thousands of targets.",
+              "url": "https://portswigger.net/research/can-ai-do-novel-security-research"
+            }
+          ]
+        },
+        {
+          "name": "Design & Platforms",
+          "stories": [
+            {
+              "headline": "Figma Quantifies Time Savings of AI-Powered Features",
+              "blurb": "Figma conducted a randomized controlled trial showing its 'Figma Make' AI tool suite makes design tasks up to 20% faster and 16% easier, with product managers realizing the largest productivity gains.",
+              "url": "https://www.figma.com/blog/measuring-time-savings-from-figma-make/"
+            },
+            {
+              "headline": "X Open-Sources Recommendation Engine with Shadowban Verification",
+              "blurb": "X has released its core 'For You' ranking algorithm under the Apache v2 license, alongside experimental tools that allow users to directly verify whether their accounts have been shadowbanned.",
+              "url": "https://techcrunch.com/2026/08/13/x-open-sources-its-ranking-algorithm-letting-users-see-if-theyve-been-shadowbanned/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
