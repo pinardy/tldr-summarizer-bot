@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-17",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design",
+    "data"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design, Data",
+      "sections": [
+        {
+          "name": "AI & Business Strategy",
+          "stories": [
+            {
+              "headline": "Stripe Nears $7 Billion Acquisition of AI Router OpenRouter",
+              "blurb": "Stripe is reportedly finalizing a deal to acquire AI model-routing platform OpenRouter for over $7 billion, signaling a massive bet on helping developers optimize and switch between increasingly costly AI providers.",
+              "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+            },
+            {
+              "headline": "Anthropic Holds Back \"Model 2\" Due to Rising AI Risks",
+              "blurb": "Anthropic has chosen not to release an internal model more powerful than Mythos as it signals growing difficulty in understanding the rapidly accelerating capabilities and risks of its own systems.",
+              "url": "https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk"
+            },
+            {
+              "headline": "Nvidia Slashes Financial Guarantee for OpenAI Data Center Campus",
+              "blurb": "Nvidia cut its financial backstop for OpenAI's planned massive Ohio data center from $250 billion to under $120 billion to address investor concerns over its chipmaking risk exposure.",
+              "url": "https://www.wsj.com/tech/nvidia-downsizes-plans-for-250-billion-guarantee-of-openai-data-center-b56c38d3?st=dykJ8J&reflink=desktopwebshare_permalink"
+            },
+            {
+              "headline": "OpenAI Exercises Warrants for $2.3B Cerebras Stake Ahead of Ultrafast Launch",
+              "blurb": "OpenAI spent just $100 to acquire a 4.2% stake in hardware maker Cerebras right before previewing its \"Ultrafast\" high-speed tier, making Cerebras' specialized chips the backbone of its fastest model offerings.",
+              "url": "https://www.implicator.ai/openai-paid-100-for-a-4-2-cerebras-stake-weeks-before-ultrafast-launch/"
+            },
+            {
+              "headline": "Z.ai Releases GLM-5.3 With Advanced Coding and Cybersecurity Capabilities",
+              "blurb": "China's Z.ai has launched GLM-5.3, a model showing significant jumps in complex coding and vulnerability exploitation through scaled post-training, though its model weights are being delayed due to safety checks.",
+              "url": "https://z.ai/blog/glm-5.3"
+            }
+          ]
+        },
+        {
+          "name": "Security & Infrastructure",
+          "stories": [
+            {
+              "headline": "White House Approves Private \"Hack-Back\" Operations Against Cybercriminals",
+              "blurb": "A new U.S. program authorizes vetted private companies to launch disruptive, government-approved cyberattacks to dismantle systems and data controlled by foreign cybercrime syndicates.",
+              "url": "https://www.tomshardware.com/tech-industry/cyber-security/white-house-authorizes-private-companies-to-hack-foreign-cybercrime-groups"
+            },
+            {
+              "headline": "Near-Autonomous AI Attack Targets Taiwanese Government Systems",
+              "blurb": "Threat actors deployed open-source AI frameworks to run self-directed \"Learning Cycles\" that adapted to failures, marking the first known near-autonomous AI cyberattack targeting government personnel records.",
+              "url": "https://cyberscoop.com/near-autonomous-ai-attack-government-target-taiwan/"
+            },
+            {
+              "headline": "Brave Browser Combats GPU Fingerprinting With WebGL \"Farbling\"",
+              "blurb": "Brave version 1.93 introduces default protections that randomize highly identifying WebGL and WebGPU hardware signals, neutralizing advanced cross-site tracking without breaking web graphics.",
+              "url": "https://thecybersecguru.com/analysis/brave-1-93-gpu-fingerprinting/"
+            },
+            {
+              "headline": "Amazon Reshapes AWS Architecture to Battle the Power Crunch",
+              "blurb": "Under an internal initiative called \"Region Flex,\" Amazon is migrating over 100 software workloads to bypass severe electricity and data center constraints in major AWS hubs.",
+              "url": "https://www.businessinsider.com/amazon-ecommerce-cloud-aws-power-crunch-ai-2026-8"
+            }
+          ]
+        },
+        {
+          "name": "Software & Design",
+          "stories": [
+            {
+              "headline": "Tailscale Squashes a 16-Year-Old SQLite Corruption Bug",
+              "blurb": "Tailscale engineers spent six months tracing a rare database corruption issue to a 16-year-old race condition in SQLite's WAL checkpointing, prompting an official upstream fix.",
+              "url": "https://tailscale.com/blog/sqlite-wal-reset-bug"
+            },
+            {
+              "headline": "Why AI Models Are Getting Dumber on Purpose",
+              "blurb": "Modern AI models are intentionally shedding raw factual recall to prioritize cheaper, faster reasoning, relying instead on real-time external data retrieval to reduce hallucinations and remain current.",
+              "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose"
+            },
+            {
+              "headline": "The Imminent \"TEMU-fication\" of Software and Digital Services",
+              "blurb": "The rapid rise of cheap, AI-generated software threatens to flood the digital landscape with low-quality products, creating a two-tier market where human-crafted software becomes a premium luxury.",
+              "url": "https://xn--gckvb8fzb.com/the-temu-fication-of-software-digital-goods-services/"
+            },
+            {
+              "headline": "Rethinking the UX Team's Role in the Era of Ubiquitous AI",
+              "blurb": "As AI tools democratize interface creation across organizations, UX teams must pivot from hands-on production to building design systems, playbooks, and standards that guide wider output.",
+              "url": "https://boagworld.com/emails/wrong-ux-team/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
