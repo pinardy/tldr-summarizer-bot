@@ -1,0 +1,100 @@
+{
+  "date": "2026-08-18",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, Design",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "Anthropic's Annualized Revenue Climbs to $65 Billion",
+              "blurb": "Anthropic's annualized run rate hit an impressive $65 billion in July, demonstrating booming enterprise demand for AI capabilities as the startup gears up for its highly anticipated IPO.",
+              "url": "https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html"
+            },
+            {
+              "headline": "OpenAI's GPT-5.6 Sol Redefines Vision Capabilities",
+              "blurb": "OpenAI's newly released GPT-5.6 Sol model represents a significant leap forward in object detection, spatial awareness, and visual reasoning, though it still presents notable latency and cost challenges.",
+              "url": "https://blog.roboflow.com/openai-gpt-5-6/"
+            },
+            {
+              "headline": "Open Model Landscape Shifts Toward Local Runtimes and Agents",
+              "blurb": "The Hugging Face Summer 2026 report reveals that Chinese laboratories now lead in open-source model scale, while consumer-grade local runtimes and autonomous agent traffic are growing at a historic pace.",
+              "url": "https://huggingface.co/blog/state-of-open-models-summer-2026"
+            },
+            {
+              "headline": "Vibe-Coding Platform Lovable Hits $13.3 Billion Valuation",
+              "blurb": "AI app development startup Lovable raised $400 million in its Series C, signaling intense market confidence in the paradigm shift toward natural-language software engineering.",
+              "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
+            }
+          ]
+        },
+        {
+          "name": "Developer Tools & IT",
+          "stories": [
+            {
+              "headline": "Cursor Launches Origin Code Hosting Amid GitHub's Outage",
+              "blurb": "Cursor rolled out Origin, an AI-native repository hosting and code collaboration platform, perfectly positioning itself as a viable alternative during an extensive global GitHub outage.",
+              "url": "https://venturebeat.com/infrastructure/cursor-launches-origin-code-hosting-platform-as-github-outage-exposes-opening-in-ai-coding-race"
+            },
+            {
+              "headline": "Widespread GitHub Outage Halts Workplaces Globally",
+              "blurb": "A massive system failure at GitHub disrupted repositories, pipelines, and enterprise logins worldwide, highlighting the critical fragility of highly centralized development workflows.",
+              "url": "https://devops.com/github-hit-by-widespread-outage-halting-work-for-global-developers/"
+            },
+            {
+              "headline": "How Modern Software Teams Integrate AI into Their Workflows",
+              "blurb": "An extensive study of tens of thousands of software teams on Linear shows how autonomous coding agents are radically accelerating ship times and enabling non-engineers to write production software.",
+              "url": "https://linear.app/data"
+            },
+            {
+              "headline": "Docker Sets Zero-CVE Container Images as the New Default",
+              "blurb": "Docker has introduced hardened Alpine and Debian image catalogs and AI-driven security policy governance, aiming to make zero-vulnerability infrastructure a default standard in the software supply chain.",
+              "url": "https://www.docker.com/blog/make-zero-cves-your-new-default/"
+            }
+          ]
+        },
+        {
+          "name": "Security & Design",
+          "stories": [
+            {
+              "headline": "Wiz AI Red Agent Exploits Snowflake Bug Missed by Copilot",
+              "blurb": "An autonomous offensive AI agent easily exploited a critical GitHub Actions flaw in a public Snowflake repository, proving that malicious automated agents can discover vulnerabilities faster than defensive AI tools can prevent them.",
+              "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug"
+            },
+            {
+              "headline": "Trivy Scanner Exploit Exposed Credentials Across 2,500 Orgs",
+              "blurb": "A massive supply-chain security breach originally linked to LiteLLM has been tied back to a compromised Trivy container scanner, which allowed attackers to harvest secrets and API tokens from developer environments.",
+              "url": "https://www.securityweek.com/trivy-not-litellm-behind-the-2500-org-compromise/"
+            },
+            {
+              "headline": "Mozilla Revokes Key After Unencrypted GitHub Push",
+              "blurb": "Mozilla was forced to replace its Linux GPG package-signing subkey after an unencrypted copy was accidentally committed to a private GitHub repository, triggering an emergency manual key rotation for secure verification.",
+              "url": "https://www.theregister.com/security/2026/08/11/mozilla-revokes-firefox-signing-key-after-unencrypted-copy-lands-in-github/5285908"
+            },
+            {
+              "headline": "Why Standard Design Systems Struggle to Guide AI Agents",
+              "blurb": "While modern design systems effectively standardize atomic components, they often lack structural layout rules, causing AI agents to build highly inconsistent user interfaces from the exact same assets.",
+              "url": "https://mattrothenberg.com/notes/you-dont-have-a-design-system/"
+            },
+            {
+              "headline": "Target Strategically Pairs AI and UX Leadership",
+              "blurb": "Target appointed its first Chief AI Officer alongside an elevated UX chief to ensure that future AI-driven technology initiatives remain grounded in cohesive, human-centric guest experiences.",
+              "url": "https://massmarketretailers.com/target-names-first-chief-ai-officer-and-elevates-design-chief-as-it-bets-on-ai-ux-pairing/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
