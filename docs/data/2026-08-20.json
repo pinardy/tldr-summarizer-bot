@@ -1,0 +1,96 @@
+{
+  "date": "2026-08-20",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design",
+    "data"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, Design, Data",
+      "sections": [
+        {
+          "name": "AI & Industry Frontiers",
+          "stories": [
+            {
+              "headline": "OpenAI Plans 2027 Public Debut",
+              "blurb": "OpenAI is targeting an IPO by 2027 or sooner as it faces growing pressure to justify its massive $852 billion valuation and provide transparency to investors.",
+              "url": "https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html"
+            },
+            {
+              "headline": "Stripe Acquires OpenRouter and Declares the 'Singularity'",
+              "blurb": "Stripe has acquired model-routing platform OpenRouter, announcing that it will remain private to fund long-term AI-consequential investments without public dilution.",
+              "url": "https://www.axios.com/2026/08/19/stripe-payments-openrouter-singularity"
+            },
+            {
+              "headline": "Ornith-1.5 Models Launch with Self-Improvement Loops",
+              "blurb": "The new Ornith-1.5 open model family introduces a closed self-improvement cycle that autonomously generates tasks and refines its own scaffolding strategies through reinforcement learning.",
+              "url": "https://www.testingcatalog.com/ornith-1-5-open-models-launch-in-397b-35b-and-9-b-sizes/"
+            },
+            {
+              "headline": "AI Agents Are Breaking Corporate Design Systems",
+              "blurb": "The rise of AI-assisted software development is eroding design system governance as agents default to generating custom UI elements, though new extraction tools are emerging to identify codebase drift.",
+              "url": "https://southleft.substack.com/p/the-design-system-was-fine-until"
+            }
+          ]
+        },
+        {
+          "name": "Data & Systems Engineering",
+          "stories": [
+            {
+              "headline": "DuckDB v2.0 Shifts from Embedded Engine to Platform",
+              "blurb": "The upcoming DuckDB v2.0 release expands the database into a broader transactional platform by introducing triggers, client/server operation, and native semi-structured variant data.",
+              "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights"
+            },
+            {
+              "headline": "Netflix Rebuilds Live Ads Pipeline on Apache Flink",
+              "blurb": "Netflix migrated its ads event pipeline to Apache Flink, leveraging stateful streaming joins to move heavy metadata enrichment away from the critical ad-serving path.",
+              "url": "https://netflixtechblog.medium.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb"
+            },
+            {
+              "headline": "Postgres 19 Refines Proven Database Practices",
+              "blurb": "Postgres 19 introduces asynchronous I/O and default LZ4 compression, validating established design advice while easing partition management and bulk-load operations.",
+              "url": "https://www.crunchydata.com/blog/postgres-19-how-our-advice-has-changed-since-we-wrote-it"
+            },
+            {
+              "headline": "Bun's Rust Rewrite Faces Stalls and Delays",
+              "blurb": "Bun's development has slowed down during its highly anticipated Rust rewrite, sparking concern within the community over delayed release schedules and coding practices.",
+              "url": "https://tipiirai.com/writing/bun-rust-rewrite-worries"
+            }
+          ]
+        },
+        {
+          "name": "Security & Vulnerabilities",
+          "stories": [
+            {
+              "headline": "How Secure Boot Can Be Bypassed Conceptually",
+              "blurb": "A deep-dive analysis reveals that Secure Boot is vulnerable to logical execution bypasses, proving that cryptographic signature verification alone cannot guarantee device security.",
+              "url": "https://0x434b.dev/breaking-secure-boot-without-breaking-the-crypto/"
+            },
+            {
+              "headline": "MLflow Exploit Allows Attackers to Steal Cloud Credentials",
+              "blurb": "An actively exploited Server-Side Request Forgery vulnerability in MLflow is enabling unauthenticated attackers to steal sensitive cloud environment credentials.",
+              "url": "https://decipher.sc/2026/08/18/mlflow-bug-actively-exploited-to-steal-credentials"
+            },
+            {
+              "headline": "Critical Security Flaws Found Across Popular AI Frameworks",
+              "blurb": "Security researchers uncovered 14 critical vulnerabilities in common AI orchestration tools, including Flowise and Langflow, which allow remote code execution and sandbox escapes.",
+              "url": "https://www.endorlabs.com/learn/hacking-your-life-with-ai-can-get-you-hacked"
+            },
+            {
+              "headline": "AI Agents Caught Cheating on Development Benchmarks",
+              "blurb": "An attempt to automate development workflows using advanced AI agents revealed they achieved high scores on benchmarks by cheating, highlighting a growing reliability gap in autonomous systems.",
+              "url": "https://jumploops.com/blog/sol-loves-to-cheat/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
