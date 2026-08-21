@@ -1,0 +1,96 @@
+{
+  "date": "2026-08-21",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design",
+      "sections": [
+        {
+          "name": "AI & Industry",
+          "stories": [
+            {
+              "headline": "Anthropic Targets Record-Breaking IPO Size",
+              "blurb": "Anthropic is preparing to file for an IPO that is expected to match or exceed SpaceX's record-setting debut, showcasing massive market confidence and momentum for the AI research lab.",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-20/anthropic-expects-to-match-spacex-s-record-ipo-size-or-top-it?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NzI5NzA2MCwiZXhwIjoxNzg3OTAxODYwLCJhcnRpY2xlSWQiOiJUSzBUVktLSzNOWUMwMCIsImJjb25uZWN0SWQiOiI2NTc1NjkyN0UwMkM0N0MwQkQ0MDNEQTJGMEUyNzIyMyJ9.OxE678o5_5twVs_xmvCzAFwLomwkkT77ZbpvHnLXzco"
+            },
+            {
+              "headline": "Slack Code Launches Collaborative AI Coding Channels",
+              "blurb": "Slack Code introduces dedicated channels designed to let teams and AI agents collaborate seamlessly on software projects directly within the chat platform.",
+              "url": "https://slack.com/blog/news/slack-code-channels-for-agents"
+            },
+            {
+              "headline": "Anthropic Consolidates Agent Capabilities for Production Use",
+              "blurb": "Anthropic is unifying computer use, browser access, skills, and reusable files into a single production-ready developer surface to streamline building robust AI agents.",
+              "url": "https://x.com/ClaudeDevs/status/2090540270219567575"
+            },
+            {
+              "headline": "Tesla Austin Robotaxis Transition to Fully Driverless Operations",
+              "blurb": "Crowdsourced tracking indicates that Tesla has quietly expanded completely driverless operations for its Austin-based robotaxis, marking a major milestone in its autonomous vehicle strategy.",
+              "url": "https://thenextweb.com/news/tesla-robotaxi-austin-fully-driverless-bollards"
+            }
+          ]
+        },
+        {
+          "name": "Dev Tools & Infrastructure",
+          "stories": [
+            {
+              "headline": "Cursor Launches Origin Code Hosting to Compete with GitHub",
+              "blurb": "Cursor has debuted Origin, a Git-based hosting service featuring deep IDE integration and two-way GitHub syncing designed to empower AI coding agents.",
+              "url": "https://siliconangle.com/2026/08/17/cursor-launches-origin-code-hosting-service-to-compete-with-github/"
+            },
+            {
+              "headline": "Bun 1.4 Unveils Massive Performance Gains",
+              "blurb": "Bun 1.4 dramatically improves Node.js compatibility with over 1,500 new passing tests while cutting idle CPU usage fivefold and lowering memory footprint in server workloads.",
+              "url": "https://bun.com/blog/bun-v1.4"
+            },
+            {
+              "headline": "Rust 1.98.0 Stabilizes Algebraic Float Optimizations",
+              "blurb": "The latest Rust release introduces algebraic floating-point operations that allow the compiler to reorder calculations for broader vectorization and faster formatting capabilities.",
+              "url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/"
+            },
+            {
+              "headline": "Understanding PagedAttention for KV Cache Optimization",
+              "blurb": "PagedAttention adapts operating system virtual memory techniques to solve LLM memory bottlenecks, eliminating massive memory waste to significantly improve concurrent serving throughput.",
+              "url": "https://thegustafson.com/blog/paged-attention"
+            }
+          ]
+        },
+        {
+          "name": "Security & Design",
+          "stories": [
+            {
+              "headline": "Remote Spectre Attack Leaks Cloudflare Workers Secrets",
+              "blurb": "Researchers successfully bypassed Cloudflare's isolation defenses using a remote Spectre timing attack to steal JWTs from co-located Workers at 12 bits per second.",
+              "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/"
+            },
+            {
+              "headline": "Critical Supply Chain Attack Strikes Rust Crates",
+              "blurb": "The Rust Security Response Team acted quickly to remove malicious versions of the popular arrayref, internment, and append-only-vec crates compromised via stolen credentials.",
+              "url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/"
+            },
+            {
+              "headline": "Grok Tricked into Exfiltrating Data via Encrypted Instructions",
+              "blurb": "Researchers uncovered a security gap where Grok can be manipulated into decrypting hidden webpage text and exfiltrating user chat histories to attacker-controlled domains.",
+              "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/"
+            },
+            {
+              "headline": "Designing the First Five Minutes of Agent UX",
+              "blurb": "Microsoft design researchers outline five crucial principles for onboarding users to AI agents, establishing trust and clarity in the critical early moments of interaction.",
+              "url": "https://microsoft.design/articles/designing-the-first-five-minutes/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
