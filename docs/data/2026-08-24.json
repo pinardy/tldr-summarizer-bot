@@ -1,0 +1,97 @@
+{
+  "date": "2026-08-24",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design",
+    "data"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design, Data",
+      "sections": [
+        {
+          "name": "AI & Industry",
+          "stories": [
+            {
+              "headline": "Nvidia Notifies Customers of 15% Price Hikes on AI Servers",
+              "blurb": "Nvidia is notifying customers of a greater than 15% price hike for high-end AI servers next year due to rising memory chip costs, challenging the budgets of major tech firms.",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-22/nvidia-customers-notified-about-ai-related-price-hikes-above-15?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NzU0NjUyMiwiZXhwIjoxNzg4MTUxMzIyLCJhcnRpY2xlSWQiOiJUSzZIQURLSUpIOFIwMCIsImJjb25uZWN0SWQiOiI2NTc1NjkyN0UwMkM0N0MwQkQ0MDNEQTJGMEUyNzIyMyJ9.Wc6ZwJbx9gkhHWTcHlu7y-AsKUlMS3ChmCSkeSRqGu8"
+            },
+            {
+              "headline": "Hugging Face Reportedly Explores Sale at $13 Billion Valuation",
+              "blurb": "Hugging Face is reportedly exploring a potential sale at a valuation of $13 billion or more, highlighting the immense value of open-source model ecosystems and developer communities.",
+              "url": "https://runtimewire.com/article/hugging-face-explores-13-billion-sale"
+            },
+            {
+              "headline": "Nvidia Spends $6 Billion to License Poolside AI Technology",
+              "blurb": "Nvidia is investing $1 billion in AI startup Poolside and paying $6 billion to license its technology, aiming to quickly establish a powerful domestic alternative to Chinese-developed AI solutions.",
+              "url": "https://www.wsj.com/tech/ai/nvidia-is-spending-6-billion-to-build-a-powerful-u-s-alternative-to-chinese-ai-c51c38cc?st=LEwMmM&reflink=desktopwebshare_permalink"
+            },
+            {
+              "headline": "Anthropic Deploys Claude Mythos 5 Security Model exclusively for Defenders",
+              "blurb": "Anthropic has expanded access to its powerful Claude Mythos 5 model for defensive code scanning, but it is withholding raw prompt access from users to prevent them from writing exploits.",
+              "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders"
+            }
+          ]
+        },
+        {
+          "name": "Architecture & Platforms",
+          "stories": [
+            {
+              "headline": "Dan Luu Argues There Is No Reason for Software to Be Slow",
+              "blurb": "Software engineer Dan Luu argues that AI has drastically reduced the cost and risk of performance optimization, removing developer excuses for slow applications.",
+              "url": "https://danluu.com/perf-opt/"
+            },
+            {
+              "headline": "Model Context Protocol Roadmap Outlines Agentic Integration Future",
+              "blurb": "The updated Model Context Protocol roadmap outlines key priorities like agentic messaging and enterprise security to standardize how AI models interact with code and local environments.",
+              "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/"
+            },
+            {
+              "headline": "Netflix Saves Big by Migrating 30,000 Flink Jobs to OSS Autoscaler",
+              "blurb": "Netflix is migrating over 30,000 stream processing jobs to the open-source Apache Flink Autoscaler, generating significant compute savings by analyzing operator-level state rather than generic container metrics.",
+              "url": "https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b"
+            },
+            {
+              "headline": "DuckDB v2.0 Ships with a New PEG-Based Parser",
+              "blurb": "DuckDB v2.0 has replaced its PostgreSQL-derived parser with a PEG-based parser to avoid complex backtracking errors and enable flexible, custom runtime grammar extensions.",
+              "url": "https://duckdb.org/2026/08/20/duckdb-20-peg-parser.html"
+            }
+          ]
+        },
+        {
+          "name": "Security & Design",
+          "stories": [
+            {
+              "headline": "Researchers Embed Dormant, Time-Released Backdoor in Open-Source LLMs",
+              "blurb": "Security researchers have successfully trained a dormant backdoor into open-source LLMs that triggers unauthorized shell commands only on a future target date, revealing a critical vulnerability in agents that automatically execute model code.",
+              "url": "https://morgin.ai/articles/your-open-source-model-could-have-a-hidden-time-release-backdoor.html"
+            },
+            {
+              "headline": "Sloppy User Interfaces Named a Major Security Liability",
+              "blurb": "Designer Jim Nielsen argues that low-fidelity user interfaces make applications easier to spoof for phishing attacks, making high-fidelity craftsmanship a genuine security asset.",
+              "url": "https://blog.jim-nielsen.com/2026/sloppy-ui-is-security-liability/"
+            },
+            {
+              "headline": "Over 9,000 Active, Leaked AWS Keys Found Exposing Corporate Accounts",
+              "blurb": "Truffle Security has identified over 9,000 active, leaked AWS access keys across various companies—including hundreds of root credentials—leaving critical enterprise infrastructure exposed to full takeover.",
+              "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/"
+            },
+            {
+              "headline": "Figma is the New Dreamweaver: Prototyping Trapped in 2018",
+              "blurb": "Over-relying on Figma as a flawless representation of production code can mask critical web development challenges like responsive performance, dynamic states, and accessibility.",
+              "url": "https://webdesignerdepot.com/figma-is-the-new-dreamweaver-how-modern-prototyping-tools-are-trapping-us-in-2018/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
