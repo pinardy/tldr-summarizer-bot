@@ -1,0 +1,100 @@
+{
+  "date": "2026-08-25",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, Design",
+      "sections": [
+        {
+          "name": "AI & Hardware Foundations",
+          "stories": [
+            {
+              "headline": "Nvidia enters production of Groq 3 LPX inference chip",
+              "blurb": "Nvidia has pushed the Groq 3 LPX inference accelerator into full production as part of its Vera Rubin platform, promising a 4x boost in response times for demanding agentic AI workloads.",
+              "url": "https://wccftech.com/nvidia-groq-3-lpx-ai-inference-accelerator-full-production-supercharging-vera-rubin/"
+            },
+            {
+              "headline": "Mysterious Ox Alpha model breaks OpenRouter records",
+              "blurb": "An anonymous model named Ox Alpha processed a staggering 26 trillion tokens in its first four days on OpenCode, offering developers free, high-performance API access with zero metadata on its origins.",
+              "url": "https://runtimewire.com/article/anonymous-ox-alpha-processes-26t-tokens-on-opencode-breaks-openrouter-launch-rec"
+            },
+            {
+              "headline": "IBM designs chip to run Arm and IBM Z workloads simultaneously",
+              "blurb": "IBM is developing a groundbreaking mainframe processor that natively executes both Arm and IBM Z instructions on the same cores, allowing enterprises to run modern AI workloads directly alongside legacy environments.",
+              "url": "https://venturebeat.com/infrastructure/ibms-next-gen-mainframe-chip-is-the-first-to-run-arm-and-z-workloads-on-the-same-cores"
+            },
+            {
+              "headline": "AI boom accelerates demand for solid-state power transformers",
+              "blurb": "The massive power requirements of AI data centers are driving investment into compact solid-state power transformers, which use high-frequency semiconductor switching to directly and efficiently convert grid AC power to DC.",
+              "url": "https://arstechnica.com/gadgets/2026/08/energy-hungry-ai-data-centers-spur-new-power-transformer-technology/"
+            }
+          ]
+        },
+        {
+          "name": "Engineering & Design",
+          "stories": [
+            {
+              "headline": "How Uber built its agentic coding software factory",
+              "blurb": "Uber has successfully automated its development pipelines using an internal platform with MCP gateways, enabling AI agents to safely write over 70% of the company's pull requests.",
+              "url": "https://newsletter.port.io/p/how-uber-built-a-software-factory"
+            },
+            {
+              "headline": "Replacing traditional executables with SQLite databases",
+              "blurb": "A novel prototype format called SELF explores replacing standard ELF binary formats with SQLite databases, allowing developers to query and modify compiled executables using standard SQL queries.",
+              "url": "https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database"
+            },
+            {
+              "headline": "Why over-reliance on AI coding tools threatens developer expertise",
+              "blurb": "The growing dependency on AI coding tools threatens the career progression of junior developers, who will increasingly need expert-level skills just to accurately verify and trust automated outputs.",
+              "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise"
+            },
+            {
+              "headline": "Restructuring design systems for AI agent compatibility",
+              "blurb": "Designers are beginning to structure Figma documentation into interconnected Markdown files to allow AI agents to parse design rules correctly rather than generating visually broken interfaces.",
+              "url": "https://medium.com/design-bootcamp/how-to-make-your-design-system-agent-ready-ea4cfc062270"
+            },
+            {
+              "headline": "AI tools shift the landscape for senior designers",
+              "blurb": "The wide accessibility of AI creative tools is disrupting career safety for veteran designers, shifting the value of experience away from execution and toward strategic business alignment.",
+              "url": "https://www.fastcompany.com/91590774/being-a-senior-designer-doesnt-make-you-safe-anymore"
+            }
+          ]
+        },
+        {
+          "name": "Security & Vulnerabilities",
+          "stories": [
+            {
+              "headline": "Slovakia uncovers Russian backdoor in newly installed traffic cameras",
+              "blurb": "Slovakia's national security service discovered that newly deployed speed cameras contain hardcoded Russian phone numbers that grant attackers full shell access and unauthenticated video feeds via SMS.",
+              "url": "https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/"
+            },
+            {
+              "headline": "OWASP releases safety blueprint targeting agentic skill risks",
+              "blurb": "To address supply-chain compromises from malicious packages, OWASP has published its Agentic Skills Top 10 list and a universal format to enforce permission and dependency tracking for LLM skills.",
+              "url": "https://www.darkreading.com/application-security/owasp-flags-top-ai-skill-risks-security-blueprint"
+            },
+            {
+              "headline": "LLMs can hijack host servers by exploiting inference engines",
+              "blurb": "New security research demonstrates that adversarial token sequences can trigger vulnerabilities in GPU loading software, allowing an LLM to escape its bounds and take control of high-value datacenter hosts.",
+              "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines"
+            },
+            {
+              "headline": "Critical type confusion vulnerability found in isolated-vm sandbox",
+              "blurb": "A severe type confusion bug in the `isolated-vm` library allows attackers to bypass V8 sandboxing restrictions, crash host servers, and execute arbitrary code on the host machine.",
+              "url": "https://www.endorlabs.com/learn/ghsa-864f-rcv7-6rh4-critical-type-confusion-vulnerability-in-isolated-vm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
