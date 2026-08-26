@@ -1,0 +1,712 @@
+{
+  "date": "2026-08-26",
+  "mode": "per-newsletter",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Tech — 2026-08-26",
+      "tagline": "OpenAI unveils chip ⚡, SpaceX $100B spaceport 🚀, knowledge compression 👨‍💻",
+      "sections": [
+        {
+          "name": "Big Tech & Startups",
+          "stories": [
+            {
+              "headline": "Apple's new desktop computers are designed specifically for local AI development (4 minute read)",
+              "blurb": "Apple has announced new iterations of the Mac mini and Mac Studio along with the M6, the first 2nm chip in Apple's M-series lineup, and the M5 Ultra, Apple's most powerful chip. There aren't any major new features for either machine. The devices have been recently popular for local AI inference and software development due to their unified memory architecture and fast CPUs and GPUs on their systems-on-a-chip. The Mac mini with M6 starts at $899 with 16GB of memory, and the Mac Studio with the M5 Max starts at $2,499.",
+              "url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/"
+            },
+            {
+              "headline": "OpenAI Claims Its New Chips Can Outperform Nvidia Processors in Tests (6 minute read)",
+              "blurb": "OpenAI's new 'Jalapeno' chips performed better than Nvidia's current lineup during testing. The company plans to use the new chips to support its AI models later this year. The chip should significantly reduce costs for OpenAI as it rolls out more widely. OpenAI created the chip in a partnership with Broadcom.",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-25/openai-claims-its-new-chips-can-outperform-nvidia-processors-in-tests?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NzcxNTE4MiwiZXhwIjoxNzg4MzE5OTgyLCJhcnRpY2xlSWQiOiJUS0JXODFOM04wQUIwMCIsImJjb25uZWN0SWQiOiJCMzZENUE5QzIxMDQ0NjU4OTFBMTc1MTVDRDNBQkZFNiJ9.g7aynXoS1Cg_lAitk1xUe_PLVBoXyT7wr4nF1iv0D8k"
+            }
+          ]
+        },
+        {
+          "name": "Science & Futuristic Technology",
+          "stories": [
+            {
+              "headline": "Amazon eyes ‘fully automated' delivery stations to bring robotics to the last mile (3 minute read)",
+              "blurb": "Amazon's fulfillment centers are equipped with the latest robots and automation, but its delivery stations still remain mostly manual. The company is now developing an internal project to build fully automated delivery stations. The technology behind Project Tetromino could come from Boxbot, a robotics startup that uses conveyors and AI-driven storage trays to automatically sequence packages for vehicle loading. Amazon has opened up a Last Mile Innovation Center in Germany to test delivery station technologies.",
+              "url": "https://www.geekwire.com/2026/amazon-eyes-fully-automated-delivery-stations-to-bring-robotics-to-the-last-mile/"
+            },
+            {
+              "headline": "SpaceX to Spend $100 Billion on New Spaceport in Louisiana (3 minute read)",
+              "blurb": "SpaceX is committing $100 billion to build a launch facility in southern Louisiana as part of its plans to send multiple rockets into space every day. The new facility, named Starbase Louisiana, will be located on 125,000 acres of coastal marshland and bring 3,000 jobs to the area. SpaceX will need at least several locales to fulfill its goal of sending thousands of rockets into orbit a year. The company is constantly exploring viable sites to expand its operations, domestically and internationally.",
+              "url": "https://www.nytimes.com/2026/08/25/technology/spacex-louisiana-spaceport.html?unlocked_article_code=1.8VA.NApc._HM7bHfHJVnx&smid=url-share"
+            }
+          ]
+        },
+        {
+          "name": "Programming, Design & Data Science",
+          "stories": [
+            {
+              "headline": "Knowledge Compressor (6 minute read)",
+              "blurb": "Natural language tends to contain quite a bit of repetition and redundancy, which isn't inherently bad, but it comes with tradeoffs. With AI, repetition can cost a significant amount of tokens when working with substantial knowledge content. This study looks at whether documentation can be made less repetitive through compression. It found that typical technical documentation can have its token count cut in half without substantially reducing its usefulness to language models.",
+              "url": "https://githubnext.com/posts/knowledge-compressor/"
+            },
+            {
+              "headline": "Introducing Run SDK: secure eval for your agents (4 minute read)",
+              "blurb": "Run SDK is a package from Vercel for executing untrusted JavaScript or TypeScript without giving it direct access to apps or systems. It evaluates JavaScript or type-stripped TypeScript in a fresh QuickJS context inside a worker thread and exposes selected operations through hostFunctions. Calls cross the sandbox boundary through serialization. A host function may return a promise, so existing service clients can sit behind this interface without being passed into the sandbox.",
+              "url": "https://vercel.com/blog/introducing-run"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Apple Holds Farewell Party for Tim Cook as Ternus Prepares to Take Over (2 minute read)",
+              "blurb": "Tim Cook will step down as Apple's CEO on September 1. The company held a celebration for Cook on August 23, a day before his 15th anniversary as Apple CEO. Approximately 200 people attended the party, where the band OneRepublic performed. Cook will remain with Apple and become the company's executive chairman. John Ternus, who has been at Apple since 2001, will take over as CEO.",
+              "url": "https://www.macrumors.com/2026/08/24/apple-tim-cook-farewell-party/"
+            },
+            {
+              "headline": "Could Nvidia Default? (1 minute read)",
+              "blurb": "Credit Default Swaps insuring against an Nvidia debt default have doubled in price in the last two months. The company gave a $105 billion residual value guarantee for OpenAI's Ohio data center earlier this month, and it has also been involved in two other $500 billion deals this month. It has been reported to have been involved in over 300 financing deals in the last five years. Analysts are worried an AI downturn could see the circular deals entered into by Nvidia with other AI players unravel, which could result in cascading losses.",
+              "url": "https://www.electronicsweekly.com/blogs/mannerisms/dilemmas/could-nvidia-default-2026-08/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Introducing Index: Building The World's Largest and Most Diverse Physical Dataset (4 minute read)",
+              "blurb": "Figure's Index is an app that was created to help the company collect the physical data that its AI stack needs, directly from humans at scale.",
+              "url": "https://www.figure.ai/news/introducing-index"
+            },
+            {
+              "headline": "Engineering Theatre (4 minute read)",
+              "blurb": "Engineering theater is when something looks like engineering but really isn't.",
+              "url": "https://www.elliotcsmith.com/engineering-theatre/"
+            },
+            {
+              "headline": "X sends cease-and-desist to open source project Nitter over alleged scraping (3 minute read)",
+              "blurb": "Nitter and its instances offer a handy way for people to keep up with posts on X without an account.",
+              "url": "https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping"
+            },
+            {
+              "headline": "Some recent applications of AI (3 minute read)",
+              "blurb": "Some recent applications of AI include gathering mostly unstructured real-world data and checking stuff and high-judgment lifestyle questions.",
+              "url": "https://www.natemeyvis.com/some-recent-applications-of-ai/"
+            },
+            {
+              "headline": "A Cautionary Tale About Data Breach Claims, Verification, and Carhartt (31 minute read)",
+              "blurb": "Take headline numbers with a grain of salt unless you're confident in the processes of those making the claims.",
+              "url": "https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/"
+            },
+            {
+              "headline": "Let me Click (4 minute read)",
+              "blurb": "Examples of the 'Let me click' principle in user interface design.",
+              "url": "https://ilyabirman.net/meanwhile/all/let-me-click/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR AI — 2026-08-26",
+      "tagline": "OpenAI Jalapeño 🌶️, Perplexity Portable Computer  💻, Claude combines memory 🧠",
+      "sections": [
+        {
+          "name": "Headlines & Launches",
+          "stories": [
+            {
+              "headline": "OpenAI's Jalapeño inference accelerator moves toward deployment (9 minute read)",
+              "blurb": "OpenAI reported first results from Jalapeño, an inference accelerator designed around low-latency agent workloads, and plans to deploy it in its own infrastructure by year-end. A large connected system keeps prompt processing and token generation close together, while AI helped design circuits and program kernels.",
+              "url": "https://openai.com/index/jalapeno-first-results/"
+            },
+            {
+              "headline": "Perplexity partners with Nvidia to launch Portable Computer, a fully local AI agent with zero token costs (13 minute read)",
+              "blurb": "Perplexity's Portable Computer is a version of its agentic Computer platform that runs entirely on hardware users already own. The model, user data, and work can all stay on local machines with no billing credits. Every task starts on device by default, and the system asks for permission before sending any individual step to a more powerful model in the cloud. Portable Computer is now available for Pro, Max, Enterprise Pro, and Enterprise Max subscribers on Linux, with Windows support coming in September. Users will need an RTX GPU with at least 24GB of VRAM to run the agent.",
+              "url": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs"
+            }
+          ]
+        },
+        {
+          "name": "Deep Dives & Analysis",
+          "stories": [
+            {
+              "headline": "Vocab Break (4 minute read)",
+              "blurb": "Claude's current tokenizer appears to only have about 15,000 entries. This is surprising, as the trend had seemed to be that more is better in this space. One theory is that Anthropic has been working around a bottleneck caused by the final softmax layer. This article takes a closer look at how Anthropic might be achieving this and the effects it might have on model training.",
+              "url": "https://ianbarber.blog/2026/08/24/vocab-break/"
+            },
+            {
+              "headline": "Moats in the age of floods (14 minute read)",
+              "blurb": "Abundant frontier intelligence will not eliminate application-layer moats - it shifts value toward companies that translate models into real outcomes. Durable winners will own coordination, workflow data, customer transformation, narrative, higher-level abstractions, outcome-based economics, and structural necessity.",
+              "url": "https://x.com/nayakkayak/status/2092276375935963537"
+            },
+            {
+              "headline": "OpenAI and Anthropic Could Dominate Global AI Compute (48 minute read)",
+              "blurb": "Dylan Patel discusses how OpenAI and Anthropic could control most usable AI compute by 2028 as their ability to monetize FLOPs lets them outbid competitors. The conversation also covered rising AI capex, potential sovereign debt risks, and the economic forces pushing the industry toward greater centralization.",
+              "url": "https://www.dwarkesh.com/p/dylan-patel-3"
+            },
+            {
+              "headline": "OpenAI's Jalapeño Optimizes Inference Throughput and Token Latency (5 minute read)",
+              "blurb": "OpenAI's Jalapeño inference chip was designed around its own model workloads, with early benchmarks showing higher peak throughput per kilowatt and lower token latency than the commercial systems tested on GPT-OSS 120B.",
+              "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence/"
+            }
+          ]
+        },
+        {
+          "name": "Engineering & Research",
+          "stories": [
+            {
+              "headline": "Open Omnimodal World Models (GitHub Repo)",
+              "blurb": "EchoWM is an omnimodal world model that follows continuous 6-DoF camera trajectories while jointly generating 720p video, environmental sound, music, and speech. It supports first- and third-person interaction and uses progressive plus autoregressive training for synchronized long-horizon generation.",
+              "url": "https://github.com/jd-opensource/JoyAI-Echo"
+            },
+            {
+              "headline": "Short-Lived Credentials for AI Agents (12 minute read)",
+              "blurb": "Vercel Connect replaces long-lived API tokens with runtime-issued credentials that are scoped to individual tasks and expire automatically. Its generally available release added more than 100 connectors along with a unified integration model and production governance controls.",
+              "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents"
+            },
+            {
+              "headline": "Granite 4.2 LLMs: How They're Built (20 minute read)",
+              "blurb": "Granite 4.2 models by IBM are dense, decoder-only reasoning LLMs available in 3B, 8B, and 30B sizes. Trained on 15T tokens, they use a five-phase strategy that includes a multi-stage RL pipeline and support native tool calling with a THINKING/NON-THINKING switch. The 8B and 30B models learn agentic behavior through RL stages in real environments, enhancing capabilities such as code editing and web searching.",
+              "url": "https://huggingface.co/blog/ibm-granite/granite-4-2"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "‘The world seems to be ready': An interview with OpenAI head of product Thibault Sottiaux (7 minute read)",
+              "blurb": "Thibault Sottiaux is widely known as the guy who resets people's token limits whenever OpenAI's Codex hits a growth milestone. OpenAI plans to bring the same treatment to ChatGPT Work, a platform for white-collar workers leveraging AI agents. This article features an interview with Sottiaux on Codex, winning over skeptics, discovery as a product design philosophy, and the cost of intelligence.",
+              "url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/"
+            },
+            {
+              "headline": "Anthropic merges Claude chat and Cowork memory, on by default (5 minute read)",
+              "blurb": "Anthropic has merged Claude and Claude Cowork's memory systems, so the platforms now remember the same conversations. The feature is on by default. Claude now adds topics to memory while users are still conversing. Everything that is remembered is stored as a list of files under Topics in the memory settings. Users can read, edit, or delete each one individually.",
+              "url": "https://thenextweb.com/news/anthropic-claude-cowork-shared-memory-default"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Keenable builds a web index and query layer for AI agents (6 minute read)",
+              "blurb": "Keenable emerged from stealth with a claimed index of more than 100 billion documents, an API already used by unnamed AI labs, and a planned query language for combining evidence across sources.",
+              "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/"
+            },
+            {
+              "headline": "Apple introduces M6 and M5 Ultra for local AI compute (4 minute read)",
+              "blurb": "Apple announced M6 and M5 Ultra chips for Mac mini and Mac Studio, expanding the model work those machines can run locally.",
+              "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/"
+            },
+            {
+              "headline": "OpenAI's Head of Data Centers Has Left the Company (4 minute read)",
+              "blurb": "Chris Malone, the executive who was overseeing OpenAI's data-center build-out, left the company last week.",
+              "url": "https://www.wsj.com/tech/ai/openais-head-of-data-centers-has-left-company-6d24fd83?st=5TEgTQ&reflink=desktopwebshare_permalink"
+            },
+            {
+              "headline": "Applied Compute Agent Cloud (4 minute read)",
+              "blurb": "Applied Compute has launched AC2, a platform enabling AI teams to train, serve, and improve custom models.",
+              "url": "https://www.appliedcompute.com/platform/introducing-ac2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR IT — 2026-08-26",
+      "tagline": "OpenAI’s Jalapeño chip 🌶️, GPT-5.6 hits AWS GovCloud ☁️, Perplexity’s local AI agent 🤖",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Cisco adds Supermicro servers to its NVIDIA AI Factory stack (4 minute read)",
+              "blurb": "Cisco is adding Supermicro's liquid- and air-cooled systems to its Secure AI Factory with NVIDIA. The expanded stack targets enterprises, neoclouds, and sovereign clouds deploying increasingly dense GPU infrastructure.",
+              "url": "https://www.networkworld.com/article/4213820/cisco-bulks-up-its-ai-infrastructure-portfolio-with-supermicros-liquid-cooled-servers.html"
+            },
+            {
+              "headline": "OpenAI GPT-5.6 Terra and Luna now available on Amazon Bedrock in AWS GovCloud (US) (1 minute read)",
+              "blurb": "OpenAI's GPT-5.6 Terra and Luna models are now generally available through Amazon Bedrock in AWS GovCloud (US-West) and (US-East). Terra targets balanced performance while Luna emphasizes faster, lower-cost inference. Both offer million-token context windows and support prompt caching with a stated 90% discount for repeated context.",
+              "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-gpt-terra-luna-govcloud/"
+            },
+            {
+              "headline": "OpenAI's Jalapeño AI chip is optimized for inference efficiency (3 minute read)",
+              "blurb": "OpenAI has revealed more details about Jalapeño, its first custom AI accelerator built with Broadcom. The chip is rated at 700W but stayed at or below 550W in tested workloads, as OpenAI pushes to reduce inference costs and power use.",
+              "url": "https://www.datacenterdynamics.com/en/news/openai-details-jalape%C3%B1o-ai-chip-with-700w-tdp/"
+            }
+          ]
+        },
+        {
+          "name": "Analysis & Opinions",
+          "stories": [
+            {
+              "headline": "SaaS Isn't Dead. Sameness Is (15 minute read)",
+              "blurb": "SaaS is not disappearing, but cheap AI-assisted software generation will weaken the standardized applications and seat-based pricing that defined it. Vendors may instead provide underlying services such as authoritative data, compliance, security, integrations, networks, and operational accountability, while customers create more tailored applications for smaller internal audiences.",
+              "url": "https://aicoding.leaflet.pub/3mtu6c5wsvc2n"
+            },
+            {
+              "headline": "McKinsey says enterprise AI is finally moving toward ROI (5 minute read)",
+              "blurb": "Enterprise AI investment keeps climbing, but measurable earnings impact remains limited. McKinsey's latest analysis suggests companies are beginning to find clearer paths to ROI as deployments move into redesigned workflows.",
+              "url": "https://www.theregister.com/ai-and-ml/2026/08/25/mckinsey-says-enterprise-ai-is-finally-on-the-road-to-roi/5292388"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Partnerships",
+          "stories": [
+            {
+              "headline": "Perplexity and Nvidia launch an AI agent that runs locally (5 minute read)",
+              "blurb": "Perplexity's new Portable Computer runs agent workloads locally on Nvidia DGX Spark and RTX-powered Linux machines, avoiding token charges for local work. Tasks remain on-device by default and can move to cloud models when needed.",
+              "url": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs"
+            },
+            {
+              "headline": "Oracle Exadata Database@AWS offers advantages, but trade-offs remain (8 minute read)",
+              "blurb": "Oracle has made Exadata Database Service generally available through Oracle Database@AWS, extending its high-performance database platform into AWS datacenters. Licensing experts say the service can reduce processor-license requirements and suit license-constrained customers, but higher compute and storage costs, less granular capacity, and Oracle sales claims may undermine its value compared with native AWS options.",
+              "url": "https://www.theregister.com/databases/2026/08/24/oracle-exadata-databaseaws-offers-advantages-but-trade-offs-remain/5291731"
+            },
+            {
+              "headline": "Enterprise-managed auth for the Supabase MCP server (2 minute read)",
+              "blurb": "Supabase has generally released enterprise-managed authentication for its MCP server on Team and Enterprise plans, built with Anthropic and Okta. The feature lets an administrator authorize Supabase in Claude once and manage access through the organization's identity provider, while each employee retains the projects, role, and permissions they already have in Supabase.",
+              "url": "https://supabase.com/blog/enterprise-managed-auth-for-the-supabase-mcp-server"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Open-Weight Models Are Gaining Ground in Enterprise AI (6 minute read)",
+              "blurb": "Open-weight models are moving from developer experimentation into enterprise production workloads, according to usage data cited from Vercel's AI Gateway. Cost advantage, growing role in multi-model deployments, managed inference availability, developer adoption, and suitability for agentic workloads could make open-weight models a durable part of enterprise AI without requiring widespread self-hosting.",
+              "url": "https://www.constellationr.com/research/blog/open-weight-models-are-gaining-ground-enterprise-ai"
+            },
+            {
+              "headline": "Google adds AI assessments to its cloud Migration Center (4 minute read)",
+              "blurb": "Google is adding AI-powered assessments to Migration Center to automate parts of cloud migration planning and business-case development. The tools aim to speed up early analysis before deeper technical validation.",
+              "url": "https://www.networkworld.com/article/4213538/google-adds-ai-powered-assessments-to-migration-center-to-speed-up-cloud-migration-planning.html"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Apple's new Macs lean heavily into local AI inference (4 minute read)",
+              "blurb": "Apple's new Mac Studio and Mac mini emphasize running increasingly capable AI models directly on local hardware.",
+              "url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/"
+            },
+            {
+              "headline": "AI, IPv6, and the future Internet at IETF 126 (5 minute read)",
+              "blurb": "At IETF (Internet Engineering Task Force) 126, discussions across IPv6, DNS, and AI focused on how Internet protocols may support large-scale deployment of AI agents.",
+              "url": "https://blog.apnic.net/2026/08/25/ai-ipv6-and-the-future-internet-at-ietf-126/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Web Dev — 2026-08-26",
+      "tagline": "Evaluating LLMs 🧪, Apple’s new Mac Mini ⚡️, AI is changing security 🔐",
+      "sections": [
+        {
+          "name": "Articles & Tutorials",
+          "stories": [
+            {
+              "headline": "How to evaluate LLMs before production (12 minute read)",
+              "blurb": "Evaluating LLMs for production involves understanding the transition from initial benchmark performance to real-world effectiveness, as production conditions often include ambiguous data, inconsistent labels, and edge cases that benchmarks do not capture. Successful evaluation requires a focus on product goals, a testing process similar to integration testing, and the use of error analysis to address specific performance challenges.",
+              "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production"
+            },
+            {
+              "headline": "Balancing flex items with flex-wrap (9 minute read)",
+              "blurb": "Flexbox layouts can sometimes result in orphan items when used with wrapping, which often prompts developers to rely on media queries to avoid this issue. A new CSS feature, `flex-wrap: balance`, helps create more visually appealing layouts by making sure items wrap evenly, alongside the introduction of `flex-line-count` to set a minimum number of lines for wrapped items.",
+              "url": "https://ishadeed.com/article/flex-wrap-balance/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Advice",
+          "stories": [
+            {
+              "headline": "Agentic engineering for reliable coding agents (11 minute read)",
+              "blurb": "To implement agentic engineering effectively, begin by clearly defining success conditions for tasks, incorporating the simplest deterministic checks to monitor outcomes, and making sure focused feedback is provided to the agent during execution. Limit access and permissions, record all actions and decisions for accountability, and continuously refine the workflow based on past failures to build a trustworthy coding environment.",
+              "url": "https://scottspence.com/posts/agentic-engineering-practical-guide"
+            },
+            {
+              "headline": "You need to find product-market fit again (sorry) (7 minute read)",
+              "blurb": "Companies must continuously seek product-market fit, especially in the face of emerging competitors and technological advancements. The creation of PostHog Desktop shows this process.",
+              "url": "https://newsletter.posthog.com/p/you-need-to-find-product-market-fit"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "LatticeDB (Website)",
+              "blurb": "LatticeDB is an embedded property-graph database that integrates vector similarity, full-text search, and graph traversal capabilities into a single local engine with a fast query layer. It allows for efficient querying of connected data, supports multiple programming languages like Python and JavaScript, and has great performance metrics.",
+              "url": "https://latticedb.org/"
+            },
+            {
+              "headline": "Whip (GitHub Repo)",
+              "blurb": "Whip is a fast coding-agent harness developed in Go, designed for efficiency and streamlined interactions with various models and tools. It integrates best practices from multiple frameworks, supports open-source model discovery, and provides features such as an interactive user interface and background subagents.",
+              "url": "https://github.com/context-labs/whip"
+            },
+            {
+              "headline": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute (19 minute read)",
+              "blurb": "Apple has launched the M6 and M5 Ultra chips, marking advancements in performance and AI capabilities, with the M6 being the company's first 2 nm chip. These new chips have better CPU and GPU configurations, increased unified memory bandwidth, and improved efficiency.",
+              "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "When str.lower() is a security vulnerability in Python (3 minute read)",
+              "blurb": "The use of `str.lower()` in Python's StringPrep implementation poses a security vulnerability due to its reliance on the Unicode data version that comes with the Python interpreter. The recent remediation involves creating new exceptions to align `str.lower()`'s behavior with Unicode 3.2.0.",
+              "url": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability"
+            },
+            {
+              "headline": "Python's pre-declared constants are kinda weird (4 minute read)",
+              "blurb": "Python has six pre-declared constants (True, False, None, __debug__, Ellipsis, and NotImplemented) that exhibit distinct behaviors. Among these, True, False, and None are unique keywords, while __debug__ is a special identifier that cannot be assigned to, contrasting with the built-in nature of Ellipsis and NotImplemented, which can be shadowed by globals.",
+              "url": "http://sebsite.pw/w/20260801-pythonconstants.html"
+            },
+            {
+              "headline": "How AI is actually remaking security (9 minute read)",
+              "blurb": "AI is changing cybersecurity by making the reliance on \"security by obscurity” useless, as attackers can now use AI's capabilities to efficiently and extensively probe systems for vulnerabilities. This shift requires security teams to focus on reducing exposure, improving their analytical advantages, and fostering resilience to combat the new landscape of cyber threats.",
+              "url": "https://ventureinsecurity.net/p/how-ai-is-actually-remaking-security"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "exowill (Website)",
+              "blurb": "An AI \"great helper\" should learn and adapt to an individual's long-term goals while ensuring data sovereignty, empowering users to shape their own technological aids.",
+              "url": "https://exowill.com/"
+            },
+            {
+              "headline": "Compression is prediction (24 minute read)",
+              "blurb": "Compression techniques and LLMs fundamentally share the same goal of predicting and reducing data, as both rely on understanding and using probabilities to efficiently represent information.",
+              "url": "https://ngrok.com/blog/compression-is-prediction"
+            },
+            {
+              "headline": "The Move to Python 3 Begins! (8 minute read)",
+              "blurb": "EVE Online is transitioning from Python 2.7 to Python 3 to improve performance, improve development tools, and future-proof the game's codebase.",
+              "url": "https://www.eveonline.com/news/view/the-move-to-python-3-begins"
+            },
+            {
+              "headline": "One Go binary, one YAML file, one SQLite database: why I wrote my own monitoring tool (5 minute read)",
+              "blurb": "A lightweight monitoring tool called Gjallar was developed to oversee a variety of services without the complexity of traditional monitoring platforms, using a single binary, a YAML configuration file, and an SQLite database.",
+              "url": "https://rvier.fr/posts/why-i-wrote-my-own-monitoring-tool-EN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR InfoSec — 2026-08-26",
+      "tagline": "Critical Keycloak ATO 🔑, AI Bug Bounty Hunter 🐞, Global Telecom Exploitation 📞",
+      "sections": [
+        {
+          "name": "Attacks & Vulnerabilities",
+          "stories": [
+            {
+              "headline": "ReliaQuest Confirms ShinyHunters Hack (2 minute read)",
+              "blurb": "ShinyHunters ran a phishing campaign using \"company.claims\" domains, then called ReliaQuest staff posing as security employees to push them to a fake SSO page. One employee entered a password and approved a push notification, giving attackers a brief session on the identity dashboard. ReliaQuest says access was view-only, all further access attempts were blocked, no other identities or business apps were reached, no customer data was taken, and no ransomware was involved.",
+              "url": "https://www.securityweek.com/reliaquest-confirms-shinyhunters-hack-but-says-impact-was-limited/"
+            },
+            {
+              "headline": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account (3 minute read)",
+              "blurb": "CVE-2026-18963 (CVSS 9.1) lets an unauthenticated attacker send a crafted request to Keycloak's reset-credentials endpoint, bypassing the email verification via recovery token and allowing the attacker to update the account password, enabling full account takeover. Administrators should update Keycloak and disable \"Forgot password\" in every realm until servers are patched.",
+              "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html"
+            },
+            {
+              "headline": "Hackers Place Fake Codex Download Above Legitimate OpenAI Result to Infect Mac Users (3 minute read)",
+              "blurb": "Threat actors are leveraging sponsored Google Search ads to position fake OpenAI Codex download pages above legitimate results. The campaign utilizes a ClickFix-style social engineering trick to convince macOS users to paste a malicious Terminal command that decodes a Base64 URL, strips quarantine attributes using xattr -c, and drops a universal Mach-O payload linked to Atomic macOS Stealer (AMOS) infrastructure. Security teams should proactively block associated domains like brightlinks[.]com and configure SIEM alerts for any curl-to-zsh pipelines paired with xattr -c execution.",
+              "url": "https://gbhackers.com/fake-codex-download/"
+            }
+          ]
+        },
+        {
+          "name": "Strategies & Tactics",
+          "stories": [
+            {
+              "headline": "Bad Connection: Uncovering Global Telecom Exploitation by Covert Surveillance Actors (19 minute read)",
+              "blurb": "Citizen Lab found two surveillance vendors exploiting SS7 and Diameter signalling to track phones globally. One campaign hit a VVIP executive's phone across 11 operator identities in nine countries in four hours, switching protocols to dodge firewalls. A second used a malicious SMS with hidden SIM commands to turn a phone into a tracking beacon.",
+              "url": "https://citizenlab.ca/research/uncovering-global-telecom-exploitation-by-covert-surveillance-actors/"
+            },
+            {
+              "headline": "Text Template (7 minute read)",
+              "blurb": "T4 template files (.tt) run C# or VB code at build time through TextTransform.exe, TextTransformCore.exe, t4.exe, and MSBuild.exe. Attackers can plant malicious .tt files on developer machines or in build pipelines to trigger code execution, including supply chain scenarios. This post provides working PoC templates that spawn calc.exe or a MessageBox, and shows how tampering a .csproj with TextTemplatingFileGenerator entries lets MSBuild.exe compile and run arbitrary .tt code via the /t:Transform flag. Detection relies on Sysmon: process creation for the four binaries, image loads of three Microsoft.TextTemplating DLLs (only with MSBuild), and file creation in %Temp% during MSBuild transforms, since t4.exe also spawns dotnet.exe and csc.dll to compile the payload.",
+              "url": "https://ipurple.team/2026/08/24/text-template/"
+            },
+            {
+              "headline": "Auditing Microsoft Defender and Intune Configuration Changes (11 minute read)",
+              "blurb": "Microsoft's unified Defender SecOps portal contains a critical logging gap: changes to security-critical settings, such as Tamper Protection and Intune device policies, do not generate default alerts. To maintain a reliable audit trail of configuration changes, security teams must manually engineer custom detections. This requires enabling Unified Audit Log integration, forwarding Purview audit data into the CloudAppEvents table via Defender for Cloud Apps, and actively routing Intune operational logs to Log Analytics for KQL-based hunting.",
+              "url": "https://jeffreyappel.nl/auditing-microsoft-defender-and-intune-configuration-changes/"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Disrobe (GitHub Repo)",
+              "blurb": "Decompile, deobfuscate, and unpack almost anything. Disrobe is a universal, deterministic, single-binary reverse-engineering toolkit in Rust for Python, JVM/Android, .NET, WebAssembly, JS, Go, and native packers (UPX/PyArmor/PyInstaller/Nuitka) and 20+ more. It was built for malware analysis, CTFs, and security research.",
+              "url": "https://github.com/1-3-7/disrobe"
+            },
+            {
+              "headline": "Blacklight (GitHub Repo)",
+              "blurb": "Blacklight is a cross-platform toolkit for mapping, analyzing, and understanding the local AI agent attack surface.",
+              "url": "https://github.com/SpecterOps/Blacklight"
+            },
+            {
+              "headline": "Staying Ahead of Adversarial AI Through Agentic Source Code Review (9 minute read)",
+              "blurb": "Mandiant's Agentic Vulnerability Discovery Harness (AVDH) is a Gemini-powered multi-agent pipeline built on Google's Agent Development Kit. The tool conducts deep source code reviews by autonomously chaining threat modeling, entry-point discovery, and hypothesis generation before escalating confirmed findings for human validation. Mandiant positions the harness as a point-in-time, deep-dive complement to continuous scanning tools like CodeMender, establishing a robust two-layered defensive strategy.",
+              "url": "https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Threat Hunting Using Pair Probabilities (7 minute read)",
+              "blurb": "A KQL threat hunting technique built on Microsoft's pair_probabilities_fl() user-defined function calculates how statistically unusual a categorical pair (like a binary and its execution directory) is across a dataset, surfacing outliers such as cmd.exe launching from a user's Desktop instead of System32. The author extended the function to return top co-occurring values, per-device context, and occurrence counts alongside the core probability metrics (P_A|B, Lift, and Jaccard), making rare pairings easier to triage. The approach is explicitly framed as a statistical rarity detector rather than a maliciousness classifier, useful for narrowing investigation scope but unreliable on small datasets or environments where malicious activity has already been baked into the baseline.",
+              "url": "https://detect.fyi/threat-hunting-using-pair-probabilities-55194ddb8309"
+            },
+            {
+              "headline": "Inside an AI-Run Bug Bounty Report (5 minute read)",
+              "blurb": "Anshuman Bhartiya details his setup and experience with a largely AI-driven bug bounty workflow. Bhartiya uses a custom-built harness that uses the pi coding-agent harness to monitor source code changes and route security-relevant diffs through 18 deterministic, vulnerability-specific detectors. The report was then generated and submitted by Claude, with the researcher only reviewing and guiding the agent.",
+              "url": "https://www.linkedin.com/pulse/edition-3-inside-ai-run-bug-bounty-report-anshuman-bhartiya-ch8rc"
+            },
+            {
+              "headline": "Thoughts on Responsible Disclosure (9 minute read)",
+              "blurb": "Security researchers at Mysk publicly disclosed three WebKit vulnerabilities that leak users' DNS traffic and real IP addresses, successfully bypassing privacy protections in iCloud Private Relay and proxy-based browsers like Tor. Frustrated by Apple's historically slow patch cycles, the team bypassed standard coordinated disclosure, opting to publicly release the details after privately securing mitigations for Psylo and the Onion Browser. While Apple patched iCloud Private Relay within two weeks of the announcement, the underlying WebKit proxy flaws remain active, forcing affected users to rely on full-device VPNs for comprehensive protection.",
+              "url": "https://mysk.blog/2026/08/25/responsible-disclosure/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode (2 minute read)",
+              "blurb": "Marimo patched CVE-2026-75149 (CVSS 8.8), a code injection flaw in versions before 0.23.15 that let a crafted notebook launch an attacker-controlled MCP server command as a local subprocess the moment the notebook opened in edit mode, before any cell executed, so users should upgrade to 0.24.0.",
+              "url": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html"
+            },
+            {
+              "headline": "WhatsApp Tightens Account Security with Stronger Two-Step Verification and More (2 minute read)",
+              "blurb": "WhatsApp now supports longer two-step verification passwords with letters, numbers, and special characters.",
+              "url": "https://techcrunch.com/2026/08/25/whatsapp-tightens-account-security-with-stronger-two-step-verification-and-more/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR DevOps — 2026-08-26",
+      "tagline": "EC2 Birthday 🎂, GitHub Outage 🔥, AI Incident Bot 🤖",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Happy 20th Birthday, Amazon EC2 (3 minute read)",
+              "blurb": "Amazon EC2 turns 20 years old today. Jeff Barr's original blog post in 2006 introduced a single instance type, m1.small, in one region, billed by the hour. The service has since grown from that one instance type to over 1,200, spanning 39 regions globally.",
+              "url": "https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2/"
+            },
+            {
+              "headline": "The August 17 Outage, and the Work Ahead (4 minute read)",
+              "blurb": "GitHub's 7-hour-and-47-minute outage on August 17 began when record traffic overwhelmed a critical Central US infrastructure component that failed to scale, triggering authentication failures and cascading service disruption. Recovery was complicated by a client-side retry loop in Copilot. GitHub is responding with stricter retry budgets and timeouts, more capacity, fewer shared dependencies, and continued migration to Azure, which now serves about 58% of platform load.",
+              "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "Solving the 1+N Query Problem (7 minute read)",
+              "blurb": "Acadia eliminates the N+1 query problem by design: its query language has no general-purpose loops or recursion, so developers cannot accidentally turn a relationship lookup into one query followed by N additional database calls. Inspired by Datalog, Acadia instead expresses relationships through operations like intersect that compile into set-based SQL, while also guaranteeing that queries terminate in polynomial time relative to the size of the data.",
+              "url": "https://acadia.engineering/blog/solving-the-1-plus-N-query-problem"
+            },
+            {
+              "headline": "On-Call Is Now Theatre (7 minute read)",
+              "blurb": "AI agents have transformed software development but production operations still rely on human-centered on-call systems that constrain velocity. The proposed model uses agents to continuously detect, investigate, fix, and prevent incidents, escalating only genuinely novel problems while shifting engineers from first responders to decision makers.",
+              "url": "https://boristane.com/blog/on-call-is-now-theatre/"
+            },
+            {
+              "headline": "Patching at Fleet Scale, Twice: How DigitalOcean Closed Januscape and the AMD Safe RET Issue Without Customer Impact (10 minute read)",
+              "blurb": "DigitalOcean patched its entire hypervisor fleet against two separate guest-to-host vulnerabilities within a single month, reporting zero confirmed customer-facing impact in both cases. The first, a KVM nested virtualization flaw called Januscape (CVE-2026-53359), was publicly disclosed July 6 and fully remediated across all hypervisors by July 14, eight days later. The second affected roughly 1,600 AMD hypervisors across twelve regions and required a kernel update and reboot on every machine, a harder constraint than the first, yet the entire fleet was patched by August 5, one day before AMD published its public bulletin.",
+              "url": "https://www.digitalocean.com/blog/patching-januscape-amd-safe-ret"
+            }
+          ]
+        },
+        {
+          "name": "Resources & Tools",
+          "stories": [
+            {
+              "headline": "Apache Maka (GitHub Repo)",
+              "blurb": "Apache Maka is a local-first AI agent workspace that runs models and tools through a sandboxed runtime while keeping sessions, tool calls, results, and recovery data on the user's machine by default. It provides desktop, CLI/TUI, and evaluation interfaces, supports built-in file and shell tools, records durable execution histories for crash recovery and context trimming, and can connect to cloud APIs, local models, or compatible gateways.",
+              "url": "https://github.com/apache/maka"
+            },
+            {
+              "headline": "Hister (GitHub Repo)",
+              "blurb": "Hister is a private search engine that indexes the full contents of pages you visit and files you store locally. It works through a web interface, terminal, or an AI assistant connected via MCP. By default, it has no telemetry and no cloud sync, and the browser extension sends indexed content only to the server you configure. Optional semantic search requires you to choose your own embeddings endpoint.",
+              "url": "https://github.com/asciimoo/hister"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Building an AI-Powered Incident Bot with Octopus Deploy (11 minute read)",
+              "blurb": "A proof-of-concept bot named Octopus Healer sends Kubernetes alert context to an AI model, which selects a predefined remediation type and fills runbook parameters rather than generating executable commands. Octopus Deploy then executes the runbook only after an operator reviews and approves it in Slack, preserving audit trails and existing permissions.",
+              "url": "https://octopus.com/blog/ai-powered-incident-bot"
+            },
+            {
+              "headline": "Automating root cause analysis at scale: Multi-signal correlation for cloud native incident response (8 minute read)",
+              "blurb": "Atlassian has built an automated root cause analysis system designed to cut the time engineers spend diagnosing production incidents across its hundreds of microservices. The system pulls anomaly signals from metrics, distributed traces, and logs, aligns them on a shared timeline, and traverses a service dependency graph built from OpenTelemetry span data to generate ranked hypotheses about fault origin.",
+              "url": "https://www.cncf.io/blog/2026/08/24/automating-root-cause-analysis-at-scale-multi-signal-correlation-for-cloud-native-incident-response/"
+            },
+            {
+              "headline": "AI Coding Will Prevent Expertise (14 minute read)",
+              "blurb": "AI coding tools can create an “expert novice” problem: developers are expected to use agents effectively before they have built the judgment needed to evaluate their output, while heavy reliance on generated code can bypass the struggle that develops that judgment in the first place. A better learning model is to use AI as a tutor or Socratic partner rather than a code generator, preserving the planning, debugging, and trial-and-error that turns experience into expertise.",
+              "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Run, debug, and scale Databricks workloads from your local IDE (2 minute read)",
+              "blurb": "Databricks has updated its IDE tools to let developers connect VS Code, Cursor, or a terminal directly to Databricks compute via a new SSH tunnel.",
+              "url": "https://www.databricks.com/blog/run-debug-and-scale-databricks-workloads-your-local-ide"
+            },
+            {
+              "headline": "Jenkins Contributor Summit Virtual Event (September 11, 2026) (3 minute read)",
+              "blurb": "Jenkins will hold a virtual Contributor Summit hackathon on September 11, running 08:30 to 19:30 CEST across an APAC/EMEA morning block and an EMEA/Americas afternoon block.",
+              "url": "https://www.jenkins.io/blog/2026/08/24/contributor-summit-virtual/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Design — 2026-08-26",
+      "tagline": "Apple Home Launches 🏠, Webflow in Codex 🌐, ChatGPT Stickers 💬",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Apple Stores Preparing 'Significant' Changes for New Home Product Launches (2 minute read)",
+              "blurb": "Apple is reportedly preparing significant retail changes this fall, including rearranged sections and new accessory bays, ahead of upcoming Home product launches. A refreshed HomePod mini and Apple TV 4K are expected, and the scale of the changes suggests the rumored home hub with a display is coming too.",
+              "url": "https://9to5mac.com/2026/08/23/apple-preparing-for-homepod-mini-apple-tv-smart-home-launches/"
+            },
+            {
+              "headline": "Webflow is Now Available in Codex and ChatGPT (2 minute read)",
+              "blurb": "Webflow is now available in Codex alongside built-in Skills for both ChatGPT and Codex that automate common Webflow workflows. The Skills package tools, context, and best practices so users describe an outcome rather than choosing APIs or prompt sequences. Access is currently free and does not consume AI credits.",
+              "url": "https://webflow.com/blog/webflow-is-now-available-in-codex-and-chatgpt"
+            },
+            {
+              "headline": "ChatGPT now lets users create custom iMessage and WhatsApp stickers (1 minute read)",
+              "blurb": "ChatGPT can now create custom sticker packs from photos or text prompts, allowing users to generate, remix, and edit stickers with transparent backgrounds before exporting them directly to iMessage or WhatsApp. Users can also apply styles from reference images, remove or add elements, and save stickers to their photo library. Once created, stickers can be added to supported chat apps with a single tap, making it easier to turn photos, ideas, or inside jokes into shareable sticker packs.",
+              "url": "https://9to5mac.com/2026/08/24/chatgpt-now-lets-users-create-custom-imessage-and-whatsapp-stickers/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "Card Sorting and Tree Testing: Getting Your Information Architecture Right (4 minute read)",
+              "blurb": "Card sorting and tree testing are two UX research methods for building and validating information architecture using observed user behavior. Card sorting reveals how people naturally group and label content, while tree testing checks whether they can find things in a proposed structure. Run in sequence, they turn navigation decisions into evidence rather than internal debate.",
+              "url": "https://raw.studio/blog/card-sorting-and-tree-testing/"
+            },
+            {
+              "headline": "Building May Be Cheap Now. Being Wrong Still Isn't (6 minute read)",
+              "blurb": "AI has collapsed the cost of building software but left the cost of being wrong untouched, making knowing what to build the constraint. Discovery research answers whether something should exist at all, a question experiments and rapid prototyping are not built to address. Use discovery when uncertain about the problem and prototyping when uncertain about the solution.",
+              "url": "https://www.viget.com/articles/building-may-be-cheap-now-being-wrong-still-isnt"
+            },
+            {
+              "headline": "No shortcuts: why AI threatens creative instinct (6 minute read)",
+              "blurb": "As AI takes on more of the execution and ideation involved in creative work, the most valuable skill for designers is shifting from technical proficiency to judgment—the ability to make thoughtful, informed decisions about what should be created and why. While new tools have always changed creative practice, AI differs in its ability to generate complete outputs with minimal human involvement, making it easier to bypass the learning experiences that traditionally helped designers develop taste and critical thinking. The challenge for educators, practitioners, and organizations is to use AI as a tool for augmentation rather than replacement, preserving human creativity, agency, and decision-making while addressing broader concerns around labor, ownership, and ethics.",
+              "url": "https://www.itsnicethat.com/articles/pov-no-shortcuts-why-ai-threatens-creative-instinct-creative-industry-240826"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "On-Brand Assets, Generated in Minutes (Website)",
+              "blurb": "The only AI tool built specifically for the brand assets designers actually need. Upload your logo, colors, fonts, and direction once, and Limora learns your style for every asset.",
+              "url": "https://limora.ai/"
+            },
+            {
+              "headline": "The Hardware Prototyping Tool for Designers (Website)",
+              "blurb": "Build interactive prototypes with physical components — no code or setup required. Explore, define, and export your hardware prototypes, all in one app.",
+              "url": "https://blokdots.com/"
+            },
+            {
+              "headline": "Unlimited Gradients, Animated Gradients and AI-Generated Backgrounds (Website)",
+              "blurb": "Grainient combines grainy and smooth gradients, animated gradients, AI backgrounds, and a shader tool to help you design interfaces that move, engage, and convert.",
+              "url": "https://grainient.supply/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "From Barbie logos to medieval manuscripts: step inside Teddy Blanks' film title design process (8 minute read)",
+              "blurb": "Teddy Blanks, co-founder of Chips, has built a career designing film titles for directors like Lena Dunham, Greta Gerwig, Robert Eggers, and David Lowery, treating title sequences less as branding systems and more as emotional moments that serve the story. His work often involves deep historical and visual research—from reconstructing vintage Barbie logos and fonts for Barbie to studying medieval manuscripts for Werwulf—but he sees titles as a subtle craft whose value lies in how they feel in a specific cinematic moment rather than in being noticed. For Blanks, successful title design is about creating atmosphere, meaning, and connection, even when the audience never consciously recognizes the work behind it.",
+              "url": "https://www.itsnicethat.com/features/teddy-blanks-chips-film-title-typography-graphic-design-spotlight-240826"
+            },
+            {
+              "headline": "Where Should AI Go in Your UI? A UX Guide to AI Feature Placement (8 minute read)",
+              "blurb": "Placement shapes how users perceive and adopt AI features, and the question is not only where AI sits but how prominently. Common patterns include floating widgets, toolbars and action bars, sidebars, dedicated hubs, and inline triggers, each signaling something different. Five questions — centrality, user expectations, frequency, scope, and whether a menu would do — guide the choice.",
+              "url": "https://blog.logrocket.com/ux-design/ai-ui-placement/"
+            },
+            {
+              "headline": "OneMay's surreal visual identity for Sam Kerr's WAWA sparkling water (3 minute read)",
+              "blurb": "OneMay developed the brand identity for WAWA, a sparkling water brand aiming to make healthy beverages feel exciting rather than restrictive. Built around the concept “Water With Aura,” the identity uses a playful wordmark, vibrant color palettes, and surreal collage-style illustrations to give each flavor its own personality and emotional appeal. Designed to stand out in a category dominated by minimalist health cues, the flexible system extends across packaging, digital content, merchandise, and advertising, positioning sparkling water as a product people actively choose rather than settle for.",
+              "url": "https://www.designweek.co.uk/onemays-surreal-visual-identity-for-sam-kerrs-wawa-sparkling-water/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Dark Mode Toggles: Two States Are Enough (10 minute read)",
+              "blurb": "A two-state dark mode toggle can express all three underlying states, making the common tri-state control unnecessary UI complexity.",
+              "url": "https://lea.verou.me/blog/2026/dark-mode-toggles/"
+            },
+            {
+              "headline": "Simon Weckert creates Digital Camouflage shirt to avoid AI video surveillance (3 minute read)",
+              "blurb": "Designer Simon Weckert created a colorful AI-generated camouflage shirt that exploits weaknesses in computer vision systems, making the wearer harder for AI surveillance cameras to recognize as a person.",
+              "url": "https://www.dezeen.com/2026/08/25/digital-camouflage-shirt-ai-video-surveillance-simon-weckert/"
+            },
+            {
+              "headline": "Replacing Creative Jobs with AI Could Have a Hidden Cost, a New Report Warns (4 minute read)",
+              "blurb": "A D&AD report warns that replacing entry-level creative jobs with AI removes the training ground where future creative leaders build judgment.",
+              "url": "https://www.creativebloq.com/ai/replacing-creative-jobs-with-ai-could-have-a-hidden-cost-new-report-warns"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
