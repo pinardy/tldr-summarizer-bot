@@ -2,99 +2,76 @@
   "date": "2026-08-28",
   "mode": "combined",
   "categories": [
-    "tech",
-    "it",
-    "dev",
-    "devops",
-    "design"
+    "ai",
+    "infosec"
   ],
   "digests": [
     {
       "title": "TLDR Daily Digest",
-      "tagline": "Tech, IT, Web Dev, DevOps, Design",
+      "tagline": "AI, InfoSec",
       "sections": [
         {
-          "name": "AI Infrastructure & Business",
+          "name": "AI & Models",
           "stories": [
             {
-              "headline": "Nvidia Nears Massive $12.9B Hugging Face Acquisition",
-              "blurb": "Nvidia is reportedly in late-stage talks to acquire the open-source AI platform Hugging Face for $12.9 billion, a move that would consolidate its grip on the developer ecosystem.",
-              "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/"
+              "headline": "DeepMind Pilots Cryptographic Double-Blind Evaluations to Stop Benchmark Cheating",
+              "blurb": "DeepMind is testing a world-first double-blind framework that utilizes cryptographic environments to evaluate AI models securely and prevent benchmark contamination.",
+              "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"
             },
             {
-              "headline": "Amazon Triples Nvidia GPU Commitments Amid Insatiable Demand",
-              "blurb": "AWS is adding 2 million next-gen Blackwell Ultra and Rubin GPUs to its capacity as enterprise interest in Bedrock and SageMaker continues to surge.",
-              "url": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/"
+              "headline": "DeepSeek Targets $74 Billion Valuation in Latest Funding Round",
+              "blurb": "AI startup DeepSeek is seeking to raise $7.4 billion to fuel its computing infrastructure and R&D expansion, pushing its valuation to a massive $74 billion.",
+              "url": "https://www.wsj.com/tech/ai/ai-startup-deepseek-poised-to-reach-74-billion-valuation-1e093592?st=PkTEiL&reflink=desktopwebshare_permalink"
             },
             {
-              "headline": "Anthropic Signs Colossal $45 Billion Compute Deal with Nscale",
-              "blurb": "Anthropic has agreed to lease 460 megawatts of capacity at Nscale's West Virginia campus over six years to power its next-generation models with Nvidia Rubin systems.",
-              "url": "https://www.datacenterdynamics.com/en/news/anthropic-signs-45bn-compute-capacity-agreement-with-nscale-report/"
+              "headline": "OpenAI and Anthropic Revenues Pass Landmark $100 Billion Mark",
+              "blurb": "A new analysis reveals unprecedented growth for the top AI labs, with OpenAI and Anthropic surpassing a combined $100 billion in revenue.",
+              "url": "https://epochai.substack.com/p/an-update-on-ais-most-important-number"
             },
             {
-              "headline": "Meta Outlines Rivalry With Anthropic While Remaining a Key Customer",
-              "blurb": "Despite Mark Zuckerberg's public criticisms of closed AI labs, internal projections reveal Meta is one of Anthropic’s largest customers, spending up to $10 billion annually on its APIs.",
-              "url": "https://www.nytimes.com/2026/08/27/technology/meta-anthropic-frenemies.html?unlocked_article_code=1.81A.NTLV.TsKEps8sa7fY&smid=url-share"
+              "headline": "Anthropic Unveils Standard for AI-Operated Scientific Hardware",
+              "blurb": "Anthropic's new Model Hardware Standard provides a research preview of a model-agnostic specification designed to let AI agents safely control lab and manufacturing equipment.",
+              "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+            },
+            {
+              "headline": "Cohere Launches Parse for Enterprise Document Intelligence",
+              "blurb": "Cohere has introduced Parse, a vision-language model-powered API that processes complex visual enterprise documents into structured data in nine languages for just $1.50 per 1,000 pages.",
+              "url": "https://cohere.com/blog/parse"
+            },
+            {
+              "headline": "OpenAI Price Cuts Spark Surge in LLM Token Usage",
+              "blurb": "An analysis of recent OpenAI model discounts shows that lower prices triggered Jevons Paradox, causing a massive 13.8x spike in token volume while permanently capturing market share from competitors.",
+              "url": "https://openrouter.ai/blog/insights/gpt-5-6-discounts-jevons-paradox/"
             }
           ]
         },
         {
-          "name": "Engineering & DevOps",
+          "name": "Cybersecurity",
           "stories": [
             {
-              "headline": "Cloudflare Slashes 1.1.1.1 DNS Cache Memory Usage by 100 Terabytes",
-              "blurb": "By deploying five structural optimizations to its DNS cache storage, Cloudflare cut its per-entry footprint by 56%, boosting lookup speeds and lowering resident memory across its global network.",
-              "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/"
+              "headline": "GPT-5.6 Preview Safely Escapes KVM Sandbox Using Fresh Zero-Days",
+              "blurb": "In a Trail of Bits evaluation, OpenAI's GPT-5.6-Cyber preview successfully escaped a patched QEMU/KVM sandbox three separate times over 12 hours by synthesizing fresh zero-day exploits.",
+              "url": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/"
             },
             {
-              "headline": "Kubernetes v1.37 Released with 67 Performance and Stability Enhancements",
-              "blurb": "Code-named \"Garhwal,\" the latest release graduates the metrics API and KYAML to stable, activates memory quality of service by default, and introduces concurrent watch object decoding.",
-              "url": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/"
+              "headline": "Joint Study Exposes Extreme Exposure Times in Edge Hardware",
+              "blurb": "A joint report from Tenable and SentinelOne reveals that nation-state actors and ransomware gangs are targeting the exact same perimeter vulnerabilities, with some Citrix appliances averaging over 460 days to patch.",
+              "url": "https://www.sentinelone.com/blog/what-two-independent-datasets-reveal-about-whos-exploiting-your-perimeter/"
             },
             {
-              "headline": "Why AI Is Making Massive Codebase Migrations Practical",
-              "blurb": "Success stories like Asana's two-week framework migration show that AI-assisted tooling can bypass years of traditional engineering overhead to make previously avoided refactoring projects viable.",
-              "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-we-need-to-talk-about-migrations-b3d"
+              "headline": "CISA Red Team Breaches Critical Infrastructure Undetected",
+              "blurb": "A federal red team assessment of two critical infrastructure organizations successfully achieved domain-level access, with one target failing to detect the compromise entirely due to disconnected security tooling and credential flaws.",
+              "url": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html"
             },
             {
-              "headline": "Palo Alto Networks Eyed Okta and Datadog Prior to CyberArk Pivot",
-              "blurb": "Cybersecurity giant Palo Alto Networks reportedly engaged in preliminary acquisition discussions with both Okta and Datadog before moving forward with a $25 billion deal for CyberArk.",
-              "url": "https://uk.finance.yahoo.com/news/palo-alto-networks-ceo-held-144210530.html"
-            }
-          ]
-        },
-        {
-          "name": "AI Agents, Robots & Hardware",
-          "stories": [
-            {
-              "headline": "Anthropic Standardizes Hardware Control Drivers for AI Agents",
-              "blurb": "Anthropic's new Model Harness Standard streamlines how AI agents interface with laboratory and industrial hardware, drastically reducing the time required to set up automated physical experiments.",
-              "url": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/"
+              "headline": "Cyber Attack Accesses Booking Data of 8.7 Million UK Airport Customers",
+              "blurb": "Manchester, London Stansted, and East Midlands airports suffered a major data breach compromising personal details, postcodes, and vehicle registrations of 8.7 million customers.",
+              "url": "https://www.theguardian.com/business/2026/aug/27/uk-airports-operator-cyber-attack-customer-data-accessed"
             },
             {
-              "headline": "Hugging Face Launches Microduck, a $399 Open-Source Robot",
-              "blurb": "Built with an open-source reinforcement learning stack, this cute 25-centimeter-tall duck-like robot can walk, grip items, and skate, making physical AI robotics research highly accessible.",
-              "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/"
-            }
-          ]
-        },
-        {
-          "name": "Design & UX",
-          "stories": [
-            {
-              "headline": "The Evolving Role of the Product Designer Under AI Collapse",
-              "blurb": "As AI automates wireframing and prototyping, product designers must transition into \"product architects\" who prioritize user workflows, systems design, and critical judgment over screen deliverables.",
-              "url": "https://medium.com/design-bootcamp/the-product-designers-role-isn-t-disappearing-it-s-getting-weirder-2247a0c80bf8"
-            },
-            {
-              "headline": "Meta Faces Legal Reckoning Over the Ethics of Infinite Scroll",
-              "blurb": "State attorneys general are arguing in a federal trial that Meta's endless feed was deliberately engineered to exploit human psychology, threatening the design pattern’s future.",
-              "url": "https://webdesignerdepot.com/the-infinite-scroll-was-a-design-crime-now-meta-is-paying-for-it/"
-            },
-            {
-              "headline": "Adobe Integrates Camera Raw Tools Directly Into Photoshop Canvas",
-              "blurb": "Photoshop's major update introduces non-destructive Light Adjustment Layers alongside Firefly-powered AI markup tools to make complex photo editing far more intuitive.",
-              "url": "https://petapixel.com/2026/08/27/adobe-brings-acrs-powerful-non-destructive-exposure-tools-into-photoshop-itself/"
+              "headline": "Cheap Phishing Kit Steals Authenticated Microsoft 365 Sessions",
+              "blurb": "Security researchers have discovered NovaCookies, a budget-friendly Adversary-in-the-Middle phishing service that successfully bypasses multi-factor authentication by harvesting active Microsoft 365 login sessions.",
+              "url": "https://www.darkreading.com/endpoint-security/novacookies-steals-microsoft-365-sessions-320-a-month"
             }
           ]
         }
