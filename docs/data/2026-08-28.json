@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-28",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "it",
+    "dev",
+    "devops",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, IT, Web Dev, DevOps, Design",
+      "sections": [
+        {
+          "name": "AI Infrastructure & Business",
+          "stories": [
+            {
+              "headline": "Nvidia Nears Massive $12.9B Hugging Face Acquisition",
+              "blurb": "Nvidia is reportedly in late-stage talks to acquire the open-source AI platform Hugging Face for $12.9 billion, a move that would consolidate its grip on the developer ecosystem.",
+              "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/"
+            },
+            {
+              "headline": "Amazon Triples Nvidia GPU Commitments Amid Insatiable Demand",
+              "blurb": "AWS is adding 2 million next-gen Blackwell Ultra and Rubin GPUs to its capacity as enterprise interest in Bedrock and SageMaker continues to surge.",
+              "url": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/"
+            },
+            {
+              "headline": "Anthropic Signs Colossal $45 Billion Compute Deal with Nscale",
+              "blurb": "Anthropic has agreed to lease 460 megawatts of capacity at Nscale's West Virginia campus over six years to power its next-generation models with Nvidia Rubin systems.",
+              "url": "https://www.datacenterdynamics.com/en/news/anthropic-signs-45bn-compute-capacity-agreement-with-nscale-report/"
+            },
+            {
+              "headline": "Meta Outlines Rivalry With Anthropic While Remaining a Key Customer",
+              "blurb": "Despite Mark Zuckerberg's public criticisms of closed AI labs, internal projections reveal Meta is one of Anthropic’s largest customers, spending up to $10 billion annually on its APIs.",
+              "url": "https://www.nytimes.com/2026/08/27/technology/meta-anthropic-frenemies.html?unlocked_article_code=1.81A.NTLV.TsKEps8sa7fY&smid=url-share"
+            }
+          ]
+        },
+        {
+          "name": "Engineering & DevOps",
+          "stories": [
+            {
+              "headline": "Cloudflare Slashes 1.1.1.1 DNS Cache Memory Usage by 100 Terabytes",
+              "blurb": "By deploying five structural optimizations to its DNS cache storage, Cloudflare cut its per-entry footprint by 56%, boosting lookup speeds and lowering resident memory across its global network.",
+              "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/"
+            },
+            {
+              "headline": "Kubernetes v1.37 Released with 67 Performance and Stability Enhancements",
+              "blurb": "Code-named \"Garhwal,\" the latest release graduates the metrics API and KYAML to stable, activates memory quality of service by default, and introduces concurrent watch object decoding.",
+              "url": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/"
+            },
+            {
+              "headline": "Why AI Is Making Massive Codebase Migrations Practical",
+              "blurb": "Success stories like Asana's two-week framework migration show that AI-assisted tooling can bypass years of traditional engineering overhead to make previously avoided refactoring projects viable.",
+              "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-we-need-to-talk-about-migrations-b3d"
+            },
+            {
+              "headline": "Palo Alto Networks Eyed Okta and Datadog Prior to CyberArk Pivot",
+              "blurb": "Cybersecurity giant Palo Alto Networks reportedly engaged in preliminary acquisition discussions with both Okta and Datadog before moving forward with a $25 billion deal for CyberArk.",
+              "url": "https://uk.finance.yahoo.com/news/palo-alto-networks-ceo-held-144210530.html"
+            }
+          ]
+        },
+        {
+          "name": "AI Agents, Robots & Hardware",
+          "stories": [
+            {
+              "headline": "Anthropic Standardizes Hardware Control Drivers for AI Agents",
+              "blurb": "Anthropic's new Model Harness Standard streamlines how AI agents interface with laboratory and industrial hardware, drastically reducing the time required to set up automated physical experiments.",
+              "url": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/"
+            },
+            {
+              "headline": "Hugging Face Launches Microduck, a $399 Open-Source Robot",
+              "blurb": "Built with an open-source reinforcement learning stack, this cute 25-centimeter-tall duck-like robot can walk, grip items, and skate, making physical AI robotics research highly accessible.",
+              "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/"
+            }
+          ]
+        },
+        {
+          "name": "Design & UX",
+          "stories": [
+            {
+              "headline": "The Evolving Role of the Product Designer Under AI Collapse",
+              "blurb": "As AI automates wireframing and prototyping, product designers must transition into \"product architects\" who prioritize user workflows, systems design, and critical judgment over screen deliverables.",
+              "url": "https://medium.com/design-bootcamp/the-product-designers-role-isn-t-disappearing-it-s-getting-weirder-2247a0c80bf8"
+            },
+            {
+              "headline": "Meta Faces Legal Reckoning Over the Ethics of Infinite Scroll",
+              "blurb": "State attorneys general are arguing in a federal trial that Meta's endless feed was deliberately engineered to exploit human psychology, threatening the design pattern’s future.",
+              "url": "https://webdesignerdepot.com/the-infinite-scroll-was-a-design-crime-now-meta-is-paying-for-it/"
+            },
+            {
+              "headline": "Adobe Integrates Camera Raw Tools Directly Into Photoshop Canvas",
+              "blurb": "Photoshop's major update introduces non-destructive Light Adjustment Layers alongside Firefly-powered AI markup tools to make complex photo editing far more intuitive.",
+              "url": "https://petapixel.com/2026/08/27/adobe-brings-acrs-powerful-non-destructive-exposure-tools-into-photoshop-itself/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
