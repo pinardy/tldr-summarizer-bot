@@ -1,0 +1,107 @@
+{
+  "date": "2026-08-31",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design",
+    "data"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design, Data",
+      "sections": [
+        {
+          "name": "AI, Models & Strategy",
+          "stories": [
+            {
+              "headline": "John Ternus Named Apple CEO with AI-First Mandate",
+              "blurb": "John Ternus is stepping in as Apple's Chief Executive Officer to steer the hardware giant's massive product line into the AI era.",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-30/apple-s-new-ceo-john-ternus-takes-reins-from-tim-cook-focusing-on-ai?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4ODE0ODY2NSwiZXhwIjoxNzg4NzUzNDY1LCJhcnRpY2xlSWQiOiJUS0xQMDFLSUpIOEswMCIsImJjb25uZWN0SWQiOiJCMzZENUE5QzIxMDQ0NjU4OTFBMTc1MTVDRDNBQkZFNiJ9.9bcyLTjfplSATZnfIn1JK08SA39tqdvrEz2bMOZOREw"
+            },
+            {
+              "headline": "OpenAI Severs Cursor Integration Post-SpaceX Acquisition",
+              "blurb": "OpenAI will permanently disable its models inside the popular Cursor IDE because it cannot guarantee SpaceX will use the technology in compliance with its terms of service.",
+              "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/"
+            },
+            {
+              "headline": "Anthropic Reports Breakthroughs in Self-Improving AI Safety",
+              "blurb": "Anthropic's new research shows that automated AI researchers can successfully mitigate alignment failures in other models, signaling a future where AI handles its own optimization.",
+              "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures"
+            },
+            {
+              "headline": "Early Leaks of OpenAI's GPT-6 \"Astra\" Show Major Leap",
+              "blurb": "Expanded internal testing of OpenAI's upcoming Astra model suggests an imminent launch, with early testers reporting significant capabilities in visual generation and coding.",
+              "url": "https://www.testingcatalog.com/first-outputs-from-gpt-6-astra-model-from-openai/"
+            },
+            {
+              "headline": "SpaceX to Build In-House Gas Turbines to Power xAI Data Centers",
+              "blurb": "SpaceX is cutting a multi-year supply chain bottleneck by manufacturing its own turbine blades, accelerating the power generation capabilities of Elon Musk's xAI data centers.",
+              "url": "https://www.tomshardware.com/tech-industry/data-centers/spacex-starts-in-house-turbine-blade-manufacturing-to-boost-gas-powered-generator-output-for-elons-ai-data-centers-new-manufacturing-strategy-cuts-generator-delays-by-18-months"
+            }
+          ]
+        },
+        {
+          "name": "Engineering & Architecture",
+          "stories": [
+            {
+              "headline": "GitHub Introduces Event-Triggered Agentic Workflows",
+              "blurb": "GitHub's new feature allows developers to run scheduled and event-triggered AI-powered workflows under safe guardrails using engines like Copilot, Claude Code, and Gemini.",
+              "url": "https://github.github.com/gh-aw/"
+            },
+            {
+              "headline": "Kubernetes v1.37 Brings Pod Certificates to General Availability",
+              "blurb": "The release of Kubernetes 1.37 introduces proof-of-possession TLS certificates for workloads, moving away from vulnerable bearer-token JWTs.",
+              "url": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/"
+            },
+            {
+              "headline": "How Grab Automates Data Reliability with Data Production Issues",
+              "blurb": "Grab has operationalized data governance by building a unified Data Health API to track data contract breaches as standard engineering incidents.",
+              "url": "https://engineering.grab.com/data-mesh-at-grab-part-three"
+            },
+            {
+              "headline": "Apache Spark 4.1.0 Launches with Declarative Pipelines and Lower Latency",
+              "blurb": "The latest Spark release introduces a real-time structured streaming mode, SQL scripting, Arrow-native UDFs, and major performance optimizations.",
+              "url": "https://spark.apache.org/releases/spark-release-4.1.0.html"
+            },
+            {
+              "headline": "Overcoming the Silent Danger of Developer \"Bug Blindness\"",
+              "blurb": "Software developers often become blind to painful UX workarounds they perform subconsciously, masking severe bugs that degrade the experience of end-users.",
+              "url": "https://danluu.com/bug-blind/"
+            }
+          ]
+        },
+        {
+          "name": "Security & Design",
+          "stories": [
+            {
+              "headline": "Researchers Prove Feasibility of Autonomous, LLM-Powered Malware Worms",
+              "blurb": "A proof-of-concept shows that open-weight LLMs can be utilized to power computer worms that autonomously write targeted exploits and self-replicate across isolated networks.",
+              "url": "https://www.lesswrong.com/posts/fpLDjKg3ej49beqTC/adaptive-agentic-worms-are-here"
+            },
+            {
+              "headline": "Fire Ant Chinese APT Group Targets Network Control Planes",
+              "blurb": "The UNC3886 threat actor has advanced beyond hypervisor attacks to infect core routers with custom implants that hijack communications and suppress syslog warnings.",
+              "url": "https://www.sygnia.co/blog/fire-ant-evolves-from-hypervisors-to-trusted-infrastructure/"
+            },
+            {
+              "headline": "Omarchy Docker Misconfiguration Enables Instant Root Escalation",
+              "blurb": "A default configuration that places ordinary user sessions in the Docker group allows any non-root process to bypass prompts and completely compromise host filesystems.",
+              "url": "https://0xcc.io/posts/omarchy-root-creds/"
+            },
+            {
+              "headline": "Apple Reports Progress on AI-Powered Smart Glasses for 2027",
+              "blurb": "Apple is planning a voice and camera-assisted wearable that relies on Siri and Visual Intelligence rather than complex augmented reality displays, prioritizing privacy and lightweight frames.",
+              "url": "https://9to5mac.com/2026/08/29/apple-first-ai-smart-glasses-feature-release-date-roundup/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
