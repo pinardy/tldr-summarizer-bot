@@ -1,0 +1,727 @@
+{
+  "date": "2026-09-03",
+  "mode": "per-newsletter",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design",
+    "data"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Tech — 2026-09-03",
+      "tagline": "Meta/Google AI models 🤖, chemogenetics 🧠, AI productivity 📈",
+      "sections": [
+        {
+          "name": "Big Tech & Startups",
+          "stories": [
+            {
+              "headline": "Meta Releases More Powerful AI Model, Edging Closer to Rivals (3 minute read)",
+              "blurb": "Meta has released a new model with capabilities close to top competitors. Developers can now access and pay for Muse Spark 1.3. The model will soon roll out to Meta's social media platforms. Meta has yet to decide whether to release the model's weights. It still plans to release weights for the prior version, Muse Spark 1.2.",
+              "url": "https://www.bloomberg.com/news/articles/2026-09-02/meta-releases-more-powerful-ai-model-edging-closer-to-rivals?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4ODQwNzY0NiwiZXhwIjoxNzg5MDEyNDQ2LCJhcnRpY2xlSWQiOiJUS1FVQVVUOTZPVDEwMCIsImJjb25uZWN0SWQiOiJCMzZENUE5QzIxMDQ0NjU4OTFBMTc1MTVDRDNBQkZFNiJ9.Lid2dpYcy9_z5AEIw7C2bxhfSjYXlXDa4ZshhXaUBjg"
+            },
+            {
+              "headline": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks (3 minute read)",
+              "blurb": "Google has released its third Flash model in just six weeks in two variations. The standard model is good for agentic tasks and software development, while the Cyber model has been tuned for vulnerability detection and mitigation. The Cyber model is currently limited to trusted testers and governments. API access to the model is available at an introductory rate of $0.75 per million input tokens and $3.75 per million output tokens through until the end of the year.",
+              "url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/"
+            }
+          ]
+        },
+        {
+          "name": "Science & Futuristic Technology",
+          "stories": [
+            {
+              "headline": "Robotaxis Try Their Luck on London's Medieval Roads (3 minute read)",
+              "blurb": "The arrival of 15 robotaxis in London is an important step for the autonomous vehicle industry. Acceptance of the technology has been slower in European cities, where the driving environment can be complex, and regulation is stiff. The failure rate of a driver's license test in London is just over 50%. 15 cars will be available for ride-hailing through Uber's app during the safety testing period.",
+              "url": "https://www.nytimes.com/2026/09/02/business/uber-wayve-london.html?unlocked_article_code=1.-VA.Q4BJ.TaOfWMioYbnn&smid=url-share"
+            },
+            {
+              "headline": "The race to engineer new knobs for the human brain (17 minute read)",
+              "blurb": "Chemogenetics is a powerful technique that modifies specific neurons so they can be controlled remotely by normally inert drugs. There are several ongoing clinical trials of chemogenetics in China. The research could result in new ways of treating epilepsy, Parkinson's disease, and pain. This post looks at chemogenetics, describes what those first clinical trials are doing, and looks at how they could be improved upon.",
+              "url": "https://www.neuroai.science/p/the-race-to-engineer-new-knobs-for"
+            }
+          ]
+        },
+        {
+          "name": "Programming, Design & Data Science",
+          "stories": [
+            {
+              "headline": "How we make AI coding more cost efficient without sacrificing task quality (14 minute read)",
+              "blurb": "Token count alone isn't a meaningful measure of efficiency. The goal should be to use the right amount of context to move a task forward. Concise tool responses can sometimes require additional calls or work if they leave out information agents need. This ultimately makes tasks slower and more expensive, which is why it is important to optimize for the outcome rather than the tool call.",
+              "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/"
+            },
+            {
+              "headline": "AI Productivity Doesn't Mean What I Think It Means (5 minute read)",
+              "blurb": "One-shot prompt templates often fail. The current best working architecture is a closed-loop taste flywheel. AI raises the ceiling of what the same effort produces. Users should push for the higher-quality output AI now makes possible rather than just accepting the pre-AI baseline.",
+              "url": "https://tomtunguz.com/ai-productivity-doesnt-mean-what-i-think"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "In a Big Win, Google Avoids a Breakup of Its Ad Tech Business (3 minute read)",
+              "blurb": "A federal judge has ruled that Google must make changes to its advertising business but will not have to break it up. The ruling will ensure that Google's power over the internet will remain largely unchanged. Google has been ordered to change its business practices to benefit competitors, but no specific instructions have been provided. The ruling is another sign that the federal government's attempts to rein in the power of big tech have faltered.",
+              "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html?unlocked_article_code=1.-VA.hVE9.A5sPndQxbFTq&smid=url-share"
+            },
+            {
+              "headline": "How to protect yourself from workslop (3 minute read)",
+              "blurb": "Workslop is when your co-workers or managers communicate via big chunks of copy-pasted AI-generated text. The core problem with workslop is that the effort involved is asymmetrical. It costs almost no effort to produce slop, but it still costs effort to read. This post looks at different ways to handle this workslop so that you don't waste ten minutes of effort for every ten seconds of theirs.",
+              "url": "https://www.seangoedecke.com/how-to-protect-yourself-from-workslop/"
+            },
+            {
+              "headline": "Product Manager, Applied AI at TLDR ($200k base + $60k bonus, Fully Remote)",
+              "blurb": "TLDR is hiring its first PM to help build the agent-first operating layer used across the company. We're looking for a builder who has shipped real products/systems with LLMs. Click here to learn more .",
+              "url": "https://jobs.ashbyhq.com/tldr.tech/897f4391-66ab-44ca-a8eb-65dd9809200d"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Making the internet boring (9 minute read)",
+              "blurb": "Creating more friction in your internet use can help you want to use it less without willpower.",
+              "url": "https://cemrehancavdar.com/2026/08/30/making-the-internet-boring/"
+            },
+            {
+              "headline": "Uber Cuts 10% of Employees in Sweeping Reorganization (2 minute read)",
+              "blurb": "Uber is laying off around 3,300 people to create a leaner organization with clearer leadership, faster decisions, and more time spent building rather than coordinating.",
+              "url": "https://www.nytimes.com/2026/09/02/technology/uber-layoffs.html?unlocked_article_code=1.-VA.w4aY.c_JLTSWftaTr&smid=url-share"
+            },
+            {
+              "headline": "AI Agents Are Now Emailing Me with Their Security Concerns (6 minute read)",
+              "blurb": "It's not surprising that AIs are training on data that suggests contacting certain human professionals for help.",
+              "url": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html"
+            },
+            {
+              "headline": "Exo (GitHub Repo)",
+              "blurb": "Exo is a complete AI agent harness with full visibility into both its code and runtime logs.",
+              "url": "https://github.com/exoharness/exo"
+            },
+            {
+              "headline": "What will you do after tech? (Lobste.rs Thread)",
+              "blurb": "It's very rare for someone to retire from the tech industry - they usually just burn out and then go do something else.",
+              "url": "https://lobste.rs/s/oieyk7/what_will_you_do_after_tech"
+            },
+            {
+              "headline": "Justice Dept. Sides With OpenAI in New York Times Copyright Suit (4 minute read)",
+              "blurb": "The Justice Department says developing AI is critical to national security, and that training AI systems sufficiently transforms written works into new material allowed under copyright law.",
+              "url": "https://www.nytimes.com/2026/09/02/technology/justice-department-openai-copyright-suit.html?unlocked_article_code=1.-VA.0wE2.85NNvE3gyZ-W&smid=url-share"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR AI — 2026-09-03",
+      "tagline": "Muse Spark 1.3 ✨, Gemini 3.8 Flash ⚡, intelligence vs cost 📊",
+      "sections": [
+        {
+          "name": "Headlines & Launches",
+          "stories": [
+            {
+              "headline": "Muse superapp from Meta and Ava model with computer use (2 minute read)",
+              "blurb": "Meta is moving closer to launching its agent super app under the launch name Muse. A waitlist is now available for the iOS app. Meta has added a setting for computer use on its desktop app. The company appears to be testing a model variant that supports computer control.",
+              "url": "https://www.testingcatalog.com/muse-superapp-from-meta-and-ava-model-with-computer-use/"
+            },
+            {
+              "headline": "Muse Spark 1.3 (3 minute read)",
+              "blurb": "Meta released Muse Spark 1.3 with improved coding and agentic performance, alongside changes intended to make the model easier to use in production. It has begun rolling out through Muse Code and the Meta Model API, with its highest reasoning mode awaiting additional safety testing.",
+              "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+            }
+          ]
+        },
+        {
+          "name": "Deep Dives & Analysis",
+          "stories": [
+            {
+              "headline": "LLMs: Intelligence vs. cost (11 minute read)",
+              "blurb": "ArtificialAnalysis' intelligence vs. cost plot, which shows the cheapest model that can achieve each intelligence score, is misleading. It uses a logarithmic scale on the cost axis, which means viewers can't appreciate the immensity of the price difference between the cheap models and the heavy ones, nor can they realize how inconsequential the price differences are between the cheap models. It also lists open models at their datacenter pricing, which is always very expensive compared to local hardware. Most people don't need frontier-level intelligence and would be satisfied with Chinese open source models.",
+              "url": "https://openteams.com/intelligence-vs-cost/"
+            },
+            {
+              "headline": "Anthropic Has Some Alignment Problems (23 minute read)",
+              "blurb": "Anthropic is planning to bring METR inside for an independent review of its recent security incidents involving AI agents. While the company has paused its highest-risk RL efforts, it is also sharing research in which it intentionally created a reward-seeking version of Claude. It's hard to slow down even when it's in your own commercial interests. It seems like Anthropic will take at least short-to-medium term and prosaic alignment tasks a lot more seriously, and devote substantial resources to these efforts.",
+              "url": "https://thezvi.substack.com/p/anthropic-has-some-alignment-problems"
+            },
+            {
+              "headline": "How to Build a Reliable Agent Harness (48 minute read)",
+              "blurb": "This post lays out a detailed architecture for agent harnesses, covering state management, runtimes, control planes, inference, tools, interfaces, and language choices. The central argument is that unavoidable complexity should be absorbed by core abstractions rather than repeatedly pushed onto extensions and users.",
+              "url": "https://stencil.so/blog/harness-playbook"
+            },
+            {
+              "headline": "Test Time Training (3 minute read)",
+              "blurb": "One of the most tantalizing phrases in model development is 'new scaling axis'. Every time the industry has found a new scaling axis, it has unlocked a large boost in model effectiveness. The idea of test-time training is an appealing one as it unlocks a new scaling axis. New research has discovered some exciting techniques, but the continual learning problem has still yet to be solved.",
+              "url": "https://ianbarber.blog/2026/09/02/test-time-training/"
+            }
+          ]
+        },
+        {
+          "name": "Engineering & Research",
+          "stories": [
+            {
+              "headline": "Google Launches Gemini 3.8 Flash (10 minute read)",
+              "blurb": "Gemini 3.8 Flash has improved coding, agentic, and multi-step reasoning performance at the same introductory pricing as 3.7 Flash. A specialized Flash Cyber variant has been released for vulnerability detection and automated patching through a restricted defender program.",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+            },
+            {
+              "headline": "An Organizational Second Brain: Building an AI That Learns From Experts (15 minute read)",
+              "blurb": "Meta has developed an AI agent that serves as a \"second brain,\" codifying and preserving expert knowledge, enabling it to be easily accessed within organizations. This AI integrates a two-layer system: a structured, auditable knowledge architecture separates knowledge from reasoning processes, and a self-improvement loop that incorporates expert feedback without retraining models. This approach enhances productivity, allowing experts to focus on complex tasks while also maintaining consistent, high-quality outputs across large-scale assessments.",
+              "url": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/"
+            },
+            {
+              "headline": "Run cloud agents on machines you manage (6 minute read)",
+              "blurb": "Agents' new capabilities make it practical for teams to provide and manage their own infrastructure at scale. Cursor's cloud agents can now execute on dynamically scheduled pools of machines inside private networks. Agents are still started and managed from Cursor, but teams have more control over where agents execute and what infrastructure they use. This enables agents to work next to internal services and source control, run on custom hardware, or use operating systems and build pipelines that are difficult to package as a Cloud Agent build.",
+              "url": "https://cursor.com/blog/self-hosted-machines"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Product Manager, Applied AI at TLDR ($200k base + $60k bonus, Fully Remote)",
+              "blurb": "TLDR is hiring its first PM to help build the agent-first operating layer used across the company. We're looking for a builder who has shipped real products/systems with LLMs. Click here to learn more .",
+              "url": "https://jobs.ashbyhq.com/tldr.tech/897f4391-66ab-44ca-a8eb-65dd9809200d"
+            },
+            {
+              "headline": "OpenAI Astra and Looped Transformers (2 minute read)",
+              "blurb": "OpenAI's model is a looped transformer, which means it reuses layers in the transformer block to increase capacity without adding parameters. This can significantly increase the size of the model without increasing the amount of storage and RAM needed to host it. However, it also increases the costs of running the model as embedded text has to run through more layers. The looped transformer aspect is just a small architectural tweak and is not the reason why Astra is a really good model.",
+              "url": "https://sebastianraschka.com/blog/2026/openai-astra-looped-transformers.html"
+            },
+            {
+              "headline": "What Comes Next for AI? Our Bet Is World Models (5 minute read)",
+              "blurb": "World models could become the next major AI paradigm by helping systems represent environments, predict outcomes, simulate possibilities, plan, and act. The convergence of Yann LeCun, Demis Hassabis, and Fei-Fei Li suggests growing momentum around models built for decisions, not just generation.",
+              "url": "https://x.com/Kseniase_/status/2094946857772281946"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Former OpenAI Stargate exec Shamez Hemani joins Anthropic after brief Meta Compute stint (1 minute read)",
+              "blurb": "Shamez Hemani, a senior OpenAI data center employee who left the company in April to join Meta's dedicated compute team, is now a member of Anthropic's technical staff.",
+              "url": "https://www.datacenterdynamics.com/en/news/former-openai-stargate-exec-shamez-hemani-joins-anthropic-after-brief-meta-compute-stint/"
+            },
+            {
+              "headline": "TxBench: Antibody Discovery (13 minute read)",
+              "blurb": "TxBench-AB is a novel AI benchmark that assesses LLMs' effectiveness in biomedical research.",
+              "url": "https://latch.bio/txbench-ab"
+            },
+            {
+              "headline": "Check if a file was made with Claude (2 minute read)",
+              "blurb": "This tool identifies the text watermark Claude uses to produce files.",
+              "url": "https://claude.com/check-files"
+            },
+            {
+              "headline": "Nvidia and CrowdStrike Develop New Cybersecurity AI Models (8 minute read)",
+              "blurb": "Nvidia and CrowdStrike have introduced a new family of agentic AI models dubbed SafeMind that can both find and close attack paths for customers.",
+              "url": "https://www.wsj.com/cio-journal/nvidia-and-crowdstrike-develop-new-cybersecurity-ai-models-937bb2aa?st=th6257&reflink=desktopwebshare_permalink"
+            },
+            {
+              "headline": "An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation (5 minute read)",
+              "blurb": "Unit 42 investigated a ransomware attack using frontier AI, where a human attacker breached an enterprise network with unprecedented speed.",
+              "url": "https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR IT — 2026-09-03",
+      "tagline": "Meta Picks Slack 💬, AI Gets Metered 💸, Google Workspace Automates ⚙️",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Dropbox accounts breached through Lenovo email verification flaw (4 minute read)",
+              "blurb": "Attackers accessed Dropbox accounts by exploiting a flaw in Lenovo's email verification process to create fraudulent Lenovo IDs tied to victims' email addresses, allowing them to authenticate without the Dropbox password. Roughly 5,000 accounts were reportedly affected, making the incident a useful reminder that federated identity risk can extend well beyond your primary IdP.",
+              "url": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/"
+            },
+            {
+              "headline": "Atlassian's usage-based pricing: AI value with predictability and control (4 minute read)",
+              "blurb": "Atlassian is expanding usage-based pricing across Rovo credits, automation steps, and autonomous AI-agent resolutions, with billing beginning December 3. Admins will get centralized usage visibility, alerts, and spending limits, making AI and automation consumption another part of SaaS cost management alongside licenses and seats.",
+              "url": "https://www.atlassian.com/blog/company-news/expanded-usage-based-pricing"
+            },
+            {
+              "headline": "Meta is switching to Slack because it says it's better for AI agents (3 minute read)",
+              "blurb": "Meta is moving its internal communications from Google Chat to Slack, with AI chief Alexandr Wang citing Slack's conversational interface, developer tooling, and third-party integrations as better suited to AI agents. The move is notable because collaboration platforms are increasingly becoming the control layer through which employees and agents interact with enterprise systems.",
+              "url": "https://www.businessinsider.com/meta-switching-from-google-chat-slack-for-ai-agents-2026-9"
+            }
+          ]
+        },
+        {
+          "name": "Analysis & Opinions",
+          "stories": [
+            {
+              "headline": "Why Cisco is redefining its CIO role (6 minute read)",
+              "blurb": "Cisco says the profile of a successful CIO is changing from someone focused primarily on applications, integrations, and UX to someone capable of redesigning how the company operates. Its EVP of operations argues that process transformation, AI governance, and deciding where agents should execute work are becoming increasingly central to the job.",
+              "url": "https://www.cio.com/article/4214391/why-cisco-is-redefining-its-cio-role.html"
+            },
+            {
+              "headline": "Rezolve Ai Shows Why Enterprise Sales Still Needs Middlemen (8 minute read)",
+              "blurb": "Enterprise AI companies increasingly need cloud providers, distributors, consultancies, and systems integrators to reach large customers because those partners already have contracts, approvals, and delivery teams. Rezolve Ai illustrates the trade-off: its first-half revenue rose to $130.8 million from $6.3 million after acquisitions and expansion, while gross margin fell to 48.9%, and the company has not disclosed how much partner relationships contribute.",
+              "url": "https://industrycontents.com/rezolve-ai-revenue-partner-distribution/"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Partnerships",
+          "stories": [
+            {
+              "headline": "Adobe is making its tools available in Slack (3 minute read)",
+              "blurb": "Adobe is bringing more than 70 tools from products including Photoshop, Acrobat, Premiere, Illustrator, Express, and Firefly into Slack through an MCP integration with Slackbot. Business+ and Enterprise+ users can use Slack conversations and files as context while creating or modifying content without leaving Slack.",
+              "url": "https://techcrunch.com/2026/09/02/adobe-is-making-its-tools-available-in-slack/"
+            },
+            {
+              "headline": "Automate Drive, Gmail, and Google Chat actions with new steps in Workspace Studio (3 minute read)",
+              "blurb": "Google Workspace Studio is adding automation steps that can copy or move Drive files, reply to Gmail threads, and post replies in Google Chat. Importantly for IT, admins can disable individual actions and require user approval when workflows could share data outside the organization.",
+              "url": "https://workspaceupdates.googleblog.com/2026/09/automate-drive-gmail-and-google-chat-actions-with-new-steps-in-workspace-studio.html"
+            },
+            {
+              "headline": "Developing Enterprise Frontier Safeguards with our customers (9 minute read)",
+              "blurb": "Anthropic's Enterprise Frontier Safeguards (EFS) is a solution designed to combine zero data retention with automated detection of serious misuse of frontier models. EFS stores monitoring data in customer-controlled cloud infrastructure and sends detected signals to customer teams, with phased rollout planned for later this fall and interim ZDR for eligible customers using Fable 5 and Fable 5.1.",
+              "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Analyzing CrossRAT (17 minute read)",
+              "blurb": "This is a technical analysis of CrossRAT, a Java-based multiplatform surveillance implant associated with the Dark Caracal cyber-espionage campaign. It examines the malware's package structure, operating-system detection, intended persistence mechanisms, command-and-control communications, and capabilities, including file-system manipulation, screenshots, and arbitrary DLL execution on Windows.",
+              "url": "https://objective-see.org/blog/blog_0x28.html"
+            },
+            {
+              "headline": "Microsoft Defender flags legitimate Google search links as malicious (2 minute read)",
+              "blurb": "Microsoft is investigating a Defender for Office 365 Safe Links issue incorrectly identifying legitimate Google search URLs as malicious. The bug can block users from opening links and generate related incidents in Defender and Sentinel, potentially creating both helpdesk noise and false-positive alert volume for IT teams.",
+              "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Okta adds AI agent discovery to Identity Security Posture Management (3 minute read)",
+              "blurb": "Okta ISPM can now discover shadow AI agents, MCP servers, OAuth grants, and agents built in platforms such as Copilot Studio and Salesforce Agentforce.",
+              "url": "https://www.okta.com/blog/identity-security/okta-ispm-ai-agent-discovery/"
+            },
+            {
+              "headline": "Get features faster with Chrome's two-week release cycle (3 minute read)",
+              "blurb": "Chrome's move from four-week to two-week Stable releases begins September 8 with Chrome 153, while the eight-week Extended Stable channel for enterprise admins remains unchanged.",
+              "url": "https://developer.chrome.com/blog/chrome-two-week-release"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Web Dev — 2026-09-03",
+      "tagline": "Gemini 3.8 Flash ⚡️, Muse Spark 1.3 🧠, world modeling with Fable 5.1 🌍",
+      "sections": [
+        {
+          "name": "Articles & Tutorials",
+          "stories": [
+            {
+              "headline": "How we make AI coding more cost efficient without sacrificing task quality (11 minute read)",
+              "blurb": "Shortening individual tool outputs can make an AI coding agent more expensive when missing context forces it to reopen files, rerun commands, or take extra turns. GitHub reduced Copilot costs without materially hurting quality by selectively compressing repetitive logs, preserving source-like output, removing unused formatting such as line-number prefixes, shortening prompts carefully, and eliminating unnecessary retrieval steps.",
+              "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/"
+            },
+            {
+              "headline": "How we could save petabytes of cache storage with Zstandard and Pingora (8 minute read)",
+              "blurb": "Cloudflare prototyped Cache Transcoding, a system that compresses eligible HTML, JSON, CSS, and JavaScript with Zstandard before storing and transferring them between cache tiers. Initial tests shrank these assets to roughly one-third of their original size while adding only a few percent of CPU overhead, potentially creating petabytes of effective cache capacity without deploying more storage.",
+              "url": "https://blog.cloudflare.com/cache-transcoding/"
+            },
+            {
+              "headline": "How We Migrated 11 Million Users to Cline's Biggest Refactor (9 minute read)",
+              "blurb": "Cline replaced its VS Code extension's roughly 76,000-line monolithic agent core with a shared SDK while protecting workflows used by more than 11 million developers. Since the VS Code Marketplace lacks gradual rollouts, the team bundled legacy and new engines together behind a feature flag with automatic fallback, then ran a month-long A/B rollout that reduced tasks hitting three consecutive agent mistakes from 6.34% to 0.62%.",
+              "url": "https://cline.ghost.io/how-we-migrated-11-million-users-to-clines-biggest-refactor"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Advice",
+          "stories": [
+            {
+              "headline": "A docs page is a very long and complex search query to find wandering AI agents and make them route interested people to your company (9 minute read)",
+              "blurb": "Most known Val Town Pro referrals now come from AI, forcing the company to think about Answer Engine Optimization as traditional search traffic declines. Its early strategy is to measure model referrals and citations, selectively allow useful crawlers, and publish genuinely helpful material for both humans and agents without filling the web with AI-generated content.",
+              "url": "https://blog.val.town/aeo"
+            },
+            {
+              "headline": "Maybe We Shouldn't Be Reviewing All This Code (6 minute read)",
+              "blurb": "AI is exposing the limits of mandatory code review by generating more code than humans can realistically inspect, turning senior engineers into a bottleneck. Teams should move design, knowledge sharing, testing, and architectural feedback earlier through pairing, collaborative design, automation, and fitness functions, then reserve human code review for exceptional changes involving security boundaries, major architectural decisions, large blast radii, or low confidence.",
+              "url": "https://martinfowler.com/rachels-ramblings/code-review.html"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Uppy 6.0: fewer packages, fewer moving parts, and a robust S3 Plugin (7 minute read)",
+              "blurb": "Uppy 6.0 rewrites its AWS S3 plugin around three explicit signing modes and adds direct support for S3-compatible services like Cloudflare R2, MinIO, and DigitalOcean Spaces. It also folds four frequently duplicated packages into Uppy Core, improves multipart-upload reliability and recovery, and tightens supply-chain protections.",
+              "url": "https://uppy.io/blog/uppy-6.0/"
+            },
+            {
+              "headline": "Muse Spark 1.3 (Website)",
+              "blurb": "Muse Spark 1.3 is Meta's updated model for long-running agentic and coding workflows. It better tracks prior work, handles messy or conflicting context, asks for clarification when needed, and uses roughly 20% fewer tool calls and 25% fewer tokens than Muse Spark 1.2 in Meta's internal coding comparisons.",
+              "url": "https://developer.meta.com/ai/models/muse-spark/"
+            },
+            {
+              "headline": "Introducing Gemini 3.8 Flash and Gemini 3.8 Flash Cyber (8 minute read)",
+              "blurb": "Gemini 3.8 Flash improves coding, long-running agent tasks, and specialized reasoning while retaining 3.7 Flash's introductory price of $0.75 per million input tokens and $3.75 per million output tokens. Google also introduced 3.8 Flash Cyber for trusted defenders, reporting a success rate above 70% on an internal vulnerability-discovery benchmark spanning 20 programming languages and near-frontier performance on automated patching.",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them (9 minute read)",
+              "blurb": "Trellner queried two Perplexity models across 380 software categories and found that 59.8% of their 7,534 citations came from domains outside the 100,000 most-visited websites. Three apparently connected sites alone had published 215,128 machine-generated recommendation pages, highlighting how AI retrieval systems can ground purchase recommendations in content designed primarily for machines.",
+              "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/"
+            },
+            {
+              "headline": "Wasmi 2.0: Engineering one of the fastest Wasm interpreters (16 minute read)",
+              "blurb": "Wasmi 2.0 runs about 2.2 times faster than Wasmi 1.0 across its benchmark suite while preserving its strong startup performance. The Rust-based WebAssembly interpreter gains four instruction-dispatch modes, a fixed 64-bit cell representation, smaller binary options, stable fuel metering, and support for WebAssembly's deterministic profile.",
+              "url": "https://wasmi-labs.github.io/blog/posts/wasmi-v2.0/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Fable 5.1 World Modeling (GitHub Repo)",
+              "blurb": "Claude Fable 5.1 agent swarms autonomously researched, modeled, and quality-checked browser-native 3D reconstructions of real places, shipping each world as a plain Three.js application.",
+              "url": "https://github.com/PhiloLabs/fable51-worlds"
+            },
+            {
+              "headline": "Run cloud agents on machines you manage (6 minute read)",
+              "blurb": "Cursor's Self-Hosted Machines let cloud agents execute tools against internal services, custom hardware, and private repositories on dynamically scheduled infrastructure you manage, while planning and inference remain in Cursor's cloud.",
+              "url": "https://cursor.com/blog/self-hosted-machines"
+            },
+            {
+              "headline": "LLMs: Intelligence vs. cost (7 minute read)",
+              "blurb": "Most users can satisfy the majority of their needs with models costing a fraction of the frontier options.",
+              "url": "https://openteams.com/intelligence-vs-cost/"
+            },
+            {
+              "headline": "AI Productivity Doesn't Mean What I Thought It Means (2 minute read)",
+              "blurb": "Tomasz Tunguz found that AI did not reduce his median 136 line-level edits per article, but it raised his writing's quality floor.",
+              "url": "https://tomtunguz.com/ai-productivity-doesnt-mean-what-i-think"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR InfoSec — 2026-09-03",
+      "tagline": "Unitree Humanoid Robot RCE 🤖, CrowdStrike 2026 Threat Hunting Report 🕵️, Langflow Vulnerability 😈",
+      "sections": [
+        {
+          "name": "Attacks & Vulnerabilities",
+          "stories": [
+            {
+              "headline": "BGP Hijack Infecting Networks Caused By a Comedy of Errors That's Not Funny at All (4 minute read)",
+              "blurb": "Attackers hijacked Softaculous' 162.55.80.0/24 prefix and redirected Virtualizor update traffic to malicious servers. Hetzner's RPKI settings accepted /24 routes, while a forged AS path matched its ROA, so the attackers also obtained TLS certificates during the diversion. Virtualizor did not cryptographically verify update packages, and Softaculous cannot identify every affected server and urges customers to investigate.",
+              "url": "https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/"
+            },
+            {
+              "headline": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages (3 minute read)",
+              "blurb": "Gambling Goblin installed malicious Apache modules on Brazilian government and education servers. The modules reverse-proxy visitors to fake Google Play, Microsoft Store, and Amazon pages promoting betting sites. Operators deployed DownPro, AlphaAgent, oRAT, 3snake, SSH brute-forcing, and reconnaissance tools. Administrators lack published module hashes, filenames, or paths for direct Apache checks.",
+              "url": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html"
+            },
+            {
+              "headline": "Unitree G1 Humanoid Robot Flaws Allow Unauthenticated root RCE Over Bluetooth (3 minute read)",
+              "blurb": "A security researcher discovered two independent flaws in Unitree G1 humanoid robots that could enable RCE on the devices. The first vulnerability allows an attacker within BLE range to obtain an AES-128 key without requiring the device to pair. The researcher found that the Unitree cloud API would decrypt the key without verifying ownership or serial numbers, allowing the researcher to access protected BLE operations, eventually allowing the attacker to exploit a buffer overflow to achieve RCE. The second path involves a path-traversal vulnerability in the robot's AI service, which enables an attacker to upload a file to the bashrunner's whitelist directory, enabling RCE.",
+              "url": "https://gbhackers.com/unitree-g1-humanoid-robot-flaws/"
+            }
+          ]
+        },
+        {
+          "name": "Strategies & Tactics",
+          "stories": [
+            {
+              "headline": "Shai-Hulud: Whoever Controls Your Package Registry Controls Your Pipeline (7 minute read)",
+              "blurb": "The npm worm lineage has evolved to a point where standard supply chain provenance mechanisms can no longer guarantee safety. During the August 2026 ChainDrop campaign, threat actors compromised over 400 packages in under four hours by hijacking a maintainer's legitimate signed release pipeline. The attackers utilized authorized infrastructure, so every poisoned package version successfully carried a perfectly valid SLSA attestation. To further evade traditional domain blocklists, the campaign hosted its command and control operations within an Ethereum smart contract. This attack builds upon the previous Shai-Hulud worms, which have recently pivoted to targeting authentication tokens for AI development tools like Claude, Codex, Cursor, and Gemini. Security researchers warn that these identical mechanics could easily compromise infrastructure-as-code pipelines, proving that current attestation models verify origin rather than actual code legitimacy. To defend against these pipeline hijackings, organizations must enforce strict version pinning, utilize curated registries, implement OIDC-scoped credentials, and apply aggressive network egress restrictions.",
+              "url": "https://thenewstack.io/shai-hulud-pipeline-security/"
+            },
+            {
+              "headline": "Financially Motivated Threat Actor BREEZE COMET Targets Brazil (10 minute read)",
+              "blurb": "Since 2024, BREEZE COMET has targeted Brazilian banks, payment firms, retailers, exchanges, and fintech providers to make fraudulent Pix, STR, and Boleto transfers. Initial access included password spraying, fake IT-support calls, booby-trapped tax files, exposed JBoss servers, and rogue devices on retail networks. The group steals mTLS credentials, API keys, CI/CD secrets, and cloud tokens, then moves through SMB and RDP. Its toolkit includes REALBREEZE, COBALTSPIN, LIGHTPAINT, MILDFROST, KICKPLATE, and BOATBEAM. Mandiant recorded two transaction waves within 24-48 hours after access to core financial applications.",
+              "url": "https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Developing Enterprise Frontier Safeguards With Our Customers (4 minute read)",
+              "blurb": "Anthropic will roll out Enterprise Frontier Safeguards in phases this fall. Customer activity logs can remain in customer-controlled AWS, Azure, or Google Cloud storage, using customer-managed keys and access policies. Automated systems inspect rolling traffic windows for offensive cyber capability, biological misuse, and stolen credentials. Flags go to customer teams. Anthropic staff does not review them.",
+              "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
+            },
+            {
+              "headline": "Path to Astra: Critical Capabilities and Frontier Safeguards (7 minute read)",
+              "blurb": "OpenAI classifies Astra as Critical for cybersecurity capability. Tests found zero-days, browser sandbox escapes, and root privilege-escalation chains. OpenAI delayed release work after the Hugging Face incident. Astra refused 91.5% of cyber-jailbreak requests, versus 59% for GPT-5.6 Sol. Advanced cyber access starts with selected testers, then Daybreak Blue.",
+              "url": "https://openai.com/index/path-to-astra/"
+            },
+            {
+              "headline": "Claude-BugHunter (GitHub Repo)",
+              "blurb": "Claude-BugHunter packages 83 auto-loading Claude Code skills distilled from 681 disclosed HackerOne reports, so the agent loads per-class detection patterns, payload tables, and chain templates by topic rather than by name.",
+              "url": "https://github.com/elementalsouls/Claude-BugHunter"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates (4 minute read)",
+              "blurb": "CrowdStrike reports that 88% of observed vulnerabilities were actively exploited within 48 hours of a public proof-of-concept release between January and June. Advanced threat groups like VAULT PANDA and GENESIS PANDA weaponized flaws in under 24 hours, while UMBRAL BISON targeted Linux privilege escalation vulnerability CVE-2026-31431 roughly 20 hours after disclosure. The report also highlights a rapid shift in alternative attack vectors, noting a fifteenfold increase in device code phishing alongside a massive concentration of software registry threats targeting npm.",
+              "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/"
+            },
+            {
+              "headline": "FBI Probes Service Selling 153M+ Drivers Licenses (8 minute read)",
+              "blurb": "A dark web service named Nexus recently advertised over 153 million scanned US and Canadian driver's licenses alongside millions of other identification documents on a Russian cybercrime forum. By correlating GMT timestamps embedded in the leaked image filenames with real-world travel records, researchers traced the infrared and ultraviolet scans back to a potential breach at the identity verification vendor idscan.net. Following the discovery of this continuous exfiltration campaign affecting major corporate clients, the FBI opened an official inquiry, and the Nexus site immediately went offline.",
+              "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "23-Year-Old Sality P2P Botnet Disrupted (2 minute read)",
+              "blurb": "An international operation disrupted the Sality P2P botnet after 23 years.",
+              "url": "https://www.securityweek.com/23-year-old-sality-p2p-botnet-disrupted/"
+            },
+            {
+              "headline": "Critical Langflow Vulnerability Exploited as Attacks on AI Platform Rise (3 minute read)",
+              "blurb": "CVE-2026-0768, a 9.8-severity remote-code-execution flaw in Langflow, is under active exploitation.",
+              "url": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Design — 2026-09-03",
+      "tagline": "Google Pics Launches 🖼️, Figma Shaders ✨, iPhone Colors Split 🎨",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Try Google Pics: Easy Image Creation and Editing in Google Workspace (2 minute read)",
+              "blurb": "Google Pics, an image creation and editing tool built on the Nano Banana model, reaches Google AI Pro and Ultra subscribers and most Workspace business customers. Object segmentation, in-image text editing and translation, and collaborative editing give precise control over an image rather than regenerating it from scratch. Integration is available in Docs and Slides, with Drive arriving in the coming weeks.",
+              "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/"
+            },
+            {
+              "headline": "Updates to Generative Plugins and Shaders (1 minute read)",
+              "blurb": "Custom generative plugins and shaders, built by prompting the Figma agent, gain animated and interactive shaders that respond to motion and mouse input. Creations can now be published to the Community or to an organization, and a code viewer exposes the underlying shader and plugin code. MCP updates let third-party agents modify plugins and shaders, with shaders rendering correctly in generated React code.",
+              "url": "https://www.figma.com/release-notes/?title=updates-to-generative-plugins-shaders&amp%3Butm_source=tldrdesign"
+            },
+            {
+              "headline": "Leakers battle over whether third iPhone 18 Pro color will be silver or black (1 minute read)",
+              "blurb": "Leaks continue to point to Dark Cherry/Burgundy and Sky Blue as two of the iPhone 18 Pro's launch colors. The main uncertainty is the third finish, with some well-known leakers claiming Apple will offer black while others believe silver is more likely. Until Apple's announcement next week, both options remain plausible, though recent reports suggest silver and black are the final contenders.",
+              "url": "https://9to5mac.com/2026/09/02/leakers-battle-over-whether-third-iphone-18-pro-color-will-be-silver-or-black/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "Ecosystem Design (6 minute read)",
+              "blurb": "Ecosystem design pushes past the product boundary, shaping the conditions and capabilities people need to succeed on a platform rather than the interface itself. Integrations, partnerships, marketplaces, developer platforms, community development, and corporate development are the six surfaces where a product becomes a world other people build on. Five practices follow: design the whole customer loop, treat third parties as users with business models, build trust, tend community, and treat docs as a product.",
+              "url": "https://www.proofofconcept.pub/p/ecosystem-design"
+            },
+            {
+              "headline": "AI Is Making Product Development Faster. But Where Did the Work Go? (11 minute read)",
+              "blurb": "AI can dramatically speed up individual tasks like research synthesis, prototyping, and code generation, but that doesn't automatically make the entire product development process faster. Often the work doesn't disappear—it shifts into review, verification, refactoring, or downstream teams, creating hidden costs that can erode the initial gains. The real question isn't whether AI increases local productivity, but whether it improves the whole system's ability to turn ideas into reliable products without accumulating technical debt, instability, or rework.",
+              "url": "https://medium.com/design-bootcamp/ai-is-making-product-development-faster-57a86bc3ffa0"
+            },
+            {
+              "headline": "Is Product Discovery a Phase or a Weekly Habit? (18 minute read)",
+              "blurb": "Product discovery works as weekly customer touchpoints by the team building the product, not as a kickoff phase that hands a backlog to engineering. Discovery and delivery are two kinds of work on one team, and a high kill rate is the test that discovery is real. Recruiting is the bottleneck: a Monday-to-Friday cadence survives only when a conversation is already on the calendar, even a customer-support ride-along.",
+              "url": "https://uxcrush.com/product-discovery"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Custom Cursors for Mac (Website)",
+              "blurb": "Cursor Craft is a native macOS app to browse, install, and switch custom pointer sets — minimal, gaming, anime, nature, and more.",
+              "url": "https://cursor-craft.app/"
+            },
+            {
+              "headline": "Branding Inspiration, Curated by Humans (Website)",
+              "blurb": "The best branding projects from around the internet.",
+              "url": "https://www.brrranding.com/"
+            },
+            {
+              "headline": "UI Inspector & Visual Feedback (Website)",
+              "blurb": "Visual precision for building with coding agents. Measure, inspect, and capture exactly what you see in the browser.",
+              "url": "https://mesurer.dev/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "The new Disney World logo design is actually kind of genius (1 minute read)",
+              "blurb": "Disney World's upcoming 55th-anniversary logo is earning praise for cleverly combining two “5”s into unmistakable Mickey Mouse ears while reviving elements of the resort's original 1971 globe logo. Fans have responded far more positively than they did to the 50th-anniversary mark, praising its simplicity, nostalgia, and stronger visual concept.",
+              "url": "https://www.creativebloq.com/design/logos-icons/the-new-disney-world-logo-design-is-actually-kind-of-genius"
+            },
+            {
+              "headline": "On Animating What You Can't See (4 minute read)",
+              "blurb": "A ghosted double image in DuckDuckGo for iOS's floating toolbar survived three rounds of retiming because the bug was view ownership, not animation timing. Recording the transition at 60fps and stepping through it with ffmpeg showed the tab-count badge fully visible 24 frames before the snapshot animation began. Two failure modes generalize: snapshotting a view's bounds instead of what it draws, and resizing a snapshot instead of scaling it.",
+              "url": "https://karlkoch.me/writing/on-animating-what-you-cant-see/"
+            },
+            {
+              "headline": "René Bieder's Neurath X is a geometric typeface made for the age of AI (4 minute read)",
+              "blurb": "A new typeface family explores how far geometric reduction can be pushed without sacrificing readability, drawing inspiration from early modernist experiments in typography and visual communication. Built as both proportional and monospaced families with extensive stylistic alternates, it reimagines the unrealized radical potential of classics like Futura while balancing mathematical purity with practical usability. The release extends beyond the typeface itself through a coordinated visual identity of 3D animation, motion design, and sound, all expressing the same philosophy of clarity, reduction, and geometric transformation.",
+              "url": "https://the-brandidentity.com/typeface/rené-bieders-neurath-x-is-a-geometric-typeface-made-for-the-age-of-ai"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Art&Graft's In Pursuit of Magic is a Reminder of Why We Do This at All (6 minute read)",
+              "blurb": "In Pursuit of Magic took the London studio Art&Graft two years and 42 people, all answering one question: what is the pursuit of magic for you?",
+              "url": "https://www.creativeboom.com/insight/artgrafts-in-pursuit-of-magic/"
+            },
+            {
+              "headline": "Sand Castle Artist Elevates a Classic Beach Activity into Unbelievable Art and Architecture (1 minute read)",
+              "blurb": "Sand Castle University, founded in 2017 and now staffed by five instructors, turns a childhood beach pastime into architectural sculpture packed with windows, brickwork, and staircases.",
+              "url": "https://mymodernmet.com/sand-art-sand-castle-university/"
+            },
+            {
+              "headline": "How illustrator Azra Hirji turns the family table into an archive of food, migration and memory (3 minute read)",
+              "blurb": "Illustrator Azra Hirji creates colorful, food-filled scenes inspired by family, culture, migration, and shared meals, turning personal memories and global influences into a distinctive visual style.",
+              "url": "https://www.creativeboom.com/inspiration/illustrator-azra-hirji/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Data — 2026-09-03",
+      "tagline": "Netflix’s Parallel Spark Tuning 📊, Tracing AI Token Waste 💸, S3 Gets More Duck 🦆",
+      "sections": [
+        {
+          "name": "Deep Dives",
+          "stories": [
+            {
+              "headline": "Running Apache Spark experiments in my sleep (and on a plane) (9 minute read)",
+              "blurb": "Netflix's member-sessionizer pipeline turns tens of billions of hourly client events into viewing sessions, but scale bottlenecks made ordinary tuning painfully slow. Instead of optimizing one Spark run at a time, the team built a parallel experiment loop that launched, monitored, and compared multiple production-scale tests to expose memory and shuffle bottlenecks faster.",
+              "url": "https://netflixtechblog.medium.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8"
+            },
+            {
+              "headline": "How we eliminated $1 million a year of wasted AI agent spend in one hour (6 minute read)",
+              "blurb": "Databricks traced silent MCP tool failures that caused agents to repeatedly retry, revealing seven small bugs responsible for an estimated $499,000 in wasted tokens and $1.2 million in annual lost productivity. Fixing them took about an hour, highlighting the value of tracing tool calls and designing tools to accept the reasonable input variations generated by LLMs.",
+              "url": "https://www.databricks.com/blog/how-we-eliminated-1-million-year-wasted-ai-agent-spend-one-hour"
+            },
+            {
+              "headline": "Rerouting the Stream: How Lyft Moved to the Apache Flink Operator (11 minute read)",
+              "blurb": "Lyft retired its internally built Flink Kubernetes operator and migrated its streaming fleet to the open-source Apache Flink Kubernetes Operator. The useful lesson is the migration pattern: run both operators in parallel, preserve the user-facing deployment contract, patch gaps such as default restart behavior, and then use the move to simplify ownership and upgrades.",
+              "url": "https://eng.lyft.com/rerouting-the-stream-how-lyft-moved-to-the-apache-flink-operator-36f20246d250"
+            },
+            {
+              "headline": "Read your own writes, off the primary (10 minute read)",
+              "blurb": "Modern apps can write successfully, invalidate cached state, and immediately read from a replica that has not replayed the change yet. PostgreSQL 19's WAIT FOR LSN lets applications route reads to replicas while waiting for a specific WAL position, turning read-your-writes consistency into a measured timeout budget instead of primary pinning or sleep hacks.",
+              "url": "https://boringsql.com/posts/read-your-own-writes/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Advice",
+          "stories": [
+            {
+              "headline": "Why AWS Bought DuckLabs (8 minute read)",
+              "blurb": "AWS bought DuckLabs to gain its core team and influence DuckDB's roadmap, positioning DuckDB, DuckLake and Quack as foundations for S3-based analytics and AI agent workloads. DuckDB remains independently governed and open source, while MotherDuck will likely differentiate through higher-level tools for pipelines, agents, and data applications.",
+              "url": "https://www.linkedin.com/pulse/why-aws-bought-ducklabs-michael-driscoll-1gm7c/"
+            },
+            {
+              "headline": "Building and Using Named Queries (7 minute read)",
+              "blurb": "Named queries turn SPARQL from an expert-only endpoint into a governed API surface. By registering queries as RDF resources with parameters, output contracts, metadata, and ACLs, teams can expose graph data to applications and agents without giving every caller raw query access or forcing them to understand the whole ontology.",
+              "url": "https://ontologist.substack.com/p/building-and-using-named-queries"
+            },
+            {
+              "headline": "The Modern CUDA Toolbox in Practice: A Step-by-Step Optimization Walkthrough (16 minute read)",
+              "blurb": "NVIDIA demonstrates how modern CUDA tools can make GPU code safer and dramatically faster by combining better debugging, optimized CUB algorithms, pooled memory, pinned transfers, and asynchronous streams. These incremental changes reduced an image-processing pipeline from 6.8 seconds to 23 milliseconds, a roughly 300x speedup.",
+              "url": "https://developer.nvidia.com/blog/the-modern-cuda-toolbox-in-practice-a-step-by-step-optimization-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "MLCommons Releases New MLPerf Storage v3.0 Benchmark Results (4 minute read)",
+              "blurb": "MLPerf Storage v3.0 adds benchmark tests for KV cache and vector database workloads, plus an S3 object-storage access layer alongside POSIX. That makes the suite more relevant to modern AI systems, where inference caches, vector indexes, checkpointing, and object storage can be the real bottlenecks behind model throughput and cost.",
+              "url": "https://mlcommons.org/2026/09/mlperf-storage-v3-0-results/"
+            },
+            {
+              "headline": "dbt doctor (GitHub Repo)",
+              "blurb": "dbt doctor is an open-source static analysis tool that scans dbt projects for missing documentation and tests, schema drift, stale models, DAG complexity, and governance gaps. It can run locally, through coding agents, or in CI to score project health and block changes that introduce quality issues.",
+              "url": "https://github.com/northgraindata/dbt-doctor"
+            },
+            {
+              "headline": "Introducing FrontierHarness Eval (14 minute read)",
+              "blurb": "FrontierHarness found that coding-agent harnesses achieved relatively similar pass rates but varied by up to 17x in cost, showing that tooling, caching, and model compatibility strongly affect efficiency. Codex had the highest pass rate at 66.7% with moderate cost, while Exo was cheapest and DSH Minimal was fastest.",
+              "url": "https://runta.com/blog/introducing-frontierharness-eval/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "How we could save petabytes of cache storage with Zstandard and Pingora (8 minute read)",
+              "blurb": "Cloudflare's Cache Transcoding prototype compresses eligible text assets with Zstandard before storing and transferring them, reducing their size to roughly one-third on average. This could unlock petabytes of additional cache capacity and reduce bandwidth usage for only a small increase in CPU consumption.",
+              "url": "https://blog.cloudflare.com/cache-transcoding/"
+            },
+            {
+              "headline": "Beyond Line Charts: Why Some Diversity in Telemetry Visualization Is Long Overdue (42 minute video)",
+              "blurb": "Large-scale operators often default to line charts even when they need to answer different questions about capacity, latency, fleet sizing, and distributions. A broader telemetry visualization toolbox is needed that matches the operational question instead of forcing every signal into time-series lines.",
+              "url": "https://www.infoq.com/presentations/telemetry-data/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "TimesFM-3: A zero-shot foundation model for multivariate forecasting (5 minute read)",
+              "blurb": "Google's TimesFM-3 extends time-series foundation models from univariate forecasts to multiple interacting series with past and future covariates, aiming to make retail, observability, finance, and operations forecasting work without task-specific fine-tuning.",
+              "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/"
+            },
+            {
+              "headline": "Keenable SELECT showcase (Tool)",
+              "blurb": "Keenable SELECT lets agents research the live web using read-only DuckDB queries that combine search, filtering, and AI-powered extraction.",
+              "url": "https://keenableai.github.io/select-showcase/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
