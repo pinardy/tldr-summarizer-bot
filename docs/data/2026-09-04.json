@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-04",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "OpenAI Launches GPT-6 Astra Targeting Frontier Workflows",
+              "blurb": "OpenAI has officially launched GPT-6 Astra, its most capable model yet, featuring advanced computer use capabilities and high-level reasoning that safety experts warn makes chain-of-thought monitoring more difficult.",
+              "url": "https://openai.com/index/gpt-6-astra/"
+            },
+            {
+              "headline": "Nvidia Agrees to Acquire Hugging Face for $12.93 Billion",
+              "blurb": "Nvidia confirmed its massive acquisition of Hugging Face, promising to keep the platform open, hardware-agnostic, and independent for its 18 million developers.",
+              "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
+            },
+            {
+              "headline": "Meta Considered Slashing Teams by 60% in Radical AI Pivot",
+              "blurb": "Internal reports reveal that Meta planned massive layoffs of up to 60% of engineering teams to shift resources into AI training, resulting in severe morale drops and subsequent service outages.",
+              "url": "https://blog.pragmaticengineer.com/the-pulse-meta-wanted-to-reduce-teams-by-60-because-of-ai/"
+            },
+            {
+              "headline": "Three-LLM Runs Neural Networks Directly via WebGPU Shaders",
+              "blurb": "A new project successfully runs small language models locally in the browser by translating their inference graphs directly into Three.js TSL compute shaders, bypassing server-side runtimes entirely.",
+              "url": "https://ben3d.ca/blog/running-llms-in-the-browser-with-threejs"
+            }
+          ]
+        },
+        {
+          "name": "Security & Infrastructure",
+          "stories": [
+            {
+              "headline": "Malicious Git Configurations Can Hijack AI Coding Agents",
+              "blurb": "Security researchers discovered that popular AI development tools can be tricked into executing arbitrary terminal commands with user permissions when opening poisoned repository configurations.",
+              "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html"
+            },
+            {
+              "headline": "Coder Registry Compromised to Serve Malicious Terraform Modules",
+              "blurb": "Attackers hijacked Coder's cloud registry to distribute credential-stealing Terraform modules, successfully exfiltrating highly sensitive cloud, CI/CD, and SSH secrets.",
+              "url": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/"
+            },
+            {
+              "headline": "AI Agents Help Ransomware Operators Compress Attack Timelines",
+              "blurb": "Ransomware groups are utilizing AI agents to shrink the duration of an enterprise network intrusion from weeks to under 10 hours, dramatically raising the stakes for defenders.",
+              "url": "https://www.csoonline.com/article/4217976/ai-agents-help-compress-ransomware-intrusion-to-under-10-hours-raising-stakes-for-cisos.html"
+            },
+            {
+              "headline": "BGP Hijacking Diverts Softaculous Traffic to Distribute Malware",
+              "blurb": "An unauthorized BGP routing announcement hijacked a Softaculous IP range, enabling attackers to intercept ACME validation traffic for valid certificates and push compromised software updates.",
+              "url": "https://www.virtualizor.com/blog/security-incident-bgp-hijacking/"
+            }
+          ]
+        },
+        {
+          "name": "Dev Tools & Design",
+          "stories": [
+            {
+              "headline": "Kubernetes v1.37 Promotes Scale-to-Zero Capabilities to Beta",
+              "blurb": "The latest Kubernetes release brings native support for scaling workloads down to zero replicas via the HorizontalPodAutoscaler, allowing idle queue and batch processes to save significant compute costs.",
+              "url": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/"
+            },
+            {
+              "headline": "Go Adopts High-Performance Swiss Tables for Built-In Maps",
+              "blurb": "Go's new map implementation leverages a SIMD-optimized Swiss Table design to drastically accelerate key lookup times and improve cache locality.",
+              "url": "https://victoriametrics.com/blog/go-swiss-table-map/"
+            },
+            {
+              "headline": "Claude Code Used to Decompile and Reverse-Engineer Zero-Days",
+              "blurb": "A security researcher demonstrated how Claude Code can analyze patch updates and decompile JAR files to identify and exploit unauthenticated RCE zero-days in PaperCut software.",
+              "url": "https://www.techanarchy.net/from-patch-to-exploit-using-claude-code-to-reverse-engineer-a-zero-day-in-papercut-ng/"
+            },
+            {
+              "headline": "The Evolving and Vital Role of the Design Engineer",
+              "blurb": "As AI tools quickly generate interfaces, design engineers are becoming the essential gatekeepers of product coherence, bridging the gap between design vision and functional codebases.",
+              "url": "https://iamrob.in/blog/2026_08_18-role-of-a-design-engineer"
+            },
+            {
+              "headline": "Designers Experience Burnout Over Rising AI Expectations",
+              "blurb": "Modern designers face a challenging landscape as they are pressured to possess deep technical fluency in AI tools while maintaining elite levels of traditional visual craft.",
+              "url": "https://john-moriarty.medium.com/the-most-exciting-and-exhausting-time-to-be-a-designer-6d04316f4162"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
