@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-08",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, Design",
+      "sections": [
+        {
+          "name": "AI Models & Infrastructure",
+          "stories": [
+            {
+              "headline": "Anthropic Secures $517B in Compute Deals and Files for IPO",
+              "blurb": "Anthropic has quietly filed for an IPO after securing $517 billion in massive compute capacity commitments with AWS, Google, and others to power its future frontier models.",
+              "url": "https://www.datacenterdynamics.com/en/news/anthropic-signed-517bn-in-compute-agreements-in-past-11-months/"
+            },
+            {
+              "headline": "World Labs Unveils Atlas Spatial Intelligence Model",
+              "blurb": "Fei-Fei Li's startup World Labs has launched Atlas, a multimodal world model designed to simulate 3D space, camera movements, and physics for robotics and spatial computing.",
+              "url": "https://www.worldlabs.ai/blog/atlas"
+            },
+            {
+              "headline": "Google Challenges Nvidia with TPUv7 'Ironwood' Inference Chips",
+              "blurb": "Google's new TPUv7 Ironwood chips deliver up to 50% better performance-per-dollar than Nvidia's Blackwell GPU architecture, signaling a major shift in the cloud inference landscape.",
+              "url": "https://inferencex.semianalysis.com/blog/tpu-inferencex-full-steam"
+            },
+            {
+              "headline": "AI-Discovered Drug Shows Promise in Reversing Biological Aging",
+              "blurb": "Early clinical trial data for Rentosertib, an AI-discovered molecule, shows it successfully reversed biological age markers across six different aging measurement clocks.",
+              "url": "https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html?unlocked_article_code=1._lA.it6C.lu1zIUaeQ30x&smid=url-share"
+            }
+          ]
+        },
+        {
+          "name": "Software Engineering & Dev Tools",
+          "stories": [
+            {
+              "headline": "Coding Agents Struggle with Deep Software Testing Practices",
+              "blurb": "A comprehensive study by Dan Luu reveals that current software engineering agents use advanced testing and verification techniques only superficially, failing to significantly boost code correctness.",
+              "url": "https://danluu.com/agentic-testing/"
+            },
+            {
+              "headline": "Cursor Enables Self-Hosted Infrastructure for Cloud Agents",
+              "blurb": "Cursor now allows development teams to run its cloud agents on their own local or cloud infrastructure, enabling deeper integration with secure internal systems and custom environments.",
+              "url": "https://cursor.com/blog/self-hosted-machines"
+            },
+            {
+              "headline": "Vortex Streams Compressed Data Directly from S3 to GPU Memory",
+              "blurb": "By bypassing CPU decompression and local disk bottlenecks, Vortex streams columnar data straight from S3 to GPU, yielding performance speeds up to 30 times faster than standard Parquet setups.",
+              "url": "https://spiraldb.com/blog/from-s3-to-gpu-in-one-copy"
+            },
+            {
+              "headline": "Vercel's design.md Helps AI Agents Build On-Brand Web Pages",
+              "blurb": "Vercel has introduced design.md, an open framework that parses markdown style guidelines to help coding agents generate highly accurate, on-brand user interfaces with 57% fewer layout failures.",
+              "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md"
+            }
+          ]
+        },
+        {
+          "name": "Cybersecurity & Incidents",
+          "stories": [
+            {
+              "headline": "PostgreSQL Exposed by 12-Year-Old 'PostGREShell' Vulnerability",
+              "blurb": "Security researchers disclosed CVE-2026-6471, an unchecked replication path vulnerability in PostgreSQL versions 9.4 through 18 that allows low-privilege users to execute arbitrary code and gain superuser access.",
+              "url": "https://www.cyera.com/pt-br/research/postgreshell-the-database-powering-much-of-the-internet-had-an-open-door-for-12-years"
+            },
+            {
+              "headline": "OpenAI Pledges $1B for Daybreak Critical Infrastructure Defense",
+              "blurb": "OpenAI has committed $1 billion in subsidized AI access, specialized defense models, and training to protect resource-constrained critical services like water systems and electric grids.",
+              "url": "https://openai.com/index/daybreak-for-frontline-defenders/"
+            },
+            {
+              "headline": "Liquid Network Federated Wallet Drained of $320M in Bitcoin",
+              "blurb": "Attackers bypassed security checks to drain roughly 95% of Liquid Network's federation wallet, claiming they will return the $320 million in Bitcoin once node operators patch the vulnerability.",
+              "url": "https://www.theregister.com/security/2026/09/07/hackers-drain-320m-in-bitcoin-from-liquid-network-claim-theyre-the-good-guys/5294770"
+            },
+            {
+              "headline": "Wiz Red Agent Discovers Snowflake Jira Exploit Caused by AI Coding Assistant",
+              "blurb": "An autonomous security researcher tool identified a vulnerability in a Snowflake GitHub repository that allowed access to Snowflake's internal Jira after GitHub Copilot replaced a secure variable pattern with direct string interpolation.",
+              "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
