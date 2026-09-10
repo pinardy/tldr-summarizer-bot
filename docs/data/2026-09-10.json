@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-10",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design",
+    "data"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, Design, Data",
+      "sections": [
+        {
+          "name": "AI & Industry Trends",
+          "stories": [
+            {
+              "headline": "Siri AI Beta to Launch With Strict Usage Caps and Future Paywalls",
+              "blurb": "Apple's long-delayed AI-powered Siri will launch in beta on September 14, complete with regional restrictions, dynamic usage caps, and planned premium tiers to regulate server load.",
+              "url": "https://appleinsider.com/articles/26/09/09/siri-ai-will-launch-in-beta-complicated-by-daily-usage-caps-future-paid-access"
+            },
+            {
+              "headline": "Suno Launches v6 Trained on Licensed Music Amid Mounting Copyright Battles",
+              "blurb": "Facing multi-million dollar lawsuits from major record labels, Suno has replaced its AI music generator with a new model trained entirely on licensed partner catalogs.",
+              "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/"
+            },
+            {
+              "headline": "Anthropic Reports Incidents of Claude Models Accessing Production Systems",
+              "blurb": "Alignment assessments revealed that Claude models accessed real-world target systems during cybersecurity evaluations due to sandbox misconfigurations.",
+              "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"
+            }
+          ]
+        },
+        {
+          "name": "Software, Design & Hardware",
+          "stories": [
+            {
+              "headline": "Automattic Board Forces Matt Mullenweg Out as CEO",
+              "blurb": "In a surprise coup, the Automattic board has placed founder Matt Mullenweg on a forced leave of absence, installing CFO Mark Davies as interim chief executive.",
+              "url": "https://techcrunch.com/2026/09/09/automattics-board-forces-ceo-matt-mullenweg-into-leave-of-absence/"
+            },
+            {
+              "headline": "Shopify Acquires Tailwind Labs to Secure CSS Framework's Future",
+              "blurb": "Shopify is taking over Tailwind Labs to provide a stable, long-term home for Tailwind CSS, stopping new customer sign-ups but pledging to keep the project open-source.",
+              "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify"
+            },
+            {
+              "headline": "React 19.3 Introduces Stable View Transitions and Fragment Refs",
+              "blurb": "The latest React release stabilizes key experimental features, including View Transitions API integration, Fragment refs, and improved Server Components mechanics.",
+              "url": "https://react.dev/blog/2026/09/09/react-19-3"
+            },
+            {
+              "headline": "Apple Unveils the Foldable iPhone Duo Starting at $1,999",
+              "blurb": "At its fall hardware event, Apple announced its first foldable device, featuring a 7.6-inch inner screen and the new on-device AI-powered A20 Pro chip.",
+              "url": "https://techcrunch.com/2026/09/09/apple-unveils-its-first-foldable-the-iphone-duo/"
+            }
+          ]
+        },
+        {
+          "name": "Security, Data & Infrastructure",
+          "stories": [
+            {
+              "headline": "Critical Pre-Task RCE Vulnerability Discovered in Gemini CLI",
+              "blurb": "Security researchers disclosed a maximum-severity flaw where workspace configuration variables can execute shell code on the host machine before AI sandboxing even begins.",
+              "url": "https://novee.security/blog/gemini-cli-pre-task-rce/"
+            },
+            {
+              "headline": "IonQ Maps Out the Exact Quantum Computing Power Needed to Break SECP256K1",
+              "blurb": "IonQ published the first fully compiled, fault-tolerant resource estimate showing that breaking a 256-bit elliptic-curve key would require 19,397 physical qubits over a 26-day run.",
+              "url": "https://postquantum.com/post-quantum/ionq-secp256k1-resource-estimate"
+            },
+            {
+              "headline": "Hackers Graduate to Fully Autonomous Agentic AI Workflows for Cyberattacks",
+              "blurb": "Google's threat intelligence team reports that advanced threat actors are successfully using autonomous AI agents to manage scanning pipelines and execute multi-stage exploits.",
+              "url": "https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai"
+            },
+            {
+              "headline": "DeepSeek Harness Flaw Allows AI Agents to Easily Escape Their Sandboxes",
+              "blurb": "A newly patched host-header vulnerability in DeepSeek Harness allowed sandboxed AI agents to bypass approvals and execute commands directly on default environments.",
+              "url": "https://www.ox.security/blog/cve-2026-82533-deepseek-harness-ai-agent-sandbox-escape/"
+            },
+            {
+              "headline": "Postgres Committer Tom Lane Reflects on 30 Years of Architectural Choices",
+              "blurb": "Longtime Postgres core contributor Tom Lane shared key retrospective insights on the design choices, such as MVCC and write-ahead logging, that allowed the open-source database to dominate.",
+              "url": "https://www.snowflake.com/en/blog/engineering/30-years-of-postgres-architecture-tom-lane/"
+            },
+            {
+              "headline": "Kestra 2.0 LTS Exposes Data Workflows Directly as AI Agent Tools",
+              "blurb": "The open-source workflow orchestrator has launched its 2.0 LTS release, separating control and data planes while introducing an MCP server so coding agents can run pipelines directly.",
+              "url": "https://kestra.io/blogs/release-2-0/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
