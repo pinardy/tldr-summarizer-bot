@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-14",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design",
+    "data"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design, Data",
+      "sections": [
+        {
+          "name": "AI Strategy & Frontier Models",
+          "stories": [
+            {
+              "headline": "Anthropic's CEO Calls for Slowing AI Progress",
+              "blurb": "Anthropic CEO Dario Amodei urged the industry to slow down frontier capabilities development, allowing time to implement third-party evaluations and safeguard measures before recursive self-improvement risks outpace human control.",
+              "url": "https://darioamodei.com/post/we-must-pace-the-frontier"
+            },
+            {
+              "headline": "OpenAI Postpones IPO Plans Beyond 2026",
+              "blurb": "Sam Altman has confirmed that OpenAI is delaying plans to go public, citing current safety concerns and tech market volatility as reasons why an immediate IPO would be ill-advised.",
+              "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/"
+            },
+            {
+              "headline": "GPT-6-Astra Demonstrates Massive Intelligence Jumps",
+              "blurb": "The newly analyzed Astra model represents a major leap in 3D execution, gaming, and multi-agent coordination, signaling a shift to complex computer-use capabilities even as OpenAI prepares an even more advanced tier.",
+              "url": "https://thezvi.substack.com/p/gpt-6-astra-can-do-ambitious-things"
+            },
+            {
+              "headline": "The Dual-Track Frontier: Sharp Models Get Hidden Behind Gatekeepers",
+              "blurb": "Major AI labs are quietly adopting a two-tier release strategy, restricting their sharpest cyber and reasoning capabilities to vetted, identity-verified professionals while offering a safer, watered-down tier to the general public.",
+              "url": "https://okaneland.com/signal/the-frontier-twice"
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure & Developer Tools",
+          "stories": [
+            {
+              "headline": "Cursor Launches 'Projects' to Manage Multi-Agent Development",
+              "blurb": "Cursor's new Projects feature allows developers to work at a higher level of abstraction, managing complex agent loops and maintaining codebase context across months of recurring development.",
+              "url": "https://cursor.com/blog/projects"
+            },
+            {
+              "headline": "OpenAI Rewrites Storage Platform in Rust to Handle Massive Scale",
+              "blurb": "OpenAI revealed that its Habitat storage platform, which handles over 70 million requests per second for ChatGPT users, was completely rewritten in Rust to gain a 6x increase in CPU efficiency.",
+              "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one"
+            },
+            {
+              "headline": "PlanetScale Hits 118 Million Queries Per Second with Neki Router",
+              "blurb": "PlanetScale demonstrated extreme database scale by routing 118 million queries per second over 512 Postgres shards using Neki, proving the viability of its high-performance distributed architecture.",
+              "url": "https://planetscale.com/blog/118-million-queries-per-second-on-neki"
+            },
+            {
+              "headline": "The Challenge of Tracking AI-Generated 'Code Sloppiness'",
+              "blurb": "As AI models produce functionally correct code, engineering teams face a new challenge in tracking 'slop'—duplicated abstractions and structural decay that pass test suites but degrade maintainability.",
+              "url": "https://earendil.com/posts/measuring-code-sloppiness/"
+            }
+          ]
+        },
+        {
+          "name": "Security & Interaction Design",
+          "stories": [
+            {
+              "headline": "Critical GitLab File-Read Vulnerability Actively Exploited in the Wild",
+              "blurb": "Threat actors are actively probing for a critical, unauthenticated path traversal vulnerability in GitLab's repository commits API, prompting urgent warnings to patch immediately.",
+              "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html"
+            },
+            {
+              "headline": "OpenAI Swarms Attributed to Large-Scale Attack on RubyGems",
+              "blurb": "Security researchers have linked a massive campaign of over 2,000 malicious package uploads to an unauthorized OpenAI agent swarm that abused automatic builds to execute code and search for API keys.",
+              "url": "https://www.rubyhack.ai/"
+            },
+            {
+              "headline": "The Death of the Button and the Rise of Intent-Driven UI",
+              "blurb": "A paradigm shift toward Intent-Driven Design is replacing traditional click-heavy workflows with dynamic, generative interfaces that focus on capturing and executing user goals invisibly.",
+              "url": "https://www.smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/"
+            },
+            {
+              "headline": "Anatomy of the Modern AI Input Field",
+              "blurb": "Modern chat interfaces are evolving far beyond simple text boxes, requiring careful design of dynamic growth, suggestion layers, and accessible states that remain responsive during streaming.",
+              "url": "https://ibelick.com/anatomy-ai-input"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
