@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-15",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Industry Trends",
+          "stories": [
+            {
+              "headline": "OpenAI's Top Priority for AI Agents Is Automating AI Research",
+              "blurb": "OpenAI researcher Noam Brown revealed that the company's primary focus for next-generation agents is self-improving automation of AI research tasks.",
+              "url": "https://www.theinformation.com/articles/openais-top-priority-ai-agents-automating-ai-research-says-noam-brown"
+            },
+            {
+              "headline": "OpenAI Acquires Smartphone Camera Maker Glass Imaging for $300M",
+              "blurb": "In a bid to enhance its visual AI capabilities, OpenAI has acquired Glass Imaging, a startup specializing in using AI to bring professional camera quality to smartphones.",
+              "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says"
+            },
+            {
+              "headline": "Leaked iOS Build Reveals Siri's Deep Integration with Claude and ChatGPT",
+              "blurb": "Apple's upcoming Siri update will allow direct, deep integration with external AI models from both OpenAI and Anthropic to handle complex queries.",
+              "url": "https://www.cnet.com/tech/services-and-software/siri-ai-will-have-deep-integration-with-chatgpt-and-claude-models-leaked-build-shows"
+            },
+            {
+              "headline": "Nvidia's Vera Rubin NVL72 Delivers 67x Better Performance per Dollar",
+              "blurb": "SemiAnalysis details how Nvidia's upcoming Vera Rubin architecture drastically slashes the cost of running agentic AI workflows.",
+              "url": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-agentic-inference"
+            },
+            {
+              "headline": "Tech Giants Agree on New AEF-1 AI Evaluation Standard",
+              "blurb": "Anthropic, OpenAI, and xAI have co-signed the emerging AEF-1 standard, paving the way for unified third-party evaluation of AI capabilities.",
+              "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for"
+            }
+          ]
+        },
+        {
+          "name": "Engineering & Dev Tools",
+          "stories": [
+            {
+              "headline": "Google Officially Opens the Door to Anthropic's Claude for Its Engineers",
+              "blurb": "Google is allowing its internal developers to utilize Anthropic's Claude, marking a major shift in how the tech giant approaches competitive AI tools.",
+              "url": "https://kingy.ai/news/google-engineers-anthropic-claude-ai-coding"
+            },
+            {
+              "headline": "How Anthropic Scaled Test Impact Analysis for Agentic Coding",
+              "blurb": "To combat CI/CD bottlenecks caused by high-volume AI code generation, Anthropic has optimized its testing pipeline using smart dependency graphs.",
+              "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic"
+            },
+            {
+              "headline": "Temporal Raises $550M to Power AI Backend Infrastructure",
+              "blurb": "The workflow orchestration platform Temporal has secured massive new funding at a $12.55B valuation to scale support for complex agentic AI applications.",
+              "url": "https://temporal.io/blog/temporal-raises-usd550m-series-e-at-usd12-55b-valuation-ai"
+            },
+            {
+              "headline": "Superhuman Acquires AI Notetaker Fathom",
+              "blurb": "Email client Superhuman is integrating AI meeting transcription directly into its workflow suite by acquiring popular virtual meeting assistant Fathom.",
+              "url": "https://blog.superhuman.com/superhuman-acquires-fathom"
+            }
+          ]
+        },
+        {
+          "name": "Autonomy & Tech Policy",
+          "stories": [
+            {
+              "headline": "Einride and Lidl Launch First Cab-Less Autonomous Truck on Public German Roads",
+              "blurb": "Germany's roads are hosting their first fully driverless freight operations with a custom, cab-less vehicle carrying real cargo for Lidl.",
+              "url": "https://www.globenewswire.com/news-release/2026/09/15/3361628/0/en/einride-and-lidl-launch-first-autonomous-cab-less-truck-on-german-public-road.html"
+            },
+            {
+              "headline": "Waymo Expands Robotaxi Service to Tokyo with Local Partners",
+              "blurb": "Waymo plans to bring its autonomous driving technology to Tokyo in 2027 by partnering with major Japanese taxi operators Nihon Kotsu and GO.",
+              "url": "https://waymo.com/blog/2026/09/opening-tokyo-in-2027-with-nihon-kotsu-go"
+            },
+            {
+              "headline": "New York District Attorney Seizes 12 Celebrity Deepfake Websites",
+              "blurb": "Law enforcement in NY successfully shut down major online networks monetizing non-consensual deepfake pornography of prominent celebrities.",
+              "url": "https://www.404media.co/new-york-district-attorney-seizes-12-celebrity-deepfake-websites"
+            },
+            {
+              "headline": "Elon Musk Drops Apple from Antitrust Lawsuit, Keeps Fighting OpenAI",
+              "blurb": "Musk's ongoing legal challenge against OpenAI's commercial shift continues to escalate, even as Apple is dropped from the active complaint.",
+              "url": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
