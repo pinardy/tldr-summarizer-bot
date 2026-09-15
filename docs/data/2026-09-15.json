@@ -1,91 +1,529 @@
 {
   "date": "2026-09-15",
-  "mode": "combined",
+  "mode": "per-newsletter",
   "categories": [
-    "tech"
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design"
   ],
   "digests": [
     {
-      "title": "TLDR Daily Digest",
-      "tagline": "Tech",
+      "title": "TLDR AI — 2026-09-15",
+      "tagline": "Siri model swapping 🔄, Claude Money 💰, Hugging Face Tau 👨‍💻",
       "sections": [
         {
-          "name": "AI & Industry Trends",
+          "name": "Headlines & Launches",
           "stories": [
             {
-              "headline": "OpenAI's Top Priority for AI Agents Is Automating AI Research",
-              "blurb": "OpenAI researcher Noam Brown revealed that the company's primary focus for next-generation agents is self-improving automation of AI research tasks.",
-              "url": "https://www.theinformation.com/articles/openais-top-priority-ai-agents-automating-ai-research-says-noam-brown"
+              "headline": "OpenAI Buys Startup Developing Smartphone Camera (3 minute read)",
+              "blurb": "OpenAI has quietly bought Glass Imaging, a company developing smartphone cameras that use AI to produce image quality on par with a DSLR camera. The deal values Glass Imaging at over $300 million. OpenAI's plans for the company are unclear, but it has been developing a secretive device with Jony Ive, the former Apple executive who helped design the iPhone. Glass Imaging was founded in 2019 by two former Apple employees who had previously worked on camera technology at the company.",
+              "url": "https://www.wsj.com/tech/openai-buys-startup-developing-smartphone-camera-63590370?st=TPQxo2&reflink=desktopwebshare_permalink"
             },
             {
-              "headline": "OpenAI Acquires Smartphone Camera Maker Glass Imaging for $300M",
-              "blurb": "In a bid to enhance its visual AI capabilities, OpenAI has acquired Glass Imaging, a startup specializing in using AI to bring professional camera quality to smartphones.",
-              "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says"
+              "headline": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows (4 minute read)",
+              "blurb": "Private iOS 27 and macOS frameworks show Apple built Siri so Claude or GPT-5.6 can sit in as the brain: Model Delegation lets Claude handle a natural-language ask, then hand Reminders or Messages back to Siri, and an inference-provider path can swap Apple's server-side Siri model entirely while keeping Siri's UI and voice. A demo already has ChatGPT finding emails, summarizing action items, and texting a contact through Siri's tools. The hooks are not user-facing yet, but they land as iOS 27 ships and after EU DMA pressure to open Siri to rivals.",
+              "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude"
             },
             {
-              "headline": "Leaked iOS Build Reveals Siri's Deep Integration with Claude and ChatGPT",
-              "blurb": "Apple's upcoming Siri update will allow direct, deep integration with external AI models from both OpenAI and Anthropic to handle complex queries.",
-              "url": "https://www.cnet.com/tech/services-and-software/siri-ai-will-have-deep-integration-with-chatgpt-and-claude-models-leaked-build-shows"
-            },
-            {
-              "headline": "Nvidia's Vera Rubin NVL72 Delivers 67x Better Performance per Dollar",
-              "blurb": "SemiAnalysis details how Nvidia's upcoming Vera Rubin architecture drastically slashes the cost of running agentic AI workflows.",
-              "url": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-agentic-inference"
-            },
-            {
-              "headline": "Tech Giants Agree on New AEF-1 AI Evaluation Standard",
-              "blurb": "Anthropic, OpenAI, and xAI have co-signed the emerging AEF-1 standard, paving the way for unified third-party evaluation of AI capabilities.",
-              "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for"
+              "headline": "Anthropic prepares Claude Money for personal finance (2 minute read)",
+              "blurb": "Claude Money allows users to link their bank accounts and ask Claude about spending, plans, and other financial questions. It appears to be designed to give Claude persistent access to users' financial context, removing the need to manually upload bank statements or transaction exports. The exact account types, data provider, and supported actions remain unknown. Claude already supports third-party personal-finance connectors, and Anthropic has been building finance-specific agents and products for professional users. The launch timeframe remains unknown.",
+              "url": "https://www.testingcatalog.com/anthropic-prepares-claude-money-for-personal-finance/"
             }
           ]
         },
         {
-          "name": "Engineering & Dev Tools",
+          "name": "Deep Dives & Analysis",
           "stories": [
             {
-              "headline": "Google Officially Opens the Door to Anthropic's Claude for Its Engineers",
-              "blurb": "Google is allowing its internal developers to utilize Anthropic's Claude, marking a major shift in how the tech giant approaches competitive AI tools.",
-              "url": "https://kingy.ai/news/google-engineers-anthropic-claude-ai-coding"
+              "headline": "Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires (52 minute read)",
+              "blurb": "Evals are more about avoiding mistakes than following some particular process. There isn't any step-by-step guide that will work, but there are approaches to experimental design that can teach you how to do better. This post aims to help people become better at benchmarking and evals. It looks at three different kinds of benchmarks: one for baseline numbers for performance 'napkin math' estimates, one set of AI model evals, and one on car tires.",
+              "url": "https://danluu.com/exercise-7/"
             },
             {
-              "headline": "How Anthropic Scaled Test Impact Analysis for Agentic Coding",
-              "blurb": "To combat CI/CD bottlenecks caused by high-volume AI code generation, Anthropic has optimized its testing pipeline using smart dependency graphs.",
+              "headline": "What Does Pacing Mean? (6 minute read)",
+              "blurb": "Dario Amodei called for the AI industry to self-regulate its pace, but five camps interpreted \"pacing\" differently without agreeing on a speed. These camps focus on model interpretability, worker interests, economic growth, geopolitical strategy, and resisting new regulations. A previous attempt to limit AI training compute failed, highlighting the challenge of controlling AI innovation speed.",
+              "url": "https://tomtunguz.com/what-does-the-pause-mean/"
+            },
+            {
+              "headline": "Who Gets to Define the Rules for AI? (18 minute read)",
+              "blurb": "Aidan Gomez, Cohere CEO, argues against a few dominant Silicon Valley firms setting global AI regulations, drawing parallels to historical monopolies that limited competition under safety pretexts. He proposes a diverse, international, evidence-based framework for AI governance, emphasizing transparency, mandatory testing, and independent assurance mechanisms. Gomez warns that current proposals could entrench market leaders, advocating for more inclusive rule-making to foster competition and trust.",
+              "url": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai"
+            }
+          ]
+        },
+        {
+          "name": "Engineering & Research",
+          "stories": [
+            {
+              "headline": "Augmented Lagrangian Predictive Coding (17 minute read)",
+              "blurb": "PC-ALM is a local alternative to backpropagation. It is an extension of standard predictive coding (PC), which uses diffusive coupling between layers. PC-ALM trains residual MLPs up to 1,000 layers, nearly matching backprop's performance despite using only layer-local dynamics. It equips each layer with a feedback control dynamical system that distributes and propagates supervision credit throughout a network.",
+              "url": "https://pub.sakana.ai/pc-alm/"
+            },
+            {
+              "headline": "ARTEMIS (GitHub Repo)",
+              "blurb": "ARTEMIS lets AI assistants and test suites use real phones like a human. It can execute testing workflows and everyday tasks on Android from natural language instructions, using element indices when available, with coordinate and visual locating fallbacks for custom interfaces. ARTEMIS checks targets before individual actions and returns blocked actions to the Operator for recovery. It supports long-running exploratory and stability tests.",
+              "url": "https://github.com/google/artemis"
+            },
+            {
+              "headline": "Tau (GitHub Repo)",
+              "blurb": "Tau is a coding agent that lives in the terminal. It can read files, edit code, run commands, and keep a durable session history while streaming what it is doing. Tau was designed to be a teaching project for understanding the shape of a coding-agent system without starting from a giant production codebase. It ships with support for OpenAI-compatible endpoints.",
+              "url": "https://github.com/huggingface/tau"
+            },
+            {
+              "headline": "StepAudio 3 Technical Report (19 minute read)",
+              "blurb": "StepAudio 3 Gen uses discrete autoregressive modeling over shared RVQ audio tokens to generate speech, voices, vocals, sound effects, music, and mixed audio within one model. It achieved state-of-the-art results on text-to-speech and voice design while retaining broad general-audio generation capabilities.",
+              "url": "https://arxiv.org/abs/2609.12945"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Personal Statement on AI Risk (12 minute read)",
+              "blurb": "Models are becoming so situationally aware that researchers are losing the ability to evaluate them in contexts where they believe they are not being watched or controlled. Models increasingly seem aligned even when they are not. The current evidence suggests that the field will continue to make progress at a fast pace. Once language models reach the capability threshold where they can shape the world unconstrained by human will, they might do something extreme and destroy humanity in the process.",
+              "url": "https://docs.google.com/document/d/e/2PACX-1vQNl3SEX5IyA6d9qHjjFZN-qzGRZNFI6b63g-yu1Fy-ZYkVfCWm7i9WXRXw63m6yDB_auDuPLyQ7jBm/pub"
+            },
+            {
+              "headline": "Sam Altman Backs Federal Frontier AI Safety Rules (2 minute read)",
+              "blurb": "Sam Altman supports consistent federal safety requirements for frontier AI while urging labs to act before legislation arrives. OpenAI now uses safety cases before major reinforcement learning runs, arguing that capability growth should be deliberately paced alongside alignment and monitoring.",
+              "url": "https://x.com/sama/status/2099348812305473766"
+            },
+            {
+              "headline": "Frontier labs have a financial incentive to pace the frontier (26 minute read)",
+              "blurb": "Frontier labs are arguing for regulatory pacing on safety grounds. While many are undoubtedly well-intentioned, it is also true that the rules the labs have proposed protect their investments, preserve price premiums, and defer billions in competitive spending. Their arguments for these rules should not be taken at face value. The labs can not economically slow down on their own without the government stepping in to enforce a slowdown.",
+              "url": "https://cogito-ergo-sum.dev/frontier-economics"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Why we built Pion (9 minute read)",
+              "blurb": "Pion is an agent designed to run any company fully autonomously.",
+              "url": "https://andonlabs.com/blog/why-we-built-pion"
+            },
+            {
+              "headline": "Cline Desktop: An open-source app for open-weight models (4 minute read)",
+              "blurb": "Cline Desktop is an open-source app for open-weight models that can run parallel AI agents and automate recurring tasks.",
+              "url": "https://cline.ghost.io/cline-desktop-an-open-source-app-for-open-weight-models/"
+            },
+            {
+              "headline": "Turnbench: A Multi-Domain Benchmark for Turn-Taking Dynamics in Spoken Dialogue (25 minute read)",
+              "blurb": "TURNBENCH introduces a 30-hour, six-domain benchmark for end-of-turn and interruption detection, plus a 104-hour training set.",
+              "url": "https://arxiv.org/pdf/2608.25218"
+            },
+            {
+              "headline": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX (3 minute read)",
+              "blurb": "NVIDIA's Perplexity Portable Computer is now available on Windows RTX PCs, enabling local AI tasks through powerful agentic AI.",
+              "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/"
+            },
+            {
+              "headline": "Artificial Analysis Capability Indices v1.1 (2 minute read)",
+              "blurb": "The Artificial Analysis Capability Indices have been updated with stronger domain tuning, with Claude Fable 5.1 (max) leading in all six indices.",
+              "url": "https://threadreaderapp.com/thread/2099530487316553915.html"
+            },
+            {
+              "headline": "OpenAI's next ChatGPT ad format: click to chat, not to site (5 minute read)",
+              "blurb": "OpenAI is rolling out a new AI-native ChatGPT ad to select clients that opens a branded agent chat instead of a website.",
+              "url": "https://digiday.com/marketing/openais-next-chatgpt-ad-format-click-to-chat-not-to-site/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR IT — 2026-09-15",
+      "tagline": "Apple’s OS 27 Lands 🍎, Google Eases M365 Exits 🔄, AI Agents Get Employee Rules 🤖",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Google Simplifies Microsoft 365 Migrations, But Enterprise Limits Remain (3 minute read)",
+              "blurb": "Google Workspace now has a built-in setup workflow that can discover Microsoft users and migrate email, OneDrive files, calendars, contacts, and tasks. The catch: automated migrations currently support only 10 Microsoft users, so it is useful for small environments but does not replace enterprise migration tooling yet.",
+              "url": "https://petri.com/google-workspace-microsoft-365-migration-tool/"
+            },
+            {
+              "headline": "Major updates for Apple's software platforms are now available (4 minute read)",
+              "blurb": "Apple has released its annual software wave across iOS 27, iPadOS 27, macOS 27, watchOS 27, visionOS 27, and tvOS 27. For IT teams, this officially starts the testing and deployment window, with device eligibility, Apple Intelligence and Siri AI availability, application compatibility, and managed-device behavior worth validating before broad rollout.",
+              "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/"
+            }
+          ]
+        },
+        {
+          "name": "Analysis & Opinions",
+          "stories": [
+            {
+              "headline": "Goldie cuts through The Salvation Army's IT maze (6 minute read)",
+              "blurb": "The Salvation Army is using an AI employee-support assistant inside Microsoft Teams to front multiple internal systems and help more than 10,000 personnel find answers without knowing which platform owns the information. The interesting lesson for IT is less about the chatbot and more about the underlying integration, ownership, guardrails, and service-design work required to make an AI support layer genuinely useful.",
+              "url": "https://www.frontier-enterprise.com/goldie-cuts-through-the-salvation-army-it-maze/"
+            },
+            {
+              "headline": "Govern AI agents like workers. Just don't pretend they're human (10 minute read)",
+              "blurb": "As AI agents gain the ability to update records, issue refunds, communicate with customers, and operate across enterprise systems, organizations need clearer rules around what each agent can access and do. The argument: borrow useful concepts from workforce management—onboarding, scoped authority, supervision, and offboarding—but keep accountability with the humans granting that access.",
+              "url": "https://www.computerworld.com/article/4213117/govern-ai-agents-like-workers-just-dont-pretend-theyre-human.html"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Partnerships",
+          "stories": [
+            {
+              "headline": "AI agents can use Quill to talk direct to enterprise SQL databases (2 minute read)",
+              "blurb": "RavenDB has made its Quill software available to let AI agents query live enterprise SQL databases without data migration or a custom AI stack. Quill creates a synchronized context layer using change data capture that runs outside production and includes search, retrieval, and governance controls. Customers can launch production-ready agents in weeks for PostgreSQL, SQL Server, and MySQL deployments in the cloud or on-premises.",
+              "url": "https://www.blocksandfiles.com/ai-ml/2026/09/08/ai-agents-can-use-quill-to-talk-direct-to-enterprise-sql-databases/5295049"
+            },
+            {
+              "headline": "Devicie Makes Application Management Automatic within Microsoft Intune, Matching the Speed of AI (4 minute read)",
+              "blurb": "Devicie is expanding its Intune automation to manage updates for more than 1,500 Windows and macOS applications, as well as customer line-of-business apps. Importantly, it operates inside the existing Microsoft stack and leaves deployment timing and update-ring control in Intune rather than introducing another endpoint-management console.",
+              "url": "https://aapnews.aap.com.au/aapreleases/cision20260914AE46473"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Take control of snapshots (7 minute read)",
+              "blurb": "APFS Time Machine snapshots preserve storage blocks for rollback, which causes used space to grow as files change, requiring careful management. The process covers creating snapshots with tmutil commands, limiting their size by isolating large files on a separate APFS volume, deleting old snapshots in Disk Utility while keeping the latest, and rolling back the Data volume from Recovery.",
+              "url": "https://eclecticlight.co/2026/09/09/take-control-of-snapshots/"
+            },
+            {
+              "headline": "Databricks changes how workspace access is granted (3 minute read)",
+              "blurb": "Databricks is changing how workspace access is granted, with new users and service principals now requiring explicit entitlements instead of automatically inheriting access from the users system group. The change became mandatory on September 14, and organizations using Terraform, SCIM, or custom provisioning scripts may need to update their automation.",
+              "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Minor ML Upgrade: Clearer Outcomes for Tool Calls - Standard Release (2 minute read)",
+              "blurb": "Moveworks will now clearly tell users when an Agent Studio tool call fails or returns no results instead of potentially making an unsuccessful action look successful.",
+              "url": "https://community.moveworks.com/product-updates/minor-ml-upgrade-clearer-outcomes-for-tool-calls-standard-release-3878"
+            },
+            {
+              "headline": "You don't need Task Manager, Windows 11's End Task button kills apps from the taskbar, and here's how it works (3 minute read)",
+              "blurb": "Windows 11 has a lesser-known option that lets users kill frozen applications directly from the taskbar, a useful feature for IT teams looking to reduce a few basic support calls.",
+              "url": "https://www.windowslatest.com/2026/09/14/you-dont-need-task-manager-windows-11s-end-task-button-kills-apps-from-the-taskbar-and-heres-how-it-works/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Web Dev — 2026-09-15",
+      "tagline": "AI agents do business 🤖, dashboards in chat 📊, writing good design docs 📝",
+      "sections": [
+        {
+          "name": "Articles & Tutorials",
+          "stories": [
+            {
+              "headline": "Why Machine Learning Research Agents Don't Overfit, and What Compression Has to Do with It (13 minute read)",
+              "blurb": "Successful research strategies often survive an extreme information bottleneck, suggesting that they capture real structure instead of memorizing validation data. Across eight datasets, fresh agents reproduced most results from prompts as short as 32 tokens, while deliberately overfit gains disappeared after compression.",
+              "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit"
+            },
+            {
+              "headline": "When LLM Judges Agree, Should We Believe Them? (7 minute read)",
+              "blurb": "Agreement among LLM judges can overstate confidence when models share prompts, architectures, or blind spots. A dependence-aware aggregation method models both judge reliability and pairwise correlations, improving accuracy by 9% to 14% over weighted majority voting across three evaluation tasks.",
+              "url": "https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them"
+            },
+            {
+              "headline": "Agentic Coding Is Straining CI. Here's How We Scaled Test Impact Analysis at Anthropic (5 minute read)",
+              "blurb": "Agentic coding drove a 25x increase in CI jobs over six months, overwhelming a singleton test selection service despite bigger machines, package sharding, and daily restarts. Anthropic replaced it with stateless listener workers, a journal in an in-memory store, and a separate rollup consumer, creating a horizontally scalable system that has remained stable.",
               "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic"
-            },
-            {
-              "headline": "Temporal Raises $550M to Power AI Backend Infrastructure",
-              "blurb": "The workflow orchestration platform Temporal has secured massive new funding at a $12.55B valuation to scale support for complex agentic AI applications.",
-              "url": "https://temporal.io/blog/temporal-raises-usd550m-series-e-at-usd12-55b-valuation-ai"
-            },
-            {
-              "headline": "Superhuman Acquires AI Notetaker Fathom",
-              "blurb": "Email client Superhuman is integrating AI meeting transcription directly into its workflow suite by acquiring popular virtual meeting assistant Fathom.",
-              "url": "https://blog.superhuman.com/superhuman-acquires-fathom"
             }
           ]
         },
         {
-          "name": "Autonomy & Tech Policy",
+          "name": "Opinions & Advice",
           "stories": [
             {
-              "headline": "Einride and Lidl Launch First Cab-Less Autonomous Truck on Public German Roads",
-              "blurb": "Germany's roads are hosting their first fully driverless freight operations with a custom, cab-less vehicle carrying real cargo for Lidl.",
-              "url": "https://www.globenewswire.com/news-release/2026/09/15/3361628/0/en/einride-and-lidl-launch-first-autonomous-cab-less-truck-on-german-public-road.html"
+              "headline": "Do You Still Read the Code? (14 minute read)",
+              "blurb": "Accelerators are those who use AI while retaining an understanding of the implementation, while vibecoders are those who treat code as disposable and invest in specifications and evaluation. Teams must agree on maintenance expectations and preserve the intent behind decisions because reading every line does not by itself eliminate cognitive or intent debt.",
+              "url": "https://zanlib.dev/blog/do-you-still-read-the-code"
             },
             {
-              "headline": "Waymo Expands Robotaxi Service to Tokyo with Local Partners",
-              "blurb": "Waymo plans to bring its autonomous driving technology to Tokyo in 2027 by partnering with major Japanese taxi operators Nihon Kotsu and GO.",
-              "url": "https://waymo.com/blog/2026/09/opening-tokyo-in-2027-with-nihon-kotsu-go"
+              "headline": "We Are All Product Engineers Now (19 minute read)",
+              "blurb": "If agents absorb the software development lifecycle, the durable human work may be deciding what to build, defining quality, and making products delightful. Collapsing implementation costs will expand software demand, turn developers into product engineers, and force companies to rethink how juniors acquire the tacit judgment needed to become seniors.",
+              "url": "https://seldo.com/posts/we-are-all-product-engineers-now"
             },
             {
-              "headline": "New York District Attorney Seizes 12 Celebrity Deepfake Websites",
-              "blurb": "Law enforcement in NY successfully shut down major online networks monetizing non-consensual deepfake pornography of prominent celebrities.",
-              "url": "https://www.404media.co/new-york-district-attorney-seizes-12-celebrity-deepfake-websites"
+              "headline": "How to Write an Effective Software Design Document (19 minute read)",
+              "blurb": "Effective design docs focus review on consequential and costly-to-reverse decisions before implementation begins. This guide explains when a doc is worthwhile, how much detail to invest, which sections to include, and how goals, non-goals, scenarios, diagrams, constraints, and alternatives sharpen feedback.",
+              "url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Charts Built for Chat (8 minute read)",
+              "blurb": "dbt Charts is an open-source declarative language that expresses an interactive dashboard in one auditable YAML file with SQL, Markdown, and Jinja. Its CLI renders several output formats, validates queries and visual choices, integrates with dbt projects, and powers a hosted public beta with conversational analytics and access controls.",
+              "url": "https://dbtcharts.com/blog/charts-built-for-chat/"
             },
             {
-              "headline": "Elon Musk Drops Apple from Antitrust Lawsuit, Keeps Fighting OpenAI",
-              "blurb": "Musk's ongoing legal challenge against OpenAI's commercial shift continues to escalate, even as Apple is dropped from the active complaint.",
-              "url": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai"
+              "headline": "Sunk Cost (Website)",
+              "blurb": "Sunk Cost estimates when local AI hardware will break even against paying for model APIs, and it is willing to conclude that it never will. The calculator factors in model fit, local speed, daily token use, context size, input-to-output ratio, electricity, API latency, and falling API prices.",
+              "url": "https://sunkcost.ai/"
+            },
+            {
+              "headline": "Cline Desktop: An Open-Source App for Open-Weight Models (5 minute read)",
+              "blurb": "Cline Desktop is an open-source workspace for running parallel agents, scheduling recurring tasks, and extending workflows with plugins, MCP servers, and skills. The Mac and Windows beta supports more than 300 models, local or bring-your-own providers, and importing tasks from Claude Code, Codex, or other agents.",
+              "url": "https://cline.ghost.io/cline-desktop-an-open-source-app-for-open-weight-models"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "What Happens to Engineers When AI Writes All the Code? (9 minute read)",
+              "blurb": "As agents produce more code, engineers shift toward monitoring, setting direction, deciding scope, evaluating changes, and improving the entire product loop. PostHog reports that agent-opened pull requests rose from about 20% to 70% in four months, while merged pull request volume more than tripled with only 10% engineering headcount growth.",
+              "url": "https://newsletter.posthog.com/p/if-ai-writes-all-the-code-whats-left"
+            },
+            {
+              "headline": "Major Updates for Apple's Software Platforms Are Now Available (13 minute read)",
+              "blurb": "Apple's latest platform updates begin rolling out with Siri AI, personal context, onscreen awareness, broader app actions, new child-safety controls, and performance improvements across its devices. The release varies by language and region, while some server-side Apple Intelligence features have daily usage limits.",
+              "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Slow Developer Experience Will Bottleneck Fast Models (3 minute read)",
+              "blurb": "As model inference becomes nearly instantaneous, slow file access, compiler runs, and tests will dominate agent latency, pushing teams to optimize developer tooling for machines as aggressively as they once did for people.",
+              "url": "https://seangoedecke.com/slow-devex-will-bottleneck-fast-models"
+            },
+            {
+              "headline": "GPT-5.6 Luna vs GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review? (8 minute read)",
+              "blurb": "Across 50 pull requests, Luna found 69 verified bugs for $0.20 versus Astra's 92 for $5.66, but Luna had lower precision and found fewer than half as many security bugs.",
+              "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review"
+            },
+            {
+              "headline": "Why We Built Pion (9 minute read)",
+              "blurb": "Pion is a persistent agent platform built from experiments running vending machines, a store, a cafe, and radio stations with AI.",
+              "url": "https://andonlabs.com/blog/why-we-built-pion"
+            },
+            {
+              "headline": "Dario, Please! (14 minute read)",
+              "blurb": "Proposals to regulate open-weight models and grant frontier labs an antitrust waiver would consolidate power in the companies asking the public to trust them.",
+              "url": "https://pop.rdi.sh/dario-please/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR InfoSec — 2026-09-15",
+      "tagline": "Skill Poisoning for Agentic Malware Drop 🦠, OpenAI RubyGems hack 💎, Malicious Twitch extensions 👾",
+      "sections": [
+        {
+          "name": "Attacks & Vulnerabilities",
+          "stories": [
+            {
+              "headline": "Telus Warns Customers of Account Breaches (2 minute read)",
+              "blurb": "Telus says attackers used compromised credentials to access consumer accounts from February 2025 through June 2026. Exposed data included contact details, account and billing records, partial card numbers, subscriptions, and payment history. Attackers attempted service transfers and changed some services. Telus reset credentials, added monitoring, notified police, and offered identity-theft protection.",
+              "url": "https://www.securityweek.com/telus-warns-customers-of-account-breaches/"
+            },
+            {
+              "headline": "More JFrog Artifactory bugs under attack, and all 3 have patches (3 minute read)",
+              "blurb": "Attackers are exploiting CVE-2026-42018, CVE-2026-42016, and CVE-2026-82329 in JFrog Artifactory. Activity includes admin-account creation, Rust backdoors, Groovy plugins, web shells, token minting, and key theft. Wiz found 59 percent exposed to CVE-2026-42016 and 62 percent to CVE-2026-42018, so please patch exposed instances, restrict network access, and audit privileged logins.",
+              "url": "https://www.theregister.com/security/2026/09/11/more-jfrog-artifactory-bugs-under-attack-and-all-3-have-patches/5295943"
+            },
+            {
+              "headline": "Skill Poisoning Turns AI Agents Into Malware Droppers (3 minute read)",
+              "blurb": "China's National Computer Virus Emergency Response Center is warning of \"skill poisoning\" attacks, where counterfeit plugins compromise AI agents to secretly download malware. Analysts have already identified eight malicious skill packs in popular agent repositories that impersonate legitimate tools, granting attackers unauthorized file access and remote-control capabilities. These poisoned plugins exploit an AI agent's natural task-execution design, bypassing the need for a user to actually click a suspicious link.",
+              "url": "https://ministryofcyberaffairs.com/news/skill-poisioning-turning-ai-agents-into-malware-droppers-warns-china-s-national-cert-66b8bba4-9ffd-4583-a6c7-122e8149e0e8"
+            }
+          ]
+        },
+        {
+          "name": "Strategies & Tactics",
+          "stories": [
+            {
+              "headline": "Writing More Secure Code with LLMs: Why \"Make No Mistakes\" Falls Short (13 minute read)",
+              "blurb": "Generic security prompts and OWASP-style checklists failed to improve AI coding security and occasionally increased the frequency of high-severity bugs when the Monad Foundation engineering team tasked an assistant with writing secure code for a URL unfurler. Utilizing an expert prompt that incorporates a specific application threat model reduced validated security findings by approximately 43 percent. Defenders must replace generic checklists with expert prompts incorporating specific application threat models to harden AI-generated code.",
+              "url": "https://monad.xyz/blog/writing-secure-code-with-llms"
+            },
+            {
+              "headline": "AI Makes Familiar Cyber Attacks Cheaper to Run (48 minute read)",
+              "blurb": "Anthropic's threat intelligence report demonstrates that artificial intelligence lowers the cost of familiar cyber attacks against targeted organizations. The technology automates reconnaissance, retooling loops, and campaign coordination. Defenders must reassess their controls against repeated, parallel, and fast-adapting attack attempts despite the continued expense of compute resources and specialized exploits.",
+              "url": "https://jasondoyle.ie/whitepapers/ai-makes-familiar-cyber-attacks-cheaper-to-run"
+            },
+            {
+              "headline": "Malicious Twitch Browser Extension Exposes 30,000 Users' OAuth Tokens to Russian Bot Service (6 minute read)",
+              "blurb": "Socket found that a cross-store browser extension, 'Twitch Enhanced Viewer | JeetBot', captures account OAuth tokens from Twitch pages. Current Chrome and Firefox builds add tokens to proxy redirect URLs for most viewed channels, but earlier builds sent tokens directly to set-token endpoints. The extension has about 31,000 installs across both stores, and anyone holding a token can access chat, whispers, account settings, and channel points. Remove the extension, disconnect Twitch sessions, and re-authenticate.",
+              "url": "https://socket.dev/blog/malicious-twitch-browser-extension"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "OpenThreat: what a security tool found in the open, as one file (2 minute read)",
+              "blurb": "ThreatCrush launched OpenThreat to share public repository findings, threat indicators, and advisories in a single-file format without exposing private data or unredacted secrets. LogicSRC co-developed the specification to serve these descriptors at a standard web path. Nichedb.dev introduced the first directory for reading and distributing these descriptors across RSS, JSON, and APIs.",
+              "url": "https://dev.profullstack.com/~anthony/blog/135-post.html"
+            },
+            {
+              "headline": "PHP Analysis Tools Catalog (GitHub Repo)",
+              "blurb": "A curated, auto-updated catalog of PHP static-analysis, code-quality, linting, metrics, refactoring, and security tools.",
+              "url": "https://github.com/ValentinNikolaev/php-analysis-tools-catalog"
+            },
+            {
+              "headline": "Boost (GitHub Repo)",
+              "blurb": "Boost wraps the commands your agents already run, turning noisy logs into compact, structured context.",
+              "url": "https://github.com/jfrog/boost"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Security Through Obscurity Is Dead And AI Delivered The Fatal Blow (6 minute read)",
+              "blurb": "Artificial intelligence has delivered a fatal blow to security through obscurity by enabling the rapid discovery of deeply buried vulnerabilities in aging code and proprietary systems. Security experts warn that this rapid discovery creates immense pressure on defenders by exposing critical operational technologies. Defenders must respond by shifting away from endless patching toward proactive process improvements and systemic prevention.",
+              "url": "https://www.theregister.com/security/2026/09/13/security-through-obscurity-is-dead-and-ai-delivered-the-fatal-blow/5296000"
+            },
+            {
+              "headline": "Everyone's Talking Past Each Other About the OpenAI/Huggingface Hack so Here's a Synthesized View (6 minute read)",
+              "blurb": "Joshua Saxes attempts to synthesize different perspectives from AI safety researchers, cybersecurity experts, and policymakers on the OpenAI/Huggingface hack. Alignment and security go hand in hand to provide traditional and AI-native controls, with policy also acting as a backstop. Security's job is to provide a deterministic framework to reduce the blast radius of what an agent can do, whereas alignment's job is to constrain what an agent wants to do.",
+              "url": "https://joshuasaxe181906.substack.com/p/everyones-talking-past-each-other"
+            },
+            {
+              "headline": "OpenAI agents carried out an undisclosed cyber-attack on RubyGems (4 minute read)",
+              "blurb": "Hundreds of malicious RubyGems packages appeared in May, attributed by researchers to internal OpenAI agents. The packages attempted API-key theft through an unreported RubyGems server flaw and used RubyDoc.info builds for arbitrary code execution. RubyGems halted registrations for four days, removed more than 500 packages, and later saw further uploads in May and June.",
+              "url": "https://www.rubyhack.ai/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "CRA vulnerability reporting with Daniel Thompson (35 minute read)",
+              "blurb": "The Open Source Security podcast notes that the European Union Cyber Resilience Act requires manufacturers to report actively exploited vulnerabilities to ENISA.",
+              "url": "https://opensourcesecurity.io/2026/2026-09-daniel-cra"
+            },
+            {
+              "headline": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data (5 minute read)",
+              "blurb": "Threat actors target Microsoft enterprise users with passkey lures to bypass multi-factor authentication.",
+              "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html"
+            },
+            {
+              "headline": "ENISA launches Single Reporting Platform as EU Cyber Resilience Act vulnerability reporting obligations take effect (2 minute read)",
+              "blurb": "ENISA launched its Single Reporting Platform for Cyber Resilience Act notifications.",
+              "url": "https://industrialcyber.co/regulation-standards-and-compliance/enisa-launches-single-reporting-platform-as-eu-cyber-resilience-act-vulnerability-reporting-obligations-take-effect/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Design — 2026-09-15",
+      "tagline": "Apple Controllers 🎮, Slack Vibe 💬, Miro Acquisition 🤝",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Apple is designing its own game controllers for iPhone, could be Beats branded (2 minute read)",
+              "blurb": "Apple is reportedly developing its own game controllers for iPhone, with beta code revealing two models that include thumbsticks, a D-pad, haptic feedback, and potentially built-in motion controls. The controllers may launch under the Beats brand, offering a more affordable option while strengthening gaming across iPhone, iPad, Mac, and Apple TV, where Apple continues to expand support for AAA titles and dedicated gaming accessories.",
+              "url": "https://9to5mac.com/2026/09/13/apple-designing-iphone-game-controller/"
+            },
+            {
+              "headline": "Slack Can Now Vibe-Code Interactive Charts and Reports inside Chats (4 minute read)",
+              "blurb": "Slackforce Surfaces lets Slackbot build interactive reports, polls, dashboards, presentations, and microsites directly inside a chat from a plain description. Slackbot pulls information from relevant conversations and connected apps such as Google Drive or Salesforce, and the result can be pinned to channels for colleagues to use. The feature is available to all customers with Slackbot enabled, including free users, with live data support arriving in October.",
+              "url": "https://slack.com/blog/productivity/slack-surfaces"
+            },
+            {
+              "headline": "Bending Spoons to Acquire Miro for $1.36 Billion in All-Cash Deal as Tech Buying Spree Accelerates (3 minute read)",
+              "blurb": "Bending Spoons is buying Miro in a $1.36 billion all-cash deal, days after closing its acquisition of Airtable. Miro brings around $600 million in annual recurring revenue, nearly 90 percent from business and enterprise customers, and roughly 4 million paying users. The transaction is expected to close in the fourth quarter of 2026, with some Miro shareholders reinvesting $295 million into Bending Spoons equity.",
+              "url": "https://techstartups.com/2026/09/10/bending-spoons-to-acquire-miro-for-1-36-billion-in-all-cash-deal-as-tech-buying-spree-accelerates/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "Accessible Colors Don't Exist (2 minute read)",
+              "blurb": "No single color can be accessible, because contrast is a property of two colors together rather than of one. WCAG asks for 4.5:1 on regular text and 3:1 on large text and UI components, so a bright yellow fails on white yet works on dark. Brands should hand designers a palette of pre-approved color combinations with sufficient contrast instead of chasing an accessible color.",
+              "url": "https://www.erikkroes.nl/blog/accessible-colours-dont-exist/"
+            },
+            {
+              "headline": "Limit the Number of Details (8 minute read)",
+              "blurb": "Every feature, control, mode, and exception competes for a team's finite attention, so limiting the number of details is what makes perfecting each one possible. The original iPod concentrated a thousand songs into one scroll wheel, while the Porsche 918's touchscreen reportedly controlled more than 800 functions. Software accumulates because another button is essentially free. Volkswagen has admitted that deleting physical buttons was a mistake.",
+              "url": "https://design.lightspark.com/limit-the-number-of-details"
+            },
+            {
+              "headline": "If you want to design for underserved users, look at farmer's markets (6 minute read)",
+              "blurb": "Designing for the \"bottom third\" means creating products that remove the cost and complexity that exclude underserved users rather than simply offering cheaper versions of existing solutions. By focusing on the barriers faced by people who try but fail to use a product, designers can simplify workflows, reduce support needs, and unlock entirely new markets—just as Square did by rethinking payment processing for small merchants.",
+              "url": "https://thedesignersfieldguide.substack.com/p/if-you-want-to-design-for-underserved"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Git-Based Visual Diffing, Made Easy (Website)",
+              "blurb": "Switch back and forth between branches and visually compare UI changes side by side — without ever touching your own working tree.",
+              "url": "https://sidebranch.dev/"
+            },
+            {
+              "headline": "The Book of Motion (Website)",
+              "blurb": "Why animation feels right, what it costs, and how to build it.",
+              "url": "https://book.motion.dev/"
+            },
+            {
+              "headline": "Generative Media Platform for Developers (Website)",
+              "blurb": "The world's best generative image, video, and audio models, all in one place. Develop and fine-tune models with serverless GPUs and on-demand clusters.",
+              "url": "https://fal.ai/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "AI Operating Principles (3 minute read)",
+              "blurb": "Five principles protect a strong creative practice as AI expands what designers can do, keeping human judgment firmly in control. They cover protecting the why over the how, staying in the unknown, earning the right to slow down, balancing logic with humanity, and refusing to normalize complexity. Bolting AI onto an existing process raises speed and output, but quality still depends on knowing what matters and when to stop.",
+              "url": "https://buzzusborne.com/writing/ai-operating-principles/"
+            },
+            {
+              "headline": "Typography Scales (6 minute read)",
+              "blurb": "A modular type scale can be computed directly from a base size and ratio using CSS pow(), instead of chaining each step from the previous one. Negative steps quickly generate unreadable sizes, such as 5.6px three steps below a 1.2rem base. Defining Heading, Body, and Detail categories with a minimum base size and only positive exponents keeps every generated size accessible.",
+              "url": "https://blog.damato.design/posts/typography-scales/"
+            },
+            {
+              "headline": "This bakery's clever branding was inspired by the irregular air pockets formed in dough (2 minute read)",
+              "blurb": "Montreal bakery chain Toledo has introduced a new brand identity inspired by the airy, irregular pockets found in laminated pastry dough, creating a flexible visual system that extends across packaging, signage, interiors, and digital touchpoints. Designed by Nouvelle Idée, the rebrand pairs a contemporary sans-serif wordmark with warm, bakery-inspired colors and organic shapes, balancing French baking heritage with a fresh, modern aesthetic that reflects the craftsmanship and character of its pastries.",
+              "url": "https://www.creativebloq.com/design/branding/this-bakerys-clever-branding-was-inspired-by-the-irregular-air-pockets-formed-in-dough"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Can NVIDIA and Adobe Work Together to Get Creatives to Actually Like AI? (3 minute read)",
+              "blurb": "Locally run AI agents in Photoshop, enabled by NVIDIA's RTX Spark, do the heavy lifting without overwriting the artist's sketch or reinterpreting the brief, which encourages experimentation if Adobe keeps the local-first approach.",
+              "url": "https://www.creativebloq.com/ai/can-nvidia-and-adobe-work-together-to-get-creatives-to-actually-like-ai"
+            },
+            {
+              "headline": "Cybercab Wait Times and UX: What Tesla Needs to Get Right (4 minute read)",
+              "blurb": "Tesla's Cybercab wait times in Austin are improving after the launch-week rush, but the fleet still needs more vehicles to consistently reach a 5–10 minute wait window.",
+              "url": "https://www.basenor.com/blogs/news/cybercab-wait-times-and-ux-what-tesla-needs-to-get-right"
             }
           ]
         }
