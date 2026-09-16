@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-16",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI Models & Policy",
+          "stories": [
+            {
+              "headline": "Google Introduces Gemini 3.8 Live and Extended Thinking",
+              "blurb": "Google DeepMind has launched Gemini 3.8 Live alongside an 'Extended Thinking' version, aiming to push the boundaries of real-time conversational reasoning and complex problem-solving.",
+              "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking"
+            },
+            {
+              "headline": "OpenAI Acquires Glass Imaging in a $300M+ Deal",
+              "blurb": "OpenAI has acquired computational photography startup Glass Imaging to integrate advanced edge-AI image processing and high-fidelity vision capabilities into its multimodal models.",
+              "url": null
+            },
+            {
+              "headline": "Mark Zuckerberg Sides With Nvidia on AI Safety Stance",
+              "blurb": "The Meta CEO joined Nvidia's Jensen Huang in arguing against development freezes, advocating instead for robust evaluation frameworks to address safety risks while keeping open-source innovation active.",
+              "url": null
+            },
+            {
+              "headline": "SWE-bench Leaderboard Faces Convergence Challenges",
+              "blurb": "A new research paper details how top-tier AI coding agents have effectively converged on the SWE-bench leaderboard, making it difficult to differentiate performance and raising the need for new evaluation metrics.",
+              "url": "https://arxiv.org/abs/2609.17394"
+            },
+            {
+              "headline": "An AI Agent Spent 5B Tokens to Earn Just $1.54",
+              "blurb": "An amusing developer experiment tasked an autonomous agent with building a business empire over three weeks, which resulted in billions of consumed tokens and a total lifetime revenue of under two dollars.",
+              "url": "https://dfdxlabs.com/research/2026/hans-kraemer"
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure & Hardware",
+          "stories": [
+            {
+              "headline": "AWS Service Outage in Middle East Persists After Strikes",
+              "blurb": "Amazon Web Services confirmed it is still unable to restore full operations to its Bahrain and UAE cloud facilities six months after they were targeted by physical strikes linked to Iran.",
+              "url": null
+            },
+            {
+              "headline": "MediaTek Beats Qualcomm to 2nm Process Node",
+              "blurb": "MediaTek has claimed a major semiconductor victory by shipping the first 2nm mobile chip inside Oppo's upcoming flagship device, beating Qualcomm in the race to next-gen silicon efficiency.",
+              "url": "https://startupfortune.com/mediatek-beats-qualcomm-to-2nm-with-the-chip-inside-oppos-find-x10-pro-max"
+            },
+            {
+              "headline": "Meta Plans Camera-Free Smart Glasses Amid Privacy Push",
+              "blurb": "To combat mounting public pushback and privacy concerns, Meta is reportedly developing a new iteration of its smart glasses that removes integrated cameras entirely while retaining audio and AI features.",
+              "url": "https://www.theinformation.com/articles/meta-launch-camera-free-smart-glasses-amid-mounting-privacy-concerns"
+            },
+            {
+              "headline": "Mapping the Reality of US Datacenter Moratoriums",
+              "blurb": "A comprehensive mapping of all 300 active local moratoriums across the US reveals that regional bans are not stalling the nationwide AI and datacenter expansion as previously feared.",
+              "url": "https://semianalysis.substack.com/p/everyone-says-datacenter-moratoriums"
+            }
+          ]
+        },
+        {
+          "name": "Software & Database Engineering",
+          "stories": [
+            {
+              "headline": "Testing Free-Threaded Python on Real-World Workloads",
+              "blurb": "An early assessment of Python 3.13's highly anticipated experimental free-threaded mode shows positive multi-core scaling benefits but warns of remaining ecosystem compatibility hurdles.",
+              "url": "https://thinhdanggroup.github.io/measuring-free-threaded-python"
+            },
+            {
+              "headline": "How an Uncommitted Read Created a Billion Row Versions in MySQL",
+              "blurb": "A technical postmortem details how a single long-running uncommitted read transaction created an overwhelming volume of row history versions, grinding a critical MySQL replica to a halt.",
+              "url": "https://explainanalyze.com/p/a-billion-row-versions-from-one-uncommitted-read-stalled-a-mysql-replica"
+            },
+            {
+              "headline": "Cloudflare Unveils Solution to Separate Search Traffic From AI Crawlers",
+              "blurb": "Cloudflare has introduced a new approach to help publishers remain discoverable in standard web search while programmatically preventing AI companies from scraping their content for training.",
+              "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
