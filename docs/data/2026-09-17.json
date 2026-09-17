@@ -2,85 +2,95 @@
   "date": "2026-09-17",
   "mode": "combined",
   "categories": [
-    "tech"
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design",
+    "data"
   ],
   "digests": [
     {
       "title": "TLDR Daily Digest",
-      "tagline": "Tech",
+      "tagline": "AI, IT, Web Dev, InfoSec, Design, Data",
       "sections": [
         {
-          "name": "AI & Models",
+          "name": "AI & Platform Evolution",
           "stories": [
             {
-              "headline": "GPT-6 Astra Leads Epoch AI's Capability Index",
-              "blurb": "Epoch AI's newly released capability index ranks OpenAI's unreleased GPT-6 Astra model at the top of the pack, fueling anticipation for the next leap in frontier AI performance.",
-              "url": "https://x.com/EpochAIResearch/status/2100279761339887847"
+              "headline": "Claude Merges Chat and Documents Into One Workspace",
+              "blurb": "Anthropic is merging Claude Cowork and chat into a single interface, introducing native document editing and slide presentations that can be presented or exported directly.",
+              "url": "https://claude.com/blog/cowork-is-now-claude"
             },
             {
-              "headline": "OpenAI Eyes Colossal $1.5 Trillion Private Valuation",
-              "blurb": "OpenAI is reportedly planning a massive private funding round that could value the artificial intelligence giant at up to $1.5 trillion, intentionally delaying its initial public offering.",
-              "url": "https://thenextweb.com/news/openai-funding-round-1-2-trillion-valuation-ipo"
+              "headline": "OpenAI Launches Sponsored Agents in ChatGPT",
+              "blurb": "OpenAI announced Sponsored Agents to let advertisers launch interactive brand chats inside ChatGPT alongside upgraded ad creation tools.",
+              "url": "https://openai.com/index/reimagining-advertising-with-ai/"
             },
             {
-              "headline": "Zuckerberg, Musk, and Huang Reportedly Stall White House AI Rules",
-              "blurb": "Top tech executives successfully lobbied to stall a comprehensive AI regulatory framework proposed by Google DeepMind's Demis Hassabis during private discussions with the Trump administration.",
-              "url": "https://www.wsj.com/tech/ai/inside-the-white-house-tussle-to-sway-trump-on-ai-0043d567?st=fVSiVP"
+              "headline": "DeepMind Launches New Safety and AGI Policy Institute",
+              "blurb": "Google DeepMind is launching a dedicated institute to study the safety, governance, and societal impacts of artificial general intelligence.",
+              "url": "https://x.com/ShaneLegg/status/2100229706641539248"
             },
             {
-              "headline": "Cohere and Aleph Alpha Partner for Sovereign European AI",
-              "blurb": "Enterprise AI leaders Cohere and Aleph Alpha have signed a definitive agreement to co-headquarter operations and deliver highly secure, sovereign AI solutions to transatlantic enterprise customers.",
-              "url": "https://thenextweb.com/news/cohere-aleph-alpha-definitive-agreement-transatlantic-sovereign-ai"
+              "headline": "Webflow Conf 2026 Unveils Massive CMS and Canvas Upgrades",
+              "blurb": "Webflow unveiled a massive suite of features including simultaneous multi-device canvas editing, visual AI code component tools, and huge publishing performance improvements.",
+              "url": "https://webflow.com/blog/2026-builder-keynote"
             }
           ]
         },
         {
-          "name": "Software & Engineering",
+          "name": "Dev, Data & Infrastructure",
           "stories": [
             {
-              "headline": "GitHub Migrates Copilot Runtime to Rust with Copilot's Help",
-              "blurb": "GitHub engineers successfully ported the high-throughput Copilot service runtime to Rust by leveraging the AI coding assistant itself to translate and optimize legacy code.",
-              "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot"
+              "headline": "Nous Research Coordinates 1,393 AI Agents to Refactor Repository",
+              "blurb": "Nous Research successfully coordinated nearly 1,400 subagents to refactor a massive Python repository for less than $20,000 in API costs.",
+              "url": "https://nousresearch.com/refactoring-hermes-with-1393-agents"
             },
             {
-              "headline": "macOS 27 Golden Gate Released with Critical Developer Updates",
-              "blurb": "The public launch of macOS 27 introduces significant low-level enhancements, tooling improvements, and API deprecations crucial for modern Apple platform developers.",
-              "url": "https://blakecrosley.com/blog/macos-27-golden-gate-release"
+              "headline": "PostgreSQL 19 Introduces Plan Advice Serialization",
+              "blurb": "PostgreSQL 19 introduces serialization of query plans, making it easier for database administrators to pin proven execution paths across migrations.",
+              "url": "https://tapoueh.org/blog/2026/09/plan-advice-in-postgresql-19/"
             },
             {
-              "headline": "Optimizing vLLM's Prefix Cache for Multi-Turn AI Agents",
-              "blurb": "This technical deep dive explores prefix caching techniques in vLLM to keep KV caches warm between agent turns, drastically reducing latency for complex, multi-step LLM interactions.",
-              "url": "https://doug.sh/posts/vllm-kv-cache-agents"
+              "headline": "DuckDB Releases Native Query Skills for Claude Code",
+              "blurb": "DuckDB's new plugin allows Claude Code to run queries directly against local and remote datasets rather than relying on slow, custom-generated Python scripts.",
+              "url": "https://duckdb.org/2026/09/16/duckdb-skills"
             },
             {
-              "headline": "DNA Computer Solves Complex Mathematics Without Power",
-              "blurb": "In a biological computing breakthrough, researchers have demonstrated a wire-free DNA processor capable of solving difficult math problems without relying on continuous electricity.",
-              "url": "https://interestingengineering.com/science/first-of-its-kind-dna-computer-solves-complex-math-without-wires-or-continuous-power"
+              "headline": "Why Single-Threaded Redis Gets Blocked by Slow Commands",
+              "blurb": "Because Redis processes commands single-threaded, common mistakes like running KEYS or FLUSHALL will block all client traffic and cause major latency spikes.",
+              "url": "https://ankit-rana.com/logs/53-redis-single-threaded-keys-command/"
+            },
+            {
+              "headline": "The Journey Behind Hand-Drawing Cursor's Icon Library",
+              "blurb": "Designer Marek Minor outlines his year-long, meticulous journey hand-drawing Cursor's entire multi-size icon library to replace its generic VS Code heritage.",
+              "url": "https://www.casestudy.club/marek-minor-interview"
             }
           ]
         },
         {
-          "name": "IT, Security & Infrastructure",
+          "name": "Security & IT Operations",
           "stories": [
             {
-              "headline": "Physical Attack on Amazon Data Centers Causes Permanent Data Loss",
-              "blurb": "A military strike launched by Iran targeting Amazon Web Services data centers has caused unrecoverable customer data loss, underscoring the physical vulnerabilities of cloud infrastructure.",
-              "url": "https://arstechnica.com/gadgets/2026/09/iran-strikes-on-amazon-data-centers-caused-permanent-loss-of-customer-data"
+              "headline": "Chinese Hackers Exploit Critical Sogou Input Method Bug",
+              "blurb": "Attackers targeted hundreds of millions of Windows users by chaining an outdated Chromium engine flaw inside Tencent's popular Sogou keyboard app to gain root control.",
+              "url": "https://www.securityweek.com/chinese-hackers-exploit-critical-tencent-software-flaw-for-one-click-code-execution/"
             },
             {
-              "headline": "Global Salesforce Outage Disrupts Enterprise Workflows",
-              "blurb": "A massive, multi-region service disruption has knocked out key Salesforce services, leaving enterprise customers worldwide temporarily unable to access critical business data.",
-              "url": "https://thecybersecguru.com/news/salesforce-down-outage-september-2026"
+              "headline": "Double Outage Hits Salesforce and Google Drive",
+              "blurb": "Widespread service disruptions hit both Google Drive and Salesforce on the same day, illustrating enterprise vulnerability to critical cloud service dependencies.",
+              "url": "https://www.barrons.com/articles/salesforce-stock-google-service-outage-dreamforce-f911b1b2"
             },
             {
-              "headline": "Appeals Court Rules Embedding Hyperlinks is Entirely Legal",
-              "blurb": "Applying a new legal test, a federal appeals court ruled that embedding links to third-party content does not constitute copyright infringement, securing a major victory for the architecture of the open web.",
-              "url": null
+              "headline": "Reverse-Engineering Apple’s Private Find My Network",
+              "blurb": "A developer successfully fuzzed and reversed Apple's proprietary Find My APIs to track devices and fetch location telemetry from a Linux machine.",
+              "url": "https://zerotistic.blog/posts/find-my-people-linux/"
             },
             {
-              "headline": "Secret Severance Deals Revealed in Automattic Leadership Clash",
-              "blurb": "Internal filings reveal that Automattic's interim CEO and top legal chief signed mutual safety-net severance agreements during the brief, high-tension attempt to oust founder Matt Mullenweg.",
-              "url": "https://techcrunch.com/2026/09/16/automattics-interim-ceo-and-legal-chief-signed-reciprocal-severance-deals-during-mullenwegs-brief-ouster"
+              "headline": "Unsecured API Exposes 7 Million CenterPoint Energy Records",
+              "blurb": "A major Texas energy utility suffered a massive breach exposing over 7 million customer records due to an API lacking rate limits or authorization tokens.",
+              "url": "https://securityaffairs.com/199170/data-breach/texas-utility-centerpoint-energy-confirms-data-breach-after-hacker-claims-7-49m-records-stolen.html"
             }
           ]
         }
