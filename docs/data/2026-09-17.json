@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-17",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "GPT-6 Astra Leads Epoch AI's Capability Index",
+              "blurb": "Epoch AI's newly released capability index ranks OpenAI's unreleased GPT-6 Astra model at the top of the pack, fueling anticipation for the next leap in frontier AI performance.",
+              "url": "https://x.com/EpochAIResearch/status/2100279761339887847"
+            },
+            {
+              "headline": "OpenAI Eyes Colossal $1.5 Trillion Private Valuation",
+              "blurb": "OpenAI is reportedly planning a massive private funding round that could value the artificial intelligence giant at up to $1.5 trillion, intentionally delaying its initial public offering.",
+              "url": "https://thenextweb.com/news/openai-funding-round-1-2-trillion-valuation-ipo"
+            },
+            {
+              "headline": "Zuckerberg, Musk, and Huang Reportedly Stall White House AI Rules",
+              "blurb": "Top tech executives successfully lobbied to stall a comprehensive AI regulatory framework proposed by Google DeepMind's Demis Hassabis during private discussions with the Trump administration.",
+              "url": "https://www.wsj.com/tech/ai/inside-the-white-house-tussle-to-sway-trump-on-ai-0043d567?st=fVSiVP"
+            },
+            {
+              "headline": "Cohere and Aleph Alpha Partner for Sovereign European AI",
+              "blurb": "Enterprise AI leaders Cohere and Aleph Alpha have signed a definitive agreement to co-headquarter operations and deliver highly secure, sovereign AI solutions to transatlantic enterprise customers.",
+              "url": "https://thenextweb.com/news/cohere-aleph-alpha-definitive-agreement-transatlantic-sovereign-ai"
+            }
+          ]
+        },
+        {
+          "name": "Software & Engineering",
+          "stories": [
+            {
+              "headline": "GitHub Migrates Copilot Runtime to Rust with Copilot's Help",
+              "blurb": "GitHub engineers successfully ported the high-throughput Copilot service runtime to Rust by leveraging the AI coding assistant itself to translate and optimize legacy code.",
+              "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot"
+            },
+            {
+              "headline": "macOS 27 Golden Gate Released with Critical Developer Updates",
+              "blurb": "The public launch of macOS 27 introduces significant low-level enhancements, tooling improvements, and API deprecations crucial for modern Apple platform developers.",
+              "url": "https://blakecrosley.com/blog/macos-27-golden-gate-release"
+            },
+            {
+              "headline": "Optimizing vLLM's Prefix Cache for Multi-Turn AI Agents",
+              "blurb": "This technical deep dive explores prefix caching techniques in vLLM to keep KV caches warm between agent turns, drastically reducing latency for complex, multi-step LLM interactions.",
+              "url": "https://doug.sh/posts/vllm-kv-cache-agents"
+            },
+            {
+              "headline": "DNA Computer Solves Complex Mathematics Without Power",
+              "blurb": "In a biological computing breakthrough, researchers have demonstrated a wire-free DNA processor capable of solving difficult math problems without relying on continuous electricity.",
+              "url": "https://interestingengineering.com/science/first-of-its-kind-dna-computer-solves-complex-math-without-wires-or-continuous-power"
+            }
+          ]
+        },
+        {
+          "name": "IT, Security & Infrastructure",
+          "stories": [
+            {
+              "headline": "Physical Attack on Amazon Data Centers Causes Permanent Data Loss",
+              "blurb": "A military strike launched by Iran targeting Amazon Web Services data centers has caused unrecoverable customer data loss, underscoring the physical vulnerabilities of cloud infrastructure.",
+              "url": "https://arstechnica.com/gadgets/2026/09/iran-strikes-on-amazon-data-centers-caused-permanent-loss-of-customer-data"
+            },
+            {
+              "headline": "Global Salesforce Outage Disrupts Enterprise Workflows",
+              "blurb": "A massive, multi-region service disruption has knocked out key Salesforce services, leaving enterprise customers worldwide temporarily unable to access critical business data.",
+              "url": "https://thecybersecguru.com/news/salesforce-down-outage-september-2026"
+            },
+            {
+              "headline": "Appeals Court Rules Embedding Hyperlinks is Entirely Legal",
+              "blurb": "Applying a new legal test, a federal appeals court ruled that embedding links to third-party content does not constitute copyright infringement, securing a major victory for the architecture of the open web.",
+              "url": null
+            },
+            {
+              "headline": "Secret Severance Deals Revealed in Automattic Leadership Clash",
+              "blurb": "Internal filings reveal that Automattic's interim CEO and top legal chief signed mutual safety-net severance agreements during the brief, high-tension attempt to oust founder Matt Mullenweg.",
+              "url": "https://techcrunch.com/2026/09/16/automattics-interim-ceo-and-legal-chief-signed-reciprocal-severance-deals-during-mullenwegs-brief-ouster"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
