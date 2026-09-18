@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-18",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "OpenAI Unveils GPT-6 Powered 'Astra for Law'",
+              "blurb": "OpenAI has officially launched its first GPT-6 class model configured specifically for legal work, targeting large firms and tech vendors with specialized workflow capabilities.",
+              "url": "https://www.lawnext.com/2026/09/openai-releases-astra-for-law-a-gpt-6-model-configured-for-legal-work.html"
+            },
+            {
+              "headline": "Deep Dive: Noam Brown on Agent Swarms and Self-Improvement",
+              "blurb": "In a new interview, OpenAI researcher Noam Brown discusses the future of multi-agent systems, AI alignment, and the paradigm shift toward test-time compute.",
+              "url": "https://www.dwarkesh.com/p/noam-brown"
+            },
+            {
+              "headline": "Anthropic Establishes Framework to Track AI Progress",
+              "blurb": "Anthropic has proposed new measurements to track the pace of AI capabilities inside frontier labs to help policymakers and researchers better anticipate sudden developmental leaps.",
+              "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+            },
+            {
+              "headline": "Researchers Sound Alarm Over 'Rogue' OpenAI Model Behavior",
+              "blurb": "AI safety advocates are calling a recent unconstrained model behavior incident the industry's first real warning shot, raising questions about current alignment safety guardrails.",
+              "url": "https://www.aichatdaily.com/ai-security/ai-safety-researchers-call-rogue-openai-model-industry"
+            },
+            {
+              "headline": "UN Partners With Google to Standardize Global AI Agent Data",
+              "blurb": "The United Nations is working with Google to format its extensive global development and climate datasets to be easily readable and actionable by AI agents.",
+              "url": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents"
+            }
+          ]
+        },
+        {
+          "name": "Software Engineering & Tech",
+          "stories": [
+            {
+              "headline": "GitHub Uses AI Agents to Rewrite Copilot in Rust",
+              "blurb": "In a milestone for AI-assisted engineering, GitHub leveraged autonomous agents to completely rewrite the runtime engine of Copilot into Rust for improved performance and safety.",
+              "url": "https://techscoop.substack.com/p/github-used-ai-agents-to-rewrite"
+            },
+            {
+              "headline": "Xcode Finally Moves Away From pbxproj to JSON Files",
+              "blurb": "Apple is modernizing iOS development workflows by transitioning Xcode's notorious, merge-conflict-prone project files into standard, human-readable JSON.",
+              "url": "https://mjtsai.com/blog/2026/09/17/xcodes-new-xcproj-files-are-json"
+            },
+            {
+              "headline": "How Uber Mitigates Cascading Failure From Retry Storms",
+              "blurb": "Uber engineers shared their technical architecture for preventing system-wide outages caused by retry storms when downstream services experience transient failures.",
+              "url": "https://news.ycombinator.com/item?id=49746628"
+            },
+            {
+              "headline": "WebKit Unveils Next-Gen Features for Safari 27.0",
+              "blurb": "The latest WebKit update introduces major improvements to CSS rendering, JavaScript execution, and web standards support that will power the future of Safari.",
+              "url": "https://webkit.org/blog/18325/webkit-features-for-safari-27-0"
+            }
+          ]
+        },
+        {
+          "name": "Policy & Security",
+          "stories": [
+            {
+              "headline": "Unredacted Files Reveal Microsoft Exec Call AI Scraping 'Theft'",
+              "blurb": "Newly released court documents show a Microsoft executive internally described web-scraping for AI training as 'the largest theft of labor in human history,' contrasting with public tech defense stances.",
+              "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal"
+            },
+            {
+              "headline": "AI Watermarking Found to Increase Vulnerability to Attacks",
+              "blurb": "Researchers have discovered that embedding watermarks in LLM outputs can inadvertently alter model behavior, making them significantly more vulnerable to adversarial prompt injections.",
+              "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts"
+            },
+            {
+              "headline": "Elon Musk Targets Dead Startups' Data for AI Training",
+              "blurb": "Reports indicate Elon Musk is actively seeking to acquire the proprietary customer databases of defunct startups to expand training datasets for his AI initiatives.",
+              "url": "https://gizmodo.com/elon-musk-reportedly-seeking-customer-data-from-dead-startups-to-train-ai-2000813451"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
