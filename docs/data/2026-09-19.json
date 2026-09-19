@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-19",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "OpenAI Debuts GPT-6 Astra for Legal Work",
+              "blurb": "OpenAI has officially launched Astra for Law, a specialized GPT-6 model designed for high-complexity legal work, while early benchmarks show the model breaking long-standing programming complexity boundaries.",
+              "url": "https://www.lawnext.com/2026/09/openai-releases-astra-for-law-a-gpt-6-model-configured-for-legal-work.html"
+            },
+            {
+              "headline": "Anthropic Targets New Model Release to Counter OpenAI",
+              "blurb": "Anthropic is reportedly weighing a major new model release to challenge OpenAI's GPT-6 Astra ahead of its upcoming IPO, which has been pushed to November.",
+              "url": "https://insideai.news/news/ai-in-business/anthropic-new-ai-model-release/12306"
+            },
+            {
+              "headline": "Mistral and Mozilla Partner for In-Browser AI",
+              "blurb": "Mistral AI and Mozilla are partnering to deliver fast, private, and localized AI models natively integrated inside the Firefox browser.",
+              "url": "https://mistral.ai/news/mistral-x-mozilla"
+            },
+            {
+              "headline": "The LLM 'Doom Loop' and Web Destruction",
+              "blurb": "Both OpenAI and Microsoft have admitted that scraping the web to train LLMs risks destroying the very internet ecosystem that feeds their models.",
+              "url": "https://www.404media.co/doom-loop-openai-and-microsoft-admits-llms-are-destroying-the-web-and-built-on-theft"
+            },
+            {
+              "headline": "Anthropic Quietly Builds Robot-Operated Biology Lab",
+              "blurb": "Despite publicly raising alarms about AI-aided bioweapons, Anthropic has set up a private, robot-run lab in the US to test Claude's hands-on scientific capabilities.",
+              "url": "https://gizmodo.com/while-issuing-warnings-about-ai-made-bioweapons-anthropic-quietly-set-up-an-ai-run-robot-operated-biology-lab-here-in-the-us-2000814092"
+            }
+          ]
+        },
+        {
+          "name": "Software Engineering & Dev Tools",
+          "stories": [
+            {
+              "headline": "Migrating GitHub Copilot's Runtime to Rust Using Copilot",
+              "blurb": "GitHub successfully rewrote Copilot's core agent runtime from TypeScript to Rust, leveraging Copilot itself to automate the challenging cross-language migration.",
+              "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot"
+            },
+            {
+              "headline": "Cloudflare Optimizes Memory to Save 100TB of RAM",
+              "blurb": "By replacing traditional hash tables with succinct data structures in Rust, Cloudflare drastically cut memory overhead across its global caching infrastructure.",
+              "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math"
+            },
+            {
+              "headline": "Establishing the 12-Factor Standard for AI Agents",
+              "blurb": "A new open-source project introduces the '12-Factor Agents' methodology to help developers design robust, resilient, and production-ready LLM agents.",
+              "url": "https://github.com/humanlayer/12-factor-agents"
+            },
+            {
+              "headline": "Martin Fowler Outlines Why He Dislikes LLMs",
+              "blurb": "Renowned software pioneer Martin Fowler critiques LLMs, warning that they generate plausible-sounding falsehoods and erode the fundamental human understanding required to write good software.",
+              "url": "https://martinfowler.com/articles/2026-dont-like-llms.html"
+            },
+            {
+              "headline": "WebKit Unveils Features for Safari 27.0",
+              "blurb": "Apple's WebKit team has rolled out a major feature release for Safari 27.0, adding powerful updates to CSS, Javascript APIs, and web rendering capabilities.",
+              "url": "https://webkit.org/blog/18325/webkit-features-for-safari-27-0"
+            }
+          ]
+        },
+        {
+          "name": "Robotics & Autonomous Systems",
+          "stories": [
+            {
+              "headline": "Figure's Helix 2.5 Achieves Zero-Shot Home Generalization",
+              "blurb": "Figure's humanoid robot model has successfully generalized to 30 completely unseen home environments without needing prior training or fine-tuning.",
+              "url": "https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization"
+            },
+            {
+              "headline": "Joby Completes 3,199-Mile Autonomous Flight",
+              "blurb": "Joby Aviation completed a cross-country flight spanning over three thousand miles in a Cessna Caravan with zero pilot input, demonstrating a massive leap for autonomous aviation.",
+              "url": "https://dronexl.co/2026/09/18/joby-autonomous-cross-country-cessna-caravan"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
