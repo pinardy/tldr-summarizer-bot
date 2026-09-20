@@ -1,0 +1,515 @@
+{
+  "date": "2026-09-20",
+  "mode": "per-newsletter",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Tech — 2026-09-20",
+      "tagline": "Get the free daily email with summaries of the most interesting stories in startups, tech, and programming.",
+      "sections": [
+        {
+          "name": "",
+          "stories": [
+            {
+              "headline": "Saving another 100TB of RAM with math (and Rust)",
+              "blurb": "blog.cloudflare.com 11 min read",
+              "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math"
+            }
+          ]
+        },
+        {
+          "name": "Saving another 100TB of RAM with math (and Rust)",
+          "stories": [
+            {
+              "headline": "GitHub - MiniMax-AI/minimax-code: An open-source coding agent for your terminal, powered by MiniMax.",
+              "blurb": "github.com 5 min read",
+              "url": "https://github.com/MiniMax-AI/minimax-code"
+            }
+          ]
+        },
+        {
+          "name": "GitHub - MiniMax-AI/minimax-code: An open-source coding agent for your terminal, powered by MiniMax.",
+          "stories": [
+            {
+              "headline": "Muse Platform",
+              "blurb": "muse.ai 1 min read",
+              "url": "http://muse.ai/platform"
+            }
+          ]
+        },
+        {
+          "name": "Muse Platform",
+          "stories": [
+            {
+              "headline": "RSA-896",
+              "blurb": "saweis.net 1 min read",
+              "url": "https://saweis.net/posts/rsa-896.html"
+            }
+          ]
+        },
+        {
+          "name": "RSA-896",
+          "stories": [
+            {
+              "headline": "Measurements for understanding the pace of AI development inside frontier labs \\ Anthropic",
+              "blurb": "anthropic.com 19 min read",
+              "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+            }
+          ]
+        },
+        {
+          "name": "Measurements for understanding the pace of AI development inside frontier labs \\ Anthropic",
+          "stories": [
+            {
+              "headline": "Sources: Polymarket CEO Shayne Coplan dismissed concerns after fraudsters tried to launder $10M+ from stolen cards to clean accounts via its wagers in February",
+              "blurb": "wsj.com 1 min read",
+              "url": "https://www.wsj.com/business/polymarkets-fraud-regulators-coplan-5f418ab0?st=MJjszi"
+            }
+          ]
+        },
+        {
+          "name": "Sources: Polymarket CEO Shayne Coplan dismissed concerns after fraudsters tried to launder $10M+ from stolen cards to clean accounts via its wagers in February",
+          "stories": [
+            {
+              "headline": "Anthropic Weighs New AI Model Release Ahead of IPO to Counter OpenAI’s GPT-6 Astra",
+              "blurb": "insideai.news 3 min read",
+              "url": "https://insideai.news/news/ai-in-business/anthropic-new-ai-model-release/12306"
+            }
+          ]
+        },
+        {
+          "name": "Anthropic Weighs New AI Model Release Ahead of IPO to Counter OpenAI’s GPT-6 Astra",
+          "stories": [
+            {
+              "headline": "There's no point at which turning your brain off will work",
+              "blurb": "danluu.com 8 min read",
+              "url": "https://danluu.com/brain-off"
+            }
+          ]
+        },
+        {
+          "name": "There's no point at which turning your brain off will work",
+          "stories": [
+            {
+              "headline": "Anthropic Adds a Coordinator to Claude Projects for Running AI Work in Parallel",
+              "blurb": "devops.com 3 min read",
+              "url": "https://devops.com/anthropic-adds-a-coordinator-to-claude-projects-for-running-ai-work-in-parallel"
+            }
+          ]
+        },
+        {
+          "name": "Anthropic Adds a Coordinator to Claude Projects for Running AI Work in Parallel",
+          "stories": [
+            {
+              "headline": "GitHub - humanlayer/12-factor-agents: What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+              "blurb": "github.com 6 min read",
+              "url": "https://github.com/humanlayer/12-factor-agents"
+            }
+          ]
+        },
+        {
+          "name": "GitHub - humanlayer/12-factor-agents: What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+          "stories": [
+            {
+              "headline": "Noam Brown – Agent swarms, alignment, & recursive self-improvement",
+              "blurb": "dwarkesh.com 60 min read",
+              "url": "https://www.dwarkesh.com/p/noam-brown"
+            }
+          ]
+        },
+        {
+          "name": "Noam Brown – Agent swarms, alignment, & recursive self-improvement",
+          "stories": [
+            {
+              "headline": "Where I stand on RSI",
+              "blurb": "interconnects.ai 8 min read",
+              "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi"
+            }
+          ]
+        },
+        {
+          "name": "Where I stand on RSI",
+          "stories": [
+            {
+              "headline": "Alibaba Ships Qwen3.8-Omni-Flash Native Omnimodal Model With 1M Context",
+              "blurb": "pandaily.com 1 min read",
+              "url": "https://pandaily.com/qwen3-8-omni-flash-native-omni-model"
+            }
+          ]
+        },
+        {
+          "name": "Alibaba Ships Qwen3.8-Omni-Flash Native Omnimodal Model With 1M Context",
+          "stories": [
+            {
+              "headline": "Unsealed documents show Microsoft, OpenAI executives all too aware of ethical concerns ↦",
+              "blurb": "sixcolors.com 1 min read",
+              "url": "https://sixcolors.com/link/2026/09/unsealed-documents-show-microsoft-openai-executives-all-too-aware-of-ethical-concerns"
+            }
+          ]
+        },
+        {
+          "name": "Unsealed documents show Microsoft, OpenAI executives all too aware of ethical concerns ↦",
+          "stories": [
+            {
+              "headline": "Mac mini alternatives for local LLMs: M6, M5 and Strix Halo",
+              "blurb": "terminalbytes.com 10 min read",
+              "url": "https://terminalbytes.com/mac-mini-alternatives-local-llm-2026"
+            }
+          ]
+        },
+        {
+          "name": "Mac mini alternatives for local LLMs: M6, M5 and Strix Halo",
+          "stories": [
+            {
+              "headline": "WebKit Features for Safari 27.0",
+              "blurb": "webkit.org 84 min read",
+              "url": "https://webkit.org/blog/18325/webkit-features-for-safari-27-0"
+            }
+          ]
+        },
+        {
+          "name": "WebKit Features for Safari 27.0",
+          "stories": [
+            {
+              "headline": "Why Do We Need Human Mathematicians Anymore?",
+              "blurb": "terrytao.wordpress.com 13 min read",
+              "url": "https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore"
+            }
+          ]
+        },
+        {
+          "name": "Why Do We Need Human Mathematicians Anymore?",
+          "stories": [
+            {
+              "headline": "Figure Introduces Helix 2.5, Tested Zero-Shot in 30 Unseen Homes",
+              "blurb": "unite.ai 3 min read",
+              "url": "https://www.unite.ai/figure-introduces-helix-2-5-tested-zero-shot-in-30-unseen-homes"
+            }
+          ]
+        },
+        {
+          "name": "Figure Introduces Helix 2.5, Tested Zero-Shot in 30 Unseen Homes",
+          "stories": [
+            {
+              "headline": "After being sidelined, Boeing's Starliner to get starring role in NASA's spaceflight plans",
+              "blurb": "arstechnica.com 1 min read",
+              "url": "https://arstechnica.com/space/2026/09/nasa-to-order-more-starliner-missions-and-help-certify-a-new-rocket-to-keep-it-flying"
+            }
+          ]
+        },
+        {
+          "name": "After being sidelined, Boeing's Starliner to get starring role in NASA's spaceflight plans",
+          "stories": [
+            {
+              "headline": "GitHub Used AI Agents to Rewrite Copilot’s Runtime in Rust",
+              "blurb": "techscoop.substack.com 12 min read",
+              "url": "https://techscoop.substack.com/p/github-used-ai-agents-to-rewrite"
+            }
+          ]
+        },
+        {
+          "name": "GitHub Used AI Agents to Rewrite Copilot’s Runtime in Rust",
+          "stories": [
+            {
+              "headline": "Will SpaceX's Orbiting Data Centers Rain Debris Over Earth?",
+              "blurb": "au.pcmag.com 4 min read",
+              "url": "https://au.pcmag.com/networking/119990/will-spacexs-orbiting-data-centers-rain-debris-over-earth"
+            }
+          ]
+        },
+        {
+          "name": "Will SpaceX's Orbiting Data Centers Rain Debris Over Earth?",
+          "stories": [
+            {
+              "headline": "OpenAI adds Chrome extensions to ChatGPT's desktop browser",
+              "blurb": "runtimewire.com 2 min read",
+              "url": "https://runtimewire.com/article/openai-chatgpt-desktop-browser-chrome-extensions"
+            }
+          ]
+        },
+        {
+          "name": "OpenAI adds Chrome extensions to ChatGPT's desktop browser",
+          "stories": [
+            {
+              "headline": "Grit your teeth and ship it",
+              "blurb": "seangoedecke.com 3 min read",
+              "url": "https://www.seangoedecke.com/grit-your-teeth-and-ship-it"
+            }
+          ]
+        },
+        {
+          "name": "Grit your teeth and ship it",
+          "stories": [
+            {
+              "headline": "Your diff has a demo now with Junie /demo",
+              "blurb": "blog.jetbrains.com 5 min read",
+              "url": "https://blog.jetbrains.com/junie/2026/09/junie-demo"
+            }
+          ]
+        },
+        {
+          "name": "Your diff has a demo now with Junie /demo",
+          "stories": [
+            {
+              "headline": "Joby Flew 3,199 Miles With Zero Pilot Input, in a Cessna Caravan",
+              "blurb": "dronexl.co 5 min read",
+              "url": "https://dronexl.co/2026/09/18/joby-autonomous-cross-country-cessna-caravan"
+            }
+          ]
+        },
+        {
+          "name": "Joby Flew 3,199 Miles With Zero Pilot Input, in a Cessna Caravan",
+          "stories": [
+            {
+              "headline": "How did AMD Ryzen get 50% faster in two years?",
+              "blurb": "lemire.me 1 min read",
+              "url": "https://lemire.me/blog/2026/09/18/how-did-amd-ryzen-get-50-faster-in-two-years"
+            }
+          ]
+        },
+        {
+          "name": "How did AMD Ryzen get 50% faster in two years?",
+          "stories": [
+            {
+              "headline": "GitHub - StarTrail-org/PixelRAG: https://arxiv.org/abs/2606.28344. The end of web parsing. The beginning of scalable pixel-native search. link: https://pixelrag.ai/",
+              "blurb": "github.com 7 min read",
+              "url": "https://github.com/StarTrail-org/PixelRAG"
+            }
+          ]
+        },
+        {
+          "name": "GitHub - StarTrail-org/PixelRAG: https://arxiv.org/abs/2606.28344. The end of web parsing. The beginning of scalable pixel-native search. link: https://pixelrag.ai/",
+          "stories": [
+            {
+              "headline": "The Overhang",
+              "blurb": "oneusefulthing.org 9 min read",
+              "url": "https://www.oneusefulthing.org/p/the-overhang"
+            }
+          ]
+        },
+        {
+          "name": "The Overhang",
+          "stories": [
+            {
+              "headline": "Compsci grads facing recession-like job prospects thanks to AI",
+              "blurb": "theregister.com 2 min read",
+              "url": "https://www.theregister.com/ai-and-ml/2026/09/18/compsci-grads-facing-recession-like-job-prospects-thanks-to-ai/5297537"
+            }
+          ]
+        },
+        {
+          "name": "Compsci grads facing recession-like job prospects thanks to AI",
+          "stories": [
+            {
+              "headline": "I don't like LLMs",
+              "blurb": "martinfowler.com 2 min read",
+              "url": "https://martinfowler.com/articles/2026-dont-like-llms.html"
+            }
+          ]
+        },
+        {
+          "name": "I don't like LLMs",
+          "stories": [
+            {
+              "headline": "Cloudflare Quick Tunnels",
+              "blurb": "try.cloudflare.com 1 min read",
+              "url": "https://try.cloudflare.com"
+            }
+          ]
+        },
+        {
+          "name": "Cloudflare Quick Tunnels",
+          "stories": [
+            {
+              "headline": "Anthropic quietly sets up biology lab as it ramps AI drug program",
+              "blurb": "economictimes.indiatimes.com 9 min read",
+              "url": "https://economictimes.indiatimes.com/tech/technology/anthropic-quietly-sets-up-biology-lab-as-it-ramps-ai-drug-program/articleshow/134340552.cms"
+            }
+          ]
+        },
+        {
+          "name": "Anthropic quietly sets up biology lab as it ramps AI drug program",
+          "stories": [
+            {
+              "headline": "Premium: The Hater's Guide To AI Debt (Part 1)",
+              "blurb": "wheresyoured.at 30 min read",
+              "url": "https://www.wheresyoured.at/premium-the-haters-guide-to-ai-debt-part-1"
+            }
+          ]
+        },
+        {
+          "name": "Premium: The Hater's Guide To AI Debt (Part 1)",
+          "stories": [
+            {
+              "headline": "Decisions, not strings: I ran an open System One model on my desk",
+              "blurb": "devquasar.com 8 min read",
+              "url": "https://devquasar.com/ai/decisions-not-strings-i-ran-an-open-system-one-model-on-my-desk"
+            }
+          ]
+        },
+        {
+          "name": "Decisions, not strings: I ran an open System One model on my desk",
+          "stories": [
+            {
+              "headline": "Claude gets 2 new features & a simpler platform",
+              "blurb": "superhuman.ai 4 min read",
+              "url": "https://www.superhuman.ai/p/claude-gets-2-new-features-a-simpler-platform"
+            }
+          ]
+        },
+        {
+          "name": "Claude gets 2 new features & a simpler platform",
+          "stories": [
+            {
+              "headline": "Partnering with Accenture on embedded evaluation \\ Anthropic",
+              "blurb": "anthropic.com 2 min read",
+              "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
+            }
+          ]
+        },
+        {
+          "name": "Partnering with Accenture on embedded evaluation \\ Anthropic",
+          "stories": [
+            {
+              "headline": "Qwen launches Qwen3.8-LiveTranslate real-time simultaneous interpretation model across 60 languages · KBlip - Noise-Free AI News Aggregator",
+              "blurb": "kblip.com 1 min read",
+              "url": "https://kblip.com/releases/qwen-launches-qwen3-8-livetranslate-real-time-simultaneous-EGJUIvr"
+            }
+          ]
+        },
+        {
+          "name": "Qwen launches Qwen3.8-LiveTranslate real-time simultaneous interpretation model across 60 languages · KBlip - Noise-Free AI News Aggregator",
+          "stories": [
+            {
+              "headline": "I Prefer Thoughtful Engineering",
+              "blurb": "akshay.co 4 min read",
+              "url": "https://akshay.co/posts/i-prefer-thoughtful-engineering"
+            }
+          ]
+        },
+        {
+          "name": "I Prefer Thoughtful Engineering",
+          "stories": [
+            {
+              "headline": "Explaining Specs",
+              "blurb": "ppc.land 10 min read",
+              "url": "https://ppc.land/specs"
+            }
+          ]
+        },
+        {
+          "name": "Explaining Specs",
+          "stories": [
+            {
+              "headline": "Ask HN: How do you interview devs in a post-AI world?",
+              "blurb": "news.ycombinator.com 1 min read",
+              "url": "https://news.ycombinator.com/item?id=49768826"
+            }
+          ]
+        },
+        {
+          "name": "Ask HN: How do you interview devs in a post-AI world?",
+          "stories": [
+            {
+              "headline": "Anthropic Looks At Some Of Its Alignment Problems",
+              "blurb": "thezvi.substack.com 25 min read",
+              "url": "https://thezvi.substack.com/p/anthropic-looks-at-some-of-its-alignment"
+            }
+          ]
+        },
+        {
+          "name": "Anthropic Looks At Some Of Its Alignment Problems",
+          "stories": [
+            {
+              "headline": "Why I didn’t sign the Fields medallists’ letter",
+              "blurb": "terrytao.wordpress.com 18 min read",
+              "url": "https://terrytao.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter"
+            }
+          ]
+        },
+        {
+          "name": "Why I didn’t sign the Fields medallists’ letter",
+          "stories": [
+            {
+              "headline": "Meta challenges Ofcom's OSA categorization of WhatsApp and Instagram imposing additional regulations; Roblox and Quora are also challenging their categorization",
+              "blurb": "ft.com 1 min read",
+              "url": "https://www.ft.com/content/c1ba743f-7330-4419-bc8d-a8b5ce4420a0"
+            }
+          ]
+        },
+        {
+          "name": "Meta challenges Ofcom's OSA categorization of WhatsApp and Instagram imposing additional regulations; Roblox and Quora are also challenging their categorization",
+          "stories": [
+            {
+              "headline": "OpenAI told investors in February its compute bill would be around $600bn. A July presentation puts it at $856bn.",
+              "blurb": "thenextweb.com 3 min read",
+              "url": "https://thenextweb.com/news/openai-856bn-compute-vs-600bn-reset-burn-improved"
+            }
+          ]
+        },
+        {
+          "name": "OpenAI told investors in February its compute bill would be around $600bn. A July presentation puts it at $856bn.",
+          "stories": [
+            {
+              "headline": "the senior engineer death spiral • Solving the decision problem",
+              "blurb": "sunilpai.dev 3 min read",
+              "url": "https://sunilpai.dev/posts/the-senior-engineer-death-spiral"
+            }
+          ]
+        },
+        {
+          "name": "the senior engineer death spiral • Solving the decision problem",
+          "stories": [
+            {
+              "headline": "Open Letter to Sir Paul Nurse, President of the Royal Society",
+              "blurb": "proofsandprompts.com 3 min read",
+              "url": "https://proofsandprompts.com/2026/09/17/open-letter-to-sir-paul-nurse-president-of-the-royal-society"
+            }
+          ]
+        },
+        {
+          "name": "Open Letter to Sir Paul Nurse, President of the Royal Society",
+          "stories": [
+            {
+              "headline": "Anthropic delays IPO staging to November amid AI fears, WSJ says",
+              "blurb": "au.finance.yahoo.com 1 min read",
+              "url": "https://au.finance.yahoo.com/news/anthropic-delays-ipo-staging-november-221211879.html"
+            }
+          ]
+        },
+        {
+          "name": "Anthropic delays IPO staging to November amid AI fears, WSJ says",
+          "stories": [
+            {
+              "headline": "Benchmarks | Epoch AI",
+              "blurb": "epoch.ai 1 min read",
+              "url": "https://epoch.ai/benchmarks/search?reviewed=verified&reviewed=flawed&reviewed=not-enough-info"
+            }
+          ]
+        },
+        {
+          "name": "Benchmarks | Epoch AI",
+          "stories": [
+            {
+              "headline": "Flock reportedly tries to shrink workforce with employee buyouts",
+              "blurb": "techcrunch.com 2 min read",
+              "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts"
+            }
+          ]
+        },
+        {
+          "name": "Flock reportedly tries to shrink workforce with employee buyouts",
+          "stories": [
+            {
+              "headline": "Google announces new experimental \"CC\" AI agent for families",
+              "blurb": "arstechnica.com 1 min read",
+              "url": "https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
