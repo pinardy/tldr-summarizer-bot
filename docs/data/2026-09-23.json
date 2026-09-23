@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-23",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "OpenAI Launches GPT-6 Sol and Luna on GitHub",
+              "blurb": "OpenAI has officially integrated its new GPT-6 Sol and Luna models into GitHub, bringing next-generation frontier intelligence directly to developer workflows.",
+              "url": "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available"
+            },
+            {
+              "headline": "OpenAI Internal Model Solves Over 100 Landmark Math Problems",
+              "blurb": "OpenAI revealed that a newly trained internal model has successfully solved over 100 long-standing mathematical problems, demonstrating unprecedented leaps in AI reasoning capabilities.",
+              "url": "https://the-decoder.com/openai-says-its-internal-model-solved-over-100-long-standing-math-problems-after-just-a-month-of-training"
+            },
+            {
+              "headline": "Jev Introduces Highly Efficient 'Decision Models'",
+              "blurb": "A new architectural paradigm called Jev introduces \"Decision Models\" built on Qwen, shifting how LLMs handle structured reasoning by focusing on highly optimized binary decision outputs.",
+              "url": "https://simonw.substack.com/p/jev-introduces-a-new-shape-of-llm"
+            },
+            {
+              "headline": "Claude Opus 5.5 Debuts on Vercel AI Gateway",
+              "blurb": "Anthropic's highly anticipated Claude Opus 5.5 model is now live on Vercel's AI Gateway, giving developers access to top-tier agentic reasoning capabilities.",
+              "url": "https://vercel.com/changelog/claude-opus-5-5-now-available-on-ai-gateway"
+            },
+            {
+              "headline": "Grok 4.7 Sets New Benchmarks for Price and Performance",
+              "blurb": "An in-depth analysis of xAI's new Grok 4.7 (xhigh) shows massive improvements in intelligence and cost efficiency, shaking up the competitive landscape of frontier models.",
+              "url": "https://artificialanalysis.ai/models/grok-4-7"
+            }
+          ]
+        },
+        {
+          "name": "Security & Infrastructure",
+          "stories": [
+            {
+              "headline": "Hackers Claim Massive Breach of FBI Employee Records",
+              "blurb": "Threat actors claim to have breached secure databases and exfiltrated sensitive personal data belonging to all FBI employees, raising major national security concerns.",
+              "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees"
+            },
+            {
+              "headline": "CLOSEDQUORUM Malware Employs AI to Autonomously Target Victims",
+              "blurb": "A newly discovered Windows malware family called CLOSEDQUORUM utilizes local AI models to dynamically evaluate systems and select post-compromise actions without human operator intervention.",
+              "url": "https://www.theregister.com/security/2026/09/22/windows-closedquorum-malware-uses-ai-models-to-autonomously-select-post-compromise-actions/5298435"
+            },
+            {
+              "headline": "Patch Gap Exploited to Deliver Chrome and Windows 0-Days",
+              "blurb": "Attackers are actively taking advantage of patch-release delays to deliver highly targeted Google Chrome and Microsoft Windows zero-day exploits using spoofed websites.",
+              "url": "https://www.volexity.com/blog/2026/09/21/mind-the-patch-gap-part-2-fake-websites-used-to-deploy-chrome-windows-0-day-exploits"
+            },
+            {
+              "headline": "Post-Quantum Cryptographic Standards Buckle Under New Attacks",
+              "blurb": "Researchers have exposed critical vulnerabilities in the HAWK signature scheme and McEliece cryptosystem parameters, forcing a vital re-evaluation of quantum-resistant security protocols.",
+              "url": "https://freenode.net/article/hawk-exits-and-mceliece-parameters-buckle-under-fresh-attacks"
+            }
+          ]
+        },
+        {
+          "name": "Systems, Hardware & Dev Tools",
+          "stories": [
+            {
+              "headline": "Meta Details 'Petal' Petabit-Class Transoceanic Subsea Cable",
+              "blurb": "Meta has shared details on the engineering behind Petal, the world’s first petabit-class subsea cable designed to handle massive cross-continental bandwidth demands for global AI infrastructure.",
+              "url": "https://engineering.fb.com/2026/09/21/connectivity/inside-petal-building-the-worlds-first-petabit-class-transoceanic-subsea-cable"
+            },
+            {
+              "headline": "Raspberry Pi 5 RAM Upgrades Locked Down via Firmware",
+              "blurb": "Raspberry Pi has locked out unauthorized third-party RAM modifications on the Pi 5 via a firmware update, sparking frustration in the open-source hardware and maker communities.",
+              "url": null
+            },
+            {
+              "headline": "Google Open-Sources 'AX' Agentic Orchestrator for Kubernetes",
+              "blurb": "Google has open-sourced AX, a native Kubernetes orchestrator designed to scale, manage, and coordinate fleets of autonomous AI agents in production environments.",
+              "url": "https://github.com/google/ax"
+            },
+            {
+              "headline": "M5 Ultra Mac Studio Reviewed as the Ultimate Local AI Workstation",
+              "blurb": "Initial reviews of Apple's new M5 Ultra Mac Studio highlight its massive unified memory pool and bandwidth, making it an unrivaled powerhouse for hosting local AI agents.",
+              "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
