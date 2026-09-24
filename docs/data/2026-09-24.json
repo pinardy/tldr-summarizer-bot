@@ -1,0 +1,515 @@
+{
+  "date": "2026-09-24",
+  "mode": "per-newsletter",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Tech — 2026-09-24",
+      "tagline": "Get the free daily email with summaries of the most interesting stories in startups, tech, and programming.",
+      "sections": [
+        {
+          "name": "",
+          "stories": [
+            {
+              "headline": "Claude discovers a novel enzyme system with CRISPR-like repeats \\ Anthropic",
+              "blurb": "anthropic.com 7 min read",
+              "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+            }
+          ]
+        },
+        {
+          "name": "Claude discovers a novel enzyme system with CRISPR-like repeats \\ Anthropic",
+          "stories": [
+            {
+              "headline": "The plunging price of thought | Epoch AI",
+              "blurb": "epoch.ai 38 min read",
+              "url": "https://epoch.ai/publications/the-plunging-price-of-thought"
+            }
+          ]
+        },
+        {
+          "name": "The plunging price of thought | Epoch AI",
+          "stories": [
+            {
+              "headline": "How we made claude.ai 3x faster in two weeks / claude.dev",
+              "blurb": "claude.dev 14 min read",
+              "url": "https://claude.dev/blog/how-we-made-claude-ai-faster"
+            }
+          ]
+        },
+        {
+          "name": "How we made claude.ai 3x faster in two weeks / claude.dev",
+          "stories": [
+            {
+              "headline": "Gemini 3.8 text-to-speech says hello",
+              "blurb": "deepmind.google 5 min read",
+              "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech"
+            }
+          ]
+        },
+        {
+          "name": "Gemini 3.8 text-to-speech says hello",
+          "stories": [
+            {
+              "headline": "OpenAI's GPT-6 Sol and GPT-6 Luna now available - GitHub Changelog",
+              "blurb": "github.blog 2 min read",
+              "url": "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available"
+            }
+          ]
+        },
+        {
+          "name": "OpenAI's GPT-6 Sol and GPT-6 Luna now available - GitHub Changelog",
+          "stories": [
+            {
+              "headline": "Early rogue agent activity and attempts to hack found on urlquery.net | Transluce AI",
+              "blurb": "transluce.org 14 min read",
+              "url": "https://transluce.org/agent-activity"
+            }
+          ]
+        },
+        {
+          "name": "Early rogue agent activity and attempts to hack found on urlquery.net | Transluce AI",
+          "stories": [
+            {
+              "headline": "Mind the (Patch) Gap, Part 2: Fake Websites Used to Deploy Chrome & Windows 0-Day Exploits",
+              "blurb": "volexity.com 5 min read",
+              "url": "https://www.volexity.com/blog/2026/09/21/mind-the-patch-gap-part-2-fake-websites-used-to-deploy-chrome-windows-0-day-exploits"
+            }
+          ]
+        },
+        {
+          "name": "Mind the (Patch) Gap, Part 2: Fake Websites Used to Deploy Chrome & Windows 0-Day Exploits",
+          "stories": [
+            {
+              "headline": "Meta Unveils VR Glasses Weighing 100 Grams, Launching Spring 2027 for $1,300",
+              "blurb": "auganix.org 5 min read",
+              "url": "https://www.auganix.org/vr-news-meta-vr-glasses"
+            }
+          ]
+        },
+        {
+          "name": "Meta Unveils VR Glasses Weighing 100 Grams, Launching Spring 2027 for $1,300",
+          "stories": [
+            {
+              "headline": "Mark Zuckerberg Showcases Muse AI Agent Fused With Smartglasses",
+              "blurb": "wsj.com 1 min read",
+              "url": "https://www.wsj.com/tech/ai/mark-zuckerberg-lays-out-his-vision-muse-ai-agent-fused-with-smartglasses-18d9c85e"
+            }
+          ]
+        },
+        {
+          "name": "Mark Zuckerberg Showcases Muse AI Agent Fused With Smartglasses",
+          "stories": [
+            {
+              "headline": "‘We Hacked the FBI:’ Hackers Say They Have Data on All FBI Employees",
+              "blurb": "404media.co 2 min read",
+              "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees"
+            }
+          ]
+        },
+        {
+          "name": "‘We Hacked the FBI:’ Hackers Say They Have Data on All FBI Employees",
+          "stories": [
+            {
+              "headline": "New Features for Meta Ray-Ban Display",
+              "blurb": "about.fb.com 3 min read",
+              "url": "https://about.fb.com/news/2026/09/new-features-for-meta-ray-ban-display-navigation-hologram"
+            }
+          ]
+        },
+        {
+          "name": "New Features for Meta Ray-Ban Display",
+          "stories": [
+            {
+              "headline": "Introducing Claude Opus 5.5 \\ Anthropic",
+              "blurb": "anthropic.com 19 min read",
+              "url": "http://anthropic.com/claude-opus-5-5"
+            }
+          ]
+        },
+        {
+          "name": "Introducing Claude Opus 5.5 \\ Anthropic",
+          "stories": [
+            {
+              "headline": "Google Nears Release of Flagship Gemini 4 AI Model",
+              "blurb": "theinformation.com 1 min read",
+              "url": "https://www.theinformation.com/articles/google-nears-release-flagship-gemini-4-ai-model"
+            }
+          ]
+        },
+        {
+          "name": "Google Nears Release of Flagship Gemini 4 AI Model",
+          "stories": [
+            {
+              "headline": "A phone maker now has the world’s top open-weight AI model",
+              "blurb": "thenextweb.com 3 min read",
+              "url": "https://thenextweb.com/news/xiaomi-mimo-v2-6-open-weight-model-anthropic-distillation"
+            }
+          ]
+        },
+        {
+          "name": "A phone maker now has the world’s top open-weight AI model",
+          "stories": [
+            {
+              "headline": "OpenAI: ChatGPT Voice gets plugins, GPT-6 models, and ChatGPT Work integration",
+              "blurb": "x.com 1 min read",
+              "url": "https://x.com/OpenAI/status/2102808325742322002"
+            }
+          ]
+        },
+        {
+          "name": "OpenAI: ChatGPT Voice gets plugins, GPT-6 models, and ChatGPT Work integration",
+          "stories": [
+            {
+              "headline": "Claude Code cloud sessions leave research preview and keep work running after a laptop closes",
+              "blurb": "x.com 1 min read",
+              "url": "https://x.com/ClaudeDevs/status/2102871550974427462"
+            }
+          ]
+        },
+        {
+          "name": "Claude Code cloud sessions leave research preview and keep work running after a laptop closes",
+          "stories": [
+            {
+              "headline": "Windows Exploitation Techniques: Dangling COM Object Registrations",
+              "blurb": "projectzero.google 7 min read",
+              "url": "https://projectzero.google/2026/09/windows-dangling-com.html"
+            }
+          ]
+        },
+        {
+          "name": "Windows Exploitation Techniques: Dangling COM Object Registrations",
+          "stories": [
+            {
+              "headline": "China's ByteDance gained access to over 2,000 Nvidia B200 chips through Norway data center",
+              "blurb": "tomshardware.com 2 min read",
+              "url": "https://www.tomshardware.com/tech-industry/data-centers/filing-reveals-how-bytedance-gained-access-to-over-2-000-nvidia-b200-chips-through-nscales-norway-data-center-singaporean-subsidiary-spring-contributed-73-percent-of-uk-neoclouds-2025-revenue"
+            }
+          ]
+        },
+        {
+          "name": "China's ByteDance gained access to over 2,000 Nvidia B200 chips through Norway data center",
+          "stories": [
+            {
+              "headline": "Sources: China's SASAC, which oversees state-owned companies, is surveying the number of Broadcom switches in state-backed data centers amid a domestic AI drive",
+              "blurb": "ft.com 1 min read",
+              "url": "https://www.ft.com/content/b97dde39-7813-4a51-8176-3699e2a468b1"
+            }
+          ]
+        },
+        {
+          "name": "Sources: China's SASAC, which oversees state-owned companies, is surveying the number of Broadcom switches in state-backed data centers amid a domestic AI drive",
+          "stories": [
+            {
+              "headline": "Advancing Private AI Compute with secure, server-side memory",
+              "blurb": "deepmind.google 1 min read",
+              "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory"
+            }
+          ]
+        },
+        {
+          "name": "Advancing Private AI Compute with secure, server-side memory",
+          "stories": [
+            {
+              "headline": "Using shallow-git tarballs for CI",
+              "blurb": "people.kernel.org 2 min read",
+              "url": "https://people.kernel.org/monsieuricon/using-shallow-git-tarballs-for-ci"
+            }
+          ]
+        },
+        {
+          "name": "Using shallow-git tarballs for CI",
+          "stories": [
+            {
+              "headline": "SpaceX’s Super Heavy booster arrives at pad ahead of first orbital Starship launch",
+              "blurb": "spaceflightnow.com 3 min read",
+              "url": "https://spaceflightnow.com/2026/09/21/spacexs-super-heavy-booster-arrives-at-pad-ahead-of-first-orbital-starship-launch"
+            }
+          ]
+        },
+        {
+          "name": "SpaceX’s Super Heavy booster arrives at pad ahead of first orbital Starship launch",
+          "stories": [
+            {
+              "headline": "How DeepSeek trains agents on 380,000 sandboxes at once",
+              "blurb": "stacksweep.dev 5 min read",
+              "url": "https://stacksweep.dev/how-deepseek-trains-agents-380k-sandboxes"
+            }
+          ]
+        },
+        {
+          "name": "How DeepSeek trains agents on 380,000 sandboxes at once",
+          "stories": [
+            {
+              "headline": "Incubating The Horowitz Andreessen Academy | Andreessen Horowitz",
+              "blurb": "a16z.com 5 min read",
+              "url": "https://a16z.com/announcement/incubating-horowitz-andreessen-academy"
+            }
+          ]
+        },
+        {
+          "name": "Incubating The Horowitz Andreessen Academy | Andreessen Horowitz",
+          "stories": [
+            {
+              "headline": "ChatGPT in Siri 'Persistently Underperforming,' Says OpenAI",
+              "blurb": "macrumors.com 2 min read",
+              "url": "https://www.macrumors.com/2026/09/23/openai-siri-chatgpt-underperforming"
+            }
+          ]
+        },
+        {
+          "name": "ChatGPT in Siri 'Persistently Underperforming,' Says OpenAI",
+          "stories": [
+            {
+              "headline": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
+              "blurb": "engineering.fb.com 7 min read",
+              "url": "https://engineering.fb.com/2026/09/21/connectivity/inside-petal-building-the-worlds-first-petabit-class-transoceanic-subsea-cable"
+            }
+          ]
+        },
+        {
+          "name": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
+          "stories": [
+            {
+              "headline": "Surge AI's DAYJOB benchmark tests whether agents can handle messy real work instead of spelled-out tasks",
+              "blurb": "x.com 1 min read",
+              "url": "https://x.com/echen/status/2102838282015093024"
+            }
+          ]
+        },
+        {
+          "name": "Surge AI's DAYJOB benchmark tests whether agents can handle messy real work instead of spelled-out tasks",
+          "stories": [
+            {
+              "headline": "Frontier Overhangs",
+              "blurb": "stratechery.com 15 min read",
+              "url": "https://stratechery.com/2026/frontier-overhangs"
+            }
+          ]
+        },
+        {
+          "name": "Frontier Overhangs",
+          "stories": [
+            {
+              "headline": "The Year AI Came For Us: Teaching Entrepreneurship Will Never Be The Same",
+              "blurb": "steveblank.com 7 min read",
+              "url": "https://steveblank.com/2026/09/23/the-year-ai-came-for-us-teaching-entrepreneurship-will-never-be-the-same"
+            }
+          ]
+        },
+        {
+          "name": "The Year AI Came For Us: Teaching Entrepreneurship Will Never Be The Same",
+          "stories": [
+            {
+              "headline": "Intrinsic open sources key parts of its platform for easier development",
+              "blurb": "therobotreport.com 8 min read",
+              "url": "https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development"
+            }
+          ]
+        },
+        {
+          "name": "Intrinsic open sources key parts of its platform for easier development",
+          "stories": [
+            {
+              "headline": "OpenAI agents ‘infiltrated Australian government website’",
+              "blurb": "theregister.com 3 min read",
+              "url": "https://www.theregister.com/security/2026/09/24/openai-agents-infiltrated-australian-government-website/5298702"
+            }
+          ]
+        },
+        {
+          "name": "OpenAI agents ‘infiltrated Australian government website’",
+          "stories": [
+            {
+              "headline": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+              "blurb": "simonw.substack.com 16 min read",
+              "url": "https://simonw.substack.com/p/jev-introduces-a-new-shape-of-llm"
+            }
+          ]
+        },
+        {
+          "name": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+          "stories": [
+            {
+              "headline": "Everyone is hilariously prompt-injecting AI via llms.txt and you aren't | Installmap",
+              "blurb": "installmap.com 5 min read",
+              "url": "https://installmap.com/research/llms-txt-ai-instructions"
+            }
+          ]
+        },
+        {
+          "name": "Everyone is hilariously prompt-injecting AI via llms.txt and you aren't | Installmap",
+          "stories": [
+            {
+              "headline": "Raspberry Pi locks down Pi 5 RAM upgrades in firmware",
+              "blurb": "jeffgeerling.com 2 min read",
+              "url": "https://www.jeffgeerling.com/blog/2026/raspberry-pi-ram-lockdown"
+            }
+          ]
+        },
+        {
+          "name": "Raspberry Pi locks down Pi 5 RAM upgrades in firmware",
+          "stories": [
+            {
+              "headline": "Live: UN Security Council hears AI lab chiefs on loss-of-control risk",
+              "blurb": "thenextweb.com 2 min read",
+              "url": "https://thenextweb.com/news/un-security-council-ai-loss-of-control"
+            }
+          ]
+        },
+        {
+          "name": "Live: UN Security Council hears AI lab chiefs on loss-of-control risk",
+          "stories": [
+            {
+              "headline": "The Humanoid Lesson, or, Will AI Leave Anything for Database Researchers to Do?",
+              "blurb": "emptysqua.re 6 min read",
+              "url": "https://emptysqua.re/blog/review-what-happens-when-the-model-eats-the-stack"
+            }
+          ]
+        },
+        {
+          "name": "The Humanoid Lesson, or, Will AI Leave Anything for Database Researchers to Do?",
+          "stories": [
+            {
+              "headline": "Europe's fastest supercomputer is finally getting its domestic silicon infusion",
+              "blurb": "theregister.com 2 min read",
+              "url": "https://www.theregister.com/systems/2026/09/23/europes-fastest-supercomputer-is-finally-getting-its-domestic-silicon-infusion/5298665"
+            }
+          ]
+        },
+        {
+          "name": "Europe's fastest supercomputer is finally getting its domestic silicon infusion",
+          "stories": [
+            {
+              "headline": "GitHub App Private Keys: 474 Leaked Keys Exposed",
+              "blurb": "blog.gitguardian.com 11 min read",
+              "url": "https://blog.gitguardian.com/github-app-private-keys-leaked"
+            }
+          ]
+        },
+        {
+          "name": "GitHub App Private Keys: 474 Leaked Keys Exposed",
+          "stories": [
+            {
+              "headline": "Agility Robotics: Inside the First US Humanoid Company to Go Public",
+              "blurb": "tanayj.com 5 min read",
+              "url": "https://www.tanayj.com/p/agility-robotics-inside-the-first"
+            }
+          ]
+        },
+        {
+          "name": "Agility Robotics: Inside the First US Humanoid Company to Go Public",
+          "stories": [
+            {
+              "headline": "Qualcomm Talks Up Linux On Snapdragon X2 Laptops",
+              "blurb": "phoronix.com 1 min read",
+              "url": "https://www.phoronix.com/news/Qualcomm-Talks-Up-X2-Linux"
+            }
+          ]
+        },
+        {
+          "name": "Qualcomm Talks Up Linux On Snapdragon X2 Laptops",
+          "stories": [
+            {
+              "headline": "Privacy group slams EU for changing the data rules to cater to AI",
+              "blurb": "theregister.com 2 min read",
+              "url": "https://www.theregister.com/legal/2026/09/22/privacy-group-slams-eu-for-changing-the-data-rules-to-cater-to-ai/5298175"
+            }
+          ]
+        },
+        {
+          "name": "Privacy group slams EU for changing the data rules to cater to AI",
+          "stories": [
+            {
+              "headline": "Alibaba touts new AI chip, Qwen Intelligence and age of machine intelligence",
+              "blurb": "constellationr.com 2 min read",
+              "url": "https://www.constellationr.com/insights/news/alibaba-touts-new-ai-chip-qwen-intelligence-and-age-machine-intelligence"
+            }
+          ]
+        },
+        {
+          "name": "Alibaba touts new AI chip, Qwen Intelligence and age of machine intelligence",
+          "stories": [
+            {
+              "headline": "Qwen-Audio-3.1-TTS · Speech Synthesis",
+              "blurb": "fun-resource-shanghai.oss-cn-shanghai.aliyuncs.com 7 min read",
+              "url": "https://fun-resource-shanghai.oss-cn-shanghai.aliyuncs.com/cuijiayan.cjy/tmp/exp/qwen_audio_3_tts_blog_review_260918/index.shtml?Expires=2105366399&OSSAccessKeyId=LTAI5tQrCBwj82sVMCWoSmzE&Signature=9ZaZIEahoN41Zb9MFJjf34G%2BSCM%3D"
+            }
+          ]
+        },
+        {
+          "name": "Qwen-Audio-3.1-TTS · Speech Synthesis",
+          "stories": [
+            {
+              "headline": "Latest BGP hijack targets hosting software vendor",
+              "blurb": "blog.apnic.net 7 min read",
+              "url": "https://blog.apnic.net/2026/09/22/latest-bgp-hijack-targets-hosting-software-vendor"
+            }
+          ]
+        },
+        {
+          "name": "Latest BGP hijack targets hosting software vendor",
+          "stories": [
+            {
+              "headline": "Meta Tests Muse AI Agent Calls That Are Actually Made By Humans in a Call Center",
+              "blurb": "404media.co 3 min read",
+              "url": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center"
+            }
+          ]
+        },
+        {
+          "name": "Meta Tests Muse AI Agent Calls That Are Actually Made By Humans in a Call Center",
+          "stories": [
+            {
+              "headline": "The Year AI Came For Us: Teaching Entrepreneurship Will Never Be The Same",
+              "blurb": "steveblank.substack.com 8 min read",
+              "url": "https://steveblank.substack.com/p/the-year-ai-came-for-us-teaching"
+            }
+          ]
+        },
+        {
+          "name": "The Year AI Came For Us: Teaching Entrepreneurship Will Never Be The Same",
+          "stories": [
+            {
+              "headline": "oss-security - CVE-2026-89775: Guest-to-Host Escape in KVM/arm64",
+              "blurb": "openwall.com 1 min read",
+              "url": "https://www.openwall.com/lists/oss-security/2026/09/16/14"
+            }
+          ]
+        },
+        {
+          "name": "oss-security - CVE-2026-89775: Guest-to-Host Escape in KVM/arm64",
+          "stories": [
+            {
+              "headline": "Srsly Risky Biz: Bring On the AI Lawsuits",
+              "blurb": "news.risky.biz 9 min read",
+              "url": "https://news.risky.biz/srsly-risky-biz-bring-on-the-ai-lawsuits"
+            }
+          ]
+        },
+        {
+          "name": "Srsly Risky Biz: Bring On the AI Lawsuits",
+          "stories": [
+            {
+              "headline": "Big Tech is increasingly using residual value guarantees for off-balance sheet AI spend, giving Nvidia and Broadcom a way to support their customers' purchases",
+              "blurb": "ft.com 1 min read",
+              "url": "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563?accessToken=zwAAAaDAZaodkc9_Ea-uxONAVNOmW4c_Nkf1Yw.MEUCIQDOOpxrDEP8euvKKekUwVhn13ZCYpoDldsLS1MYB7NUfwIgTt3ex7Q8-kzCxQV3stLnVHXGbKQUdKBIbc7jMY9ETBQ&sharetype=gift&token=1178d641-a340-4962-89e1-5a4d7305d3e2"
+            }
+          ]
+        },
+        {
+          "name": "Big Tech is increasingly using residual value guarantees for off-balance sheet AI spend, giving Nvidia and Broadcom a way to support their customers' purchases",
+          "stories": [
+            {
+              "headline": "Open Data: A Dataset Hub for LLM Serving Research (Website)",
+              "blurb": "data.agentic-system.org 1 min read",
+              "url": "https://data.agentic-system.org"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
