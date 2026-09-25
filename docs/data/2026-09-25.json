@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-25",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Frontier Models",
+          "stories": [
+            {
+              "headline": "Anthropic Launches Claude Opus 5.5",
+              "blurb": "Anthropic has released its latest flagship model, Claude Opus 5.5, delivering major improvements in coding, reasoning, and multimodal tasks.",
+              "url": "http://anthropic.com/claude-opus-5-5"
+            },
+            {
+              "headline": "OpenAI GPT-6 Sol and Luna Debut on GitHub",
+              "blurb": "OpenAI has officially released its new GPT-6 Sol and GPT-6 Luna models, which are now immediately available in the GitHub Copilot ecosystem.",
+              "url": "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available"
+            },
+            {
+              "headline": "Claude Discovers a Novel CRISPR-Like Enzyme System",
+              "blurb": "In a major scientific breakthrough for AI, Anthropic's Claude model has autonomously identified a previously unknown biological enzyme system featuring CRISPR-like repeats.",
+              "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+            },
+            {
+              "headline": "Google Gemini 4 Enters Post-Training Phase",
+              "blurb": "Google's next-generation Gemini 4 model has progressed to post-training, heightening the intense three-way race for frontier AI dominance alongside OpenAI and Anthropic.",
+              "url": "https://forkast.news/googles-gemini-4-enters-post-training-and-the-three-way-frontier-race-just-compressed"
+            }
+          ]
+        },
+        {
+          "name": "Hardware & Infrastructure",
+          "stories": [
+            {
+              "headline": "Meta Showcases Revolutionary Muse AR Smartglasses",
+              "blurb": "Meta Connect unveiled the Muse AI-powered smartglasses, capturing the tech industry's attention as a sleeker, more practical alternative to Apple's Vision Pro vision.",
+              "url": "https://spyglass.org/meta-vr-glasses-vision-pro"
+            },
+            {
+              "headline": "Oracle Declares Force Majeure on Stargate Data Center",
+              "blurb": "Oracle has issued a force majeure notice temporarily halting construction on its massive New Mexico Stargate data center project.",
+              "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center"
+            },
+            {
+              "headline": "Google to Test First Space-Based Orbital Data Center",
+              "blurb": "Google is preparing to launch its first Suncatcher orbital data center test on October 1st to evaluate the feasibility of space-based compute infrastructure.",
+              "url": "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1"
+            },
+            {
+              "headline": "ByteDance Bypasses Sanctions to Use Nvidia B200 Chips",
+              "blurb": "By routing access through a Norwegian data center, Chinese tech giant ByteDance managed to harness the power of over 2,000 state-of-the-art Nvidia B200 GPUs.",
+              "url": "https://www.tomshardware.com/tech-industry/data-centers/filing-reveals-how-bytedance-gained-access-to-over-2-000-nvidia-b200-chips-through-nscales-norway-data-center-singaporean-subsidiary-spring-contributed-73-percent-of-uk-neoclouds-2025-revenue"
+            }
+          ]
+        },
+        {
+          "name": "Security & Systems",
+          "stories": [
+            {
+              "headline": "Salesforce Agentforce Vulnerabilities Allow 0-Click Data Theft",
+              "blurb": "Critical flaws found in Salesforce's Agentforce platform could have allowed attackers to execute zero-click CRM data theft and carry out anonymous phishing attacks.",
+              "url": "https://www.theregister.com/security/2026/09/24/salesforce-agentforce-vulns-allowed-0-click-crm-data-theft-anonymous-phishing/5298958"
+            },
+            {
+              "headline": "CVE Flood Forces Ubuntu Onto Weekly Kernel Releases",
+              "blurb": "An unprecedented surge in security vulnerabilities has pushed Canonical to transition Ubuntu to a rapid weekly kernel release schedule to keep users protected.",
+              "url": "https://www.theregister.com/os-platforms/2026/09/24/cve-flood-pushes-ubuntu-onto-weekly-kernel-release-cycle/5298912"
+            },
+            {
+              "headline": "Hackers Claim Massive Breach of All FBI Employee Data",
+              "blurb": "A hacking collective claims to have successfully breached FBI databases and compromised the personal and professional data of every FBI employee.",
+              "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
