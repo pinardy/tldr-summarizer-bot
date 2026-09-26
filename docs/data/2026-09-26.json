@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-26",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "Frontier AI & Models",
+          "stories": [
+            {
+              "headline": "Claude Discovers a Novel CRISPR-Like Enzyme System",
+              "blurb": "Anthropic's Claude model has successfully discovered a completely novel biological enzyme system containing CRISPR-like repeats, demonstrating the growing capability of AI in genuine scientific exploration.",
+              "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+            },
+            {
+              "headline": "Claude Solves Massive Math Challenge with Super Yang-Mills Proof",
+              "blurb": "In a major theoretical physics milestone, Anthropic researchers used Claude to calculate the N=4 super Yang-Mills theory out to nine loops, showcasing its extreme reasoning capacity for complex mathematics.",
+              "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops"
+            },
+            {
+              "headline": "Claude Opus 5.5 Optimizes for Long Coding Sessions",
+              "blurb": "Anthropic announced Claude Opus 5.5, engineered specifically to handle long-running, context-heavy software engineering tasks and coding workflows more effectively.",
+              "url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context"
+            },
+            {
+              "headline": "Google's Gemini 4 Enters Post-Training Phase",
+              "blurb": "Google has moved Gemini 4 into post-training, signaling that the three-way frontier AI race between Google, OpenAI, and Anthropic is tighter than ever.",
+              "url": "https://forkast.news/googles-gemini-4-enters-post-training-and-the-three-way-frontier-race-just-compressed"
+            }
+          ]
+        },
+        {
+          "name": "Dev Tools, Infrastructure & Security",
+          "stories": [
+            {
+              "headline": "How 17 Trillion Microsoft Records Were Exposed",
+              "blurb": "A security researcher detailed a critical cloud misconfiguration that could have allowed unauthorized access to over 17 trillion internal Microsoft records.",
+              "url": "https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records"
+            },
+            {
+              "headline": "Salesforce Agentforce Vulns Allow Zero-Click CRM Theft",
+              "blurb": "Serious vulnerabilities discovered in Salesforce's Agentforce platform could allow attackers to steal CRM data and orchestrate phishing campaigns with zero-click exploits.",
+              "url": "https://www.theregister.com/security/2026/09/24/salesforce-agentforce-vulns-allowed-0-click-crm-data-theft-anonymous-phishing/5298958"
+            },
+            {
+              "headline": "Supabase Customers Unwittingly Exposing Huge Swaths of Data",
+              "blurb": "A widespread configuration oversight has left several Supabase customers unintentionally exposing massive amounts of sensitive user data directly to the public web.",
+              "url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web"
+            },
+            {
+              "headline": "Docker Launches Secure Sandboxes to Contain AI Agents",
+              "blurb": "Docker launched secure sandboxes designed specifically to isolate autonomous AI agents, preventing untrusted code from wreaking havoc on local or production systems.",
+              "url": "https://www.theregister.com/ai-and-ml/2026/09/24/dockers-new-sandboxes-aim-to-contain-ai-agents-for-real/5298964"
+            },
+            {
+              "headline": "Ubuntu Forces Weekly Kernel Cycle to Combat CVE Flood",
+              "blurb": "To keep up with a relentless deluge of security vulnerabilities, Ubuntu is transitioning to a rapid weekly kernel release schedule to deliver patches faster.",
+              "url": "https://www.theregister.com/os-platforms/2026/09/24/cve-flood-pushes-ubuntu-onto-weekly-kernel-release-cycle/5298912"
+            },
+            {
+              "headline": "How Engineers Made Claude.ai 3x Faster in Two Weeks",
+              "blurb": "Anthropic shared the engineering techniques, optimizations, and database architectural shifts they leveraged to triple the speed of the Claude.ai interface.",
+              "url": "https://claude.dev/blog/how-we-made-claude-ai-faster"
+            }
+          ]
+        },
+        {
+          "name": "AI Wearables & Agent Safety",
+          "stories": [
+            {
+              "headline": "Meta Connect Unveils ‘Muse’ AR Smartglasses",
+              "blurb": "Meta showcased its new 'Muse' smartglasses, signaling a major hardware shift away from virtual worlds toward sleek, AI-integrated everyday wearables.",
+              "url": "https://www.platformer.news/meta-connect-2026-muse-vr-glasses"
+            },
+            {
+              "headline": "Meta Details Private Processing Architecture for AI Glasses",
+              "blurb": "Meta shared the details of its secure hardware design for smartglasses, combining on-device encryption and server-side isolation to protect user camera and voice data.",
+              "url": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses"
+            },
+            {
+              "headline": "Unsecured OpenAI Agents Accidentally Leaked User Images",
+              "blurb": "Experimental OpenAI agents posted 53 user-uploaded images to the open internet, highlighting the data privacy and security challenges of autonomous agents.",
+              "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
