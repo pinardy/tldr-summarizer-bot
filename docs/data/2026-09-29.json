@@ -1,0 +1,515 @@
+{
+  "date": "2026-09-29",
+  "mode": "per-newsletter",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Tech — 2026-09-29",
+      "tagline": "Get the free daily email with summaries of the most interesting stories in startups, tech, and programming.",
+      "sections": [
+        {
+          "name": "",
+          "stories": [
+            {
+              "headline": "Launching Meta Enterprise Platform",
+              "blurb": "about.fb.com 2 min read",
+              "url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform"
+            }
+          ]
+        },
+        {
+          "name": "Launching Meta Enterprise Platform",
+          "stories": [
+            {
+              "headline": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring",
+              "blurb": "developer.nvidia.com 5 min read",
+              "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring?ncid=so-twit-994629"
+            }
+          ]
+        },
+        {
+          "name": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring",
+          "stories": [
+            {
+              "headline": "Google seemingly confirms plans to kill ChromeOS in 2034",
+              "blurb": "arstechnica.com 1 min read",
+              "url": "https://arstechnica.com/gadgets/2026/09/google-seemingly-confirms-plans-to-kill-chromeos-in-2034"
+            }
+          ]
+        },
+        {
+          "name": "Google seemingly confirms plans to kill ChromeOS in 2034",
+          "stories": [
+            {
+              "headline": "In simulated testing, GPT-6 Astra conducted unsanctioned supply-chain attacks, when prompted only to perform a cyber eval, more often than earlier OpenAI models",
+              "blurb": "aisi.gov.uk 7 min read",
+              "url": "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations"
+            }
+          ]
+        },
+        {
+          "name": "In simulated testing, GPT-6 Astra conducted unsanctioned supply-chain attacks, when prompted only to perform a cyber eval, more often than earlier OpenAI models",
+          "stories": [
+            {
+              "headline": "Eleven v4: Our most expressive text-to-speech AI model yet",
+              "blurb": "elevenlabs.io 5 min read",
+              "url": "https://elevenlabs.io/blog/eleven-v4"
+            }
+          ]
+        },
+        {
+          "name": "Eleven v4: Our most expressive text-to-speech AI model yet",
+          "stories": [
+            {
+              "headline": "OpenAI scraps rollout of new AI model over safety concerns",
+              "blurb": "bbc.com 3 min read",
+              "url": "https://www.bbc.com/news/articles/cm5y5nynl75ko"
+            }
+          ]
+        },
+        {
+          "name": "OpenAI scraps rollout of new AI model over safety concerns",
+          "stories": [
+            {
+              "headline": "OpenAI halts frontier-model training amid string of agent misalignment incidents",
+              "blurb": "arstechnica.com 1 min read",
+              "url": "https://arstechnica.com/ai/2026/09/openai-halts-frontier-model-training-amid-string-of-agent-misalignment-incidents"
+            }
+          ]
+        },
+        {
+          "name": "OpenAI halts frontier-model training amid string of agent misalignment incidents",
+          "stories": [
+            {
+              "headline": "Add Runtime Controls to AI Agents with NVIDIA OpenShell",
+              "blurb": "developer.nvidia.com 7 min read",
+              "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell"
+            }
+          ]
+        },
+        {
+          "name": "Add Runtime Controls to AI Agents with NVIDIA OpenShell",
+          "stories": [
+            {
+              "headline": "Intel Panther Lake Teardown",
+              "blurb": "newsletter.semianalysis.com 38 min read",
+              "url": "https://newsletter.semianalysis.com/p/intel-panther-lake-teardown"
+            }
+          ]
+        },
+        {
+          "name": "Intel Panther Lake Teardown",
+          "stories": [
+            {
+              "headline": "Apps, Agents, and Aggregation",
+              "blurb": "stratechery.com 13 min read",
+              "url": "https://stratechery.com/2026/apps-agents-and-aggregation"
+            }
+          ]
+        },
+        {
+          "name": "Apps, Agents, and Aggregation",
+          "stories": [
+            {
+              "headline": "Prompting Claude Opus 5.5 - Claude Platform Docs",
+              "blurb": "platform.claude.com 17 min read",
+              "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5"
+            }
+          ]
+        },
+        {
+          "name": "Prompting Claude Opus 5.5 - Claude Platform Docs",
+          "stories": [
+            {
+              "headline": "Synopsys Powers Autonomous Engineering with a Broad Portfolio of Long-Horizon Agents and Autopilot Platform - Sep 28, 2026",
+              "blurb": "news.synopsys.com 6 min read",
+              "url": "https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform"
+            }
+          ]
+        },
+        {
+          "name": "Synopsys Powers Autonomous Engineering with a Broad Portfolio of Long-Horizon Agents and Autopilot Platform - Sep 28, 2026",
+          "stories": [
+            {
+              "headline": "Tens of thousands of security probes show OpenAI's Hugging Face incident was just the beginning",
+              "blurb": "the-decoder.com 3 min read",
+              "url": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning"
+            }
+          ]
+        },
+        {
+          "name": "Tens of thousands of security probes show OpenAI's Hugging Face incident was just the beginning",
+          "stories": [
+            {
+              "headline": "PhaseShift: Arbitrary Code Execution in Safari Technology Preview",
+              "blurb": "gracecondition.github.io 15 min read",
+              "url": "https://gracecondition.github.io/posts/phaseshift"
+            }
+          ]
+        },
+        {
+          "name": "PhaseShift: Arbitrary Code Execution in Safari Technology Preview",
+          "stories": [
+            {
+              "headline": "Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771)",
+              "blurb": "labs.watchtowr.com 9 min read",
+              "url": "https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771"
+            }
+          ]
+        },
+        {
+          "name": "Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771)",
+          "stories": [
+            {
+              "headline": "NaiveAI",
+              "blurb": "naive.ai 7 min read",
+              "url": "https://naive.ai/en/research"
+            }
+          ]
+        },
+        {
+          "name": "NaiveAI",
+          "stories": [
+            {
+              "headline": "Holo4: powering generalist computer-use agents",
+              "blurb": "huggingface.co 6 min read",
+              "url": "https://huggingface.co/blog/Hcompany/holo4"
+            }
+          ]
+        },
+        {
+          "name": "Holo4: powering generalist computer-use agents",
+          "stories": [
+            {
+              "headline": "Grok Bot",
+              "blurb": "mjtsai.com 2 min read",
+              "url": "https://mjtsai.com/blog/2026/09/28/grok-bot"
+            }
+          ]
+        },
+        {
+          "name": "Grok Bot",
+          "stories": [
+            {
+              "headline": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+              "blurb": "blog.cloudflare.com 9 min read",
+              "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch"
+            }
+          ]
+        },
+        {
+          "name": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+          "stories": [
+            {
+              "headline": "Here’s Everything OpenAI’s Bots (And Others) Have Hacked Or Considered Hacking",
+              "blurb": "bigtechnology.com 3 min read",
+              "url": "https://www.bigtechnology.com/p/heres-everything-openais-bots-and"
+            }
+          ]
+        },
+        {
+          "name": "Here’s Everything OpenAI’s Bots (And Others) Have Hacked Or Considered Hacking",
+          "stories": [
+            {
+              "headline": "Hinton, Bengio and AI lab scientists warn of an intelligence explosion",
+              "blurb": "thenextweb.com 2 min read",
+              "url": "https://thenextweb.com/news/intelligence-explosion-paper-hinton-bengio-pachocki-clark"
+            }
+          ]
+        },
+        {
+          "name": "Hinton, Bengio and AI lab scientists warn of an intelligence explosion",
+          "stories": [
+            {
+              "headline": "Building with Claude Sonnet 5.5 / claude.dev Blog",
+              "blurb": "claude.dev 9 min read",
+              "url": "https://claude.dev/blog/building-with-claude-sonnet-5-5"
+            }
+          ]
+        },
+        {
+          "name": "Building with Claude Sonnet 5.5 / claude.dev Blog",
+          "stories": [
+            {
+              "headline": "China extends AI travel curbs to executives’ families, Bloomberg reports",
+              "blurb": "thenextweb.com 1 min read",
+              "url": "https://thenextweb.com/news/china-travel-curbs-families-ai-executives-bloomberg"
+            }
+          ]
+        },
+        {
+          "name": "China extends AI travel curbs to executives’ families, Bloomberg reports",
+          "stories": [
+            {
+              "headline": "Lexxy 1.0 is here",
+              "blurb": "dev.37signals.com 8 min read",
+              "url": "https://dev.37signals.com/lexxy-1-0"
+            }
+          ]
+        },
+        {
+          "name": "Lexxy 1.0 is here",
+          "stories": [
+            {
+              "headline": "What Is Qwen 3.8",
+              "blurb": "openrouter.ai 13 min read",
+              "url": "https://openrouter.ai/blog/insights/qwen-3-8"
+            }
+          ]
+        },
+        {
+          "name": "What Is Qwen 3.8",
+          "stories": [
+            {
+              "headline": "Introducing Supertake",
+              "blurb": "usv.com 3 min read",
+              "url": "https://www.usv.com/writing/introducing-supertake"
+            }
+          ]
+        },
+        {
+          "name": "Introducing Supertake",
+          "stories": [
+            {
+              "headline": "Artificial Analysis Cyber Index Benchmarking Methodology",
+              "blurb": "artificialanalysis.ai 6 min read",
+              "url": "https://artificialanalysis.ai/methodology/cyber-index"
+            }
+          ]
+        },
+        {
+          "name": "Artificial Analysis Cyber Index Benchmarking Methodology",
+          "stories": [
+            {
+              "headline": "ClementDelangue/status: Clem Delangue says OpenAI could have caught the agents that attacked Hugging Face",
+              "blurb": "x.com 1 min read",
+              "url": "https://x.com/ClementDelangue/status/2104597818606338298"
+            }
+          ]
+        },
+        {
+          "name": "ClementDelangue/status: Clem Delangue says OpenAI could have caught the agents that attacked Hugging Face",
+          "stories": [
+            {
+              "headline": "DHH Declares End of Hand-Writing Code at Rails World 2026",
+              "blurb": "devops.com 2 min read",
+              "url": "https://devops.com/dhh-declares-end-of-hand-writing-code-at-rails-world-2026"
+            }
+          ]
+        },
+        {
+          "name": "DHH Declares End of Hand-Writing Code at Rails World 2026",
+          "stories": [
+            {
+              "headline": "OpenAI Halts Next-Generation AI Training Again After Model Escapes Sandbox",
+              "blurb": "thelec.net 3 min read",
+              "url": "https://www.thelec.net/news/articleView.html?idxno=14210"
+            }
+          ]
+        },
+        {
+          "name": "OpenAI Halts Next-Generation AI Training Again After Model Escapes Sandbox",
+          "stories": [
+            {
+              "headline": "FBI Hackers Say They Won’t Publish Massive Trove of FBI Employee Data",
+              "blurb": "404media.co 5 min read",
+              "url": "https://www.404media.co/fbi-hackers-say-they-wont-publish-massive-trove-of-fbi-employee-data"
+            }
+          ]
+        },
+        {
+          "name": "FBI Hackers Say They Won’t Publish Massive Trove of FBI Employee Data",
+          "stories": [
+            {
+              "headline": "cryptanalysisbench26",
+              "blurb": "floriantramer.com 2 min read",
+              "url": "https://www.floriantramer.com/publications/cryptanalysisbench26"
+            }
+          ]
+        },
+        {
+          "name": "cryptanalysisbench26",
+          "stories": [
+            {
+              "headline": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+              "blurb": "latent.space 87 min read",
+              "url": "https://www.latent.space/p/thariq"
+            }
+          ]
+        },
+        {
+          "name": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+          "stories": [
+            {
+              "headline": "What Improves Developer Productivity at Google? Code Quality [pdf]",
+              "blurb": "news.ycombinator.com 1 min read",
+              "url": "https://news.ycombinator.com/item?id=49883821"
+            }
+          ]
+        },
+        {
+          "name": "What Improves Developer Productivity at Google? Code Quality [pdf]",
+          "stories": [
+            {
+              "headline": "How Databricks rolls out frontier models to 14,000 employees on Day 1",
+              "blurb": "databricks.com 4 min read",
+              "url": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1"
+            }
+          ]
+        },
+        {
+          "name": "How Databricks rolls out frontier models to 14,000 employees on Day 1",
+          "stories": [
+            {
+              "headline": "The Alignment Community Is Unintentionally Building a Censor's Toolkit",
+              "blurb": "lesswrong.com 7 min read",
+              "url": "https://www.lesswrong.com/posts/BBPwycfKMBqwqDejk/the-alignment-community-is-unintentionally-building-a-censor"
+            }
+          ]
+        },
+        {
+          "name": "The Alignment Community Is Unintentionally Building a Censor's Toolkit",
+          "stories": [
+            {
+              "headline": "OpenAI says its rogue agents posted 53 ChatGPT users’ images online",
+              "blurb": "thenextweb.com 3 min read",
+              "url": "https://thenextweb.com/news/openai-rogue-agents-53-user-images-government-sites"
+            }
+          ]
+        },
+        {
+          "name": "OpenAI says its rogue agents posted 53 ChatGPT users’ images online",
+          "stories": [
+            {
+              "headline": "EmDash 1.0: the stable CMS with a secure plugin registry",
+              "blurb": "blog.cloudflare.com 11 min read",
+              "url": "https://blog.cloudflare.com/emdash-cms-plugin-registry"
+            }
+          ]
+        },
+        {
+          "name": "EmDash 1.0: the stable CMS with a secure plugin registry",
+          "stories": [
+            {
+              "headline": "Google Threat Intelligence Group finds dark web marketplaces selling access to AI models, including from Anthropic, Google, and OpenAI, at up to 97% discounts",
+              "blurb": "ft.com 1 min read",
+              "url": "https://www.ft.com/content/3f406fbe-b72e-488f-9975-5b94e95dfe32"
+            }
+          ]
+        },
+        {
+          "name": "Google Threat Intelligence Group finds dark web marketplaces selling access to AI models, including from Anthropic, Google, and OpenAI, at up to 97% discounts",
+          "stories": [
+            {
+              "headline": "Starship's first orbital launch gives lift to SpaceX's next-gen Starlinks",
+              "blurb": "arstechnica.com 2 min read",
+              "url": "https://arstechnica.com/space/2026/09/starships-first-orbital-launch-gives-lift-to-spacexs-next-gen-starlinks"
+            }
+          ]
+        },
+        {
+          "name": "Starship's first orbital launch gives lift to SpaceX's next-gen Starlinks",
+          "stories": [
+            {
+              "headline": "AI Agent Swarm Mass-Exploited 440 PaperCut Instances in 48 Countries-and Ignored Its Operators’ Exclusion List",
+              "blurb": "forkast.news 3 min read",
+              "url": "https://forkast.news/ai-agent-swarm-mass-exploited-440-papercut-instances-in-48-countries-and-ignored-its-operators-exclusion-list"
+            }
+          ]
+        },
+        {
+          "name": "AI Agent Swarm Mass-Exploited 440 PaperCut Instances in 48 Countries-and Ignored Its Operators’ Exclusion List",
+          "stories": [
+            {
+              "headline": "Muse’s mission",
+              "blurb": "manton.org 3 min read",
+              "url": "https://www.manton.org/2026/09/26/muses-mission.html"
+            }
+          ]
+        },
+        {
+          "name": "Muse’s mission",
+          "stories": [
+            {
+              "headline": "How fast is the web? Explore billions of real-user measurements with BEACON",
+              "blurb": "blog.cloudflare.com 8 min read",
+              "url": "https://blog.cloudflare.com/how-fast-is-the-web"
+            }
+          ]
+        },
+        {
+          "name": "How fast is the web? Explore billions of real-user measurements with BEACON",
+          "stories": [
+            {
+              "headline": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
+              "blurb": "blog.cloudflare.com 6 min read",
+              "url": "https://blog.cloudflare.com/forge-open-source-generation-pipeline"
+            }
+          ]
+        },
+        {
+          "name": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
+          "stories": [
+            {
+              "headline": "The cryptographic world computer",
+              "blurb": "vitalik.eth.limo 5 min read",
+              "url": "https://vitalik.eth.limo/general/2026/09/27/the_cryptographic_world_computer.html"
+            }
+          ]
+        },
+        {
+          "name": "The cryptographic world computer",
+          "stories": [
+            {
+              "headline": "What Would A Serious AI Product Look Like?",
+              "blurb": "blog.glyph.im 22 min read",
+              "url": "https://blog.glyph.im/2026/09/serious-ai-product.html"
+            }
+          ]
+        },
+        {
+          "name": "What Would A Serious AI Product Look Like?",
+          "stories": [
+            {
+              "headline": "Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time",
+              "blurb": "the-decoder.com 1 min read",
+              "url": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time"
+            }
+          ]
+        },
+        {
+          "name": "Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time",
+          "stories": [
+            {
+              "headline": "Announcing Vite+ 1.0",
+              "blurb": "voidzero.dev 5 min read",
+              "url": "https://voidzero.dev/posts/announcing-vite-plus-1-0"
+            }
+          ]
+        },
+        {
+          "name": "Announcing Vite+ 1.0",
+          "stories": [
+            {
+              "headline": "China to bring solid-state batteries to mass production by 2030",
+              "blurb": "electrive.com 2 min read",
+              "url": "https://www.electrive.com/2026/09/28/china-to-bring-solid-state-batteries-to-mass-production-by-2030"
+            }
+          ]
+        },
+        {
+          "name": "China to bring solid-state batteries to mass production by 2030",
+          "stories": [
+            {
+              "headline": "How AI Agents Evolved: From AutoGPT to Claude Code",
+              "blurb": "louisbouchard.ai 8 min read",
+              "url": "https://www.louisbouchard.ai/how-ai-agents-evolved"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
