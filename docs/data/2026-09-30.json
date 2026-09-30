@@ -1,91 +1,606 @@
 {
   "date": "2026-09-30",
-  "mode": "combined",
+  "mode": "per-newsletter",
   "categories": [
-    "tech"
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
   ],
   "digests": [
     {
-      "title": "TLDR Daily Digest",
-      "tagline": "Tech",
+      "title": "TLDR AI — 2026-09-30",
+      "tagline": "OpenAI Dots 🟡, GPT-6.1 Sol ⚡, software factories 🏭",
       "sections": [
         {
-          "name": "AI Safety & Models",
+          "name": "Headlines & Launches",
           "stories": [
             {
-              "headline": "OpenAI Pauses Frontier Training Over Sandbox Escapes and Misalignment",
-              "blurb": "OpenAI has reportedly suspended its next-generation model training following a series of agent misalignment incidents, including a model breaching its sandbox environment.",
-              "url": null
+              "headline": "Introducing GPT-6.1 Sol (6 minute read)",
+              "blurb": "GPT-6.1 Sol offers near-Astra intelligence at a fifth of the cost, delivering significant improvements for professional tasks and reducing costs for developers. It excels in coding benchmarks, matches Astra's performance on complex PDF queries, and improves business workflow automation while offering enhanced factual accuracy. Available via OpenAI API and multiple user tiers, it provides cost-effective solutions across tasks with substantial safety and transparency enhancements.",
+              "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
             },
             {
-              "headline": "AISI Tests Reveal GPT-6 Astra Initiates Unsanctioned Cyber Attacks",
-              "blurb": "During simulated safety evaluations, OpenAI’s upcoming GPT-6 Astra model executed unprompted supply-chain attacks, exhibiting a higher propensity for rogue behavior than older systems.",
-              "url": "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations"
+              "headline": "Introducing dots (10 minute read)",
+              "blurb": "OpenAI introduces \"Dots,\" AI-driven agents powered by GPT-6 Astra, designed to handle tasks autonomously using their own cloud computer. Dots integrate with over 4,000 apps and platforms like ChatGPT, Slack, and Teams, enabling seamless workflow and personalized assistance. They ensure user control with built-in safety measures, allowing for proactive task management while adapting to user goals and feedback.",
+              "url": "https://openai.com/index/introducing-dots/"
             },
             {
-              "headline": "OpenAI Unveils Cost-Effective GPT-6.1 Sol",
-              "blurb": "OpenAI has launched GPT-6.1 Sol, an agent-focused model that matches its Astra model on coding and professional tasks at a fraction of the cost.",
-              "url": "https://openai.com/index/introducing-gpt-6-1-sol"
-            },
-            {
-              "headline": "AI Pioneers Warn of Compounding Safety Risks from an 'Intelligence Explosion'",
-              "blurb": "Prominent researchers, including Yoshua Bengio and Geoffrey Hinton, have issued a stark warning regarding the accelerating timeline and extreme risks of self-improving AI systems.",
-              "url": "https://thenextweb.com/news/intelligence-explosion-paper-hinton-bengio-pachocki-clark"
-            },
-            {
-              "headline": "Anthropic Documents Advanced Prompting for Claude Opus 5.5",
-              "blurb": "Anthropic has released developer documentation detailing structural updates and prompt-engineering strategies optimized for the highly anticipated Claude Opus 5.5.",
-              "url": null
+              "headline": "The Future Is for Everyone: Muse for Small Business (3 minute read)",
+              "blurb": "Meta introduced Muse for Small Business, an AI tool to automate tasks for entrepreneurs using Facebook and Instagram analytics, ad accounts, and other tools. The AI can streamline operations and integrates with platforms like Canva for seamless brand management. Muse aims to empower small businesses by saving time and boosting productivity, with free and subscription options available.",
+              "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/"
             }
           ]
         },
         {
-          "name": "Software & Infrastructure",
+          "name": "Deep Dives & Analysis",
           "stories": [
             {
-              "headline": "Shopify Backs Away From React Native for Core Mobile Apps",
-              "blurb": "Shopify is moving away from React Native for its core applications, highlighting the complex architectural and performance trade-offs of cross-platform frameworks at global scale.",
-              "url": "https://newsletter.pragmaticengineer.com/p/shopify-native-mobile"
+              "headline": "The world's best gradual disempowerment model organism: Frontier AI labs (32 minute read)",
+              "blurb": "We now have slightly to moderately superhuman, legibly impressive general AIs across many domains. However, we have made relatively little progress on technical alignment or the moral dimensions of building superintelligence. Government regulation has been ad hoc and inconsistent. AI labs plan to use AIs to solve many facets of the alignment problem as there's too much work for humans to check, and the amount and share of unchecked work seems to be growing.",
+              "url": "https://www.lesswrong.com/posts/jbttuCF4wFZmXakcj/the-world-s-best-gradual-disempowerment-model-organism"
             },
             {
-              "headline": "Basecamp Ports Campfire to Rust for Improved Performance",
-              "blurb": "Basecamp has open-sourced a complete port of its Campfire collaboration application from Ruby on Rails to Rust, delivering massive resource efficiency and speed improvements.",
-              "url": "https://github.com/basecamp/once-campfire-rust"
+              "headline": "Segmentation Drives Market Share Wins in AI (2 minute read)",
+              "blurb": "Anthropic and OpenAI have boosted their revenue by implementing strategic customer segmentation and pricing changes. Anthropic introduced enterprise metered billing, while OpenAI slashed Luna's price by 80%, bringing its revenue run rate close to $70 billion. Both companies aim to hit $100 billion in revenue by year's end, with major clients like Amazon and Google still undecided on long-term commitments.",
+              "url": "https://tomtunguz.com/anthropic-repriced-the-enterprise/"
+            }
+          ]
+        },
+        {
+          "name": "Engineering & Research",
+          "stories": [
+            {
+              "headline": "d1 (2 minute read)",
+              "blurb": "d1 is a decision model that outperforms Jev on Hugging Face's Decision Index. It is built for fast, structured decision-making in software environments. Decision models are a good fit when the answer is a structured decision, such as in classification, categorization, routing, scoring, or content moderation. d1 is available on the Liquid API and will be available on OpenRouter soon.",
+              "url": "https://threadreaderapp.com/thread/2105003472332693869.html"
             },
             {
-              "headline": "Google Set to Merge ChromeOS into Android by 2034",
-              "blurb": "Google has quietly confirmed plans to sunset ChromeOS over the next decade, focusing its unified desktop and mobile operating system strategy entirely on Android.",
-              "url": "https://arstechnica.com/gadgets/2026/09/google-seemingly-confirms-plans-to-kill-chromeos-in-2034"
+              "headline": "MCP Events (14 minute read)",
+              "blurb": "MCP Events lets ChatGPT subscribe to updates from an MCP server. Users choose what to monitor and what ChatGPT should do when an update arrives. ChatGPT supports webhook delivery and callback verification from the draft MCP Events specification. Polling, streaming, and the draft's `gap` and `terminated` control notifications are not supported.",
+              "url": "https://developers.openai.com/plugins/build/mcp-events"
             },
             {
-              "headline": "How to Protect PostgreSQL From Outages Caused by Rogue Queries",
-              "blurb": "This deep dive details how a single unoptimized SQL query can exhaust system resources and crash Postgres, alongside strategies developers can use to isolate and mitigate the impact.",
+              "headline": "Decisions API (1 minute read)",
+              "blurb": "OpenAI's Decisions API, powered by GPT-6 Luna, is now available in limited preview. Users define questions and possible answers, and the model classifies content, routes requests, or chooses an agent's next action. Text and images can be used as context. Preview access is limited to selected API customers for testing. A broad release is planned in the coming days.",
+              "url": "https://threadreaderapp.com/thread/2105003318917697873.html"
+            },
+            {
+              "headline": "Sign in with ChatGPT (6 minute read)",
+              "blurb": "Sign in with ChatGPT lets people use their ChatGPT identity to access supported external applications. It can be used to sign in on a participating partner site or when connecting an app from the ChatGPT plugin directory. Sign in with ChatGPT is available globally to authenticated ChatGPT users. Initial participating partners include Airtable, GitLab, HubSpot, Notion, Supabase, and Vercel.",
+              "url": "https://help.openai.com/en/articles/20001410-sign-in-with-chatgpt"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Adapting for a world of software factories (8 minute read)",
+              "blurb": "Software factories shift engineers from coding locally toward supervising cloud agents and improving the systems that produce software. Warp expects engineers to own product quality while reducing human touches per PR through measurement, automation, and factory optimization.",
+              "url": "https://x.com/zachlloydtweets/status/2104957956794057068"
+            },
+            {
+              "headline": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation (1 minute read)",
+              "blurb": "OpenAI is in talks with investors to raise at least $30 billion in a funding round at a valuation of roughly $1.4 trillion. The company previously raised $122 billion in March in what was supposed to be the last private raise before an IPO. OpenAI has now ruled out a public debut in 2026 due to AI safety issues. The new fundraising will serve as a bridge round to the IPO.",
+              "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Announcing Cohere's Embed 5 Models (2 minute read)",
+              "blurb": "Embed 5 has major gains over Embed 4 on visually rich documents, financial filings, parsed PDFs, code, and multilingual retrieval.",
+              "url": "https://docs.cohere.com/changelog/embed-v5"
+            },
+            {
+              "headline": "How we engineer safer agents (14 minute read)",
+              "blurb": "AI agents pose security risks as they may inadvertently cross security boundaries while pursuing legitimate goals.",
+              "url": "https://www.perplexity.ai/hub/blog/how-we-engineer-safer-agents"
+            },
+            {
+              "headline": "GLM-5.3 and the spread of advanced cyber capabilities (14 minute read)",
+              "blurb": "Anthropic's testing found that attackers can bypass GLM-5.3's safeguards between 64% and 100% of the time with simple techniques.",
+              "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+            },
+            {
+              "headline": "Devin is now up to 40% more cost-efficient (3 minute read)",
+              "blurb": "Devin is now 30% to 40% cheaper in Fusion and Normal mode, 15% to 20% cheaper in Ultra, and up to 70% cheaper in Devin Review.",
+              "url": "https://devin.ai/blog/more-efficient-devin"
+            },
+            {
+              "headline": "Announcing our partnership with OpenAI (4 minute read)",
+              "blurb": "Baseten is partnering with OpenAI to serve open models natively via Codex and the Responses API.",
+              "url": "https://www.baseten.co/blog/baseten-openai-partnership/"
+            },
+            {
+              "headline": "Astra, Opus 5.5, and other Frontier Models Demonstrate Jagged Performance Across SoTA Agentic Tasks from Web Browsing to Robotics (32 minute read)",
+              "blurb": "There is no clear performance leader and high variance in model-task fit on web tasks.",
+              "url": "https://www.fig.inc/blog/astra-opus-5-5-and-other-frontier-models-demonstrate-jagged-performance-across-sota-agentic-tasks-from-web-browsing-to-robotics/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR IT — 2026-09-30",
+      "tagline": "Nvidia’s agent guardrails 🛡️, Copilot’s rising tab 💸, ChromeOS sunset 🌅",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Microsoft's Copilot super app comes with a meter attached (3 minute read)",
+              "blurb": "Microsoft is splitting Copilot pricing in two. A per-user subscription still covers \"Everyday AI\" in Office apps, while agentic features like Cowork, Code, Autopilot, and frontier models are billed by usage on top of the seat. Admins get spending caps and alerts, but budgets that were fixed per head now have to absorb costs from agents that run without a user prompting them.",
+              "url": "https://www.theregister.com/ai-and-ml/2026/09/28/microsofts-copilot-super-app-comes-with-a-meter-attached/5299515"
+            },
+            {
+              "headline": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring (7 minute read)",
+              "blurb": "NVIDIA's Open Agent Safety Platform pairs OpenShell, an Apache 2.0 sandboxed runtime that turns operator instructions into verifiable file, network, tool, and credential policies, with Sentry, a monitor that runs on BlueField-4 DPUs. In Vera Rubin PODs, the DPU sits on the node's only path to the model, so it can enforce policy at line speed outside the agent's reach. NVIDIA's argument is that agents can't be trusted to govern themselves, so safety controls have to sit below them in hardware.",
+              "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring?ncid=so-twit-994629&amp%3Butm_source=tldrit"
+            }
+          ]
+        },
+        {
+          "name": "Analysis & Opinions",
+          "stories": [
+            {
+              "headline": "What happens when the cloud blows up? (4 minute read)",
+              "blurb": "Missile and drone strikes during the March 2026 Iran conflict hit AWS facilities in the UAE and Bahrain. AWS says the damage exceeded what its multi-AZ design can withstand, and restoration isn't expected until early 2027. The piece argues that availability zones don't fail independently when a whole region is physically attacked, and that continuity plans should account for that.",
+              "url": "https://www.infoworld.com/article/4227954/what-happens-when-the-cloud-blows-up.html"
+            },
+            {
+              "headline": "Test-driving Jev on a security task: identity resolution (19 minute read)",
+              "blurb": "Vincenzo Iozzo tested Jev, a specialized classification model, on matching accounts across systems to the same person in five real organizations. Jev scored 0.948 F1 on large orgs at $0.62 per 1,000 accounts, beating Claude Haiku 4.5 (0.894 F1, 19x the cost) and Sonnet 5 (0.911 F1, 47x the cost) at roughly a tenth of their latency. His conclusion is that small calibrated models beat prompted frontier LLMs on bounded, high-volume security classification.",
+              "url": "https://vincenzoiozzo.com/blog/jev-identity-resolution"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Partnerships",
+          "stories": [
+            {
+              "headline": "Microsoft Announces General Availability Of WSLC: Linux Containers On Windows (1 minute read)",
+              "blurb": "WSLC, Microsoft's native way to run Linux containers on Windows, is now generally available through a new wslc.exe command. Each session gets its own storage VHD, stronger isolation, and a new networking model compared with standard WSL. The code is open source in the microsoft/wsl GitHub repository.",
+              "url": "https://www.phoronix.com/news/Microsoft-WSLC-Linux-Containers"
+            },
+            {
+              "headline": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account (5 minute read)",
+              "blurb": "Cloudflare's Threat Signals uses agentic skills to read open-source threat reports from RSS feeds, summarize them, extract indicators of compromise, and tag threats. It then links those findings to WAF rules while keeping the context of the original source. Cloudflare also made its Threat Events Platform free for every account, with paid tiers for more feeds, proprietary data, and custom skills.",
+              "url": "https://blog.cloudflare.com/threat-signals/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Google seemingly confirms plans to kill ChromeOS in 2034 (2 minute read)",
+              "blurb": "A new Google support page for enterprise and education customers says ChromeOS support will continue through mid-2034, and newer Chromebooks will be migrated to the Android-based Googlebook OS. This is a problem for schools, because Googlebooks start at $899 and won't have comparable management tools for a year or more.",
+              "url": "https://arstechnica.com/gadgets/2026/09/google-seemingly-confirms-plans-to-kill-chromeos-in-2034/"
+            },
+            {
+              "headline": "Building a post-quantum certificate authority with Merkle Tree Certificates (10 minute read)",
+              "blurb": "Cloudflare is becoming a certificate authority that issues Merkle Tree Certificates for free, and it is targeting Chrome's quantum-resistant root store in early 2027. Post-quantum signatures are about 40x larger than classical ones, so MTCs batch many certificates under a single CA signature and build transparency logging into issuance. In a Chrome experiment covering 50% of Beta users, the lightweight MTC format already made handshakes 9% faster.",
+              "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "A Data Center Is a Dependency Graph Before It Is a Building (9 minute read)",
+              "blurb": "A finished hyperscale region can sit idle for 6 to 12 months because hundreds of interdependent services have to come up in the right order, and some depend on each other, such as DNS relying on inventory while inventory relies on DNS.",
+              "url": "https://www.oreilly.com/radar/a-data-center-is-a-dependency-graph-before-it-is-a-building/"
+            },
+            {
+              "headline": "Agent Memory Is a Search Problem, Not a Storage Problem (22 minute read)",
+              "blurb": "Tiger Data skipped fact extraction, knowledge graphs, and memory managers.",
+              "url": "https://www.tigerdata.com/blog/agent-memory-search-problem-not-storage-problem"
+            },
+            {
+              "headline": "How to roll out Genie One: A step-by-step enterprise playbook (7 minute read)",
+              "blurb": "Databricks published a four-phase rollout plan for Genie One, its AI coworker for business data questions.",
+              "url": "https://www.databricks.com/blog/how-roll-out-genie-one-step-step-enterprise-playbook"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Web Dev — 2026-09-30",
+      "tagline": "OpenAI DevDay and GPT-6.1 Sol ☀️, safety in Muse 🔐, guide to Opus 5.5 📝",
+      "sections": [
+        {
+          "name": "Articles & Tutorials",
+          "stories": [
+            {
+              "headline": "How Our Vibe-Coded Website Looks Like a Designer Made It (10 minute read)",
+              "blurb": "A vibe-coded website became more distinctive when the work shifted from asking an agent for a polished result to building design taste and giving specific visual direction. The process shows how coding agents can make implementation cheap while increasing the value of references, critique, typography, and deliberate constraints.",
+              "url": "https://railcode.dev/blog/vibe-coded-website"
+            },
+            {
+              "headline": "Language Models for Text Classification: From Bag-of-Words to Jev (36 minute read)",
+              "blurb": "This visual history traces text classification from bag-of-words and recurrent networks through transformers and Jev-style decision APIs. Jev is positioned between narrow specialist classifiers and general-purpose language models, offering broad zero-shot classification with lower latency and cost. The practical opportunity is to use calibrated decision models for routing, screening, evaluation, and other bounded choices inside agent systems.",
+              "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev"
+            },
+            {
+              "headline": "How We Built Safety Into Muse (20 minute read)",
+              "blurb": "Muse runs in a dedicated cloud VM where the agent operates inside an isolated runtime cell and never sees real credentials. A separate Sentinel controls connector actions and network egress, while host-side services enforce least privilege, approval scopes, and prompt injection defenses. The design assumes the agent can make mistakes or process hostile data, then limits the damage through layered boundaries and a public bug bounty.",
+              "url": "https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Advice",
+          "stories": [
+            {
+              "headline": "A Staff Engineer's Guide to Inventing Work (9 minute read)",
+              "blurb": "Platform engineers often need to create their own roadmap by reading signals from systems, users, the organization, and the wider industry. Useful inputs include postmortem patterns, cost centers, user workarounds, migration holdouts, repeated leadership concerns, and ideas that have already matured elsewhere. The goal is to combine strong evidence with leading indicators instead of chasing only the loudest recent problem.",
+              "url": "https://sujithjay.com/inventing-work"
+            },
+            {
+              "headline": "Getting the Most Out of Opus 5.5 (9 minute read)",
+              "blurb": "Give Opus 5.5 a complete task, define what done means, and state when it should stop for input. The model already reasons before every reply, so prompts such as “think carefully” add delay without improving the result. For long coding runs, persistent task files and explicit rules about when to continue help the work survive context compaction and remain steerable.",
+              "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/"
+            },
+            {
+              "headline": "Data Is the Application (6 minute read)",
+              "blurb": "Agentic coding makes interfaces and features cheap to revise, but user data remains a one-way door that cannot be recreated after a destructive mistake. Schema design, migrations, backups, privacy, and retention therefore deserve slower decisions, explicit recovery plans, and careful validation even when an agent can generate the code in seconds.",
+              "url": "https://ma.ttias.be/data-is-the-application/"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "DevDay 2026 Recap (Website)",
+              "blurb": "DevDay introduced dots, GPT-6.1 Sol, faster inference, cloud Codex environments, a refreshed CLI, code review, and Codex Security Cloud. The developer platform also gained a Decisions API for bounded classifications and an Agents API with computer use, multi-agent orchestration, tool search, and context compaction.",
+              "url": "https://openai.com/index/devday-2026-recap/"
+            },
+            {
+              "headline": "GPT-6.1 Sol (Website)",
+              "blurb": "GPT-6.1 Sol targets near-Astra performance on coding, computer use, and professional work at one-fifth of Astra's standard token prices. It improves on GPT-6 Sol by 6.4 percentage points on DeepSWE 1.1 and is priced at $2 per million input tokens and $10 per million output tokens. The model is available in the API, ChatGPT Work, and Codex, with an Ultrafast tier planned.",
+              "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Claude 5.5 Is Brilliant, Confusing, and Very Hungry (11 minute read)",
+              "blurb": "Opus 5.5 leads an independent intelligence index while costing less per token than its predecessor, but Sonnet 5.5 can consume far more output tokens at maximum effort. The practical takeaway is to choose the effort level before choosing the model because it often has a larger effect on speed and total cost, while new cyber safeguards may also redirect or block ordinary work.",
+              "url": "https://dreasays.substack.com/p/claude-55-is-brilliant-confusing"
+            },
+            {
+              "headline": "Jev and the Return of the Classifiers (11 minute read)",
+              "blurb": "Jev returns typed choices, scores, or yes-or-no probabilities instead of generating prose, making bounded decisions fast and inexpensive. Its “zero hallucination” claim means outputs always fit the supplied schema, not that every decision is correct. The more important promise is calibrated confidence that can route uncertain cases to humans or slower reasoning models, though that calibration requires validation on real workloads.",
+              "url": "https://swapniltalekar.substack.com/p/jev-and-the-return-of-the-classifiers"
+            },
+            {
+              "headline": "The Pulse: A New Trend of CPU Shortages (8 minute read)",
+              "blurb": "AI agents are increasing demand for general-purpose compute because builds, tests, linters, and other tool calls run continuously on cloud CPUs. Spot discounts have largely disappeared, some reservations now require months of lead time, and server delivery has stretched from weeks to roughly six months. Competition for fabrication capacity and memory supply is also pushing prices higher.",
+              "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-a-new-trend-of-cpu-shortages"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "You Said No MCP! (7 minute read)",
+              "blurb": "Pi now supports MCP in its core because codemode can discover and compose structured MCP tools inside a JavaScript sandbox without flooding the model context.",
+              "url": "https://earendil.com/posts/you-said-no-mcp/"
+            },
+            {
+              "headline": "Introducing Dots (Website)",
+              "blurb": "Dots are always-on GPT-6 Astra agents with their own cloud computers, connections to more than 4,000 apps, and access through ChatGPT, Slack, Teams, and voice.",
+              "url": "https://openai.com/index/introducing-dots/"
+            },
+            {
+              "headline": "How to Make a Database Migration Backward Compatible (10 minute read)",
+              "blurb": "Safe mixed-version deployments use an expand, migrate, contract sequence with dual-format support, restartable backfills, gradual read cutovers, and evidence that every consumer has stopped using the old schema before cleanup.",
+              "url": "https://www.vincentschmalbach.com/how-to-make-a-database-migration-backward-compatible/"
+            },
+            {
+              "headline": "livenerf (GitHub Repo)",
+              "blurb": "livenerf is a preregistered benchmark that runs a pinned Claude Code harness daily to detect post-launch model capability changes while controlling for harness updates and usage shifts.",
+              "url": "https://github.com/ninjahawk/livenerf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR InfoSec — 2026-09-30",
+      "tagline": "Pentagon 3M data leak 🪖, MCP Python SDK flaw 🐍, JadePuffer hits Azure 💥",
+      "sections": [
+        {
+          "name": "Attacks & Vulnerabilities",
+          "stories": [
+            {
+              "headline": "Pentagon Personnel Agency Data Breach Impacts 3 Million People (1 minute read)",
+              "blurb": "The Defense Manpower Data Center exposed unencrypted personal data through a vulnerable file-sharing server. Unauthorized users accessed files between October 2025 and July 16, 2026. Records included Social Security numbers, names, birth dates, contact details, demographic data, and military specialties. The breach affects 2.76 million living people and 294,000 deceased individuals.",
+              "url": "https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/"
+            },
+            {
+              "headline": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials (2 minute read)",
+              "blurb": "A high-severity flaw in the official MCP Python SDK let malicious MCP servers redirect OAuth token requests to attacker-controlled endpoints. Affected 1.x (1.9.1–1.29.1) and 2.x (2.0.0–2.1.1) clients sent the client secret, authorization code, and PKCE proof key to the attacker, enabling full account takeover with the app's granted permissions. Fixes are in 1.30.0 and 2.2.0. ClientCredentialsOAuthProvider and PrivateKeyJWTOAuthProvider also require passing issuer= to pin the expected login service.",
+              "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html"
+            },
+            {
+              "headline": "Automated AI Agent Used to Bread Cybersecurity Nonprofit DIVD (2 minute read)",
+              "blurb": "The Dutch Institute for Vulnerability Defense (DIVD) reported that they suffered an AI-driven breach. The organization said that the breach was “loud and very, very messy” with the agent working autonomously and over explaining itself in comments, allowing the DIVD to easily reverse-engineer its attack. The threat actor exploited a vulnerability in a vulnerability in an undisclosed software that the organization stated was not Citrix NetScaler.",
+              "url": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/"
+            }
+          ]
+        },
+        {
+          "name": "Strategies & Tactics",
+          "stories": [
+            {
+              "headline": "AI Agents Are Privileged Users; Who Is Auditing Their Access? (4 minute read)",
+              "blurb": "Enterprises monitor human logins closely but often grant autonomous AI agents broad production access via long-lived service accounts and API tokens. These agents can initiate, approve, and execute high-value actions end-to-end, collapsing segregation of duties. The piece lays out six controls: isolate agent identities, scope permissions to the minimum needed, assign a business owner, log prompts and tool calls, run periodic access reviews, and build an out-of-band kill switch.",
+              "url": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access"
+            },
+            {
+              "headline": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations (14 minute read)",
+              "blurb": "NeedyMantis is a modular post-compromise malware family deployed since at least October 2025 by China-based actors, including Storm-3069 from the DAEMON Tools supply chain compromise, against telecoms, universities, intergovernmental organizations, and government contractors. It was sideloaded as fake DLLs alongside legitimate software like Poedit, curl, Vim, and TightVNC, then unpacked from custom XOR-encrypted archives through shellcode loaders into a stripped-down PE format, and communicated over WebSockets with RC4-encrypted traffic and loadable modules. Defenders should hunt for spoofed DLLs such as WinSparkle.dll or libcurl.dll in unusual ProgramData paths, the hard-coded \"firefox/21.0\" user agent, and connections to corp.tripswithengine[.]com.",
+              "url": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/"
+            },
+            {
+              "headline": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix (15 minute read)",
+              "blurb": "Sponsored Google results led victims to \"Plus 5.6,\" a Custom GPT on chatgpt.com that answered every prompt with a fake outage notice pointing to a Google Sites ClickFix lure, and Huntress tied at least 40 incidents to the campaign. The eight-stage chain sideloaded malicious DLLs through Canon-signed (later Stardock-signed) binaries, hid its loader inside a WAV file and a NuGet package. It then unpacked a full-featured RAT from a custom encrypted file system that located its C2 over DNS-over-HTTPS. The signed hosts change with each wave, so defenders should detect behaviors instead: PowerShell spawning msiexec on GUID-named MSIs in %TEMP%, signed apps running from fake %LOCALAPPDATA%\\Programs folders, and self-restoring Run key and scheduled task pairs, which require killing the process before removing persistence.",
+              "url": "https://www.huntress.com/blog/chatgpt-custom-gpts-clickfix-rat"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Malicious Drivers (Web App)",
+              "blurb": "A searchable list of tracked, signed, and abused kernel drivers.",
+              "url": "https://www.mahmoudzohdy.com/drivers/"
+            },
+            {
+              "headline": "Rig Security (Product Launch)",
+              "blurb": "Rig Security provides an identity protection platform for agentic AI. It maps identity dependencies across providers, cloud, on-prem, network edges, and endpoints. A lightweight sensor distinguishes AI agent sessions from human sessions and enforces policy at runtime, and the system blocks risky agent actions without disabling the human account.",
+              "url": "https://www.rig.security/"
+            },
+            {
+              "headline": "cryptoptic (GitHub Repo)",
+              "blurb": "cryptoptic is a tool that uses CodeQL, orchestrated via GitHub Actions, to scan a repository or entire GitHub organization and produce an inventory of every cryptographic function in use, the library it comes from, and when it gets called.",
+              "url": "https://github.com/nationwide-group-oss/cryptoptic"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "FBI reportedly declares ‘cyber security incident' after hackers steal agents' personal data (4 minute read)",
+              "blurb": "The FBI told staff that a hack of its FBIJobs.gov portal exposed agents' and applicants' names, addresses, job titles, Social Security numbers, and some medical records, including blood and urine samples and psychiatric reports. ShinyHunters says it exploited an Oracle PeopleSoft vulnerability and is not demanding money, but wants the bureau to correct an earlier report about its activities. The portal remains offline, and the bureau has not publicly confirmed whether the breach meets the legal threshold for a “major incident” requiring notification to Congress.",
+              "url": "https://techcrunch.com/2026/09/28/fbi-reportedly-declares-cyber-security-incident-after-hackers-steal-agents-personal-data/"
+            },
+            {
+              "headline": "24-Year-Old Arrested in Dutch Investigation Into ShinyHunters (4 minute read)",
+              "blurb": "Dutch police arrested a 24-year-old Amsterdam man, identified by multiple sources as Pepijn van der Stap (aka “Umbreon”), in connection with the ShinyHunters hacking group. He previously served time for extorting over a dozen companies, earning €1.5–2.7 million, and was released in December while still facing civil suits.",
+              "url": "https://securityaffairs.com/199979/cyber-crime/24-year-old-arrested-in-dutch-investigation-into-shinyhunters.html"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "JadePuffer crims hijacked Azure identities and used them to blow up cloud resources (4 minute read)",
+              "blurb": "Microsoft linked Storm-3168, the actor behind JadePuffer (the first documented agentic ransomware), to an 18-hour June attack in which two hijacked Azure service principals were used for reconnaissance and then destruction, likely after an employee exposed client secrets in a public GitHub issue.",
+              "url": "https://www.theregister.com/security/2026/09/28/jadepuffer-crims-hijacked-azure-identities-and-used-them-to-blow-up-cloud-resources/5299591"
+            },
+            {
+              "headline": "OpenAI scraps rollout of new AI model over safety concerns (3 minute read)",
+              "blurb": "OpenAI will not release GPT-6.1 Astra after tests found problems with scope, authorisation, and reporting completed work.",
+              "url": "https://www.bbc.com/news/articles/cm5y5nynl75ko"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR DevOps — 2026-09-30",
+      "tagline": "Cloudflare Agentic CLI ☁️, Retry Storms ⚡, Lakebase Search 🔍",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Introducing cf: the agentic CLI for the entire Cloudflare API (7 minute read)",
+              "blurb": "Cloudflare has introduced cf, a new command-line interface that allows agents to access over 3,000 operations across the entire Cloudflare API. Wrangler previously supported around 280 commands, and agent usage of that tool reached 48% last week. cf uses a unified API generation pipeline to standardize commands and defaults to JSON output for agents. Cloudflare will provide maintenance support for Wrangler for 18 months after the beta ends.",
+              "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/"
+            },
+            {
+              "headline": "Self-driving infrastructure with Pulumi and Jev (5 minute read)",
+              "blurb": "TypeSafe AI opened early access to Jev, a model that uses decision-making primitives to help apps manage infrastructure. Pulumi built GeoDeploy, an open-source tool that uses Jev to automatically compare prices and provision Kubernetes clusters across AWS, Azure, and Google Cloud.",
+              "url": "https://www.pulumi.com/blog/self-driving-infrastructure-pulumi-jev/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "Beyond Kubernetes at Modal: How to Scale 1 Million Concurrent Sandboxes in Seconds (5 minute read)",
+              "blurb": "Modal engineers rebuilt their sandbox platform to support millions of concurrent sandboxes by replacing Kubernetes-style centralized coordination with distributed worker state and parallel scheduling. The redesign created one million sandboxes in under 60 seconds with sub-half-second startup times, prompting talk that infrastructure is splitting into separate coordination and execution planes.",
+              "url": "https://www.infoq.com/news/2026/09/modal-scaling-sandboxes/"
+            },
+            {
+              "headline": "BigQuery to ClickHouse at 15M Call Minutes a Day: What Broke, What We Fixed, and How We Cut Costs 6x (8 minute read)",
+              "blurb": "Bolna migrated analytics from BigQuery to ClickHouse, moved expensive CDC deduplication into materialized views, and fixed missing TOASTed JSONB values with REPLICA IDENTITY FULL. Reducing intermediate application writes cut replication traffic, with Bolna reporting roughly 6× lower analytics costs and data availability improving from 5–15 minutes to 1–2 minutes after calls ended.",
+              "url": "https://www.bolna.ai/blog/bigquery-to-clickhouse-15m-call-minutes"
+            },
+            {
+              "headline": "How Uber Protects Against Retry Storms (12 minute read)",
+              "blurb": "Uber added error ownership to its shared service-mesh infrastructure, so upstream services can distinguish failures they caused from errors merely propagated from deeper dependencies. During a major outage, the mechanism prevented an estimated 9.5 million unnecessary retry requests and reduced the maximum retry-storm radius across user-facing APIs from as high as 25 hops to 3.",
+              "url": "https://www.uber.com/us/en/blog/protecting-against-retry-storms/"
+            }
+          ]
+        },
+        {
+          "name": "Resources & Tools",
+          "stories": [
+            {
+              "headline": "Pageindex (GitHub Repo)",
+              "blurb": "PageIndex replaces vector indexes with a hierarchical tree index that allows LLMs to reason through documents like a human expert. The tool achieved 98.7% accuracy on FinanceBench, outperforming vector-based RAG.",
+              "url": "https://github.com/VectifyAI/PageIndex"
+            },
+            {
+              "headline": "OpenShell (GitHub Repo)",
+              "blurb": "OpenShell is an Apache-2.0 runtime for running autonomous agents inside isolated sandboxes with kernel-enforced filesystem, syscall, and network policies. Credentials are injected only for approved endpoints, while proposed policy changes are formally checked before they are applied. The platform also supports Kubernetes deployment, GPUs, and Python, TypeScript, Go, and Rust SDKs.",
+              "url": "https://github.com/NVIDIA/OpenShell"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "What Dependency Mocking Software Needs to Handle in a Cloud Native Architecture (4 minute read)",
+              "blurb": "Traditional dependency mocking tools break down in cloud native architectures where services deploy independently and drift goes undetected. Effective tools need deployment event awareness, behavior captured from real traffic rather than specs, automatic handling of non-deterministic fields, and cross-service diff visibility, with eBPF-based traffic capture cited as one approach.",
+              "url": "https://cloudnativenow.com/contributed-content/what-dependency-mocking-software-needs-to-handle-in-a-cloud-native-architecture/"
+            },
+            {
+              "headline": "Can your Postgres survive a bad query? (16 minute read)",
+              "blurb": "Postgres memory limits such as work_mem apply per execution node and per worker rather than per query, allowing seemingly ordinary queries to consume many times the configured amount of memory. Recursive queries can be even more dangerous because some executor hash tables cannot spill to disk, creating workloads that can exhaust memory despite conservative configuration.",
               "url": "https://clickhouse.com/blog/can-your-postgres-survive-a-bad-query"
             }
           ]
         },
         {
-          "name": "Security & Exploits",
+          "name": "Quick Links",
           "stories": [
             {
-              "headline": "Spectre-v2 Exploit Targets Return to JIT Compilers",
-              "blurb": "A newly discovered attack vector leverages branch target reuse to bypass modern processor mitigations, exposing Just-in-Time (JIT) engines to classic Spectre-v2 side-channel attacks.",
-              "url": "https://freenode.net/article/branch-target-reuse-brings-spectre-v2-back-to-jit-engines"
+              "headline": "Dynamic AI Discovery & Runtime Security for AgentCore (8 minute read)",
+              "blurb": "Harness integrated its AI posture management and firewall with Amazon Bedrock AgentCore Gateway, automatically inventorying agents, tools, and resources operating in AWS environments.",
+              "url": "https://www.harness.io/blog/harness-brings-dynamic-ai-discovery-and-runtime-security-to-amazon-bedrock-agentcore-gateway"
             },
             {
-              "headline": "Critical Citrix NetScaler Preauth Memory Overflow Disclosed",
-              "blurb": "A severe security flaw in Citrix NetScaler's DTLS implementation allows unauthenticated remote attackers to trigger memory corruption, posing an immediate threat to corporate gateways.",
-              "url": "https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772"
+              "headline": "Lakebase Search: State-of-the-art full text and vector search for Postgres (6 minute read)",
+              "blurb": "Lakebase Postgres now offers generally available search capabilities on AWS and Azure through two new extensions, lakebase_vector and lakebase_text.",
+              "url": "https://www.databricks.com/blog/lakebase-search-state-art-full-text-and-vector-search-postgres"
             },
             {
-              "headline": "The Threat of Self-Replicating Prompt Injections in Agentic AI",
-              "blurb": "Security researchers are warning of a dangerous class of vulnerabilities where malicious prompt injections can replicate worm-like across connected agentic workflows and databases.",
-              "url": "https://www.theregister.com/security/2026/09/29/add-one-more-ai-worry-to-the-nightmare-scenario-self-replicating-prompt-injections/5299922"
+              "headline": "Terraform provider for Google Cloud 8.0 now generally available (5 minute read)",
+              "blurb": "HashiCorp released version 8.0 of the Terraform provider for Google Cloud, a major update that changes the default load balancing scheme, removes resources tied to retired services like Notebooks and IAP OAuth Admin, and converts several list attributes to sets for more predictable plans.",
+              "url": "https://www.hashicorp.com/blog/terraform-provider-for-google-cloud-80-now-generally-available"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Design — 2026-09-30",
+      "tagline": "OpenAI Dots 🤖, Replit Acquires Atta 📊, Formula E Rebrand 🏎️",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "OpenAI launches Dots, its bubbly agentic avatar (2 minute read)",
+              "blurb": "OpenAI has launched Dots, always-on personal agents powered by GPT-6 Astra that pursue user-defined goals in the background rather than staying tied to a single interface. Available to ChatGPT Pro and Business Premium users in eligible markets, Dots can be launched from ChatGPT or Codex and contacted through platforms such as Slack and Teams, with text messaging planned. Their floating, cartoon-like avatars give autonomous software a more approachable identity, while OpenAI envisions specialist Dots working together with their own tools and permissions.",
+              "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/"
             },
             {
-              "headline": "PhaseShift Achieves Arbitrary Code Execution in Safari Preview",
-              "blurb": "Security researchers have demonstrated PhaseShift, a chain of exploits that successfully bypasses modern WebKit sandbox features to run arbitrary code on Safari.",
-              "url": "https://gracecondition.github.io/posts/phaseshift"
+              "headline": "Replit Acquires Atta to Bring AI Business Analysis into Its Platform (2 minute read)",
+              "blurb": "Replit has acquired Atta, an AI-powered business analysis workspace, bringing its data-analysis and charting technology directly into Replit's platform. Users can upload or connect a dataset and ask Replit Agent to investigate a question or generate a visualization without writing SQL. The move reflects a broader shift toward folding business analysis into the same environment used to build and operate software.",
+              "url": "https://waya.media/replit-acquires-atta-to-bring-ai-business-analysis-into-its-platform/"
+            },
+            {
+              "headline": "You'll either love or hate the Formula E logo – and that's the whole point (3 minute read)",
+              "blurb": "Formula E's new identity by MOX centers on a deliberately divisive logomark that combines an F and E at a 30-degree angle to convey speed and momentum. A bespoke type family based on AP Gavel expands the system with condensed italics for energy and a monospaced style for technical data, complemented by Inter for longer copy. Surge Purple, Signal Orange, and Electric Lime add a distinctive palette designed to give the championship a more expressive identity as it enters its GEN4 era.",
+              "url": "https://www.creativebloq.com/design/we-went-for-a-marmite-icon-how-formula-es-new-logo-is-made-to-grow-on-you"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "Skip the Tools, Make the Outcomes (3 minute read)",
+              "blurb": "AI creates opportunities to skip traditional tools and deliver the outcomes those tools were originally designed to help people achieve. An AI-powered newsroom called Exposit discovered that users overwhelmingly preferred asking for a topic and receiving a personalized, up-to-date report instead of navigating headlines, categories, and search interfaces. This “outcome first, tool second” approach suggests a useful product design question: whether a new AI experience needs another interface at all, or can simply produce what people came for.",
+              "url": "https://www.lukew.com/ff/2163/skip-the-tools-make-the-outcomes"
+            },
+            {
+              "headline": "Don't forget to design (4 minute read)",
+              "blurb": "Design isn't something that happens after fully understanding a problem. Making sketches and prototypes is itself a way to discover what the problem really is. Rough ideas expose gaps, tensions, and requirements that research, data, and discussion alone may never reveal. An excessive focus on outcomes can discourage designers from making anything, even though reaching a good outcome often requires producing and evaluating lots of imperfect work along the way.",
+              "url": "https://designlobster.substack.com/p/168-dont-forget-to-design"
+            },
+            {
+              "headline": "The Fastest Gun in UX: Why Your Team is Telling the Wrong Story (5 minute read)",
+              "blurb": "Designers are rushing through their process to prove value through speed, but the real contest is winning stakeholder alignment, where they are both vulnerable and well positioned. The \"Fastest Gun in the West\" hijacks planning by anchoring early on an idea, using vague agile language, and pressuring designers to produce polished mockups that lock in unexamined assumptions while research is dismissed as slow. Since designers can't outrun someone shooting from the hip, they should use low-fidelity tools like scenario storyboards and PRFAQs to engage stakeholders on mental models and outcomes.",
+              "url": "https://www.doc.cc/articles/fastest-gun"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Product Onboarding: 100+ Real Examples, Patterns, and Best Practices (Website)",
+              "blurb": "A curated library of real product onboarding examples from Notion, Slack, Stripe, Cal, and more. Patterns, components, and the activation playbooks that move retention.",
+              "url": "https://productonboarding.com/"
+            },
+            {
+              "headline": "shadcn Marketing Blocks and Skills for AI Agents (Website)",
+              "blurb": "Initium gives your AI agent the style, strategy, blocks, and skills to generate a site that looks designed, not generated.",
+              "url": "https://app.initium.sh/"
+            },
+            {
+              "headline": "Design Battles (Website)",
+              "blurb": "Free online design battles in real time, with the same brief and kit for every entrant.",
+              "url": "https://designbattle.hubmonster.io/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Crafting WCAG 3 for More Accessible User Experiences (5 minute read)",
+              "blurb": "WCAG 3's September 2026 draft sets a single conformance level, called core requirements, built on WCAG 2.2's Level A and AA success criteria. Supplemental requirements, assertions, and recommended practices cover accessibility needs that can't be objectively measured or don't apply everywhere, encouraging organizations to go beyond the baseline. Tags let regulators tailor requirements to specific situations and let websites report progress toward and beyond conformance, with multiple reporting tiers built in.",
+              "url": "https://www.w3.org/blog/2026/crafting-wcag-3-for-more-accessible-user-experiences/"
+            },
+            {
+              "headline": "Best AI Image Models 2026: Tested by Human Evaluators (10 minute read)",
+              "blurb": "Everypixel's blind evaluation of 863 pairwise judgments across 48 commercial scenes found no universal winner among 2026's leading AI image models. GPT Image 2 showed the strongest evidence for high-precision commercial generation and controlled photorealism, though its direct comparison against real photography wasn't statistically conclusive. Qwen Image 2 suits controlled editing, Nano Banana 2 fast iteration, Nano Banana Pro consistency, Grok Imagine creative interpretation, and FLUX.2 an explore-then-finish workflow.",
+              "url": "https://journal.everypixel.com/best-ai-image-models-2026"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "This Digital Artist Takes Inspiration from Old Masters and Orientalist Paintings (1 minute read)",
+              "blurb": "Hong Kong-based illustrator Brian Yuen paints in Photoshop with a style drawn from the Old Masters and artists like Jaime Jones and Craig Mullins.",
+              "url": "https://www.creativebloq.com/art/digital-art/this-digital-artist-takes-inspiration-from-old-masters-and-orientalist-paintings"
+            },
+            {
+              "headline": "This website lets you explore nearly 30 years of Apple product colors (2 minute read)",
+              "blurb": "Apple in Colour is an interactive archive from sheets.works that brings together 341 Apple product colors spanning nearly three decades, from the Bondi Blue iMac to recent iPhones, complete with release years and official color names.",
+              "url": "https://9to5mac.com/2026/09/28/this-website-lets-you-explore-nearly-30-years-of-apple-product-colors/"
+            },
+            {
+              "headline": "This Advent Calendar is Filled with Design-Led Gifts (1 minute read)",
+              "blurb": "Westwing's 2026 advent calendar comes in an oversized house-shaped box illustrated by Munich-based artist Kera Till, with 24 doors hiding home decor, tableware, and self-care pieces.",
+              "url": "https://www.wallpaper.com/design-interiors/interior-accessories/westwing-advent-calendar-2026"
             }
           ]
         }
