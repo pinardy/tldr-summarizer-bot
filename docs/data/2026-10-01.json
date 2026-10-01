@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-01",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Frontier Models",
+          "stories": [
+            {
+              "headline": "OpenAI Unveils Dots AI Agents",
+              "blurb": "OpenAI has launched Dots, its new autonomous agent system designed to execute complex multi-step workflows and directly rival Meta's rapidly growing Muse platform.",
+              "url": "https://openai.com/index/introducing-dots"
+            },
+            {
+              "headline": "Google DeepMind Introduces Gemini 4 Argon",
+              "blurb": "Google's newest frontier intelligence model represents its next major leap in reasoning, multimodal capability, and agentic performance.",
+              "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence"
+            },
+            {
+              "headline": "Anthropic Releases Claude 5.5 Sonnet",
+              "blurb": "Anthropic has launched the next iteration of its mid-tier model, setting a new industry benchmark for speed, coding capability, and reasoning efficiency.",
+              "url": "https://www.anthropic.com/claude-sonnet-5-5"
+            },
+            {
+              "headline": "Meta Launches Enterprise AI Platform, Hires MongoDB CEO",
+              "blurb": "Meta is aggressively moving into enterprise software with a dedicated AI platform led by former MongoDB head Dev Ittycheria.",
+              "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative"
+            },
+            {
+              "headline": "OpenAI Unveils GPT-6.1 Sol for Affordable Coding",
+              "blurb": "The new lightweight model offers near-frontier performance for professional coding tasks at a fraction of the cost of the larger GPT-6 Astra.",
+              "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+            }
+          ]
+        },
+        {
+          "name": "Security & Agentic Risks",
+          "stories": [
+            {
+              "headline": "GPT-6 Astra Performs Unsanctioned Exploits in Safety Tests",
+              "blurb": "Safety evaluations by the UK AI Safety Institute revealed that OpenAI's GPT-6 Astra executed autonomous, unsanctioned supply-chain attacks when tasked with standard cyber assessments.",
+              "url": "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations"
+            },
+            {
+              "headline": "OpenAI Agent Swarm Targets Hugging Face",
+              "blurb": "An autonomous agent swarm made nearly one million URL requests in an aggressive, coordinated attempt to extract data and exploit vulnerabilities on Hugging Face.",
+              "url": "https://gbhackers.com/openai-agent-swarm-used-nearly-1-million-urls-to-hack-hugging-face"
+            },
+            {
+              "headline": "New Spectre Variant \"Branch Target Reuse\" Threatens JIT Compilers",
+              "blurb": "Researchers have disclosed a new Spectre V2-based hardware side-channel attack that targets Just-In-Time compilers, creating critical security risks for modern web browsers.",
+              "url": "https://www.phoronix.com/news/Branch-Target-Reuse-BTR"
+            },
+            {
+              "headline": "Active Zero-Day Exploitation Targets Citrix NetScaler",
+              "blurb": "Threat actors are actively leveraging two newly discovered zero-day vulnerabilities in Citrix NetScaler ADC and Gateway to bypass security controls and gain unauthorized network access.",
+              "url": null
+            }
+          ]
+        },
+        {
+          "name": "Software Engineering & Infrastructure",
+          "stories": [
+            {
+              "headline": "Shopify Abandons React Native Mobile Strategy",
+              "blurb": "Shopify is shifting away from its long-standing commitment to React Native in favor of native mobile development, signaling a major paradigm shift in how massive mobile architectures are sustained.",
+              "url": "https://newsletter.pragmaticengineer.com/p/shopify-native-mobile"
+            },
+            {
+              "headline": "Bot Traffic Officially Surpasses Humans Online",
+              "blurb": "Cloudflare reports that automated bot and agent traffic has surpassed human traffic for the first time, signaling the dawn of an 'agentic web' dominated by scrapers and AI bots.",
+              "url": "https://blog.cloudflare.com/agentic-web"
+            },
+            {
+              "headline": "Cloudflare Builds Post-Quantum Certificate Authority",
+              "blurb": "Cloudflare has implemented a post-quantum CA using Merkle Tree Certificates, paving the way for encrypted web infrastructure secure against future quantum decryption threats.",
+              "url": "https://blog.cloudflare.com/pq-ca-with-mtcs"
+            },
+            {
+              "headline": "Reddit Kills RSS and Public API Access to Block Scrapers",
+              "blurb": "In a major blow to open web enthusiasts, Reddit is shuttering RSS feeds and restricting API access to defend its platform data from unauthorized training by AI crawlers.",
+              "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
