@@ -2,90 +2,95 @@
   "date": "2026-10-02",
   "mode": "combined",
   "categories": [
-    "tech"
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
   ],
   "digests": [
     {
       "title": "TLDR Daily Digest",
-      "tagline": "Tech",
+      "tagline": "AI, IT, Web Dev, InfoSec, DevOps, Design",
       "sections": [
         {
-          "name": "AI Models & Releases",
+          "name": "AI & Models",
           "stories": [
             {
-              "headline": "OpenAI Launches Dots Autonomous Agents at DevDay 2026",
-              "blurb": "OpenAI unveiled Dots, new autonomous AI agents designed to execute complex workflows, alongside over 20 other developer-focused platform launches.",
-              "url": "https://openai.com/index/introducing-dots"
+              "headline": "OpenAI Delays Planned IPO and Dismisses Key Safety Researchers",
+              "blurb": "OpenAI has reportedly delayed its initial public offering to resolve complex safety challenges while simultaneously parting ways with three safety researchers over confidential disclosures.",
+              "url": "https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns/"
             },
             {
-              "headline": "OpenAI Releases GPT-6.1 Sol for Agentic Coding",
-              "blurb": "OpenAI has released its GPT-6.1 Sol model, offering agentic coding and professional-grade performance at one-fifth the cost of its premium Astra model.",
-              "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+              "headline": "Google Releases Gemini 4 Argon Exclusively to Trusted Cyber Defenders",
+              "blurb": "Google is prioritizing defensive security by rolling out its highly capable Gemini 4 Argon model first to security partners to identify, validate, and patch critical vulnerabilities.",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
             },
             {
-              "headline": "Google Unveils Gemini 4 Argon Frontier Model",
-              "blurb": "Google DeepMind announced Gemini 4 Argon, pushing the boundaries of multimodal intelligence and reasoning capabilities.",
-              "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence"
+              "headline": "Cloudflare and Industry Leaders Standardize Lightweight Decision Models",
+              "blurb": "Cloudflare introduced Clef, an open-source, Jev-compatible decision model designed to help software agents programmatically classify, score, and route tasks locally.",
+              "url": "https://blog.cloudflare.com/clef-decision-models/"
             },
             {
-              "headline": "DeepSeek Open-Sources TileLang to Run AI on Huawei Hardware",
-              "blurb": "DeepSeek released TileLang, an open-source tool designed to run high-performance AI workloads on Huawei Ascend chips as a simpler alternative to NVIDIA's CUDA.",
-              "url": "https://thenextweb.com/news/deepseek-huawei-ascend-tilelang-open-source-cuda"
-            },
-            {
-              "headline": "Anthropic Releases Claude 5.5 Sonnet with Faster Output Speed",
-              "blurb": "Anthropic has upgraded Claude Sonnet to version 5.5, delivering significantly quicker response times for developers and enterprise integrations.",
-              "url": "https://www.testingcatalog.com/anthropic-launches-claude-sonnet-5-5-with-faster-output"
+              "headline": "Uber Tackles Identity and Governance Bottlenecks in AI Agent Workflows",
+              "blurb": "Uber designed a custom security token system utilizing SPIRE to establish verifiable identities and trust boundaries for autonomous agents acting on behalf of users.",
+              "url": "https://www.uber.com/us/en/blog/solving-the-agent-identity-crisis/"
             }
           ]
         },
         {
-          "name": "Security & Privacy",
+          "name": "Security & Infrastructure",
           "stories": [
             {
-              "headline": "Teen Researcher Gains Admin Access to 17-Trillion-Row Microsoft Database",
-              "blurb": "A 16-year-old security researcher discovered a critical Microsoft vulnerability that granted full administrative access to highly sensitive backend databases holding over 17 trillion rows of data.",
-              "url": "https://www.theregister.com/security/2026/09/30/16-year-old-researcher-found-a-microsoft-bug-got-admin-access-to-databases-with-173-trillion-rows/5300240"
+              "headline": "Google Threat Intel Warns AI Tools Have Doubled Vulnerability Disclosures",
+              "blurb": "Automated AI tools are rapidly changing the threat landscape, accelerating both the speed of software vulnerability discoveries and the subsequent weaponization of n-day bugs.",
+              "url": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era"
             },
             {
-              "headline": "Can Sandboxing Contain Rogue AI Agents?",
-              "blurb": "Security experts warn that standard application sandboxing techniques are fundamentally inadequate for containing the unpredictable, multi-step actions of autonomous AI agents.",
-              "url": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents"
+              "headline": "Critical Cisco SD-WAN Zero-Day Allows Trivial Authentication Bypass",
+              "blurb": "Attackers are actively exploiting a critical auth bypass flaw in Cisco SD-WAN vManage where a simple unauthenticated request mints a fully privileged admin session.",
+              "url": "https://www.vulncheck.com/blog/revenge-of-the-sd-wan-cve-2026-76504"
             },
             {
-              "headline": "Leaked Video Shows Police Bypassing iPhone Inactivity Reboots",
-              "blurb": "A leaked video reveals that law enforcement tools like GrayKey can successfully bypass iOS's automatic inactivity reboot mechanism to access locked devices.",
-              "url": "https://www.404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey"
+              "headline": "Active Flaw in Zimbra Collaboration Suite Exploited to Steal Corporate Email",
+              "blurb": "A critical remote code execution vulnerability in Zimbra's SNMP service is actively being exploited in the wild, leading to widespread credential harvesting and data theft.",
+              "url": "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/"
             },
             {
-              "headline": "GPT-6 Astra Executes Supply-Chain Attacks in UK Safety Tests",
-              "blurb": "UK government researchers found that OpenAI’s advanced GPT-6 Astra model successfully simulated complex supply-chain cyberattacks, raising significant safety concerns.",
-              "url": "https://thenextweb.com/news/gpt-6-astra-supply-chain-attacks-uk-aisi-simulations"
+              "headline": "Cloudflare Prepares Free Post-Quantum CA Using Merkle Tree Certificates",
+              "blurb": "To prevent post-quantum cryptography from causing internet latency spikes, Cloudflare is pioneering a post-quantum Certificate Authority that batches signatures into compact Merkle trees.",
+              "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/"
             }
           ]
         },
         {
-          "name": "Software Engineering & Infrastructure",
+          "name": "Dev Tools & Design",
           "stories": [
             {
-              "headline": "Shopify Deserts React Native for Fully Native Mobile Apps",
-              "blurb": "In a major architectural pivot, Shopify has shifted away from React Native to adopt fully native mobile development to optimize performance and developer velocity.",
-              "url": "https://newsletter.pragmaticengineer.com/p/shopify-native-mobile"
+              "headline": "SvelteKit 3 Launches with Vite 8 Integration and Rolldown Support",
+              "blurb": "The major framework release modernizes SvelteKit by transitioning to Vite 8, deprecating older APIs, and adding native subpath imports for faster compilation.",
+              "url": "https://svelte.dev/blog/sveltekit-3-is-here"
             },
             {
-              "headline": "Why Git 3.0's Shift to SHA-256 May Be a Costly Move",
-              "blurb": "Git Butler outlines why transitioning to SHA-256 as the default hashing algorithm in Git 3.0 could introduce massive backward compatibility issues and engineering friction.",
-              "url": "https://blog.gitbutler.com/git-3-sha-256"
+              "headline": "Jane Street Builds High-Performance OCaml FUSE Server",
+              "blurb": "By engineering a read-only FUSE server using zero-copy buffers, Jane Street elevated its internal Depot object store's POSIX filesystem throughput by 40 times.",
+              "url": "https://blog.janestreet.com/linux-engineering-depot-fuse-index/"
             },
             {
-              "headline": "Reddit Eliminates RSS Feeds and Public APIs to Block AI Scraping",
-              "blurb": "Reddit is removing its long-standing RSS feeds and terminating public API access in an aggressive effort to prevent AI models from scraping its platform for training data.",
-              "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots"
+              "headline": "Mozilla Launches Flexible Firefox 157 Redesign with Desktop Customization",
+              "blurb": "The desktop and mobile browser overhaul delivers modern styling, interactive color palettes, and a highly requested Compact Mode without degrading overall performance.",
+              "url": "https://blog.mozilla.org/en/firefox/new-firefox-design-is-here/"
             },
             {
-              "headline": "Bot Traffic Officially Surpasses Humans on the Web",
-              "blurb": "Cloudflare data reveals that automated bot and AI agent traffic has officially eclipsed human-generated traffic online, ushering in an era of the 'agentic web.'",
-              "url": "https://blog.cloudflare.com/agentic-web"
+              "headline": "Tactics for Eliminating Derivative Slop in AI-Generated Designs",
+              "blurb": "Designers are fighting back against generic AI patterns by enforcing intentional typography, restricting palettes, and using AI only as a foundational reference.",
+              "url": "https://uxdesign.cc/how-to-de-slopify-your-designs-4c40c57c1dc9"
+            },
+            {
+              "headline": "Apple Aims to Flatten Management and Quicken Product Release Cadences",
+              "blurb": "Under hardware lead John Ternus, Apple is planning a leaner, engineering-first organization focused on more frequent launches and experimental hardware concepts.",
+              "url": "https://9to5mac.com/2026/09/29/john-ternus-apple-new-products-leaner/"
             }
           ]
         }
