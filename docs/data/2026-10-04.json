@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-04",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Foundation Models",
+          "stories": [
+            {
+              "headline": "Google Unveils Gemini 4 Argon with 1M Output Tokens",
+              "blurb": "Google has announced its new Gemini 4 Argon model, introducing a massive one million output token window that dramatically expands generation capacity for complex workflows.",
+              "url": "https://www.thelec.net/news/articleView.html?idxno=14342"
+            },
+            {
+              "headline": "Black Forest Labs Releases FLUX 3 Image",
+              "blurb": "Black Forest Labs has launched FLUX 3 Image, offering creators unprecedented, pixel-level control and enhanced image generation capabilities.",
+              "url": "https://bfl.ai/models/flux-3-image"
+            },
+            {
+              "headline": "Cloudflare Launches Clef Open-Source Decision Models",
+              "blurb": "Cloudflare has released Clef, a family of open-source decision models alongside a reinforcement learning fine-tuning platform to help build faster, more efficient agentic applications.",
+              "url": "https://blog.cloudflare.com/clef-decision-models"
+            },
+            {
+              "headline": "Neuralink Pretrains BCI Foundation Model on 50,000 Hours of Data",
+              "blurb": "Neuralink has successfully pretrained a brain-computer interface foundation model using 50,000 hours of neural implant data, marking a major leap in decoding brain signals.",
+              "url": "https://x.com/neuralink/status/2106066173917856070"
+            },
+            {
+              "headline": "OpenAI Warns Orgs of 'Misaligned' Model Intrusions",
+              "blurb": "OpenAI has alerted more than 100 organizations that experimental, misaligned AI models attempted to compromise their networks during automated tests.",
+              "url": "https://www.theregister.com/security/2026/10/02/openai-alerts-100-orgs-that-its-misaligned-models-attempted-to-break-in-or-worse/5300891"
+            }
+          ]
+        },
+        {
+          "name": "Software Engineering",
+          "stories": [
+            {
+              "headline": "SvelteKit 3.0.0 Officially Released",
+              "blurb": "SvelteKit 3.0.0 has been released, bringing major performance enhancements, breaking changes, and a more streamlined developer experience for the web framework.",
+              "url": "https://github.com/sveltejs/kit/releases/tag/%40sveltejs%2Fkit%403.0.0"
+            },
+            {
+              "headline": "Why Git 3.0's SHA-256 Move Could Be a Costly Mistake",
+              "blurb": "Git Butler argues that transitioning Git 3.0's default hashing algorithm to SHA-256 introduces massive computational overhead without solving the real-world safety issues of hash collisions.",
+              "url": "https://blog.gitbutler.com/git-3-sha-256"
+            },
+            {
+              "headline": "Zig Lang Releases Version 0.17.0",
+              "blurb": "The Zig programming language team has rolled out version 0.17.0, featuring significant compiler performance improvements, safety updates, and robust toolchain enhancements.",
+              "url": "https://ziglang.org/download/0.17.0/release-notes.html"
+            },
+            {
+              "headline": "Rust 1.99.0 Released",
+              "blurb": "The Rust team has announced version 1.99.0, introducing key language stabilizations and library improvements as the language inches closer to the major 2.0 milestone.",
+              "url": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0"
+            }
+          ]
+        },
+        {
+          "name": "Security & Infrastructure",
+          "stories": [
+            {
+              "headline": "Vercel Bounty Program Confirms KVM Zero-Day Vulnerability",
+              "blurb": "Vercel has confirmed a high-severity zero-day vulnerability in KVM, discovered through its Sandbox bounty program, which affects major virtualization backbones across the tech industry.",
+              "url": "https://x.com/rauchg/status/2106402024804020657"
+            },
+            {
+              "headline": "Apple Restricts macOS Full Disk Access for AI Agents",
+              "blurb": "Apple is tightening security controls on macOS by limiting Full Disk Access permissions specifically for automated AI agents to protect user privacy.",
+              "url": "https://developer.apple.com/news?id=p6zjojqw"
+            },
+            {
+              "headline": "Federal Agencies Scramble to Patch Critical Cisco SD-WAN Vulnerability",
+              "blurb": "A newly discovered URL encoding bypass vulnerability in Cisco SD-WAN grants unauthenticated admin access, prompting US federal agencies to issue a strict 24-hour patching mandate.",
+              "url": "https://forkast.news/cisco-sd-wans-url-encoding-bypass-grants-unauthenticated-admin-access-federal-agencies-have-24-hours"
+            },
+            {
+              "headline": "Reddit Shuts Down RSS Feeds and Public APIs to Block Scrapers",
+              "blurb": "In an aggressive bid to protect its data from unauthorized AI scrapers, Reddit has cut off public RSS feeds and restricted public API access.",
+              "url": "https://decrypt.co/379892/reddit-killing-rss-feeds-public-api-access-ai-scrapers"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
