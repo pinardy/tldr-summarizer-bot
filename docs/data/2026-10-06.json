@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-06",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Industry Dynamics",
+          "stories": [
+            {
+              "headline": "DeepSeek in Talks for $12B Tencent-Backed Funding",
+              "blurb": "DeepSeek is reportedly in negotiations to raise at least $12 billion in a funding round backed by Tencent, highlighting the aggressive global investment race for AI dominance.",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-06/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding"
+            },
+            {
+              "headline": "Wall Street Arranges Historic $60B Chip Deal for Anthropic",
+              "blurb": "Wall Street banks are organizing a massive $60 billion transaction to secure advanced chips for Anthropic, illustrating the soaring capital expenditures required to sustain frontier AI development.",
+              "url": "https://www.ft.com/content/5b9c8ce3-d07c-46f9-8cea-cbc4e7f8ccca"
+            },
+            {
+              "headline": "Reflection Launches Beam, a 501B Open-Weight Model",
+              "blurb": "Reflection has released Beam, a massive 501-billion-parameter open-weight model, raising the competitive stakes for open-source AI capabilities.",
+              "url": "https://reflection.ai/blog/introducing-beam"
+            },
+            {
+              "headline": "Autonomous AI Secures First US Drug Prescription Approval",
+              "blurb": "In a landmark US pilot, Nolla Health will use AI to diagnose and prescribe acne medications to Utah patients without direct human physician oversight.",
+              "url": null
+            }
+          ]
+        },
+        {
+          "name": "Security & Agent Vulnerabilities",
+          "stories": [
+            {
+              "headline": "Structural Vulnerability Discovered in Model Context Protocol",
+              "blurb": "A structural vulnerability discovered in AI agents from Google and other providers exposes systemic security flaws in Anthropic’s Model Context Protocol framework.",
+              "url": null
+            },
+            {
+              "headline": "Researcher Claims Critical KVM Guest-Host Escape",
+              "blurb": "A security researcher claims to have discovered a guest-to-host escape vulnerability in the Kernel-based Virtual Machine, posing a potentially severe threat to cloud and virtualization infrastructure.",
+              "url": "https://www.theregister.com/offbeat/2026/10/06/security-researcher-claims-they-found-kvm-guest-host-escape-flaw/5301267"
+            },
+            {
+              "headline": "Apple Introduces OS-Level Controls for AI Agent Risks",
+              "blurb": "Apple is rolling out new macOS controls designed to block unauthorized or rogue actions by local AI agents, marking the industry's first native OS-level safeguard targeting agentic risks.",
+              "url": "https://forkast.news/apples-new-macos-controls-are-the-first-os-level-move-specifically-targeting-ai-agent-risks"
+            },
+            {
+              "headline": "SubQuery Supply Chain Compromised with Hidden Backdoors",
+              "blurb": "A newly disclosed supply chain compromise in the SubQuery ecosystem demonstrates the sophisticated use of hidden credential theft and persistent backdoors.",
+              "url": "https://www.stepsecurity.io/blog/subql-ecosystem-compromised"
+            }
+          ]
+        },
+        {
+          "name": "Software Engineering & Infrastructure",
+          "stories": [
+            {
+              "headline": "Mold Linker Releases Version 3.0.0",
+              "blurb": "The high-performance linker mold has officially released version 3.0.0, introducing critical architecture enhancements and performance optimizations for systems developers.",
+              "url": "https://github.com/rui314/mold/releases/tag/v3.0.0"
+            },
+            {
+              "headline": "Early Metadata Generation Halves Rust Build Times",
+              "blurb": "A new compiler technique that emits crate metadata early can double the speed of Rust development checks and builds.",
+              "url": "https://news.ycombinator.com/item?id=49951218"
+            },
+            {
+              "headline": "AMD Unveils ROCm 10.1 to Tackle GPU Data Bottlenecks",
+              "blurb": "AMD has released ROCm 10.1 with major software-level optimizations designed to break the data-movement bottleneck for massive GPU clusters.",
+              "url": "https://rocm.blogs.amd.com/ecosystems-and-partners/rocm-10.1-blog/README.html"
+            },
+            {
+              "headline": "Schneider Electric Acquires PTC for $22.6B Amid Datacenter Boom",
+              "blurb": "Driven by the ongoing datacenter infrastructure boom, Schneider Electric is acquiring PTC in a massive $22.6 billion deal to bolster its industrial software and power management assets.",
+              "url": "https://www.theregister.com/systems/2026/10/05/schneider-electric-acquires-ptc-for-226-billion/5301254"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
