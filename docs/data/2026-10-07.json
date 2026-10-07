@@ -1,86 +1,636 @@
 {
   "date": "2026-10-07",
-  "mode": "combined",
+  "mode": "per-newsletter",
   "categories": [
-    "tech"
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
   ],
   "digests": [
     {
-      "title": "TLDR Daily Digest",
-      "tagline": "Tech",
+      "title": "TLDR AI — 2026-10-07",
+      "tagline": "Mistral Large 4 🧠, OpenAI Decisions API ❓, Nano Banana 2.1 🍌",
       "sections": [
         {
-          "name": "AI & Models",
+          "name": "Headlines & Launches",
           "stories": [
             {
-              "headline": "DeepSeek Eyes $12B Funding Round Backed by Tencent",
-              "blurb": "Chinese AI lab DeepSeek is in talks to raise at least $12 billion in a new funding round backed by tech giant Tencent, signaling massive ongoing capital injection into alternative frontier models.",
-              "url": "https://www.bloomberg.com/news/articles/2026-10-06/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding"
+              "headline": "Mistral Large 4 (9 minute read)",
+              "blurb": "Mistral Large 4 is a one-trillion-parameter multimodal model positioned as a European alternative to leading closed and open AI systems.",
+              "url": "https://mistral.ai/news/mistral-large-4/"
             },
             {
-              "headline": "Mistral AI Launches Flagship Mistral Large 4",
-              "blurb": "Mistral AI has released its latest flagship model, Mistral Large 4, designed to offer state-of-the-art multilingual reasoning, coding, and agentic capabilities for enterprise workloads.",
-              "url": "https://mistral.ai/news/mistral-large-4"
+              "headline": "Nano Banana 2.1 (5 minute read)",
+              "blurb": "Nano Banana 2.1 is a member of the Gemini 3 series of models. It can take text and image inputs and output images and text. Based on Gemini 3.6 Flash, the model has a token context window of up to 1 million. Nano Banana 2.1 is available in the Gemini app and API, Google AI Studio, Google Search AI Mode, Google Ads, Google Flow, and Google Stitch.",
+              "url": "https://deepmind.google/models/model-cards/nano-banana-2-1/"
             },
             {
-              "headline": "Reflection Debuts Giant 501B Open-Weight Model",
-              "blurb": "Reflection has introduced Beam, an enormous 501-billion-parameter open-weight model that pushes the boundaries of performance and scale available to the open-source community.",
-              "url": "https://reflection.ai/blog/introducing-beam"
-            },
-            {
-              "headline": "Utah Approves First Fully Autonomous AI Prescriptions",
-              "blurb": "In a first-of-its-kind regulatory pilot, Nolla Health will use autonomous AI to diagnose skin conditions and prescribe acne medications to patients in Utah without direct human oversight.",
-              "url": "https://www.bloomberg.com/news/articles/2026-10-05/nolla-health-ai-can-now-prescribe-acne-drugs-in-utah-without-doctors?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTIxNjEzOSwiZXhwIjoxNzkxODIwOTM5LCJhcnRpY2xlSWQiOiJUTUZMODVLSVAzS00wMCIsImJjb25uZWN0SWQiOiI4OUM4OTNDMDhGOTQ0NThDQkQwQTQyREY1RDFCOTY0QyJ9.crHEdlDbj7Dx78MJpxZ7nHnh7NmskJmIYVmdbeyomfE"
+              "headline": "Sharing AI progress in mathematics (2 minute read)",
+              "blurb": "OpenAI has released a broad range of mathematical results produced by an internal frontier model. It has published the results in a GitHub repository along with protocols for paper revisions and citations. The repository contains formalizations of many of the proofs in Lean and will be updated with more formalizations as they are obtained. It also includes 10 summaries of the model's reasoning, estimations of compute spent in terms of Pro usage on ChatGPT, and statistics about the number of attempted problems.",
+              "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
             }
           ]
         },
         {
-          "name": "Cybersecurity",
+          "name": "Deep Dives & Analysis",
           "stories": [
             {
-              "headline": "Hackers Acquire Counterfeit TLS Certificates for Google",
-              "blurb": "Security researchers warn that attackers have successfully obtained counterfeit TLS certificates for high-profile domains, including Google, threatening the underlying trust of web encryption.",
-              "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services"
+              "headline": "The Cyber Risk Discourse is Broken (11 minute read)",
+              "blurb": "Open-weight models potentially pose an untenable risk to society's functionality. Chinese companies continue to release open-weight models with strong cyber capabilities. GLM-5.3 crosses a threshold of capability, but there is little public evidence that much has changed. Some say that open-weight models will result in a crippling of cyber infrastructure - after many years of debating open-weight risks, we will finally start to get some real answers.",
+              "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken"
             },
             {
-              "headline": "Researcher Claims Guest-Host Escape in KVM",
-              "blurb": "A security researcher has claimed to find a critical guest-host escape vulnerability in Kernel-based Virtual Machine (KVM), a flaw that could allow malicious virtual machines to compromise the physical host.",
-              "url": "https://www.theregister.com/offbeat/2026/10/06/security-researcher-claims-they-found-kvm-guest-host-escape-flaw/5301267"
-            },
-            {
-              "headline": "Structural MCP Flaw Exposes Vulnerabilities in AI Agents",
-              "blurb": "A newly discovered vulnerability in agents from Google and others exposes a structural design flaw in Anthropic's Model Context Protocol (MCP), potentially letting agents execute unauthorized local commands.",
-              "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp"
-            },
-            {
-              "headline": "Critical Pre-Auth Path Traversal Flaw Disclosed in Atlassian Jira and Confluence",
-              "blurb": "Security researchers have detailed CVE-2026-21589, a severe pre-authentication path traversal vulnerability in Atlassian products that allows remote attackers to read arbitrary system files.",
-              "url": "https://labs.watchtowr.com/you-wont-hear-about-these-even-in-myths-atlassian-jira-confluence-and-more-pre-auth-arbitrary-file-read-cve-2026-21589"
-            },
-            {
-              "headline": "Software Supply Chain Attack Hits @subql/common",
-              "blurb": "A malicious update targeting the `@subql/common` npm package highlights the ongoing threat of dependency-injection software supply chain attacks on modern development workflows.",
-              "url": "https://flatt.tech/research/posts/subql-common-npm-supply-chain-attack"
+              "headline": "Building Faster Emergency Patching Systems (8 minute read)",
+              "blurb": "Google Project Zero examined how large software vendors can patch urgent vulnerabilities faster than their normal release cycles allow. The guide breaks down the full remediation pipeline (from triage and development through testing, delivery, and activation) and highlights systems designed for exceptional security incidents.",
+              "url": "https://projectzero.google/2026/10/emergency-patching.html"
             }
           ]
         },
         {
-          "name": "Developer Tools & Infrastructure",
+          "name": "Engineering & Research",
           "stories": [
             {
-              "headline": "Python Polars Officially Releases Version 2.0.0",
-              "blurb": "The ultra-fast Polars dataframe library has reached its 2.0.0 milestone, introducing critical API refinements, major performance upgrades, and long-term stability for data engineering pipelines.",
-              "url": "https://github.com/pola-rs/polars/releases/tag/py-2.0.0"
+              "headline": "Decisions API is now available in Public Beta (1 minute read)",
+              "blurb": "OpenAI's Decisions API is now available to all developers in public beta. It makes decisions up to 10 times faster than GPT-6 Luna through the Responses API. The Decisions API accepts text and image inputs and supports three kinds of outputs: predicates, choices, and scores. It costs $0.10 per 1 million input tokens - there are no cache-read, cache-write, or output-token charges.",
+              "url": "https://community.openai.com/t/decisions-api-is-now-available-in-public-beta/1403877"
             },
             {
-              "headline": "Mold 3.0 Linker Debuts with Key Performance Updates",
-              "blurb": "The highly efficient system linker `mold` has released version 3.0.0, bringing crucial compatibility improvements and faster link times to developer compilation loops.",
-              "url": "https://github.com/rui314/mold/releases/tag/v3.0.0"
+              "headline": "EmbeddingGemma 2 (5 minute read)",
+              "blurb": "EmbeddingGemma 2 is a 740M-parameter model that maps text, code, images, audio, and video into a shared embedding space. Built for on-device inference and released under Apache 2.0, it enables multimodal search and retrieval without sending data to the cloud.",
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
             },
             {
-              "headline": "Mitchell Hashimoto Proposes OSC 7501 Protocol for Terminal Status",
-              "blurb": "A new terminal protocol proposal (OSC 7501) aims to provide command-line applications with a standardized mechanism for communicating internal execution states to terminal emulators.",
-              "url": "https://mitchellh.com/writing/program-status-osc7501"
+              "headline": "Introducing Personal Agent Protocol (5 minute read)",
+              "blurb": "The Personal Agent Protocol is an open standard that Meta and Sierra are developing along with other industry partners. It is designed to handle authentication, empower consumers, and give companies visibility into what personal agents do through their websites, APIs, or company agents. Consumers decide what access to give their personal agents, and companies set parameters for what those agents can do. The protocol is open for anyone to implement.",
+              "url": "https://sierra.ai/blog/introducing-personal-agent-protocol"
+            },
+            {
+              "headline": "Building the Most Diverse UMI Dataset in Robotics (16 minute read)",
+              "blurb": "Pantheon rapidly assembled a robust UMI data collection operation, creating a diverse dataset to improve dexterous manipulation in robotics. They built custom infrastructure and hardware, drastically reducing data collection costs from $60/hr to $10/hr while ensuring data diversity. By incorporating innovative freeform and scripted methodologies, Pantheon accumulated over a million unique tasks, overcoming traditional data limitations for enhanced AI model training.",
+              "url": "https://pantheon.inc/research/diverse-umi"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "In Race With US, China Struggles to Recruit Foreign AI Researchers (6 minute read)",
+              "blurb": "China has made recruiting the world's best scientists a national priority. It introduced a visa for scientists and is offering lucrative research grants. Foreigners are not coming despite those efforts. The number of Chinese scientists working in the US has risen rather than declined.",
+              "url": "https://www.nytimes.com/2026/10/06/science/china-ai-research-recruitment.html?unlocked_article_code=1.G1E.vzNX.LAgmpYtxdpWb&smid=url-share"
+            },
+            {
+              "headline": "Product Manager, Applied AI at TLDR ($225k base + $60k bonus, Fully Remote)",
+              "blurb": "TLDR is hiring its first PM to help build the agent-first operating layer used across the company. We're looking for a builder who has shipped real products/systems with LLMs. Click here to learn more .",
+              "url": "https://jobs.ashbyhq.com/tldr.tech/897f4391-66ab-44ca-a8eb-65dd9809200d?amp%3Bsp=Azpxuhac1UTjxgboaD0qUokw"
+            },
+            {
+              "headline": "A $12B DeepSeek Raise Is Reportedly Close, With Tencent And CATL Among Backers (3 minute read)",
+              "blurb": "DeepSeek is nearing a $12 billion raise, surpassing its initial 50 billion yuan target, with Tencent and CATL as major contributors. The funding boost follows the release of DeepSeek's latest AI model, with expectations it might reach 100 billion yuan. The company is also preparing for a potential Shanghai STAR Market IPO, employing CITIC Securities for assistance.",
+              "url": "https://yellow.com/news/deepseek-12b-raise-close-tencent-catl"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Claude now works with Google Docs, Sheets, and Slides (4 minute read)",
+              "blurb": "Claude now integrates with Google Docs, Sheets, and Slides for all paid plans, allowing direct editing within files.",
+              "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
+            },
+            {
+              "headline": "US-China AI Gap Hits 3%, and DeepSeek V4.1 Flash Now Leads on Agentic Coding Benchmarks (12 minute read)",
+              "blurb": "DeepSeek V4.1 Flash, a Chinese AI model, now leads in agentic coding benchmarks, surpassing US competitors.",
+              "url": "https://www.techtimes.com/articles/328620/20261006/us-china-ai-gap-hits-3-deepseek-v41-flash-now-leads-agentic-coding-benchmarks.htm"
+            },
+            {
+              "headline": "Hark debuts an AI agent a year before its first devices (2 minute read)",
+              "blurb": "Hark has released an AI agent that buys groceries, books cars, and pays bills.",
+              "url": "https://thenextweb.com/news/hark-pro-agent-hardware-europe"
+            },
+            {
+              "headline": "AICR v1.0: Open, stable, and verifiable GPU cluster configuration (6 minute read)",
+              "blurb": "NVIDIA's AI Cluster Runtime (AICR) v1.0 offers version-locked, validated recipes for stable GPU-accelerated Kubernetes cluster configurations.",
+              "url": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration"
+            },
+            {
+              "headline": "Anthropic Expands Verified Access to Cyber Capabilities (4 minute read)",
+              "blurb": "Anthropic expanded its Cyber Verification Program into three access tiers for qualifying security professionals, providing its most capable models with reduced cyber blocking.",
+              "url": "https://www.anthropic.com/news/cyber-verification-program"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR IT — 2026-10-07",
+      "tagline": "Atlassian’s Critical Flaw 🚨, Lambda Eyes $4B 💰, SaaS Stocks Bounce Back 📈",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "The internet's DNS root key changes October 11 (9 minute read)",
+              "blurb": "The DNS root will switch to a new key-signing key on October 11, only the second such rollover ever. Most organizations need to do nothing, but anyone operating DNSSEC-validating resolvers should verify that their infrastructure trusts KSK-2024 or risk DNS resolution failures.",
+              "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/"
+            },
+            {
+              "headline": "Lambda seeks up to $4 billion ahead of planned IPO (2 minute read)",
+              "blurb": "Lambda reportedly seeks up to $4 billion at a $14.5 billion pre-money valuation before a planned 2027 IPO, with Coatue and Blackstone leading.",
+              "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/"
+            },
+            {
+              "headline": "Atlassian warns of critical file access flaw in its datacenter products (2 minute read)",
+              "blurb": "Atlassian has issued an urgent warning regarding a critical 9.3-rated arbitrary file access vulnerability, tracked as CVE-2026-21589, that affects multiple Data Center products, including Bitbucket and Confluence. The flaw allows unauthenticated attackers to access specific files within the web application root directory if they know the exact filename and path. Atlassian has released fixed versions and recommends immediately patching affected installations. Organizations unable to patch should restrict external access or apply the published mitigations.",
+              "url": "https://www.theregister.com/security/2026/10/06/atlassian-warns-of-critical-file-access-flaw-in-its-datacenter-products/5301284"
+            }
+          ]
+        },
+        {
+          "name": "Analysis & Opinions",
+          "stories": [
+            {
+              "headline": "Intel CIO: Don't just put chatbots on top of broken processes (5 minute read)",
+              "blurb": "Intel CIO Cynthia Stoddard argues that companies should measure AI through business outcomes such as cycle-time improvements and ROI rather than tool adoption. Intel's approach combines employee training and experimentation with permission controls, data governance, MCP controls, and observability, while redesigning the underlying processes AI is meant to improve.",
+              "url": "https://www.financialexpress.com/business/industry-dont-just-layer-chatbots-onto-existing-processes-intels-cynthia-stoddard-4353610/"
+            },
+            {
+              "headline": "Enterprise security needs to start governing what AI agents do, not just what they can access (6 minute read)",
+              "blurb": "Traditional access controls answer whether an identity has permission, but autonomous agents introduce a second question: whether a permitted action actually matches the user's intent. The piece argues for behavioral governance, sensitive-data controls, audit trails, and targeted human approval for high-impact actions rather than treating AI security as another SSO problem.",
+              "url": "https://www.techradar.com/pro/why-agentic-ai-demands-a-new-approach-to-enterprise-security"
+            },
+            {
+              "headline": "Inference Is the Most Important Market in Software (2 minute read)",
+              "blurb": "AI inference could become a larger software market than databases, with spending projected to reach $350 billion by 2027. Rising inference costs will pressure software companies' gross margins, forcing them to improve efficiency through smaller models, better harnesses, and smarter routing techniques.",
+              "url": "https://tomtunguz.com/inference-is-the-most-important-market-in-software"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Partnerships",
+          "stories": [
+            {
+              "headline": "Atlassian expands OpenAI partnership for enterprise agents (3 minute read)",
+              "blurb": "Atlassian and OpenAI expanded their partnership to combine OpenAI models with the Teamwork Graph, which connects company projects, documents, people, and decisions. The companies are also exploring Jira integrations for assigning work to agents, tracking progress, and reviewing results.",
+              "url": "https://openai.com/index/atlassian-partnership/"
+            },
+            {
+              "headline": "Google Docs can finally edit Markdown files natively (2 minute read)",
+              "blurb": "Google Docs can now open, edit, comment on and collaboratively work with .md files without converting them into Google Docs, while Drive can render Markdown previews. The change is especially useful as AI agents and developer tools increasingly generate Markdown as a default working format.",
+              "url": "https://workspaceupdates.googleblog.com/2026/10/preview-edit-and-collaborate-on-Markdown-files-natively-across-Drive-and-Docs.html"
+            },
+            {
+              "headline": "Cloudflare Birthday Week 2026: Complete Launch Wrap-Up (4 minute read)",
+              "blurb": "Cloudflare published a comprehensive wrap-up of 46 announcements made during its Birthday Week 2026 celebration. The updates span across open-source commitments, application security and post-quantum cryptography, economic models for the agentic Internet, developer platform tools, and performance and observability enhancements.",
+              "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "How to build an AI-native software factory (32 minute read)",
+              "blurb": "Companies building AI-native software factories need managed environments, shared skills, cost controls, and validation systems to support fleets of autonomous coding agents. A four-step framework and six foundational platform components help teams start with low-risk tasks such as code reviews and migrations.",
+              "url": "https://www.theaithinker.com/p/how-to-build-an-ai-native-software"
+            },
+            {
+              "headline": "Software stocks hit 2026 highs as “SaaSpocalypse” fears fade (4 minute read)",
+              "blurb": "US software stocks have climbed to fresh 2026 highs as strong results from companies including Salesforce and ServiceNow ease fears that AI would rapidly replace traditional SaaS. Analysts increasingly see AI as an enabler for established software vendors, although the longer-term threat from cheaper AI-built internal applications remains.",
+              "url": "https://www.reuters.com/business/us-software-stocks-scale-fresh-2026-highs-ai-disruption-worries-fade-2026-10-06/"
+            },
+            {
+              "headline": "Docker does that?! Five Docker capabilities in one morning (7 minute read)",
+              "blurb": "Docker demonstrated five modern Docker capabilities during a conference talk, highlighting features like AI-assisted containerization, Testcontainers for integration testing, Docker Scout for vulnerability scanning, Docker Hardened Images for pre-patched base images, and Docker Sandboxes for securing coding agents. The session aimed to update developers' mental models of Docker beyond simple packaging. All five steps are available via a browser-based workshop.",
+              "url": "https://www.ajeetraina.com/docker-does-that-five-docker-capabilities-in-one-morning-wearedevelopers-na-2026/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Orchestrating Disposable Browser (10 minute read)",
+              "blurb": "Building a containerized disposable Browser as a Service infrastructure where logs are streamed from Docker to Python with specific tokens to strike a balance between speed and stability.",
+              "url": "https://blog.glazer.ee/posts/building-glazer-disposable-browser/"
+            },
+            {
+              "headline": "Everyone into the Pool (14 minute read)",
+              "blurb": "Evaluation of five PostgreSQL connection poolers—Pgpool-II, PgBouncer, RDS Proxy, PgCat, and PgDog—that compares their process models, pooling modes, and handling of session state.",
+              "url": "https://thebuild.com/blog/everyone-into-the-pool/"
+            },
+            {
+              "headline": "Tanium reworks its security operations platform around behavior-based detection (3 minute read)",
+              "blurb": "Tanium is emphasizing endpoint behavior and rapid response to attacks that use stolen credentials and legitimate administrative tools rather than conventional malware.",
+              "url": "https://www.tanium.com/press-releases/tanium-redefines-security-operations-for-the-ai-era"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Web Dev — 2026-10-07",
+      "tagline": "OpenAI Jev competitor 🔍, Next.js 16.4 🔥, how to read code 📝",
+      "sections": [
+        {
+          "name": "Articles & Tutorials",
+          "stories": [
+            {
+              "headline": "The Agent Said It Was Done. The Database Disagreed (15 minute read)",
+              "blurb": "ThinkingBox evaluates agents by the backend state and side effects they leave behind across 507 workflows repeated 20 times. Among 79,853 failed runs, 67% ended without a tool error, showing why terminal state and repeatability matter more than a confident final response.",
+              "url": "https://huggingface.co/blog/microsoft/thinkingbox"
+            },
+            {
+              "headline": "How We Made Registry Metadata 70% Smaller (13 minute read)",
+              "blurb": "vlt.io reduces npm registry metadata transfers by serving install-focused packuments that keep fields package managers need while dropping large signatures and checksums that do not affect installation. Across four clean-install fixtures, metadata transfers fell from 25% to 45% of downloaded bytes on npmjs.org to 5% to 15% on vlt.io, with install times improving by 20% to 70%.",
+              "url": "https://www.vlt.io/blog/registry-metadata-70-percent-smaller"
+            },
+            {
+              "headline": "Beyond Synthetic Testing: Capturing and Replaying Real Database Workloads at Airbnb (12 minute read)",
+              "blurb": "Airbnb captures MySQL traffic at ProxySQL, rebuilds transaction order offline, and replays production workloads for load testing, migration checks, and performance debugging. The system exposed upgrade regressions such as a query rising from 0.03 to 2.6 seconds and helped move the fleet from MySQL 5.7 to 8.0 without a major production incident.",
+              "url": "https://airbnb.tech/infrastructure/beyond-synthetic-testing-capturing-and-replaying-real-database-workloads-at-airbnb/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Advice",
+          "stories": [
+            {
+              "headline": "The Smartest Claude Code Feature Is Not for Its Users (4 minute read)",
+              "blurb": "Claude Code can predict a likely follow-up and place it in the prompt box for the user to accept or edit. The article suggests those interactions could provide valuable preference data, while clearly presenting that interpretation as speculation rather than a confirmed Anthropic practice.",
+              "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature"
+            },
+            {
+              "headline": "How to Read Code (8 minute read)",
+              "blurb": "Code is easier to understand through several focused passes than through a linear read from top to bottom. Trace one execution path or piece of data at a time, inspect call sites outside the diff, and save the final line-by-line review after the broader structure is clear.",
+              "url": "https://www.seangoedecke.com/how-to-read-code/"
+            },
+            {
+              "headline": "The Grand Unifying Architecture of Frontend (13 minute read)",
+              "blurb": "Frontend architectures can be understood as three layers: navigation, server-owned content, and client-owned affordances such as optimistic state. The framework maps HTMX, LiveView, Astro, React Server Components, SPAs, and sync engines onto the same model, with differences in transport, lifetime, and how much code reaches the client.",
+              "url": "https://dev.to/playfulprogramming/the-grand-unifying-architecture-of-frontend-bhk"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Next.js 16.4 (18 minute read)",
+              "blurb": "Next.js 16.4 enables Cache Components by default for new apps and adds static-render guarantees, finer prefetch controls, agent-assisted upgrades, React 19.3, and build and bundle improvements.",
+              "url": "https://nextjs.org/blog/next-16-4"
+            },
+            {
+              "headline": "jevgrep (GitHub Repo)",
+              "blurb": "jevgrep lets coding agents search a repository by describing what the code does, returning relevant files and source excerpts through a CLI. Its ten-task SWE-bench comparison completed the same eight tasks as the baseline at about 30% lower cost.",
+              "url": "https://github.com/dzhng/jevgrep"
+            },
+            {
+              "headline": "Size Limit (GitHub Repo)",
+              "blurb": "Size Limit measures JavaScript bundle size and execution cost, then fails CI when a configured performance budget is exceeded. Its plugins can bundle dependencies and estimate parse and execution time under throttled device conditions.",
+              "url": "https://github.com/ai/size-limit"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "LLMs May Have Immensely Helped My RSI (5 minute read)",
+              "blurb": "Using coding agents shifted hours of symbol-heavy typing and debugging toward prompts, design documents, and code review, which may have reduced repetitive strain symptoms. The account is personal and acknowledges other possible causes, including improved ergonomics and a more senior role.",
+              "url": "https://vaughanhilts.me/2026/10/05/llms-immensely-helped-my-rsi.html"
+            },
+            {
+              "headline": "Sharing AI Progress in Mathematics (2 minute read)",
+              "blurb": "OpenAI is publishing mathematical results from an internal frontier model with revision and citation protocols, reasoning summaries, compute estimates, and statistics on attempted problems. Many proofs are also being formalized in Lean so they can be checked by a computer.",
+              "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+            },
+            {
+              "headline": "AI Changed How Spotify Builds: What We Learned About Quality at Higher Velocity (8 minute read)",
+              "blurb": "Spotify found no material direct link between AI-authored code and reviewed production incidents, but merged changes more than doubled year over year as verification systems struggled to keep pace. The response expands long-term quality signals and strengthens review, testing, rollout, observability, rollback, service tiering, and capacity.",
+              "url": "https://engineering.atspotify.com/2026/9/ai-changed-how-spotify-builds-what-we-learned-and-fixed-about-quality-at-higher-velocity"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Decisions API (Website)",
+              "blurb": "The Decisions API evaluates text and images to return typed predicates, choices, or rubric scores about ten times faster than the Responses API for classification, routing, and prioritization.",
+              "url": "https://developers.openai.com/api/docs/guides/decisions"
+            },
+            {
+              "headline": "State of Devs 2026 (Website)",
+              "blurb": "A survey of 5,463 developers explores career insecurity, burnout, workplace conditions, health, and polarized attitudes toward AI.",
+              "url": "https://2026.stateofdevs.com/en-US/"
+            },
+            {
+              "headline": "Vibe Coding Gone Wrong: 5 of the Biggest Failures (11 minute read)",
+              "blurb": "Five incidents show how generated code can expose secrets, weaken authentication, miss access controls, and damage production data when engineering checks disappear.",
+              "url": "https://blog.logrocket.com/vibe-coding-failures/"
+            },
+            {
+              "headline": "Introducing Mistral Large 4 (11 minute read)",
+              "blurb": "Mistral Large 4 is a one-trillion-parameter multimodal model in public preview, with 49 billion active parameters, support for more than 160 languages, and open weights planned for later this month.",
+              "url": "https://mistral.ai/news/mistral-large-4/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR InfoSec — 2026-10-07",
+      "tagline": "Healthcare 250k breach 🏥, kubectl cp trust flaw 💻, AWS AgentCore JWT leak ☁️",
+      "sections": [
+        {
+          "name": "Attacks & Vulnerabilities",
+          "stories": [
+            {
+              "headline": "250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms (2 minute read)",
+              "blurb": "Clover Health Investments said attackers used social engineering to compromise three employee accounts, exposing data on 138,677 people. AngMar Management Services found stolen patient data after suspicious activity, affecting 126,196 people. Exposed records included Social Security numbers, diagnoses, medical histories, insurance details, prescriptions, and service dates. The Interlock ransomware group claimed to have stolen 700 gigabytes from AngMar.",
+              "url": "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms/"
+            },
+            {
+              "headline": "Citrix NetScaler security snafus get even worse amid more 0-day reports (3 minute read)",
+              "blurb": "A single crafted request knocks NetScaler ADC and Gateway appliances offline through CVE-2026-88779, a memory overflow zero-day affecting deployments configured as a SAML service provider or identity provider. CISA confirmed active exploitation, and watchTowr told The Register it suspects attackers are crashing appliances deliberately to speed up exploitation of CVE-2026-88771, one of eight NetScaler bugs disclosed September 27. Apply Citrix's fixed build or interim mitigation, starting with Gateway and AAA virtual servers that have SAML enabled, and run Citrix's IOC script while treating a clean result as inconclusive.",
+              "url": "https://www.theregister.com/security/2026/10/05/citrix-netscaler-security-snafus-get-even-worse-amid-more-0-day-reports/5301232"
+            },
+            {
+              "headline": "CVE-2026-19444: How copying in kubectl breaks trust (5 minute read)",
+              "blurb": "A malicious container can write files anywhere a Windows user's account can reach, including the Startup folder, when that user runs kubectl cp against it (CVE-2026-19444, CVSS 6.5). kubectl cp unpacks the output of whatever tar binary the container ships, and the entry-path check added after three 2019 CVEs never accounted for Windows path separators. Windows clients need kubectl v1.36.5, v1.35.9, or v1.34.12, since the flaw is in client-side extraction and the cluster version does not matter.",
+              "url": "https://edera.dev/stories/cve-2026-19444-how-copying-in-kubectl-breaks-trust"
+            }
+          ]
+        },
+        {
+          "name": "Strategies & Tactics",
+          "stories": [
+            {
+              "headline": "WordPress libheif RCE: Exploit Chain (11 minute read)",
+              "blurb": "Fortbridge has published the first public exploit chain for a libheif heap overflow (GHSA-x8r2-mggj-j6wr) originally discovered by Alex Thomas and Wordfence. By uploading crafted HEIC images via the WordPress Media Library, an authenticated attacker can defeat ASLR using pixel values in generated JPEGs and hijack a C++ virtual table pointer to achieve remote code execution. Administrators should update libheif to 1.23.3, disable unused HEIC/AVIF uploads, and treat repeated PHP-FPM 503 errors on image uploads as security events.",
+              "url": "https://fortbridge.co.uk/research/wordpress-libheif-rce/"
+            },
+            {
+              "headline": "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work (12 minute read)",
+              "blurb": "MALFEX, an npm campaign run by a single operator, published eight malicious packages that targeted Windows systems. Its payloads included Overlord RAT and movinlike, a stealer that took Discord tokens, browser credentials, Telegram sessions, and cryptocurrency wallets. Three packages remain installable (function-flag, function-color, and cdn-img-fetch), and the first two have no advisory.",
+              "url": "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/"
+            },
+            {
+              "headline": "A Vault with a Heap-View: The Uncomfortable Space Between AgentCore Harness and Identity (16 minute read)",
+              "blurb": "AWS AgentCore Harness is an agentic service and AgentCore Identity is a service that provides agents with identities. Unit 42 discovered that the bash tool that is enabled by default on AgentCore agents runs arbitrary bash commands and code as root. Using this primitive, the researchers demonstrated that they could exfiltrate the AgentCore Identity JWT by scanning the heap for it and then exfiltrating it.",
+              "url": "https://unit42.paloaltonetworks.com/securing-aws-agentcore-harness-credentials/"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "gdp-ts (GitHub Repo)",
+              "blurb": "gdp-ts is a TypeScript library, linter, and agent skill that turns skipped or mismatched authorization checks into compile errors. Sensitive functions demand a type-level proof, minted only by a trusted check module, that this exact user was authorized for this exact resource, with near-zero runtime cost. A lint preset blocks forged proofs via as casts, and the bundled skill steers coding agents toward the pattern.",
+              "url": "https://github.com/rauchg/gdp-ts"
+            },
+            {
+              "headline": "mcpward (GitHub Repo)",
+              "blurb": "mcpward pins an MCP server's tool contract to a committed lockfile and fails CI when it drifts, catching silently rewritten descriptions (rug-pulls), readOnlyHint flips, and breaking schema changes. It works black-box against any stdio or HTTP server and runs fully offline with no account or telemetry, unlike Snyk Agent Scan. It also flags tool-poisoning patterns such as injection phrasing and hidden Unicode, with output to SARIF, JUnit, or a PR comment.",
+              "url": "https://github.com/TsvetanG2/mcpward"
+            },
+            {
+              "headline": "PoC Index (GitHub Repo)",
+              "blurb": "Search 82,000+ public CVE proof-of-concept exploits from GitHub, Nuclei, ExploitDB, Metasploit, and Vulhub.",
+              "url": "https://github.com/0xMarcio/pocindex"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of (5 minute read)",
+              "blurb": "Google and four other organizations acknowledged flaws over the past five months where a prompt injection landing on one AI agent over MCP was forwarded to other internal agents, which executed it on trust. Researcher Syed Anas Mohiuddin named the technique \"protocol pivoting,\" though X41 D-Sec's Markus Vervier told Ars Technica it is plain indirect prompt injection. The bugs typically ended in SSRF, ranging from severity 2.7 at Rapid7 (CVE-2026-97228) to 8 in Google's mcp-toolbox, which followed redirects without validating target IPs.",
+              "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
+            },
+            {
+              "headline": "NTS: Authenticated Time at Meta (12 minute read)",
+              "blurb": "Meta added Network Time Security (RFC 8915) to its public time service at nts.meta.com, so on-path attackers can no longer forge the clock that certificate, token, and replay-window checks rely on. Its servers hold no per-client state because each one derives the cookie-sealing key from a shared master secret and the Unix epoch day using HKDF-SHA256. NTS does not stop delay attacks or prevent an authenticated server from being simply wrong, and the stock Android and iOS time clients still sync over unauthenticated packets.",
+              "url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/"
+            },
+            {
+              "headline": "Is Sandboxing Sufficient to Contain Rogue Agents? (10 minute read)",
+              "blurb": "When discussing the OpenAI and other agent escapes, the conversation inevitably turns to discussing sandboxes. OpenAI has not demonstrated to this point a serious containment strategy, so this discussion may hold weight. However, sandboxes are not sufficient as useful agents need Internet access as well as the fact that agents are potentially overeager.",
+              "url": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "OpenAI will watermark ChatGPT outputs by default—but only in the EU (2 minute read)",
+              "blurb": "OpenAI will enable its textGrain text watermark by default for ChatGPT and Codex users in the EU to comply with the EU AI Act, though its own tests show the 92% best-case detection rate falls by almost 75% once 20% of the text is changed.",
+              "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/"
+            },
+            {
+              "headline": "Verisign announces Verisign Informed, applies for .pki top level domain (1 minute read)",
+              "blurb": "Verisign launched a limited beta of Verisign Informed, a certificate status service that returns signed OCSP responses to counter stale revocation data, and applied for the .pki top-level domain.",
+              "url": "https://domainnamewire.com/2026/10/05/verisign-announces-verisign-informed-applies-for-pki-top-level-domain/"
+            },
+            {
+              "headline": "Asos customers receive ‘hack' notification threatening to leak data (1 minute read)",
+              "blurb": "Asos is investigating after thousands of app users received a notification claiming hackers had fully compromised its Snowflake instance.",
+              "url": "https://www.theguardian.com/business/2026/oct/06/asos-hack-notification-website-app"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR DevOps — 2026-10-07",
+      "tagline": "Cloudflare Birthday Week ☁️, Hardening CI/CD 🧱, Python Performance 🐍",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "What's new in AI infrastructure and orchestration in September (10 minute read)",
+              "blurb": "Google Cloud's September roundup highlights GKE Agent Substrate with 10x sandbox density, Pod snapshots cutting inference startup by 89%, a multi-cluster Inference Gateway, and new Filestore and VM storage options. It also cites analyst rankings in Forrester, Gartner, and SemiAnalysis ClusterMax.",
+              "url": "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/"
+            },
+            {
+              "headline": "Everything we launched during Birthday Week 2026 (9 minute read)",
+              "blurb": "Cloudflare shipped 46 announcements during its Birthday Week 2026, including a new command-line interface called cf and an open-source pipeline named Forge. The company intends to become a public certificate authority and is preparing its cryptography for the post-quantum era. Cloudflare also launched a beta Monetization Gateway that lets creators charge AI agents for content using HTTP 402.",
+              "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "Scaling Kubernetes Workloads with Node Swap (5 minute read)",
+              "blurb": "Kubernetes support for running nodes with swap enabled reached General Availability in v1.34. Tests using Local SSDs for swap showed density gains of up to 3× across workloads like kernel builds and isolated Python sandboxes. One benchmark scaled concurrent Python sessions from 80 to 240 by offloading dormant memory to disk.",
+              "url": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/"
+            },
+            {
+              "headline": "When AI agents swarm, can banks keep up? (6 minute read)",
+              "blurb": "Banks face new risks as AI agents act autonomously at machine speed, and individual controls alone may miss unexpected behavior. Elastic argues for unified data across logs, metrics, traces, threat intelligence, audit trails, and security operations that combine human judgment with automated investigation.",
+              "url": "https://www.elastic.co/blog/banks-ai-agents-visibility"
+            },
+            {
+              "headline": "Proactive Defense: Hardening Code Pipelines and CI/CD Infrastructure (15 minute read)",
+              "blurb": "Ephemeral runners, short-lived OIDC credentials, immutable dependency references, and provenance verification limit opportunities for software supply-chain compromise. Isolating build caches by branch privilege, blocking untrusted pull requests from release secrets, and quarantining incoming dependencies help prevent malicious code from reaching trusted builds.",
+              "url": "https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure"
+            }
+          ]
+        },
+        {
+          "name": "Resources & Tools",
+          "stories": [
+            {
+              "headline": "Rea (GitHub Repo)",
+              "blurb": "REA lets users ask an AI agent to investigate app features without source code, explaining how they work down to the native binary level. It includes tools for inspecting JavaScript and Electron apps, .NET assemblies, websites, and native binaries through Hopper, Ghidra, or IDA Pro. Analysis runs locally, and the tool supports agents like Claude Code, Cursor, and GitHub Copilot CLI.",
+              "url": "https://github.com/morluto/rea"
+            },
+            {
+              "headline": "e2e (GitHub Repo)",
+              "blurb": "e2e is an end-to-end testing framework for web and mobile apps. Describe a goal in natural language and an agent drives the app to reach it. Check the result with locators and assertions in the same test.",
+              "url": "https://github.com/tester-army/e2e"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "The Shift to cgroup v2 in Kubernetes: What You Need to Know (8 minute read)",
+              "blurb": "Kubernetes v1.35 defaults to refusing kubelet startup on cgroup v1 nodes, making migration to cgroup v2 an operational upgrade concern. Teams should check kernel and runtime compatibility, align kubelet and runtime cgroup drivers, and update monitoring tools that read cgroup files directly.",
+              "url": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/"
+            },
+            {
+              "headline": "How fast is Python 3.15? (10 minute read)",
+              "blurb": "Informal CPU-bound benchmarks of Python 3.15.0rc3 show standard-interpreter performance largely unchanged from 3.14, while the experimental JIT runs roughly 20–28% faster than the standard 3.15 interpreter. Free-threaded builds deliver substantial gains in four-thread tests, but these results cover only Fibonacci and bubble-sort workloads rather than general application performance.",
+              "url": "https://blog.miguelgrinberg.com/post/how-fast-is-python-3-15"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Pulumi Google Cloud Provider Version 10.0.0 (4 minute read)",
+              "blurb": "Pulumi has released version 10 of its Google Cloud provider.",
+              "url": "https://www.pulumi.com/blog/gcp-v10-release/"
+            },
+            {
+              "headline": "\"Think of it as Kubernetes for agents\": OpenClaw lands in the enterprise with OpenAI, Nvidia and Red Hat on board (6 minute read)",
+              "blurb": "OpenClaw Enterprise is an open-source control plane for managing AI agents on Kubernetes launched with backing from OpenAI, Nvidia, and Red Hat.",
+              "url": "https://thenewstack.io/openclaw-enterprise-kubernetes-agents/"
+            },
+            {
+              "headline": "Cursor Uses S3 WAL to Scale Git Storage to More than 300 Pushes per Second (2 minute read)",
+              "blurb": "Cursor's Continuity treats S3-backed write-ahead logs as the source of truth for Git storage.",
+              "url": "https://www.infoq.com/news/2026/09/cursor-continuity-git-storage/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Design — 2026-10-07",
+      "tagline": "Capcom AI 🎮, Lighter MacBook 💻, ChatGPT Watermarks 🔍",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Capcom Plans to Use AI to Speed up the Game Development Process (1 minute read)",
+              "blurb": "Capcom intends to use AI to speed up game development through REX, a major overhaul of its RE Engine meant to create a \"game engine of the AI generation.\" Programmer Satoshi Ishida said AI would mainly streamline workflows, since larger games and assets have lengthened development times. Capcom had earlier said AI would assist with graphics, sound and programming, while AI-generated content would stay out of its games.",
+              "url": "https://www.engadget.com/2276597/capcom-plans-to-use-ai-to-speed-up-the-game-development-process/"
+            },
+            {
+              "headline": "Redesigned MacBook Pro with OLED to feature ‘significantly lighter' design (2 minute read)",
+              "blurb": "Apple's upcoming MacBook Pro redesign will reportedly be significantly lighter thanks to miniaturized parts and a rearranged internal architecture, addressing the substantial weight of current models, particularly the 16-inch version. The overhaul is also expected to introduce Tandem OLED displays, touchscreens, and a Dynamic Island, with macOS Golden Gate receiving changes to support the new interactions. The M5 Pro and M5 Max models are expected to launch by November, as Apple reportedly skips higher-end M6 chips to accelerate its transition to M7.",
+              "url": "https://9to5mac.com/2026/10/04/apple-macbook-pro-redesign-to-be-much-lighter-report/"
+            },
+            {
+              "headline": "OpenAI is adding invisible watermarks to ChatGPT and Codex for users in the EU (2 minute read)",
+              "blurb": "OpenAI will begin adding invisible, machine-readable watermarks called textGrain to eligible ChatGPT and Codex output in the EU to comply with transparency requirements in the EU AI Act. The technology embeds a statistical pattern into generated language rather than adding hidden characters. API customers worldwide can optionally enable it for supported models. OpenAI acknowledges that watermarking remains imperfect because editing and short outputs can weaken the detectable signal.",
+              "url": "https://www.digitaltrends.com/computing/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-for-users-in-the-eu/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "Designing for Voice First (6 minute read)",
+              "blurb": "Designing a voice-first app is hard because touch-and-typing workflows get decided first, leaving speech as another way to fill in the same fields. Five principles guide it: make spoken context count, let people steer as they think, show understanding, make correction easy, and let attention come and go. Voice should survive the shift from desk to AirPods and dog walks, so a returning user sees what happened and what still needs them.",
+              "url": "https://www.antonsten.com/articles/designing-for-voice-first/"
+            },
+            {
+              "headline": "Designing for People Who are Color Blind (6 minute read)",
+              "blurb": "Color blindness affects about one in 12 men and one in 200 women, making key information, interactive elements, and color-coded data harder to perceive. Designs should pair color with an icon, pattern, or text label per WCAG 1.4.1, keep sufficient contrast, and avoid red-green and purple-blue pairings. Blue is a safer hue, though not guaranteed. Grayscale checks help, and hover, focus, and disabled states need non-color cues, ideally tested with real people.",
+              "url": "https://tetralogical.com/blog/2026/10/02/designing-for-colourblindness/"
+            },
+            {
+              "headline": "AI invasive design (7 minute read)",
+              "blurb": "Treating “AI native” as a mandate to maximize AI usage risks replacing valuable existing interactions simply to make products appear technologically current. A better approach treats human behavior as the ecosystem and asks AI to fit naturally within it by reflecting intent, providing adaptable scaffolding, maintaining consistent mental models, and scaling work without overwhelming people. Successful AI products should also preserve human participation and skills, because excessive automation can erode motivation, competence, and the value users get from doing meaningful work themselves.",
+              "url": "https://jovo.design/writing/ai-invasive-design"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Dot Matrix Loaders for Every App (Website)",
+              "blurb": "55+ free and open-source loaders, built with React, TypeScript, Tailwind CSS, and shadcn.",
+              "url": "https://dotmatrix.zzzzshawn.cloud/"
+            },
+            {
+              "headline": "The First Collaborative Design Agent Workspace (Website)",
+              "blurb": "Open-source vibe design workspace & Claude Design alternative — build prototypes, landing pages, dashboards, slides, and HTML video with your own coding agent.",
+              "url": "https://open-design.ai/"
+            },
+            {
+              "headline": "Ultra-Fast Zero-Dependency Shaders for Your Designs (Website)",
+              "blurb": "Zero-dependency canvas shaders that can be installed from npm or designed in Paper.",
+              "url": "https://shaders.paper.design/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "You can't describe your way to great design (6 minute read)",
+              "blurb": "Prompt-driven AI tools force creative work into a describe-generate-evaluate loop that poorly supports the instinctive experimentation and continuous manipulation involved in serious design. Current tools tend to offer either editable but constrained output or expressive but largely fixed results, leaving professionals without the combination of creative range and direct control they need. Better AI creative tools should behave more like canvases where people can manipulate generated material fluidly, preserve editability, explore alternatives, and remain actively involved in shaping the work.",
+              "url": "https://medium.com/@Adobe_Design/you-cant-describe-your-way-to-great-design-e16b23316878"
+            },
+            {
+              "headline": "What the 500 in Blue-500 Means (9 minute read)",
+              "blurb": "Numbers in color scales such as blue-500 may look standardized, but different design systems use them to represent entirely different concepts, including position in a ramp, guaranteed contrast relationships, measured lightness, or semantic roles. Material Design's original 50–900 scale primarily described positions and established 500 as a typical primary color, while systems such as Carbon, Material 3, and Radix give their numbers more explicit meaning. Understanding what a scale actually encodes is important because two colors carrying the same numerical label can have very different lightness, contrast, and intended uses.",
+              "url": "https://www.hipuku.dev/writing/what-the-500-in-blue-500-means"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Textile Artist Kathrin Marchenko Reimagines Iconic Monet Painting (3 minute read)",
+              "blurb": "Kathrin Marchenko's embroidery Beyond the Bridge reimagines Monet's Bridge over a Pond of Water Lilies in wool and mohair thread on framed tulle, showing how closely brushstrokes and stitches relate.",
+              "url": "https://mymodernmet.com/kathrin-marchenko-beyond-the-bridge-monet/"
+            },
+            {
+              "headline": "The Top 10 Graphic Design Trends for 2027 Are About Process, Not AI (9 minute read)",
+              "blurb": "Graphic design trends for 2027 favor provable craft over cheap AI polish, ranked by current visibility and growth speed through a \"Heat-and-Slope Test.\"",
+              "url": "https://weandthecolor.com/the-top-10-graphic-design-trends-for-2027-are-about-process-not-ai/212398"
             }
           ]
         }
