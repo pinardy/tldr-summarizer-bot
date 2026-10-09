@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-09",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "OpenAI Unveils GPT-6 and Intelligent UI",
+              "blurb": "OpenAI has officially introduced GPT-6 alongside a new \"Intelligent UI\" paradigm aimed at deeply integrating agentic capabilities directly into user interfaces.",
+              "url": "https://openai.com/index/gpt-6-for-everyone"
+            },
+            {
+              "headline": "Anthropic Launches Claude Haiku 5.5",
+              "blurb": "Anthropic has released Claude Haiku 5.5, delivering significant speed and capability improvements to its smallest, most cost-effective model family.",
+              "url": "https://www.anthropic.com/claude-haiku-5-5"
+            },
+            {
+              "headline": "Mistral Large 4 Debuts with Advanced Capabilities",
+              "blurb": "Mistral AI has launched Mistral Large 4, its latest flagship frontier model designed for complex multilingual reasoning and native function execution.",
+              "url": "https://mistral.ai/news/mistral-large-4"
+            },
+            {
+              "headline": "State of AI Report 2026 Explores the Rise of Agent Wallets",
+              "blurb": "The newly released State of AI Report 2026 highlights a shift toward transactional AI agents and details the geopolitical and compute dynamics shaping the technology.",
+              "url": "https://nathanbenaich.substack.com/p/state-of-ai-2026"
+            },
+            {
+              "headline": "Zuckerberg's Biohub Commits $1.8B to Biological AI",
+              "blurb": "The CZ Biohub is leading a massive $1.8 billion initiative to train advanced AI models capable of simulating and predicting complex cellular behaviors.",
+              "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior"
+            }
+          ]
+        },
+        {
+          "name": "Developer Tools & Infrastructure",
+          "stories": [
+            {
+              "headline": "Microsoft Copilot Integrates Local Models and Sandboxing",
+              "blurb": "Microsoft is enabling GitHub Copilot and Windows to execute local models and commands inside secure sandboxes, boosting privacy and execution safety for developers.",
+              "url": "https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows"
+            },
+            {
+              "headline": "Stack Overflow Releases 2026 Developer Survey",
+              "blurb": "The latest industry-wide developer survey reveals evolving tech preferences, compensation benchmarks, and how AI tools are reshaping daily engineering workflows.",
+              "url": "https://survey.stackoverflow.co/2026"
+            },
+            {
+              "headline": "Google Signs Landmark Nuclear Energy Deal for AI Data Centers",
+              "blurb": "Google has committed to purchasing 890 megawatts of clean energy from Constellation to fulfill the massive, non-stop power requirements of its next-generation AI data centers.",
+              "url": "https://siliconangle.com/2026/10/06/google-goes-nuclear-to-power-its-ai-data-centers-committing-to-purchase-890-megawatts-of-energy-from-constellation"
+            },
+            {
+              "headline": "Polars 2.0.0 Hits Stable Release",
+              "blurb": "The high-performance DataFrame library Polars has released Py-Polars 2.0.0, bringing refined APIs and faster processing speeds to data engineers.",
+              "url": "https://github.com/pola-rs/polars/releases/tag/py-2.0.0"
+            },
+            {
+              "headline": "TS-Rust Aims to Port TypeScript's Compiler to Rust",
+              "blurb": "A new open-source project called ts-rust is working to port the TypeScript compiler to Rust, promising dramatically faster build and type-checking times.",
+              "url": "https://github.com/pingdotgg/ts-rust"
+            }
+          ]
+        },
+        {
+          "name": "Cybersecurity",
+          "stories": [
+            {
+              "headline": "Attackers Hijack Top-Level Domains to Mint Rogue Certificates",
+              "blurb": "Threat actors successfully compromised key top-level domains to generate fraudulent security certificates for Google and other high-profile organizations, threatening web trust.",
+              "url": null
+            },
+            {
+              "headline": "Compromised Tensorlake NPM Package Threatens Machine Wipes",
+              "blurb": "Security researchers discovered a malicious npm package containing a worm that holds developers' machines hostage, threatening to wipe disk drives if compromised API tokens are revoked.",
+              "url": "https://www.stepsecurity.io/blog/tensorlake-npm-compromised-hostage-token-worm"
+            },
+            {
+              "headline": "Let's Encrypt to Shorten Certificate Lifetimes to 64 Days",
+              "blurb": "To foster better security hygiene and automation, Let's Encrypt has announced it will transition from 90-day to 64-day TLS certificate lifetimes beginning in February 2027.",
+              "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html"
+            },
+            {
+              "headline": "Critical Atlassian Flaw Permits Arbitrary File Access",
+              "blurb": "A newly detailed critical vulnerability, CVE-2026-21589, allows unauthenticated remote attackers to gain unauthorized file system access across multiple Atlassian enterprise products.",
+              "url": "https://www.rapid7.com/blog/post/etr-cve-2026-21589-critical-unauthenticated-arbitrary-file-access-in-atlassian-products"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
