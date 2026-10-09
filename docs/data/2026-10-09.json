@@ -2,95 +2,90 @@
   "date": "2026-10-09",
   "mode": "combined",
   "categories": [
-    "tech"
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
   ],
   "digests": [
     {
       "title": "TLDR Daily Digest",
-      "tagline": "Tech",
+      "tagline": "AI, IT, Web Dev, InfoSec, DevOps, Design",
       "sections": [
         {
-          "name": "AI & Models",
+          "name": "AI & User Interfaces",
           "stories": [
             {
-              "headline": "OpenAI Unveils GPT-6 and Intelligent UI",
-              "blurb": "OpenAI has officially introduced GPT-6 alongside a new \"Intelligent UI\" paradigm aimed at deeply integrating agentic capabilities directly into user interfaces.",
-              "url": "https://openai.com/index/gpt-6-for-everyone"
-            },
-            {
-              "headline": "Anthropic Launches Claude Haiku 5.5",
-              "blurb": "Anthropic has released Claude Haiku 5.5, delivering significant speed and capability improvements to its smallest, most cost-effective model family.",
+              "headline": "Anthropic Releases Claude Haiku 5.5",
+              "blurb": "Anthropic has launched its fastest and cheapest model to date, slashing costs by 75% compared to Haiku 4.5 to capture high-volume, cost-sensitive enterprise workflows.",
               "url": "https://www.anthropic.com/claude-haiku-5-5"
             },
             {
-              "headline": "Mistral Large 4 Debuts with Advanced Capabilities",
-              "blurb": "Mistral AI has launched Mistral Large 4, its latest flagship frontier model designed for complex multilingual reasoning and native function execution.",
-              "url": "https://mistral.ai/news/mistral-large-4"
+              "headline": "OpenAI Launches Ultrafast Mode for GPT-6.1 Sol",
+              "blurb": "OpenAI is rolling out an 'Ultrafast' mode for its Sol model, delivering near-Astra intelligence at eight times the speed of Sol Standard to power real-time, high-speed API workflows.",
+              "url": "https://threadreaderapp.com/thread/2108262812489531498.html"
             },
             {
-              "headline": "State of AI Report 2026 Explores the Rise of Agent Wallets",
-              "blurb": "The newly released State of AI Report 2026 highlights a shift toward transactional AI agents and details the geopolitical and compute dynamics shaping the technology.",
-              "url": "https://nathanbenaich.substack.com/p/state-of-ai-2026"
+              "headline": "Google Unveils Autonomous Gemini Agents for Enterprise",
+              "blurb": "Google introduced a universal Gemini agent capable of managing multi-step workflows, coding, and media creation across Google Workspace and enterprise directories.",
+              "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026"
             },
             {
-              "headline": "Zuckerberg's Biohub Commits $1.8B to Biological AI",
-              "blurb": "The CZ Biohub is leading a massive $1.8 billion initiative to train advanced AI models capable of simulating and predicting complex cellular behaviors.",
-              "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior"
+              "headline": "ChatGPT Debuts Dynamic 'Intelligent UI' Interface",
+              "blurb": "OpenAI has launched a highly visual, adaptive interface that replaces standard text with interactive charts, diagrams, and task-specific widgets.",
+              "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/"
             }
           ]
         },
         {
-          "name": "Developer Tools & Infrastructure",
+          "name": "Cyber Security & Vulnerabilities",
           "stories": [
             {
-              "headline": "Microsoft Copilot Integrates Local Models and Sandboxing",
-              "blurb": "Microsoft is enabling GitHub Copilot and Windows to execute local models and commands inside secure sandboxes, boosting privacy and execution safety for developers.",
-              "url": "https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows"
-            },
-            {
-              "headline": "Stack Overflow Releases 2026 Developer Survey",
-              "blurb": "The latest industry-wide developer survey reveals evolving tech preferences, compensation benchmarks, and how AI tools are reshaping daily engineering workflows.",
-              "url": "https://survey.stackoverflow.co/2026"
-            },
-            {
-              "headline": "Google Signs Landmark Nuclear Energy Deal for AI Data Centers",
-              "blurb": "Google has committed to purchasing 890 megawatts of clean energy from Constellation to fulfill the massive, non-stop power requirements of its next-generation AI data centers.",
-              "url": "https://siliconangle.com/2026/10/06/google-goes-nuclear-to-power-its-ai-data-centers-committing-to-purchase-890-megawatts-of-energy-from-constellation"
-            },
-            {
-              "headline": "Polars 2.0.0 Hits Stable Release",
-              "blurb": "The high-performance DataFrame library Polars has released Py-Polars 2.0.0, bringing refined APIs and faster processing speeds to data engineers.",
-              "url": "https://github.com/pola-rs/polars/releases/tag/py-2.0.0"
-            },
-            {
-              "headline": "TS-Rust Aims to Port TypeScript's Compiler to Rust",
-              "blurb": "A new open-source project called ts-rust is working to port the TypeScript compiler to Rust, promising dramatically faster build and type-checking times.",
-              "url": "https://github.com/pingdotgg/ts-rust"
-            }
-          ]
-        },
-        {
-          "name": "Cybersecurity",
-          "stories": [
-            {
-              "headline": "Attackers Hijack Top-Level Domains to Mint Rogue Certificates",
-              "blurb": "Threat actors successfully compromised key top-level domains to generate fraudulent security certificates for Google and other high-profile organizations, threatening web trust.",
-              "url": null
-            },
-            {
-              "headline": "Compromised Tensorlake NPM Package Threatens Machine Wipes",
-              "blurb": "Security researchers discovered a malicious npm package containing a worm that holds developers' machines hostage, threatening to wipe disk drives if compromised API tokens are revoked.",
+              "headline": "Compromised Tensorlake npm Package Holds Revoked Tokens Hostage",
+              "blurb": "A malicious version of the tensorlake npm package steals developer credentials at installation and deploys a background service that wipes the user's home directory if the stolen GitHub token is revoked.",
               "url": "https://www.stepsecurity.io/blog/tensorlake-npm-compromised-hostage-token-worm"
             },
             {
-              "headline": "Let's Encrypt to Shorten Certificate Lifetimes to 64 Days",
-              "blurb": "To foster better security hygiene and automation, Let's Encrypt has announced it will transition from 90-day to 64-day TLS certificate lifetimes beginning in February 2027.",
-              "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html"
+              "headline": "Critical React Server Components Flaw Enables Next.js DoS",
+              "blurb": "A vulnerability in React 19 allows attackers to trigger quadratic overhead during FormData rebuilding, completely blocking the Node.js event loop with a single sub-megabyte POST request.",
+              "url": "https://simonkoeck.com/writeups/react-rsc-formdata-event-loop-dos"
             },
             {
-              "headline": "Critical Atlassian Flaw Permits Arbitrary File Access",
-              "blurb": "A newly detailed critical vulnerability, CVE-2026-21589, allows unauthenticated remote attackers to gain unauthorized file system access across multiple Atlassian enterprise products.",
-              "url": "https://www.rapid7.com/blog/post/etr-cve-2026-21589-critical-unauthenticated-arbitrary-file-access-in-atlassian-products"
+              "headline": "AWS Open-Sources Strands Box to Contain AI Agents",
+              "blurb": "AWS has released Strands Box, an open-source sandbox that uses macOS Seatbelt containment and custom policy configurations to restrict risky AI agent commands and file deletions.",
+              "url": "https://aws.amazon.com/blogs/opensource/introducing-strands-box-ai-agent-sandboxes-powered-by-dogwood/"
+            },
+            {
+              "headline": "Legacy Cerner Servers Breach Exposes 20 Million Health Records",
+              "blurb": "A major security breach on non-migrated legacy Oracle Health servers has exposed the personal and medical data of nearly 20 million patients.",
+              "url": "https://www.securityweek.com/oracle-health-data-breach-tally-climbs-to-nearly-20-million/"
+            },
+            {
+              "headline": "Anthropic Launches Cyber Mission with Free OSS Vulnerability Scanning",
+              "blurb": "Anthropic is deploying its frontier models to protect critical infrastructure and offering open-source maintainers free, automated vulnerability scanning with ready-to-use fixes.",
+              "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure & Enterprise IT",
+          "stories": [
+            {
+              "headline": "Internet Root DNS Keys Set to Rollover on October 11",
+              "blurb": "The internet's DNS root is scheduled to switch to its new trust anchor, KSK-2024, meaning improperly configured validating resolvers could fail to resolve domains.",
+              "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/"
+            },
+            {
+              "headline": "Let's Encrypt Cuts SSL Certificate Lifetimes to 64 Days",
+              "blurb": "Beginning in February 2027, Let's Encrypt will reduce certificate validity periods from 90 to 64 days, potentially disrupting legacy automated renewal setups that do not support modern ACME specifications.",
+              "url": "https://arstechnica.com/gadgets/2026/10/lets-encrypt-cuts-certificate-lifetimes-to-64-days-starting-february-2027/"
+            },
+            {
+              "headline": "SAP Integrates Stablecoin Settlement Directly into Enterprise ERP",
+              "blurb": "SAP has partnered with Circle and Tereina to launch SAP Pay, allowing multinational corporations to natively settle invoices with USDC and EURC stablecoins across 89 global payment corridors.",
+              "url": "https://forkast.news/sap-just-added-stablecoin-settlement-to-the-software-that-runs-84-of-global-commerce/"
             }
           ]
         }
