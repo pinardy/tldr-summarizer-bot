@@ -1,0 +1,525 @@
+{
+  "date": "2026-10-10",
+  "mode": "per-newsletter",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Tech — 2026-10-10",
+      "tagline": "Get the free daily email with summaries of the most interesting stories in startups, tech, and programming.",
+      "sections": [
+        {
+          "name": "",
+          "stories": [
+            {
+              "headline": "Google’s SOC Agent Investigated 5M Alerts, But Can Anyone Verify It?",
+              "blurb": "Sponsor tldr.tech/blog Thirty-minute triage now takes 60 seconds, but a verdict nobody can check is just a suggestion. Daniel Miessler discusses the context layer that makes agent findings auditable. Read here →",
+              "url": "https://tldr.tech/blog/60-second-triage-agentic-soc"
+            }
+          ]
+        },
+        {
+          "name": "Google’s SOC Agent Investigated 5M Alerts, But Can Anyone Verify It?",
+          "stories": [
+            {
+              "headline": "Deno is joining Cloudflare",
+              "blurb": "blog.cloudflare.com 7 min read",
+              "url": "https://blog.cloudflare.com/deno-joins-cloudflare"
+            }
+          ]
+        },
+        {
+          "name": "Deno is joining Cloudflare",
+          "stories": [
+            {
+              "headline": "Introducing Claude Haiku 5.5 \\ Anthropic",
+              "blurb": "anthropic.com 5 min read",
+              "url": "https://www.anthropic.com/claude-haiku-5-5"
+            }
+          ]
+        },
+        {
+          "name": "Introducing Claude Haiku 5.5 \\ Anthropic",
+          "stories": [
+            {
+              "headline": "Investigating unintended model actions in our evaluations and internal use",
+              "blurb": "anthropic.com 14 min read",
+              "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+            }
+          ]
+        },
+        {
+          "name": "Investigating unintended model actions in our evaluations and internal use",
+          "stories": [
+            {
+              "headline": "OpenAI posts 700 maths preprints online: mathematicians are up in arms",
+              "blurb": "nature.com 2 min read",
+              "url": "https://www.nature.com/articles/d41586-026-03196-8"
+            }
+          ]
+        },
+        {
+          "name": "OpenAI posts 700 maths preprints online: mathematicians are up in arms",
+          "stories": [
+            {
+              "headline": "GPT‑6 and Intelligent UI for everyone",
+              "blurb": "openai.com 5 min read",
+              "url": "https://openai.com/index/gpt-6-for-everyone"
+            }
+          ]
+        },
+        {
+          "name": "GPT‑6 and Intelligent UI for everyone",
+          "stories": [
+            {
+              "headline": "Introducing Microsoft-Decision-1, our model for fast decision-making",
+              "blurb": "commandline.microsoft.com 6 min read",
+              "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry"
+            }
+          ]
+        },
+        {
+          "name": "Introducing Microsoft-Decision-1, our model for fast decision-making",
+          "stories": [
+            {
+              "headline": "Rewriting Prime Agent in Rust",
+              "blurb": "primeintellect.ai 9 min read",
+              "url": "https://www.primeintellect.ai/blog/prime-agent-rust"
+            }
+          ]
+        },
+        {
+          "name": "Rewriting Prime Agent in Rust",
+          "stories": [
+            {
+              "headline": "An opt-in vulnerability-finding service for open-source software \\ Anthropic",
+              "blurb": "anthropic.com 3 min read",
+              "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+            }
+          ]
+        },
+        {
+          "name": "An opt-in vulnerability-finding service for open-source software \\ Anthropic",
+          "stories": [
+            {
+              "headline": "docker/docker-agent: AI Agent Builder and Runtime by Docker Engineering",
+              "blurb": "github.com 1 min read",
+              "url": "https://github.com/docker/docker-agent"
+            }
+          ]
+        },
+        {
+          "name": "docker/docker-agent: AI Agent Builder and Runtime by Docker Engineering",
+          "stories": [
+            {
+              "headline": "Our $445M Series D",
+              "blurb": "oxide.computer 3 min read",
+              "url": "https://oxide.computer/blog/our-445m-series-d"
+            }
+          ]
+        },
+        {
+          "name": "Our $445M Series D",
+          "stories": [
+            {
+              "headline": "facebook/Lifeguard: Static analyzer for Python Lazy Imports",
+              "blurb": "github.com 6 min read",
+              "url": "https://github.com/Facebook/lifeguard"
+            }
+          ]
+        },
+        {
+          "name": "facebook/Lifeguard: Static analyzer for Python Lazy Imports",
+          "stories": [
+            {
+              "headline": "Can AI automate AI R&D yet? Epoch AI's InnovationEval Results",
+              "blurb": "epoch.ai 61 min read",
+              "url": "https://epoch.ai/publications/innovationeval"
+            }
+          ]
+        },
+        {
+          "name": "Can AI automate AI R&D yet? Epoch AI's InnovationEval Results",
+          "stories": [
+            {
+              "headline": "64-Day Certificate Lifetimes Coming Feb 2027",
+              "blurb": "letsencrypt.org 2 min read",
+              "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html"
+            }
+          ]
+        },
+        {
+          "name": "64-Day Certificate Lifetimes Coming Feb 2027",
+          "stories": [
+            {
+              "headline": "Microsoft Execution Containers: Policy-driven containment for AI agents",
+              "blurb": "blogs.windows.com 8 min read",
+              "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents"
+            }
+          ]
+        },
+        {
+          "name": "Microsoft Execution Containers: Policy-driven containment for AI agents",
+          "stories": [
+            {
+              "headline": "Bringing local models and sandboxed tools to Windows and GitHub Copilot",
+              "blurb": "commandline.microsoft.com 10 min read",
+              "url": "https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows"
+            }
+          ]
+        },
+        {
+          "name": "Bringing local models and sandboxed tools to Windows and GitHub Copilot",
+          "stories": [
+            {
+              "headline": "Trump administration targets Microsoft in new immigration crackdown",
+              "blurb": "arstechnica.com 1 min read",
+              "url": "https://arstechnica.com/tech-policy/2026/10/trump-administration-targets-microsoft-in-new-immigration-crackdown"
+            }
+          ]
+        },
+        {
+          "name": "Trump administration targets Microsoft in new immigration crackdown",
+          "stories": [
+            {
+              "headline": "AI2 replaces priority GPU scheduler with time-budget system (*)",
+              "blurb": "allenai.org 14 min read",
+              "url": "https://allenai.org/blog/impactful-scheduling"
+            }
+          ]
+        },
+        {
+          "name": "AI2 replaces priority GPU scheduler with time-budget system (*)",
+          "stories": [
+            {
+              "headline": "Superpowers releases version 7.0 (*)",
+              "blurb": "blog.fsck.com 3 min read",
+              "url": "https://blog.fsck.com/2026/10/09/what-a-year"
+            }
+          ]
+        },
+        {
+          "name": "Superpowers releases version 7.0 (*)",
+          "stories": [
+            {
+              "headline": "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work",
+              "blurb": "threadreaderapp.com 1 min read",
+              "url": "https://threadreaderapp.com/thread/2108262812489531498.html"
+            }
+          ]
+        },
+        {
+          "name": "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work",
+          "stories": [
+            {
+              "headline": "SpaceX to buy key spectrum that could help Starlink Mobile become major US cell carrier",
+              "blurb": "theregister.com 2 min read",
+              "url": "https://www.theregister.com/networks/2026/10/09/spacex-to-buy-key-spectrum-that-could-help-starlink-mobile-become-major-us-cell-carrier/5302393"
+            }
+          ]
+        },
+        {
+          "name": "SpaceX to buy key spectrum that could help Starlink Mobile become major US cell carrier",
+          "stories": [
+            {
+              "headline": "pingdotgg/ts-rust: Rust Port of TypeScript (Tsc)",
+              "blurb": "github.com 7 min read",
+              "url": "https://github.com/pingdotgg/ts-rust"
+            }
+          ]
+        },
+        {
+          "name": "pingdotgg/ts-rust: Rust Port of TypeScript (Tsc)",
+          "stories": [
+            {
+              "headline": "Gemini at Work 2026: Introducing Gemini agent",
+              "blurb": "cloud.google.com 26 min read",
+              "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026?linkId=64057297"
+            }
+          ]
+        },
+        {
+          "name": "Gemini at Work 2026: Introducing Gemini agent",
+          "stories": [
+            {
+              "headline": "AI coding agents generate more code, but not more software",
+              "blurb": "arstechnica.com 2 min read",
+              "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software"
+            }
+          ]
+        },
+        {
+          "name": "AI coding agents generate more code, but not more software",
+          "stories": [
+            {
+              "headline": "Ramp Hits $60 Billion Valuation in $1.85 Billion Funding Round",
+              "blurb": "bloomberg.com 1 min read",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-09/ramp-hits-60-billion-valuation-in-1-85-billion-funding-round"
+            }
+          ]
+        },
+        {
+          "name": "Ramp Hits $60 Billion Valuation in $1.85 Billion Funding Round",
+          "stories": [
+            {
+              "headline": "Microsoft event debuts new AI-friendly hardware and Windows changes",
+              "blurb": "arstechnica.com 1 min read",
+              "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes"
+            }
+          ]
+        },
+        {
+          "name": "Microsoft event debuts new AI-friendly hardware and Windows changes",
+          "stories": [
+            {
+              "headline": "Build live dashboards and animate explainers with Claude | Claude by Anthropic",
+              "blurb": "claude.com 3 min read",
+              "url": "https://claude.com/resources/articles/dashboards-and-motion"
+            }
+          ]
+        },
+        {
+          "name": "Build live dashboards and animate explainers with Claude | Claude by Anthropic",
+          "stories": [
+            {
+              "headline": "vLLM Support for NVIDIA Vera Rubin NVL72",
+              "blurb": "vllm.ai 9 min read",
+              "url": "https://vllm.ai/blog/2026-10-09-vera-rubin-preview"
+            }
+          ]
+        },
+        {
+          "name": "vLLM Support for NVIDIA Vera Rubin NVL72",
+          "stories": [
+            {
+              "headline": "Tensorlake npm Package Compromised: A Worm With a Hostage Token That Wipes Your Machine If You Revoke It",
+              "blurb": "stepsecurity.io 6 min read",
+              "url": "https://www.stepsecurity.io/blog/tensorlake-npm-compromised-hostage-token-worm"
+            }
+          ]
+        },
+        {
+          "name": "Tensorlake npm Package Compromised: A Worm With a Hostage Token That Wipes Your Machine If You Revoke It",
+          "stories": [
+            {
+              "headline": "Samsung Collaborates with Sui to Bring USDC to Samsung Wallet on 82 Million U.S. Galaxy Devices",
+              "blurb": "sui.io 2 min read",
+              "url": "https://www.sui.io/blog/samsung-collaborates-with-sui-to-bring-usdc-to-samsung-wallet-on-82-million-u-s-galaxy-devices"
+            }
+          ]
+        },
+        {
+          "name": "Samsung Collaborates with Sui to Bring USDC to Samsung Wallet on 82 Million U.S. Galaxy Devices",
+          "stories": [
+            {
+              "headline": "Why Are Coding Agents So Dumb?",
+              "blurb": "mtlynch.io 10 min read",
+              "url": "https://mtlynch.io/why-are-coding-agents-so-dumb"
+            }
+          ]
+        },
+        {
+          "name": "Why Are Coding Agents So Dumb?",
+          "stories": [
+            {
+              "headline": "Why your LLM SDK treats budget spend limits as rate limits",
+              "blurb": "importstatic.com 10 min read",
+              "url": "https://importstatic.com/ai/llm-api-spend-limit-errors"
+            }
+          ]
+        },
+        {
+          "name": "Why your LLM SDK treats budget spend limits as rate limits",
+          "stories": [
+            {
+              "headline": "Justin Drake Calls for Crypto \"Bunker Mode\" as AI Threatens ECDSA",
+              "blurb": "threadreaderapp.com 2 min read",
+              "url": "https://threadreaderapp.com/thread/2107837081313505768.html"
+            }
+          ]
+        },
+        {
+          "name": "Justin Drake Calls for Crypto \"Bunker Mode\" as AI Threatens ECDSA",
+          "stories": [
+            {
+              "headline": "Amazon's new Alexa Tablets drop the Fire branding but are more Android than ever",
+              "blurb": "arstechnica.com 1 min read",
+              "url": "https://arstechnica.com/gadgets/2026/10/amazons-new-alexa-tablets-drop-the-fire-branding-but-are-more-android-than-ever"
+            }
+          ]
+        },
+        {
+          "name": "Amazon's new Alexa Tablets drop the Fire branding but are more Android than ever",
+          "stories": [
+            {
+              "headline": "NVlabs/LongLive: NVIDIA's Long-Video and World-Action Research",
+              "blurb": "github.com 7 min read",
+              "url": "https://github.com/NVlabs/LongLive"
+            }
+          ]
+        },
+        {
+          "name": "NVlabs/LongLive: NVIDIA's Long-Video and World-Action Research",
+          "stories": [
+            {
+              "headline": "Docs: OpenAI told investors its annualized revenue was nearing $50B at the end of September, well below the $70B reported by media based on investor docs",
+              "blurb": "ft.com 1 min read",
+              "url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a"
+            }
+          ]
+        },
+        {
+          "name": "Docs: OpenAI told investors its annualized revenue was nearing $50B at the end of September, well below the $70B reported by media based on investor docs",
+          "stories": [
+            {
+              "headline": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior",
+              "blurb": "the-decoder.com 1 min read",
+              "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior"
+            }
+          ]
+        },
+        {
+          "name": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior",
+          "stories": [
+            {
+              "headline": "Distillation for Incrimination and Distillation for Capabilities",
+              "blurb": "arxiv.org 1 min read",
+              "url": "https://arxiv.org/abs/2610.11012"
+            }
+          ]
+        },
+        {
+          "name": "Distillation for Incrimination and Distillation for Capabilities",
+          "stories": [
+            {
+              "headline": "Jev creator TypeSafe closes $870M round at $7.5B valuation",
+              "blurb": "siliconangle.com 3 min read",
+              "url": "https://siliconangle.com/2026/10/09/jev-creator-typesafe-closes-870m-round-at-7-5b-valuation"
+            }
+          ]
+        },
+        {
+          "name": "Jev creator TypeSafe closes $870M round at $7.5B valuation",
+          "stories": [
+            {
+              "headline": "TSMC taps GlobalFoundries to bolster US silicon interposer production in $2B deal",
+              "blurb": "theregister.com 2 min read",
+              "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061"
+            }
+          ]
+        },
+        {
+          "name": "TSMC taps GlobalFoundries to bolster US silicon interposer production in $2B deal",
+          "stories": [
+            {
+              "headline": "Microsoft Touts ‘Hybrid Intelligence,’ Agent Security Push And New AI PCs",
+              "blurb": "crn.com 8 min read",
+              "url": "https://www.crn.com/news/ai/2026/microsoft-touts-hybrid-intelligence-agent-security-push-and-new-ai-pcs"
+            }
+          ]
+        },
+        {
+          "name": "Microsoft Touts ‘Hybrid Intelligence,’ Agent Security Push And New AI PCs",
+          "stories": [
+            {
+              "headline": "Amazon builds 1,000th satellite, is weeks away from space Internet rollout",
+              "blurb": "arstechnica.com 1 min read",
+              "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout"
+            }
+          ]
+        },
+        {
+          "name": "Amazon builds 1,000th satellite, is weeks away from space Internet rollout",
+          "stories": [
+            {
+              "headline": "The State of AI 2026 bets your next customer is an agent with a wallet",
+              "blurb": "kachar.dev 7 min read",
+              "url": "https://kachar.dev/blog/state-of-ai-2026-for-people-who-ship"
+            }
+          ]
+        },
+        {
+          "name": "The State of AI 2026 bets your next customer is an agent with a wallet",
+          "stories": [
+            {
+              "headline": "Mistral says \"Le Chonk\" can challenge the best AI models",
+              "blurb": "arstechnica.com 2 min read",
+              "url": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models"
+            }
+          ]
+        },
+        {
+          "name": "Mistral says \"Le Chonk\" can challenge the best AI models",
+          "stories": [
+            {
+              "headline": "t4t5/omdrop-owl: AirDrop implementation for non-Apple Wi-Fi devices",
+              "blurb": "github.com 3 min read",
+              "url": "https://github.com/t4t5/omdrop-owl"
+            }
+          ]
+        },
+        {
+          "name": "t4t5/omdrop-owl: AirDrop implementation for non-Apple Wi-Fi devices",
+          "stories": [
+            {
+              "headline": "Google expands global access to SynthID Detector in partnership with OpenAI, NVIDIA, and Apple",
+              "blurb": "x.com 1 min read",
+              "url": "https://x.com/newsfromgoogle/status/2107837483983483360"
+            }
+          ]
+        },
+        {
+          "name": "Google expands global access to SynthID Detector in partnership with OpenAI, NVIDIA, and Apple",
+          "stories": [
+            {
+              "headline": "Sources: Apple is planning a second launch this month, scheduled on or around October 27, to introduce its first touch-screen MacBook, a new iPad mini, and more",
+              "blurb": "bloomberg.com 2 min read",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-08/apple-set-to-debut-touch-screen-macbook-and-new-ipad-mini-in-late-october?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTQ5MDMwMCwiZXhwIjoxNzkyMDk1MTAwLCJhcnRpY2xlSWQiOiJUTUtNUllLSVVQU1cwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.FtH_qR7-ZMoCNHSPZzDhdIAtFuxSSOo7BPD87jeDEW4"
+            }
+          ]
+        },
+        {
+          "name": "Sources: Apple is planning a second launch this month, scheduled on or around October 27, to introduce its first touch-screen MacBook, a new iPad mini, and more",
+          "stories": [
+            {
+              "headline": "Building effective agent automations / claude.dev Blog",
+              "blurb": "claude.dev 10 min read",
+              "url": "https://claude.dev/blog/building-effective-agent-automations"
+            }
+          ]
+        },
+        {
+          "name": "Building effective agent automations / claude.dev Blog",
+          "stories": [
+            {
+              "headline": "The DNS Root Changes Its Key on Sunday. A Resolver That Still Trusts Only the Old One Stops Resolving Everything.",
+              "blurb": "webhosting.today 9 min read",
+              "url": "https://webhosting.today/2026/10/09/the-dns-root-changes-its-key-on-sunday-a-resolver-that-still-trusts-only-the-old-one-stops-resolving-everything"
+            }
+          ]
+        },
+        {
+          "name": "The DNS Root Changes Its Key on Sunday. A Resolver That Still Trusts Only the Old One Stops Resolving Everything.",
+          "stories": [
+            {
+              "headline": "Introducing the Anthropic Cyber Mission",
+              "blurb": "anthropic.com 10 min read",
+              "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+            }
+          ]
+        },
+        {
+          "name": "Introducing the Anthropic Cyber Mission",
+          "stories": [
+            {
+              "headline": "OpenAI’s Dots",
+              "blurb": "mjtsai.com 1 min read",
+              "url": "https://mjtsai.com/blog/2026/10/09/openais-dots"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
