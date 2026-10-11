@@ -1,0 +1,525 @@
+{
+  "date": "2026-10-11",
+  "mode": "per-newsletter",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Tech — 2026-10-11",
+      "tagline": "Get the free daily email with summaries of the most interesting stories in startups, tech, and programming.",
+      "sections": [
+        {
+          "name": "",
+          "stories": [
+            {
+              "headline": "Google’s SOC Agent Investigated 5M Alerts, But Can Anyone Verify It?",
+              "blurb": "Sponsor tldr.tech/blog Thirty-minute triage now takes 60 seconds, but a verdict nobody can check is just a suggestion. Daniel Miessler discusses the context layer that makes agent findings auditable. Read here →",
+              "url": "https://tldr.tech/blog/60-second-triage-agentic-soc"
+            }
+          ]
+        },
+        {
+          "name": "Google’s SOC Agent Investigated 5M Alerts, But Can Anyone Verify It?",
+          "stories": [
+            {
+              "headline": "Bun v1.4.3: Built-in TypeScript Type Checker and Runtime Updates",
+              "blurb": "bun.com 59 min read",
+              "url": "https://bun.com/blog/bun-v1.4.3"
+            }
+          ]
+        },
+        {
+          "name": "Bun v1.4.3: Built-in TypeScript Type Checker and Runtime Updates",
+          "stories": [
+            {
+              "headline": "Introducing Microsoft-Decision-1, our model for fast decision-making",
+              "blurb": "commandline.microsoft.com 6 min read",
+              "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry"
+            }
+          ]
+        },
+        {
+          "name": "Introducing Microsoft-Decision-1, our model for fast decision-making",
+          "stories": [
+            {
+              "headline": "Deno is joining Cloudflare",
+              "blurb": "blog.cloudflare.com 7 min read",
+              "url": "https://blog.cloudflare.com/deno-joins-cloudflare"
+            }
+          ]
+        },
+        {
+          "name": "Deno is joining Cloudflare",
+          "stories": [
+            {
+              "headline": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+              "blurb": "ft.com 2 min read",
+              "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
+            }
+          ]
+        },
+        {
+          "name": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+          "stories": [
+            {
+              "headline": "GPU lifetime and economics | State of AI Report Compute Index",
+              "blurb": "stateof.ai 5 min read",
+              "url": "https://www.stateof.ai/compute-explore/gpu-lifetime"
+            }
+          ]
+        },
+        {
+          "name": "GPU lifetime and economics | State of AI Report Compute Index",
+          "stories": [
+            {
+              "headline": "Investigating unintended model actions in our evaluations and internal use",
+              "blurb": "anthropic.com 14 min read",
+              "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+            }
+          ]
+        },
+        {
+          "name": "Investigating unintended model actions in our evaluations and internal use",
+          "stories": [
+            {
+              "headline": "Atlas Infinite: MongoDB's Disaggregated Architecture",
+              "blurb": "muratbuffalo.blogspot.com 5 min read",
+              "url": "https://muratbuffalo.blogspot.com/2026/10/atlas-infinite-mongodbs-disaggregated.html"
+            }
+          ]
+        },
+        {
+          "name": "Atlas Infinite: MongoDB's Disaggregated Architecture",
+          "stories": [
+            {
+              "headline": "Clusters and compute access | State of AI Report Compute Index",
+              "blurb": "stateof.ai 3 min read",
+              "url": "https://www.stateof.ai/compute-explore/clusters-and-access"
+            }
+          ]
+        },
+        {
+          "name": "Clusters and compute access | State of AI Report Compute Index",
+          "stories": [
+            {
+              "headline": "Introducing the Anthropic Cyber Mission",
+              "blurb": "anthropic.com 10 min read",
+              "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+            }
+          ]
+        },
+        {
+          "name": "Introducing the Anthropic Cyber Mission",
+          "stories": [
+            {
+              "headline": "‘Breathtaking,’ ‘Devastating’: Mathematics Reels After New OpenAI Release",
+              "blurb": "nytimes.com 1 min read",
+              "url": "https://www.nytimes.com/2026/10/08/science/mathematicians-respond-openai-release.html"
+            }
+          ]
+        },
+        {
+          "name": "‘Breathtaking,’ ‘Devastating’: Mathematics Reels After New OpenAI Release",
+          "stories": [
+            {
+              "headline": "Ripple fixes 2015 XRP minting bug (*)",
+              "blurb": "verialabs.com 10 min read",
+              "url": "https://verialabs.com/blog/biggest-hack-in-crypto-history"
+            }
+          ]
+        },
+        {
+          "name": "Ripple fixes 2015 XRP minting bug (*)",
+          "stories": [
+            {
+              "headline": "Can AI automate Epoch?",
+              "blurb": "epoch.ai 15 min read",
+              "url": "https://epoch.ai/publications/can-ai-automate-epoch"
+            }
+          ]
+        },
+        {
+          "name": "Can AI automate Epoch?",
+          "stories": [
+            {
+              "headline": "Rewriting Prime Agent in Rust",
+              "blurb": "primeintellect.ai 9 min read",
+              "url": "https://www.primeintellect.ai/blog/prime-agent-rust"
+            }
+          ]
+        },
+        {
+          "name": "Rewriting Prime Agent in Rust",
+          "stories": [
+            {
+              "headline": "Super Micro case ‘fixer’ pleads guilty to sending AI servers to China",
+              "blurb": "thenextweb.com 1 min read",
+              "url": "https://thenextweb.com/news/super-micro-case-fixer-pleads-guilty-to-sending-ai-servers-to-china"
+            }
+          ]
+        },
+        {
+          "name": "Super Micro case ‘fixer’ pleads guilty to sending AI servers to China",
+          "stories": [
+            {
+              "headline": "Let's Encrypt moving to 64-day certificate lifetimes in 2027",
+              "blurb": "lwn.net 1 min read",
+              "url": "https://lwn.net/Articles/1099588"
+            }
+          ]
+        },
+        {
+          "name": "Let's Encrypt moving to 64-day certificate lifetimes in 2027",
+          "stories": [
+            {
+              "headline": "Microsoft will let Copilot act on local files on Windows PCs",
+              "blurb": "computerworld.com 4 min read",
+              "url": "https://www.computerworld.com/article/4232487/microsoft-will-let-copilot-act-on-local-files-on-windows-pcs.html"
+            }
+          ]
+        },
+        {
+          "name": "Microsoft will let Copilot act on local files on Windows PCs",
+          "stories": [
+            {
+              "headline": "Docs: OpenAI told investors its annualized revenue was nearing $50B at the end of September, well below the $70B reported by media based on investor docs",
+              "blurb": "ft.com 1 min read",
+              "url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a"
+            }
+          ]
+        },
+        {
+          "name": "Docs: OpenAI told investors its annualized revenue was nearing $50B at the end of September, well below the $70B reported by media based on investor docs",
+          "stories": [
+            {
+              "headline": "Our $445M Series D",
+              "blurb": "oxide.computer 3 min read",
+              "url": "https://oxide.computer/blog/our-445m-series-d"
+            }
+          ]
+        },
+        {
+          "name": "Our $445M Series D",
+          "stories": [
+            {
+              "headline": "Trump administration targets Microsoft in new immigration crackdown",
+              "blurb": "arstechnica.com 1 min read",
+              "url": "https://arstechnica.com/tech-policy/2026/10/trump-administration-targets-microsoft-in-new-immigration-crackdown"
+            }
+          ]
+        },
+        {
+          "name": "Trump administration targets Microsoft in new immigration crackdown",
+          "stories": [
+            {
+              "headline": "AI2 replaces priority GPU scheduler with time-budget system (*)",
+              "blurb": "allenai.org 14 min read",
+              "url": "https://allenai.org/blog/impactful-scheduling"
+            }
+          ]
+        },
+        {
+          "name": "AI2 replaces priority GPU scheduler with time-budget system (*)",
+          "stories": [
+            {
+              "headline": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+              "blurb": "arstechnica.com 1 min read",
+              "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google"
+            }
+          ]
+        },
+        {
+          "name": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+          "stories": [
+            {
+              "headline": "vLLM Support for NVIDIA Vera Rubin NVL72",
+              "blurb": "vllm.ai 9 min read",
+              "url": "https://vllm.ai/blog/2026-10-09-vera-rubin-preview"
+            }
+          ]
+        },
+        {
+          "name": "vLLM Support for NVIDIA Vera Rubin NVL72",
+          "stories": [
+            {
+              "headline": "Nvidia and Microsoft say the \"agentic PC\" era starts with the Surface Laptop Ultra",
+              "blurb": "techspot.com 6 min read",
+              "url": "https://www.techspot.com/news/114139-nvidia-microsoft-agentic-pc-era-starts-surface-laptop.html"
+            }
+          ]
+        },
+        {
+          "name": "Nvidia and Microsoft say the \"agentic PC\" era starts with the Surface Laptop Ultra",
+          "stories": [
+            {
+              "headline": "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work",
+              "blurb": "threadreaderapp.com 1 min read",
+              "url": "https://threadreaderapp.com/thread/2108262812489531498.html"
+            }
+          ]
+        },
+        {
+          "name": "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work",
+          "stories": [
+            {
+              "headline": "Rust 1.99 returns FFI bool values that aren't 0 or 1 on x86_64 Linux",
+              "blurb": "importstatic.com 8 min read",
+              "url": "https://importstatic.com/rust/rust-1-99-ffi-bool-miscompile"
+            }
+          ]
+        },
+        {
+          "name": "Rust 1.99 returns FFI bool values that aren't 0 or 1 on x86_64 Linux",
+          "stories": [
+            {
+              "headline": "Superpowers releases version 7.0 (*)",
+              "blurb": "blog.fsck.com 3 min read",
+              "url": "https://blog.fsck.com/2026/10/09/what-a-year"
+            }
+          ]
+        },
+        {
+          "name": "Superpowers releases version 7.0 (*)",
+          "stories": [
+            {
+              "headline": "facebook/Lifeguard: Static analyzer for Python Lazy Imports",
+              "blurb": "github.com 6 min read",
+              "url": "https://github.com/Facebook/lifeguard"
+            }
+          ]
+        },
+        {
+          "name": "facebook/Lifeguard: Static analyzer for Python Lazy Imports",
+          "stories": [
+            {
+              "headline": "SpaceX to buy key spectrum that could help Starlink Mobile become major US cell carrier",
+              "blurb": "theregister.com 2 min read",
+              "url": "https://www.theregister.com/networks/2026/10/09/spacex-to-buy-key-spectrum-that-could-help-starlink-mobile-become-major-us-cell-carrier/5302393"
+            }
+          ]
+        },
+        {
+          "name": "SpaceX to buy key spectrum that could help Starlink Mobile become major US cell carrier",
+          "stories": [
+            {
+              "headline": "Gemini at Work 2026: Introducing Gemini agent",
+              "blurb": "cloud.google.com 26 min read",
+              "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026?linkId=64057297"
+            }
+          ]
+        },
+        {
+          "name": "Gemini at Work 2026: Introducing Gemini agent",
+          "stories": [
+            {
+              "headline": "Self-Hosted Managed Agents (2026): Claude, OpenAI, AWS, and Open Source",
+              "blurb": "omnara.com 8 min read",
+              "url": "https://www.omnara.com/guides/self-hosted-managed-agents"
+            }
+          ]
+        },
+        {
+          "name": "Self-Hosted Managed Agents (2026): Claude, OpenAI, AWS, and Open Source",
+          "stories": [
+            {
+              "headline": "500+ Billion Tokens Later: Letting AI Agents Decompile A First-Person Shooter",
+              "blurb": "momo5502.com 9 min read",
+              "url": "https://momo5502.com/posts/2026-10-09-game-decompilation"
+            }
+          ]
+        },
+        {
+          "name": "500+ Billion Tokens Later: Letting AI Agents Decompile A First-Person Shooter",
+          "stories": [
+            {
+              "headline": "Ramp Hits $60 Billion Valuation in $1.85 Billion Funding Round",
+              "blurb": "bloomberg.com 1 min read",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-09/ramp-hits-60-billion-valuation-in-1-85-billion-funding-round"
+            }
+          ]
+        },
+        {
+          "name": "Ramp Hits $60 Billion Valuation in $1.85 Billion Funding Round",
+          "stories": [
+            {
+              "headline": "Multiagent orchestration - Claude Platform Docs",
+              "blurb": "platform.claude.com 20 min read",
+              "url": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration"
+            }
+          ]
+        },
+        {
+          "name": "Multiagent orchestration - Claude Platform Docs",
+          "stories": [
+            {
+              "headline": "Build live dashboards and animate explainers with Claude | Claude by Anthropic",
+              "blurb": "claude.com 3 min read",
+              "url": "https://claude.com/resources/articles/dashboards-and-motion"
+            }
+          ]
+        },
+        {
+          "name": "Build live dashboards and animate explainers with Claude | Claude by Anthropic",
+          "stories": [
+            {
+              "headline": "AI coding agents generate more code, but not more software",
+              "blurb": "arstechnica.com 2 min read",
+              "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software"
+            }
+          ]
+        },
+        {
+          "name": "AI coding agents generate more code, but not more software",
+          "stories": [
+            {
+              "headline": "Amazon's new Alexa Tablets drop the Fire branding but are more Android than ever",
+              "blurb": "arstechnica.com 1 min read",
+              "url": "https://arstechnica.com/gadgets/2026/10/amazons-new-alexa-tablets-drop-the-fire-branding-but-are-more-android-than-ever"
+            }
+          ]
+        },
+        {
+          "name": "Amazon's new Alexa Tablets drop the Fire branding but are more Android than ever",
+          "stories": [
+            {
+              "headline": "Narrow Multimodal Fine-Tuning Can Induce Emergent Misalignment",
+              "blurb": "lesswrong.com 8 min read",
+              "url": "https://www.lesswrong.com/posts/HJPJArDvcvRBkbaEa/narrow-multimodal-fine-tuning-can-induce-emergent"
+            }
+          ]
+        },
+        {
+          "name": "Narrow Multimodal Fine-Tuning Can Induce Emergent Misalignment",
+          "stories": [
+            {
+              "headline": "The State of AI 2026 bets your next customer is an agent with a wallet",
+              "blurb": "kachar.dev 7 min read",
+              "url": "https://kachar.dev/blog/state-of-ai-2026-for-people-who-ship"
+            }
+          ]
+        },
+        {
+          "name": "The State of AI 2026 bets your next customer is an agent with a wallet",
+          "stories": [
+            {
+              "headline": "Jev creator TypeSafe closes $870M round at $7.5B valuation",
+              "blurb": "siliconangle.com 3 min read",
+              "url": "https://siliconangle.com/2026/10/09/jev-creator-typesafe-closes-870m-round-at-7-5b-valuation"
+            }
+          ]
+        },
+        {
+          "name": "Jev creator TypeSafe closes $870M round at $7.5B valuation",
+          "stories": [
+            {
+              "headline": "[Paper] Distillation for Incrimination and Distillation for Capabilities",
+              "blurb": "blog.redwoodresearch.org 12 min read",
+              "url": "https://blog.redwoodresearch.org/p/paper-distillation-for-incrimination"
+            }
+          ]
+        },
+        {
+          "name": "[Paper] Distillation for Incrimination and Distillation for Capabilities",
+          "stories": [
+            {
+              "headline": "TSMC taps GlobalFoundries to bolster US silicon interposer production in $2B deal",
+              "blurb": "theregister.com 2 min read",
+              "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061"
+            }
+          ]
+        },
+        {
+          "name": "TSMC taps GlobalFoundries to bolster US silicon interposer production in $2B deal",
+          "stories": [
+            {
+              "headline": "PostgreSQL 18 async I/O halved our vacuum, once reads hit the disk",
+              "blurb": "importstatic.com 10 min read",
+              "url": "https://importstatic.com/databases/postgres-18-async-io-measured"
+            }
+          ]
+        },
+        {
+          "name": "PostgreSQL 18 async I/O halved our vacuum, once reads hit the disk",
+          "stories": [
+            {
+              "headline": "OpenAI’s Dots",
+              "blurb": "mjtsai.com 1 min read",
+              "url": "https://mjtsai.com/blog/2026/10/09/openais-dots"
+            }
+          ]
+        },
+        {
+          "name": "OpenAI’s Dots",
+          "stories": [
+            {
+              "headline": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing",
+              "blurb": "latent.space 6 min read",
+              "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than"
+            }
+          ]
+        },
+        {
+          "name": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing",
+          "stories": [
+            {
+              "headline": "Amazon builds 1,000th satellite, is weeks away from space Internet rollout",
+              "blurb": "arstechnica.com 1 min read",
+              "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout"
+            }
+          ]
+        },
+        {
+          "name": "Amazon builds 1,000th satellite, is weeks away from space Internet rollout",
+          "stories": [
+            {
+              "headline": "Why Are Coding Agents So Dumb?",
+              "blurb": "mtlynch.io 10 min read",
+              "url": "https://mtlynch.io/why-are-coding-agents-so-dumb"
+            }
+          ]
+        },
+        {
+          "name": "Why Are Coding Agents So Dumb?",
+          "stories": [
+            {
+              "headline": "The DNS Root Changes Its Key on Sunday. A Resolver That Still Trusts Only the Old One Stops Resolving Everything.",
+              "blurb": "webhosting.today 9 min read",
+              "url": "https://webhosting.today/2026/10/09/the-dns-root-changes-its-key-on-sunday-a-resolver-that-still-trusts-only-the-old-one-stops-resolving-everything"
+            }
+          ]
+        },
+        {
+          "name": "The DNS Root Changes Its Key on Sunday. A Resolver That Still Trusts Only the Old One Stops Resolving Everything.",
+          "stories": [
+            {
+              "headline": "unikernels were hard. key word: were.",
+              "blurb": "ghuntley.com 13 min read",
+              "url": "https://ghuntley.com/unikernels"
+            }
+          ]
+        },
+        {
+          "name": "unikernels were hard. key word: were.",
+          "stories": [
+            {
+              "headline": "The Business Context for Mistral Large 4 (ML4) | Blog | Cloudera.",
+              "blurb": "cloudera.com 6 min read",
+              "url": "https://www.cloudera.com/blog/business/the-business-context-for-mistral-large-4-ml4.html"
+            }
+          ]
+        },
+        {
+          "name": "The Business Context for Mistral Large 4 (ML4) | Blog | Cloudera.",
+          "stories": [
+            {
+              "headline": "Fired OpenAI Researchers Ask Company to Preserve Visibility Into AI Reasoning",
+              "blurb": "wsj.com 3 min read",
+              "url": "https://www.wsj.com/tech/ai/fired-openai-researchers-ask-company-to-preserve-visibility-into-ai-reasoning-987c8c94?st=XM4bHK"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
