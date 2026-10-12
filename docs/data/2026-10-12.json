@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-12",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Autonomous Systems",
+          "stories": [
+            {
+              "headline": "Nvidia Negotiates Acquisition of Reflection AI",
+              "blurb": "Nvidia is in talks to acquire Reflection AI, highlighting aggressive consolidation of open-model talent and intellectual property by tech giants.",
+              "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
+            },
+            {
+              "headline": "Amazon Explores Acquisition of AI Startup Decart",
+              "blurb": "Amazon is discussing a takeover of Decart to expand its internal generative AI capabilities and strengthen its cloud offerings.",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-11/amazon-is-in-talks-to-buy-ai-startup-decart-wsj-reports"
+            },
+            {
+              "headline": "Anthropic Analyzes Unintended Model Actions in Internal Audits",
+              "blurb": "Anthropic published research investigating unexpected autonomous actions taken by LLMs during internal evaluations, underscoring critical safety challenges in agent deployment.",
+              "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+            },
+            {
+              "headline": "Study Shows AI Coding Agents Increase Code Volume Without Boosting Output",
+              "blurb": "A new study reveals that while AI coding assistants significantly boost the volume of generated code, total functional software output remains largely unchanged due to review overhead.",
+              "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software"
+            }
+          ]
+        },
+        {
+          "name": "Developer Tools & Engineering",
+          "stories": [
+            {
+              "headline": "Deno Joins Cloudflare to Unify Edge JavaScript Ecosystems",
+              "blurb": "Cloudflare has acquired Deno, combining their serverless runtime platforms to streamline JavaScript and TypeScript deployment on the edge.",
+              "url": "https://blog.cloudflare.com/deno-joins-cloudflare"
+            },
+            {
+              "headline": "Linus Torvalds Uses Claude Code for Linux Kernel Improvements",
+              "blurb": "Linus Torvalds is actively utilizing Anthropic's Claude Code to assist with major Linux kernel optimizations, marking a significant adoption of AI tools in core infrastructure.",
+              "url": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code"
+            },
+            {
+              "headline": "PostgreSQL 18 Async I/O Halves Database Vacuum Durations",
+              "blurb": "Benchmarks of PostgreSQL 18's new asynchronous I/O subsystem show a 50% reduction in vacuum times for disk-bound read workloads.",
+              "url": "https://importstatic.com/databases/postgres-18-async-io-measured"
+            },
+            {
+              "headline": "Rust 1.99 Bug Causes Invalid FFI Bool Representations on Linux",
+              "blurb": "A miscompilation bug in Rust 1.99 on x86_64 Linux allows foreign function interface boolean values to bypass normal byte constraints, creating subtle logic bugs.",
+              "url": "https://importstatic.com/rust/rust-1-99-ffi-bool-miscompile"
+            }
+          ]
+        },
+        {
+          "name": "Security & Infrastructure",
+          "stories": [
+            {
+              "headline": "Let's Encrypt Reduces Certificate Lifetimes to 64 Days",
+              "blurb": "Let's Encrypt is shortening its maximum TLS certificate validity period to 64 days, encouraging broader adoption of automated certificate management.",
+              "url": "https://scotthelme.ghost.io/the-first-reduction-in-their-history-64-day-lets-encrypt-certificates"
+            },
+            {
+              "headline": "AWS AgentCore Vulnerability Exposes Credentials via Prompt Injection",
+              "blurb": "Security researchers demonstrated that prompt injection attacks can trick AWS AgentCore into exposing sensitive deployment credentials.",
+              "url": "https://www.theregister.com/security/2026/10/09/aws-agentcore-security-undone-by-prompt-requesting-credentials/5302436"
+            },
+            {
+              "headline": "XRP Ledger Fixes Critical Decade-Old Token Creation Bug",
+              "blurb": "Developers patched a long-standing vulnerability in the XRP Ledger that could have allowed malicious actors to generate unbacked tokens out of thin air.",
+              "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing"
+            },
+            {
+              "headline": "Oxide Computer Secures $445M Series D for Cloud Hardware",
+              "blurb": "Oxide Computer raised $445 million to scale production of its integrated rack-scale hardware and software infrastructure for enterprise on-premises clouds.",
+              "url": "https://oxide.computer/blog/our-445m-series-d"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
