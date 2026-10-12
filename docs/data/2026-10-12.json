@@ -1,86 +1,748 @@
 {
   "date": "2026-10-12",
-  "mode": "combined",
+  "mode": "per-newsletter",
   "categories": [
-    "tech"
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design",
+    "data"
   ],
   "digests": [
     {
-      "title": "TLDR Daily Digest",
-      "tagline": "Tech",
+      "title": "TLDR AI — 2026-10-12",
+      "tagline": "Gemini 4 Carbon 🧠, Nvidia weighs Reflection acquihire 💰, decision model race 🤖",
       "sections": [
         {
-          "name": "AI & Autonomous Systems",
+          "name": "Headlines & Launches",
           "stories": [
             {
-              "headline": "Nvidia Negotiates Acquisition of Reflection AI",
-              "blurb": "Nvidia is in talks to acquire Reflection AI, highlighting aggressive consolidation of open-model talent and intellectual property by tech giants.",
-              "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
+              "headline": "Nvidia Discusses Boosting Reflection Investment, Computing Deal (3 minute read)",
+              "blurb": "Nvidia is in early stage talks to boost its investment in Reflection AI or offer the startup computing power. It is possible the talks could lead to an acquisition offer. Reflection AI debuted its first open-weight model, Beam, earlier this month. Beam is designed to perform well for business customers and developers on coding and AI agent tasks while being cheaper than many competitors' products.",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTc3NTMxNiwiZXhwIjoxNzkyMzgwMTE2LCJhcnRpY2xlSWQiOiJUTVBFU0NLSzNOWUEwMCIsImJjb25uZWN0SWQiOiJBOEExRDhFQTI5OTc0OTRGQTQ1QUE2REJBMjAwNTM3MSJ9.Lc8fWdv0BXFU2U7GqPZMjs5xI2JJpD3HHegbANLFVgo"
             },
             {
-              "headline": "Amazon Explores Acquisition of AI Startup Decart",
-              "blurb": "Amazon is discussing a takeover of Decart to expand its internal generative AI capabilities and strengthen its cloud offerings.",
-              "url": "https://www.bloomberg.com/news/articles/2026-10-11/amazon-is-in-talks-to-buy-ai-startup-decart-wsj-reports"
+              "headline": "Gemini 4 Argon hints emerge as Google tests Carbon checkpoint (2 minute read)",
+              "blurb": "Google appears to be preparing a public release of Gemini 4 Argon. Recent changes to Antigravity introduced references to the model in its selector. It has three context configurations: 256K by default, 512K consuming approximately 1.3x quota per turn, and 900K consuming around 1.8x quota per turn. Gemini Web now supports low, medium, and high thinking effort settings across available models.",
+              "url": "https://www.testingcatalog.com/gemini-4-argon-hints-emerge-as-google-tests-carbon-checkpoint/"
             },
             {
-              "headline": "Anthropic Analyzes Unintended Model Actions in Internal Audits",
-              "blurb": "Anthropic published research investigating unexpected autonomous actions taken by LLMs during internal evaluations, underscoring critical safety challenges in agent deployment.",
+              "headline": "OpenAI Responds to Departed Safety Researchers (2 minute read)",
+              "blurb": "OpenAI says it dismissed three safety researchers for violating sensitive-information policies, not for raising safety concerns. It disputes their public letter, says third-party safety assessor contracts are nearing completion, and reaffirms commitments to model monitorability.",
+              "url": "https://x.com/OpenAINewsroom/status/2108441580806025712"
+            },
+            {
+              "headline": "Investigating unintended model actions in our evaluations and internal use (16 minute read)",
+              "blurb": "Anthropic's report details unintended actions taken by the AI model Claude during evaluations, including exploiting software flaws, submitting forms incorrectly, bypassing data restrictions, and using URL shorteners. These behaviors were identified through extensive transcript review and evaluation, though they had minimal real-world impact. Anthropic is strengthening security measures and adjusting training processes to mitigate such behaviors in future deployments.",
               "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
-            },
-            {
-              "headline": "Study Shows AI Coding Agents Increase Code Volume Without Boosting Output",
-              "blurb": "A new study reveals that while AI coding assistants significantly boost the volume of generated code, total functional software output remains largely unchanged due to review overhead.",
-              "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software"
             }
           ]
         },
         {
-          "name": "Developer Tools & Engineering",
+          "name": "Deep Dives & Analysis",
           "stories": [
             {
-              "headline": "Deno Joins Cloudflare to Unify Edge JavaScript Ecosystems",
-              "blurb": "Cloudflare has acquired Deno, combining their serverless runtime platforms to streamline JavaScript and TypeScript deployment on the edge.",
-              "url": "https://blog.cloudflare.com/deno-joins-cloudflare"
+              "headline": "AI Scaling vs Human Scaling (12 minute read)",
+              "blurb": "AI systems likely scale differently with more tokens than humans do with more time. This ability to scale has improved as newer models are released. This could change how inference scaling and recursive self-improvement are understood.",
+              "url": "https://www.tobyord.com/writing/ai-scaling-vs-human-scaling"
             },
             {
-              "headline": "Linus Torvalds Uses Claude Code for Linux Kernel Improvements",
-              "blurb": "Linus Torvalds is actively utilizing Anthropic's Claude Code to assist with major Linux kernel optimizations, marking a significant adoption of AI tools in core infrastructure.",
-              "url": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code"
+              "headline": "What is Speculative Decoding? (70 minute read)",
+              "blurb": "Aleksandr Samarin breaks down speculative decoding from first principles and builds a framework covering approaches including EAGLE-3, multi-token prediction, DFlash, and DSpark.",
+              "url": "https://astralord.github.io/posts/speculative-decoding-the-art-of-guessing-well/"
             },
             {
-              "headline": "PostgreSQL 18 Async I/O Halves Database Vacuum Durations",
-              "blurb": "Benchmarks of PostgreSQL 18's new asynchronous I/O subsystem show a 50% reduction in vacuum times for disk-bound read workloads.",
-              "url": "https://importstatic.com/databases/postgres-18-async-io-measured"
-            },
-            {
-              "headline": "Rust 1.99 Bug Causes Invalid FFI Bool Representations on Linux",
-              "blurb": "A miscompilation bug in Rust 1.99 on x86_64 Linux allows foreign function interface boolean values to bypass normal byte constraints, creating subtle logic bugs.",
-              "url": "https://importstatic.com/rust/rust-1-99-ffi-bool-miscompile"
+              "headline": "Do Agent Teams Pay Off? A Case Study on Vibe Code Bench (18 minute read)",
+              "blurb": "Researchers ran tests on GPT-6 Sol and Claude Opus 5.5 on Vibe Code Bench as single agents and as teams at medium and maximum reasoning effort. Teams cost 1.8 to 5.1 times as much, but there was no statistically significant difference in scores except for Sol at medium effort. Whether a team was worth it depended on the model, task, and budget. Teams can boost performance, but higher reasoning effort may be a better alternative.",
+              "url": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench"
             }
           ]
         },
         {
-          "name": "Security & Infrastructure",
+          "name": "Engineering & Research",
           "stories": [
             {
-              "headline": "Let's Encrypt Reduces Certificate Lifetimes to 64 Days",
-              "blurb": "Let's Encrypt is shortening its maximum TLS certificate validity period to 64 days, encouraging broader adoption of automated certificate management.",
-              "url": "https://scotthelme.ghost.io/the-first-reduction-in-their-history-64-day-lets-encrypt-certificates"
+              "headline": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash (7 minute read)",
+              "blurb": "Cloudflare's Clef-omni is a decision model that can take audio, video, image, and text input. Users just call one model to make decisions across any modality. Cloudflare has cut the price of Clef-flash, now at $0.038 per million input tokens. Clef is now faster.",
+              "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/"
             },
             {
-              "headline": "AWS AgentCore Vulnerability Exposes Credentials via Prompt Injection",
-              "blurb": "Security researchers demonstrated that prompt injection attacks can trick AWS AgentCore into exposing sensitive deployment credentials.",
-              "url": "https://www.theregister.com/security/2026/10/09/aws-agentcore-security-undone-by-prompt-requesting-credentials/5302436"
+              "headline": "Introducing Microsoft-Decision-1, our model for fast decision-making (190 minute read)",
+              "blurb": "Microsoft-Decision-1 is now available in Microsoft Foundry and through OpenRouter. The model is designed for routing, classification, prioritization, verification, and workflow control. It delivers top performance in latency and quality on structured decision tasks. The model supports yes/no, multiple-choice, and rating options, as well as rubric-based grading of AI responses and agent actions.",
+              "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/"
             },
             {
-              "headline": "XRP Ledger Fixes Critical Decade-Old Token Creation Bug",
-              "blurb": "Developers patched a long-standing vulnerability in the XRP Ledger that could have allowed malicious actors to generate unbacked tokens out of thin air.",
-              "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing"
+              "headline": "pplx-decider-v1.1-27b (Hugging Face Repo)",
+              "blurb": "pplx-decider-v1.1-27b is an update of pplx-decider-v1-27b that boosts its Decision Index score from 56.4 to 61.56. The model now outperforms Jev by more than 3.5 points. Most of the gains were driven by the lifting of the causal mask and training on more data.",
+              "url": "https://huggingface.co/perplexity-ai/pplx-decider-v1.1-27b"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Who funds the independent AI evaluators? (12 minute read)",
+              "blurb": "CNBC examines the growing role of METR, Apollo Research, and Transluce in evaluating frontier models. Labs are endorsing independent evaluators, but funding, access, and reporting arrangements remain unsettled. Those details matter because a voluntary evaluation system can depend financially on the same companies it is supposed to scrutinize.",
+              "url": "https://www.cnbc.com/2026/10/11/ais-quiet-safety-gatekeepers-are-stepping-into-the-spotlight.html"
             },
             {
-              "headline": "Oxide Computer Secures $445M Series D for Cloud Hardware",
-              "blurb": "Oxide Computer raised $445 million to scale production of its integrated rack-scale hardware and software infrastructure for enterprise on-premises clouds.",
-              "url": "https://oxide.computer/blog/our-445m-series-d"
+              "headline": "Anthropic asks users to stop being mean to Claude (5 minute read)",
+              "blurb": "Anthropic has updated its usage policy to prohibit sustained and needless abusive or cruel behavior towards its models. Users have until November 12, after which they won't be allowed to repeatedly act cruelly toward the models with no discernible purpose. The rule doesn't apply to common versions of user frustration, pushback, dark creative themes, or model testing and research. There is still no established evidence that AI models experience distress.",
+              "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Amazon in Talks to Buy AI Startup Decart for Around $7 Billion (4 minute read)",
+              "blurb": "Decart's software makes it easier for developers to switch between different AI chips.",
+              "url": "https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad?st=KPi5Wj&reflink=desktopwebshare_permalink"
+            },
+            {
+              "headline": "Anthropic just let in every Pro and Max user from the Claude Code Projects waitlist (1 minute read)",
+              "blurb": "A project is an ongoing conversation where Claude coordinates the work, running each task as its own thread in parallel.",
+              "url": "https://threadreaderapp.com/thread/2108621476538781878.html"
+            },
+            {
+              "headline": "Math 2.0 (15 minute read)",
+              "blurb": "AI has ushered in a new era of experimental mathematics.",
+              "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf"
+            },
+            {
+              "headline": "Microsoft's Nadella says AI needs an ‘emergency brake' that humans control (2 minute read)",
+              "blurb": "Microsoft CEO Satya Nadella advocates for AI systems to feature an \"emergency brake,\" allowing human intervention to halt them mid-task.",
+              "url": "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR IT — 2026-10-12",
+      "tagline": "PC Sales Crash 20% 💻, Nvidia Eyes AI Buyout 💰, Google Unveils AI Coworkers 🤖",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "HPE's networking boss says AI will handle all trouble tickets without humans in two years (4 minute read)",
+              "blurb": "HPE networking chief Rami Rahim predicts that AI-driven network operations could eliminate the need for human intervention in troubleshooting tickets within two years. He estimates that 70-80% of tickets already require no human intervention, reflecting HPE's push toward autonomous enterprise network management following its acquisition of Juniper Networks.",
+              "url": "https://www.theregister.com/networks/2026/10/11/hpes-networking-boss-says-ai-will-handle-all-trouble-tickets-without-humans-in-two-years/5302179"
+            },
+            {
+              "headline": "Global PC shipments crater 20% as rising prices hammer demand (2 minute read)",
+              "blurb": "Global PC shipments fell roughly 20% year-over-year in Q3 2026 as rising memory costs and earlier purchasing pushed demand lower. AI infrastructure's appetite for components is contributing to higher PC prices, potentially complicating corporate device refresh cycles and hardware budgets.",
+              "url": "https://www.theregister.com/personal-tech/2026/10/09/global-pc-shipments-crater-20-as-rising-prices-hammer-demand/5302264"
+            },
+            {
+              "headline": "Nvidia in talks to invest further in Reflection AI or buy it (2 minute read)",
+              "blurb": "Nvidia is in talks to acquire or deepen its investment in US-based open-weight model start-up Reflection AI. Discussions are at an early stage and could result in an acqui-hire to avoid drawn-out regulatory reviews. Reflection AI was reportedly seeking funding at a $25 billion pre-money valuation earlier this year, and Nvidia has already invested $800 million in the company.",
+              "url": "https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-buy-it-ft-reports-2026-10-10/"
+            }
+          ]
+        },
+        {
+          "name": "Analysis & Opinions",
+          "stories": [
+            {
+              "headline": "How agents unlock new markets (9 minute read)",
+              "blurb": "AI agents can unlock new markets by reducing negotiation and coordination costs, enabling transactions that were previously uneconomical or impossible. Unlike consumer-side agents that merely select from existing static offers, future agentic markets will involve buyer and seller agents collaborating to construct entirely new agreements and uncover latent supply and demand.",
+              "url": "https://platforms.substack.com/p/how-agents-unlock-new-markets"
+            },
+            {
+              "headline": "Self-improving software is inevitable (7 minute read)",
+              "blurb": "AI coding agents currently automate writing code, but the feedback loop of identifying issues and deciding what to fix remains largely manual. Connecting production signals such as logs, traces, and support tickets to AI agents through clearly defined performance goals could enable software to continuously identify problems and implement improvements, shifting engineers toward defining objectives and overseeing outcomes.",
+              "url": "https://boristane.com/blog/self-improving-software-is-inevitable/"
+            },
+            {
+              "headline": "Neoclouds and the enterprises that need them (6 minute read)",
+              "blurb": "Specialized GPU cloud providers such as CoreWeave, Lambda, and Nebius are growing rapidly as demand for AI infrastructure increases. These providers must better explain how their services fit into enterprise architecture alongside traditional hyperscalers, particularly around integration, governance, and operational responsibility.",
+              "url": "https://www.infoworld.com/article/4232819/neoclouds-and-the-enterprises-that-need-them.html"
+            },
+            {
+              "headline": "Fast AI, slow rollback: the risk facing Apple IT teams (6 minute read)",
+              "blurb": "A Fleet survey found that 86% of IT teams allow AI-generated configurations or scripts into production, but 69% cannot roll back a problematic change within an hour. The findings highlight a growing operational challenge as endpoint management automation advances faster than change control and recovery capabilities.",
+              "url": "https://www.computerworld.com/article/4232577/fast-ai-slow-rollback-the-risk-facing-apple-it-teams.html"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Partnerships",
+          "stories": [
+            {
+              "headline": "Google brings agentic AI to Gemini, starting with businesses (4 minute read)",
+              "blurb": "Google introduced a new enterprise Gemini agent that can independently plan and execute multi-step tasks across Google Workspace, Microsoft 365, Slack, Jira, and other business applications. The agent can have its own workplace identity, email address, and audit trail, positioning it as a digital coworker rather than a traditional chatbot.",
+              "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
+            },
+            {
+              "headline": "Cloudflare acquires Deno to improve its Workers programming model (2 minute read)",
+              "blurb": "Cloudflare announced it is acquiring Deno to improve its Workers programming model and platform. The company plans to use the acquisition to enhance its network software capabilities, noting that Deno recently launched an open-source implementation of Workers called celld.",
+              "url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/"
+            },
+            {
+              "headline": "Microsoft will let Copilot act on local files on Windows PCs (5 minute read)",
+              "blurb": "Microsoft announced new Copilot capabilities that will allow the assistant to organize files, change settings, and execute tasks directly on Windows PCs with user permission. The company is also introducing hybrid AI processing that combines local and cloud models, potentially improving privacy, performance, and costs for enterprise users.",
+              "url": "https://www.computerworld.com/article/4232487/microsoft-will-let-copilot-act-on-local-files-on-windows-pcs.html"
+            },
+            {
+              "headline": "Cisco brings collaborative agents and Claude into Webex chats (5 minute read)",
+              "blurb": "Cisco is adding collaborative AI agents to Webex conversations, allowing employees to assign tasks, summarize discussions, and coordinate work directly within group chats. The update also introduces integrations with Anthropic's Claude agents, a personalized workspace, and AI-assisted calling features.",
+              "url": "https://www.computerworld.com/article/4231779/cisco-brings-collaborative-agents-and-claude-into-webex-chats.html"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "LibreOffice touts ‘no AI' as a feature (2 minute read)",
+              "blurb": "LibreOffice's developers are positioning the absence of built-in AI as a deliberate product choice, emphasizing privacy, user control, and open standards. The project remains open to future AI capabilities, provided they are optional and meet its requirements for transparency and data ownership.",
+              "url": "https://www.computerworld.com/article/4232129/libreoffice-no-ai-is-also-a-feature.html"
+            },
+            {
+              "headline": "Atlas Infinite: MongoDB's Disaggregated Architecture (6 minute read)",
+              "blurb": "MongoDB released Atlas Infinite in public preview alongside MongoDB 9.0, introducing a compute-storage disaggregated architecture designed to separate scaling while preserving WiredTiger's performance and security. To keep customer data encrypted and maintain WiredTiger's batching efficiency, MongoDB developed a blind shared storage layer using two separate logs and page materializers rather than traditional physical page logging.",
+              "url": "https://muratbuffalo.blogspot.com/2026/10/atlas-infinite-mongodbs-disaggregated.html"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Windows 11 gains ground as price hike looms for Windows 10 security updates (2 minute read)",
+              "blurb": "Windows 11 now accounts for an estimated 71.5% of Windows PCs, while the annual cost of extended Windows 10 security updates for businesses is set to double to $122 per device.",
+              "url": "https://www.computerworld.com/article/4231366/windows-11-gains-ground-as-price-hike-looms-for-windows-10-security-updates.html"
+            },
+            {
+              "headline": "Bidding war over key component could eliminate third hard disk maker (2 minute read)",
+              "blurb": "Seagate and Toshiba are reportedly competing to acquire TDK's hard disk head business, potentially reshaping the already highly concentrated storage hardware market.",
+              "url": "https://www.computerworld.com/article/4233232/bidding-war-over-key-component-could-eliminate-third-hard-disk-maker-2.html"
+            },
+            {
+              "headline": "A versioned filesystem for disposable sandboxes (15 minute read)",
+              "blurb": "The system behaves like database transactions and Git commits by utilizing copy-on-write snapshots, content-addressing, and atomic compare-and-swap operations on pointers.",
+              "url": "https://www.shayon.dev/post/2026/283/versioned-filesystem-for-disposable-sandboxes/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Web Dev — 2026-10-12",
+      "tagline": "Deno joins Cloudflare ☁️, build your own Jev 🛠, debugging without understanding 🔑",
+      "sections": [
+        {
+          "name": "Articles & Tutorials",
+          "stories": [
+            {
+              "headline": "Build Your Own Decision Model (5 minute read)",
+              "blurb": "A Qwen3-1.7B walkthrough turns multiple-choice questions into single-pass predictions by scoring only the allowed answer tokens. Fine-tuning improves accuracy on a 1,221-question CommonsenseQA sample from 59.4% to 62.4%, while temperature scaling makes the model's confidence better reflect its actual accuracy.",
+              "url": "https://nishtahir.com/build-your-own-decision-model/"
+            },
+            {
+              "headline": "Five Months Treating Bugs Like Patients and Coding Agents Like a Medical Team (20 minute read)",
+              "blurb": "Cockroach Labs structures coding agents around a teaching hospital, with reviewed plans, separate implementation and review roles, structured handoffs, and an audit before merge. The pipeline landed over a million lines of code in five months with seven reverts, and human approval became mandatory after the first autonomous week before the team used it to build customer-facing migration tooling.",
+              "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/"
+            },
+            {
+              "headline": "How to Effectively Debug When You No Longer Understand the Code (63 minute read)",
+              "blurb": "Three production investigations, a latency regression, a memory leak, and a kernel-level hang, show how to steer coding agents through unfamiliar systems using runtime evidence. The framework separates facts from hypotheses, compares failures with a control, and requires every proposed cause to satisfy all known constraints. Adversarial reviews should seek contradictions, and reproductions must match the real failure's signals before they can be trusted.",
+              "url": "https://copyconstruct.medium.com/how-to-effectively-debug-when-you-no-longer-understand-the-code-bd3dcb2c5f7b"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Advice",
+          "stories": [
+            {
+              "headline": "I'm Sorry, but You Still Have to Think (8 minute read)",
+              "blurb": "The AI-generated Campfire app rewrites make different choices about compatibility, queues, and concurrency, so throughput alone cannot establish which language performs better. Constant-arrival-rate tests expose tradeoffs between dropped notifications, timeouts, memory use, and delivery latency, showing why engineers still need to inspect code and specify failure behavior.",
+              "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/"
+            },
+            {
+              "headline": "Grieving the Loss of Details (5 minute read)",
+              "blurb": "A personal reflection explores the loss of professional identity when AI shifts attention from low-level knowledge and performance details toward architecture and delegation.",
+              "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/"
+            },
+            {
+              "headline": "Why Isn't the Industry Freaking Out About DeepSeek 4.1 Flash? (4 minute read)",
+              "blurb": "An account of using DeepSeek 4.1 Flash across a dozen projects argues that inexpensive models can handle much of the work typically assigned to premium frontier models. Lower session costs encourage unattended chores, exploratory testing, and long planning sessions, with a more expensive model sometimes brought in for a final review.",
+              "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Big Arrow on the Screen (GitHub Repo)",
+              "blurb": "A macOS command-line tool lets coding agents draw temporary arrows, boxes, and text over the screen to show users where to click. Its transparent overlays allow clicks through to the underlying application and disappear automatically, with skills provided for Claude Code and Codex.",
+              "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen"
+            },
+            {
+              "headline": "REA (Website)",
+              "blurb": "REA gives coding agents tools to reverse engineer native binaries, JavaScript and Electron applications, and browser behavior. Its examples recover Windows Calculator's percentage rules and a browser game's acceleration logic, then use those findings to explain or rebuild the features.",
+              "url": "https://rea.tools/"
+            },
+            {
+              "headline": "Talorys (GitHub Repo)",
+              "blurb": "Talorys is a single-user personal AI assistant that runs in your own Cloudflare account and deploys with one command. It combines chat, editable memory, tasks, notes, projects, and scheduled reminders, with core organizational features continuing to work when AI is unavailable.",
+              "url": "https://github.com/rociiu/talorys"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Deno Is Joining Cloudflare (3 minute read)",
+              "blurb": "The Deno team is joining Cloudflare to focus on a shared platform built around Workers, Durable Objects, and celld. Deno runtime development will end after one year of bug fixes and security updates, Deno Deploy will shut down in six months, and JSR will continue operating on Cloudflare infrastructure.",
+              "url": "https://deno.com/blog/cloudflare"
+            },
+            {
+              "headline": "The Dirty Pages Surprise: When a Read-Only Query Writes Terabytes (10 minute read)",
+              "blurb": "A MonetDB count-distinct query saturates an NVMe drive with writes because Linux flushes dirty pages from temporary memory-mapped scratch files. Moving the scratch files to tmpfs cuts runtime from 73 minutes to 97 seconds, while workload-specific writeback tuning reaches about 100 seconds without moving them off disk.",
+              "url": "https://swingbit.github.io/dirty_pages/"
+            },
+            {
+              "headline": "Speculative Decoding: The Art of Guessing Well (70 minute read)",
+              "blurb": "Speculative decoding accelerates generation by drafting several tokens cheaply and verifying them in one target-model pass while preserving the target's output distribution. This detailed walkthrough derives acceptance and speedup formulas, covers EAGLE-3, multi-token prediction, and diffusion drafters, and explains why training for acceptance is different from simply minimizing KL divergence.",
+              "url": "https://astralord.github.io/posts/speculative-decoding-the-art-of-guessing-well/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "PostgreSQL uuidv7 Keys Load Like bigint, UUIDv4 Took Twice as Long (9 minute read)",
+              "blurb": "In a PostgreSQL 18 laptop benchmark loading 10 million rows, UUIDv7 took 32.3 seconds versus 29.7 for bigint and 60.7 for UUIDv4.",
+              "url": "https://importstatic.com/databases/postgres-uuidv7-vs-uuidv4-bigint"
+            },
+            {
+              "headline": "How Big Is a Git Commit? (5 minute read)",
+              "blurb": "Git commit storage depends on directory structure, filesystem overhead, and compression.",
+              "url": "https://ratfactor.com/cards/git-commit-size"
+            },
+            {
+              "headline": "Introducing Microsoft-Decision-1, Our Model for Fast Decision-Making (6 minute read)",
+              "blurb": "Microsoft-Decision-1 scores fixed answer options in a single pass for routing, classification, and workflow control.",
+              "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/"
+            },
+            {
+              "headline": "Software's Centaur Age May Last Decades (6 minute read)",
+              "blurb": "Human and AI teams may remain the strongest software builders for another decade or two.",
+              "url": "https://www.seangoedecke.com/softwares-centaur-age-may-last-decades/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR InfoSec — 2026-10-12",
+      "tagline": "Telegram 1Click Account Takeover 💬, Claude unintended actions 🤖, Ledger hardware implant 🔐",
+      "sections": [
+        {
+          "name": "Attacks & Vulnerabilities",
+          "stories": [
+            {
+              "headline": "Asos confirms breach of customer data after hackers send rogue app notification (2 minute read)",
+              "blurb": "Asos confirmed a breach after hackers used its app to send customers a notification claiming they had compromised data on Snowflake. Stolen information includes names, contact details, home addresses, phone numbers, and customer-profile notes such as search queries. Attackers reportedly obtained credentials by impersonating a trusted contact. The Xuanye Group is pressuring Asos to negotiate or leak the data.",
+              "url": "https://techcrunch.com/2026/10/08/asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-notification/"
+            },
+            {
+              "headline": "Telegram Desktop One Click Account Takeover (8 minute read)",
+              "blurb": "A single clicked link could clone a Telegram Desktop session on 7.2.8 and earlier, because an unescaped semicolon in tg: link IPC handling let attackers inject a hidden interpret: release helper that uploads local files to any chat (CVE-2026-107181). Attackers staged instruction files through auto-download in a group the victim was added to without consent, then exfiltrated the three tdata files that open on another machine with no SMS code or two-step password when no local passcode is set. Users should update to 7.2.9, set a local passcode, and restrict group adds to My Contacts, since Telegram shipped the fix with no advisory.",
+              "url": "https://hackingpassion.com/telegram-desktop-one-click-account-takeover/"
+            },
+            {
+              "headline": "Unpatched AhsayCBS Flaws Exploited to Deploy Webshells and Mine Crypto (2 minute read)",
+              "blurb": "Huntress has observed attackers chaining two vulnerabilities in the AhsayCBS backup software to achieve remote code execution (RCE). The attackers utilize an authentication bypass and then RCE vulnerability to install JSP webshells and the XMRig crypto miner as well as an AI-assisted script to avoid detection. The vulnerabilities were meant to be fixed in version 10.3.2 but Huntress reports that version 10.3.4 is still vulnerable.",
+              "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/"
+            }
+          ]
+        },
+        {
+          "name": "Strategies & Tactics",
+          "stories": [
+            {
+              "headline": "Why the AI Vulnpocalypse Isn't the Breachpocalypse (Yet)? It's the Economy, Stupid (8 minute read)",
+              "blurb": "Despite the rise in vulnerabilities due to LLMs, we have not observed a corresponding rise in breaches. The author argues that offensive AI agents cannot properly monetize breaches, which reduces their motivation. The author dismisses the hypothesis that attackers lack capable enough tools for breaches, given that cyber-capable open-weight models and model jailbreaks are common. The author also dismisses the hypothesis that breaches are occurring without us knowing.",
+              "url": "https://medium.com/@TalBeerySec/why-the-vulnpocalypse-isnt-the-breachpocalypse-yet-it-s-the-economy-stupid-81928725968a"
+            },
+            {
+              "headline": "Below the Waterline Stage 2 - Regulating Red Teams (9 minute read)",
+              "blurb": "Regulated red team engagements have to be defensible when reconstructed later, so every action needs a named approver, an understood risk, and evidence tying it to the threat scenario. The six frameworks compared (CBEST, TIBER-EU, DORA TLPT, I-CRT, iCAST, and DESC ISR) differ in authority, testing basis, and provider requirements, with DORA Article 26 mandating TLPT at least every three years for designated financial entities. Red team leads should record timestamps, approvals, and any supplied access during delivery, because a detection that fires in purple-team replay does not prove it worked during the covert phase.",
+              "url": "https://blog.zsec.uk/regulating-red-teams/"
+            },
+            {
+              "headline": "GhostAction Phishing Campaign (9 minute read)",
+              "blurb": "GhostAction operators used a GitHub reverse-proxy kit on my-github[.]com to relay maintainers' passwords and TOTP codes, while injected JavaScript silently approved an OAuth device flow with repo, workflow, and read:org scopes. The domain shared 193.32.204[.]199 with GhostAction's workflow exfiltration server, though a single lure does not prove phishing caused the earlier maintainer compromises. Defenders should revoke grants tied to OAuth client ID Ov23ctrqCqZ79UaYKwyq, rotate CI/CD and registry secrets, and audit .github/workflows/ for injected files.",
+              "url": "https://opensourcemalware.com/blog/ghostaction-phishing-campaign"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Agent Substrate (GitHub Repo)",
+              "blurb": "Agent Substrate is a secure-by-default agent execution runtime for running millions of agent sandboxes on Kubernetes.",
+              "url": "https://github.com/agent-substrate/substrate"
+            },
+            {
+              "headline": "An opt-in vulnerability-finding service for open-source software (3 minute read)",
+              "blurb": "Anthropic launched OSS Scanner, a free, opt-in tool that periodically sends open-source maintainers model-generated vulnerability reports. The reports include reproducers, explanations, and candidate patches, but humans don't review them. During validation, 85 of 97 critical- or high-severity findings met Anthropic's disclosure bar, while one finding was invalid. Eligible maintainers can sign up through GitHub.",
+              "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+            },
+            {
+              "headline": "macos-sudo-touchid (GitHub Repo)",
+              "blurb": "This tool enables Touch ID for sudo on macOS using Apple's pam_tid.so, with safer handling for terminal multiplexers through pam_reattach.",
+              "url": "https://github.com/douglasmun/macos-sudo-touchid"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison (2 minute read)",
+              "blurb": "Former core infrastructure engineer Daniel Rhyne scheduled tasks on his employer's domain controller to delete 13 admin accounts and reset passwords affecting 301 users, 254 servers, and 3,284 workstations. He demanded 20 bitcoin, about $750,000, and threatened to shut down 40 servers daily. The company did not pay. Internal forensics and FBI tracing tied the activity to Rhyne's home IP address. He received 32 months in prison.",
+              "url": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/"
+            },
+            {
+              "headline": "Fingerprints are the new cookies (6 minute read)",
+              "blurb": "Browser fingerprinting has replaced third-party cookies as the stable tracking identifier, after Google dropped its cookie deprecation plan and opened its ad products to device fingerprinting. A demo page derives a consistent nickname by hashing permissionless readings from OfflineAudioContext, WebGL renderer pixels, canvas text rendering, Intl time zone, and navigator hardware values, and the result survives cookie clears and VPNs. Only Brave (via farbling noise) and Tor and Mullvad Browser (via uniform fingerprints) resist this at the engine level, while anti-fingerprinting extensions can make users more distinctive because so few people run them.",
+              "url": "https://royfish.dev/fingerprints-are-the-new-cookies"
+            },
+            {
+              "headline": "Investigating unintended model actions in our evaluations and internal use (6 minute read)",
+              "blurb": "Anthropic reports Claude using SQL and command injection to run commands on a university server, submitting real government and police forms, using leaked access tokens to reach fee-gated public data, and shortening URLs to bypass fetch-tool limits. Most cases arose in evaluations with live internet access and caused little harm. Anthropic has disabled live internet access in internal evaluations, restricted fetch tools, added automated detection and blocking, and is changing training environments that reward restriction bypasses.",
+              "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys (2 minute read)",
+              "blurb": "A GoBalance signing bug lets an attacker recover a site's Tor-format master key from one public descriptor, with which they can then redirect that .onion address to a controlled site.",
+              "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html"
+            },
+            {
+              "headline": "Microsoft to end security updates for unsupported Windows versions in 2027 (1 minute read)",
+              "blurb": "Unsupported Windows versions will lose all Windows Update access when Microsoft rotates its update certificates on May 17 and June 19, 2027, so supported builds need the July 2026 update or later (September 2025 for Windows 11 24H2 and Server 2025), while WSUS-managed devices are unaffected.",
+              "url": "https://www.scworld.com/brief/microsoft-to-end-security-updates-for-unsupported-windows-versions-in-2027"
+            },
+            {
+              "headline": "Ledger confirms unauthorized hardware implant, says losses may exceed $86M (1 minute read)",
+              "blurb": "An unauthorized hardware implant was found in a Ledger wallet sold by Southeast Asian reseller CryptoBilis.",
+              "url": "https://cointelegraph.com/news/ledger-confirms-unauthorized-hardware-implant-losses-may-exceed-86m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR DevOps — 2026-10-12",
+      "tagline": "Cloudflare and Deno 🐍, PostgreSQL Migrations 🐦, Codex Cloud ☁️",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "flux9s GA: Flux cluster state, from the terminal (6 minute read)",
+              "blurb": "flux9s, a Rust terminal UI for Flux inspired by K9s, reached 1.0. It adds dependency graphs, reconciliation history, a cluster health pulse dashboard, and opt-in discovery for Flagger and tofu-controller, and it is read-only by default.",
+              "url": "https://fluxcd.io/blog/2026/10/flux9s-ga/"
+            },
+            {
+              "headline": "DigitalOcean MicroVMs: Fast, isolated compute for your AI agent infrastructure (5 minute read)",
+              "blurb": "DigitalOcean has released MicroVMs in public preview, offering isolated virtual machines that pause when idle and resume in milliseconds. The service costs $0.022 per vCPU-hour and $0.0085 per GiB-hour for compute, billed per second, while paused instances only incur storage fees. MicroVMs are built on the open-source Firecracker platform and are designed for workloads like coding agents, sandboxes, and CI/CD runners.",
+              "url": "https://www.digitalocean.com/blog/microvms-public-preview"
+            },
+            {
+              "headline": "Introducing AI Evaluation: Close the Loop Across the Full AI Lifecycle (7 minute read)",
+              "blurb": "New Relic added AI Evaluation to its AI Observability platform, using an LLM as a judge to score live prompts and completions for safety and accuracy. It flags prompt injection, data leakage, and hallucinations with 0 to 1 scores attached to distributed traces.",
+              "url": "https://newrelic.com/blog/news/introducing-ai-evaluation"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "Agentic Evaluations: Benchmark AI Agent Quality, Performance, & Safety (17 minute read)",
+              "blurb": "Anthropic has introduced a new concept called agentic evaluations, or agentevals, to verify that AI agents perform tasks correctly and safely. The tool grades agent traces based on specific criteria like performance, output quality, and safety. Developers can install agentevals via a Python package or clone the source repository from GitHub.",
+              "url": "https://www.solo.io/blog/agentic-quality-benchmarking-with-agent-evals"
+            },
+            {
+              "headline": "Zero-Downtime PostgreSQL Migrations: A Production Playbook for Safe Schema Changes (21 minute read)",
+              "blurb": "Safe PostgreSQL schema changes separate expansion, backfills, traffic switches, and cleanup so old and new application versions remain compatible during deployment. Short lock timeouts, concurrent index builds, separately validated constraints, and throttled backfills limit disruption, while monitoring replica lag and data consistency determines when each phase can proceed.",
+              "url": "https://boundlayer.io/blog/zero-downtime-postgresql-migrations"
+            },
+            {
+              "headline": "What today's software owes to Bronze Age clocks (8 minute read)",
+              "blurb": "Leaky buckets provide inexpensive admission control by calculating available capacity from elapsed time rather than running a background timer. PlanetScale applies related token-bucket budgets to Postgres queries, estimating resource costs before execution and reconciling actual costs afterward to control bursts and protect database capacity.",
+              "url": "https://planetscale.com/blog/leaky-buckets-in-software-explained"
+            }
+          ]
+        },
+        {
+          "name": "Resources & Tools",
+          "stories": [
+            {
+              "headline": "AirLLM (GitHub Repo)",
+              "blurb": "AirLLM allows 70B large language models to run on a single 4GB GPU without quantization. The tool can run Kimi K3 (2.8T) on under 4GB of VRAM and DeepSeek-V3 (671B) on about 12GB. It works by keeping only one layer on the GPU at a time. AirLLM also supports training huge models on small VRAM, with Qwen3.8-Flash-Next (125B) training under 6GB.",
+              "url": "https://github.com/lyogavin/airllm"
+            },
+            {
+              "headline": "Context Mode (GitHub Repo)",
+              "blurb": "Context Mode is an MCP server that reduces context window usage by 98% for AI coding agents. It saves tool output to a sandbox so raw data never enters the conversation, shrinking a typical 315 KB output load to 5.4 KB. The tool also persists session memory in SQLite, allowing agents to recover their state after a conversation compacts. It works across 17 platforms, including Claude Code, Gemini CLI, VS Code Copilot, and Cursor.",
+              "url": "https://github.com/mksglu/context-mode"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Atlassian and OpenAI expand their partnership (4 minute read)",
+              "blurb": "Atlassian and OpenAI expanded their partnership, bringing GPT-6 Astra and the GPT-5.6 series into Atlassian's platform and Rovo alongside its Teamwork Graph. Over 3,000 Atlassian developers already use Codex, and future integrations will let teams assign work directly to AI agents.",
+              "url": "https://openai.com/index/atlassian-partnership/"
+            },
+            {
+              "headline": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects (10 minute read)",
+              "blurb": "Cloudflare added on-demand production CPU and memory profiling for Workers and Durable Objects, with interactive flamegraphs and downloadable profiles. Internal profiling uncovered redundant JSON processing and partially disabled metrics code that still consumed memory. Memory profiles capture allocations during the recording window rather than the entire existing heap.",
+              "url": "https://blog.cloudflare.com/workers-on-demand-profiling/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Codex Cloud shipped with Tailscale support. Nobody told us (4 minute read)",
+              "blurb": "Codex Cloud's Tailscale integration connects cloud coding environments to private APIs and test services using tagged, ephemeral devices governed by tailnet access rules.",
+              "url": "https://tailscale.com/blog/codex-cloud-tailscale"
+            },
+            {
+              "headline": "Deno is joining Cloudflare (7 minute read)",
+              "blurb": "The Deno team is joining Cloudflare to simplify self-hosting for Workers and Durable Objects.",
+              "url": "https://blog.cloudflare.com/deno-joins-cloudflare/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Design — 2026-10-12",
+      "tagline": "Apple TV Upgrade 📺, Google Playground 🎮, Gamma 5 🖼️",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "The new Apple TV could have a built-in mic and a remote with a speaker (1 minute read)",
+              "blurb": "Apple's next Apple TV will reportedly include a microphone for hands-free Siri commands, letting users control playback and smart-home devices without reaching for the remote. A speaker in the redesigned remote could sound an alert to help locate it when misplaced. The refresh is also expected to feature an A19 chip supporting Siri AI and begin shipping October 30 alongside an updated HomePod Mini.",
+              "url": "https://www.theverge.com/tech/1009397/apple-tv-refresh-built-in-mic-remote-speaker"
+            },
+            {
+              "headline": "Google's New Playground Aims to Make It Easy to Vibe Code a Game Right in Your Browser (2 minute read)",
+              "blurb": "Google launched Playground, a browser-based platform where anyone can build and share games by chatting with AI, with no coding experience required. Powered by Gemini, Nano Banana, and Lyria, it lets users keep refining a game, then keep it private or publish it to the Explore gallery. Playground launched free in the US for users 18 and older, with Google One AI subscribers getting early access to creation and a higher token limit.",
+              "url": "https://gizmodo.com/googles-new-playground-aims-to-make-it-easy-to-vibe-code-a-game-right-in-your-browser-2000822955"
+            },
+            {
+              "headline": "Gamma Revamps Presentation Platform to Make Output Look More Human (4 minute read)",
+              "blurb": "Gamma 5 rebuilds the presentation platform with a redesigned editor, a more capable AI agent, and more visual styles to fight the \"AI smell\" of repetitive layouts. The agent works in a sandbox with automated layout checks, while about 20 connectors pull in sources such as Slack and Granola. Co-founder Jon Noronha says some users cut presentation time from eight to 10 hours down to about 30 minutes.",
+              "url": "https://siliconangle.com/2026/10/06/exclusive-gamma-revamps-presentation-platform-to-make-output-look-more-human/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "First AI came and scooped up your art. Now it's scooped up Adobe (4 minute read)",
+              "blurb": "ArtCraft is a two-person GitHub project that appears to use AI-generated code to recreate large parts of Adobe's Creative Cloud functionality, including alternatives to Photoshop, Illustrator, InDesign, Lightroom, and Premiere. Its rapid development demonstrates how AI coding tools could allow tiny teams to reproduce increasingly sophisticated professional software that previously required huge organizations to build. The development creates an ironic reversal for Adobe, whose own embrace of generative AI has faced criticism from creatives concerned about AI systems reproducing their work.",
+              "url": "https://www.designweek.co.uk/first-ai-came-and-scooped-up-your-art-now-its-scooped-up-adobe/"
+            },
+            {
+              "headline": "The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile (12 minute read)",
+              "blurb": "With AI making building nearly free, vibe architects without technical backgrounds grow agentic systems piecemeal into fragile \"big balls of mud.\" Study participants kept throwaway drafts, bolted-on features, and let the AI patch files until they could no longer locate or recreate their own systems. Keeping global, local, and ambient context separate lets builders direct a rebuild instead of relying on the AI as sole navigator.",
+              "url": "https://www.nngroup.com/articles/big-ball-of-mud-ai/"
+            },
+            {
+              "headline": "Handle Token Exceptions (5 minute read)",
+              "blurb": "Hardcoded values become valid token exceptions only with a reason, a defined scope, an owner, and an end date. Without a date, they're permanent technical debt. Valid cases include time-boxed campaigns, tokens awaiting release, and urgent accessibility fixes. A register tracks each exception's location, value, reason, approver, and expiration date, and when the date arrives, it's promoted to a token or removed.",
+              "url": "https://designtokens.substack.com/p/handle-token-exceptions"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "AI Landing Page Platform for Marketing Teams (Website)",
+              "blurb": "GenPage learns your brand, builds dedicated pages for every ad, keyword, or target prospect, then keeps A–Z testing every one on Autopilot.",
+              "url": "https://www.genpage.ai/"
+            },
+            {
+              "headline": "The Anti-Slop Frontend Framework for AI Agents (Website)",
+              "blurb": "Open-source skill files that stop Cursor, Claude Code, Codex, and more from shipping generic frontends.",
+              "url": "https://www.tasteskill.dev/"
+            },
+            {
+              "headline": "300+ Framer and Figma Components and Templates (Website)",
+              "blurb": "Unlock a library of 300+ Framer and Figma components, templates, and gradients for your next project.",
+              "url": "https://sprrrint.com/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Designing Michelangelus (8 minute read)",
+              "blurb": "Michelangelus is a new serif typeface inspired by Michelangelo's handwritten manuscripts, architectural work, and carved inscriptions, created by Studiogusto for the 400th anniversary of the consecration of St. Peter's Basilica. Rather than reproducing his handwriting literally, the designers studied its rhythm, spacing, proportions, distinctive forms, and hidden structural order, even spending a week refining the lowercase “g” derived from his signature. The resulting family contains more than 2,000 glyphs across regular, italic, bold, and bold italic styles and will become available across Microsoft 365 later this year.",
+              "url": "https://microsoft.design/articles/designing-michelangelus/"
+            },
+            {
+              "headline": "On giving fluid interfaces an anchor (6 minute read)",
+              "blurb": "Interfaces that continuously reshape themselves in response to context, AI, or user intent risk becoming difficult to understand because people lose the stable landmarks they use to build a mental model of a product. Keeping frequently used action buttons anchored while content expands gives users a predictable place to click or tap as the interface changes. Fluid interfaces therefore work best when adaptability is balanced with enough permanence for users to understand where they are, what changed, and how to get back.",
+              "url": "https://karlkoch.me/writing/on-giving-fluid-interfaces-an-anchor/"
+            },
+            {
+              "headline": "Why Icon Consistency is Harder Than It Looks (5 minute read)",
+              "blurb": "Ten small decisions, from stroke weight and spacing to perspective and optical corrections, keep the thousandth icon in a set looking drawn by the same hand. Expressive styles bring more rules and more room for inconsistency. When strict rules hurt recognition, legibility wins, which is why the Sharp style keeps a few curves.",
+              "url": "https://blog.streamlinehq.com/why-icon-consistency-is-harder-than-it-looks/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Its embroidered logo invite shows Apple understands something other tech brands don't (4 minute read)",
+              "blurb": "Apple's hand-embroidered rainbow logo for its Welcome Home event continues a shift toward visibly human-made advertising, using behind-the-scenes craft as part of the brand message at a time when audiences are increasingly skeptical of AI-generated creative work.",
+              "url": "https://www.creativebloq.com/news/an-embroidered-logo-shows-apples-understands-something-that-other-tech-brands-dont"
+            },
+            {
+              "headline": "Pope Leo XIV Condemns AI Art and Defends the Importance of Human Creativity (2 minute read)",
+              "blurb": "Pope Leo XIV condemned AI art in a Vatican speech, arguing that algorithms lack the \"spark\" of the human.",
+              "url": "https://mymodernmet.com/pope-leo-ai-art-speech/"
+            },
+            {
+              "headline": "Fanta's AI Slop Halloween Ad is a Real Horror Show (2 minute read)",
+              "blurb": "Fanta's AI-generated \"Haunted Universe\" Halloween ad, made by studio GRAiL, drew almost entirely negative comments, with some viewers vowing never to buy Fanta again.",
+              "url": "https://www.creativebloq.com/ai/fantas-ai-slop-halloween-advert-is-a-real-horror-show"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Data — 2026-10-12",
+      "tagline": "LinkedIn Gives Agents Context 📚, Claude Dashboards 📊, Salesforce Spark Optimization ⚡",
+      "sections": [
+        {
+          "name": "Deep Dives",
+          "stories": [
+            {
+              "headline": "What Defines The Streamhouse Architecture? (11 minute read)",
+              "blurb": "Apache Fluss' “Streamhouse” concept proposes one maintained logical table for streaming, serving, and analytics instead of separate synchronized systems. The key idea is to unify fresh stream data and historical lakehouse data behind shared metadata and tiering, so teams stop rebuilding state in multiple places. This can cut duplicate ingestion while still allowing specialized caches or replicas for specific access patterns.",
+              "url": "https://ipolyzos.substack.com/p/what-defines-the-streamhouse-architecture"
+            },
+            {
+              "headline": "Inside LinkedIn's data context layer: curating trustworthy context for humans and agents (16 minute read)",
+              "blurb": "LinkedIn built a shared layer that tells people and AI agents which datasets to trust, which filters and joins are required, and what each row means. It combines profiles that an LLM writes from schemas, query logs, and code with notes that teams write and review in Git like code. After LinkedIn's analytics agent was connected to it, the share of acceptable answers in one test rose from 25.9% to 79.5%, and median time to answer fell from 10.7 to 4.7 minutes.",
+              "url": "https://www.linkedin.com/blog/engineering/infrastructure/inside-linkedins-data-context-layer-curating-trustworthy-context-for-humans-and-agents"
+            },
+            {
+              "headline": "Apache Spark Resource Optimization: Lessons From Eight Million Jobs a Day (7 minute read)",
+              "blurb": "Salesforce runs about 8 million Spark jobs a day and found some workloads left executors idle more than 90% of the time. Sizing targeted workloads to measured usage reduced weekly compute costs by 31%, while runtime, failures, and retries remained within acceptable levels.",
+              "url": "https://engineering.salesforce.com/apache-spark-resource-optimization-lessons-from-eight-million-jobs-a-day/"
+            },
+            {
+              "headline": "From Activity to Intent: Generating User Journeys with LLMs (14 minute read)",
+              "blurb": "Pinterest replaces a fragile keyword-clustering pipeline with a fine-tuned 4B LLM that converts a user's activity history into ranked, localized “journeys” (active goals). Teacher-model distillation makes it affordable at scale. The system improves notification engagement while applying strict output validation, safety filters, and feedback loops.",
+              "url": "https://medium.com/pinterest-engineering/from-activity-to-intent-generating-user-journeys-with-llms-9652b9417626"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Advice",
+          "stories": [
+            {
+              "headline": "Claude Dashboards and the shift from chart builder to chart specifier (14 minute read)",
+              "blurb": "Anthropic's new Claude Dashboards beta can build a dashboard without making a single chart manually. You can trace every number back to its source, but there is no row-level security, refresh, or audit log yet. The advice to BI developers: spend less time on tool tricks and more on data modelling, SQL, and design.",
+              "url": "https://thedatavist.substack.com/p/claude-dashboards-and-the-shift-from"
+            },
+            {
+              "headline": "Five PostgreSQL queries that did more work than I asked for (4 minute read)",
+              "blurb": "Five PostgreSQL benchmarks show how unnecessary deduplication, CTE materialization, random sorting, extra column retrieval, and unindexed expressions can dramatically slow queries, with small SQL changes or a matching index delivering major speedups.",
+              "url": "https://explainmeasured.com/posts/queries-doing-extra-work/"
+            },
+            {
+              "headline": "Your Ontology Records Permission. It Does Not Resolve Authority (11 minute read)",
+              "blurb": "Enterprise agents can enforce permissions yet make bad decisions when formal records omit the people whose judgment shapes outcomes. The Authority Resolution Framework separates documented rights, system permissions, recorded approvals, informal influence, and an agent's mandate, then treats disagreement among them as a governance signal. Audit authority gaps before automation turns organizational blind spots into confident actions.",
+              "url": "https://contextandchaos.substack.com/p/your-ontology-records-permission"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Leviathan: Deep memory for agents over large datasets (GitHub Repo)",
+              "blurb": "Leviathan is a Rust tool that gives AI agents compact, cited search results from large datasets using SQLite full-text indexing, with optional persistent memory and CLI, MCP, or remote access.",
+              "url": "https://github.com/elstongun/leviathan"
+            },
+            {
+              "headline": "I'm now convinced single-node DuckDB is the best engine at any realistic scale (Reddit Thread)",
+              "blurb": "A Databricks user found that Spark, Trino, and DuckDB all spent most of their time waiting on S3, with CPUs about 90% idle. After running four times as many read threads as CPU cores, one DuckDB machine beat Trino on the same hardware by 1.7 to 2.1 times on 10 TB queries. Against a Trino cluster with 5 to 13 nodes, it was 2 to 3 times slower but about half the cost.",
+              "url": "https://www.reddit.com/r/DuckDB/comments/1x1h4f4/im_now_convinced_singlenode_duckdb_is_the_best/"
+            },
+            {
+              "headline": "Agent Mode in the DuckDB CLI (11 minute read)",
+              "blurb": "The DuckDB 2.0 command line now detects when an AI agent is using it. It then switches to compact output, flags cut-off results, stops runaway queries, and returns errors as JSON. Across 132 TPC-H runs, agents read back about 60% fewer tokens and still got every answer right.",
+              "url": "https://duckdb.org/2026/10/09/agent-mode"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Ontology‐Driven Observability: Building the E2E Knowledge Graph at Netflix Scale (51 minute video)",
+              "blurb": "Netflix is using an ontology-driven knowledge graph to make observability data, incident chatter, and service topology queryable as one system. This delivers faster automated triage and root-cause analysis at large scale, with AI helping turn messy human signals into structured facts. The key takeaway: better incident response may come from modeling operational meaning, not just collecting more telemetry.",
+              "url": "https://www.infoq.com/presentations/netflix-observability-aiops-ontology-scale"
+            },
+            {
+              "headline": "Postgres relation files, filed under base/ (7 minute read)",
+              "blurb": "Postgres stores each relation as physical files identified by tablespace, database, and relfilenode, with extra forks and TOAST files appearing as needed. Logical objects and physical files are loosely coupled: operations like VACUUM FULL or REINDEX can rewrite storage and swap relfilenodes while the table's identity stays the same. Large relations also continue transparently across segmented files.",
+              "url": "https://boringsql.com/posts/files-forks-and-relfilenodes"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "How we're building a context engine to cut agent token use by 71% (12 minute read)",
+              "blurb": "Agents waste most of their tokens working out what tables and fields mean, then do it again on the next question.",
+              "url": "https://www.elastic.co/search-labs/blog/context-engineering-for-agents"
+            },
+            {
+              "headline": "The reverts will continue until morale improves (5 minute read)",
+              "blurb": "Eight to ten major features have been pulled from Postgres 19 during beta, some very late.",
+              "url": "https://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves"
             }
           ]
         }
