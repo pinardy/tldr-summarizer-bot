@@ -1,0 +1,515 @@
+{
+  "date": "2026-10-13",
+  "mode": "per-newsletter",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Tech — 2026-10-13",
+      "tagline": "Get the free daily email with summaries of the most interesting stories in startups, tech, and programming.",
+      "sections": [
+        {
+          "name": "",
+          "stories": [
+            {
+              "headline": "Put your ideas to work with Muse Wonder and Muse Wonder Full",
+              "blurb": "dev.meta.ai 2 min read",
+              "url": "https://dev.meta.ai/resources/blog/build-with-muse-wonder"
+            }
+          ]
+        },
+        {
+          "name": "Put your ideas to work with Muse Wonder and Muse Wonder Full",
+          "stories": [
+            {
+              "headline": "AI models may be capable of self-replicating without access to a datacenter \\ Anthropic",
+              "blurb": "anthropic.com 18 min read",
+              "url": "https://www.anthropic.com/research/self-replicating-ai"
+            }
+          ]
+        },
+        {
+          "name": "AI models may be capable of self-replicating without access to a datacenter \\ Anthropic",
+          "stories": [
+            {
+              "headline": "Mathematics as a new Age of Discovery (and what they might find)",
+              "blurb": "interconnected.org 4 min read",
+              "url": "https://interconnected.org/home/2026/10/10/math"
+            }
+          ]
+        },
+        {
+          "name": "Mathematics as a new Age of Discovery (and what they might find)",
+          "stories": [
+            {
+              "headline": "Strengthening our defenses against distillation attacks",
+              "blurb": "anthropic.com 9 min read",
+              "url": "https://www.anthropic.com/research/distillation-defenses"
+            }
+          ]
+        },
+        {
+          "name": "Strengthening our defenses against distillation attacks",
+          "stories": [
+            {
+              "headline": "How I Found a $90,000 Remote Code Execution Vulnerability in Google",
+              "blurb": "simonkoeck.com 3 min read",
+              "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce"
+            }
+          ]
+        },
+        {
+          "name": "How I Found a $90,000 Remote Code Execution Vulnerability in Google",
+          "stories": [
+            {
+              "headline": "Python 3.15 Released with Faster JIT, Lazy Imports, and UTF-8 by Default",
+              "blurb": "linuxiac.com 2 min read",
+              "url": "https://linuxiac.com/python-3-15-released-with-faster-jit-lazy-imports-and-utf-8-by-default"
+            }
+          ]
+        },
+        {
+          "name": "Python 3.15 Released with Faster JIT, Lazy Imports, and UTF-8 by Default",
+          "stories": [
+            {
+              "headline": "Muse Wonder: Zuckerberg and Wang's $100B AI",
+              "blurb": "cheekypint.substack.com 119 min read",
+              "url": "https://cheekypint.substack.com/p/muse-wonder-zuckerberg-and-wangs"
+            }
+          ]
+        },
+        {
+          "name": "Muse Wonder: Zuckerberg and Wang's $100B AI",
+          "stories": [
+            {
+              "headline": "38 things we've learned about building AI products",
+              "blurb": "newsletter.posthog.com 7 min read",
+              "url": "https://newsletter.posthog.com/p/38-things-weve-learned-about-building"
+            }
+          ]
+        },
+        {
+          "name": "38 things we've learned about building AI products",
+          "stories": [
+            {
+              "headline": "Linus Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code",
+              "blurb": "phoronix.com 1 min read",
+              "url": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code"
+            }
+          ]
+        },
+        {
+          "name": "Linus Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code",
+          "stories": [
+            {
+              "headline": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+              "blurb": "blogs.microsoft.com 6 min read",
+              "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments"
+            }
+          ]
+        },
+        {
+          "name": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+          "stories": [
+            {
+              "headline": "Ukrainian drone strikes on Yandex datacenters knock cloud and payments offline",
+              "blurb": "theregister.com 2 min read",
+              "url": "https://www.theregister.com/security/2026/10/12/ukrainian-drone-strikes-on-yandex-datacenters-knock-cloud-and-payments-offline/5302577"
+            }
+          ]
+        },
+        {
+          "name": "Ukrainian drone strikes on Yandex datacenters knock cloud and payments offline",
+          "stories": [
+            {
+              "headline": "Character.ai files for voluntary Chapter 11 (*)",
+              "blurb": "blog.character.ai 2 min read",
+              "url": "https://blog.character.ai/an-update-on-character-ai"
+            }
+          ]
+        },
+        {
+          "name": "Character.ai files for voluntary Chapter 11 (*)",
+          "stories": [
+            {
+              "headline": "Meta says its new Muse model has reached the AI frontier",
+              "blurb": "thenextweb.com 2 min read",
+              "url": "https://thenextweb.com/news/meta-muse-wonder-frontier-eu"
+            }
+          ]
+        },
+        {
+          "name": "Meta says its new Muse model has reached the AI frontier",
+          "stories": [
+            {
+              "headline": "Analysis: constructing and equipping a 1GW AI data center in Abilene, Texas, could cost ~$30B, including $17B on chips, $3B on power, and $2.4B on construction",
+              "blurb": "bloomberg.com 9 min read",
+              "url": "https://www.bloomberg.com/features/2026-ai-data-center-build-costs?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTgyMTYzNywiZXhwIjoxNzkyNDI2NDM3LCJhcnRpY2xlSWQiOiJUTVNJSUVLSUpIQTgwMCIsImJjb25uZWN0SWQiOiIzQjk1QzU5QzVEM0M0RjcwQkNFQUQ2NDZDRUE1QkFCOSJ9.VxLn0QarUOI8aJCg9j_vuwwoYDDMJ4T9QNJhEPxnwmc"
+            }
+          ]
+        },
+        {
+          "name": "Analysis: constructing and equipping a 1GW AI data center in Abilene, Texas, could cost ~$30B, including $17B on chips, $3B on power, and $2.4B on construction",
+          "stories": [
+            {
+              "headline": "Linux kernel patches CVE-2026-74580 vulnerability (*)",
+              "blurb": "matrix.tencent.com 9 min read",
+              "url": "https://matrix.tencent.com/en/2026/10/12/vghost-cve-2026-74580"
+            }
+          ]
+        },
+        {
+          "name": "Linux kernel patches CVE-2026-74580 vulnerability (*)",
+          "stories": [
+            {
+              "headline": "Atlas Infinite: MongoDB's Disaggregated Architecture",
+              "blurb": "muratbuffalo.blogspot.com 5 min read",
+              "url": "https://muratbuffalo.blogspot.com/2026/10/atlas-infinite-mongodbs-disaggregated.html"
+            }
+          ]
+        },
+        {
+          "name": "Atlas Infinite: MongoDB's Disaggregated Architecture",
+          "stories": [
+            {
+              "headline": "Cloudflare acquires Deno to improve its Workers programming model",
+              "blurb": "techcrunch.com 1 min read",
+              "url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model"
+            }
+          ]
+        },
+        {
+          "name": "Cloudflare acquires Deno to improve its Workers programming model",
+          "stories": [
+            {
+              "headline": "Nvidia in talks to acquire US ‘open’ model start-up Reflection AI",
+              "blurb": "ft.com 2 min read",
+              "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1"
+            }
+          ]
+        },
+        {
+          "name": "Nvidia in talks to acquire US ‘open’ model start-up Reflection AI",
+          "stories": [
+            {
+              "headline": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+              "blurb": "engineering.fb.com 12 min read",
+              "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks"
+            }
+          ]
+        },
+        {
+          "name": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+          "stories": [
+            {
+              "headline": "Amazon in Talks to Buy AI Startup Decart for Around $7 Billion",
+              "blurb": "wsj.com 1 min read",
+              "url": "https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad"
+            }
+          ]
+        },
+        {
+          "name": "Amazon in Talks to Buy AI Startup Decart for Around $7 Billion",
+          "stories": [
+            {
+              "headline": "Quantum-Computing Company IonQ to Buy Cybersecurity Firm for Up to $1.3 Billion",
+              "blurb": "wsj.com 1 min read",
+              "url": "https://www.wsj.com/business/deals/quantum-computing-company-ionq-to-buy-cybersecurity-firm-for-up-to-1-3-billion-65af65bd"
+            }
+          ]
+        },
+        {
+          "name": "Quantum-Computing Company IonQ to Buy Cybersecurity Firm for Up to $1.3 Billion",
+          "stories": [
+            {
+              "headline": "Super Micro smuggling co-conspirator pleads guilty to sending AI chips to China",
+              "blurb": "tomshardware.com 2 min read",
+              "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/super-micro-smuggling-co-conspirator-pleads-guilty-to-sending-ai-chips-to-china-broker-admits-breaking-export-control-rules-as-company-co-founder-denies-charges"
+            }
+          ]
+        },
+        {
+          "name": "Super Micro smuggling co-conspirator pleads guilty to sending AI chips to China",
+          "stories": [
+            {
+              "headline": "(Post-Quantum) Cryptographic Right Answers",
+              "blurb": "words.filippo.io 17 min read",
+              "url": "https://words.filippo.io/right-answers"
+            }
+          ]
+        },
+        {
+          "name": "(Post-Quantum) Cryptographic Right Answers",
+          "stories": [
+            {
+              "headline": "Report: Epic Games goes all-in on AI for Disney collaboration",
+              "blurb": "arstechnica.com 1 min read",
+              "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration"
+            }
+          ]
+        },
+        {
+          "name": "Report: Epic Games goes all-in on AI for Disney collaboration",
+          "stories": [
+            {
+              "headline": "Can we change an AI model’s architecture without retraining it from scratch?",
+              "blurb": "amazon.science 11 min read",
+              "url": "https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch"
+            }
+          ]
+        },
+        {
+          "name": "Can we change an AI model’s architecture without retraining it from scratch?",
+          "stories": [
+            {
+              "headline": "What to know about the landmark Warner Bros. Discovery sale",
+              "blurb": "techcrunch.com 6 min read",
+              "url": "https://techcrunch.com/2026/10/11/warner-bros-netflix-paramount-acquisition-timeline-wbd"
+            }
+          ]
+        },
+        {
+          "name": "What to know about the landmark Warner Bros. Discovery sale",
+          "stories": [
+            {
+              "headline": "Research Firm Calls Anthropic's Upcoming IPO 'Unprecedented Test of Investor Gullibity'",
+              "blurb": "slashdot.org 1 min read",
+              "url": "https://slashdot.org/story/26/10/11/2355238/research-firm-calls-anthropics-upcoming-ipo-unprecedented-test-of-investor-gullibity"
+            }
+          ]
+        },
+        {
+          "name": "Research Firm Calls Anthropic's Upcoming IPO 'Unprecedented Test of Investor Gullibity'",
+          "stories": [
+            {
+              "headline": "Google Unveils Gemini Agent for Enterprise Work",
+              "blurb": "thelec.net 2 min read",
+              "url": "https://www.thelec.net/news/articleView.html?idxno=14513"
+            }
+          ]
+        },
+        {
+          "name": "Google Unveils Gemini Agent for Enterprise Work",
+          "stories": [
+            {
+              "headline": "Speculative Decoding: The Art of Guessing Well",
+              "blurb": "astralord.github.io 64 min read",
+              "url": "https://astralord.github.io/posts/speculative-decoding-the-art-of-guessing-well"
+            }
+          ]
+        },
+        {
+          "name": "Speculative Decoding: The Art of Guessing Well",
+          "stories": [
+            {
+              "headline": "AA-3D Elo vs. Early Visual Inspection",
+              "blurb": "artificialanalysis.ai 1 min read",
+              "url": "https://artificialanalysis.ai/articles/aa-3d"
+            }
+          ]
+        },
+        {
+          "name": "AA-3D Elo vs. Early Visual Inspection",
+          "stories": [
+            {
+              "headline": "Informed Diffusion: making home builders publish fast",
+              "blurb": "ethresear.ch 16 min read",
+              "url": "https://ethresear.ch/t/informed-diffusion-making-home-builders-publish-fast/26151"
+            }
+          ]
+        },
+        {
+          "name": "Informed Diffusion: making home builders publish fast",
+          "stories": [
+            {
+              "headline": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
+              "blurb": "arstechnica.com 2 min read",
+              "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police"
+            }
+          ]
+        },
+        {
+          "name": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
+          "stories": [
+            {
+              "headline": "Meta says its new AI models on par with OpenAI, Anthropic",
+              "blurb": "techxplore.com 1 min read",
+              "url": "https://techxplore.com/news/2026-10-meta-ai-par-openai-anthropic.html"
+            }
+          ]
+        },
+        {
+          "name": "Meta says its new AI models on par with OpenAI, Anthropic",
+          "stories": [
+            {
+              "headline": "Speeding up the Unreal editor by… not using unnecessarily secure hash methods",
+              "blurb": "larstofus.com 3 min read",
+              "url": "https://larstofus.com/2026/10/11/speeding-up-the-unreal-editor-by-not-using-unnecessarily-secure-hash-methods"
+            }
+          ]
+        },
+        {
+          "name": "Speeding up the Unreal editor by… not using unnecessarily secure hash methods",
+          "stories": [
+            {
+              "headline": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+              "blurb": "simonwillison.net 3 min read",
+              "url": "https://simonwillison.net/2026/Oct/12/python-3-15"
+            }
+          ]
+        },
+        {
+          "name": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+          "stories": [
+            {
+              "headline": "Why do Astra and Opus 5.5 Fail Simple 2D Mazes?",
+              "blurb": "fig.inc 27 min read",
+              "url": "https://www.fig.inc/blog/multinet-v2-preview-astra-opus"
+            }
+          ]
+        },
+        {
+          "name": "Why do Astra and Opus 5.5 Fail Simple 2D Mazes?",
+          "stories": [
+            {
+              "headline": "Maia 300: Microsoft Builds the Exit From a Compute Landlord Model It Helped Finance",
+              "blurb": "forkast.news 3 min read",
+              "url": "https://forkast.news/maia-300-microsoft-builds-the-exit-from-a-compute-landlord-model-it-helped-finance"
+            }
+          ]
+        },
+        {
+          "name": "Maia 300: Microsoft Builds the Exit From a Compute Landlord Model It Helped Finance",
+          "stories": [
+            {
+              "headline": "Artificial Analysis launches FrontierCode 1.1 benchmark (*)",
+              "blurb": "artificialanalysis.ai 5 min read",
+              "url": "https://artificialanalysis.ai/articles/frontiercode"
+            }
+          ]
+        },
+        {
+          "name": "Artificial Analysis launches FrontierCode 1.1 benchmark (*)",
+          "stories": [
+            {
+              "headline": "Improve TTFT for Multi-Turn Agentic Workloads with Bi-Directional KV Transfer in vLLM",
+              "blurb": "vllm.ai 12 min read",
+              "url": "https://vllm.ai/blog/2026-10-12-bidirectional-kvxfer-multiturn-agentic-workload"
+            }
+          ]
+        },
+        {
+          "name": "Improve TTFT for Multi-Turn Agentic Workloads with Bi-Directional KV Transfer in vLLM",
+          "stories": [
+            {
+              "headline": "Faster Fourier Transforms",
+              "blurb": "argmin.net 7 min read",
+              "url": "https://www.argmin.net/p/faster-fourier-transforms"
+            }
+          ]
+        },
+        {
+          "name": "Faster Fourier Transforms",
+          "stories": [
+            {
+              "headline": "Running RAG with a (small) language model in the browser",
+              "blurb": "bart.degoe.de 9 min read",
+              "url": "https://bart.degoe.de/rag-with-a-small-language-model-in-the-browser"
+            }
+          ]
+        },
+        {
+          "name": "Running RAG with a (small) language model in the browser",
+          "stories": [
+            {
+              "headline": "Human PR Review Is Next",
+              "blurb": "scienceisneato.substack.com 11 min read",
+              "url": "https://scienceisneato.substack.com/p/human-pr-review-is-next"
+            }
+          ]
+        },
+        {
+          "name": "Human PR Review Is Next",
+          "stories": [
+            {
+              "headline": "The Death of the Interface",
+              "blurb": "x.com 8 min read",
+              "url": "https://x.com/davidmarcus/status/2109690025336242608"
+            }
+          ]
+        },
+        {
+          "name": "The Death of the Interface",
+          "stories": [
+            {
+              "headline": "Relief for open source CVE explosion, hopefully",
+              "blurb": "cote.io 1 min read",
+              "url": "https://cote.io/2026/10/10/relief-for-open-source-cve-explosion-hopefully.html"
+            }
+          ]
+        },
+        {
+          "name": "Relief for open source CVE explosion, hopefully",
+          "stories": [
+            {
+              "headline": "Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed",
+              "blurb": "the-decoder.com 1 min read",
+              "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed"
+            }
+          ]
+        },
+        {
+          "name": "Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed",
+          "stories": [
+            {
+              "headline": "Bending Spoons is worth $24 billion. It trades at 8x ARR and buys B2B companies at 2.3x to 2.7x ...",
+              "blurb": "x.com 1 min read",
+              "url": "https://x.com/jasonlk/status/2109416000710148511"
+            }
+          ]
+        },
+        {
+          "name": "Bending Spoons is worth $24 billion. It trades at 8x ARR and buys B2B companies at 2.3x to 2.7x ...",
+          "stories": [
+            {
+              "headline": "SpaceX Acquires Grain Management’s 800 MHz Spectrum Portfolio to Launch Standalone Starlink Mobile Carrier",
+              "blurb": "satnews.com 3 min read",
+              "url": "https://satnews.com/2026/10/11/spacex-acquires-grain-managements-800-mhz-spectrum-portfolio-to-launch-standalone-starlink-mobile-carrier"
+            }
+          ]
+        },
+        {
+          "name": "SpaceX Acquires Grain Management’s 800 MHz Spectrum Portfolio to Launch Standalone Starlink Mobile Carrier",
+          "stories": [
+            {
+              "headline": "AMD unveils Helion racks for AI agents at OCP summit",
+              "blurb": "theregister.com 2 min read",
+              "url": "https://www.theregister.com/systems/2026/10/12/amd-unveils-helion-racks-for-ai-agents-at-ocp-summit/5302652"
+            }
+          ]
+        },
+        {
+          "name": "AMD unveils Helion racks for AI agents at OCP summit",
+          "stories": [
+            {
+              "headline": "What a cancelled read_exact, read_line and send lose in tokio::select!",
+              "blurb": "importstatic.com 9 min read",
+              "url": "https://importstatic.com/rust/tokio-select-cancellation-safety"
+            }
+          ]
+        },
+        {
+          "name": "What a cancelled read_exact, read_line and send lose in tokio::select!",
+          "stories": [
+            {
+              "headline": "Trump bans tech giants from key immigration program",
+              "blurb": "ia.acs.org.au 3 min read",
+              "url": "https://ia.acs.org.au/article/2026/trump-bans-tech-giants-from-key-immigration-program.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
