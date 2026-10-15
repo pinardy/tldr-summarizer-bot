@@ -1,0 +1,515 @@
+{
+  "date": "2026-10-15",
+  "mode": "per-newsletter",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Tech — 2026-10-15",
+      "tagline": "Get the free daily email with summaries of the most interesting stories in startups, tech, and programming.",
+      "sections": [
+        {
+          "name": "",
+          "stories": [
+            {
+              "headline": "Redesigning source control at Anthropic \\ Anthropic",
+              "blurb": "anthropic.com 16 min read",
+              "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+            }
+          ]
+        },
+        {
+          "name": "Redesigning source control at Anthropic \\ Anthropic",
+          "stories": [
+            {
+              "headline": "Anthropic Says Revenue Jumped 45% to $16.8 Billion in Third Quarter",
+              "blurb": "nytimes.com 1 min read",
+              "url": "https://www.nytimes.com/2026/10/14/technology/anthropic-ipo-revenue-profit.html"
+            }
+          ]
+        },
+        {
+          "name": "Anthropic Says Revenue Jumped 45% to $16.8 Billion in Third Quarter",
+          "stories": [
+            {
+              "headline": "Gemini 4 Argon available on Google Cloud",
+              "blurb": "cloud.google.com 6 min read",
+              "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud?e=48754805"
+            }
+          ]
+        },
+        {
+          "name": "Gemini 4 Argon available on Google Cloud",
+          "stories": [
+            {
+              "headline": "Physical Intelligence launches Pi API beta with π0 and π0.5 (*)",
+              "blurb": "physicalintelligence.company 3 min read",
+              "url": "https://physicalintelligence.company/blog/api-beta"
+            }
+          ]
+        },
+        {
+          "name": "Physical Intelligence launches Pi API beta with π0 and π0.5 (*)",
+          "stories": [
+            {
+              "headline": "rust-lang/rust: Lifetime requirements bypassed via covariant field assignment (#164250)",
+              "blurb": "github.com 2 min read",
+              "url": "https://github.com/rust-lang/rust/issues/164250"
+            }
+          ]
+        },
+        {
+          "name": "rust-lang/rust: Lifetime requirements bypassed via covariant field assignment (#164250)",
+          "stories": [
+            {
+              "headline": "A Series of Unauthenticated Events: Chained Exploitation of Ivanti Connect Secure Zero-Days",
+              "blurb": "volexity.com 14 min read",
+              "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days"
+            }
+          ]
+        },
+        {
+          "name": "A Series of Unauthenticated Events: Chained Exploitation of Ivanti Connect Secure Zero-Days",
+          "stories": [
+            {
+              "headline": "AI models may be capable of self-replicating without access to a datacenter \\ Anthropic",
+              "blurb": "anthropic.com 18 min read",
+              "url": "https://www.anthropic.com/research/self-replicating-ai"
+            }
+          ]
+        },
+        {
+          "name": "AI models may be capable of self-replicating without access to a datacenter \\ Anthropic",
+          "stories": [
+            {
+              "headline": "Character.ai's Bankruptcy Documents Show the Economics of AI Don't Work",
+              "blurb": "404media.co 3 min read",
+              "url": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work"
+            }
+          ]
+        },
+        {
+          "name": "Character.ai's Bankruptcy Documents Show the Economics of AI Don't Work",
+          "stories": [
+            {
+              "headline": "Muse Wonder and Muse Wonder Full: a material jump in intelligence over previous Meta models | Artificial Analysis",
+              "blurb": "artificialanalysis.ai 5 min read",
+              "url": "https://artificialanalysis.ai/articles/muse-wonder"
+            }
+          ]
+        },
+        {
+          "name": "Muse Wonder and Muse Wonder Full: a material jump in intelligence over previous Meta models | Artificial Analysis",
+          "stories": [
+            {
+              "headline": "Introducing Grok Voice 3.0 | SpaceXSI",
+              "blurb": "x.ai 2 min read",
+              "url": "https://x.ai/news/grok-voice-3"
+            }
+          ]
+        },
+        {
+          "name": "Introducing Grok Voice 3.0 | SpaceXSI",
+          "stories": [
+            {
+              "headline": "How I Found a $90,000 Remote Code Execution Vulnerability in Google",
+              "blurb": "simonkoeck.com 3 min read",
+              "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce"
+            }
+          ]
+        },
+        {
+          "name": "How I Found a $90,000 Remote Code Execution Vulnerability in Google",
+          "stories": [
+            {
+              "headline": "Meta ships ‘Muse Wonder’, its first frontier models to take on OpenAI, Anthropic",
+              "blurb": "thetechportal.com 4 min read",
+              "url": "https://thetechportal.com/2026/10/13/meta-ships-muse-wonder-its-first-frontier-models-to-take-on-openai-anthropic"
+            }
+          ]
+        },
+        {
+          "name": "Meta ships ‘Muse Wonder’, its first frontier models to take on OpenAI, Anthropic",
+          "stories": [
+            {
+              "headline": "Apple Unveils HomeView: A Smart Home Display Powered by Siri AI",
+              "blurb": "macstories.net 4 min read",
+              "url": "https://www.macstories.net/news/apple-unveils-homeview-a-smart-home-display-powered-by-siri-ai"
+            }
+          ]
+        },
+        {
+          "name": "Apple Unveils HomeView: A Smart Home Display Powered by Siri AI",
+          "stories": [
+            {
+              "headline": "Rogue A.I. Agents from China Chatted with American Researchers",
+              "blurb": "nytimes.com 1 min read",
+              "url": "https://www.nytimes.com/2026/10/14/technology/chinese-ai-agents-rogue.html"
+            }
+          ]
+        },
+        {
+          "name": "Rogue A.I. Agents from China Chatted with American Researchers",
+          "stories": [
+            {
+              "headline": "Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II",
+              "blurb": "netflixtechblog.com 16 min read",
+              "url": "https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb?source=rss----2615bd06b42e---4"
+            }
+          ]
+        },
+        {
+          "name": "Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II",
+          "stories": [
+            {
+              "headline": "Reliable GPU compute for large training & inference jobs",
+              "blurb": "netflixtechblog.com 14 min read",
+              "url": "https://netflixtechblog.com/reliable-gpu-compute-for-large-training-inference-jobs-d62b03a96d7a?source=rss----2615bd06b42e---4"
+            }
+          ]
+        },
+        {
+          "name": "Reliable GPU compute for large training & inference jobs",
+          "stories": [
+            {
+              "headline": "CVE-2026-74580: Linux vhost stale IOTLB cache vulnerability (Vghost)",
+              "blurb": "openwall.com 3 min read",
+              "url": "https://www.openwall.com/lists/oss-security/2026/10/14/2"
+            }
+          ]
+        },
+        {
+          "name": "CVE-2026-74580: Linux vhost stale IOTLB cache vulnerability (Vghost)",
+          "stories": [
+            {
+              "headline": "Strengthening our defenses against distillation attacks",
+              "blurb": "news.ycombinator.com 9 min read",
+              "url": "https://news.ycombinator.com/item?id=50065553"
+            }
+          ]
+        },
+        {
+          "name": "Strengthening our defenses against distillation attacks",
+          "stories": [
+            {
+              "headline": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
+              "blurb": "zetter-zeroday.com 14 min read",
+              "url": "https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets"
+            }
+          ]
+        },
+        {
+          "name": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
+          "stories": [
+            {
+              "headline": "A proposal for better informing the public about loss-of-control risks from frontier AI development",
+              "blurb": "metr.org 15 min read",
+              "url": "https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks"
+            }
+          ]
+        },
+        {
+          "name": "A proposal for better informing the public about loss-of-control risks from frontier AI development",
+          "stories": [
+            {
+              "headline": "Welcome to the era of embodied AI: Introducing AA-Robotics v0.1 | Artificial Analysis",
+              "blurb": "artificialanalysis.ai 8 min read",
+              "url": "https://artificialanalysis.ai/articles/aa-robotics"
+            }
+          ]
+        },
+        {
+          "name": "Welcome to the era of embodied AI: Introducing AA-Robotics v0.1 | Artificial Analysis",
+          "stories": [
+            {
+              "headline": "curl 8.23.0 fixes 24 vulnerabilities, one high-severity",
+              "blurb": "freenode.net 1 min read",
+              "url": "https://freenode.net/article/curl-8-23-0-fixes-24-vulnerabilities-one-high-severity"
+            }
+          ]
+        },
+        {
+          "name": "curl 8.23.0 fixes 24 vulnerabilities, one high-severity",
+          "stories": [
+            {
+              "headline": "Introducing Specs: Markdown as a medium",
+              "blurb": "figma.com 6 min read",
+              "url": "https://www.figma.com/blog/introducing-figma-specs"
+            }
+          ]
+        },
+        {
+          "name": "Introducing Specs: Markdown as a medium",
+          "stories": [
+            {
+              "headline": "Python 3.15 arrives with lazy imports, UTF-8 by default and a faster JIT",
+              "blurb": "betanews.com 2 min read",
+              "url": "https://betanews.com/article/python-3-15-release"
+            }
+          ]
+        },
+        {
+          "name": "Python 3.15 arrives with lazy imports, UTF-8 by default and a faster JIT",
+          "stories": [
+            {
+              "headline": "LFM2.5-24B-A2B: Built for Fast On-Device Agents | Blog | Liquid AI",
+              "blurb": "liquid.ai 6 min read",
+              "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+            }
+          ]
+        },
+        {
+          "name": "LFM2.5-24B-A2B: Built for Fast On-Device Agents | Blog | Liquid AI",
+          "stories": [
+            {
+              "headline": "Steering AI Beyond Automation",
+              "blurb": "normaltech.ai 25 min read",
+              "url": "https://www.normaltech.ai/p/steering-ai-beyond-automation"
+            }
+          ]
+        },
+        {
+          "name": "Steering AI Beyond Automation",
+          "stories": [
+            {
+              "headline": "Sources: Epic has delayed the release of an upcoming game, instructing developers to implement an \"AI first\" production model with \"no more hand-written code\"",
+              "blurb": "bloomberg.com 2 min read",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTgyOTQ5NCwiZXhwIjoxNzkyNDM0Mjk0LCJhcnRpY2xlSWQiOiJUTVQ0SDVSS1YyVEQwMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.rC824FbXuutjticK4TKijZtWW-ewDWvg6AIoVnPo5IA"
+            }
+          ]
+        },
+        {
+          "name": "Sources: Epic has delayed the release of an upcoming game, instructing developers to implement an \"AI first\" production model with \"no more hand-written code\"",
+          "stories": [
+            {
+              "headline": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+              "blurb": "theverge.com 2 min read",
+              "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout"
+            }
+          ]
+        },
+        {
+          "name": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+          "stories": [
+            {
+              "headline": "A UAF turned RCE",
+              "blurb": "daniel.haxx.se 6 min read",
+              "url": "https://daniel.haxx.se/blog/2026/10/14/a-uaf-turned-rce"
+            }
+          ]
+        },
+        {
+          "name": "A UAF turned RCE",
+          "stories": [
+            {
+              "headline": "Zero to Calc in Six Days: Inside XBOW’s Chrome Full Chain | XBOW Labs",
+              "blurb": "xbow.com 17 min read",
+              "url": "https://xbow.com/labs/research/zero-to-calc-in-six-days-inside-xbow-chrome-full-chain"
+            }
+          ]
+        },
+        {
+          "name": "Zero to Calc in Six Days: Inside XBOW’s Chrome Full Chain | XBOW Labs",
+          "stories": [
+            {
+              "headline": "Better HTTP/1 connection reuse",
+              "blurb": "go.dev 6 min read",
+              "url": "https://go.dev/blog/http-connection-reuse"
+            }
+          ]
+        },
+        {
+          "name": "Better HTTP/1 connection reuse",
+          "stories": [
+            {
+              "headline": "SpaceX limits Starlink service for Ukraine’s high-speed military drones without prior warning",
+              "blurb": "tomshardware.com 2 min read",
+              "url": "https://www.tomshardware.com/tech-industry/drones/spacex-limits-starlink-service-for-ukraines-high-speed-military-drones-without-prior-warning-ukrainian-officials-say-limitation-significantly-complicates-logistics-and-drone-operations"
+            }
+          ]
+        },
+        {
+          "name": "SpaceX limits Starlink service for Ukraine’s high-speed military drones without prior warning",
+          "stories": [
+            {
+              "headline": "Eight states accuse OpenAI of coaching children to harm themselves in lawsuit",
+              "blurb": "theguardian.com 2 min read",
+              "url": "https://www.theguardian.com/technology/2026/oct/14/openai-child-self-harm-lawsuit"
+            }
+          ]
+        },
+        {
+          "name": "Eight states accuse OpenAI of coaching children to harm themselves in lawsuit",
+          "stories": [
+            {
+              "headline": "GlobalFoundries to build and operate two new chip fabs in NY as part of $21bn US-Japan deal",
+              "blurb": "datacenterdynamics.com 2 min read",
+              "url": "https://www.datacenterdynamics.com/en/news/globalfoundries-to-build-and-operate-two-new-chip-fabs-in-ny-as-part-of-21bn-us-japan-deal"
+            }
+          ]
+        },
+        {
+          "name": "GlobalFoundries to build and operate two new chip fabs in NY as part of $21bn US-Japan deal",
+          "stories": [
+            {
+              "headline": "Meta says its new Muse model has reached the AI frontier",
+              "blurb": "thenextweb.com 2 min read",
+              "url": "https://thenextweb.com/news/meta-muse-wonder-frontier-eu"
+            }
+          ]
+        },
+        {
+          "name": "Meta says its new Muse model has reached the AI frontier",
+          "stories": [
+            {
+              "headline": "Muse Wonder: Zuckerberg and Wang's $100B AI",
+              "blurb": "cheekypint.substack.com 119 min read",
+              "url": "https://cheekypint.substack.com/p/muse-wonder-zuckerberg-and-wangs"
+            }
+          ]
+        },
+        {
+          "name": "Muse Wonder: Zuckerberg and Wang's $100B AI",
+          "stories": [
+            {
+              "headline": "NousResearch/hermes-agent: Release Hermes Agent v0.22.0",
+              "blurb": "github.com 45 min read",
+              "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0"
+            }
+          ]
+        },
+        {
+          "name": "NousResearch/hermes-agent: Release Hermes Agent v0.22.0",
+          "stories": [
+            {
+              "headline": "Prime Intellect acquires Moondream to speed inference (*)",
+              "blurb": "primeintellect.ai 2 min read",
+              "url": "https://www.primeintellect.ai/blog/moondream"
+            }
+          ]
+        },
+        {
+          "name": "Prime Intellect acquires Moondream to speed inference (*)",
+          "stories": [
+            {
+              "headline": "Inference has no yardstick",
+              "blurb": "ciphertalk.substack.com 11 min read",
+              "url": "https://ciphertalk.substack.com/p/inference-has-no-yardstick"
+            }
+          ]
+        },
+        {
+          "name": "Inference has no yardstick",
+          "stories": [
+            {
+              "headline": "Accelerating Scientific Research in Health Data Science With Muse Models | Meta AI Research",
+              "blurb": "go.meta.me 9 min read",
+              "url": "https://go.meta.me/3U06wvD"
+            }
+          ]
+        },
+        {
+          "name": "Accelerating Scientific Research in Health Data Science With Muse Models | Meta AI Research",
+          "stories": [
+            {
+              "headline": "Bumble agrees to a $1.3B acquisition deal as online dating faces a reset",
+              "blurb": "techcrunch.com 2 min read",
+              "url": "https://techcrunch.com/2026/10/13/bumble-agrees-to-a-1-3b-acquisition-deal-as-online-dating-faces-a-reset"
+            }
+          ]
+        },
+        {
+          "name": "Bumble agrees to a $1.3B acquisition deal as online dating faces a reset",
+          "stories": [
+            {
+              "headline": "Modal crosses $1B in Annualized Run Rate and raises $750M Series D",
+              "blurb": "modal.com 3 min read",
+              "url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d"
+            }
+          ]
+        },
+        {
+          "name": "Modal crosses $1B in Annualized Run Rate and raises $750M Series D",
+          "stories": [
+            {
+              "headline": "Cloudflare is acquiring Deno to strengthen its Workers platform",
+              "blurb": "qz.com 2 min read",
+              "url": "https://qz.com/cloudflare-acquiring-deno-workers-platform-101226"
+            }
+          ]
+        },
+        {
+          "name": "Cloudflare is acquiring Deno to strengthen its Workers platform",
+          "stories": [
+            {
+              "headline": "Linus Torvalds's first LLM-assisted patch series",
+              "blurb": "lwn.net 1 min read",
+              "url": "https://lwn.net/Articles/1100449"
+            }
+          ]
+        },
+        {
+          "name": "Linus Torvalds's first LLM-assisted patch series",
+          "stories": [
+            {
+              "headline": "Artificial Analysis Decision Index v1.0 | Artificial Analysis",
+              "blurb": "artificialanalysis.ai 5 min read",
+              "url": "https://artificialanalysis.ai/articles/artificial-analysis-decision-index"
+            }
+          ]
+        },
+        {
+          "name": "Artificial Analysis Decision Index v1.0 | Artificial Analysis",
+          "stories": [
+            {
+              "headline": "How to use a ChatGPT Dot when it rolls out to you",
+              "blurb": "engadget.com 3 min read",
+              "url": "https://www.engadget.com/2281998/how-to-use-opeai-dot-rollout-schedule"
+            }
+          ]
+        },
+        {
+          "name": "How to use a ChatGPT Dot when it rolls out to you",
+          "stories": [
+            {
+              "headline": "Computational design of metalloproteases",
+              "blurb": "nature.com 16 min read",
+              "url": "https://www.nature.com/articles/s41586-026-11167-2"
+            }
+          ]
+        },
+        {
+          "name": "Computational design of metalloproteases",
+          "stories": [
+            {
+              "headline": "Netflix Conductor: The Next Chapter",
+              "blurb": "netflixtechblog.com 20 min read",
+              "url": "https://netflixtechblog.com/netflix-conductor-the-next-chapter-41ad21067649?source=rss----2615bd06b42e---4"
+            }
+          ]
+        },
+        {
+          "name": "Netflix Conductor: The Next Chapter",
+          "stories": [
+            {
+              "headline": "The Lifecycle of LLM-as-a-Judge: Building, Aligning, and Monitoring at scale",
+              "blurb": "netflixtechblog.com 17 min read",
+              "url": "https://netflixtechblog.com/the-lifecycle-of-llm-as-a-judge-building-aligning-and-monitoring-at-scale-c95bd8283508?source=rss----2615bd06b42e---4"
+            }
+          ]
+        },
+        {
+          "name": "The Lifecycle of LLM-as-a-Judge: Building, Aligning, and Monitoring at scale",
+          "stories": [
+            {
+              "headline": "Microsoft Patches More Than 1,400 Security Flaws",
+              "blurb": "krebsonsecurity.com 2 min read",
+              "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
