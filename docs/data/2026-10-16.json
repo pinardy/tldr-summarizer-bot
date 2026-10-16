@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-16",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Frontier Models",
+          "stories": [
+            {
+              "headline": "Meta Releases Open-Weight Muse Spark Model",
+              "blurb": "Meta AI introduced Muse Spark Open, delivering state-of-the-art capabilities among open-weight models to make advanced AI research and deployment more accessible.",
+              "url": "https://research.meta.ai/blog/muse-spark-open"
+            },
+            {
+              "headline": "Google Launches Gemini 4 Argon on Cloud",
+              "blurb": "Google Cloud made Gemini 4 Argon generally available, offering enterprise developers upgraded multimodal reasoning capabilities for production workloads.",
+              "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud?e=48754805"
+            },
+            {
+              "headline": "Microsoft Unveils Custom Maia 300 AI Silicon",
+              "blurb": "Microsoft announced its next-generation Maia 300 accelerator chip to optimize cloud infrastructure and reduce reliance on expensive third-party GPUs.",
+              "url": "https://www.computerworld.com/article/4234722/microsoft-unveils-new-maia-300-ai-chip.html"
+            },
+            {
+              "headline": "Mistral AI Open-Sources Timestral Time Series Models",
+              "blurb": "Mistral AI released Timestral, a family of foundation models built specifically to bring modern transformer architectures to time-series forecasting and analytical data.",
+              "url": "https://github.com/mistralai/timestral"
+            },
+            {
+              "headline": "Character.ai Bankruptcy Highlights AI Economic Pressures",
+              "blurb": "Court filings from Character.ai's bankruptcy reveal massive inference and compute overheads, underscoring systemic profitability challenges for consumer AI startups.",
+              "url": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work"
+            }
+          ]
+        },
+        {
+          "name": "Security & Risk",
+          "stories": [
+            {
+              "headline": "Critical Unauthenticated RCE Discovered in GitLab",
+              "blurb": "Security researchers disclosed a critical zero-day vulnerability in GitLab that allows unauthenticated attackers to execute code remotely, prompting urgent patch advisories.",
+              "url": "https://www.rapid7.com/blog/post/etr-cve-2026-97229-critical-unauthenticated-remote-code-execution-in-gitlab"
+            },
+            {
+              "headline": "Attackers Chain Exploits Against Ivanti Connect Secure",
+              "blurb": "Threat actors are actively chaining multiple unauthenticated zero-day vulnerabilities in Ivanti Connect Secure devices to breach enterprise security perimeters.",
+              "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days"
+            },
+            {
+              "headline": "Targeted Ads Weaponized to Deliver Zero-Click Spyware",
+              "blurb": "Citizen Lab exposed how surveillance firm Discover-Tech abused ad-targeting pipelines to covertly deliver zero-click mercenary spyware to target devices.",
+              "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware"
+            },
+            {
+              "headline": "Investigation Uncovers Backdoor Risks in Ledger Wallets",
+              "blurb": "A security report uncovered unauthorized access mechanisms in select Ledger hardware wallets, threatening the core security guarantees of offline crypto storage.",
+              "url": "https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets"
+            }
+          ]
+        },
+        {
+          "name": "Dev Tools & Infrastructure",
+          "stories": [
+            {
+              "headline": "Anthropic Re-Engineers Source Control for Scaling",
+              "blurb": "Anthropic detailed how it redesigned its internal source control systems to maintain rapid deployment speeds across massive codebases and AI workflows.",
+              "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+            },
+            {
+              "headline": "Compiler Bug Bypasses Rust Lifetime Safety Checks",
+              "blurb": "A newly identified issue in the Rust compiler allows covariant field assignments to bypass lifetime constraints, weakening memory safety guarantees in affected code.",
+              "url": "https://github.com/rust-lang/rust/issues/164250"
+            },
+            {
+              "headline": "Electric SQL Open-Sources PGlite for WebAssembly Postgres",
+              "blurb": "PGlite runs lightweight Postgres directly inside WebAssembly, enabling developers to build fast, client-side relational applications with real-time data binding.",
+              "url": "https://github.com/electric-sql/pglite"
+            },
+            {
+              "headline": "Perplexity Open-Sources SPACE Agent Sandbox Platform",
+              "blurb": "Perplexity released SPACE, a sandbox environment designed to help developers safely isolate and execute code generated by autonomous AI agents.",
+              "url": "https://www.perplexity.ai/hub/blog/open-sourcing-space"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
