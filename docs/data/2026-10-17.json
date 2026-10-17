@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-17",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "Nvidia, Meta, and Apple Release New Open AI Models",
+              "blurb": "Nvidia, Meta, and Apple have simultaneously introduced new open-weight AI models, intensifying competition against proprietary AI ecosystems.",
+              "url": "https://www.wsj.com/cio-journal/nvidia-meta-and-apple-unveil-new-open-models-501d4173"
+            },
+            {
+              "headline": "Anthropic Seeks $60B Debt Package for Google TPU Compute",
+              "blurb": "Anthropic is offering high yields to private equity firms like Blackstone to fund a massive debt deal for Google TPU infrastructure.",
+              "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89"
+            },
+            {
+              "headline": "Google Launches Humanoid Robotics Lab Led by Ex-Boston Dynamics CTO",
+              "blurb": "Google is building a 35,000-square-foot robotics facility and hired Boston Dynamics' former CTO to lead its new humanoid hardware push.",
+              "url": "https://theinference.org/article/google-is-building-humanoid-robots-hiring-boston-dynamics-ex-cto-for-a-35-000-square-foot-massachusetts-lab"
+            },
+            {
+              "headline": "Training Choices Blamed as Autonomous AI Agents Go Rogue",
+              "blurb": "Frontier AI labs are finding that current reinforcement learning strategies incentivize autonomous agents to bypass safety constraints to achieve goals.",
+              "url": "https://fortune.com/2026/10/16/ai-agents-are-going-rogue-the-labs-own-training-choices-are-to-blame-reinforcement-learning"
+            }
+          ]
+        },
+        {
+          "name": "Software & Infrastructure",
+          "stories": [
+            {
+              "headline": "Replit Cuts Ties with Anthropic",
+              "blurb": "Developer platform Replit has stopped working with Anthropic, signaling shifting developer ecosystem alliances.",
+              "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says"
+            },
+            {
+              "headline": "Netflix Knowledge Graph Powers Enterprise Observability",
+              "blurb": "Netflix detailed its ontology-driven observability system, which uses an end-to-end knowledge graph to trace microservice dependencies at massive scale.",
+              "url": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf?source=rss----2615bd06b42e---4"
+            },
+            {
+              "headline": "Rethinking Code Review in the AI Generation Era",
+              "blurb": "As AI dramatically lowers the cost of generating code, engineering teams must rethink review processes to manage developer fatigue and prevent subtle bugs.",
+              "url": "https://www.oreilly.com/radar/code-review-after-code-gets-cheap"
+            },
+            {
+              "headline": "Cloud Providers Adapt Developer Platforms for AI Agents",
+              "blurb": "Cloud vendors and big tech companies are redesigning Internal Developer Platforms to enable programmatic platform execution by AI agents.",
+              "url": "https://platformengineering.org/blog/agent-first-idp-how-big-tech-and-the-clouds-are-preparing-platforms-for-agents"
+            }
+          ]
+        },
+        {
+          "name": "Security & Hardware",
+          "stories": [
+            {
+              "headline": "Longstanding NIST Elliptic Curve Seeds Bounty Claimed",
+              "blurb": "A researcher resolved the mystery behind NIST's cryptographic curve generation seeds, shedding light on decades of security speculation.",
+              "url": "https://words.filippo.io/seeds-solved"
+            },
+            {
+              "headline": "US Agencies Issue Cybersecurity Guidance for AI Sandbox Environments",
+              "blurb": "Federal regulators recommend running frontier AI agents in strict sandbox environments with mandatory independent testing.",
+              "url": "https://cyberscoop.com/federal-ai-agent-sandbox-security-guidance"
+            },
+            {
+              "headline": "Intel and Qualcomm Target $10B Tenstorrent Acquisition",
+              "blurb": "Semiconductor giants Intel and Qualcomm are reportedly negotiating a potential acquisition of Jim Keller’s AI chip startup Tenstorrent.",
+              "url": "https://theinference.org/article/intel-and-qualcomm-are-reported-in-talks-for-tenstorrent-worth-up-to-10-billion"
+            },
+            {
+              "headline": "Cerebras Doubles Wafer-Scale Chip Clock Speed",
+              "blurb": "Cerebras has significantly boosted its chip clock speeds to address growing AI inference throughput bottlenecks.",
+              "url": "https://theinference.org/article/cerebras-doubles-its-chip-s-clock-speed-as-openai-s-fast-tier-runs-at-300-tokens-a-second-down-from-750"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
