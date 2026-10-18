@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-18",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Machine Learning",
+          "stories": [
+            {
+              "headline": "Microsoft Diversifies AI Stack with $2B Anthropic Deal",
+              "blurb": "Microsoft plans to pay Anthropic over $2 billion annually to integrate its models into Copilot and reduce reliance on OpenAI.",
+              "url": "https://cryptobriefing.com/microsoft-anthropic-2b-copilot-deal"
+            },
+            {
+              "headline": "Google's Gemini 4 Argon Refactor Unblocks 6 Million Lines of Chromium",
+              "blurb": "Google leveraged its Gemini 4 Argon model to refactor millions of lines of legacy Chromium code, demonstrating AI's growing role in large-scale software maintenance.",
+              "url": "https://pbxscience.com/googles-gemini-4-argon-helped-untangle-6-million-lines-of-chromium-code"
+            },
+            {
+              "headline": "Reflection AI Launches Top-Performing Open Model Beam",
+              "blurb": "Reflection AI released Beam, securing the second-highest spot among US open-weights models on the Artificial Analysis benchmark.",
+              "url": "https://officechai.com/ai/reflection-ai-releases-beam-becomes-second-best-us-open-model-on-artificial-analysis-intelligence-index"
+            },
+            {
+              "headline": "Nvidia Optimizes Kimi K3 Model to Achieve High Token Throughput",
+              "blurb": "Nvidia reached 423 tokens per second per user on the Kimi K3 model by applying custom vLLM optimizations.",
+              "url": "https://x.com/semianalysis_/status/2111627094878790023"
+            },
+            {
+              "headline": "StepFun Unveils Smartphone OS Centered on AI Agents",
+              "blurb": "Chinese startup StepFun launched a phone operating system built directly around an autonomous AI agent rather than traditional applications.",
+              "url": "https://decrypt.co/381202/chinese-startup-stepfun-phone-ai-agent"
+            }
+          ]
+        },
+        {
+          "name": "Cybersecurity & Policy",
+          "stories": [
+            {
+              "headline": "OpenAI Explores Acquisition of Trail of Bits",
+              "blurb": "OpenAI is in early discussions to acquire cybersecurity firm Trail of Bits to enhance its automated code safety and infrastructure defenses.",
+              "url": "https://thenextweb.com/news/openai-trail-of-bits-acquisition-talks"
+            },
+            {
+              "headline": "Banks Block Unauthorized AI Agents from Financial Operations",
+              "blurb": "Financial institutions including Schwab and JPMorgan are actively blocking AI agents from conducting financial transactions to prevent fraud.",
+              "url": "https://forkast.news/schwab-and-jpmorgan-block-unauthorized-ai-agents-from-moving-money-as-private-ordering-reaches-financial-core"
+            },
+            {
+              "headline": "JavaScript Parser Divergence Exposes Engine Inconsistencies",
+              "blurb": "Research across 37 JavaScript engines revealed that minor code formatting changes can alter program execution logic, creating severe security risks.",
+              "url": "https://trustsig.eu/blog/javascript-divergence"
+            },
+            {
+              "headline": "Anthropic AI Safety Legislation Sparks Industry Debate",
+              "blurb": "A proposed draft AI safety bill authored by Anthropic faces criticism over setting regulatory compliance thresholds based on raw training compute power.",
+              "url": "https://cryptobriefing.com/anthropic-ai-safety-bill-frontier-threshold"
+            }
+          ]
+        },
+        {
+          "name": "Dev Tools & Infrastructure",
+          "stories": [
+            {
+              "headline": "Antithesis Secures $105M to Debug AI-Generated Code",
+              "blurb": "Automated testing startup Antithesis raised $105 million at a $525 million valuation to help developers catch bugs in AI-written code bases.",
+              "url": "https://cryptobriefing.com/antithesis-raises-105m-525m-valuation"
+            },
+            {
+              "headline": "GitHub Actions Lockfiles Pin Commits for Secure Workflows",
+              "blurb": "GitHub Actions introduced workflow lockfiles that explicitly pin action commit SHAs while preserving semantic versioning, protecting CI/CD pipelines from supply chain attacks.",
+              "url": "https://cicd.deployment.to/github-actions-workflow-lockfiles-preview"
+            },
+            {
+              "headline": "Xolotl Brings DeepSeek-V4.1-Flash to Single Consumer GPUs",
+              "blurb": "An open-source project called Xolotl enables developers to run the DeepSeek-V4.1-Flash model locally on a single consumer RTX 4090 card.",
+              "url": "https://github.com/Indras-Mirror/Xolotl"
+            },
+            {
+              "headline": "Behavioral Evaluation Uncovers Flaws in Open-Source AI Agents",
+              "blurb": "Testing across 53 open-source AI agent projects revealed widespread execution bugs, resulting in 37 filed bug reports.",
+              "url": "https://news.ycombinator.com/item?id=50136669"
+            },
+            {
+              "headline": "SpaceX Expands Direct-to-Cell Satellite Infrastructure",
+              "blurb": "SpaceX is making heavy investments in Starlink's direct-to-cell service to deliver global mobile coverage and compete directly with legacy carriers.",
+              "url": "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
