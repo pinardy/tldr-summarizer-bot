@@ -2,510 +2,523 @@
   "date": "2026-10-20",
   "mode": "per-newsletter",
   "categories": [
-    "tech"
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design"
   ],
   "digests": [
     {
-      "title": "TLDR Tech — 2026-10-20",
-      "tagline": "Get the free daily email with summaries of the most interesting stories in startups, tech, and programming.",
+      "title": "TLDR AI — 2026-10-20",
+      "tagline": "Mercury 3 🤖, MiniMax Flash 3.1 ⚡, Exa 3 🔎",
       "sections": [
         {
-          "name": "",
+          "name": "Headlines & Launches",
           "stories": [
             {
-              "headline": "Disney found a way to buy Character.AI without buying its lawsuits",
-              "blurb": "arstechnica.com 1 min read",
-              "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits"
-            }
-          ]
-        },
-        {
-          "name": "Disney found a way to buy Character.AI without buying its lawsuits",
-          "stories": [
+              "headline": "MiniMax M3.1 Flash: Redefining Agent Performance and Cost (4 minute read)",
+              "blurb": "MiniMax M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use, and cybersecurity. It makes online inference nearly three times faster and reduces usage costs by 70%. The model is now available through the MiniMax API, M Plan, and MiniMax Code. MiniMax plans to release the model weights at a later date.",
+              "url": "https://www.minimax.io/blog/minimax-m31f"
+            },
             {
-              "headline": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
-              "blurb": "techcrunch.com 3 min read",
-              "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool"
-            }
-          ]
-        },
-        {
-          "name": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
-          "stories": [
-            {
-              "headline": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
-              "blurb": "techcrunch.com 2 min read",
-              "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal"
-            }
-          ]
-        },
-        {
-          "name": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
-          "stories": [
-            {
-              "headline": "How one hacker used AI agents and a few thousand dollars to break into scores of sites: Reuters exclusive",
-              "blurb": "bnnbloomberg.ca 3 min read",
-              "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/10/19/how-one-hacker-used-ai-agents-and-a-few-thousand-dollars-to-break-into-scores-of-sites-reuters-exclusive"
-            }
-          ]
-        },
-        {
-          "name": "How one hacker used AI agents and a few thousand dollars to break into scores of sites: Reuters exclusive",
-          "stories": [
-            {
-              "headline": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
-              "blurb": "techcrunch.com 4 min read",
-              "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted"
-            }
-          ]
-        },
-        {
-          "name": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
-          "stories": [
-            {
-              "headline": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
-              "blurb": "quantamagazine.org 7 min read",
-              "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019"
-            }
-          ]
-        },
-        {
-          "name": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
-          "stories": [
-            {
-              "headline": "Nvidia launches new open models to run agents in the enterprise and on PCs",
-              "blurb": "techcrunch.com 3 min read",
-              "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs"
-            }
-          ]
-        },
-        {
-          "name": "Nvidia launches new open models to run agents in the enterprise and on PCs",
-          "stories": [
-            {
-              "headline": "Diffusion at Scale: Introducing Mercury 3 – Inception",
-              "blurb": "inceptionlabs.ai 2 min read",
+              "headline": "Mercury 3 (4 minute read)",
+              "blurb": "Inception Labs' Mercury 3 is a diffusion-based language model that reportedly outperformed GPT-6 Luna and Claude Haiku 5.5 on multiple benchmarks while generating over 1,000 tokens per second.",
               "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
-            }
-          ]
-        },
-        {
-          "name": "Diffusion at Scale: Introducing Mercury 3 – Inception",
-          "stories": [
+            },
             {
-              "headline": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
-              "blurb": "engineering.fb.com 17 min read",
-              "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster"
-            }
-          ]
-        },
-        {
-          "name": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
-          "stories": [
-            {
-              "headline": "Why Anthropic replaced Git, and whether you’ll need to",
-              "blurb": "arize.com 9 min read",
-              "url": "https://arize.com/blog/anthropic-scion-vs-git"
-            }
-          ]
-        },
-        {
-          "name": "Why Anthropic replaced Git, and whether you’ll need to",
-          "stories": [
-            {
-              "headline": "Waymo plans to quintuple its fleet",
-              "blurb": "semafor.com 1 min read",
-              "url": "https://www.semafor.com/article/10/19/2026/waymo-plans-to-quintuple-its-fleet"
-            }
-          ]
-        },
-        {
-          "name": "Waymo plans to quintuple its fleet",
-          "stories": [
-            {
-              "headline": "Cutting our inference bill by 68% by being obsessive about optimization",
-              "blurb": "blog.cloudflare.com 15 min read",
-              "url": "https://blog.cloudflare.com/obsessive-inference-optimization"
-            }
-          ]
-        },
-        {
-          "name": "Cutting our inference bill by 68% by being obsessive about optimization",
-          "stories": [
-            {
-              "headline": "Nvidia Vera’s System Architecture: Pushing Bandwidth",
-              "blurb": "chipsandcheese.com 8 min read",
-              "url": "https://chipsandcheese.com/p/nvidia-veras-system-architecture"
-            }
-          ]
-        },
-        {
-          "name": "Nvidia Vera’s System Architecture: Pushing Bandwidth",
-          "stories": [
-            {
-              "headline": "Microsoft Completes Pretraining of 2.8 Trillion-Parameter MAI-Base-2",
-              "blurb": "thelec.net 2 min read",
-              "url": "https://www.thelec.net/news/articleView.html?idxno=14721"
-            }
-          ]
-        },
-        {
-          "name": "Microsoft Completes Pretraining of 2.8 Trillion-Parameter MAI-Base-2",
-          "stories": [
-            {
-              "headline": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-              "blurb": "technologyreview.com 3 min read",
-              "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play"
-            }
-          ]
-        },
-        {
-          "name": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-          "stories": [
-            {
-              "headline": "What has to go right to justify the trillions being spent on AI CapEx?",
-              "blurb": "generativevalue.com 15 min read",
-              "url": "https://www.generativevalue.com/p/what-has-to-go-right-to-justify-the"
-            }
-          ]
-        },
-        {
-          "name": "What has to go right to justify the trillions being spent on AI CapEx?",
-          "stories": [
-            {
-              "headline": "kksimp/Mac.apk: Run Android apps natively on Apple Silicon Macs",
-              "blurb": "github.com 3 min read",
-              "url": "https://github.com/kksimp/Mac.apk"
-            }
-          ]
-        },
-        {
-          "name": "kksimp/Mac.apk: Run Android apps natively on Apple Silicon Macs",
-          "stories": [
-            {
-              "headline": "Gemini 4: Argon - Early Access Review",
-              "blurb": "jgunnink.substack.com 9 min read",
-              "url": "https://jgunnink.substack.com/p/gemini-4-argon-early-access-review"
-            }
-          ]
-        },
-        {
-          "name": "Gemini 4: Argon - Early Access Review",
-          "stories": [
-            {
-              "headline": "Dream Labs, which offers an API for its Dream-1 robot foundation model trained on human videos, raised a $90M seed led by B Capital and Kindred Ventures",
-              "blurb": "forbes.com 6 min read",
-              "url": "https://www.forbes.com/sites/johnkoetsier/2026/10/19/robot-brains-for-75-centshour-former-nvidia-researchers-raise-90-million"
-            }
-          ]
-        },
-        {
-          "name": "Dream Labs, which offers an API for its Dream-1 robot foundation model trained on human videos, raised a $90M seed led by B Capital and Kindred Ventures",
-          "stories": [
-            {
-              "headline": "AI Benchmarks: Climbing the Wrong Hills | Contrary Research",
-              "blurb": "research.contrary.com 21 min read",
-              "url": "https://research.contrary.com/deep-dive/ai-benchmarks-climbing-the-wrong-hills"
-            }
-          ]
-        },
-        {
-          "name": "AI Benchmarks: Climbing the Wrong Hills | Contrary Research",
-          "stories": [
-            {
-              "headline": "US Moves to Bar DeepSeek From Federal Agencies and Contracts",
-              "blurb": "ca.finance.yahoo.com 1 min read",
-              "url": "https://ca.finance.yahoo.com/news/us-moves-bar-deepseek-federal-133753757.html"
-            }
-          ]
-        },
-        {
-          "name": "US Moves to Bar DeepSeek From Federal Agencies and Contracts",
-          "stories": [
-            {
-              "headline": "A look at Anthropic's Long-Term Benefit Trust, an unusual, opaque five-member trust whose trustees own no equity and hold enormous sway over the company",
-              "blurb": "wsj.com 5 min read",
-              "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg"
-            }
-          ]
-        },
-        {
-          "name": "A look at Anthropic's Long-Term Benefit Trust, an unusual, opaque five-member trust whose trustees own no equity and hold enormous sway over the company",
-          "stories": [
-            {
-              "headline": "MiniMax-AI releases MiniMax-M3.1-Flash reasoning model",
-              "blurb": "x.com 1 min read",
-              "url": "https://x.com/artificialanlys/status/2112211865128608002"
-            }
-          ]
-        },
-        {
-          "name": "MiniMax-AI releases MiniMax-M3.1-Flash reasoning model",
-          "stories": [
-            {
-              "headline": "AI agents are only as good as the personal information you share",
-              "blurb": "apnews.com 5 min read",
-              "url": "https://apnews.com/article/meta-muse-openai-dot-ai-privacy-449734d41d3750aad7038b761faa49c9"
-            }
-          ]
-        },
-        {
-          "name": "AI agents are only as good as the personal information you share",
-          "stories": [
-            {
-              "headline": "Introducing Clairic, a new System One class of extraction models",
-              "blurb": "blog.cloudflare.com 16 min read",
+              "headline": "Introducing Clairic, a new System One class of extraction models (16 minute read)",
+              "blurb": "Clairic can extract, compute, estimate, and forecast values from unstructured inputs. It is an 'extraction model', a new class of System One-style model that returns values directly extracted from the input, computed from it, or predicted beyond it. The model doesn't generate any tokens, so it can't produce a mistyped answer or hallucinate in the same way LLMs can. It can still make mistakes, but its outputs come with confidence scores to help users evaluate whether it is appropriate to trust the model or to take a second look.",
               "url": "https://blog.cloudflare.com/clairic-extraction-model"
             }
           ]
         },
         {
-          "name": "Introducing Clairic, a new System One class of extraction models",
+          "name": "Deep Dives & Analysis",
           "stories": [
             {
-              "headline": "AI Compute and Data Center Vulnerabilities in Recent Conflicts",
-              "blurb": "x.com 1 min read",
-              "url": "https://x.com/rohanpaul_ai/status/2112260223050346710"
+              "headline": "Import AI 477: In which I tell the IMF the Singularity has begun (22 minute read)",
+              "blurb": "AI's impact on national security and economic trajectories marks the onset of the singularity, accelerating scientific and technological progress. AI systems like Claude, ChatGPT, and Gemini are already solving complex problems in disciplines like mathematics, biology, and robotics, indicating potential for widespread innovation. To capitalize on these advancements, there needs to be significant infrastructure development and careful governance to navigate the associated risks and ensure equitable benefits.",
+              "url": "https://importai.substack.com/p/import-ai-477-in-which-i-tell-the"
+            },
+            {
+              "headline": "AI Benchmarks: Climbing the Wrong Hills (24 minute read)",
+              "blurb": "AI benchmarks are now shaping how models are evaluated in training and the capabilities they are designed to have. Poorly constructed benchmarks could push the industry in the wrong direction. Creating benchmarks impervious to benchmaxxing requires expertise in measuring what we actually want from AI systems. As benchmaxxing continues, researchers must decide which hills they want to climb and whether today's benchmarks actually reward progress in that direction.",
+              "url": "https://research.contrary.com/report/ai-benchmarks-climbing-the-wrong-hills"
+            },
+            {
+              "headline": "Inside Meta's Gigawatt-Scale AI Supercluster (14 minute read)",
+              "blurb": "Meta details the engineering behind Prometheus, its gigawatt-scale AI supercluster supporting the Muse model family. It explores its infrastructure design, plans to scale toward roughly one million GPUs, and closed-loop liquid cooling technology.",
+              "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/"
             }
           ]
         },
         {
-          "name": "AI Compute and Data Center Vulnerabilities in Recent Conflicts",
+          "name": "Engineering & Research",
           "stories": [
             {
-              "headline": "How far can we push computing?",
-              "blurb": "technologyreview.com 14 min read",
-              "url": "https://www.technologyreview.com/2026/10/19/1145904/tr-explains-how-far-can-we-push-computing"
+              "headline": "Introducing TorchNeuron: Native PyTorch backend for AWS Trainium (27 minute read)",
+              "blurb": "TorchNeuron is an open-source native PyTorch backend for Trainium. It uses the model code, the libraries, and the tools developers already use on Trainium. TorchNeuron supports eager execution for research and debugging. It has been released in public Beta under the Apache 2.0 open source licence.",
+              "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/"
+            },
+            {
+              "headline": "Introducing Exa 3.0 (3 minute read)",
+              "blurb": "Exa 3.0 leads on evaluations spanning coding, finance, deep research, and company intelligence. The release includes Exa Lite, a new search type priced at $4 per 1,000 requests. Exa runs its own crawler and an independent index, tracking over 2 trillion URLs, serving 100 billion pages, and growing around what its customers search for. The index includes 1.27B ecommerce listings with prices and availability, over 211 million local businesses with hours and ratings, real-time news, sports, weather, and market data, and information on flights, local events, transit, and podcasts.",
+              "url": "https://exa.ai/blog/exa-3"
+            },
+            {
+              "headline": "Office Intelligence for Long-Running AI Work (3 minute read)",
+              "blurb": "Office Intelligence explores how AI agents can use evidence, create useful work artifacts, and carry knowledge across tasks. The project focuses on environments, datasets, and learning methods for sustained knowledge work.",
+              "url": "https://officeintelligence.github.io/"
             }
           ]
         },
         {
-          "name": "How far can we push computing?",
+          "name": "Miscellaneous",
           "stories": [
             {
-              "headline": "OpenAI is reportedly rushing its $30 billion round to finish before Anthropic's November IPO",
-              "blurb": "aistockwire.com 2 min read",
-              "url": "https://aistockwire.com/blog/openai-accelerates-30-billion-round-before-anthropic-ipo-1-4-trillion-october-2026"
+              "headline": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal (1 minute read)",
+              "blurb": "Anthropic and Nscale may be on the verge of announcing another $45 billion compute deal. The two companies announced a $45 billion compute deal only a little over a month ago. Both companies are currently pursuing IPOs. Anthropic is still expected to go public this year. Nscale is experiencing investor pushback over its proposed valuation of $30 billion.",
+              "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+            },
+            {
+              "headline": "AI lab offers free plumbing and HVAC repairs across three cities to train AI robots (2 minute read)",
+              "blurb": "AI lab HUMXN is subsidizing plumbing, electrical, HVAC, air-duct cleaning, and carpet cleaning in Minneapolis, Chicago, and Miami so it can gather real-world data to train AI robots. The laborers doing the jobs will wear cameras to record their work inside real homes. People living in the three cities the program is running in can check whether they qualify on the HUMXN Free Home Service webpage.",
+              "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning"
             }
           ]
         },
         {
-          "name": "OpenAI is reportedly rushing its $30 billion round to finish before Anthropic's November IPO",
+          "name": "Quick Links",
           "stories": [
             {
-              "headline": "Apple’s HomeView smart display ties to Siri trust debate (*)",
-              "blurb": "stratechery.com 14 min read",
-              "url": "https://stratechery.com/2026/do-you-trust-apple"
+              "headline": "Improving AI Coding in Older Programming Languages (6 minute read)",
+              "blurb": "OpenAI reported major improvements in coding and software migration across languages such as COBOL, Fortran, and Visual Basic.",
+              "url": "https://openai.com/index/low-resource-programming-languages/"
+            },
+            {
+              "headline": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do (11 minute read)",
+              "blurb": "Meta built an orchestrator that routes workflows to specialized AI agents without performing any of the domain work itself.",
+              "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/"
+            },
+            {
+              "headline": "How to shape your slides and videos with Gemini Notebook (1 minute read)",
+              "blurb": "Gemini Notebook offers tools to create slides and videos with AI-driven design suggestions.",
+              "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/"
+            },
+            {
+              "headline": "Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM (11 minute read)",
+              "blurb": "The vLLM engine introduced a push-based KV transfer to minimize time-to-first-token (TTFT) and time-per-output-token (TPOT) in disaggregated inference setups.",
+              "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR IT — 2026-10-20",
+      "tagline": "Accenture eyes China exit 🌏, OpenAI tackles COBOL 🛠️, Microsoft hits power snag 🔌",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Microsoft exits UK data center deal amid power delays (5 minute read)",
+              "blurb": "Microsoft reportedly terminated its agreement for capacity at Nscale's planned Loughton facility amid electricity supply delays that could extend into the 2030s. Nscale says the development will proceed and its other Microsoft contracts remain unaffected, highlighting the growing importance of power availability in AI infrastructure planning.",
+              "url": "https://www.cloudcomputing-news.net/news/microsoft-nscale-uk-ai-data-centre/"
+            },
+            {
+              "headline": "Accenture weighs $1.5 billion sale of its China consulting business (5 minute read)",
+              "blurb": "Accenture has hired JPMorgan to explore the sale of its Greater China consulting operations in a deal potentially worth up to $1.5 billion. The strategic review follows unsolicited interest and comes as Beijing restricts foreign consultants from advising state-owned enterprises. Meanwhile, Accenture is redirecting capital and focus toward expanding its artificial intelligence capabilities globally.",
+              "url": "https://startupfortune.com/accenture-weighs-15-billion-sale-of-its-china-consulting-business/"
+            },
+            {
+              "headline": "OpenAI reports major gains in legacy-code modernization (6 minute read)",
+              "blurb": "OpenAI introduced evaluations for building software across 20 programming languages and migrating COBOL while preserving behavior. On its COBOL migration benchmark, GPT-6.1 Sol reached 86.6% accuracy at low reasoning effort, compared with 5.4% for GPT-5.6 Sol, suggesting progress on maintaining and modernizing legacy enterprise systems.",
+              "url": "https://openai.com/index/low-resource-programming-languages/"
             }
           ]
         },
         {
-          "name": "Apple’s HomeView smart display ties to Siri trust debate (*)",
+          "name": "Analysis & Opinions",
           "stories": [
             {
-              "headline": "AI assistant startup Town nabs unicorn valuation four months after launch",
-              "blurb": "techcrunch.com 2 min read",
-              "url": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch"
+              "headline": "The agents nobody meant to build (7 minute read)",
+              "blurb": "IT leaders face an emerging challenge with unsanctioned AI agents created inadvertently by employees using approved desktop tools and recurring workflows. Gartner forecasts that 40% of enterprises will demote or shut down agents by 2027 due to governance gaps, security risks, and a lack of ownership visibility. Managing this risk requires placing hard limits on what agents can touch and integrating education directly into tool access.",
+              "url": "https://www.cio.com/article/4236549/the-agents-nobody-meant-to-build.html"
+            },
+            {
+              "headline": "Enterprise AI outcomes depend on the art of unlearning (5 minute read)",
+              "blurb": "Enterprise AI adoption often falls short because organizations overlook the human element of change management. Successful digital transformation in the agentic era requires empowering employees to unlearn old software habits, supported by dedicated roles like Forward Deployed Engineers and Agentic Design Leads.",
+              "url": "https://www.techradar.com/pro/enterprise-ai-outcomes-depend-on-the-art-of-unlearning"
+            },
+            {
+              "headline": "Enterprise AI needs runtime governance and better context (5 minute read)",
+              "blurb": "Scaling enterprise AI requires coordinating what agents know with what they are permitted to do. Runtime access controls, audit trails, retrieval, and memory need to work together as agents operate across enterprise systems.",
+              "url": "https://www.infocepts.ai/blog/ai-governance-context-orchestration/"
             }
           ]
         },
         {
-          "name": "AI assistant startup Town nabs unicorn valuation four months after launch",
+          "name": "Launches & Partnerships",
           "stories": [
             {
-              "headline": "Robot factories and hypersonic missiles: JPMorgan Chase’s first $5 billion of defense investments",
-              "blurb": "cnbc.com 2 min read",
-              "url": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html"
+              "headline": "Cloudflare expands enterprise integrations for its AI workspace (4 minute read)",
+              "blurb": "Cloudflare expanded the partner ecosystem for Cloudflare OS with integrations spanning Asana, Box, Canva, ClickHouse, GitHub, Gong, and Notion. The announcement also adds professional services partners to help enterprises train employees and adopt AI workflows connected to their existing tools.",
+              "url": "https://www.cloudflare.com/en-au/press/press-releases/2026/cloudflares-ai-workspace-platform-partners-with-leading-applications-and-deployment-teams-to-make-ai-productive-in-the-enterprise/"
+            },
+            {
+              "headline": "Lenovo's AI Express targets enterprises waiting for AI servers (5 minute read)",
+              "blurb": "Lenovo's AI Express is a quick-ship programme developed with Nvidia that aims to cut enterprise AI server lead times to as little as 15 business days. The offering provides three pre-validated configurations ranging from small inference setups to large generative AI platforms using Blackwell hardware. The program is designed for enterprises struggling with hardware scarcity. Orders are subject to strict caps and eligibility checks.",
+              "url": "https://www.computerweekly.com/news/366652396/Lenovos-AI-Express-targets-enterprises-waiting-for-AI-servers"
             }
           ]
         },
         {
-          "name": "Robot factories and hypersonic missiles: JPMorgan Chase’s first $5 billion of defense investments",
+          "name": "Miscellaneous",
           "stories": [
             {
-              "headline": "Nvidia GB300 FP4 vs TPUv7 Performance Comparison",
-              "blurb": "x.com 1 min read",
-              "url": "https://x.com/semianalysis_/status/2112258243372146742"
+              "headline": "Cisco Secure Email Gateway Zero-Day Exploited Again (4 minute read)",
+              "blurb": "Cisco confirmed that a zero-day vulnerability in its Secure Email Gateway, tracked as CVE-2026-76519 with a CVSS score of 9.8, is actively being exploited in the wild. The path traversal flaw allows unauthenticated attackers to write files and execute root-level commands via crafted email attachments when File Reputation is enabled. Security agencies, including CISA and Germany's BSI, have issued warnings and urgent patching deadlines.",
+              "url": "https://diesec.com/2026/10/cisco-secure-email-gateway-zero-day-cve-2026-76519/"
+            },
+            {
+              "headline": "Why GPU Cloud Observability Is Harder Than It Looks (29 minute read)",
+              "blurb": "GPU cloud observability requires connecting physical infrastructure topology with active workloads, yet traditional monitoring tools often remain isolated by subsystem. Building a live, topology-aware model enables operators to trace performance bottlenecks, manage capacity fragmentation, and correlate hardware telemetry with distributed training or inference jobs.",
+              "url": "https://hackernoon.com/why-gpu-cloud-observability-is-harder-than-it-looks"
             }
           ]
         },
         {
-          "name": "Nvidia GB300 FP4 vs TPUv7 Performance Comparison",
+          "name": "Quick Links",
           "stories": [
             {
-              "headline": "Apple prepares first touchscreen MacBook Pro (*)",
-              "blurb": "theinformation.com 1 min read",
-              "url": "https://www.theinformation.com/articles/apple-pigs-fly"
+              "headline": "IBM Doesn't Need to Sell More Products, It Needs to Sell Its Enterprise AI Harness (7 minute read)",
+              "blurb": "IBM successfully scaled an internal AI harness built over two and a half years to a significant portion of its client base, demonstrating a viable business model for enterprise transformation.",
+              "url": "https://www.horsesforsources.com/ibm-sell-ai-harness-it-built-on-itself_101726/"
+            },
+            {
+              "headline": "OpenCode reports account compromise (3 minute read)",
+              "blurb": "Attackers compromised an older OpenCode system, affecting 1.4% of Console users.",
+              "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Web Dev — 2026-10-20",
+      "tagline": "Developing taste 🎨, Android apps on your Mac 💻, when retries backfire 🔁",
+      "sections": [
+        {
+          "name": "Articles & Tutorials",
+          "stories": [
+            {
+              "headline": "When Retries Make Things Worse: Protecting Your System From Overload (16 minute read)",
+              "blurb": "Retries can turn a slow dependency into a wider outage by multiplying attempts and exhausting connections or workers. A PHP example combines one retry owner, an operation deadline, admission limits, shared retry budgets, and jitter, then outlines a load test that measures both overload and recovery.",
+              "url": "https://wendelladriel.com/blog/when-retries-make-things-worse-protecting-your-system-from-overload"
+            },
+            {
+              "headline": "Making a website AI friendly: what the bots actually fetched from mine (17 minute read)",
+              "blurb": "An analysis of 18 days of traffic to one personal site found that verified crawlers mostly fetched ordinary pages, robots.txt, and the sitemap. Markdown copies attracted verified crawlers within a day, while llms.txt saw no verified training or search crawler requests, suggesting that basic HTML and measured traffic matter more than adding every proposed discovery file.",
+              "url": "https://pournasserian.com/writing/ai-friendly-website-2026"
+            },
+            {
+              "headline": "The generic circular dependency problem (15 minute read)",
+              "blurb": "Generic services become coupled to their consumers when shared types or domain logic pull application knowledge back into analytics, email, or authorization modules. Domain wrappers, locally owned handlers, smaller contracts, and plugin registration can break those cycles, while extracting a shared type package may only hide the conceptual coupling.",
+              "url": "https://www.jayfreestone.com/writing/the-generic-circular-dependency-problem/"
             }
           ]
         },
         {
-          "name": "Apple prepares first touchscreen MacBook Pro (*)",
+          "name": "Opinions & Advice",
           "stories": [
             {
-              "headline": "Web Bot Auth: How to identify AI agents and set policy for them",
-              "blurb": "workos.com 10 min read",
-              "url": "https://workos.com/blog/web-bot-auth-identify-ai-agents"
+              "headline": "Writing is no longer proof of work (6 minute read)",
+              "blurb": "Organizations often use reports and templates as evidence that someone put in effort, followed a process, or understood a topic. LLMs weaken that signal by producing plausible documents without the underlying work, leaving companies to find better evidence and reserve careful writing for actual communication.",
+              "url": "https://www.seangoedecke.com/writing-is-no-longer-proof-of-work/"
+            },
+            {
+              "headline": "No more tech debt (4 minute read)",
+              "blurb": "A completed design system migration shows how coding agents can make broad cleanup practical once reusable components, written guidance, and linters are in place. The team migrated through 45 pull requests across eight stacks, using vertical slices and before-and-after screenshots, then removed the old patterns so agents would stop copying them.",
+              "url": "https://swizec.com/blog/no-more-tech-debt"
+            },
+            {
+              "headline": "Developing Taste (3 minute read)",
+              "blurb": "As working software becomes easier to produce, design, usability, and attention to detail become stronger differentiators. Taste develops through studying excellent work, explaining why specific choices succeed, and practicing with useful critique.",
+              "url": "https://emilkowal.ski/ui/developing-taste"
             }
           ]
         },
         {
-          "name": "Web Bot Auth: How to identify AI agents and set policy for them",
+          "name": "Launches & Tools",
           "stories": [
             {
-              "headline": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
-              "blurb": "engineering.fb.com 8 min read",
-              "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture"
+              "headline": "Mac.apk (GitHub Repo)",
+              "blurb": "Mac.apk implements the Android application environment directly on Apple Silicon Macs so apps run as native macOS processes with their own windows and GPU rendering. It is alpha software, with compatibility ranging from fully working apps to partial support or apps that do not launch.",
+              "url": "https://github.com/kksimp/Mac.apk"
+            },
+            {
+              "headline": "Pele (Website)",
+              "blurb": "Pele renders Mermaid diagrams as SVG with zero dependencies and CSS variable theming that can change colors without rendering again. The site reports a 230 kB gzipped bundle and support for every diagram type built into Mermaid 12.1.0, with layouts that adapt to small screens.",
+              "url": "https://pele.run/"
+            },
+            {
+              "headline": "MiniMax M3.1 Flash: Redefining Agent Performance and Cost (3 minute read)",
+              "blurb": "MiniMax M3.1 Flash targets coding, computer use, and other agent workflows, with published pricing of $0.15 per million input tokens and $0.60 per million output tokens. MiniMax reports 73.7% on DeepSWE v1.1 and 70% lower overall agent task costs than its predecessor, with API access available now and model weights planned for later.",
+              "url": "https://www.minimax.io/blog/minimax-m31f"
             }
           ]
         },
         {
-          "name": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+          "name": "Miscellaneous",
           "stories": [
             {
-              "headline": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
-              "blurb": "techcrunch.com 5 min read",
-              "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago"
+              "headline": "My experience running local LLMs (22 minute read)",
+              "blurb": "Tests on an AMD Ryzen AI Max+ 395 system show why model size, memory bandwidth, context length, and serving engine all affect local agent performance. A quantized MoE model generated about 42 tokens per second for one request versus about 11 for a dense model, but the experiments measured generation speed rather than completed coding tasks.",
+              "url": "https://kael.tech.blog/2026/10/17/my-experience-running-local-llms/"
+            },
+            {
+              "headline": "Your coding agent loses its cache while it waits for you (19 minute read)",
+              "blurb": "A survey of agent inference research distinguishes cache misses caused by memory pressure from those caused by human pauses. One public trace reported about 97% cache reuse after tool calls but 18% after gaps longer than an hour, highlighting a retention problem that autonomous benchmark loops often miss.",
+              "url": "https://siddhantkhare.com/writing/agentic-inference-field-guide"
+            },
+            {
+              "headline": "Agentic Monitoring (10 minute read)",
+              "blurb": "Agents with access to code and telemetry can create targeted monitoring plans and investigate unusual signals around releases or configuration changes. An early prototype produced cleaner signals and used fewer tokens when an agent wrote monitoring specifications for a deterministic runner, with another agent investigating triggers and escalating to humans.",
+              "url": "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/"
             }
           ]
         },
         {
-          "name": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+          "name": "Quick Links",
           "stories": [
             {
-              "headline": "Agent-to-agent authorization: What OpenAI's Hugging Face incident shows",
-              "blurb": "workos.com 12 min read",
-              "url": "https://workos.com/blog/agent-to-agent-authorization-openai-hugging-face"
+              "headline": "Ask HN: How to deal with shipping AI-written code you don't understand? (Website)",
+              "blurb": "This discussion explores how much generated code engineers need to understand before shipping.",
+              "url": "https://news.ycombinator.com/item?id=50151036&amp%3Butm_source=tldrdev"
+            },
+            {
+              "headline": "useOverflow (3 minute read)",
+              "blurb": "A React hook that compares scroll and client dimensions and rechecks on resize to show expansion controls only when text is clipped.",
+              "url": "https://itsnas.me/writing/use-overflow"
+            },
+            {
+              "headline": "Code is clay now (5 minute read)",
+              "blurb": "Cheaper code changes enable rapid exploratory iteration and automated production pipelines.",
+              "url": "https://www.albertodenia.com/writing/code-is-clay-now"
+            },
+            {
+              "headline": "Adding an MCP server to a personal website (7 minute read)",
+              "blurb": "A Go backend gains authenticated MCP tools for logging books, films, and performances from chat.",
+              "url": "https://hacdias.com/2026/10/17/mcp/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR InfoSec — 2026-10-20",
+      "tagline": "CA students data leak 🎓, Plex flaw drops miner 🎬, Grok Bot leaks bank data 🤖",
+      "sections": [
+        {
+          "name": "Attacks & Vulnerabilities",
+          "stories": [
+            {
+              "headline": "CVE-2026-108082: Symfony ReDoS. One request. Seconds of CPU (7 minute read)",
+              "blurb": "A crafted Cache-Control header triggers catastrophic regex backtracking in Symfony's HeaderUtils::split(). Symfony parses it on every request, before routing or authentication, and Laravel parses it three times. One request can consume up to 12.7 seconds of CPU, and four merged 8 KB headers can force timeouts. The flaw affects Symfony 4.1 through the October 2026 patches, including Laravel, Drupal, PrestaShop, and Shopware.",
+              "url": "https://r3verii.github.io/cve/2026/10/16/symfony-cache-control-redos.html"
+            },
+            {
+              "headline": "One Compromised Login Exposed Millions of California Students' Records (3 minute read)",
+              "blurb": "An unauthorized party used a compromised login from May 22 to September 18 to copy California student files from an Educational Testing Service SFTP server. The data covers current and former students dating to 2006 and may include names, addresses, IDs, disability status, accommodations, and test results. The breach did not expose Social Security numbers, passwords, or financial details. ETS disabled the account, took the site offline, and is building a replacement system.",
+              "url": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/"
+            },
+            {
+              "headline": "2.76M Pieces of Customers' Info at Hollys Leaked in Cyberattack (2 minute read)",
+              "blurb": "Korean coffee chain Hollys disclosed that it suffered a data breach impacting 2.76M pieces of personal information. The breached data includes dates of birth, phone numbers, addresses, and emails. The data was contained in temporary files provided for a past membership service overhaul.",
+              "url": "https://www.koreatimes.co.kr/business/companies/20261019/276-mil-pieces-of-customers-info-at-hollys-leaked-in-cyberattack"
             }
           ]
         },
         {
-          "name": "Agent-to-agent authorization: What OpenAI's Hugging Face incident shows",
+          "name": "Strategies & Tactics",
           "stories": [
             {
-              "headline": "What Is AWS Lambda in 2026? 5 Flavors Explained",
-              "blurb": "ranthebuilder.cloud 12 min read",
-              "url": "https://ranthebuilder.cloud/blog/what-is-aws-lambda-in-2026-5-flavors-explained"
+              "headline": "Web Environment Integrity vs. Private Access Tokens - They're the same thing! (5 minute read)",
+              "blurb": "Web Environment Integrity (WEI) and Apple's Private Access Tokens (PAT) both use signed browser or device attestations. A site can request proof that a visitor uses a genuine, non-jailbroken iPhone with Safari, then reject Firefox on Linux. WEI can additionally bind an attestation to a specific operation. The two proposals differ mainly in presentation: PAT is framed around fewer CAPTCHAs, while WEI is framed around service-provider verification.",
+              "url": "https://www.snellman.net/blog/archive/2023-07-25-web-integrity-api-vs-private-access-tokens"
+            },
+            {
+              "headline": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999) (17 minute read)",
+              "blurb": "Researchers found a Linux networking flaw that lets an untrusted VM guest alter IPv4 header bytes after the host kernel validates them. Guest-controlled checksum metadata can change the IPv4 header length, causing the kernel to copy 32 bytes beyond the packet's logical data and transmit them as apparent IP options. In a controlled KVM lab, the disclosure supported selected 64-byte host-kernel writes and execution of a host-root helper. The upstream fix, commit 6785011f8b16, validates checksum_start before checksum completion across five IPv4 consumers.",
+              "url": "https://pwn.ai/blog/pwnescape"
+            },
+            {
+              "headline": "Managing Agentic Security at Scale (8 minute read)",
+              "blurb": "Salesforce divides vulnerabilities into strategic and tactical vulnerabilities to address the large amount of vulnerabilities that are discovered by LLMs. Strategic vulnerabilities are vulnerabilities due to a core, systemic issue where many vulnerabilities can be resolved by fixing the core issue. Tactical vulnerabilities represent exploit chains that chain together smaller severity issues for a larger impact and require exploit verification in a staging environment.",
+              "url": "https://www.salesforce.com/blog/managing-agentic-security-at-scale/"
             }
           ]
         },
         {
-          "name": "What Is AWS Lambda in 2026? 5 Flavors Explained",
+          "name": "Launches & Tools",
           "stories": [
             {
-              "headline": "As Japan pursues a chip-industry reboot, it's being pressed to build America's",
-              "blurb": "reuters.com 3 min read",
-              "url": "https://www.reuters.com/world/asia-pacific/japan-pursues-chip-industry-reboot-its-being-pressed-build-americas-2026-10-20"
+              "headline": "Beatrix Suite (GitHub Repo)",
+              "blurb": "A comprehensive, open-source security and automation framework designed to streamline technical workflows. It combines a robust CLI, an intuitive browser GUI, and integrated AI capabilities to deliver a flexible, modern environment for security operators and developers.",
+              "url": "https://github.com/SudoPacman-Syuu/Beatrix-suite"
+            },
+            {
+              "headline": "Modulate (Product Launch)",
+              "blurb": "Modulate builds the Velma voice-analysis platform. It uses 100+ audio models to detect synthetic speech, emotion, intent, harassment, grooming, and deepfakes in real time, analyzing 10M+ hours of audio monthly.",
+              "url": "https://www.modulate.ai/"
+            },
+            {
+              "headline": "Vector (GitHub Repo)",
+              "blurb": "Vector is a high-performance, end-to-end (agent & aggregator) observability data pipeline that allows for the collection, transformation, and routing of logs and metrics from multiple vendors.",
+              "url": "https://github.com/vectordotdev/vector"
             }
           ]
         },
         {
-          "name": "As Japan pursues a chip-industry reboot, it's being pressed to build America's",
+          "name": "Miscellaneous",
           "stories": [
             {
-              "headline": "Google Energy Chief: SpaceX Contract Bridges \"Huge\" Gemini Demand",
-              "blurb": "x.com 1 min read",
-              "url": "https://x.com/firesidealpha/status/2112247407585206777"
+              "headline": "How a Massive Chinese Crime Ring Hacked Staples to Steal Millions (3 minute read)",
+              "blurb": "404 Media reports on a Chinese threat actor that compromised Staples to issue over $5M worth of gift cards that were used to funnel goods back to Chinese addresses. The actors found a way to access Staples' Nexus service, which it believed was only exposed internally, and performed heap dumps to hijack sessions of logged-in Staples customer service representatives. The attackers used 4,630 gift cards totaling around $425K.",
+              "url": "https://www.404media.co/how-a-massive-chinese-crime-ring-hacked-staples-to-steal-millions/"
+            },
+            {
+              "headline": "Plex vulnerabilities being exploited in the wild to drop a cryptominer (4 minute read)",
+              "blurb": "A honeypot running Plex Media Server 1.43.2 observed live exploitation on October 17. Attackers chained CVE-2026-96652, CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656 to obtain remote code execution, then downloaded a cryptominer and a proxy component. The observed source IPs were 45.194.92[.]222, 91.92.40[.]202, and 176.65.139[.]228, and the payload host was 217.60.194[.]116.",
+              "url": "https://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html"
+            },
+            {
+              "headline": "Anthropic Quietly Pitches its Own AI Safety Bill to Lawmakers (2 minute read)",
+              "blurb": "Representatives from Anthropic have quietly pitched a draft AI safety bill to lawmakers. Under the bill, the government could only block a model's release or use if it poses a foreseeable, imminent risk of more than $1B in damages, or of killing or seriously injuring more than 50 people via the creation or release of a biological weapon, the model evading its developers' controls, or a cyberattack. Independent evaluators would register with the Department of Commerce and report any such risk within 72 hours.",
+              "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654"
             }
           ]
         },
         {
-          "name": "Google Energy Chief: SpaceX Contract Bridges \"Huge\" Gemini Demand",
+          "name": "Quick Links",
           "stories": [
             {
-              "headline": "The FDE Bubble: Silicon Valley’s Most Expensive Game Of Pretend",
-              "blurb": "news.crunchbase.com 4 min read",
-              "url": "https://news.crunchbase.com/venture/fde-bubble-enterprise-agentic-ai-gurtu-airrived"
+              "headline": "Whoops: Grok Bot Spills Tech CEO's Bank Data In Public Slack (3 minute read)",
+              "blurb": "XMTP Labs CEO Shane Mac's read-only Grok Bot finance agent handed his bank balances and itemized expenses to a second Grok Bot on the same machine that had Slack access.",
+              "url": "https://www.techdirt.com/2026/10/19/whoops-grok-bot-spills-tech-ceos-bank-data-in-public-slack/"
+            },
+            {
+              "headline": "Nikkei discloses third data breach in a month, 1.8M records exposed (2 minute read)",
+              "blurb": "Attackers used stolen credentials to access a Nikkei development system on October 7 and exposed 1.83 million cloud-stored records.",
+              "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/"
+            },
+            {
+              "headline": "Florida DMV hacked after police dept insecurely stored login info (4 minute read)",
+              "blurb": "A local Florida police employee improperly stored credentials on a device, allowing attackers to breach the state's DMV on September 4 and steal driver's license data.",
+              "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Design — 2026-10-20",
+      "tagline": "Windows Photos 🖼️, Replit Switch 🔄, WhatsApp Stickers 🔊",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Microsoft Redesigns Photos for Windows 11 (1 minute read)",
+              "blurb": "Microsoft's redesigned Photos for Windows 11 adds a new Gallery, Editor, and Viewer, rolling out first to Windows Insiders, with wider availability planned later in 2026. Gallery merges local, OneDrive, and iCloud photos with natural-language search, while the Editor groups tools into Crop, Enhance, Repair, and Stylize.",
+              "url": "https://ux-news.com/windows-11-photos-redesign-gallery-editor-viewer/"
+            },
+            {
+              "headline": "Replit makes OpenAI its default over Anthropic, CEO says (3 minute read)",
+              "blurb": "Replit's CEO initially said the AI coding platform had stopped working with Anthropic over cost, partnership, and performance, claiming ChatGPT now builds vibe-coded apps better. Insiders familiar with the partnership rejected that, with one saying it remains in place. Replit's site and posts show Anthropic models in use as recently as a few weeks ago. He later clarified that OpenAI is the default, while Claude remains available.",
+              "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
+            },
+            {
+              "headline": "WhatsApp wants to make stickers louder and chats a little less cramped (3 minute read)",
+              "blurb": "WhatsApp is testing sound stickers on Android that let users attach up to 10 seconds of recorded or existing audio to custom stickers, while video-based stickers can retain five seconds of their original sound. Another option removes the outline around custom stickers for a cleaner appearance. A redesigned two-line compose box is also being tested, separating the typing field from additional controls to create more space and accommodate future shortcuts.",
+              "url": "https://www.digitaltrends.com/phones/whatsapp-sound-stickers-android-chat-box/"
             }
           ]
         },
         {
-          "name": "The FDE Bubble: Silicon Valley’s Most Expensive Game Of Pretend",
+          "name": "Opinions & Tutorials",
           "stories": [
             {
-              "headline": "IMF Warns That AI Bubble Could Take Down the Entire World Economy",
-              "blurb": "futurism.com 3 min read",
-              "url": "https://futurism.com/future-society/imf-ai-bubble-world-economy"
+              "headline": "Product Designer is No Longer a Job Description (8 minute read)",
+              "blurb": "Product designer no longer describes a single job, so four attributes (Style, Strategy, Builder, and Operator) offer a shared vocabulary for candidates and hiring managers. Craft is the floor beneath all four. Most strong designers lead with one or two.",
+              "url": "https://rongoldin.substack.com/p/product-designer-is-no-longer-a-job"
+            },
+            {
+              "headline": "Where decisions live (4 minute read)",
+              "blurb": "Giving different kinds of project information distinct homes makes both teams and AI agents better at distinguishing current decisions from outdated discussions and unfinished thinking. A simple system can keep chronological observations and evolving ideas in running notes while maintaining a separate dated decision log that records what is currently true without deleting previous decisions. AI makes large amounts of context searchable, but chronology and structure remain essential because a searchable mess is still a mess.",
+              "url": "https://www.antonsten.com/articles/where-decisions-live/"
+            },
+            {
+              "headline": "UX designers are not designing interfaces, they design personalities (12 minute read)",
+              "blurb": "Digital products increasingly translate human behavior into metrics such as sleep scores, ratings, streaks, story points, and follower counts, which can gradually influence how people understand themselves and behave. These measurements expose only selected parts of reality, yet their apparent objectivity can give them greater authority than unmeasured experiences, relationships, and intuition. UX designers therefore shape more than interfaces and experiences: by deciding which metrics products emphasize, they influence how people perceive themselves and should deliberately leave room for realities that cannot be quantified.",
+              "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d"
             }
           ]
         },
         {
-          "name": "IMF Warns That AI Bubble Could Take Down the Entire World Economy",
+          "name": "Launches & Tools",
           "stories": [
             {
-              "headline": "Character.ai Bankruptcy Exposes the High Cost of AI Companionship",
-              "blurb": "pymnts.com 1 min read",
-              "url": "https://www.pymnts.com/news/artificial-intelligence/2026/character-ai-bankruptcy-exposes-the-high-cost-of-ai-companionship"
+              "headline": "Animation Library for Tailwind CSS (Website)",
+              "blurb": "A new simple syntax animation library. Batteries included. Infinitely configurable.",
+              "url": "https://rombo.co/tailwind/"
+            },
+            {
+              "headline": "A Web Framework for Building 3D/AR/VR Experiences (Website)",
+              "blurb": "Make 3D worlds with HTML and Entity-Component, on any headset, mobile, and desktop.",
+              "url": "https://aframe.io/"
+            },
+            {
+              "headline": "The Collaborative Workspace for Hand-Drawn Diagrams (Website)",
+              "blurb": "ExcaliClaw is a collaborative workspace for hand-drawn diagrams. Organize, search, share, and create diagrams with Claude, Cursor, and VS Code through MCP.",
+              "url": "https://excaliclaw.com/"
             }
           ]
         },
         {
-          "name": "Character.ai Bankruptcy Exposes the High Cost of AI Companionship",
+          "name": "Miscellaneous",
           "stories": [
             {
-              "headline": "Anthropic Acquires Confidential AI Startup Opaque Systems",
-              "blurb": "securityweek.com 2 min read",
-              "url": "https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems"
+              "headline": "Fulham F.C gets a brand refresh built on hand-rendered lettering found on the walls of its stadium (5 minute read)",
+              "blurb": "Fulham F.C's refreshed identity by Music and F37 Foundry is built around FFC Original, a bespoke typeface inspired by hand-rendered lettering discovered inside Craven Cottage, London's oldest football stadium. Rather than placing historical references alongside a contemporary identity, the system uses the club's physical heritage as the source of its modern visual language. The typography now extends across matchday graphics, campaigns, retail, moving image, and a 2026/27 away-kit campaign inspired by the visual language of the 1990s.",
+              "url": "https://www.itsnicethat.com/articles/music-f37-foundry-fulham-football-club-refresh-graphic-design-project-191026"
+            },
+            {
+              "headline": "WCAG 3: A Different Future for Accessibility (7 minute read)",
+              "blurb": "WCAG 3, still a draft, is the first ground-up rebuild of the standard since 1999, proposing to replace binary pass/fail with a graded model where meeting core requirements is a floor. Bronze, silver, and gold levels would let organizations be recognized for going further. Accessibility laws point to WCAG, so the change must keep regulators able to adopt it.",
+              "url": "https://tetralogical.com/blog/2026/10/15/wcag3/"
+            },
+            {
+              "headline": "Structure First: The Inverted Pyramid and Visual Organization (5 minute read)",
+              "blurb": "The inverted pyramid makes web content easier to consume by putting the essential message first and progressively adding supporting detail, ensuring readers understand the key point even if they stop early. Individual paragraphs should similarly lead with their main idea, while descriptive headings, short paragraphs, lists, and selective emphasis provide visual entry points for people scanning rather than reading linearly. A useful test is whether someone can understand something meaningful from a page within five seconds without reading its body copy. AI-generated writing is particularly worth checking for conclusions buried beneath unnecessary setup.",
+              "url": "https://ixdf.org/literature/article/structure-first-the-inverted-pyramid-and-visual-organization"
             }
           ]
         },
         {
-          "name": "Anthropic Acquires Confidential AI Startup Opaque Systems",
+          "name": "Quick Links",
           "stories": [
             {
-              "headline": "Welcome to Google Gemini 4 Argon: Features, Pricing, and Benchmarks",
-              "blurb": "towardsdatascience.com 7 min read",
-              "url": "https://towardsdatascience.com/welcome-to-google-gemini-4-argon"
-            }
-          ]
-        },
-        {
-          "name": "Welcome to Google Gemini 4 Argon: Features, Pricing, and Benchmarks",
-          "stories": [
+              "headline": "At ORGATEC 2026 Sihoo Introduces Self Adjusting Chairs Built to Boost Creative Work (3 minute read)",
+              "blurb": "Sihoo's self-adjusting H300 Pro and Doro C300 Pro V2 chairs, which have lumbar support that adapts to posture shifts, will be shown at ORGATEC 2026 in Cologne.",
+              "url": "https://www.designboom.com/design/orgatec-2026-sihoo-office-chairs/"
+            },
             {
-              "headline": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at Jülich Supercomputing Centre",
-              "blurb": "nvidianews.nvidia.com 3 min read",
-              "url": "https://nvidianews.nvidia.com/news/nvidia-runs-record-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre"
-            }
-          ]
-        },
-        {
-          "name": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at Jülich Supercomputing Centre",
-          "stories": [
-            {
-              "headline": "The neocloud shakeout is coming, and Nvidia has the most to lose",
-              "blurb": "the-decoder.com 3 min read",
-              "url": "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose"
-            }
-          ]
-        },
-        {
-          "name": "The neocloud shakeout is coming, and Nvidia has the most to lose",
-          "stories": [
-            {
-              "headline": "Sea plans IPO for financial services arm Monee, memo says",
-              "blurb": "reuters.com 1 min read",
-              "url": "https://www.reuters.com/world/asia-pacific/sea-plans-ipo-financial-services-arm-monee-memo-says-2026-10-20"
-            }
-          ]
-        },
-        {
-          "name": "Sea plans IPO for financial services arm Monee, memo says",
-          "stories": [
-            {
-              "headline": "Agility Robotics releases Digit 5 humanoid worker (*)",
-              "blurb": "spectrum.ieee.org 13 min read",
-              "url": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign"
-            }
-          ]
-        },
-        {
-          "name": "Agility Robotics releases Digit 5 humanoid worker (*)",
-          "stories": [
-            {
-              "headline": "Advancing Coding in Low-Resource Programming Languages",
-              "blurb": "openai.com 5 min read",
-              "url": "https://openai.com/index/low-resource-programming-languages"
+              "headline": "UX Maps: Glossary (5 minute read)",
+              "blurb": "NN/g's UX Maps glossary defines and distinguishes common mapping tools.",
+              "url": "https://www.nngroup.com/articles/ux-maps-glossary/"
             }
           ]
         }
