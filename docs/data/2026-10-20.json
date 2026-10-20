@@ -1,0 +1,515 @@
+{
+  "date": "2026-10-20",
+  "mode": "per-newsletter",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Tech — 2026-10-20",
+      "tagline": "Get the free daily email with summaries of the most interesting stories in startups, tech, and programming.",
+      "sections": [
+        {
+          "name": "",
+          "stories": [
+            {
+              "headline": "Disney found a way to buy Character.AI without buying its lawsuits",
+              "blurb": "arstechnica.com 1 min read",
+              "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits"
+            }
+          ]
+        },
+        {
+          "name": "Disney found a way to buy Character.AI without buying its lawsuits",
+          "stories": [
+            {
+              "headline": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+              "blurb": "techcrunch.com 3 min read",
+              "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool"
+            }
+          ]
+        },
+        {
+          "name": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+          "stories": [
+            {
+              "headline": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
+              "blurb": "techcrunch.com 2 min read",
+              "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal"
+            }
+          ]
+        },
+        {
+          "name": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
+          "stories": [
+            {
+              "headline": "How one hacker used AI agents and a few thousand dollars to break into scores of sites: Reuters exclusive",
+              "blurb": "bnnbloomberg.ca 3 min read",
+              "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/10/19/how-one-hacker-used-ai-agents-and-a-few-thousand-dollars-to-break-into-scores-of-sites-reuters-exclusive"
+            }
+          ]
+        },
+        {
+          "name": "How one hacker used AI agents and a few thousand dollars to break into scores of sites: Reuters exclusive",
+          "stories": [
+            {
+              "headline": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+              "blurb": "techcrunch.com 4 min read",
+              "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted"
+            }
+          ]
+        },
+        {
+          "name": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+          "stories": [
+            {
+              "headline": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+              "blurb": "quantamagazine.org 7 min read",
+              "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019"
+            }
+          ]
+        },
+        {
+          "name": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+          "stories": [
+            {
+              "headline": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+              "blurb": "techcrunch.com 3 min read",
+              "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs"
+            }
+          ]
+        },
+        {
+          "name": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+          "stories": [
+            {
+              "headline": "Diffusion at Scale: Introducing Mercury 3 – Inception",
+              "blurb": "inceptionlabs.ai 2 min read",
+              "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+            }
+          ]
+        },
+        {
+          "name": "Diffusion at Scale: Introducing Mercury 3 – Inception",
+          "stories": [
+            {
+              "headline": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+              "blurb": "engineering.fb.com 17 min read",
+              "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster"
+            }
+          ]
+        },
+        {
+          "name": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+          "stories": [
+            {
+              "headline": "Why Anthropic replaced Git, and whether you’ll need to",
+              "blurb": "arize.com 9 min read",
+              "url": "https://arize.com/blog/anthropic-scion-vs-git"
+            }
+          ]
+        },
+        {
+          "name": "Why Anthropic replaced Git, and whether you’ll need to",
+          "stories": [
+            {
+              "headline": "Waymo plans to quintuple its fleet",
+              "blurb": "semafor.com 1 min read",
+              "url": "https://www.semafor.com/article/10/19/2026/waymo-plans-to-quintuple-its-fleet"
+            }
+          ]
+        },
+        {
+          "name": "Waymo plans to quintuple its fleet",
+          "stories": [
+            {
+              "headline": "Cutting our inference bill by 68% by being obsessive about optimization",
+              "blurb": "blog.cloudflare.com 15 min read",
+              "url": "https://blog.cloudflare.com/obsessive-inference-optimization"
+            }
+          ]
+        },
+        {
+          "name": "Cutting our inference bill by 68% by being obsessive about optimization",
+          "stories": [
+            {
+              "headline": "Nvidia Vera’s System Architecture: Pushing Bandwidth",
+              "blurb": "chipsandcheese.com 8 min read",
+              "url": "https://chipsandcheese.com/p/nvidia-veras-system-architecture"
+            }
+          ]
+        },
+        {
+          "name": "Nvidia Vera’s System Architecture: Pushing Bandwidth",
+          "stories": [
+            {
+              "headline": "Microsoft Completes Pretraining of 2.8 Trillion-Parameter MAI-Base-2",
+              "blurb": "thelec.net 2 min read",
+              "url": "https://www.thelec.net/news/articleView.html?idxno=14721"
+            }
+          ]
+        },
+        {
+          "name": "Microsoft Completes Pretraining of 2.8 Trillion-Parameter MAI-Base-2",
+          "stories": [
+            {
+              "headline": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+              "blurb": "technologyreview.com 3 min read",
+              "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play"
+            }
+          ]
+        },
+        {
+          "name": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+          "stories": [
+            {
+              "headline": "What has to go right to justify the trillions being spent on AI CapEx?",
+              "blurb": "generativevalue.com 15 min read",
+              "url": "https://www.generativevalue.com/p/what-has-to-go-right-to-justify-the"
+            }
+          ]
+        },
+        {
+          "name": "What has to go right to justify the trillions being spent on AI CapEx?",
+          "stories": [
+            {
+              "headline": "kksimp/Mac.apk: Run Android apps natively on Apple Silicon Macs",
+              "blurb": "github.com 3 min read",
+              "url": "https://github.com/kksimp/Mac.apk"
+            }
+          ]
+        },
+        {
+          "name": "kksimp/Mac.apk: Run Android apps natively on Apple Silicon Macs",
+          "stories": [
+            {
+              "headline": "Gemini 4: Argon - Early Access Review",
+              "blurb": "jgunnink.substack.com 9 min read",
+              "url": "https://jgunnink.substack.com/p/gemini-4-argon-early-access-review"
+            }
+          ]
+        },
+        {
+          "name": "Gemini 4: Argon - Early Access Review",
+          "stories": [
+            {
+              "headline": "Dream Labs, which offers an API for its Dream-1 robot foundation model trained on human videos, raised a $90M seed led by B Capital and Kindred Ventures",
+              "blurb": "forbes.com 6 min read",
+              "url": "https://www.forbes.com/sites/johnkoetsier/2026/10/19/robot-brains-for-75-centshour-former-nvidia-researchers-raise-90-million"
+            }
+          ]
+        },
+        {
+          "name": "Dream Labs, which offers an API for its Dream-1 robot foundation model trained on human videos, raised a $90M seed led by B Capital and Kindred Ventures",
+          "stories": [
+            {
+              "headline": "AI Benchmarks: Climbing the Wrong Hills | Contrary Research",
+              "blurb": "research.contrary.com 21 min read",
+              "url": "https://research.contrary.com/deep-dive/ai-benchmarks-climbing-the-wrong-hills"
+            }
+          ]
+        },
+        {
+          "name": "AI Benchmarks: Climbing the Wrong Hills | Contrary Research",
+          "stories": [
+            {
+              "headline": "US Moves to Bar DeepSeek From Federal Agencies and Contracts",
+              "blurb": "ca.finance.yahoo.com 1 min read",
+              "url": "https://ca.finance.yahoo.com/news/us-moves-bar-deepseek-federal-133753757.html"
+            }
+          ]
+        },
+        {
+          "name": "US Moves to Bar DeepSeek From Federal Agencies and Contracts",
+          "stories": [
+            {
+              "headline": "A look at Anthropic's Long-Term Benefit Trust, an unusual, opaque five-member trust whose trustees own no equity and hold enormous sway over the company",
+              "blurb": "wsj.com 5 min read",
+              "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg"
+            }
+          ]
+        },
+        {
+          "name": "A look at Anthropic's Long-Term Benefit Trust, an unusual, opaque five-member trust whose trustees own no equity and hold enormous sway over the company",
+          "stories": [
+            {
+              "headline": "MiniMax-AI releases MiniMax-M3.1-Flash reasoning model",
+              "blurb": "x.com 1 min read",
+              "url": "https://x.com/artificialanlys/status/2112211865128608002"
+            }
+          ]
+        },
+        {
+          "name": "MiniMax-AI releases MiniMax-M3.1-Flash reasoning model",
+          "stories": [
+            {
+              "headline": "AI agents are only as good as the personal information you share",
+              "blurb": "apnews.com 5 min read",
+              "url": "https://apnews.com/article/meta-muse-openai-dot-ai-privacy-449734d41d3750aad7038b761faa49c9"
+            }
+          ]
+        },
+        {
+          "name": "AI agents are only as good as the personal information you share",
+          "stories": [
+            {
+              "headline": "Introducing Clairic, a new System One class of extraction models",
+              "blurb": "blog.cloudflare.com 16 min read",
+              "url": "https://blog.cloudflare.com/clairic-extraction-model"
+            }
+          ]
+        },
+        {
+          "name": "Introducing Clairic, a new System One class of extraction models",
+          "stories": [
+            {
+              "headline": "AI Compute and Data Center Vulnerabilities in Recent Conflicts",
+              "blurb": "x.com 1 min read",
+              "url": "https://x.com/rohanpaul_ai/status/2112260223050346710"
+            }
+          ]
+        },
+        {
+          "name": "AI Compute and Data Center Vulnerabilities in Recent Conflicts",
+          "stories": [
+            {
+              "headline": "How far can we push computing?",
+              "blurb": "technologyreview.com 14 min read",
+              "url": "https://www.technologyreview.com/2026/10/19/1145904/tr-explains-how-far-can-we-push-computing"
+            }
+          ]
+        },
+        {
+          "name": "How far can we push computing?",
+          "stories": [
+            {
+              "headline": "OpenAI is reportedly rushing its $30 billion round to finish before Anthropic's November IPO",
+              "blurb": "aistockwire.com 2 min read",
+              "url": "https://aistockwire.com/blog/openai-accelerates-30-billion-round-before-anthropic-ipo-1-4-trillion-october-2026"
+            }
+          ]
+        },
+        {
+          "name": "OpenAI is reportedly rushing its $30 billion round to finish before Anthropic's November IPO",
+          "stories": [
+            {
+              "headline": "Apple’s HomeView smart display ties to Siri trust debate (*)",
+              "blurb": "stratechery.com 14 min read",
+              "url": "https://stratechery.com/2026/do-you-trust-apple"
+            }
+          ]
+        },
+        {
+          "name": "Apple’s HomeView smart display ties to Siri trust debate (*)",
+          "stories": [
+            {
+              "headline": "AI assistant startup Town nabs unicorn valuation four months after launch",
+              "blurb": "techcrunch.com 2 min read",
+              "url": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch"
+            }
+          ]
+        },
+        {
+          "name": "AI assistant startup Town nabs unicorn valuation four months after launch",
+          "stories": [
+            {
+              "headline": "Robot factories and hypersonic missiles: JPMorgan Chase’s first $5 billion of defense investments",
+              "blurb": "cnbc.com 2 min read",
+              "url": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html"
+            }
+          ]
+        },
+        {
+          "name": "Robot factories and hypersonic missiles: JPMorgan Chase’s first $5 billion of defense investments",
+          "stories": [
+            {
+              "headline": "Nvidia GB300 FP4 vs TPUv7 Performance Comparison",
+              "blurb": "x.com 1 min read",
+              "url": "https://x.com/semianalysis_/status/2112258243372146742"
+            }
+          ]
+        },
+        {
+          "name": "Nvidia GB300 FP4 vs TPUv7 Performance Comparison",
+          "stories": [
+            {
+              "headline": "Apple prepares first touchscreen MacBook Pro (*)",
+              "blurb": "theinformation.com 1 min read",
+              "url": "https://www.theinformation.com/articles/apple-pigs-fly"
+            }
+          ]
+        },
+        {
+          "name": "Apple prepares first touchscreen MacBook Pro (*)",
+          "stories": [
+            {
+              "headline": "Web Bot Auth: How to identify AI agents and set policy for them",
+              "blurb": "workos.com 10 min read",
+              "url": "https://workos.com/blog/web-bot-auth-identify-ai-agents"
+            }
+          ]
+        },
+        {
+          "name": "Web Bot Auth: How to identify AI agents and set policy for them",
+          "stories": [
+            {
+              "headline": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+              "blurb": "engineering.fb.com 8 min read",
+              "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture"
+            }
+          ]
+        },
+        {
+          "name": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+          "stories": [
+            {
+              "headline": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+              "blurb": "techcrunch.com 5 min read",
+              "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago"
+            }
+          ]
+        },
+        {
+          "name": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+          "stories": [
+            {
+              "headline": "Agent-to-agent authorization: What OpenAI's Hugging Face incident shows",
+              "blurb": "workos.com 12 min read",
+              "url": "https://workos.com/blog/agent-to-agent-authorization-openai-hugging-face"
+            }
+          ]
+        },
+        {
+          "name": "Agent-to-agent authorization: What OpenAI's Hugging Face incident shows",
+          "stories": [
+            {
+              "headline": "What Is AWS Lambda in 2026? 5 Flavors Explained",
+              "blurb": "ranthebuilder.cloud 12 min read",
+              "url": "https://ranthebuilder.cloud/blog/what-is-aws-lambda-in-2026-5-flavors-explained"
+            }
+          ]
+        },
+        {
+          "name": "What Is AWS Lambda in 2026? 5 Flavors Explained",
+          "stories": [
+            {
+              "headline": "As Japan pursues a chip-industry reboot, it's being pressed to build America's",
+              "blurb": "reuters.com 3 min read",
+              "url": "https://www.reuters.com/world/asia-pacific/japan-pursues-chip-industry-reboot-its-being-pressed-build-americas-2026-10-20"
+            }
+          ]
+        },
+        {
+          "name": "As Japan pursues a chip-industry reboot, it's being pressed to build America's",
+          "stories": [
+            {
+              "headline": "Google Energy Chief: SpaceX Contract Bridges \"Huge\" Gemini Demand",
+              "blurb": "x.com 1 min read",
+              "url": "https://x.com/firesidealpha/status/2112247407585206777"
+            }
+          ]
+        },
+        {
+          "name": "Google Energy Chief: SpaceX Contract Bridges \"Huge\" Gemini Demand",
+          "stories": [
+            {
+              "headline": "The FDE Bubble: Silicon Valley’s Most Expensive Game Of Pretend",
+              "blurb": "news.crunchbase.com 4 min read",
+              "url": "https://news.crunchbase.com/venture/fde-bubble-enterprise-agentic-ai-gurtu-airrived"
+            }
+          ]
+        },
+        {
+          "name": "The FDE Bubble: Silicon Valley’s Most Expensive Game Of Pretend",
+          "stories": [
+            {
+              "headline": "IMF Warns That AI Bubble Could Take Down the Entire World Economy",
+              "blurb": "futurism.com 3 min read",
+              "url": "https://futurism.com/future-society/imf-ai-bubble-world-economy"
+            }
+          ]
+        },
+        {
+          "name": "IMF Warns That AI Bubble Could Take Down the Entire World Economy",
+          "stories": [
+            {
+              "headline": "Character.ai Bankruptcy Exposes the High Cost of AI Companionship",
+              "blurb": "pymnts.com 1 min read",
+              "url": "https://www.pymnts.com/news/artificial-intelligence/2026/character-ai-bankruptcy-exposes-the-high-cost-of-ai-companionship"
+            }
+          ]
+        },
+        {
+          "name": "Character.ai Bankruptcy Exposes the High Cost of AI Companionship",
+          "stories": [
+            {
+              "headline": "Anthropic Acquires Confidential AI Startup Opaque Systems",
+              "blurb": "securityweek.com 2 min read",
+              "url": "https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems"
+            }
+          ]
+        },
+        {
+          "name": "Anthropic Acquires Confidential AI Startup Opaque Systems",
+          "stories": [
+            {
+              "headline": "Welcome to Google Gemini 4 Argon: Features, Pricing, and Benchmarks",
+              "blurb": "towardsdatascience.com 7 min read",
+              "url": "https://towardsdatascience.com/welcome-to-google-gemini-4-argon"
+            }
+          ]
+        },
+        {
+          "name": "Welcome to Google Gemini 4 Argon: Features, Pricing, and Benchmarks",
+          "stories": [
+            {
+              "headline": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at Jülich Supercomputing Centre",
+              "blurb": "nvidianews.nvidia.com 3 min read",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-runs-record-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre"
+            }
+          ]
+        },
+        {
+          "name": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at Jülich Supercomputing Centre",
+          "stories": [
+            {
+              "headline": "The neocloud shakeout is coming, and Nvidia has the most to lose",
+              "blurb": "the-decoder.com 3 min read",
+              "url": "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose"
+            }
+          ]
+        },
+        {
+          "name": "The neocloud shakeout is coming, and Nvidia has the most to lose",
+          "stories": [
+            {
+              "headline": "Sea plans IPO for financial services arm Monee, memo says",
+              "blurb": "reuters.com 1 min read",
+              "url": "https://www.reuters.com/world/asia-pacific/sea-plans-ipo-financial-services-arm-monee-memo-says-2026-10-20"
+            }
+          ]
+        },
+        {
+          "name": "Sea plans IPO for financial services arm Monee, memo says",
+          "stories": [
+            {
+              "headline": "Agility Robotics releases Digit 5 humanoid worker (*)",
+              "blurb": "spectrum.ieee.org 13 min read",
+              "url": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign"
+            }
+          ]
+        },
+        {
+          "name": "Agility Robotics releases Digit 5 humanoid worker (*)",
+          "stories": [
+            {
+              "headline": "Advancing Coding in Low-Resource Programming Languages",
+              "blurb": "openai.com 5 min read",
+              "url": "https://openai.com/index/low-resource-programming-languages"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
