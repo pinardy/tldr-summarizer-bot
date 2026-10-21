@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-21",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Machine Learning",
+          "stories": [
+            {
+              "headline": "Mistral Releases Voxtral 3 Voice Agent SDK",
+              "blurb": "Mistral AI launched Voxtral 3, an open-weights voice model and SDK supporting over 50 languages, enabling developers to build low-latency, multilingual conversational agents.",
+              "url": "https://mistral.ai/news/voxtral-3"
+            },
+            {
+              "headline": "PyTorch Introduces Native Support for TPUs",
+              "blurb": "PyTorch introduced TorchTPU to provide native, first-class integration for Google Cloud TPUs, streamlining high-performance AI training and inference on custom hardware.",
+              "url": "https://pytorch.org/blog/introducing-torchtpu"
+            },
+            {
+              "headline": "Google Cloud Open-Sources Distributed Inference Stack",
+              "blurb": "Google Cloud released llm-d 1.0, an open-source software stack designed to simplify and optimize distributed LLM inference across heterogeneous compute clusters.",
+              "url": "https://cloud.google.com/blog/topics/ai-infrastructure/llm-d-1-0-an-open-source-stack-for-distributed-inference"
+            },
+            {
+              "headline": "Perplexity Computer Runs Fully Local on macOS",
+              "blurb": "Perplexity released a local desktop environment for macOS that runs models directly on Apple Silicon, eliminating cloud latency and privacy risks.",
+              "url": "https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac"
+            },
+            {
+              "headline": "vLLM Project Announces Humming Inference Kernels",
+              "blurb": "The vLLM project unveiled Humming, a suite of flexible GPU kernels engineered to significantly accelerate quantized model inference.",
+              "url": "https://vllm.ai/blog/2026-10-21-humming"
+            }
+          ]
+        },
+        {
+          "name": "Software Engineering & Security",
+          "stories": [
+            {
+              "headline": "Cloudflare Ports TypeScript Compiler to Rust",
+              "blurb": "Cloudflare announced tsrs, an open-source Rust port of TypeScript designed to dramatically speed up compilation times and lower memory overhead for large applications.",
+              "url": "https://blog.cloudflare.com/typescript-rust-port"
+            },
+            {
+              "headline": "Major Google Cloud Outage Knocks UK Banking Offline",
+              "blurb": "A cloud service disruption severely impacted financial institutions and public services across the UK, highlighting ongoing cloud resiliency challenges.",
+              "url": null
+            },
+            {
+              "headline": "Researcher Removes Over 300 Malicious Tor Exit Nodes",
+              "blurb": "A security researcher successfully identified and purged more than 300 rogue exit nodes from the Tor network, substantially improving user privacy and network integrity.",
+              "url": "https://kaba.cx/posts/20261020_Tor"
+            },
+            {
+              "headline": "Anthropic Uses Claude to Automatically Reduce Attack Surfaces",
+              "blurb": "Anthropic published research demonstrating how Claude can refactor application code autonomously to systematically remove security vulnerabilities.",
+              "url": "https://www.anthropic.com/research/attack-surface-reduction"
+            },
+            {
+              "headline": "WorkOS Unveils Agent-to-Agent SSO Protocol",
+              "blurb": "WorkOS detailed an identity federation framework for agent-to-agent SSO, defining trust and authentication standards for non-human autonomous systems.",
+              "url": "https://workos.com/blog/agent-to-agent-sso-federation"
+            }
+          ]
+        },
+        {
+          "name": "Tech Hardware & Business",
+          "stories": [
+            {
+              "headline": "Salesforce Acquires Braze for $5.66 Billion",
+              "blurb": "Salesforce agreed to purchase customer engagement platform Braze to consolidate its enterprise marketing cloud suite.",
+              "url": "https://www.cnbc.com/2026/10/20/salesforce-braze-acquisition-deal.html"
+            },
+            {
+              "headline": "Chinese Giants Spend $35B on Nvidia Workstation GPUs",
+              "blurb": "ByteDance, Tencent, and Alibaba placed massive orders for export-compliant Nvidia RTX Pro GPUs to sustain AI development amid export controls.",
+              "url": "https://www.tomshardware.com/pc-components/gpus/chinas-tech-giants-drop-usd35-billion-on-export-compliant-nvidia-rtx-pro-5500-workstation-gpu-orders-to-power-ai-ambitions-according-to-reports-bytedance-alibaba-and-tencent-order-3-million-cards-despite-warnings-that-only-10-percent-of-orders-are-fulfillable"
+            },
+            {
+              "headline": "Mastercard Opens Payments Rails to AI Agents",
+              "blurb": "Mastercard launched early access to an agent payment infrastructure that allows autonomous AI agents to conduct secure financial transactions.",
+              "url": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
