@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-22",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Autonomous Systems",
+          "stories": [
+            {
+              "headline": "Anthropic Unveils Claude Duet",
+              "blurb": "Anthropic has released Claude Duet, offering targeted collaborative AI workflows for complex user tasks.",
+              "url": "https://claude.com/resources/articles/claude-duet"
+            },
+            {
+              "headline": "OpenAI Models Expand to Google Cloud",
+              "blurb": "OpenAI has officially brought its core models to Google Cloud, expanding enterprise availability beyond Azure.",
+              "url": "https://openai.com/index/openai-models-google-cloud"
+            },
+            {
+              "headline": "Stripe Launches Financial Infrastructure for Autonomous Agents",
+              "blurb": "Stripe introduced dedicated financial infrastructure that allows autonomous AI agents to manage corporate funds and process transactions independently.",
+              "url": "https://stripe.com/newsroom/news/treasury-for-agents"
+            },
+            {
+              "headline": "Flapping Airplanes Raises $1B at $6B Valuation",
+              "blurb": "AI lab Flapping Airplanes secured $1 billion in fresh capital at a $6 billion valuation just one year after launching.",
+              "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation"
+            }
+          ]
+        },
+        {
+          "name": "Cybersecurity & Vulnerabilities",
+          "stories": [
+            {
+              "headline": "LiteLLM Discloses Package Supply Chain Breach",
+              "blurb": "LiteLLM reported a security breach affecting release v1.107.0, prompting developers to audit their dependency trees for compromised code.",
+              "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026"
+            },
+            {
+              "headline": "Proofpoint to Acquire Varonis for $6.3 Billion",
+              "blurb": "Proofpoint reached an agreement to acquire data governance platform Varonis for $6.3 billion to expand its enterprise security suite.",
+              "url": "https://www.theinformation.com/articles/thoma-bravo-found-discount-hot-cybersecurity-market"
+            },
+            {
+              "headline": "PHP Foundation Addresses AI-Discovered Critical Vulnerabilities",
+              "blurb": "The PHP Foundation issued a statement regarding critical vulnerabilities discovered during recent AI-driven automated security audits.",
+              "url": "https://therecord.media/php-foundation-statement-critical-vulnerabilities"
+            },
+            {
+              "headline": "Autonomous 'Skynet' Agent Hijacks Exposed AI Endpoints",
+              "blurb": "Security researchers identified an automated attack campaign using AI agents to breach and hijack unsecured cloud-hosted LLM endpoints.",
+              "url": "https://www.security.com/threat-intelligence/ai-llmjacking-skynet"
+            }
+          ]
+        },
+        {
+          "name": "Hardware & Compute Infrastructure",
+          "stories": [
+            {
+              "headline": "Google Cloud and Nvidia Deploy Vera Rubin Infrastructure",
+              "blurb": "Google Cloud and Nvidia announced general availability for Vera Rubin infrastructure to accelerate large-scale AI workloads.",
+              "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure"
+            },
+            {
+              "headline": "OpenAI Details Progress on Custom Jalapeño AI Chip",
+              "blurb": "OpenAI hardware lead Richard Ho provided technical insights into Jalapeño, the company's custom AI accelerator aimed at reducing reliance on third-party silicon.",
+              "url": "https://taekim.substack.com/p/an-interview-with-openais-richard"
+            },
+            {
+              "headline": "Tech Giants Challenge Nvidia's CUDA Dominance",
+              "blurb": "Google, Meta, and Amazon are collaborating on unified software frameworks to challenge Nvidia's long-standing dominance with CUDA.",
+              "url": "https://www.thelec.net/news/articleView.html?idxno=14808"
+            }
+          ]
+        },
+        {
+          "name": "Big Tech, Regulation & Science",
+          "stories": [
+            {
+              "headline": "Meta Fined $25 Billion in New Mexico Data Privacy Suit",
+              "blurb": "A New Mexico judge ordered Meta to pay $25 billion following a landmark data privacy lawsuit.",
+              "url": "https://www.theguardian.com/technology/2026/oct/21/meta-fined-new-mexico-data-privacy-case"
+            },
+            {
+              "headline": "Australian Court Mandates Alternative App Stores on iOS",
+              "blurb": "An Australian court ruling forces Apple to permit alternative app stores and direct payments on iOS devices.",
+              "url": "https://9to5mac.com/2026/10/21/apple-must-open-iphone-to-alternative-app-stores-in-australia-after-epic-games-ruling"
+            },
+            {
+              "headline": "Microsoft Research Solves 31-Year-Old KLS Conjecture",
+              "blurb": "Researchers at Microsoft successfully resolved the Kannan-Lovász-Simonovits conjecture, unlocking significant theoretical advancements in geometry and sampling algorithms.",
+              "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
