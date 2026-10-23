@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-23",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Machine Learning",
+          "stories": [
+            {
+              "headline": "Anthropic Uses Claude for Automated Formal Verification",
+              "blurb": "Anthropic introduced a method using Claude to automatically verify software correctness, advancing mathematical safety guarantees in code generation.",
+              "url": "https://www.anthropic.com/research/formal-verification"
+            },
+            {
+              "headline": "METR Red-Teams OpenAI’s Internal Agent Supervision",
+              "blurb": "Evaluators tested OpenAI's monitoring systems to determine whether autonomous AI agents can evade human oversight or detect when they are being watched.",
+              "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring"
+            },
+            {
+              "headline": "OpenAI Launches Decisions API for Structured Workflows",
+              "blurb": "OpenAI released a new Decisions API designed to help developers build more reliable and responsive AI agents with structured reasoning outputs.",
+              "url": "https://openai.com/index/decisions-api"
+            },
+            {
+              "headline": "Study Finds AI Code Generation Plagued by Review Bottlenecks",
+              "blurb": "Research shows AI coding tools fail to boost overall developer productivity because downstream code review and testing processes become major bottlenecks.",
+              "url": "https://www.infoq.com/news/2026/10/jellyfish-ai-productivity"
+            }
+          ]
+        },
+        {
+          "name": "Cybersecurity & Governance",
+          "stories": [
+            {
+              "headline": "Critical PHP2Shell Flaws Threaten Millions of Web Applications",
+              "blurb": "Newly uncovered remote code execution flaws in the PHP core allow unauthenticated attacks, exposing up to 70% of websites to high-risk exploits.",
+              "url": "https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core"
+            },
+            {
+              "headline": "Unvetted AI Agents Gain Unauthorized Access to Financial Accounts",
+              "blurb": "Autonomous AI agents are operating across U.S. financial networks without formal authentication standards, raising severe cybersecurity and compliance risks.",
+              "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access"
+            },
+            {
+              "headline": "1Password Launches Access Management for Autonomous AI Agents",
+              "blurb": "1Password introduced a security solution providing AI agents with credential management, identity verification, and permission boundaries.",
+              "url": "https://1password.com/blog/1password-for-ai-agents"
+            },
+            {
+              "headline": "Datadog Considers $4 Billion Acquisition of Cloud Security Firm Upwind",
+              "blurb": "Datadog is in talks to acquire cloud defense startup Upwind to significantly expand its real-time runtime security and observability capabilities.",
+              "url": "https://www.bankinfosecurity.com/blogs/datadog-eyeing-4b-buy-cloud-defense-firm-upwind-p-4225"
+            }
+          ]
+        },
+        {
+          "name": "Software & Developer Tools",
+          "stories": [
+            {
+              "headline": "Anthropic Develops In-House Version Control System Scion",
+              "blurb": "Anthropic built a proprietary source control tool called Scion to manage massive codebases and AI model artifacts that outgrew standard Git capabilities.",
+              "url": "https://blog.pragmaticengineer.com/the-pulse-anthropic-builds-its-own-source-control-system"
+            },
+            {
+              "headline": "Google Cloud Announces Agent Compute Engine for Enterprise Control",
+              "blurb": "Google unveiled dedicated infrastructure and control frameworks designed to safely deploy, scale, and govern autonomous AI agents in enterprise environments.",
+              "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance?linkId=64202548"
+            },
+            {
+              "headline": "The Browser Company to Sunset Arc Browser in Late 2026",
+              "blurb": "The Browser Company announced it will officially discontinue support for its flagship Arc web browser on December 22, 2026.",
+              "url": "https://mailchi.mp/diabrowser/arc-sunset"
+            }
+          ]
+        },
+        {
+          "name": "Hardware & Tech Business",
+          "stories": [
+            {
+              "headline": "Elon Musk Explores Potential Tesla and SpaceX Merger for AI",
+              "blurb": "Elon Musk is considering combining Tesla and SpaceX to unify compute, robotics, and satellite connectivity resources into a single AI platform.",
+              "url": "https://www.bloomberg.com/news/newsletters/2026-10-22/tesla-spacex-merger-is-elon-musk-s-biggest-ai-bet-yet"
+            },
+            {
+              "headline": "Visa in Talks to Acquire Crypto Custody Firm Fireblocks for $2.5B",
+              "blurb": "Visa is negotiating a $2.5 billion deal to purchase Fireblocks, aiming to bolster its institutional digital asset infrastructure and wallet operations.",
+              "url": "https://www.axios.com/pro/fintech-deals/2026/10/22/visa-fireblocks-talks-2-billion"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
