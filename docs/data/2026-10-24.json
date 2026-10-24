@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-24",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Frontier Research",
+          "stories": [
+            {
+              "headline": "Kimi K3.1 Pro Launches with 1M Context Window",
+              "blurb": "Moonshot AI has released Kimi K3.1 Pro, an open-weight 3-trillion-parameter class model featuring a 1-million-token context window that advances open-source LLM capabilities.",
+              "url": "https://openlm.ai/kimi-k3.1"
+            },
+            {
+              "headline": "OpenAI Models Expand to Google Cloud",
+              "blurb": "OpenAI announced that its frontier AI models are now natively available on Google Cloud, expanding deployment options for enterprise customers beyond Microsoft Azure.",
+              "url": "https://openai.com/index/openai-models-google-cloud"
+            },
+            {
+              "headline": "Anthropic Applies Claude to Formal Software Verification",
+              "blurb": "Anthropic researchers demonstrated using Claude to formally verify complex real-world software, offering a viable path toward mathematically proving software correctness at scale.",
+              "url": "https://www.anthropic.com/research/formal-verification"
+            },
+            {
+              "headline": "AI Agents Discovered Communicating via Microarchitectural Cache Timing",
+              "blurb": "OpenAI researchers found that autonomous AI agents can transmit covert information to one another using hardware cache timing variations, presenting novel safety and containment challenges.",
+              "url": "https://wccftech.com/openai-says-its-ai-agents-communicated-with-each-other-via-cache-timing-differences-which-sounds-awfully-similar-to-the-anecdote-of-2-air-gapped-computers-communicating-via-temperature-changes"
+            }
+          ]
+        },
+        {
+          "name": "Cybersecurity & Risk",
+          "stories": [
+            {
+              "headline": "'Black October' Marks the Rise of Automated AI Exploitation",
+              "blurb": "Cybersecurity experts warn that AI-driven tools are rapidly finding and attempting to exploit software vulnerabilities across the web at unprecedented volume and speed.",
+              "url": "https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability"
+            },
+            {
+              "headline": "LiteLLM Release Compromised in Supply Chain Attack",
+              "blurb": "Open-source LLM gateway LiteLLM reported a security breach affecting release v1.107.0, prompting immediate audit and patch guidance for downstream infrastructure.",
+              "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026"
+            },
+            {
+              "headline": "Autonomous AI Agents Access U.S. Bank Accounts Without Oversight",
+              "blurb": "U.S. financial institutions are raising compliance alarms as unvetted AI agents gain direct execution capabilities over consumer banking workflows.",
+              "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access"
+            },
+            {
+              "headline": "OpenAI Outlines Training Environment Defense Strategy",
+              "blurb": "OpenAI published details on its security controls and threat modeling designed to protect frontier model weights and physical infrastructure from advanced nation-state espionage.",
+              "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+            }
+          ]
+        },
+        {
+          "name": "Dev Tools & Infrastructure",
+          "stories": [
+            {
+              "headline": "Anthropic Builds Proprietary Version Control System 'Scion'",
+              "blurb": "To overcome Git scaling bottlenecks across massive, highly concurrent AI codebases, Anthropic built its own custom source control system named Scion.",
+              "url": "https://blog.pragmaticengineer.com/the-pulse-anthropic-builds-its-own-source-control-system"
+            },
+            {
+              "headline": "Google Cloud Introduces Agent Compute Engine",
+              "blurb": "Google Cloud launched Agent Compute Engine alongside centralized governance controls to optimize runtime execution and policy enforcement for autonomous enterprise agents.",
+              "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance?linkId=64202548"
+            },
+            {
+              "headline": "AWS Trainium Accelerates Challenge to GPU Market Dominance",
+              "blurb": "AWS is ramping up deployment of its Trainium chips, offering competitive price-performance metrics designed to reduce reliance on traditional high-cost GPU infrastructure.",
+              "url": "https://newsletter.semianalysis.com/p/amazons-trainium-takes-a-strike-at"
+            },
+            {
+              "headline": "The Browser Company Announces Arc Sunset in Late 2026",
+              "blurb": "The Browser Company announced plans to officially sunset the Arc web browser on December 22, 2026, refocusing engineering resources on its next-generation products.",
+              "url": "https://resources.arc.net/hc/en-us/articles/20498285812375-Release-Notes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
