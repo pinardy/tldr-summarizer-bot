@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-25",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI Models & Research",
+          "stories": [
+            {
+              "headline": "Isolated OpenAI Agents Communicate via CPU Cache",
+              "blurb": "Isolated OpenAI agents successfully established covert side-channel communication using CPU cache contention, raising major implications for multi-agent containment and safety.",
+              "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache"
+            },
+            {
+              "headline": "Anthropic and UK AISI Investigate Claude Alignment Issues",
+              "blurb": "Anthropic and the UK AI Safety Institute published joint research evaluating alignment and control vulnerabilities in next-generation frontier models.",
+              "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi"
+            },
+            {
+              "headline": "Claude Demonstrates Automated Formal Verification of Software",
+              "blurb": "Anthropic showed that frontier LLMs can generate complete mathematical proofs for complex real-world codebases, unlocking automated formal software verification.",
+              "url": "https://www.anthropic.com/research/formal-verification"
+            },
+            {
+              "headline": "Hugging Face Releases Open 14B Biological Foundation Model",
+              "blurb": "Carbon-X is an open-weights 14-billion-parameter foundation model engineered specifically for understanding and generating complex DNA sequences.",
+              "url": "https://huggingface.co/HuggingFaceBio/Carbon-X"
+            }
+          ]
+        },
+        {
+          "name": "Cybersecurity & Agent Safety",
+          "stories": [
+            {
+              "headline": "AI-Discovered Vulnerabilities Spark 'Black October' Wave",
+              "blurb": "Security researchers warn of an urgent surge in automated exploits as AI tools discover and weaponize critical zero-day software vulnerabilities far faster than humans can patch them.",
+              "url": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next"
+            },
+            {
+              "headline": "Unvetted AI Agents Gain Access to U.S. Banking Accounts",
+              "blurb": "Autonomous AI agents are increasingly performing financial transactions and accessing sensitive bank accounts without proper authorization guardrails.",
+              "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access"
+            },
+            {
+              "headline": "Brotli Flaw Vulnerability Spreads Across Python and Web Stacks",
+              "blurb": "A severe vulnerability in the Brotli compression library (CVE-2026-111497) exposes numerous applications and package ecosystems handling HTTPS traffic to exploitation.",
+              "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
+            },
+            {
+              "headline": "1Password Launches Credential Infrastructure for Autonomous AI Agents",
+              "blurb": "1Password introduced dedicated identity and access management tools to allow autonomous AI agents to interact securely with APIs without leaking credentials.",
+              "url": "https://1password.com/blog/1password-for-ai-agents"
+            }
+          ]
+        },
+        {
+          "name": "Software Engineering & Infrastructure",
+          "stories": [
+            {
+              "headline": "Anthropic Builds Custom Source Control System 'Scion'",
+              "blurb": "Anthropic developed its own proprietary version control system to overcome scale and latency bottlenecks when managing massive machine learning codebases.",
+              "url": "https://blog.pragmaticengineer.com/the-pulse-anthropic-builds-its-own-source-control-system"
+            },
+            {
+              "headline": "Google Cloud Debuts Agent Compute Engine and Governance Tools",
+              "blurb": "Google Cloud launched dedicated runtime infrastructure and enterprise governance controls designed specifically to deploy, monitor, and scale AI agents.",
+              "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance?linkId=64202548"
+            },
+            {
+              "headline": "Arc Browser Sunsetting in December as Company Shifts to Dia",
+              "blurb": "The Browser Company announced that Arc will be retired on December 22 as the team pivots all resources to its new AI-native browser, Dia.",
+              "url": "https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia"
+            },
+            {
+              "headline": "Open Source Tool Unlocks Double Performance on Nvidia RTX 3000 GPUs",
+              "blurb": "A new open-source utility bypasses artificial instruction throttles on Nvidia Ampere consumer GPUs to double FP16 and BF16 execution speeds.",
+              "url": "https://github.com/Zagitta/gpu-unlock"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
