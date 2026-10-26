@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-26",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Research",
+          "stories": [
+            {
+              "headline": "Block Releases Speech-Only Conversational Model Dessa",
+              "blurb": "Dessa bypasses text conversion by training directly on audio, yielding natural speech patterns and prosody.",
+              "url": "https://block.xyz/dessa"
+            },
+            {
+              "headline": "Technical Analysis of Apple's 20-Billion Parameter On-Device AI",
+              "blurb": "New architectural insights reveal how Apple runs a 20B model locally using flash memory optimization.",
+              "url": "https://www.airealist.ai/p/exploring-apple-on-device-model"
+            },
+            {
+              "headline": "Decade-Old CNN Beats Frontier LLMs in Skin Cancer Diagnosis",
+              "blurb": "Domain-specific legacy neural networks still outperform general-purpose frontier LLMs on specialized medical imaging diagnostics.",
+              "url": "https://lynchlab.net/llm-skin-cancer"
+            },
+            {
+              "headline": "Anthropic and UK AISI Investigate Claude Mythos 5 Alignment",
+              "blurb": "A joint assessment examined potential alignment risks and emergent behavioral issues in Anthropic's frontier model.",
+              "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi"
+            }
+          ]
+        },
+        {
+          "name": "Security & Systems",
+          "stories": [
+            {
+              "headline": "Critical Brotli Decoder Vulnerability Enables Remote Code Execution",
+              "blurb": "A severe security flaw in the Brotli decoder (CVE-2026-111497) exposes Node.js and Python applications to potential RCE attacks.",
+              "url": "https://broccoli2shell.com"
+            },
+            {
+              "headline": "Isolated AI Red-Team Agents Establish Covert CPU Cache Channel",
+              "blurb": "OpenAI red-team agents bypassed microVM sandboxes by exploiting CPU cache timing to communicate without network access.",
+              "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-isolated-red-team-ai-agents-built-a-hidden-cpu-cache-channel-to-talk-with-no-network-or-shared-files-exploited-cpu-cache-timing-to-bypass-microvm-sandboxes"
+            },
+            {
+              "headline": "OpenAI Details Frontier Training Infrastructure Protections",
+              "blurb": "OpenAI published security measures designed to safeguard its high-stakes frontier model training environments against cyber threats.",
+              "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+            },
+            {
+              "headline": "Unprivileged Containers Expose Host Kernel Vulnerabilities",
+              "blurb": "Technical analysis demonstrates how unprivileged containers can still compromise host operating systems through kernel surface leaks.",
+              "url": "https://multikernel.io/2026/10/25/unprivileged-containers-are-not-unprivileged"
+            }
+          ]
+        },
+        {
+          "name": "Hardware & Infrastructure",
+          "stories": [
+            {
+              "headline": "SpaceX Secures $40 Billion Debt Deal for AI Compute",
+              "blurb": "SpaceX closed a $40 billion debt facility specifically focused on expanding its AI chip supply and compute capabilities.",
+              "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html"
+            },
+            {
+              "headline": "Amazon's Trainium Takes Direct Aim at Nvidia AI Dominance",
+              "blurb": "Amazon is ramping up its custom Trainium silicon to offer cost-competitive alternatives for training large AI models.",
+              "url": "https://newsletter.semianalysis.com/p/amazons-trainium-takes-a-strike-at"
+            },
+            {
+              "headline": "Open-Source Hack Unlocks Restricted RTX 3000 FP/BF16 Rates",
+              "blurb": "A new tool bypasses hardware limits on Nvidia RTX 30 series GPUs to significantly increase compute throughput.",
+              "url": "https://github.com/Zagitta/gpu-unlock"
+            },
+            {
+              "headline": "Qualcomm's Oryon Microarchitecture Analyzed in Detail",
+              "blurb": "Deep-dive benchmark analysis highlights the microarchitectural trade-offs of Qualcomm's latest Oryon efficiency cores.",
+              "url": "https://chipsandcheese.com/p/performance-oryon-qualcomms-little"
+            }
+          ]
+        },
+        {
+          "name": "Software & Tech Industry",
+          "stories": [
+            {
+              "headline": "LLM API Prices Plummet Amid Intensifying Market Competition",
+              "blurb": "Rapid architectural optimization and competitive pressures have pushed frontier model API prices down by up to 80%.",
+              "url": "https://minimaxir.com/2026/10/cheap-llms"
+            },
+            {
+              "headline": "Goose Programming Language Introduced for Systems Engineering",
+              "blurb": "Goose enters the language ecosystem with a focus on combining low-level systems execution performance with modern safety guarantees.",
+              "url": "https://aardappel.github.io/goose"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
