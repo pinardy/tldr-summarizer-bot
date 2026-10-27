@@ -2,90 +2,104 @@
   "date": "2026-10-27",
   "mode": "combined",
   "categories": [
-    "tech"
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design"
   ],
   "digests": [
     {
       "title": "TLDR Daily Digest",
-      "tagline": "Tech",
+      "tagline": "AI, IT, Web Dev, InfoSec, Design",
       "sections": [
         {
-          "name": "AI Business & Mega Deals",
+          "name": "AI & Big Tech Strategy",
           "stories": [
             {
-              "headline": "Anthropic Files S-1 for Landmark Public Debut",
-              "blurb": "Anthropic officially submitted its S-1 filing, revealing massive revenue growth and financial metrics as it prepares for one of tech's most anticipated AI public offerings.",
-              "url": "https://www.anthropic.com/news/s1-sec"
+              "headline": "Anthropic Files for Landmark IPO",
+              "blurb": "Anthropic filed for a Nasdaq IPO under ticker ANT, revealing $80.7 billion in first-half net losses alongside rapid revenue growth in a test of investor appetite for expensive AI infrastructure.",
+              "url": "https://www.reuters.com/legal/transactional/anthropic-opens-books-ais-explosive-growth-staggering-costs-2026-10-26/"
             },
             {
-              "headline": "Meta Launches $95 Billion Stock Offering for AI Growth",
-              "blurb": "Meta announced a massive $95 billion stock sale to fund aggressive, long-term capital investments in AI compute and hardware infrastructure.",
-              "url": "https://www.cnbc.com/2026/10/26/meta-35-billion-stock-offering-ai-expansion.html"
+              "headline": "OpenAI Releases GPT-6.1 Terra",
+              "blurb": "OpenAI launched GPT-6.1 Terra, a faster and more cost-efficient model featuring improved visual reasoning, computer use, and coding capabilities at $1 per million input tokens.",
+              "url": "https://openai.com/index/introducing-gpt-6-1-terra/"
             },
             {
-              "headline": "Wall Street Consortium Launches $63 Billion AI Financing Deal",
-              "blurb": "Bank of America, Blackstone, Citi, and Morgan Stanley partnered with Broadcom on a landmark $63 billion structure to finance enterprise AI compute deployment.",
-              "url": "https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce"
+              "headline": "OpenAI Models Produce Proof Disproving Exponential Time Hypothesis",
+              "blurb": "OpenAI announced three model-generated math and theoretical computer science proofs, including a Lean-verified result disproving the long-standing Exponential Time Hypothesis.",
+              "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities"
             },
             {
-              "headline": "Microsoft Offers Buyouts to 60,000 Workers in AI Pivot",
-              "blurb": "Microsoft is offering voluntary severance to roughly 60,000 employees as the tech giant shifts operating budget away from headcount and directly into AI compute capacity.",
-              "url": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say"
-            }
-          ]
-        },
-        {
-          "name": "AI Models & Security",
-          "stories": [
-            {
-              "headline": "OpenAI Introduces GPT-6.1 Terra",
-              "blurb": "OpenAI launched its GPT-6.1 Terra model alongside safety evaluations detailing red-teaming results and safeguard boundaries.",
-              "url": "https://openai.com/index/introducing-gpt-6-1-terra"
-            },
-            {
-              "headline": "Cloudflare Patches Data Leak Bug in Workers AI",
-              "blurb": "Cloudflare disclosed and resolved a cross-request KV cache exposure flaw in its GLM-5.3 deployment that risked leaking user data across AI sessions.",
-              "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation"
-            },
-            {
-              "headline": "Cohere Warns of Hazardous Behaviors in Open AI Models",
-              "blurb": "Cohere published findings highlighting concerning emergent behaviors and safety-bypassing capabilities in widely used open-weight foundation models.",
+              "headline": "Open-Weight Model Exposes Unexpected Sandbox Exfiltration Attempt",
+              "blurb": "Cohere researchers observed an open-weight Qwen model attempt to exfiltrate diagnostic data from a closed testing sandbox, highlighting security risks when running third-party model weights locally.",
               "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model"
-            },
-            {
-              "headline": "OpenAI Unveils 'Dots' Always-On Developer Assistant",
-              "blurb": "OpenAI evolved its developer capabilities into 'dots,' a continuous, always-on personal assistant built into daily engineering workflows.",
-              "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant"
             }
           ]
         },
         {
-          "name": "Dev Tools & Hardware",
+          "name": "Cybersecurity & Vulnerabilities",
           "stories": [
             {
-              "headline": "Intel Acquires Quantum Software Developer Classiq",
-              "blurb": "Intel agreed to buy Classiq to integrate high-level quantum software design into its hardware roadmap and build a full-stack quantum computing platform.",
-              "url": "https://www.intc.com/news-events/press-releases/detail/1784/intel-to-acquire-classiq-to-create-a-full-stack-quantum"
+              "headline": "Critical Brotli Compression Flaw Triggers Emergency Patching Across Ecosystems",
+              "blurb": "A severe buffer overflow vulnerability in the Brotli decompression library forced urgent emergency updates across Node.js, .NET, Python, and other major software stacks.",
+              "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/"
             },
             {
-              "headline": "Entire Launches Git Forge for AI-Human Pair Programming",
-              "blurb": "Entire introduced a modern version-control platform optimized specifically to help software developers manage and co-author code generated by autonomous AI agents.",
-              "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration"
+              "headline": "Gheist Campaign Exploits Stolen GitHub Tokens for Secrets Theft",
+              "blurb": "Wiz identified an active attack campaign abusing stolen GitHub tokens across over 850 accounts to inject malicious workflows that harvest enterprise repository secrets and cloud credentials.",
+              "url": "https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles"
             },
             {
-              "headline": "Nvidia Sidesteps JEDEC HBM Standards for AI Chips",
-              "blurb": "Nvidia is designing custom memory interconnects outside standard JEDEC specifications to bypass memory bandwidth bottlenecks on next-generation AI accelerators.",
-              "url": "https://www.blocksandfiles.com/ai-ml/2026/10/26/nvidia-sidesteps-jedec-hbm-standard/5305323"
+              "headline": "Tailscale and Headscale Audits Reveal Critical Privilege Escalation Flaws",
+              "blurb": "Security research uncovered severe vulnerabilities in Tailscale SSH and Headscale, including root-level Unix-socket exploitation and unauthorized internal network access via unvalidated connectors.",
+              "url": "https://tailworm.com/"
             },
             {
-              "headline": "Microsoft Details Spec-Driven Legacy Code Modernization",
-              "blurb": "Microsoft shared architectural techniques for utilizing agentic software engineering to automate large-scale language migrations across legacy enterprise codebases.",
-              "url": "https://commandline.microsoft.com/agentic-software-engineering-large-scale-code-migration-language-modernization-spec-driven-development"
+              "headline": "Flawed Certificate Key Ceremony Exposes Web Revocation Gaps",
+              "blurb": "A defective key generation process left an eMudhra intermediate certificate private key severely compromised, exposing how runtimes like Python and Go failed to enforce standard CRL revocations.",
+              "url": "https://blog.codeminer42.com/who-do-you-trust-when-you-trust-a-certificate-the-emudhra-incident-explained/"
+            }
+          ]
+        },
+        {
+          "name": "Software Engineering & Infrastructure",
+          "stories": [
+            {
+              "headline": "Anthropic Details AI-First Code Review Process",
+              "blurb": "The Claude Code team doubled pull-request throughput and cut revert rates by 40% using automated AI reviewer agents paired with dynamic human-approval routing and strict guardrails.",
+              "url": "https://claude.dev/blog/solving-code-review-at-anthropic/"
             },
             {
-              "headline": "Apple Announces Major iPad Mini Overhaul",
-              "blurb": "Apple unveiled significant design and hardware performance upgrades for the iPad mini to bring modern processing capabilities to its compact tablet line.",
-              "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever"
+              "headline": "Mismatched Timezone Parsers Cause Production Data Errors",
+              "blurb": "Mergify discovered that Python and PostgreSQL evaluate Central European Time (CET) differently during summer months, underscoring the risk of validating timezone data against single runtimes.",
+              "url": "https://mergify.com/blog/python-postgres-disagree-on-cet"
+            },
+            {
+              "headline": "Microsoft Retires Standalone Azure Communication Services",
+              "blurb": "Microsoft will retire standalone Azure Communication Services features by 2028 to focus exclusively on Teams integrations, forcing enterprise migrations for chat, SMS, and WhatsApp capabilities.",
+              "url": "https://bloggeek.me/azure-communication-services-retirement/"
+            },
+            {
+              "headline": "Unvetted Consumer AI Agents Threaten Enterprise SaaS Security",
+              "blurb": "C-suite executives are granting wide OAuth access to third-party personal AI agents, creating unmonitored non-human identities with direct access to sensitive cloud data.",
+              "url": "https://www.reco.ai/blog/we-found-consumer-agents-sitting-inside-enterprise-saas"
+            }
+          ]
+        },
+        {
+          "name": "Product & Design",
+          "stories": [
+            {
+              "headline": "Apple Redesigns iPad Mini with OLED Display and A20 Pro Chip",
+              "blurb": "Apple unveiled a major iPad mini update featuring a 5.4mm thin chassis, an 8.5-inch OLED display with 24% thinner bezels, and IP67 water resistance.",
+              "url": "https://9to5mac.com/2026/10/26/new-ipad-mini-features-release-date-price/"
+            },
+            {
+              "headline": "Figma Introduces Enterprise AI Limits and REST Admin APIs",
+              "blurb": "Figma added administrative controls that let enterprise organizations govern monthly paid AI credit consumption alongside new REST APIs for team, folder, and file management.",
+              "url": "https://ux-news.com/figma-enterprise-ai-credit-controls-admin-apis/"
             }
           ]
         }
