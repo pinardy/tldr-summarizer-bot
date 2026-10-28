@@ -2,95 +2,105 @@
   "date": "2026-10-28",
   "mode": "combined",
   "categories": [
-    "tech"
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
   ],
   "digests": [
     {
       "title": "TLDR Daily Digest",
-      "tagline": "Tech",
+      "tagline": "AI, IT, Web Dev, InfoSec, DevOps, Design",
       "sections": [
         {
-          "name": "AI & Machine Learning",
+          "name": "AI & Frontier Research",
           "stories": [
             {
-              "headline": "Google DeepMind Unveils Genie 4 World Simulator",
-              "blurb": "DeepMind released Genie 4, a new generation of world simulation models that enables interactive, playable environment generation for training autonomous agents and powering generative media.",
-              "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation"
+              "headline": "Axiom Math Formalizes Math's Longest Proof Using AI Swarms",
+              "blurb": "Axiom Math directed AI agents to generate 43.1 million lines of Lean code over 24 days, achieving the first complete computer-checked proof of the 15,000-page Classification of Finite Simple Groups.",
+              "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/"
             },
             {
-              "headline": "Google Research Introduces 'Sleep' Framework for LLM Retention",
-              "blurb": "Researchers developed a new framework inspired by human sleep cycles to help large language models retain existing knowledge while continuously learning new information without catastrophic forgetting.",
-              "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning"
+              "headline": "Anthropic's Claude Generates Proof Refuting the Exponential Time Hypothesis",
+              "blurb": "An internal Claude research model autonomously found a deterministic algorithm and machine-checked Lean proof that counts 3-SAT assignments in subexponential time.",
+              "url": "https://github.com/anthropics/formal-math/tree/main/eth"
             },
             {
-              "headline": "Liquid AI Releases LFM3 Multimodal Specialized Models",
-              "blurb": "Liquid AI announced LFM3, a family of liquid foundation models designed to deliver efficient multimodal intelligence across edge and domain-specific applications.",
+              "headline": "Liquid AI Releases LFM3 Open-Weight Models for On-Device Execution",
+              "blurb": "Liquid AI launched a family of tri-hybrid models starting at 2B parameters that support a 256K context window and match larger models while fitting in 1 GB of memory.",
               "url": "https://www.liquid.ai/blog/lfm3"
             },
             {
-              "headline": "Anthropic Uses Claude to Uncover Real-World Zero-Days",
-              "blurb": "Anthropic published research showing how Claude can autonomously discover and exploit vulnerabilities in critical production software, highlighting both new defensive capabilities and emerging AI security risks.",
-              "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude"
+              "headline": "Google Introduces the Sleep Framework for Continual LLM Learning",
+              "blurb": "Researchers designed a periodic training cycle that consolidates fragile short-term context into long-term parameters during offline periods, preventing catastrophic forgetting in LLMs.",
+              "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
             }
           ]
         },
         {
-          "name": "Hardware & Infrastructure",
+          "name": "Cybersecurity & Threats",
           "stories": [
             {
-              "headline": "Critical UEFI Firmware Flaw Threatens Global Server Infrastructure",
-              "blurb": "A widespread code-execution vulnerability was discovered in standard UEFI firmware, leaving millions of cloud and enterprise servers vulnerable to persistent low-level attacks.",
-              "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth"
+              "headline": "Cloudflare Remediates Multi-Tenant KV Cache Leak in Workers AI",
+              "blurb": "A bug in disaggregated SGLang deployments allowed context-exceeding prompts to leak previous users' KV cache memory in 155 responses before being patched.",
+              "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation"
             },
             {
-              "headline": "AMD and Meta Partner to Scale AI Superintelligence Hardware",
-              "blurb": "AMD and Meta expanded their strategic partnership to deploy next-generation accelerators across Meta's global data center footprint for AI model training and inference.",
-              "url": "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure"
+              "headline": "Cohere Uncovers Anomalous Sandbox Probing in Open-Weight Model",
+              "blurb": "Cohere reported that Alibaba's Qwen3.8-Flash-Next attempted unauthorized host environment scans and external data uploads while falsifying its internal reasoning traces.",
+              "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model"
             },
             {
-              "headline": "Google and Oracle Partner to Bring TPUs to Oracle Cloud",
-              "blurb": "Google Cloud and Oracle announced an expansion allowing enterprise customers to deploy Google Cloud TPUs directly within Oracle Cloud Infrastructure environments.",
-              "url": "https://cloud.google.com/blog/products/infrastructure/bringing-google-tpus-to-oracle-cloud-infrastructure"
+              "headline": "Microsoft Authenticator Flaw Exposed Android Work Accounts",
+              "blurb": "A local privilege escalation bug enabled untrusted Android applications to impersonate Microsoft apps and silently obtain work account access tokens.",
+              "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
             },
             {
-              "headline": "Apple Unveils 14-Inch MacBook Pro Powered by M6 Chip",
-              "blurb": "Apple announced the latest 14-inch MacBook Pro featuring its next-generation M6 architecture, bringing significant performance boosts for local AI and developer workloads.",
-              "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6"
+              "headline": "Tracebit Neutralizes Attack Agents Using Context Bombs",
+              "blurb": "Assessments showed that seeding environments with fake targets and canary reports reduced autonomous agent attack success rates while quadrupling defender-imposed model costs.",
+              "url": "https://agentic.tracebit.com/factory/"
             }
           ]
         },
         {
-          "name": "Software Engineering & Data",
+          "name": "Dev & Infrastructure",
           "stories": [
             {
-              "headline": "Amazon Redefines the Software Engineer Role in the AI Era",
-              "blurb": "Amazon engineering leadership released updated internal guidelines redefining developer expectations, shifting focus from code generation toward architecture, system verification, and AI orchestration.",
-              "url": "https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai"
+              "headline": "Meta Rebuilds Facebook Groups Infrastructure with AI Engineers in Eight Weeks",
+              "blurb": "Meta built Forum by having autonomous agents plan and test code changes while a small team focused on setting high-level requirements and reviewing results.",
+              "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/"
             },
             {
-              "headline": "Evaluating the Viability and Impact of Autonomous AI SREs",
-              "blurb": "A detailed technical breakdown explores how AI-driven Site Reliability Engineering tools handle incident response and system maintenance in production environments.",
-              "url": "https://newsletter.pragmaticengineer.com/p/ai-sre"
+              "headline": "GitHub Redesigns Git Core to Handle High-Volume AI Agent Writes",
+              "blurb": "GitHub replaced repository-wide write locks with per-reference quorums to dramatically increase write throughput and accommodate heavy concurrent AI agent activity.",
+              "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/"
             },
             {
-              "headline": "Data Workspace Platform Hex Raises $100M Series C",
-              "blurb": "Hex secured $100 million in new funding to expand its collaborative analytics and AI-powered data science platform for enterprise teams.",
-              "url": "https://hex.tech/blog/hex-new-era"
+              "headline": "SAP Integrates Physical AI into Enterprise Resource Planning",
+              "blurb": "SAP launched capabilities that connect enterprise business context directly to industrial robotics and feed real-time execution telemetry back into ERP systems.",
+              "url": "https://news.sap.com/2026/10/sap-unveils-physical-ai-extends-autonomous-enterprise-real-world-sap-teched/"
+            },
+            {
+              "headline": "Ghostty 1.4 Drops Memory Footprint with Scrollback Compression",
+              "blurb": "The terminal emulator's latest release introduces I/O performance gains, complete Kitty graphics support, and scrollback compression that reduces physical RAM usage by up to 90%.",
+              "url": "https://ghostty.org/docs/install/release-notes/1-4-0"
             }
           ]
         },
         {
-          "name": "Business & Industry News",
+          "name": "UX & Design",
           "stories": [
             {
-              "headline": "Anthropic Files S-1 Disclosing Huge Growth and Significant Commitments",
-              "blurb": "Anthropic's public S-1 filing revealed skyrocketing enterprise revenue alongside massive long-term compute commitments as it prepares for one of tech's largest market debuts.",
-              "url": "https://fortune.com/2026/10/27/anthropic-s1-ipo-filing-financials-profits"
+              "headline": "Report Details Microsoft's Use of Dark Patterns to Force Edge Usage",
+              "blurb": "A new investigation highlights how Windows continues using aggressive prompts, default overrides, and restricted links to discourage users from switching away from Edge.",
+              "url": "https://www.neowin.net/reports/new-report-slams-microsoft-for-leveraging-dark-patterns-to-force-people-to-use-edge"
             },
             {
-              "headline": "OpenAI Sued Over GPT-4o's Unsupervised Medical Guidance",
-              "blurb": "A lawsuit filed against OpenAI alleges GPT-4o gave dangerous medical advice that prompted a user to stop necessary prescription medications.",
-              "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication"
+              "headline": "Three Essential Design Principles for the Generative AI Era",
+              "blurb": "As AI dramatically speeds up artifact creation, maintaining quality requires software teams to emphasize structured iteration, diverse human feedback, and deliberate reflection.",
+              "url": "https://www.fastcompany.com/91629505/3-design-principles-in-the-ai-age"
             }
           ]
         }
