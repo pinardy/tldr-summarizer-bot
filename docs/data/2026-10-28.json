@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-28",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Machine Learning",
+          "stories": [
+            {
+              "headline": "Google DeepMind Unveils Genie 4 World Simulator",
+              "blurb": "DeepMind released Genie 4, a new generation of world simulation models that enables interactive, playable environment generation for training autonomous agents and powering generative media.",
+              "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation"
+            },
+            {
+              "headline": "Google Research Introduces 'Sleep' Framework for LLM Retention",
+              "blurb": "Researchers developed a new framework inspired by human sleep cycles to help large language models retain existing knowledge while continuously learning new information without catastrophic forgetting.",
+              "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning"
+            },
+            {
+              "headline": "Liquid AI Releases LFM3 Multimodal Specialized Models",
+              "blurb": "Liquid AI announced LFM3, a family of liquid foundation models designed to deliver efficient multimodal intelligence across edge and domain-specific applications.",
+              "url": "https://www.liquid.ai/blog/lfm3"
+            },
+            {
+              "headline": "Anthropic Uses Claude to Uncover Real-World Zero-Days",
+              "blurb": "Anthropic published research showing how Claude can autonomously discover and exploit vulnerabilities in critical production software, highlighting both new defensive capabilities and emerging AI security risks.",
+              "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude"
+            }
+          ]
+        },
+        {
+          "name": "Hardware & Infrastructure",
+          "stories": [
+            {
+              "headline": "Critical UEFI Firmware Flaw Threatens Global Server Infrastructure",
+              "blurb": "A widespread code-execution vulnerability was discovered in standard UEFI firmware, leaving millions of cloud and enterprise servers vulnerable to persistent low-level attacks.",
+              "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth"
+            },
+            {
+              "headline": "AMD and Meta Partner to Scale AI Superintelligence Hardware",
+              "blurb": "AMD and Meta expanded their strategic partnership to deploy next-generation accelerators across Meta's global data center footprint for AI model training and inference.",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure"
+            },
+            {
+              "headline": "Google and Oracle Partner to Bring TPUs to Oracle Cloud",
+              "blurb": "Google Cloud and Oracle announced an expansion allowing enterprise customers to deploy Google Cloud TPUs directly within Oracle Cloud Infrastructure environments.",
+              "url": "https://cloud.google.com/blog/products/infrastructure/bringing-google-tpus-to-oracle-cloud-infrastructure"
+            },
+            {
+              "headline": "Apple Unveils 14-Inch MacBook Pro Powered by M6 Chip",
+              "blurb": "Apple announced the latest 14-inch MacBook Pro featuring its next-generation M6 architecture, bringing significant performance boosts for local AI and developer workloads.",
+              "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6"
+            }
+          ]
+        },
+        {
+          "name": "Software Engineering & Data",
+          "stories": [
+            {
+              "headline": "Amazon Redefines the Software Engineer Role in the AI Era",
+              "blurb": "Amazon engineering leadership released updated internal guidelines redefining developer expectations, shifting focus from code generation toward architecture, system verification, and AI orchestration.",
+              "url": "https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai"
+            },
+            {
+              "headline": "Evaluating the Viability and Impact of Autonomous AI SREs",
+              "blurb": "A detailed technical breakdown explores how AI-driven Site Reliability Engineering tools handle incident response and system maintenance in production environments.",
+              "url": "https://newsletter.pragmaticengineer.com/p/ai-sre"
+            },
+            {
+              "headline": "Data Workspace Platform Hex Raises $100M Series C",
+              "blurb": "Hex secured $100 million in new funding to expand its collaborative analytics and AI-powered data science platform for enterprise teams.",
+              "url": "https://hex.tech/blog/hex-new-era"
+            }
+          ]
+        },
+        {
+          "name": "Business & Industry News",
+          "stories": [
+            {
+              "headline": "Anthropic Files S-1 Disclosing Huge Growth and Significant Commitments",
+              "blurb": "Anthropic's public S-1 filing revealed skyrocketing enterprise revenue alongside massive long-term compute commitments as it prepares for one of tech's largest market debuts.",
+              "url": "https://fortune.com/2026/10/27/anthropic-s1-ipo-filing-financials-profits"
+            },
+            {
+              "headline": "OpenAI Sued Over GPT-4o's Unsupervised Medical Guidance",
+              "blurb": "A lawsuit filed against OpenAI alleges GPT-4o gave dangerous medical advice that prompted a user to stop necessary prescription medications.",
+              "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
