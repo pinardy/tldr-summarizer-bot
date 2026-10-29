@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-29",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Hardware Industry",
+          "stories": [
+            {
+              "headline": "Anthropic Files S-1 Proposing Public Listing",
+              "blurb": "Anthropic has filed its S-1 prospectus to go public, detailing its financial growth, corporate governance, and significant long-term compute commitments.",
+              "url": "https://thezvi.substack.com/p/anthropic-files-its-s-1"
+            },
+            {
+              "headline": "Google Announces Gemini 4 Carbon Frontier Model",
+              "blurb": "Google unveiled Gemini 4 Carbon as its latest flagship AI model designed for advanced multi-modal reasoning and complex enterprise workflows.",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon"
+            },
+            {
+              "headline": "DOJ Probes Nvidia's $12.9B Acquisition of Hugging Face",
+              "blurb": "The U.S. Department of Justice is scrutinizing Nvidia's planned acquisition of Hugging Face over antitrust concerns in the AI ecosystem.",
+              "url": "https://www.cnbc.com/2026/10/28/doj-questions-nvidias-12point9-billion-hugging-face-deal.html"
+            },
+            {
+              "headline": "FuriosaAI Raises $620M for Energy-Efficient Inference Chips",
+              "blurb": "AI chipmaker FuriosaAI secured $620 million to scale specialized inference silicon aimed at addressing power constraints in data centers.",
+              "url": "https://siliconangle.com/2026/10/28/energy-efficient-inference-chip-developer-furiosaai-raises-620m-to-solve-the-data-center-power-bottleneck"
+            }
+          ]
+        },
+        {
+          "name": "Developer Tools & Platforms",
+          "stories": [
+            {
+              "headline": "GitHub Debuts Copilot Fusion and Expands Infrastructure",
+              "blurb": "GitHub announced Copilot Fusion and added 4 million CPU cores to support rising demand for agent-driven software development.",
+              "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack"
+            },
+            {
+              "headline": "Supabase Launches OrioleDB Public Beta for PostgreSQL",
+              "blurb": "Supabase released the public beta of OrioleDB, a modern PostgreSQL storage engine optimized for update-heavy database workloads.",
+              "url": "https://supabase.com/blog/orioledb-public-beta"
+            },
+            {
+              "headline": "Microsoft Releases Copilot Harness for Multi-Model Agents",
+              "blurb": "Microsoft introduced a orchestration harness to help developers build and govern multi-model agentic AI workflows.",
+              "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work"
+            },
+            {
+              "headline": "Android Studio Integrates Native AI Coding Agents",
+              "blurb": "Google has built popular AI development agents directly into Android Studio to streamline mobile app creation.",
+              "url": "https://developer.android.com/blog/posts/ai-agents-android-studio-integration"
+            }
+          ]
+        },
+        {
+          "name": "Security & Infrastructure",
+          "stories": [
+            {
+              "headline": "Wiz Discovers PHP2Shell Remote Code Execution Flaws",
+              "blurb": "Security researchers at Wiz uncovered severe vulnerabilities in PHP that allow attackers to execute arbitrary code on affected servers.",
+              "url": "https://www.oreilly.com/radar/the-php-incident"
+            },
+            {
+              "headline": "Apple Git Toolchain Retains Compromised eMudhra Certificates",
+              "blurb": "Security analysts warned that Apple's Git distribution still trusts compromised eMudhra root certificates, leaving developers exposed to supply chain risks.",
+              "url": "https://emudhra.we-have-a-problem.com/apple.html"
+            },
+            {
+              "headline": "Upwind Raises $400M After Turning Down Datadog Buyout",
+              "blurb": "Cloud security startup Upwind secured $400 million in funding to expand independently after rejecting an acquisition offer from Datadog.",
+              "url": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer"
+            },
+            {
+              "headline": "Cisco Unveils Project Quarry for AI Agent Defense",
+              "blurb": "Cisco launched Project Quarry, an open framework designed to detect security threats and enforce guardrails around autonomous AI agents.",
+              "url": "https://blogs.cisco.com/ai/project-quarry-agent-security-detections"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
