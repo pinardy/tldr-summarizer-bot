@@ -1,0 +1,515 @@
+{
+  "date": "2026-10-30",
+  "mode": "per-newsletter",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Tech — 2026-10-30",
+      "tagline": "Get the free daily email with summaries of the most interesting stories in startups, tech, and programming.",
+      "sections": [
+        {
+          "name": "",
+          "stories": [
+            {
+              "headline": "Binance hot wallet signed 50 EIP-7702 delegations 3 minutes before the drain",
+              "blurb": "808bits.com 5 min read",
+              "url": "https://808bits.com/articles/binance-hot-wallet-eip-7702-delegations"
+            }
+          ]
+        },
+        {
+          "name": "Binance hot wallet signed 50 EIP-7702 delegations 3 minutes before the drain",
+          "stories": [
+            {
+              "headline": "Le Chonk: Built for Coders, Trusted by Defenders.",
+              "blurb": "mistral.ai 9 min read",
+              "url": "https://mistral.ai/news/mistral-large-4-oss"
+            }
+          ]
+        },
+        {
+          "name": "Le Chonk: Built for Coders, Trusted by Defenders.",
+          "stories": [
+            {
+              "headline": "Trojanized Claude Code Extension Plants an SSH Backdoor",
+              "blurb": "opensourcemalware.com 6 min read",
+              "url": "https://opensourcemalware.com/blog/trojanized-claude-code-extension-plants-persistent-ssh-backdoor"
+            }
+          ]
+        },
+        {
+          "name": "Trojanized Claude Code Extension Plants an SSH Backdoor",
+          "stories": [
+            {
+              "headline": "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain",
+              "blurb": "coindesk.com 2 min read",
+              "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead"
+            }
+          ]
+        },
+        {
+          "name": "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain",
+          "stories": [
+            {
+              "headline": "OpenAI-backed Thrive Holdings acquires ADT",
+              "blurb": "techcrunch.com 2 min read",
+              "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt"
+            }
+          ]
+        },
+        {
+          "name": "OpenAI-backed Thrive Holdings acquires ADT",
+          "stories": [
+            {
+              "headline": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+              "blurb": "techcrunch.com 4 min read",
+              "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience"
+            }
+          ]
+        },
+        {
+          "name": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+          "stories": [
+            {
+              "headline": "AI can turn security fixes into working exploits before users receive an update",
+              "blurb": "epoch.ai 11 min read",
+              "url": "https://epoch.ai/publications/open-weight-models-patch-gap"
+            }
+          ]
+        },
+        {
+          "name": "AI can turn security fixes into working exploits before users receive an update",
+          "stories": [
+            {
+              "headline": "A World Without Employees: Why DoorDash Is Buying Instacart for $17 Billion",
+              "blurb": "thebignewsletter.com 14 min read",
+              "url": "https://www.thebignewsletter.com/p/a-world-without-employees-why-doordash"
+            }
+          ]
+        },
+        {
+          "name": "A World Without Employees: Why DoorDash Is Buying Instacart for $17 Billion",
+          "stories": [
+            {
+              "headline": "How we detect frontier model misalignment",
+              "blurb": "openai.com 13 min read",
+              "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
+            }
+          ]
+        },
+        {
+          "name": "How we detect frontier model misalignment",
+          "stories": [
+            {
+              "headline": "DoorDash is paying $17 billion for the part of Instacart an AI agent can't skip",
+              "blurb": "hitesh.in 3 min read",
+              "url": "https://hitesh.in/2026/instacart-what-agents-cant-skip"
+            }
+          ]
+        },
+        {
+          "name": "DoorDash is paying $17 billion for the part of Instacart an AI agent can't skip",
+          "stories": [
+            {
+              "headline": "Why are good developers so wary of agentic development?",
+              "blurb": "martinfowler.com 9 min read",
+              "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html"
+            }
+          ]
+        },
+        {
+          "name": "Why are good developers so wary of agentic development?",
+          "stories": [
+            {
+              "headline": "Nvidia is negotiating to guarantee likely more than $5B in construction debt for Nscale’s 460MW A...",
+              "blurb": "x.com 1 min read",
+              "url": "https://x.com/rohanpaul_ai/status/2115953126511689944"
+            }
+          ]
+        },
+        {
+          "name": "Nvidia is negotiating to guarantee likely more than $5B in construction debt for Nscale’s 460MW A...",
+          "stories": [
+            {
+              "headline": "Canadian startup raises CAD $7 billion Series E (*)",
+              "blurb": "cohere.com 11 min read",
+              "url": "https://cohere.com/blog/who-gets-to-build-the-frontier-for-ai"
+            }
+          ]
+        },
+        {
+          "name": "Canadian startup raises CAD $7 billion Series E (*)",
+          "stories": [
+            {
+              "headline": "EMBRACE: How We Hacked the Browsers Embedded in Top Five Desktop AI Assistants · Forever Security",
+              "blurb": "forever.security 10 min read",
+              "url": "https://forever.security/blog/embrace-hacking-5-ai-assistants-embedded-browsers"
+            }
+          ]
+        },
+        {
+          "name": "EMBRACE: How We Hacked the Browsers Embedded in Top Five Desktop AI Assistants · Forever Security",
+          "stories": [
+            {
+              "headline": "DoorDash - DoorDash to Acquire Instacart to Help Local Stores Win",
+              "blurb": "ir.doordash.com 13 min read",
+              "url": "https://ir.doordash.com/news/news-details/2026/DoorDash-to-Acquire-Instacart-to-Help-Local-Stores-Win/default.aspx"
+            }
+          ]
+        },
+        {
+          "name": "DoorDash - DoorDash to Acquire Instacart to Help Local Stores Win",
+          "stories": [
+            {
+              "headline": "Report: Trump did nothing with intel that China planted spy close to Nvidia CEO",
+              "blurb": "arstechnica.com 1 min read",
+              "url": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo"
+            }
+          ]
+        },
+        {
+          "name": "Report: Trump did nothing with intel that China planted spy close to Nvidia CEO",
+          "stories": [
+            {
+              "headline": "What Google and Reddit's bad days have in common",
+              "blurb": "platformer.news 12 min read",
+              "url": "https://www.platformer.news/thursday-newsletter-6"
+            }
+          ]
+        },
+        {
+          "name": "What Google and Reddit's bad days have in common",
+          "stories": [
+            {
+              "headline": "Anthropic $100 Billion IPO Bet Is the Only Market That Matters Now",
+              "blurb": "bloomberg.com 1 min read",
+              "url": "https://www.bloomberg.com/opinion/articles/2026-10-30/anthropic-100-billion-ipo-bet-is-the-only-market-that-matters-now"
+            }
+          ]
+        },
+        {
+          "name": "Anthropic $100 Billion IPO Bet Is the Only Market That Matters Now",
+          "stories": [
+            {
+              "headline": "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign",
+              "blurb": "crowdstrike.com 7 min read",
+              "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign"
+            }
+          ]
+        },
+        {
+          "name": "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign",
+          "stories": [
+            {
+              "headline": "Anthropic’s financials are surprisingly strong",
+              "blurb": "understandingai.org 1 min read",
+              "url": "https://www.understandingai.org/p/anthropics-financials-are-surprisingly"
+            }
+          ]
+        },
+        {
+          "name": "Anthropic’s financials are surprisingly strong",
+          "stories": [
+            {
+              "headline": "Polymarket pauses trading after $2.65 million exploit, says third-party provider was compromised",
+              "blurb": "theblock.co 1 min read",
+              "url": "https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158"
+            }
+          ]
+        },
+        {
+          "name": "Polymarket pauses trading after $2.65 million exploit, says third-party provider was compromised",
+          "stories": [
+            {
+              "headline": "SpaceX no longer needs NASA, and that's a problem for America's space agency",
+              "blurb": "arstechnica.com 2 min read",
+              "url": "https://arstechnica.com/space/2026/10/spacex-no-longer-needs-nasa-and-thats-a-problem-for-americas-space-agency"
+            }
+          ]
+        },
+        {
+          "name": "SpaceX no longer needs NASA, and that's a problem for America's space agency",
+          "stories": [
+            {
+              "headline": "MCCL: Training Pytorch models across a fleet of Macs at Skywalker Sound",
+              "blurb": "arxiv.org 1 min read",
+              "url": "https://arxiv.org/abs/2610.39029"
+            }
+          ]
+        },
+        {
+          "name": "MCCL: Training Pytorch models across a fleet of Macs at Skywalker Sound",
+          "stories": [
+            {
+              "headline": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks | SkyPilot",
+              "blurb": "skypilot.ai 9 min read",
+              "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler"
+            }
+          ]
+        },
+        {
+          "name": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks | SkyPilot",
+          "stories": [
+            {
+              "headline": "Sam Altman almost scrapped token pricing. Here’s why he backed off.",
+              "blurb": "thenewstack.io 3 min read",
+              "url": "https://thenewstack.io/openai-token-pricing-reversal"
+            }
+          ]
+        },
+        {
+          "name": "Sam Altman almost scrapped token pricing. Here’s why he backed off.",
+          "stories": [
+            {
+              "headline": "AGI Economics: Coordination vs. Competence — DeepMind Institute",
+              "blurb": "institute.deepmind.com 16 min read",
+              "url": "https://institute.deepmind.com/essays/the-economics-of-intelligence"
+            }
+          ]
+        },
+        {
+          "name": "AGI Economics: Coordination vs. Competence — DeepMind Institute",
+          "stories": [
+            {
+              "headline": "Spotify aims to launch AI music remix service early next year",
+              "blurb": "ft.com 2 min read",
+              "url": "https://www.ft.com/content/50286bd0-7158-4347-81d8-011cd164f75b?syn-25a6b1a6=1"
+            }
+          ]
+        },
+        {
+          "name": "Spotify aims to launch AI music remix service early next year",
+          "stories": [
+            {
+              "headline": "Custom Voices With Qwen3-TTS",
+              "blurb": "lucumr.pocoo.org 7 min read",
+              "url": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices"
+            }
+          ]
+        },
+        {
+          "name": "Custom Voices With Qwen3-TTS",
+          "stories": [
+            {
+              "headline": "An Interview with Palantir CTO Shyam Sankar About the AI Religious War",
+              "blurb": "stratechery.com 49 min read",
+              "url": "https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war"
+            }
+          ]
+        },
+        {
+          "name": "An Interview with Palantir CTO Shyam Sankar About the AI Religious War",
+          "stories": [
+            {
+              "headline": "Organizing Claude Code agents like a traditional software engineering team",
+              "blurb": "x.com 17 min read",
+              "url": "https://x.com/miguelriosen/status/2115891556251234339"
+            }
+          ]
+        },
+        {
+          "name": "Organizing Claude Code agents like a traditional software engineering team",
+          "stories": [
+            {
+              "headline": "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B",
+              "blurb": "cointelegraph.com 1 min read",
+              "url": "https://cointelegraph.com/news/kalshi-closes-1b-funding-round-at-40b-valuation-as-non-sports-revenue-run-rate-tops-1b"
+            }
+          ]
+        },
+        {
+          "name": "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B",
+          "stories": [
+            {
+              "headline": "AI, Mathematics, Education, and a public goods problem",
+              "blurb": "terrytao.wordpress.com 15 min read",
+              "url": "https://terrytao.wordpress.com/2026/10/29/ai-mathematics-education-and-a-public-goods-problem"
+            }
+          ]
+        },
+        {
+          "name": "AI, Mathematics, Education, and a public goods problem",
+          "stories": [
+            {
+              "headline": "The story of Anthropic in three numbers https://t.co/1K9cQXbA59 | opinion",
+              "blurb": "x.com 1 min read",
+              "url": "https://x.com/ft/status/2116045587401355383"
+            }
+          ]
+        },
+        {
+          "name": "The story of Anthropic in three numbers https://t.co/1K9cQXbA59 | opinion",
+          "stories": [
+            {
+              "headline": "Pika-Labs/Pika-H3-Flex: Professional iteration video and audio model on Hugging Face",
+              "blurb": "huggingface.co 13 min read",
+              "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex"
+            }
+          ]
+        },
+        {
+          "name": "Pika-Labs/Pika-H3-Flex: Professional iteration video and audio model on Hugging Face",
+          "stories": [
+            {
+              "headline": "As Anthropic eyes a mega-IPO, why are Chinese tech valuations so far behind?",
+              "blurb": "scmp.com 2 min read",
+              "url": "https://www.scmp.com/business/markets/article/3372621/anthropic-eyes-mega-ipo-why-are-chinese-tech-valuations-so-far-behind"
+            }
+          ]
+        },
+        {
+          "name": "As Anthropic eyes a mega-IPO, why are Chinese tech valuations so far behind?",
+          "stories": [
+            {
+              "headline": "Agentic Backdoors via Pretraining Poisoning",
+              "blurb": "arxiv.org 1 min read",
+              "url": "https://arxiv.org/abs/2610.37741"
+            }
+          ]
+        },
+        {
+          "name": "Agentic Backdoors via Pretraining Poisoning",
+          "stories": [
+            {
+              "headline": "Anthropic’s IPO Will Be a National-Security Win for Taiwan",
+              "blurb": "wsj.com 1 min read",
+              "url": "https://www.wsj.com/opinion/anthropics-ipo-will-be-a-national-security-win-for-taiwan-029888b5"
+            }
+          ]
+        },
+        {
+          "name": "Anthropic’s IPO Will Be a National-Security Win for Taiwan",
+          "stories": [
+            {
+              "headline": "Serval raises $150M at $3B valuation to bring its automation agents beyond IT",
+              "blurb": "siliconangle.com 3 min read",
+              "url": "https://siliconangle.com/2026/10/29/serval-raises-150m-at-3b-valuation-to-bring-its-automation-agents-beyond-it"
+            }
+          ]
+        },
+        {
+          "name": "Serval raises $150M at $3B valuation to bring its automation agents beyond IT",
+          "stories": [
+            {
+              "headline": "Exclusive: Cybersecurity Mania Could Push Cyera Valuation to $20 Billion",
+              "blurb": "theinformation.com 1 min read",
+              "url": "https://www.theinformation.com/briefings/exclusive-cybersecurity-mania-push-cyera-valuation-20-billion"
+            }
+          ]
+        },
+        {
+          "name": "Exclusive: Cybersecurity Mania Could Push Cyera Valuation to $20 Billion",
+          "stories": [
+            {
+              "headline": "The Rise of Agentic Attacks: What They Look Like, and Where They're Headed",
+              "blurb": "wiz.io 16 min read",
+              "url": "https://www.wiz.io/blog/the-rise-of-agentic-attacks"
+            }
+          ]
+        },
+        {
+          "name": "The Rise of Agentic Attacks: What They Look Like, and Where They're Headed",
+          "stories": [
+            {
+              "headline": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
+              "blurb": "engineering.fb.com 7 min read",
+              "url": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale"
+            }
+          ]
+        },
+        {
+          "name": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
+          "stories": [
+            {
+              "headline": "Accenture Contractor Grants Claude Code Admin Access to Pentagon Network",
+              "blurb": "x.com 1 min read",
+              "url": "https://x.com/choblin29/status/2115892685139751027"
+            }
+          ]
+        },
+        {
+          "name": "Accenture Contractor Grants Claude Code Admin Access to Pentagon Network",
+          "stories": [
+            {
+              "headline": "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
+              "blurb": "cnbc.com 1 min read",
+              "url": "https://www.cnbc.com/2026/10/29/microsoft-25-billion-debt-offering.html"
+            }
+          ]
+        },
+        {
+          "name": "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
+          "stories": [
+            {
+              "headline": "Anthropic’s business plan: Build God or die trying",
+              "blurb": "theverge.com 7 min read",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive"
+            }
+          ]
+        },
+        {
+          "name": "Anthropic’s business plan: Build God or die trying",
+          "stories": [
+            {
+              "headline": "We urgently need to monitor AI agents’ actions in real time",
+              "blurb": "technologyreview.com 5 min read",
+              "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time"
+            }
+          ]
+        },
+        {
+          "name": "We urgently need to monitor AI agents’ actions in real time",
+          "stories": [
+            {
+              "headline": "Intel confirms Nova Lake will use advanced 18A-P node, more details at CES — company says it's taking Panther Lake capacity offline to build more Granite Rapids data center CPUs",
+              "blurb": "tomshardware.com 2 min read",
+              "url": "https://www.tomshardware.com/pc-components/cpus/intel-confirms-nova-lake-will-use-advanced-18a-p-node-more-details-at-ces-company-says-its-taking-panther-lake-capacity-offline-to-build-more-granite-rapids-data-center-cpus"
+            }
+          ]
+        },
+        {
+          "name": "Intel confirms Nova Lake will use advanced 18A-P node, more details at CES — company says it's taking Panther Lake capacity offline to build more Granite Rapids data center CPUs",
+          "stories": [
+            {
+              "headline": "Two fears will decide the fate of Anthropic’s giant IPO",
+              "blurb": "ft.com 3 min read",
+              "url": "https://www.ft.com/content/9fd6faa4-0e06-4b2b-975a-3e6d3a7f3d7f?syn-25a6b1a6=1"
+            }
+          ]
+        },
+        {
+          "name": "Two fears will decide the fate of Anthropic’s giant IPO",
+          "stories": [
+            {
+              "headline": "SMS of Death: zero-click Android telephony DoS",
+              "blurb": "smsofdeath.com 3 min read",
+              "url": "https://smsofdeath.com"
+            }
+          ]
+        },
+        {
+          "name": "SMS of Death: zero-click Android telephony DoS",
+          "stories": [
+            {
+              "headline": "AWS’s Hydro team wants the compiler to catch coding agents’ mistakes",
+              "blurb": "thenewstack.io 3 min read",
+              "url": "https://thenewstack.io/ai-agents-compiler-guardrails"
+            }
+          ]
+        },
+        {
+          "name": "AWS’s Hydro team wants the compiler to catch coding agents’ mistakes",
+          "stories": [
+            {
+              "headline": "Anthropic is asking Wall Street to believe in AGI",
+              "blurb": "theverge.com 34 min read",
+              "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
