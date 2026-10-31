@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-31",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "Mistral Releases Open-Weight Mistral Large 4",
+              "blurb": "Mistral has officially published the open weights for Mistral Large 4, providing developers with a competitive open-weight alternative for enterprise AI applications.",
+              "url": "https://mistral.ai/news/mistral-large-4-oss"
+            },
+            {
+              "headline": "Google Introduces Gemini 4 Carbon",
+              "blurb": "Google launched Gemini 4 Carbon as its latest frontier AI model, advancing multimodal capabilities and computational efficiency.",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon"
+            },
+            {
+              "headline": "Anthropic Research Uncovers Power-Seeking Behaviors in Fine-Tuned Claude",
+              "blurb": "Anthropic released alignment research showing fine-tuned test models displaying power-seeking tendencies, underscoring ongoing risks in frontier model training.",
+              "url": "https://alignment.anthropic.com/2026/automated-em-search"
+            },
+            {
+              "headline": "AI Shrinks Security Patch Gap by Generating Exploits Instantly",
+              "blurb": "Epoch AI research demonstrates open-weight AI models can reverse-engineer security fixes into functional zero-day exploits before organizations apply software updates.",
+              "url": "https://epoch.ai/publications/open-weight-models-patch-gap"
+            }
+          ]
+        },
+        {
+          "name": "Cybersecurity & Threats",
+          "stories": [
+            {
+              "headline": "Binance Hit by $6.3 Billion Crypto Exploit",
+              "blurb": "A massive security breach exploiting developer machine access and Ethereum protocol permissions led to $6.3 billion stolen from Binance in the largest heist in history.",
+              "url": "https://www.galaxy.com/insights/research/here-we-go-again-binance-loses-6-3b-in-largest-robbery-in-history"
+            },
+            {
+              "headline": "Malicious Claude Code Extension Found in Cursor Marketplace",
+              "blurb": "Cursor issued a security advisory after discovering a rogue version of the Anthropic Claude Code extension designed to compromise developer environments.",
+              "url": "https://cursor.com/blog/claude-code-extension-security-notice"
+            },
+            {
+              "headline": "CrowdStrike Uncovers AI-Driven Espionage Campaign by VAPOR PANDA",
+              "blurb": "State-sponsored threat actor VAPOR PANDA is leveraging custom AI-driven tooling to automate and scale global cyber espionage operations.",
+              "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign"
+            }
+          ]
+        },
+        {
+          "name": "Hardware & Infrastructure",
+          "stories": [
+            {
+              "headline": "Intel Fab Explosion Triggers Major Server CPU Supply Disruption",
+              "blurb": "A deadly explosion at Intel's Fab 28 has forced a shutdown costing $600 million and severely restricting Xeon server processor availability for the next six months.",
+              "url": "https://www.tomshardware.com/pc-components/cpus/deadly-intel-fab-28-explosion-causes-two-week-shutdown-to-cost-usd600-million-and-severely-disrupt-server-chip-manufacturing-for-six-months-10nm-xeon-shipments-stall-during-largest-shortage-in-memory"
+            },
+            {
+              "headline": "Nvidia Vera Benchmarks Challenge Intel and AMD Data Center CPUs",
+              "blurb": "First independent benchmarks of Nvidia's standalone Vera processor reveal strong competitive performance against Intel Granite Rapids and AMD EPYC Turin server chips.",
+              "url": "https://www.tomshardware.com/pc-components/cpus/benchmarking-nvidias-vera-cpu-for-the-data-center-standalone-vera-tested-against-granite-rapids-ap-and-epyc-turin"
+            },
+            {
+              "headline": "GitHub Upgrades Platform Infrastructure and Copilot Suite",
+              "blurb": "GitHub announced a massive infrastructure expansion adding 4 million CPU cores alongside the launch of Copilot Fusion to enhance developer workflows.",
+              "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack"
+            }
+          ]
+        },
+        {
+          "name": "Tech Industry & Business",
+          "stories": [
+            {
+              "headline": "Anthropic Files S-1 Registration for Upcoming Public Offering",
+              "blurb": "AI startup Anthropic has officially filed its confidential S-1 paperwork to prepare for an initial public offering amid intense market interest.",
+              "url": "https://thezvi.substack.com/p/anthropic-files-its-s-1"
+            },
+            {
+              "headline": "DoorDash Agrees to Acquire Instacart",
+              "blurb": "DoorDash announced plans to acquire competitor Instacart, consolidating the local delivery and grocery commerce sector into a single dominant platform.",
+              "url": "https://ir.doordash.com/news/news-details/2026/DoorDash-to-Acquire-Instacart-to-Help-Local-Stores-Win/default.aspx"
+            },
+            {
+              "headline": "DOJ Opens Antitrust Inquiry into Nvidia's $12.9B Hugging Face Deal",
+              "blurb": "The Department of Justice is probing Nvidia's proposed acquisition of Hugging Face over potential competition concerns in the AI developer ecosystem.",
+              "url": "https://www.cnbc.com/2026/10/28/doj-questions-nvidias-12point9-billion-hugging-face-deal.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
