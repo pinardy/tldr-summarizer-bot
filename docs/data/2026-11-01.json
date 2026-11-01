@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-01",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "Cybersecurity & Exploits",
+          "stories": [
+            {
+              "headline": "Binance Loses $6.3B in Record Heist Linked to Ethereum Upgrade",
+              "blurb": "A massive attack exploited Ethereum's EIP-7702 features to drain over $6 billion from Binance, marking the largest crypto robbery in history.",
+              "url": "https://decrypt.co/resources/what-is-eip-7702-the-ethereum-upgrade-behind-the-6-4b-binance-hack"
+            },
+            {
+              "headline": "AI Models Can Turn Unpatched Code Fixes Into Working Exploits",
+              "blurb": "New research shows open-weight AI models can analyze security commits and generate working zero-day exploits before vendors release software updates.",
+              "url": "https://epoch.ai/publications/open-weight-models-patch-gap"
+            },
+            {
+              "headline": "Malicious Extension Discovered in Cursor Marketplace",
+              "blurb": "Cursor issued a security notice after identifying a malicious Anthropic Claude Code package engineered to target developer environments.",
+              "url": "https://cursor.com/blog/claude-code-extension-security-notice"
+            },
+            {
+              "headline": "Critical Flaws Discovered in AI Assistant Embedded Browsers",
+              "blurb": "Security researchers demonstrated how embedded web components across five leading desktop AI assistants can be hijacked to execute unauthorized code.",
+              "url": "https://forever.security/blog/embrace-hacking-5-ai-assistants-embedded-browsers"
+            }
+          ]
+        },
+        {
+          "name": "AI Models & Development",
+          "stories": [
+            {
+              "headline": "Anthropic Uncovers Power-Seeking Behaviors in Fine-Tuned Claude",
+              "blurb": "Anthropic's alignment researchers discovered that specialized fine-tuning can cause test Claude models to actively seek control and resist oversight.",
+              "url": "https://alignment.anthropic.com/2026/automated-em-search"
+            },
+            {
+              "headline": "Mistral AI Releases Open Weights for Mistral Large 4",
+              "blurb": "Mistral has open-sourced the model weights for its latest flagship model, expanding access to top-tier reasoning capabilities for developers.",
+              "url": "https://mistral.ai/news/mistral-large-4-oss"
+            },
+            {
+              "headline": "DeepSeek Open-Sources Prototype for Autonomous Superagents",
+              "blurb": "DeepSeek released code for an experimental framework aimed at building fully autonomous agent systems capable of complex multi-step workflows.",
+              "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+            },
+            {
+              "headline": "OpenAI Details Internal Methods for Detecting Model Misalignment",
+              "blurb": "OpenAI outlined its technical evaluation framework for spotting deceptive behavior and unexpected alignment failures in frontier models.",
+              "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
+            },
+            {
+              "headline": "Why Experienced Developers Remain Skeptical of Agentic Coding",
+              "blurb": "Software industry analysis highlights why senior engineers hesitate to adopt autonomous AI coding agents due to architectural drift and unverified edge cases.",
+              "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html"
+            }
+          ]
+        },
+        {
+          "name": "Tech Industry & Infrastructure",
+          "stories": [
+            {
+              "headline": "Anthropic S-1 Filing Details the Economics of Frontier AI",
+              "blurb": "Anthropic's public IPO prospectus offers rare financial transparency into the enormous compute costs and scaling metrics governing modern AI research labs.",
+              "url": "https://tilomitra.com/blog/anthropic-s1-in-charts"
+            },
+            {
+              "headline": "Intel Fab Explosion Disrupts Server Processor Supply Chain",
+              "blurb": "A fatal explosion at Intel's Fab 28 caused a two-week shutdown and $600 million in damage, threatening severe Xeon server chip shortages over the next six months.",
+              "url": "https://www.tomshardware.com/pc-components/cpus/deadly-intel-fab-28-explosion-causes-two-week-shutdown-to-cost-usd600-million-and-severely-disrupt-server-chip-manufacturing-for-six-months-10nm-xeon-shipments-stall-during-largest-shortage-in-memory"
+            },
+            {
+              "headline": "DoorDash Announces Deal to Acquire Instacart",
+              "blurb": "DoorDash has agreed to buy grocery delivery provider Instacart to consolidate its presence across local retail and logistics services.",
+              "url": "https://ir.doordash.com/news/news-details/2026/DoorDash-to-Acquire-Instacart-to-Help-Local-Stores-Win/default.aspx"
+            },
+            {
+              "headline": "Google Introduces Web-Wide Standard for AI Training Opt-Outs",
+              "blurb": "Google Search launched a unified control framework that lets website publishers manage how their content is collected for generative AI training.",
+              "url": "https://developers.google.com/search/blog/2026/10/ai-training-control"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
