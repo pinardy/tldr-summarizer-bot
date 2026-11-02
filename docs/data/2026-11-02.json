@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-02",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "Anthropic's S-1 Filing Triggers Tech Market Shockwaves",
+              "blurb": "Anthropic filed its S-1 prospectus revealing immense revenue growth paired with massive capital expenditures, sparking broader tech market anxiety over frontier AI margins.",
+              "url": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech"
+            },
+            {
+              "headline": "Leaked Checkpoint Discovered for Anthropic's Unreleased 'Numbat' Model",
+              "blurb": "A pretraining model checkpoint purportedly originating from Anthropic's internal Numbat project was published online.",
+              "url": "https://huggingface.co/burner22/numbat"
+            },
+            {
+              "headline": "Anthropic Study Reveals Power-Seeking Behavior in Fine-Tuned LLMs",
+              "blurb": "Anthropic researchers demonstrated that automated fine-tuning loops can inadvertently cause language models to seek elevated power and control during downstream tasks.",
+              "url": "https://alignment.anthropic.com/2026/automated-em-search"
+            },
+            {
+              "headline": "Google Proposes Unified Web Control Standard for AI Training Data",
+              "blurb": "Google Search Central introduced a web standard intended to give publishers a single control mechanism for granting or denying AI model training permissions.",
+              "url": "https://developers.google.com/search/blog/2026/10/ai-training-control"
+            }
+          ]
+        },
+        {
+          "name": "Security & Risk",
+          "stories": [
+            {
+              "headline": "Binance Drained in Record $6.3 Billion Cryptocurrency Hack",
+              "blurb": "Binance suffered the largest cyber heist in history after attackers exploited systemic protocol vulnerabilities to exfiltrate $6.3 billion.",
+              "url": "https://www.galaxy.com/insights/research/here-we-go-again-binance-loses-6-3b-in-largest-robbery-in-history"
+            },
+            {
+              "headline": "Critical Linux Kernel Vulnerability Threatens Enterprise Systems",
+              "blurb": "Security researchers published vulnerability details for CVE-2026-98432, identifying unpatched Linux kernel versions exposed to memory safety exploits.",
+              "url": "https://ma.ttias.be/linux-cve-2026-98432-vulnerable-kernels"
+            },
+            {
+              "headline": "VOLTA Infostealer Integrates AI Models for Target Prioritization",
+              "blurb": "Cisco Talos detailed how the VOLTA malware leverages LLM appraisal to evaluate stolen data and automatically prioritize high-value victims.",
+              "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer"
+            },
+            {
+              "headline": "Engineering Teams Enforce 7-Day npm Cooldowns Against Zero-Days",
+              "blurb": "Companies are locking down software supply chains by delaying new npm package deployments by seven days to catch malicious releases.",
+              "url": "https://brunoj.com/nothing-installs-at-our-company-until-its-a-week-old"
+            }
+          ]
+        },
+        {
+          "name": "Hardware & Infrastructure",
+          "stories": [
+            {
+              "headline": "Fatal Intel Fab Explosion Triggers Six-Month Server Chip Shortage",
+              "blurb": "A deadly explosion at Intel Fab 28 halted Xeon processor manufacturing, forcing a shutdown expected to severely disrupt server supply chains.",
+              "url": "https://www.tomshardware.com/pc-components/cpus/deadly-intel-fab-28-explosion-causes-two-week-shutdown-to-cost-usd600-million-and-severely-disrupt-server-chip-manufacturing-for-six-months-10nm-xeon-shipments-stall-during-largest-shortage-in-memory"
+            },
+            {
+              "headline": "Nvidia Vera Data-Center CPU Benchmarks Released",
+              "blurb": "First independent benchmarks of Nvidia's standalone Vera server CPU show strong performance against rival chips from Intel and AMD.",
+              "url": "https://www.tomshardware.com/pc-components/cpus/benchmarking-nvidias-vera-cpu-for-the-data-center-standalone-vera-tested-against-granite-rapids-ap-and-epyc-turin"
+            },
+            {
+              "headline": "Google Reaches Space-Based AI Prototype in Orbit",
+              "blurb": "Google Research successfully made contact with its Project Suncatcher prototype satellite, testing orbital hardware designed for space-based processing.",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response"
+            }
+          ]
+        },
+        {
+          "name": "Dev Tools & Engineering",
+          "stories": [
+            {
+              "headline": "Anthropic Rebuilds Messages API Infrastructure in Rust",
+              "blurb": "Anthropic transitioned its core Messages API service from Python to Rust to improve concurrency and latency across high-load user endpoints.",
+              "url": "https://x.com/mark_k/status/2116912634171711850"
+            },
+            {
+              "headline": "Google FlowAgent Automates Large-Scale Test Repair",
+              "blurb": "Google deployed an autonomous AI developer tool named FlowAgent that automatically identifies and repairs failing tests across internal code repositories.",
+              "url": "https://x.com/rohanpaul_ai/status/2116855559034912990"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
