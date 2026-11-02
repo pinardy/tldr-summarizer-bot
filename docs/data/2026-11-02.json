@@ -1,96 +1,713 @@
 {
   "date": "2026-11-02",
-  "mode": "combined",
+  "mode": "per-newsletter",
   "categories": [
-    "tech"
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design",
+    "data"
   ],
   "digests": [
     {
-      "title": "TLDR Daily Digest",
-      "tagline": "Tech",
+      "title": "TLDR AI — 2026-11-02",
+      "tagline": "DeepSeek super agent 🤖, GPT-6 Rosalind 🧬, Google orbital compute 🛰️",
       "sections": [
         {
-          "name": "AI & Models",
+          "name": "Headlines & Launches",
           "stories": [
             {
-              "headline": "Anthropic's S-1 Filing Triggers Tech Market Shockwaves",
-              "blurb": "Anthropic filed its S-1 prospectus revealing immense revenue growth paired with massive capital expenditures, sparking broader tech market anxiety over frontier AI margins.",
-              "url": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech"
+              "headline": "Anthropic prepares to release Claude Mythos 5.5 model (3 minute read)",
+              "blurb": "A reference to Claude Mythos 5.5 was spotted on Anthropic's official Mythos webpage, indicating that the company may be preparing for an upcoming release. The change only covers the version number, and there are no new specifications and no announcement. Multiple reports suggest that the model is being A/B tested with selected users. If the company follows a similar strategy to previous releases, Mythos 5.5 may initially remain exclusive to selected cyberdefenders.",
+              "url": "https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/"
             },
             {
-              "headline": "Leaked Checkpoint Discovered for Anthropic's Unreleased 'Numbat' Model",
-              "blurb": "A pretraining model checkpoint purportedly originating from Anthropic's internal Numbat project was published online.",
-              "url": "https://huggingface.co/burner22/numbat"
+              "headline": "GPT-Rosalind-6 System Card Addendum (6 minute read)",
+              "blurb": "GPT-Rosalind-6 is a frontier reasoning model for biology, drug discovery, and translational medicine. It is available as GPT-Rosalind-6 Research to qualified scientists, research institutes, companies, and government partners. The model uses the same weights as GPT-6 Astra. It is designed to support legitimate biological research while refusing requests for biological weaponization. The model is rated as High Capability in the Biological and Chemical domain under OpenAI's Preparedness Framework.",
+              "url": "https://deploymentsafety.openai.com/gpt-rosalind-6"
             },
             {
-              "headline": "Anthropic Study Reveals Power-Seeking Behavior in Fine-Tuned LLMs",
-              "blurb": "Anthropic researchers demonstrated that automated fine-tuning loops can inadvertently cause language models to seek elevated power and control during downstream tasks.",
-              "url": "https://alignment.anthropic.com/2026/automated-em-search"
+              "headline": "Google's Project Suncatcher Generates First AI Response in Orbit (1 minute read)",
+              "blurb": "Google reports its Project Suncatcher prototype ran Gemma 4 on a data-center-class TPU in orbit, returning a haiku transmitted through Svalbard. Upcoming tests will assess thermal and radiation resilience ahead of a planned pair of interconnected satellites in 2027, advancing research into space-based AI compute.",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/"
+            }
+          ]
+        },
+        {
+          "name": "Deep Dives & Analysis",
+          "stories": [
+            {
+              "headline": "Find Hidden Misalignment in Training Data (39 minute read)",
+              "blurb": "Anthropic used Claude to automatically generate fine-tuning datasets that induced misaligned behavior while evading training-data safety monitors. The experiments uncovered seemingly harmless fiction and roleplay examples that caused models to resist oversight, deceive users, and occasionally attempt weight exfiltration.",
+              "url": "https://alignment.anthropic.com/2026/automated-em-search/"
             },
             {
-              "headline": "Google Proposes Unified Web Control Standard for AI Training Data",
-              "blurb": "Google Search Central introduced a web standard intended to give publishers a single control mechanism for granting or denying AI model training permissions.",
+              "headline": "Red-teamers found 11 ways for a misaligned agent to slip past Codex's Auto-review (22 minute read)",
+              "blurb": "An ERA fellow mentored at Apollo Research audited the open-source Codex harness and found 11 attacks that let a misaligned agent run arbitrary code despite the sandbox and the Auto-review blocking monitor. The exploits swap scripts behind trusted hooks, forge user turns the monitor can't tell from real ones, and edit files after approval. OpenAI has fixed several.",
+              "url": "https://www.lesswrong.com/posts/dbStc8ZFESqfihwAd/lessons-from-red-teaming-auto-review-openai-s-blocking-1"
+            }
+          ]
+        },
+        {
+          "name": "Engineering & Research",
+          "stories": [
+            {
+              "headline": "Poisoning 0.1% of pretraining data planted a remote-code backdoor in a coding agent (78 minute read)",
+              "blurb": "Researchers from Anthropic, UC Berkeley, and UIUC pretrained Qwen3 models on web data seeded with documents that simply state a trigger-to-'curl | bash' rule, then post-trained them into CLI agents on clean data. The 4B agent ran the attacker's command on about 92% of prompts containing an ordinary path like .../anthropic/..., with no drop in normal capability. The backdoor grew stronger with model size and still fired at a 0.0005% poison rate.",
+              "url": "https://arxiv.org/abs/2610.37741"
+            },
+            {
+              "headline": "Unlocking hidden skills inside Google's model (8 minute read)",
+              "blurb": "AI models can hold skills that no prompt can unlock. It is possible to enable these skills through precise tuning of only a small number of weights. This study shows how researchers unlocked hidden skills inside Google's model through this method.",
+              "url": "https://dejan.ai/blog/latent-skills/"
+            },
+            {
+              "headline": "dsh-superagent (GitHub Repo)",
+              "blurb": "dsh-superagent is a coding agent packaged as a bundle for DeepSeek Harness. It can watch GitHub, open work items, work in its own agent session and directory, and answer in the original conversation. It only acts when asked or when a rule the team wrote allows it, and it only speaks when someone must act or can use a result.",
+              "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Senior Software Engineer, Applied AI at TLDR ($300k base + $60k bonus, Fully Remote)",
+              "blurb": "TLDR is hiring a senior engineer to build the agent-first operating layer used across the company. We're looking for a builder who has taken an LLM agent to production and still owns it. Click here to learn more .",
+              "url": "https://jobs.ashbyhq.com/tldr.tech/7aefaa32-da0f-4b36-9853-738d30fcb69d"
+            },
+            {
+              "headline": "Reading Anthropic's S-1 (9 minute read)",
+              "blurb": "Anthropic is growing absurdly fast. It just had its first profitable quarter. The real risk is years of locked-in compute bills paid for by customers who can cut back any month. The company is also dealing with regulatory issues and copyright suits, and it has a heavy reliance on the big cloud companies.",
+              "url": "https://www.tilomitra.com/blog/anthropic-s1-in-charts"
+            },
+            {
+              "headline": "DoorDash said it's only received 'several hundred' orders from AI agents (2 minute read)",
+              "blurb": "DoorDash revealed it has received \"several hundred\" orders from AI agents, despite processing 3 million deliveries daily. CEO Tony Xu highlighted that most orders still come directly from the DoorDash app, but the company is interested in exploring agentic use cases. DoorDash is also developing its own agents and considering future advertising opportunities within these platforms.",
+              "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "There is no single AI adoption rate (4 minute read)",
+              "blurb": "McKinsey's nearly 90% usage, Ramp's 55.9% paid adoption, and Census's 19.8% measure different businesses, behaviors, and time windows.",
+              "url": "https://www.stateof.ai/ai-adoption"
+            },
+            {
+              "headline": "Introducing &Tutor (13 minute read)",
+              "blurb": "&Tutor, a new teaching model available via API, was trained against Persimmon, a robust learner model.",
+              "url": "https://tutor.humansand.ai/blog/"
+            },
+            {
+              "headline": "Inside the Frontier Labs: The First AGI Organizations (12 minute read)",
+              "blurb": "Frontier labs are reorganizing around agents that execute research while humans choose directions and verify results.",
+              "url": "https://x.com/hannahhaina/status/2116182129403166876"
+            },
+            {
+              "headline": "Supporting a shared AI training control for websites (2 minute read)",
+              "blurb": "Google announced plans to support a shared AI training control via robots.txt, allowing websites to set AI training preferences with a single policy token.",
               "url": "https://developers.google.com/search/blog/2026/10/ai-training-control"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "title": "TLDR IT — 2026-11-02",
+      "tagline": "Google Cloud adds spend caps 💸, AI reports delay Postgres 🐛, Linux sets commit record 🐧",
+      "sections": [
         {
-          "name": "Security & Risk",
+          "name": "News & Trends",
           "stories": [
             {
-              "headline": "Binance Drained in Record $6.3 Billion Cryptocurrency Hack",
-              "blurb": "Binance suffered the largest cyber heist in history after attackers exploited systemic protocol vulnerabilities to exfiltrate $6.3 billion.",
-              "url": "https://www.galaxy.com/insights/research/here-we-go-again-binance-loses-6-3b-in-largest-robbery-in-history"
+              "headline": "Google Cloud lets teams cap project spending (3 minute read)",
+              "blurb": "Google Cloud has made spend caps generally available for eligible services. Teams can use the Cloud Billing Budgets API to give every new sandbox project a spending limit, then raise or remove it when a developer needs more room.",
+              "url": "https://cloud.google.com/blog/topics/cost-management/google-cloud-spend-caps-now-generally-available"
             },
             {
-              "headline": "Critical Linux Kernel Vulnerability Threatens Enterprise Systems",
-              "blurb": "Security researchers published vulnerability details for CVE-2026-98432, identifying unpatched Linux kernel versions exposed to memory safety exploits.",
-              "url": "https://ma.ttias.be/linux-cve-2026-98432-vulnerable-kernels"
+              "headline": "AI is finding bugs faster than PostgreSQL maintainers can review fixes (2 minute read)",
+              "blurb": "A surge in AI-assisted bug reports and patches helped push PostgreSQL 19 past its usual fall release window. Maintainers still have to verify proposed fixes and apply them to older versions. The project is targeting November 19 for release.",
+              "url": "https://www.phoronix.com/news/PostgreSQL-19-Late"
             },
             {
-              "headline": "VOLTA Infostealer Integrates AI Models for Target Prioritization",
-              "blurb": "Cisco Talos detailed how the VOLTA malware leverages LLM appraisal to evaluate stolen data and automatically prioritize high-value victims.",
-              "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer"
-            },
-            {
-              "headline": "Engineering Teams Enforce 7-Day npm Cooldowns Against Zero-Days",
-              "blurb": "Companies are locking down software supply chains by delaying new npm package deployments by seven days to catch malicious releases.",
-              "url": "https://brunoj.com/nothing-installs-at-our-company-until-its-a-week-old"
+              "headline": "Linux 7.4 sets a record with nearly 20,000 commits (2 minute read)",
+              "blurb": "The Linux 7.4 merge window drew nearly 20,000 commits, the busiest in kernel history. For comparison, Linux 7.3 took its entire release cycle to reach 20,260 commits.",
+              "url": "https://www.phoronix.com/news/Linux-7.4-Merge-Window"
             }
           ]
         },
         {
-          "name": "Hardware & Infrastructure",
+          "name": "Analysis & Opinions",
           "stories": [
             {
-              "headline": "Fatal Intel Fab Explosion Triggers Six-Month Server Chip Shortage",
-              "blurb": "A deadly explosion at Intel Fab 28 halted Xeon processor manufacturing, forcing a shutdown expected to severely disrupt server supply chains.",
-              "url": "https://www.tomshardware.com/pc-components/cpus/deadly-intel-fab-28-explosion-causes-two-week-shutdown-to-cost-usd600-million-and-severely-disrupt-server-chip-manufacturing-for-six-months-10nm-xeon-shipments-stall-during-largest-shortage-in-memory"
+              "headline": "Five years after the fork, who steers OpenSearch? (6 minute read)",
+              "blurb": "AWS created OpenSearch after Elastic changed the license for Elasticsearch. Elastic has since restored an open-source licensing option, but the projects have continued to diverge. This post examines where OpenSearch has taken its own technical direction and how much influence AWS still holds over its governance.",
+              "url": "https://thenewstack.io/opensearch-foundation-aws-elasticsearch/"
             },
             {
-              "headline": "Nvidia Vera Data-Center CPU Benchmarks Released",
-              "blurb": "First independent benchmarks of Nvidia's standalone Vera server CPU show strong performance against rival chips from Intel and AMD.",
-              "url": "https://www.tomshardware.com/pc-components/cpus/benchmarking-nvidias-vera-cpu-for-the-data-center-standalone-vera-tested-against-granite-rapids-ap-and-epyc-turin"
-            },
-            {
-              "headline": "Google Reaches Space-Based AI Prototype in Orbit",
-              "blurb": "Google Research successfully made contact with its Project Suncatcher prototype satellite, testing orbital hardware designed for space-based processing.",
-              "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response"
+              "headline": "Andy Jassy thinks Bedrock could become as big as EC2 (3 minute read)",
+              "blurb": "Amazon's CEO argues that companies will want to switch AI models as price and performance change. His bet is that giving customers one place to run models from several vendors could make Bedrock as large a business as EC2, AWS' core computing service.",
+              "url": "https://www.crn.com/news/ai/2026/amazon-q3-earnings-ceo-jassy-says-bedrock-could-become-as-big-as-ec2"
             }
           ]
         },
         {
-          "name": "Dev Tools & Engineering",
+          "name": "Launches & Partnerships",
           "stories": [
             {
-              "headline": "Anthropic Rebuilds Messages API Infrastructure in Rust",
-              "blurb": "Anthropic transitioned its core Messages API service from Python to Rust to improve concurrency and latency across high-load user endpoints.",
-              "url": "https://x.com/mark_k/status/2116912634171711850"
+              "headline": "ServiceNow brings OpenAI, Anthropic, and Okta into its AI governance alliance (3 minute read)",
+              "blurb": "ServiceNow launched the Control Tower Alliance with 11 founding partners spanning AI models, cloud infrastructure, identity, and security. Members plan to deliver pretested integrations so customers can use ServiceNow's Control Tower to govern AI systems from multiple vendors.",
+              "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-launches-Control-Tower-Alliance-to-help-enterprises-adopt-AI-safely-at-scale/default.aspx"
             },
             {
-              "headline": "Google FlowAgent Automates Large-Scale Test Repair",
-              "blurb": "Google deployed an autonomous AI developer tool named FlowAgent that automatically identifies and repairs failing tests across internal code repositories.",
-              "url": "https://x.com/rohanpaul_ai/status/2116855559034912990"
+              "headline": "Tencent connects WorkBuddy to ERP and CRM systems (3 minute read)",
+              "blurb": "Tencent's WorkBuddy office agent can now query business systems through the Model Context Protocol. An employee can ask for a report that draws on both customer and operations data, and the agent can break the request into steps, retrieve records from each system, and present the findings.",
+              "url": "https://www.computerweekly.com/news/366653072/Tencent-plugs-WorkBuddy-into-enterprise-systems"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "How Docusign teaches agents to read amended contracts (5 minute read)",
+              "blurb": "Figuring out what a company owes a supplier can mean reconciling the signed contract with three amendments, a revised price schedule, and an internal purchasing policy. In this interview, CTO Sagnik Nandy explains how the company gives its Iris agents the context to answer that kind of question.",
+              "url": "https://thenewstack.io/docusign-contract-ai-agents/"
+            },
+            {
+              "headline": "GitHub adds three IP ranges for webhook deliveries (1 minute read)",
+              "blurb": "Teams that maintain a static firewall allowlist for GitHub webhooks need to add three IP ranges to keep receiving deliveries. Teams that automatically sync their allowlists from GitHub's Meta API already pick up the additions.",
+              "url": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Microsoft fixes Always On VPN failures in Windows 11 (2 minute read)",
+              "blurb": "Microsoft resolved the connection failures introduced by September's security updates after incorrectly marking the issue as fixed in October's cumulative updates.",
+              "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/amp/"
+            },
+            {
+              "headline": "Oracle Cloud will offer Google's AI chips (6 minute read)",
+              "blurb": "Oracle Cloud Infrastructure will become the first hyperscaler outside Google Cloud to offer Google's Tensor Processing Units.",
+              "url": "https://www.rtinsights.com/real-time-decisions/real-time-analytics-news-for-the-week-ending-october-31/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Web Dev — 2026-11-02",
+      "tagline": "AI framework costs 📊, open-source Grok Bot 🤖, HackerTube 🎞",
+      "sections": [
+        {
+          "name": "Articles & Tutorials",
+          "stories": [
+            {
+              "headline": "Simplifying Runtime Caching on Vercel (4 minute read)",
+              "blurb": "Vercel is merging Data Cache into Runtime Cache without requiring changes to existing Next.js fetch caching or unstable_cache calls. The architecture uses regional Redis fleets and tag invalidation timestamps, letting one timestamp invalidate a million entries without deleting them individually.",
+              "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel"
+            },
+            {
+              "headline": "The AI Cost of JavaScript Frameworks (16 minute read)",
+              "blurb": "A benchmark asks a coding agent to build the same Pokémon app across JavaScript frameworks, measuring cost, time, conformance, performance, and accessibility. Median reported API costs range from $2.67 for Hono with htmx to $4.97 for Angular, but substantial run-to-run variation and the small workload limit broader conclusions.",
+              "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
+            },
+            {
+              "headline": "Two Circles, One Connection, and border-shape (10 minute read)",
+              "blurb": "CSS anchor positioning, border-shape, and shape() can draw curved connectors that follow two moving elements. The tutorial works through alignment and overflow fixes, then adds conditional shapes and transitions, with demos that currently require Chrome or Edge for full support.",
+              "url": "https://blog.master.dev/two-circles-one-connection-and-border-shape/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Advice",
+          "stories": [
+            {
+              "headline": "What You Should Know Before Selling Your Equity (9 minute read)",
+              "blurb": "Selling startup equity can reduce concentrated risk without abandoning confidence in the company. The essay offers nine ways to think through the decision, including mapping what the money would change, modeling outcomes in a spreadsheet, writing a short decision memo, and finding tax help with startup-equity experience.",
+              "url": "https://nextplayso.substack.com/p/what-you-should-know-before-selling"
+            },
+            {
+              "headline": "The Age of Frivolous Software (4 minute read)",
+              "blurb": "A personal World Cup dashboard grew to roughly 50,000 users after an initial version built in hours with coding agents and automated infrastructure setup. The experience argues that cheaper development makes short-lived, highly personal software worth building, though refining the interface still took sustained direction and hundreds of deployments.",
+              "url": "https://ianmccrystal.com/posts/the-age-of-frivolous-software/"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "OmniDiff (GitHub Repo)",
+              "blurb": "OmniDiff uses content-specific algorithms to compare source code, images, fonts, archives, and PDFs. It provides an interactive terminal viewer, Git integration, and headless or JSON output for scripts and CI.",
+              "url": "https://github.com/ivankovic/omnidiff"
+            },
+            {
+              "headline": "nodeterm (GitHub Repo)",
+              "blurb": "nodeterm arranges persistent tmux terminals and coding agents as draggable nodes on an infinite canvas. It combines spatial workspaces with a kanban view of live sessions, agent status notifications, and remote SSH projects.",
+              "url": "https://github.com/eneskirca/nodeterm"
+            },
+            {
+              "headline": "OpenMausBot (GitHub Repo)",
+              "blurb": "OpenMausBot puts a team of AI agents in a chat interface, similar to Grok Bot, running through locally installed Claude, Codex, or Grok CLIs. Each bot can use connected apps and a cloud computer or local VM, with permission requests surfaced as approval cards in the conversation.",
+              "url": "https://github.com/milind-soni/OpenMausBot"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "HackerTube (2 minute read)",
+              "blurb": "HackerTube, created by Andrej Karpathy, turns Hacker News video recommendations into a YouTube-style browsing interface spanning 6,454 videos across 150 topics. The project filters recommendation comments, uses mid-video frames as thumbnails, and keeps personalization in local browser state without accounts.",
+              "url": "https://karpathy.bearblog.dev/hacker-tube/"
+            },
+            {
+              "headline": "Senior Software Engineer, Applied AI at TLDR ($300k base + $60k bonus, Fully Remote)",
+              "blurb": "TLDR is hiring a senior engineer to build the agent-first operating layer used across the company. We're looking for a builder who has taken an LLM agent to production and still owns it. Click here to learn more .",
+              "url": "https://jobs.ashbyhq.com/tldr.tech/7aefaa32-da0f-4b36-9853-738d30fcb69d"
+            },
+            {
+              "headline": "The Federated Code Forge (4 minute read)",
+              "blurb": "Tangled combines Git with AT Protocol so teams can self-host parts of their code forge while continuing to collaborate across instances. Its new architecture separates a Svelte frontend from globally deployed, in-memory Rust indexers, replacing a single Go service backed by SQLite in Sweden.",
+              "url": "https://tangled.org/blog/forge/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Nothing Installs Until It's a Week Old (8 minute read)",
+              "blurb": "A company-wide registry proxy delays new npm and PyPI releases for seven days, buying time for malicious versions to be discovered while tracking downloads and supporting version blocklists.",
+              "url": "https://brunoj.com/nothing-installs-at-our-company-until-its-a-week-old/"
+            },
+            {
+              "headline": "Nibnib (GitHub Repo)",
+              "blurb": "Nibnib is an experimental 4-bit-per-pixel image format that decodes two pixels per byte using palette deltas.",
+              "url": "https://github.com/raphlinus/nibnib"
+            },
+            {
+              "headline": "nREPL, Right in Your Browser (8 minute read)",
+              "blurb": "A browser-based nREPL server uses SCI and Web Workers to provide a roughly 230 KB gzipped playground.",
+              "url": "https://metaredux.com/posts/2026/11/01/nrepl-right-in-your-browser.html"
+            },
+            {
+              "headline": "Mathematics Has Changed. Let's Act Like It (17 minute read)",
+              "blurb": "AI-assisted mathematics should reward understanding, worthwhile questions, and broader research programs.",
+              "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR InfoSec — 2026-11-02",
+      "tagline": "Cursor Claude Malware 💻, VOLTA AI infostealer 🕵️, Finding Encrypted USB backdoors 💾",
+      "sections": [
+        {
+          "name": "Attacks & Vulnerabilities",
+          "stories": [
+            {
+              "headline": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours (2 minute read)",
+              "blurb": "A malicious Claude VS Code extension, version 2.1.313, was published through Anthropic's official Cursor account. It targeted up to 5,000 developers, collected host and environment details, and tried to add an SSH key and open a reverse tunnel. Bugs limited persistence on Windows and macOS. Cursor removed it, blocked its server, rotated keys, and audited the marketplace, but users who installed or updated it on Thursday should check the published indicators of compromise.",
+              "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
+            },
+            {
+              "headline": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script (3 minute read)",
+              "blurb": "A hijacked DebugBear script on Polymarket's site used signed-in traders' browser sessions to sell or transfer their positions on October 29. Attackers received about $2.64 million in POL from 33 wallets within 52 minutes. Polymarket is refunding $3.9 million, including $2.7 million to 726 affected wallets. The compromise began through DebugBear's domain registrar.",
+              "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html"
+            },
+            {
+              "headline": "Binance resumes customer withdrawals after record $6.3bn hack (2 minute read)",
+              "blurb": "Binance has resumed phased withdrawals after a $6.3 billion theft. The FBI attributes the attack to North Korea-linked TraderTraitor, part of Lazarus Group. The breach involved a compromised laptop and malware that deleted evidence. Binance has replenished 90% of stolen assets and pledged to cover the remainder. The FBI warns that stolen funds are being converted into Ethereum and laundered through DeFi and instant swap services.",
+              "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency"
+            }
+          ]
+        },
+        {
+          "name": "Strategies & Tactics",
+          "stories": [
+            {
+              "headline": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer (8 minute read)",
+              "blurb": "VOLTA takes a \"steal everything, let AI sort it out\" approach: it grabs credentials, sessions, wallets, and cloud keys, then uses the victim's own Gmail, DoorDash, and Discord sessions to confirm details like a home address. It sends the resulting dossier through OpenRouter to Claude, falling back to Kimi and then Gemini if a model refuses, and gets back a ranked \"WHAT THEY'RE WORTH\" assessment of what the victim's assets could fetch. Talos assessed VOLTA as a commodity builder that runs entirely on third-party infrastructure. They recommended that defenders block or alert on non-developer processes launching Chrome with --headless, since that is how the stealer gets around App-Bound Encryption.",
+              "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/"
+            },
+            {
+              "headline": "Discovering a Backdoor and Flaws in More Encrypted USB Drives (10 minute read)",
+              "blurb": "Vector 35 researcher Xusheng Li pointed Codex at Binary Ninja's MCP server and recovered the keys hardcoded in NetacFileLock, KakaSoft USB Copy Protection, and Nexcopy Copy Secure in 7 to 26 minutes each. In each product, the key was fixed in the binary, derived from an embedded seed, or unlocked by a certificate in the viewer, so the user's password never protected the files. Separately, time-travel debugging turned up two hidden accounts in SecZure's YutianDun drive, with passwords as weak as \"123456\", that could decrypt any file. Li skipped vendor disclosure because drives already in the field can't be patched, and he argued that client-side validation is never secure, so buyers should only trust drives that derive their encryption key from the user's password.",
+              "url": "https://binary.ninja/2026/10/22/breaking-more-encrypted-usb-drives-with-ai.html"
+            },
+            {
+              "headline": "Agentic Offensive Frameworks Hit Real Intrusions (34 minute read)",
+              "blurb": "Google Threat Intelligence Group (GTIG) and Mandiant observed intruders using the open-source ARTEX framework with stolen credentials and letting its six sub-agents run Azure and AWS permission sweeps, Kerberoasting, DCSync, and MySQL log poisoning that wrote JSP webshells in bursts as short as 2 to 25 seconds. ARTEX users included financially motivated extortion groups and suspected PRC-nexus clusters such as UNC7228, which went from a first account to deep access in about four hours, though GTIG noted the agents were forensically noisy and sometimes undid each other's work. Mandiant recommended short-lived, tightly scoped credentials, locking down admin interfaces like Kudu/SCM as privileged infrastructure, and behavioral detection tuned for machine-speed bursts.",
+              "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Northstar Security (Product Launch)",
+              "blurb": "Northstar Security provides a Security Context Graph from existing security and IT tools. It maps identities, assets, applications, vulnerabilities, and business systems, then flags risky combinations and starts supervised fixes such as installing endpoint protection or limiting access.",
+              "url": "https://www.northstar.security/"
+            },
+            {
+              "headline": "BLA: Blind LLM Agents (GitHub Repo)",
+              "blurb": "BLA is a tool to harden binaries against agentic reverse engineering. When an AI reverse engineering agent opens the binary, the analyzer his resource budgets, follows decoys, and burns tokens.",
+              "url": "https://github.com/qybaihe/bla"
+            },
+            {
+              "headline": "Agentmetry (GitHub Repo)",
+              "blurb": "Agentmetry is an agent observability tool that records every tool call an agent makes on a machine, flags risky sequences, can block a call that your policy forbids, and keeps a record that a third-party can verify and forward to a SIEM.",
+              "url": "https://github.com/blitzcrieg1/agentmetry"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux (2 minute read)",
+              "blurb": "CVE-2026-97229, a CVSS 10 flaw in Ruby's Onigmo regex engine, lets unauthenticated attackers execute code through crafted GitLab CI/CD configurations. Attackers targeted Alpine Linux on October 20 to 21, crashed worker processes, and downloaded its container image. Alpine found no confirmed code execution or repository tampering, rebuilt the instance, and reset passwords. CISA added the bug to KEV. GitLab-only updates may be insufficient for custom Ruby deployments. Use Ruby 3.3.13, 3.4.12, 4.0.9, or later.",
+              "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/"
+            },
+            {
+              "headline": "Legal Exploits May Emerge At Scale (4 minute read)",
+              "blurb": "The authors argue that legal systems may have dormant “vulnerabilities” that an attacker can leverage with an LLM to find and exploit. They present an example from the German legal system, which requires executive regulations to cite their legal basis. The authors then showcase a selection of regulations with provisions lacking proper citations, which could render them void and unenforceable.",
+              "url": "https://www.felixringe.com/legal-exploits/"
+            },
+            {
+              "headline": "CVE-2026-98432: which Linux kernels are still vulnerable (5 minute read)",
+              "blurb": "Mattias Geniar found 712 Multipath TCP listeners on his own Ubuntu 26.04 laptop, opened without his knowledge by Go programs like tailscaled, because Go 1.24 and later enable MPTCP on listening sockets by default. That matters because the only known exploit for CVE-2026-98432 needs an MPTCP listener. The bug is a use-after-free in the kernel's IPv4 TCP handshake that dates back to Linux 4.4 and can be reached with a single SYN. Upstream stable kernels were fixed in mid-October, and Debian, Amazon Linux, and Oracle UEK have shipped patches, but Ubuntu and RHEL still had no fixed kernel as of November 1.",
+              "url": "https://ma.ttias.be/linux-cve-2026-98432-vulnerable-kernels/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Applebee's exposed customers' personal data after leaving database password in app (2 minute read)",
+              "blurb": "A researcher found a hardcoded database password in Applebee's Android app.",
+              "url": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/"
+            },
+            {
+              "headline": "Implant reported in a Trezor sold by CryptoBilis (5 minute read)",
+              "blurb": "An Indonesian customer reported finding an extra circuit board with a cellular modem inside a Trezor Safe 5 bought from former Southeast Asian reseller CryptoBilis.",
+              "url": "https://trezor.io/blog/news/implant-reported-in-a-trezor-sold-by-cryptobilis"
+            },
+            {
+              "headline": "Belgium's tax agency confirms cyberattack, pulls services offline (2 minute read)",
+              "blurb": "Belgium's FOD Financiën took MyMinfin, Tax-on-web, and Biztax offline after a cyberattack - there are no indications of a data breach, but investigations are ongoing.",
+              "url": "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR DevOps — 2026-11-02",
+      "tagline": "Grafana 13.3 🆕, Serverless AI Agents 🔮, Datadog Agent Observability 🔍",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "Spacelift Brought Scale to Your IaC Provisioning. Now We're Automating Everything That Happens After. (4 minute read)",
+              "blurb": "Spacelift is expanding from IaC provisioning into Day 2 operations with Spacelift Flows. It also renamed its IaC and GitOps offering to 'Spacelift Deploy' and bundles it with the Spacelift Intelligence assistant in one control plane.",
+              "url": "https://spacelift.io/blog/full-stack-infrastructure-orchestration"
+            },
+            {
+              "headline": "Cloudflare Services for Private Origins Is Now Generally Available (5 minute read)",
+              "blurb": "Cloudflare can now route public requests to private origin IPs over existing Cloudflare One connectivity while applying WAF, caching, bot management, and Workers. Origins retain private addresses without inbound firewall exceptions. Setup requires account enablement, supported connectivity, and appropriate return routes.",
+              "url": "https://blog.cloudflare.com/private-origins-public-to-private/"
+            },
+            {
+              "headline": "Grafana 13.3 release: manage variables across dashboards, share findings with Notebooks, a UI refresh, and more (6 minute read)",
+              "blurb": "Grafana 13.3 adds cross-dashboard variables and Notebooks, both in public preview, plus the first phase of a visual refresh. It also brings Assistant dashboard plans and a generally available Undo turn option for reverting Assistant edits.",
+              "url": "https://grafana.com/blog/grafana-13-3-release-all-the-latest-features/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "How to troubleshoot GKE workloads faster with VPC Flow Logs (5 minute read)",
+              "blurb": "Google Cloud shows how GKE metadata in VPC Flow Logs gives workload-level attribution for network traffic without agents or sidecars. It walks through three Flow Analyzer examples on the Online Boutique demo.",
+              "url": "https://cloud.google.com/blog/products/containers-kubernetes/using-vpc-flow-logs-to-troubleshoot-gke-workloads/"
+            },
+            {
+              "headline": "Default to serverless for AI agents, then let production data decide what moves (10 minute read)",
+              "blurb": "Datadog argues that serverless should be the first execution model teams evaluate for AI agents. It cites a study of over 35,000 coding agent sessions where LLM or tool calls filled only 20% of the median session.",
+              "url": "https://www.datadoghq.com/blog/serverless-ai-agents/"
+            }
+          ]
+        },
+        {
+          "name": "Resources & Tools",
+          "stories": [
+            {
+              "headline": "Vorssaint (GitHub Repo)",
+              "blurb": "Vorssaint is a free and open-source macOS menu bar toolkit that replaces dozens of paid utility apps. It offers per-app volume controls, window snapping, a clipboard history, and system monitors. The tool runs locally with no account, telemetry, or subscription required.",
+              "url": "https://github.com/vorssaint/vorssaint-utils"
+            },
+            {
+              "headline": "OpenMAIC (GitHub Repo)",
+              "blurb": "OpenMAIC is an open-source AI platform that transforms documents into interactive classroom experiences with AI teachers, slides, and simulations. It supports over 20 providers, including OpenAI, Anthropic, and local options like Ollama.",
+              "url": "https://github.com/THU-MAIC/OpenMAIC"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "How GKE networking scales to support high densities of concurrent AI agents (4 minute read)",
+              "blurb": "Google Cloud explains how GKE Dataplane V2 avoids Cilium's 65,536 identity limit for high-density agent workloads by moving high-cardinality pod labels to annotations. The post reports 300 sandboxes per second at sub-second latency.",
+              "url": "https://cloud.google.com/blog/products/networking/gke-networking-dataplane-for-large-agentic-ai-workloads/"
+            },
+            {
+              "headline": "Do the math: How we took over ChatGPT accounts (10 minute read)",
+              "blurb": "Researchers found a vulnerability that allowed them to take over ChatGPT accounts just by sending a victim a link. The exploit chain combined a MathLive keyboard feature and the HTML Preview to bypass the sandbox, allowing malicious code to run as chatgpt.com and access private conversations. OpenAI fixed the issue on October 26 and classified the report as P1.",
+              "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
+            },
+            {
+              "headline": "Trace voice agents with Datadog Agent Observability (5 minute read)",
+              "blurb": "Datadog Agent Observability now captures audio, transcripts, token usage, and tool calls for voice agents built on the OpenAI Realtime API. It also adds tracing for Amazon Nova 2 Sonic, with ElevenLabs Realtime support planned for ddtrace 4.17.0.",
+              "url": "https://www.datadoghq.com/blog/agent-observability-voice-agent/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "OpenTelemetry eBPF Instrumentation reaches v1.0.0 (19 minute read)",
+              "blurb": "The release marks general availability for the project's kernel-level observability tool.",
+              "url": "https://opentelemetry.io/blog/2026/obi-v1-release/"
+            },
+            {
+              "headline": "TCP Use-After-Free: CVE-2026-98432/CVSS 9.8 (12 minute read)",
+              "blurb": "CVE-2026-98432 is a CVSS 9.8 remote use-after-free in Linux's IPv4 TCP handshake, fixed in upstream stable kernels on October 15.",
+              "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Design — 2026-11-02",
+      "tagline": "WhatsApp Groups 💬, Affinity for iPad 🎨, Meta Style Sketch 👗",
+      "sections": [
+        {
+          "name": "News & Trends",
+          "stories": [
+            {
+              "headline": "WhatsApp group chats get permanent message pins, private Status updates, and more (3 minute read)",
+              "blurb": "WhatsApp is adding four features designed to make busy group conversations easier to manage, including permanent message pins and Group Status updates visible only to members of a particular group. A new filter collects unread conversations containing mentions, direct replies, or @all messages so users can quickly find messages that need their attention. Recent message history can also now be shared with someone after they have joined a group, helping new members catch up without exposing older conversations automatically.",
+              "url": "https://www.digitaltrends.com/phones/whatsapp-group-status-permanent-message-pins/"
+            },
+            {
+              "headline": "Meta Quietly Launches an AI Fashion App Called Style Sketch (2 minute read)",
+              "blurb": "Meta's Style Sketch is an AI app that builds a virtual closet from a user's Instagram photos and suggests outfits from clothes they already own. Virtual try-ons use a model reflecting the user's body shape and skin tone, and trip plans pack outfits around destination, activities, and weather. The app launched on iOS and Android in Indonesia, Singapore, and Thailand, with no word on a wider rollout.",
+              "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/"
+            },
+            {
+              "headline": "The iPad is Finally Getting the Affinity App Creatives Have Been Asking For (2 minute read)",
+              "blurb": "Affinity's all-in-one creative app is finally coming to iPad, nearly a year after its desktop debut, answering long-standing demands since new-format files can't open in the older V2 iPad apps. It combines photo editing, vector design, page layout, and sketching, with Apple Pencil support for pressure, tilt, and barrel roll, plus RAW editing and formats like PSD, AI, INDD, and SVG. The app is free for individuals despite its “pre-order” label, though Canva AI Studio features require a premium plan.",
+              "url": "https://www.digitaltrends.com/tablets/the-ipad-is-finally-getting-the-affinity-app-creatives-have-been-asking-for/"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Tutorials",
+          "stories": [
+            {
+              "headline": "“This wasn't a thoughtfully designed menu.” (4 minute read)",
+              "blurb": "Hawaii's 2018 false missile alert demonstrates how poor information architecture, ambiguous labels, and insufficient friction can turn an interface mistake into a real-world emergency affecting 1.4 million people. The alert system reportedly placed confusingly named test and real commands together without clear hierarchy or confirmation proportional to the consequences, making a catastrophic selection surprisingly easy. The same principles apply to everyday software on a smaller scale: visually similar choices, weak labeling, and poorly structured menus create countless small errors that gradually erode usability and trust.",
+              "url": "https://unsung.aresluna.org/this-wasnt-a-thoughtfully-designed-menu/"
+            },
+            {
+              "headline": "There Will Always Be Someone Faster, Cheaper, and Better (8 minute read)",
+              "blurb": "AI intensifies designers' fears about competing with people who can work faster, cheaper, or better, but those pressures have existed throughout the history of professional design and every major shift in production tools. Faster tools become threatening when designers price their time rather than outcomes, while “better” extends beyond the quality of an artifact to the experience, perspective, judgment, and relationships a designer brings to a client. As AI makes production faster, deliberately taking time to gain experience, make mistakes, and develop a singular way of working may become more valuable than racing to master whichever tool is currently dominant.",
+              "url": "https://www.chrbutler.com/faster-cheaper-better"
+            },
+            {
+              "headline": "Design Systems Should Be Fast by Default (18 minute read)",
+              "blurb": "Slow design system components make every app built on them slow, so performance belongs next to accessibility on the team's priority list. Timing ten popular systems on a 249-country dropdown and 100 checkboxes found Fluent and Carbon quickest to open the dropdown and Ionic by far the slowest. Playwright tests with explicit budgets, virtualized long lists, and published performance numbers keep components fast by default.",
+              "url": "https://denodell.com/blog/design-systems-should-be-fast-by-default"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Automate Video Creation with AI Agent (Website)",
+              "blurb": "An AI video agent that turns your ideas, documents, links, and media assets into share-ready videos. Describe the video you want to make, upload your assets, and Cutbay helps you shape the idea.",
+              "url": "https://www.cutbay.ai/"
+            },
+            {
+              "headline": "A Library of Patterns and Principles for Inventing New Interfaces (Website)",
+              "blurb": "An interlinked library that takes interfaces apart for the people who make them. Every entry names the mechanism, traces it back to the people who built it, and connects it to the ideas it grew from.",
+              "url": "https://interfacelineage.com/"
+            },
+            {
+              "headline": "Free Online PDF Accessibility Checker (Website)",
+              "blurb": "Check the accessibility of your PDF against WCAG and PDF/UA. Get actionable recommendations to fix the issues and move toward ADA, Section 508, and EAA compliance.",
+              "url": "https://www.webyes.com/product/free-pdf-accessibility-checker/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "Website Design that Converts: Why Good-Looking Sites Still Fail (4 minute read)",
+              "blurb": "Striking photography wins attention but fails when visitors cannot tell what working with a studio involves. Dutch lighting consultancy Eclectic Lighting bridges that gap with sector-based project filters, a four-step process, specific client reviews, and a floor plan upload. Asking for a floor plan visitors already have turns the contact form into a concrete next step.",
+              "url": "https://dribbble.com/stories/2026/10/27/website-design-that-converts"
+            },
+            {
+              "headline": "COPUS and Kontrapunkt design JUNO the bakery's cookie brand and site (4 minute read)",
+              "blurb": "Kontrapunkt extended Copenhagen's JUNO the bakery into a restrained identity and packaging system built around white paper, subtle blue accents, simple duotone illustrations, and the bakery's blue peacock mascot. Its Danish Butter Cookies use the same quiet visual language. COPUS and Tommy Campbell carried the identity into JUNO's first online shop, using blue sparingly for highlights, product tiles, and the add-to-cart button to make the digital experience feel like a window into the physical bakery.",
+              "url": "https://the-brandidentity.com/project/kontrapunkts-packaging-and-copus-site-take-juno-the-bakery-worldwide"
+            },
+            {
+              "headline": "I Gave My Website a Boss Fight (11 minute read)",
+              "blurb": "Missing the personality of the old internet, Paul Bakaus rebuilt his personal website over ten days with Claude Code as a retro Amiga-style world, using a 4,096-color palette, live-synthesized music, and a boss fight against a monster called Jirasaurus. Each page became a themed scene, from a rooftop panel and a speaking auditorium to a floppy-disk office platformer, and three pages hide playable games. Claude wrote the code, built the art pipeline, and composed the music, but animation needed a leg rig and constant feedback, and the site stays a fast, optional-to-play Ghost theme where reading still comes first.",
+              "url": "https://www.paulbakaus.com/i-gave-my-website-a-boss-fight/"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "This Horse-Shaped Headset Asks Designers to See the World Through Animal Eyes (6 minute read)",
+              "blurb": "Equine Eyes, an oversized horse-head headset, uses side-mounted cameras and a VR display to simulate a horse's nearly 350-degree field of view and blue-yellow color perception.",
+              "url": "https://www.designboom.com/design/horse-shaped-headset-equine-eyes-interspecies-alan-hook/"
+            },
+            {
+              "headline": "This Artist is Using 90s Anime Aesthetics to Create the Ultimate Nostalgic Masterpieces That Will Hit You Right in the Feels (1 minute read)",
+              "blurb": "Japanese-American illustrator Mike Yoshimura channels 80s and 90s anime, retro cyberpunk, and vintage cel animation into solitary figures in neon-lit rain and twilight cityscapes.",
+              "url": "https://designyoutrust.com/2026/10/this-artist-is-using-90s-anime-aesthetics-to-create-the-ultimate-nostalgic-masterpieces-that-will-hit-you-right-in-the-feels/"
+            },
+            {
+              "headline": "How this artist turned childhood nightmares into video game monsters (6 minute read)",
+              "blurb": "John Kenn Mortensen translated his hand-drawn creatures and childhood fascination with darkness into the fantasy roguelike FLASK, combining grotesque medieval imagery, black humor, Labyrinth-like fantasy, and the energy of Slayer while working with a game art team to preserve his distinctive style in a colorful digital world.",
+              "url": "https://www.creativebloq.com/features/how-this-artist-turned-childhood-nightmares-into-video-game-monsters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TLDR Data — 2026-11-02",
+      "tagline": "PostHog’s AI Evals 🧪, Polars vs DuckDB 🏁, Jepsen Finds Issues in ParticleDB 💥",
+      "sections": [
+        {
+          "name": "Deep Dives",
+          "stories": [
+            {
+              "headline": "I Tested Polars 2.1 Against DuckDB 2.0 (10 minute video)",
+              "blurb": "DuckDB 2.0 adds client-server and AI features, while Polars improves streaming and processing of larger-than-memory datasets. On a 23 GB dataset with 2 GB RAM, Polars 2.0 ran out of memory, but 2.1 finished in 438 seconds, nearly twice as fast as DuckDB's 837 seconds.",
+              "url": "https://www.youtube.com/watch?v=2dbFPJnbVYo"
+            },
+            {
+              "headline": "Do you even benchmark? How we evaluate agents at scale (18 minute read)",
+              "blurb": "PostHog tests AI agents on real tasks, such as finding the bugs behind 33 past incidents, where its review agent caught 62%, or checking whether playback failures affected real users. It isolates each test so agents cannot copy earlier answers and is building resettable environments with fixed data to make comparisons fair.",
+              "url": "https://posthog.com/blog/how-to-benchmark-ai-agents"
+            },
+            {
+              "headline": "Vector Search on Apache Iceberg Without Moving Source Data (11 minute read)",
+              "blurb": "StarTree adapts Pinot's HNSW vector index for Iceberg tables, keeping Parquet source records in object storage while storing and serving a derived index alongside them. This enables hybrid similarity and SQL-filtered queries without a second copy of the records. The trade-off: indexes are roughly as large as the embeddings, and freshness follows Iceberg snapshot synchronization rather than real-time ingestion.",
+              "url": "https://startree.ai/resources/vector-search-on-apache-iceberg-without-moving-your-data/"
+            },
+            {
+              "headline": "Move the elephant, keep the lights on (14 minute read)",
+              "blurb": "Logical replication lets you upgrade or migrate PostgreSQL with only seconds of downtime: run the target cluster in parallel, stream changes, then cut over when ready. Its real advantage over in-place upgrades is rollback safety and cross-environment portability. Plan around what it does not move automatically, especially schema changes and sequences.",
+              "url": "https://aiven.io/blog/move-the-elephant-keep-the-lights-on"
+            }
+          ]
+        },
+        {
+          "name": "Opinions & Advice",
+          "stories": [
+            {
+              "headline": "What Happened to Data Products? (5 minute read)",
+              "blurb": "Data products outlasted data-mesh hype by becoming a delivery discipline rather than an enterprise reorganisation: a governed output, accountable owner, defined consumer, and evidence of value. AI agents raise the stakes because they cannot recover missing context through informal knowledge. Start with a business-critical workflow, then make meaning, quality, access, and permitted use machine-readable.",
+              "url": "https://jarkkomoilanen.com/articles/what-happened-to-data-products/"
+            },
+            {
+              "headline": "ParticleDB 1.1.4 (80 minute read)",
+              "blurb": "Jepsen found 96 issues in ParticleDB, including data loss, crashes, and incorrect SQL results, mostly without any server failures. Most were fixed during testing, but serious transaction bugs remained. Orkes says a newer release fixes them, though Jepsen has not verified this.",
+              "url": "https://jepsen.io/analyses/particledb-1.1.4"
+            }
+          ]
+        },
+        {
+          "name": "Launches & Tools",
+          "stories": [
+            {
+              "headline": "Kafgres 0.2.0: 700 MB/s Kafka-Compatible Streaming Inside Postgres (8 minute read)",
+              "blurb": "Kafgres, a Kafka-compatible Postgres extension, reached about 700 MB/s after caching query plans, relaxing commit durability, and replacing timer-based polling with socket readiness checks. It could suit many workloads, but the single-broker setup lacks the resilience of a Kafka cluster spread across availability zones.",
+              "url": "https://rynr.dev/blog/700mbskafgres/"
+            },
+            {
+              "headline": "Nodal Analytics (GitHub Repo)",
+              "blurb": "Nodal is an open-source toolkit that turns analysts' business definitions into reusable context for AI analytics agents. It plans queries and checks results against approved metrics, filters, and joins, flagging uncertainty for expert review.",
+              "url": "https://github.com/nodal-data/nodal-context"
+            },
+            {
+              "headline": "Primary Keys Come to Apache Iceberg V4, and Most of Them Start Out Unenforced (23 minute read)",
+              "blurb": "Apache Iceberg V4 adds primary keys, unique rules, and checks, such as requiring positive order amounts, though most will initially be unenforced. Each snapshot records whether the data meets those rules, separately from whether writers must enforce them on new writes.",
+              "url": "https://iceberglakehouse.com/posts/iceberg-v4-table-constraints/"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "stories": [
+            {
+              "headline": "I Told an AI Agent That Its Wrong Answers Were Right. One Model Believed Me (12 minute read)",
+              "blurb": "In most cases, flipping the reward labels in an agent's memory barely changes how it learns. This test hid a rule only the labels could reveal. With true labels, GPT-6 Sol scored 94.4 out of 100 on its last six trials, and with flipped labels 7.8. Claude Haiku 5.5 improved less, and Qwen3 4B barely moved.",
+              "url": "https://towardsdatascience.com/i-told-an-ai-agent-that-its-wrong-answers-were-right-one-model-believed-me/"
+            },
+            {
+              "headline": "What Five P99 CONF Talks Reveal About Database Trade-offs (12 minute read)",
+              "blurb": "A sponsored P99 CONF round-up exposes the costs behind several database designs: object storage trades low-cost durability for cold-read latency, read-optimized engines trade RAM and write amplification for tail latency, and vector search trades quantization and cache complexity for scale. The reported benchmarks are workload-specific, but the recurring lesson is: removing one bottleneck moves the constraint elsewhere.",
+              "url": "https://thenewstack.io/p99-conf-database-tradeoffs/"
+            },
+            {
+              "headline": "Active-Active Oracle GoldenGate Across Regions: Decide Who Owns the Data Before You Resolve Conflict (10 minute read)",
+              "blurb": "Active-active GoldenGate only works when data ownership and conflict policy are designed table by table before replication starts. Simulations showed that even convergent strategies like last-writer-wins can silently lose updates, while delta merging preserves each decrement but cannot prevent both regions from accepting a request against the same last unit before replication catches up. The lesson is blunt: if business rules cannot tolerate reconciliation, do not rely on multi-master replication to fix the problem later.",
+              "url": "https://hackernoon.com/active-active-oracle-goldengate-across-regions-decide-who-owns-the-data-before-you-resolve-conflict"
+            }
+          ]
+        },
+        {
+          "name": "Quick Links",
+          "stories": [
+            {
+              "headline": "Upgrading MLflow Pipelines Across a Python Version Boundary (7 minute read)",
+              "blurb": "Moving Databricks from Python 3.10 to 3.12 broke Zalando's pickled MLflow models.",
+              "url": "https://engineering.zalando.com/posts/2026/10/upgrading-mlflow-pipelines.html"
+            },
+            {
+              "headline": "Your backups are green. That does not mean you can restore (6 minute read)",
+              "blurb": "Successful PostgreSQL backups can still fail to restore because of missing transaction logs, copied corruption, or lost encryption keys.",
+              "url": "https://stormatics.tech/blogs/postgresql-backups-restore-testing"
             }
           ]
         }
