@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-05",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Models",
+          "stories": [
+            {
+              "headline": "Moonshot AI Releases Kimi-K3.1-Pro",
+              "blurb": "Moonshot AI has launched Kimi-K3.1-Pro, an open-weight, natively multimodal agentic model featuring a 1-million-token context window for enterprise-scale reasoning.",
+              "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+            },
+            {
+              "headline": "Cognition Introduces SWE-2 Flash",
+              "blurb": "Cognition has launched SWE-2 Flash, bringing accelerated execution speeds and lower operational costs to automated AI software development.",
+              "url": "https://cognition.com/blog/swe-2-flash"
+            },
+            {
+              "headline": "Baidu Open-Sources ERNIE-5.5-Flash-Base",
+              "blurb": "Baidu released ERNIE-5.5-Flash-Base, a sparse mixture-of-experts language model designed to reduce latency and hardware demands for high-throughput AI workloads.",
+              "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base"
+            },
+            {
+              "headline": "Isomorphic Labs Targets $5B Valuation Mega-Round",
+              "blurb": "Demis Hassabis' AI drug discovery initiative is negotiating a $5 billion valuation round before entering human clinical trials, reflecting high confidence in AI bio-tech.",
+              "url": "https://www.trendingtopics.eu/isomorphic-labs-hassabis-pharma-ai-set-for-5-billion-dollar-mega-round-without-a-single-drug-tested-in-humans"
+            }
+          ]
+        },
+        {
+          "name": "Software Engineering & Tools",
+          "stories": [
+            {
+              "headline": "Discord Replaces Electron Client with Rust Rebuild",
+              "blurb": "Discord is dropping its Electron desktop architecture on Windows in favor of a Rust rebuild that cuts memory usage from 4GB down to 290MB.",
+              "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb"
+            },
+            {
+              "headline": "Go Core Team Outlines Next-Gen JSON API Proposal",
+              "blurb": "The Go team detailed a new json/v2 package aimed at significantly improving execution performance, type safety, and customization over standard reflection-based parsing.",
+              "url": "https://go.dev/blog/jsonv2"
+            },
+            {
+              "headline": "AI Agents Assist in Porting Zelda: Tears of the Kingdom to PC",
+              "blurb": "An open-source developer project used autonomous coding agents to build a PC port of Zelda: Tears of the Kingdom, demonstrating agentic code translation at scale.",
+              "url": "https://github.com/daniel-madrid-07/weeping-of-the-empire"
+            }
+          ]
+        },
+        {
+          "name": "Security & Infrastructure",
+          "stories": [
+            {
+              "headline": "Broadcom TPU Shipments Double to 2M H100-Equivalents",
+              "blurb": "Broadcom doubled its custom TPU compute production quarter-over-quarter, reflecting rapid enterprise adoption of alternative custom hardware over Nvidia GPUs.",
+              "url": "https://epoch.ai/data-insights/tpu-production-doubling"
+            },
+            {
+              "headline": "Security Researchers Demonstrate LLM Prompt Extraction from VRAM",
+              "blurb": "A technical analysis revealed that residual data left in GPU VRAM can expose confidential prompts and system context, introducing key security requirements for multi-tenant AI hosts.",
+              "url": "https://sigreturn.com/blog/recovering-llm-prompts-from-vram"
+            },
+            {
+              "headline": "Palo Alto Networks Negotiates $500M Acquisition of AI Security Startup",
+              "blurb": "Palo Alto Networks is pursuing a $500 million acquisition of an AI cybersecurity firm to bolster its enterprise defenses against emerging agentic risks.",
+              "url": "https://www.theinformation.com/articles/palo-alto-networks-talks-pay-500-million-ai-security-startup"
+            },
+            {
+              "headline": "Micron Unveils High-NA EUV and 3D NAND Memory Roadmap",
+              "blurb": "Micron detailed a comprehensive memory manufacturing roadmap using High-NA EUV and advanced materials to keep up with intense AI data bandwidth demands.",
+              "url": "https://www.tomshardware.com/pc-components/dram/micron-details-ambitious-dram-and-nand-roadmap-3d-nand-high-na-euv-new-materials-and-custom-silicon-makes-a-comeback"
+            },
+            {
+              "headline": "OpenAI Acquires Pierre Computer Company",
+              "blurb": "OpenAI announced the acquisition of Pierre Computer Company to bolster its internal hardware expertise and compute engineering capabilities.",
+              "url": "https://openai.com/index/openai-to-acquire-pierre"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
