@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-06",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Autonomous Systems",
+          "stories": [
+            {
+              "headline": "OpenAI Introduces GPT-6 Cyber Agent",
+              "blurb": "OpenAI released GPT-6 Cyber, an aligned AI agent created to advance frontier cybersecurity research and improve defensive capabilities.",
+              "url": "https://openai.com/index/introducing-gpt-6-cyber"
+            },
+            {
+              "headline": "Thinking Machines Lab Unveils Inkling 2 Small Following $5B Round",
+              "blurb": "Thinking Machines Lab released its new Inkling 2 Small model alongside news of a $5 billion funding round at a $40 billion valuation.",
+              "url": "https://thinkingmachines.ai/news/inkling-2-small"
+            },
+            {
+              "headline": "CNCF Accepts Open Infrastructure Framework for Autonomous Agents",
+              "blurb": "Google and community partners brought open cloud-native infrastructure standards for autonomous AI agents into the CNCF ecosystem.",
+              "url": "https://cloud.google.com/blog/products/containers-kubernetes/open-infrastructure-for-autonomous-agents-comes-to-cncf"
+            },
+            {
+              "headline": "Hugging Face Releases MoE Training Handbook",
+              "blurb": "Hugging Face published a comprehensive technical guide covering architectural design, optimization, and practical execution for training Mixture-of-Experts models.",
+              "url": "https://huggingface.co/spaces/huggingface/moe-blogpost"
+            },
+            {
+              "headline": "Google Launches Open Source XLA Serving Engine",
+              "blurb": "Google introduced the XLA Serving Engine to significantly boost throughput and lower latency for compiler-accelerated LLM inference workloads.",
+              "url": "https://opensource.googleblog.com/2026/11/supercharging-xla-inference-xla-serving-engine.html"
+            }
+          ]
+        },
+        {
+          "name": "Security & Infrastructure",
+          "stories": [
+            {
+              "headline": "OpenSSH Discloses Password Authentication Bypass Flaw",
+              "blurb": "Alpine Linux issued a security advisory detailing a password authentication bypass vulnerability in openssh-server that requires immediate patching.",
+              "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass"
+            },
+            {
+              "headline": "Cloudflare Outlines Trusted Agent Delegation Architecture",
+              "blurb": "Cloudflare introduced a security model for managing identities and permissions when users delegate high-privilege tasks to AI agents.",
+              "url": "https://blog.cloudflare.com/trusted-agent-delegation"
+            },
+            {
+              "headline": "Google TPU Hardware Challenges Nvidia in Inference Market",
+              "blurb": "New analysis highlights how Google's custom TPU platform is gaining significant market share for large-scale enterprise model inference.",
+              "url": "https://newsletter.semianalysis.com/p/tpu-strikes-the-king"
+            },
+            {
+              "headline": "METR Evaluates AI R&D Acceleration Risks at Anthropic",
+              "blurb": "Independent evaluator METR released an assessment analyzing how automated AI research tools accelerate engineering output and impact safety protocols at Anthropic.",
+              "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment"
+            }
+          ]
+        },
+        {
+          "name": "Software Engineering & Architecture",
+          "stories": [
+            {
+              "headline": "Inside GitHub's Next-Generation Git Storage Architecture",
+              "blurb": "GitHub shared engineering details on its redesigned core storage layer built to handle massive scale and increase repository reliability.",
+              "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture"
+            },
+            {
+              "headline": "Datadog Implements Continuous Formal Spec Validation in Production",
+              "blurb": "Datadog published how it continuously tests formal software specifications directly against running production infrastructure to catch architectural defects.",
+              "url": "https://www.datadoghq.com/blog/engineering/continuous-formal-spec-validation"
+            },
+            {
+              "headline": "Docker Compares Sandboxes vs. Containers for AI Workloads",
+              "blurb": "Docker detailed the trade-offs between MicroVM-based sandboxes and traditional containers when isolating untrusted execution from autonomous agents.",
+              "url": "https://www.docker.com/blog/docker-sandboxes-vs-containers"
+            },
+            {
+              "headline": "Dropbox Plans Acquisition of Globally Distributed Object Store Tigris",
+              "blurb": "Dropbox announced an agreement to acquire developer-focused object storage startup Tigris to enhance its cloud storage backend infrastructure.",
+              "url": "https://www.tigrisdata.com/blog/dropbox-plans-acquire-tigris"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
