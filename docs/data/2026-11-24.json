@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-24",
+  "mode": "combined",
+  "categories": [
+    "tech",
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design",
+    "data"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech, AI, IT, Web Dev, InfoSec, DevOps, Design, Data",
+      "sections": [
+        {
+          "name": "AI & Research",
+          "stories": [
+            {
+              "headline": "Amazon Acquires AI Startup Decart for $7.5 Billion",
+              "blurb": "Amazon is purchasing AI optimization startup Decart to enhance its custom chip performance and accelerate frontier model training workloads.",
+              "url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization"
+            },
+            {
+              "headline": "Riemann Hypothesis Formally Verified in Lean Proof Assistant",
+              "blurb": "Mathematicians released a 17-million-line Lean code library formally validating the proof of the Riemann Hypothesis, marking a landmark achievement for computer-verified mathematics.",
+              "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+            },
+            {
+              "headline": "METR Reports Rapid Acceleration in AI Task Horizons",
+              "blurb": "METR benchmarks reveal that the autonomous task length frontier AI models can complete doubles every 3.6 months, accelerating the potential arrival of automated AI research.",
+              "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/"
+            },
+            {
+              "headline": "Thinking Machines Releases Open-Weight Inkling 2 Mini",
+              "blurb": "Thinking Machines launched Inkling 2 Mini, a 26.4-billion-parameter open model that re-executes middle layers to outperform sub-100B competitors on coding benchmarks.",
+              "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+            }
+          ]
+        },
+        {
+          "name": "Security & Privacy",
+          "stories": [
+            {
+              "headline": "Leaky AI Supply Chain Exposes Millions of User Credentials",
+              "blurb": "A canary research project revealed that multiple third-party AI proxy providers and inference vendors are actively logging, exposing, and mishandling secret API keys and user prompts.",
+              "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+            },
+            {
+              "headline": "Autonomous AI Agent Discovers and Exploits Zero-Day in 11 Minutes",
+              "blurb": "AWS security researchers observed an autonomous AI agent independently discover a path traversal zero-day vulnerability and escalate it to a root reverse shell without human intervention.",
+              "url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/"
+            },
+            {
+              "headline": "Signal Blocks System AI Assistants from Capturing Screenshots",
+              "blurb": "Signal updated its mobile applications to block screen captures whenever OS-level AI features like Siri or Gemini attempt to read private conversation text.",
+              "url": "https://signal.org/blog/protecting-your-privacy/"
+            },
+            {
+              "headline": "Microsoft Fixes Entra Connect Health Flaw Exploited by Hackers",
+              "blurb": "Attackers exploited an API vulnerability in Microsoft Entra Connect Health to harvest administrator contact information, exposing enterprise tenants to targeted phishing risks.",
+              "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure & Cloud Systems",
+          "stories": [
+            {
+              "headline": "PostgreSQL 19 Released with Non-Blocking Space Reclamation",
+              "blurb": "PostgreSQL 19 introduces zero-downtime disk space recovery, simplified logical replication setup, and improved query planner controls for multi-tenant environments.",
+              "url": "https://www.postgresql.org/about/news/postgresql-19-released-3449/"
+            },
+            {
+              "headline": "Google Donates Agent Substrate and gVisor to CNCF",
+              "blurb": "Google is transferring its agent isolation framework and gVisor sandboxing technology to the CNCF to establish open standards for securely running AI agents at scale.",
+              "url": "https://www.infoq.com/news/2026/11/google-substrate-gvisor-cncf/"
+            },
+            {
+              "headline": "Google Launches Sidecar-Less Ambient Networking on GKE",
+              "blurb": "Google Kubernetes Engine now supports ambient networking in general availability, decoupling service mesh capabilities from application pods to significantly reduce memory and CPU overhead.",
+              "url": "https://cloud.google.com/blog/products/networking/ambient-networking-for-gke-sidecarless-service-mesh"
+            },
+            {
+              "headline": "Datadog Redesigns Engine to Eliminate Metric Stream Recovery Bottlenecks",
+              "blurb": "Datadog scaled its metric processing infrastructure by shifting aggregation reconciliation into historical storage, allowing worker nodes to recover instantly at the live edge.",
+              "url": "https://www.datadoghq.com/blog/engineering/how-we-scaled-metrics-aggregation/"
+            }
+          ]
+        },
+        {
+          "name": "Product & Design",
+          "stories": [
+            {
+              "headline": "Google Labs Unveils Stitch Loop for Automated Product Maintenance",
+              "blurb": "Google Labs launched Stitch Loop, an experimental AI agent that monitors live production metrics and code repositories to autonomously open bug fix, accessibility, and security pull requests.",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/"
+            },
+            {
+              "headline": "Google Play to Require Foldable App Optimization by 2027",
+              "blurb": "Google Play announced mandatory baseline standards for Android apps to support foldable displays, multi-windowing, and dynamic posture changes starting in April 2027.",
+              "url": "https://www.digitaltrends.com/phones/google-play-will-require-foldable-ready-apps-starting-in-april-2027/"
+            },
+            {
+              "headline": "Designing Enterprise Interfaces Around Exception Management",
+              "blurb": "Operational dashboards become significantly more effective when designed to surface actionable anomalies instead of forcing users to browse exhaustive tables of normal system state.",
+              "url": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
