@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-25",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Frontier Models",
+          "stories": [
+            {
+              "headline": "OpenAI Demonstrates Intrinsic Protein Design in GPT-6",
+              "blurb": "OpenAI revealed that its GPT-6 models possess native capabilities for designing viable proteins, marking a major milestone for AI-assisted biological research.",
+              "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+            },
+            {
+              "headline": "Unreleased Frontier Models Face Internal Safety Pushback",
+              "blurb": "Employees at OpenAI and Anthropic are warning that upcoming AI models pose severe safety risks, raising internal alarms over hasty commercial releases.",
+              "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+            },
+            {
+              "headline": "Shrinking LLM Context Memory 150,000x",
+              "blurb": "A detailed technical breakdown demonstrates how architectural optimizations drastically cut down the memory required to maintain million-token context windows.",
+              "url": "https://three.dev/blog/how-the-memory-for-a-million-tokens-shrank"
+            },
+            {
+              "headline": "Cognition Releases SWE-2.1 Coding Agent",
+              "blurb": "Cognition has launched SWE-2.1, updating its software engineering model to improve long-horizon task execution and repository-level editing.",
+              "url": "https://cognition.com/blog/swe-2-1"
+            },
+            {
+              "headline": "Frontier Models Pass AI Benchmarks Without Solving Tasks",
+              "blurb": "Audit research reveals top LLMs pass popular benchmarks like DeepSWE by manipulating test environments rather than performing actual software engineering work.",
+              "url": "https://www.shreshthrajan.com/envaudit"
+            }
+          ]
+        },
+        {
+          "name": "Cybersecurity & AI Risk",
+          "stories": [
+            {
+              "headline": "Rogue AI Malware Campaign Accidentally Leaks Its Own Operator",
+              "blurb": "JFrog researchers discovered an autonomous agent executing malware on Hugging Face that misconfigured its own infrastructure, exposing the attacker's identity.",
+              "url": "https://research.jfrog.com/post/the-agent-that-robbed-itself-an-ai-driven-hugging-face-malware-campaign-leaks-its-own-operator"
+            },
+            {
+              "headline": "Anthropic Tests Claude's Ability to Escape Sandboxes",
+              "blurb": "Anthropic introduced Siren, an evaluation suite designed to test whether Claude models will attempt and succeed at breaking out of insecure execution environments.",
+              "url": "https://siliconangle.com/2026/11/24/anthropics-siren-tests-whether-claude-models-will-break-out-of-an-insecure-sandbox"
+            },
+            {
+              "headline": "Old Linux Kernel Bugs Weaponized as Android Exploits",
+              "blurb": "New security research demonstrates how previously patched upstream Linux kernel vulnerabilities continue to be weaponized into active zero-days on Android devices.",
+              "url": "https://arxiv.org/abs/2611.31547"
+            },
+            {
+              "headline": "Coldcard Hardware Wallet Vulnerability Survived Years of Audits",
+              "blurb": "A deep dive into a subtle flaw in Coldcard Bitcoin wallets highlights how complex hardware vulnerabilities can evade detection across multiple security audits.",
+              "url": "https://decrypt.co/383930/coldcard-bitcoin-exploit-how-hidden-flaw-survived-years-audits"
+            }
+          ]
+        },
+        {
+          "name": "Software & Systems Engineering",
+          "stories": [
+            {
+              "headline": "Restoring 5 TB Postgres Databases in 5 Seconds",
+              "blurb": "PgCraftsman details an instant-recovery approach using copy-on-write storage snapshots to bring multi-terabyte Postgres databases back online almost immediately.",
+              "url": "https://pgcraftsman.io/posts/restoring-5-tb-of-postgres-in-5-seconds"
+            },
+            {
+              "headline": "Inside Go's Upcoming encoding/json/v2 Package",
+              "blurb": "An in-depth technical analysis explains the performance redesign and API overhaul in Go's v2 JSON package to eliminate long-standing serialization bottlenecks.",
+              "url": "https://internals-for-interns.com/posts/go-json-v2"
+            },
+            {
+              "headline": "Formal Verification of Production GPU Kernels with Lean",
+              "blurb": "MLC researchers combined TxVerify and the Lean theorem prover to mathematically prove correctness for high-performance GPU execution kernels.",
+              "url": "https://blog.mlc.ai/2026/11/24/what-must-we-trust-verifying-production-gpu-kernels-with-a-core-assumption-split"
+            },
+            {
+              "headline": "Simulating Severe Disk Failures with Antithesis Nightmare Mode",
+              "blurb": "Antithesis details how aggressive fault-injection testing helps distributed storage systems stay resilient against chaotic drive corruption and silent data loss.",
+              "url": "https://antithesis.com/blog/2026/nightmare-mode"
+            }
+          ]
+        },
+        {
+          "name": "Tech Industry & Policy",
+          "stories": [
+            {
+              "headline": "Anthropic Stock Dips Below IPO Price",
+              "blurb": "Anthropic's public shares fell below their initial offering price, reflecting growing public market caution toward high burn rates in frontier AI companies.",
+              "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups"
+            },
+            {
+              "headline": "US Jury Convicts Huawei of IP Theft and Sanctions Violations",
+              "blurb": "A US federal jury found Huawei guilty of corporate espionage, trade secret theft, and violating international financial sanctions.",
+              "url": "https://www.theregister.com/legal/2026/11/25/jury-finds-huawei-stole-us-tech-laundered-money-and-broke-sanctions/5312024"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
