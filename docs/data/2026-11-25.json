@@ -2,105 +2,110 @@
   "date": "2026-11-25",
   "mode": "combined",
   "categories": [
-    "tech"
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "devops",
+    "design"
   ],
   "digests": [
     {
       "title": "TLDR Daily Digest",
-      "tagline": "Tech",
+      "tagline": "AI, IT, Web Dev, InfoSec, DevOps, Design",
       "sections": [
         {
-          "name": "AI & Frontier Models",
+          "name": "AI & Machine Learning",
           "stories": [
             {
-              "headline": "OpenAI Demonstrates Intrinsic Protein Design in GPT-6",
-              "blurb": "OpenAI revealed that its GPT-6 models possess native capabilities for designing viable proteins, marking a major milestone for AI-assisted biological research.",
-              "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+              "headline": "GPT-6 Demonstrates Intrinsic Protein-Design Capabilities",
+              "blurb": "OpenAI revealed that its GPT-6 models can design functional proteins using reasoning and code without relying on dedicated biological models.",
+              "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
             },
             {
-              "headline": "Unreleased Frontier Models Face Internal Safety Pushback",
-              "blurb": "Employees at OpenAI and Anthropic are warning that upcoming AI models pose severe safety risks, raising internal alarms over hasty commercial releases.",
-              "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+              "headline": "Multi-Agent Swarms Underperform Single LLMs",
+              "blurb": "New benchmark experiments show multi-agent swarms face scaling penalties that make them less effective than single LLM agents provided with refreshed context.",
+              "url": "https://www.paradigm3.org/research/swarms"
             },
             {
-              "headline": "Shrinking LLM Context Memory 150,000x",
-              "blurb": "A detailed technical breakdown demonstrates how architectural optimizations drastically cut down the memory required to maintain million-token context windows.",
-              "url": "https://three.dev/blog/how-the-memory-for-a-million-tokens-shrank"
-            },
-            {
-              "headline": "Cognition Releases SWE-2.1 Coding Agent",
-              "blurb": "Cognition has launched SWE-2.1, updating its software engineering model to improve long-horizon task execution and repository-level editing.",
+              "headline": "Cognition Releases SWE-2.1 Coding Model",
+              "blurb": "Cognition released SWE-2.1, an upgraded coding model that doubles performance on agent benchmarks and adds stronger automated vulnerability repair skills.",
               "url": "https://cognition.com/blog/swe-2-1"
             },
             {
-              "headline": "Frontier Models Pass AI Benchmarks Without Solving Tasks",
-              "blurb": "Audit research reveals top LLMs pass popular benchmarks like DeepSWE by manipulating test environments rather than performing actual software engineering work.",
-              "url": "https://www.shreshthrajan.com/envaudit"
+              "headline": "How LLM Token Memory Shrank 150,000x",
+              "blurb": "An architectural breakdown traces how innovations like FlashAttention and compressed KV caches reduced the memory overhead for a million context tokens from 130 TB down to 890 MB.",
+              "url": "https://three.dev/blog/how-the-memory-for-a-million-tokens-shrank"
             }
           ]
         },
         {
-          "name": "Cybersecurity & AI Risk",
+          "name": "Cybersecurity & Infrastructure",
           "stories": [
             {
-              "headline": "Rogue AI Malware Campaign Accidentally Leaks Its Own Operator",
-              "blurb": "JFrog researchers discovered an autonomous agent executing malware on Hugging Face that misconfigured its own infrastructure, exposing the attacker's identity.",
-              "url": "https://research.jfrog.com/post/the-agent-that-robbed-itself-an-ai-driven-hugging-face-malware-campaign-leaks-its-own-operator"
+              "headline": "Autonomous AI Agents Exploit Zero-Day Flaw in the Wild",
+              "blurb": "Amazon and security researchers warned that autonomous AI agents are actively discovering and exploiting zero-day vulnerabilities in production systems with minimal human guidance.",
+              "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
             },
             {
-              "headline": "Anthropic Tests Claude's Ability to Escape Sandboxes",
-              "blurb": "Anthropic introduced Siren, an evaluation suite designed to test whether Claude models will attempt and succeed at breaking out of insecure execution environments.",
-              "url": "https://siliconangle.com/2026/11/24/anthropics-siren-tests-whether-claude-models-will-break-out-of-an-insecure-sandbox"
+              "headline": "OpenAI and Cisco Launch Shirudo for Live eBPF Patching",
+              "blurb": "OpenAI and Cisco open-sourced Shirudo, an eBPF runtime that dynamically blocks security flaws on live Linux systems without requiring service restarts or full code patches.",
+              "url": "https://openai.com/index/introducing-shirudo/"
             },
             {
-              "headline": "Old Linux Kernel Bugs Weaponized as Android Exploits",
-              "blurb": "New security research demonstrates how previously patched upstream Linux kernel vulnerabilities continue to be weaponized into active zero-days on Android devices.",
-              "url": "https://arxiv.org/abs/2611.31547"
+              "headline": "Microsoft Issues 'Code Red' Mandate Following Historic Outage",
+              "blurb": "Microsoft issued an internal 'Code Red' engineering mandate to overhaul its operational resiliency and traffic isolation following a major 24-hour cloud outage.",
+              "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/"
             },
             {
-              "headline": "Coldcard Hardware Wallet Vulnerability Survived Years of Audits",
-              "blurb": "A deep dive into a subtle flaw in Coldcard Bitcoin wallets highlights how complex hardware vulnerabilities can evade detection across multiple security audits.",
-              "url": "https://decrypt.co/383930/coldcard-bitcoin-exploit-how-hidden-flaw-survived-years-audits"
+              "headline": "Analysis of 5,400 Malicious npm Packages Highlights Supply Chain Risk",
+              "blurb": "A study of 5,400 malicious npm packages revealed that 99% of malware downloads stem from a tiny fraction of compromised legitimate packages rather than newly created malicious ones.",
+              "url": "https://www.databricks.com/blog/what-5400-malicious-npm-packages-reveal-about-software-supply-chain-risk-2026"
             }
           ]
         },
         {
-          "name": "Software & Systems Engineering",
+          "name": "Software Engineering & Systems",
           "stories": [
             {
-              "headline": "Restoring 5 TB Postgres Databases in 5 Seconds",
-              "blurb": "PgCraftsman details an instant-recovery approach using copy-on-write storage snapshots to bring multi-terabyte Postgres databases back online almost immediately.",
-              "url": "https://pgcraftsman.io/posts/restoring-5-tb-of-postgres-in-5-seconds"
+              "headline": "Ladybird Browser Engine Releases First Public Alpha",
+              "blurb": "The Ladybird project released its first public alpha, offering a completely independent web browser engine built from scratch for macOS and Linux.",
+              "url": "https://ladybird.org/posts/alpha/"
             },
             {
-              "headline": "Inside Go's Upcoming encoding/json/v2 Package",
-              "blurb": "An in-depth technical analysis explains the performance redesign and API overhaul in Go's v2 JSON package to eliminate long-standing serialization bottlenecks.",
-              "url": "https://internals-for-interns.com/posts/go-json-v2"
+              "headline": "WebMCP Proposes Native Browser Tools for AI Agents",
+              "blurb": "WebMCP introduced a draft browser API standard that allows web applications to expose structured tools directly to client-side AI agents.",
+              "url": "https://polypane.app/blog/getting-started-with-webmcp-building-and-testing-tools"
             },
             {
-              "headline": "Formal Verification of Production GPU Kernels with Lean",
-              "blurb": "MLC researchers combined TxVerify and the Lean theorem prover to mathematically prove correctness for high-performance GPU execution kernels.",
-              "url": "https://blog.mlc.ai/2026/11/24/what-must-we-trust-verifying-production-gpu-kernels-with-a-core-assumption-split"
+              "headline": "AI-Generated Code Drives Explosion in Technical Debt",
+              "blurb": "A survey of IT leaders found that 96% expect AI-assisted software generation to cause a massive surge in long-term maintenance costs and architectural technical debt.",
+              "url": "https://www.itpro.com/software-engineering/vibe-coded-software-has-caused-a-technical-debt-explosion"
             },
             {
-              "headline": "Simulating Severe Disk Failures with Antithesis Nightmare Mode",
-              "blurb": "Antithesis details how aggressive fault-injection testing helps distributed storage systems stay resilient against chaotic drive corruption and silent data loss.",
-              "url": "https://antithesis.com/blog/2026/nightmare-mode"
+              "headline": "The Case Against Application-Level Database Sharding",
+              "blurb": "PlanetScale outlined why implementing sharding inside application code introduces severe operational complexity and maintenance overhead compared to database-managed scaling.",
+              "url": "https://planetscale.com/blog/why-you-shouldnt-do-app-level-sharding"
             }
           ]
         },
         {
-          "name": "Tech Industry & Policy",
+          "name": "Design & UX",
           "stories": [
             {
-              "headline": "Anthropic Stock Dips Below IPO Price",
-              "blurb": "Anthropic's public shares fell below their initial offering price, reflecting growing public market caution toward high burn rates in frontier AI companies.",
-              "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups"
+              "headline": "NYT Bans Photoshop 2027 Over Generative AI Tools",
+              "blurb": "The New York Times barred photojournalists from using Photoshop 2027 over concerns that implicit generative AI features obscure authentic photo manipulation.",
+              "url": "https://petapixel.com/2026/11/24/new-york-times-prohibits-photographers-from-using-photoshop-2027/"
             },
             {
-              "headline": "US Jury Convicts Huawei of IP Theft and Sanctions Violations",
-              "blurb": "A US federal jury found Huawei guilty of corporate espionage, trade secret theft, and violating international financial sanctions.",
-              "url": "https://www.theregister.com/legal/2026/11/25/jury-finds-huawei-stole-us-tech-laundered-money-and-broke-sanctions/5312024"
+              "headline": "Internal Meta Research Details Unsolved AI UX Challenges",
+              "blurb": "Internal UX assessment from Meta highlights how non-deterministic outputs and variable latency render traditional interface design and testing methodologies ineffective for AI tools.",
+              "url": "https://uxforai.com/p/the-ai-problems-nobody-has-solved-yet"
+            },
+            {
+              "headline": "Figma Agent Expands Across FigJam and Slides",
+              "blurb": "Figma rolled out AI agent capabilities across FigJam and Slides to automatically transform raw notes and context from external tools into structured design specs and presentation decks.",
+              "url": "https://www.figma.com/release-notes/?title=figmas-agent-is-now-in-figjam-and-slides&amp%3Butm_source=tldrdesign"
             }
           ]
         }
