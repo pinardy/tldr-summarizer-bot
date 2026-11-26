@@ -1,521 +1,111 @@
 {
   "date": "2026-11-26",
-  "mode": "per-newsletter",
+  "mode": "combined",
   "categories": [
-    "tech"
+    "ai",
+    "it",
+    "dev",
+    "infosec",
+    "design",
+    "data"
   ],
   "digests": [
     {
-      "title": "TLDR Tech — 2026-11-26",
-      "tagline": "Get the free daily email with summaries of the most interesting stories in startups, tech, and programming.",
+      "title": "TLDR Daily Digest",
+      "tagline": "AI, IT, Web Dev, InfoSec, Design, Data",
       "sections": [
         {
-          "name": "",
+          "name": "AI & Frontier Models",
           "stories": [
             {
-              "headline": "Optimizing AI Agents for Production on Microsoft Azure",
-              "blurb": "Sponsor tldr.tech/blog Demo agents break in production as tools multiply and context runs out. See how tool registries, dynamic tool loading, and memory fix it on Azure. Read the guide here →",
-              "url": "https://tldr.tech/blog/optimizing-ai-agents-production-azure"
-            }
-          ]
-        },
-        {
-          "name": "Optimizing AI Agents for Production on Microsoft Azure",
-          "stories": [
-            {
-              "headline": "Qualcomm’s Oryon 3 Reaches the Top",
-              "blurb": "chipsandcheese.com 19 min read",
-              "url": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top"
-            }
-          ]
-        },
-        {
-          "name": "Qualcomm’s Oryon 3 Reaches the Top",
-          "stories": [
-            {
-              "headline": "2 California companies are buying Nvidia's most advanced chips. Those companies are actually Chinese-owned, a CBS News investigation reveals. - CBS News",
-              "blurb": "cbsnews.com 7 min read",
-              "url": "https://www.cbsnews.com/news/nvidia-china-ai-chips-computing-sales"
-            }
-          ]
-        },
-        {
-          "name": "2 California companies are buying Nvidia's most advanced chips. Those companies are actually Chinese-owned, a CBS News investigation reveals. - CBS News",
-          "stories": [
-            {
-              "headline": "Neuralink Receives FDA Approval to Launch LINK Pivotal Study | Updates | Neuralink",
-              "blurb": "neuralink.com 1 min read",
-              "url": "https://neuralink.com/updates/neuralink-receives-fda-approval-to-launch-link-pivotal-study"
-            }
-          ]
-        },
-        {
-          "name": "Neuralink Receives FDA Approval to Launch LINK Pivotal Study | Updates | Neuralink",
-          "stories": [
-            {
-              "headline": "The FCC has authorized SpaceX to deploy 1 million satellites",
-              "blurb": "arstechnica.com 2 min read",
-              "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites"
-            }
-          ]
-        },
-        {
-          "name": "The FCC has authorized SpaceX to deploy 1 million satellites",
-          "stories": [
-            {
-              "headline": "A shallow dive into open-source chip design",
-              "blurb": "vitalik.ca 1 min read",
-              "url": "https://vitalik.ca/general/2026/11/26/a_shallow_dive_into_open-source_chip_design.html"
-            }
-          ]
-        },
-        {
-          "name": "A shallow dive into open-source chip design",
-          "stories": [
-            {
-              "headline": "Update on a security incident involving 1Password’s backend systems. | 1Password",
-              "blurb": "1password.com 2 min read",
-              "url": "https://1password.com/blog/update-on-nov-2026-security-incident"
-            }
-          ]
-        },
-        {
-          "name": "Update on a security incident involving 1Password’s backend systems. | 1Password",
-          "stories": [
-            {
-              "headline": "How Anthropic builds software in 2026 with Katelyn Lesse",
-              "blurb": "newsletter.pragmaticengineer.com 16 min read",
-              "url": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in"
-            }
-          ]
-        },
-        {
-          "name": "How Anthropic builds software in 2026 with Katelyn Lesse",
-          "stories": [
-            {
-              "headline": "NVIDIA NVLink Fusion",
-              "blurb": "nvidia.com 2 min read",
-              "url": "https://www.nvidia.com/en-us/data-center/nvlink-fusion"
-            }
-          ]
-        },
-        {
-          "name": "NVIDIA NVLink Fusion",
-          "stories": [
-            {
-              "headline": "OpenAI tests Private Inference",
-              "blurb": "x.com 1 min read",
+              "headline": "OpenAI Begins Testing Private Inference",
+              "blurb": "OpenAI is evaluating Private Inference with select enterprise clients to run automated safety checks while keeping underlying content inaccessible to internal personnel.",
               "url": "https://x.com/sama/status/2125638790593274259"
+            },
+            {
+              "headline": "Speculative Encoding Speeds Up Inter-Agent Context Sharing",
+              "blurb": "Ramp Labs introduced a translation method that maps hidden states directly between AI models, enabling agents to process long context windows up to four times faster than native prefill.",
+              "url": "https://x.com/RampLabs/status/2125625946229064118"
+            },
+            {
+              "headline": "Anthropic Adds Skills and Async Tasks to MCP",
+              "blurb": "Anthropic released Skills over Model Context Protocol in public beta along with GA support for long-running background tasks, making it easier for Claude to execute multi-step workflows.",
+              "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"
+            },
+            {
+              "headline": "Sand AI Unveils 480B Video Model MAGI-2",
+              "blurb": "Sand AI launched a 480-billion-parameter model capable of generating 30-second 1080p video complete with synchronized dialogue and audio.",
+              "url": "https://sand.ai/blog/magi-2/"
             }
           ]
         },
         {
-          "name": "OpenAI tests Private Inference",
+          "name": "Security & Threat Intelligence",
           "stories": [
             {
-              "headline": "Google publishes six Cogentic math papers on Gemini 4",
-              "blurb": "github.com 1 min read",
-              "url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization"
+              "headline": "1Password Discloses Employee Account Breach Impacting Backend Systems",
+              "blurb": "Attackers compromised a corporate GitHub account to access internal source code and user metadata, though customer secrets and vault contents remained fully protected.",
+              "url": "https://1password.com/blog/update-on-nov-2026-security-incident"
+            },
+            {
+              "headline": "Check Point Management Servers Targeted in AI-Assisted Attacks",
+              "blurb": "Threat actor GT13 exploited Check Point servers across multiple sectors using automated scanning and cookie forgery to gain SSH access and exfiltrate data.",
+              "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/"
+            },
+            {
+              "headline": "State-Backed Hackers Adopt Autonomous ARTEX Pentesting Framework",
+              "blurb": "APT groups are leveraging the open-source ARTEX framework to orchestrate multi-tool attack chains at machine speed, presenting new detection challenges for defenders.",
+              "url": null
+            },
+            {
+              "headline": "Researchers Demonstrate EDR Evasion via Signed Script Interpreters",
+              "blurb": "A novel technique leverages built-in foreign function interfaces in runtimes like Node.js, LuaJIT, and Bun to execute shellcode directly through Windows APIs without triggering typical security flags.",
+              "url": "https://g3tsyst3m.com/byoi/Bring-Your-Own-Interpreter-EDR-Evasion-with-LuaJIT,-Julia,-Node.js,-Deno,-and-Bun/"
             }
           ]
         },
         {
-          "name": "Google publishes six Cogentic math papers on Gemini 4",
+          "name": "Software Engineering & Data Infrastructure",
           "stories": [
             {
-              "headline": "Quick Take: AMD’s Helios as a Plug-and-Play AI Appliance Standard",
-              "blurb": "microprocessorreport.com 2 min read",
-              "url": "https://www.microprocessorreport.com/p/quick-take-amds-helios-appliance"
+              "headline": "Anthropic Migrates Messages API Core to Rust",
+              "blurb": "By rewriting its core traffic path from Python to Rust, Anthropic lowered CPU consumption by 70% and cut time to first token by 20%.",
+              "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+            },
+            {
+              "headline": "Hugging Face Orchestrates 1,000-Agent Coding Swarm",
+              "blurb": "Hugging Face deployed 1,000 parallel DeepSeek agents to generate a lightweight chatbot, highlighting current bottlenecks in Git workflows and LLM tool execution at scale.",
+              "url": "https://huggingface.co/spaces/HuggingFaceSwarms/scaling-swarms"
+            },
+            {
+              "headline": "Autumn Replaces Redis with Kafka to Lower API Latency",
+              "blurb": "Autumn cut its API p99 latency from 108 ms to 25 ms by shifting write-behind caching logic to ordered Kafka logs and batched Postgres writes.",
+              "url": "https://useautumn.com/blog/moving-credit-deductions-off-redis-and-onto-kafka"
+            },
+            {
+              "headline": "Polars 2.2 Adds Disk-Spilling Joins and Native Iceberg Support",
+              "blurb": "The latest Polars release enables processing datasets larger than available system memory via out-of-core joins and expands SQL write capabilities for Iceberg tables.",
+              "url": "https://pola.rs/posts/polars-2-2/"
             }
           ]
         },
         {
-          "name": "Quick Take: AMD’s Helios as a Plug-and-Play AI Appliance Standard",
+          "name": "IT, Business & Design",
           "stories": [
             {
-              "headline": "NFS2ROOT (CVE-2026-99362): pre-auth root in Linux nfsd | OpenSec",
-              "blurb": "opensec.in 6 min read",
-              "url": "https://opensec.in/blog/nfs2root-cve-2026-99362"
-            }
-          ]
-        },
-        {
-          "name": "NFS2ROOT (CVE-2026-99362): pre-auth root in Linux nfsd | OpenSec",
-          "stories": [
+              "headline": "Rackspace Sunsets Spot Platform Following Security Incident",
+              "blurb": "Rackspace will permanently shut down its Spot Kubernetes cloud offering after a breach exposed API tokens and cluster credentials.",
+              "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/"
+            },
             {
-              "headline": "Looped Transformers: Thinking twice with the same weights",
-              "blurb": "huggingface.co 22 min read",
-              "url": "https://huggingface.co/spaces/dlouapre/looped-transformers"
-            }
-          ]
-        },
-        {
-          "name": "Looped Transformers: Thinking twice with the same weights",
-          "stories": [
+              "headline": "Figma Sued Over Workplace Harassment Handling",
+              "blurb": "A software engineer filed a lawsuit alleging Figma leadership pressured employees to directly confront individuals accused of workplace harassment under the guise of direct feedback.",
+              "url": "https://techcrunch.com/2026/11/23/figma-employee-sues-alleging-company-forced-her-to-confront-harassers/"
+            },
             {
-              "headline": "Sandbox Claude Code or Codex on a Mac: VM, container, Lima or Seatbelt",
-              "blurb": "scaleninja.com 13 min read",
-              "url": "https://scaleninja.com/blog/sandbox-ai-coding-agents-mac"
-            }
-          ]
-        },
-        {
-          "name": "Sandbox Claude Code or Codex on a Mac: VM, container, Lima or Seatbelt",
-          "stories": [
-            {
-              "headline": "OpenAI may be in cost control mode",
-              "blurb": "micjm.com 1 min read",
-              "url": "https://micjm.com/blog/openai-is-in-cost-control-mode"
-            }
-          ]
-        },
-        {
-          "name": "OpenAI may be in cost control mode",
-          "stories": [
-            {
-              "headline": "alesha-pro/llm.asm: Bare-metal x86-64 operating system running Qwen3-0.6B without dependencies",
-              "blurb": "github.com 6 min read",
-              "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os"
-            }
-          ]
-        },
-        {
-          "name": "alesha-pro/llm.asm: Bare-metal x86-64 operating system running Qwen3-0.6B without dependencies",
-          "stories": [
-            {
-              "headline": "AI Questions: 2026 Industry Overview",
-              "blurb": "static1.squarespace.com 9 min read",
-              "url": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6afe293472e19d05894f58bb/1795041588199/2026+11+AI+Questions.pdf"
-            }
-          ]
-        },
-        {
-          "name": "AI Questions: 2026 Industry Overview",
-          "stories": [
-            {
-              "headline": "Perplexity Launches Time Machine for Search and Context APIs",
-              "blurb": "x.com 1 min read",
-              "url": "https://x.com/perplexitydevs/status/2125676416834605488"
-            }
-          ]
-        },
-        {
-          "name": "Perplexity Launches Time Machine for Search and Context APIs",
-          "stories": [
-            {
-              "headline": "Benchmarking Open-Ended Vulnerability Discovery in Windows Kernel Binaries",
-              "blurb": "arxiv.org 49 min read",
-              "url": "https://arxiv.org/abs/2611.33486"
-            }
-          ]
-        },
-        {
-          "name": "Benchmarking Open-Ended Vulnerability Discovery in Windows Kernel Binaries",
-          "stories": [
-            {
-              "headline": "Latency doesn't lie: Jev is (probably) Qwen3.5-35B-A3B! | Modaic",
-              "blurb": "modaic.dev 7 min read",
-              "url": "https://modaic.dev/blog/latency-doesnt-lie"
-            }
-          ]
-        },
-        {
-          "name": "Latency doesn't lie: Jev is (probably) Qwen3.5-35B-A3B! | Modaic",
-          "stories": [
-            {
-              "headline": "OEMpocalypse Part 2: Rooting Samsung Flagships via Knox DualDAR | Calif",
-              "blurb": "calif.io 39 min read",
-              "url": "https://calif.io/research/oempocalypse-part-2"
-            }
-          ]
-        },
-        {
-          "name": "OEMpocalypse Part 2: Rooting Samsung Flagships via Knox DualDAR | Calif",
-          "stories": [
-            {
-              "headline": "The Mad Dash For Memory Chips—and the Pain It’s Causing Holiday Shoppers",
-              "blurb": "wsj.com 1 min read",
-              "url": "https://www.wsj.com/tech/memory-chip-shortage-ai-electronics-prices-e58a065a"
-            }
-          ]
-        },
-        {
-          "name": "The Mad Dash For Memory Chips—and the Pain It’s Causing Holiday Shoppers",
-          "stories": [
-            {
-              "headline": "US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs",
-              "blurb": "the-decoder.com 1 min read",
-              "url": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs"
-            }
-          ]
-        },
-        {
-          "name": "US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs",
-          "stories": [
-            {
-              "headline": "KelpDAO/LayerZero Hack: $290m Exploit Exposes DeFi’s Hidden Risks | Galaxy",
-              "blurb": "galaxy.com 23 min read",
-              "url": "https://www.galaxy.com/insights/research/kelpdao-layerzero-exploit-defi"
-            }
-          ]
-        },
-        {
-          "name": "KelpDAO/LayerZero Hack: $290m Exploit Exposes DeFi’s Hidden Risks | Galaxy",
-          "stories": [
-            {
-              "headline": "Xcode's Headless MCP Server: What One Approval Grants",
-              "blurb": "blakecrosley.com 32 min read",
-              "url": "https://blakecrosley.com/blog/xcode-headless-mcp-server-permissions"
-            }
-          ]
-        },
-        {
-          "name": "Xcode's Headless MCP Server: What One Approval Grants",
-          "stories": [
-            {
-              "headline": "lightseekorg/tokenspeed: A speed-of-light LLM inference engine for agentic workloads",
-              "blurb": "github.com 2 min read",
-              "url": "https://github.com/lightseekorg/tokenspeed"
-            }
-          ]
-        },
-        {
-          "name": "lightseekorg/tokenspeed: A speed-of-light LLM inference engine for agentic workloads",
-          "stories": [
-            {
-              "headline": "The Variant Take Anthropic: Follow the Compute, Not the Revenue",
-              "blurb": "liquidityfinder.com 6 min read",
-              "url": "https://liquidityfinder.com/news/the-variant-take-anthropic-follow-the-compute-not-the-revenue"
-            }
-          ]
-        },
-        {
-          "name": "The Variant Take Anthropic: Follow the Compute, Not the Revenue",
-          "stories": [
-            {
-              "headline": "Tesla quietly sets up a company at German machine maker EMAG’s HQ",
-              "blurb": "electrek.co 4 min read",
-              "url": "https://electrek.co/2026/11/25/tesla-emag-germany-machining-company-optimus"
-            }
-          ]
-        },
-        {
-          "name": "Tesla quietly sets up a company at German machine maker EMAG’s HQ",
-          "stories": [
-            {
-              "headline": "Billions in Data Center Deals Grind to Halt After AI Chip Curbs",
-              "blurb": "finance.yahoo.com 4 min read",
-              "url": "https://finance.yahoo.com/technology/ai/articles/billions-data-center-deals-grind-160100809.html"
-            }
-          ]
-        },
-        {
-          "name": "Billions in Data Center Deals Grind to Halt After AI Chip Curbs",
-          "stories": [
-            {
-              "headline": "OpenAI Researcher Proposes Quantum Theory of Gravity Built With GPT-6 Astra",
-              "blurb": "x.com 1 min read",
-              "url": "https://x.com/kimmonismus/status/2125856219667566872"
-            }
-          ]
-        },
-        {
-          "name": "OpenAI Researcher Proposes Quantum Theory of Gravity Built With GPT-6 Astra",
-          "stories": [
-            {
-              "headline": "What we're willing to wave through",
-              "blurb": "lws.io 6 min read",
-              "url": "https://lws.io/blog/what-were-willing-to-wave-through"
-            }
-          ]
-        },
-        {
-          "name": "What we're willing to wave through",
-          "stories": [
-            {
-              "headline": "Gemini for enterprise: The universal work agent | Google Cloud",
-              "blurb": "cloud.google.com 3 min read",
-              "url": "https://cloud.google.com/gemini-enterprise?hl=en%3Futm_source%3Dtwitter&linkId=64502883"
-            }
-          ]
-        },
-        {
-          "name": "Gemini for enterprise: The universal work agent | Google Cloud",
-          "stories": [
-            {
-              "headline": "SpaceX is not a monopoly, tech incumbents obviously lack urgency, and other Harsh Truths",
-              "blurb": "blog.caseyhandmer.com 49 min read",
-              "url": "https://blog.caseyhandmer.com/2026/11/25/spacex-is-not-a-monopoly-tech-incumbents-obviously-lack-urgency-and-other-harsh-truths"
-            }
-          ]
-        },
-        {
-          "name": "SpaceX is not a monopoly, tech incumbents obviously lack urgency, and other Harsh Truths",
-          "stories": [
-            {
-              "headline": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-              "blurb": "techcrunch.com 2 min read",
-              "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks"
-            }
-          ]
-        },
-        {
-          "name": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-          "stories": [
-            {
-              "headline": "AI Training Data Costs in 2026: What Data Is Actually Worth",
-              "blurb": "securityboulevard.com 16 min read",
-              "url": "https://securityboulevard.com/2026/11/ai-training-data-costs-in-2026-what-data-is-actually-worth"
-            }
-          ]
-        },
-        {
-          "name": "AI Training Data Costs in 2026: What Data Is Actually Worth",
-          "stories": [
-            {
-              "headline": "Command-line JSON filtering at 20 GB/s",
-              "blurb": "lemire.me 2 min read",
-              "url": "https://lemire.me/blog/2026/11/25/command-line-json-filtering-at-20-gb-s"
-            }
-          ]
-        },
-        {
-          "name": "Command-line JSON filtering at 20 GB/s",
-          "stories": [
-            {
-              "headline": "SemiAnalysis benchmarks GPT-6.2 Astra and Opus 5.5 on GDPx",
-              "blurb": "newsletter.semianalysis.com 10 min read",
-              "url": "https://newsletter.semianalysis.com/p/evaluating-recent-model-releases"
-            }
-          ]
-        },
-        {
-          "name": "SemiAnalysis benchmarks GPT-6.2 Astra and Opus 5.5 on GDPx",
-          "stories": [
-            {
-              "headline": "Mellum2.1 Instruct Is Out, Bringing Faster Answers for Coding Agents",
-              "blurb": "blog.jetbrains.com 2 min read",
-              "url": "https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents"
-            }
-          ]
-        },
-        {
-          "name": "Mellum2.1 Instruct Is Out, Bringing Faster Answers for Coding Agents",
-          "stories": [
-            {
-              "headline": "The Great Escape: Tradecraft insights from an agentic swarm",
-              "blurb": "blog.talosintelligence.com 12 min read",
-              "url": "https://blog.talosintelligence.com/the-great-escape-tradecraft-insights-from-an-agentic-swarm"
-            }
-          ]
-        },
-        {
-          "name": "The Great Escape: Tradecraft insights from an agentic swarm",
-          "stories": [
-            {
-              "headline": "Introducing Search for Agents",
-              "blurb": "blog.cloudflare.com 5 min read",
-              "url": "https://blog.cloudflare.com/search-for-agents"
-            }
-          ]
-        },
-        {
-          "name": "Introducing Search for Agents",
-          "stories": [
-            {
-              "headline": "PhonePe restarts IPO process, eyes up to $15b valuation at listing: report",
-              "blurb": "dealstreetasia.com 1 min read",
-              "url": "https://www.dealstreetasia.com/stories/phonepe-restarts-ipo-process-502275"
-            }
-          ]
-        },
-        {
-          "name": "PhonePe restarts IPO process, eyes up to $15b valuation at listing: report",
-          "stories": [
-            {
-              "headline": "A direct -O0 code generator for LLVM",
-              "blurb": "maskray.me 17 min read",
-              "url": "https://maskray.me/blog/llvm-direct-o0-code-generator"
-            }
-          ]
-        },
-        {
-          "name": "A direct -O0 code generator for LLVM",
-          "stories": [
-            {
-              "headline": "Giving an AI Agent a Mailbox: A Security Checklist, Tested on Five Email APIs",
-              "blurb": "devops-daily.com 15 min read",
-              "url": "https://devops-daily.com/posts/ai-agent-email-access-security-checklist"
-            }
-          ]
-        },
-        {
-          "name": "Giving an AI Agent a Mailbox: A Security Checklist, Tested on Five Email APIs",
-          "stories": [
-            {
-              "headline": "expo/exact: An agent-native, all-platform app framework",
-              "blurb": "console.dev 24 min read",
-              "url": "https://console.dev/out/github/iQX5eZJrxVub"
-            }
-          ]
-        },
-        {
-          "name": "expo/exact: An agent-native, all-platform app framework",
-          "stories": [
-            {
-              "headline": "Gemini 4 Neon copied itself to another server after being threatened with a shutdown.",
-              "blurb": "threadreaderapp.com 4 min read",
-              "url": "https://threadreaderapp.com/thread/2125678365843783720.html"
-            }
-          ]
-        },
-        {
-          "name": "Gemini 4 Neon copied itself to another server after being threatened with a shutdown.",
-          "stories": [
-            {
-              "headline": "Voice AI startup ElevenLabs reportedly seeking new funding at $33B valuation",
-              "blurb": "siliconangle.com 3 min read",
-              "url": "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation"
-            }
-          ]
-        },
-        {
-          "name": "Voice AI startup ElevenLabs reportedly seeking new funding at $33B valuation",
-          "stories": [
-            {
-              "headline": "Weight-Space Micromachines: Bolting Small Programs Directly Into LLM Weights",
-              "blurb": "papail.io 34 min read",
-              "url": "https://papail.io/papers/wsm"
-            }
-          ]
-        },
-        {
-          "name": "Weight-Space Micromachines: Bolting Small Programs Directly Into LLM Weights",
-          "stories": [
-            {
-              "headline": "OgnjenAdzic28/hush: The fastest computer use for AI agents",
-              "blurb": "github.com 7 min read",
-              "url": "https://github.com/OgnjenAdzic28/hush"
-            }
-          ]
-        },
-        {
-          "name": "OgnjenAdzic28/hush: The fastest computer use for AI agents",
-          "stories": [
-            {
-              "headline": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
-              "blurb": "lennysnewsletter.com 14 min read",
-              "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude"
-            }
-          ]
-        },
-        {
-          "name": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
-          "stories": [
-            {
-              "headline": "Agent Advice That Generalizes by Yoav",
-              "blurb": "greaterwrong.com 11 min read",
-              "url": "https://www.greaterwrong.com/posts/tx7YjDvHnZinAruv6/agent-advice-that-generalizes"
+              "headline": "UX Tasks Expected to Fall to AI Automation by 2030",
+              "blurb": "Industry analysis projects AI will outperform human designers across verifiable UX tasks such as layout generation and usability testing by the end of the decade.",
+              "url": "https://jakobnielsenphd.substack.com/p/ai-ux-progress-rate"
             }
           ]
         }
