@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-27",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Software Engineering",
+          "stories": [
+            {
+              "headline": "Advanced LLMs Write Raw Assembly for Inference Engines",
+              "blurb": "Claude Opus 5.5 and Gemini 4 Neon demonstrated hand-writing functional x86-64 assembly to power custom AI inference engines.",
+              "url": "https://x.com/superalesha/status/2126041962272690479"
+            },
+            {
+              "headline": "Cognition Engineers Shift Entirely to Devin-Based Workflows",
+              "blurb": "Software engineers at Cognition are now developing features exclusively through automated AI agents without pulling code bases locally.",
+              "url": "https://thenewstack.io/cognition-devin-automated-engineering"
+            },
+            {
+              "headline": "Hugging Face Details Multi-Agent Architecture and Training",
+              "blurb": "A comprehensive guide outlines techniques for building, training, and evaluating complex multi-agent frameworks like swarms and gangs.",
+              "url": "https://huggingface.co/blog/training-swarms"
+            },
+            {
+              "headline": "InclusionAI Releases Ming-Image-0.2 for Open-Source Visual Design",
+              "blurb": "An upgraded open-source visual model offers enhanced image generation targeted specifically at UI/UX and graphic design workflows.",
+              "url": "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design"
+            }
+          ]
+        },
+        {
+          "name": "Security & Systems",
+          "stories": [
+            {
+              "headline": "SAP Confirms Source Code Compromise After Cyberattack",
+              "blurb": "Enterprise giant SAP confirmed a security breach involving unauthorized access that reportedly exposed internal source code.",
+              "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised"
+            },
+            {
+              "headline": "Binance Restores Full Withdrawals Following $6.3B Exploit Recovery",
+              "blurb": "Crypto exchange Binance completed a four-week recovery process to fully stabilize operations after a massive security exploit.",
+              "url": "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack"
+            },
+            {
+              "headline": "Research Demonstrates Arbitrary Linux Execution on PlayStation 5",
+              "blurb": "Security researcher TheOfficialFloW released a technical presentation detailing exploits that unlock the PS5 to run native Linux.",
+              "url": "https://github.com/TheOfficialFloW/Presentations/blob/master/2026-sascon-ps5-linux.pdf"
+            },
+            {
+              "headline": "Open-Source Tool Automates Removal Requests from Data Brokers",
+              "blurb": "A new command-line tool automates the process of sending privacy opt-out requests across dozens of personal data brokers.",
+              "url": "https://github.com/gary23w/f-ck_data_brokers"
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure & Hardware",
+          "stories": [
+            {
+              "headline": "TSMC Opens 1.4nm-Class A14 Node to Initial Chip Designers",
+              "blurb": "TSMC finalized design kits for its A14 process node, promising up to a 14% performance uplift or 23% power reduction over N2P.",
+              "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmcs-a14-1-4nm-class-node-is-ready-for-chip-design-boost-cells-promise-14-percent-performance-uplift-or-23-percent-power-cut-over-n2p"
+            },
+            {
+              "headline": "Shortened 47-Day TLS Certificate Lifespans Force Automation Overhauls",
+              "blurb": "Impending shifts to ultra-short 47-day TLS validity periods threaten fragile renewal pipelines, forcing teams to modernize certificate lifecycle automation.",
+              "url": "https://devops-daily.com/posts/tls-certificates-47-days-what-breaks-first"
+            },
+            {
+              "headline": "High-Temperature Water Inlets Eliminate Data Center Chillers",
+              "blurb": "Advancements allowing 45°C liquid inlet temperatures are rendering traditional data center chillers obsolete while dramatically lowering power usage.",
+              "url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831"
+            },
+            {
+              "headline": "Bank of England Warns of Systemic Risks in AI Debt Financing",
+              "blurb": "Central bankers warned that massive debt-backed investments in hyperscaler AI infrastructure could create broader macroeconomic instability.",
+              "url": "https://thenextweb.com/news/ai-financing-bank-of-england-financial-stability-hyperscaler-bonds"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
