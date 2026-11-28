@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-28",
+  "mode": "combined",
+  "categories": [
+    "tech"
+  ],
+  "digests": [
+    {
+      "title": "TLDR Daily Digest",
+      "tagline": "Tech",
+      "sections": [
+        {
+          "name": "AI & Machine Learning",
+          "stories": [
+            {
+              "headline": "Anthropic Rewrites Core Messages API in Rust",
+              "blurb": "Anthropic completed a five-month rewrite of its Claude Messages API service from Python to Rust, drastically reducing infrastructure latency and boosting service reliability under scaling loads.",
+              "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+            },
+            {
+              "headline": "OpenAI Countersues Apple Over Alleged Trade Secret Theft",
+              "blurb": "OpenAI has filed countersuits against Apple claiming trade secret misappropriation, intensifying legal combat between major AI providers and traditional tech titans.",
+              "url": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets"
+            },
+            {
+              "headline": "OpenAI Launches Private Inference for Enterprise Customers",
+              "blurb": "OpenAI began rolling out confidential private inference functionality, allowing organizations to process sensitive workloads without exposing raw input data to host environments.",
+              "url": "https://x.com/sama/status/2125638790593274259"
+            },
+            {
+              "headline": "AI Token Volume Surges 44x as Inference Spend Flattens",
+              "blurb": "OpenRouter telemetry reveals inference token volume grew 44-fold while user expenditure plateaued, underscoring rapid model efficiency gains and price compression across providers.",
+              "url": "https://openrouter.ai/blog/insights/is-jevons-paradox-holding"
+            },
+            {
+              "headline": "Pure x86-64 Assembly LLM Engine Enables Bare-Metal Inference",
+              "blurb": "Developers released llm.asm, an LLM execution engine written entirely in raw x86-64 assembly language that achieves ultra-lightweight inference directly on system hardware.",
+              "url": "https://github.com/alesha-pro/llm.asm"
+            }
+          ]
+        },
+        {
+          "name": "Cybersecurity",
+          "stories": [
+            {
+              "headline": "Hackers Breach US Air Force Cloud One Platform",
+              "blurb": "Intruders compromised the US Air Force's primary cloud infrastructure, exposing vulnerabilities in high-security defense department cloud environments.",
+              "url": "https://cybernews.com/security/hackers-breach-us-air-force-flagship-cloud-one"
+            },
+            {
+              "headline": "1Password Discloses GitHub Breach Compromising Customer Data",
+              "blurb": "1Password confirmed an unauthorized breach of its GitHub ecosystem that exposed customer information, triggering emergency incident remediation.",
+              "url": "https://1password.com/blog/update-on-nov-2026-security-incident"
+            },
+            {
+              "headline": "SAP Confirms Source Code Leak Following Cyber Incident",
+              "blurb": "Enterprise giant SAP acknowledged a security incident involving compromised GitHub repositories following reports of proprietary source code leaks.",
+              "url": "https://therecord.media/sap-germany-cyberattack-github"
+            },
+            {
+              "headline": "Trivy-Action Compromised in CI/CD Supply Chain Attack",
+              "blurb": "Attackers hijacked the widely deployed trivy-action GitHub Action security scanner to inject credential-stealing malware into automated building pipelines.",
+              "url": "https://www.crowdstrike.com/en-us/blog/from-scanner-to-stealer-inside-the-trivy-action-supply-chain-compromise"
+            }
+          ]
+        },
+        {
+          "name": "Hardware & Data Centers",
+          "stories": [
+            {
+              "headline": "Sanctioned Nvidia Blackwell AI Chips Discovered in China",
+              "blurb": "An investigation revealed shell companies in California procured high-end Nvidia Blackwell accelerators and redirected them to Chinese data centers, circumventing US export restrictions.",
+              "url": "https://www.cbsnews.com/news/nvidia-china-ai-chips-computing-sales"
+            },
+            {
+              "headline": "AMD Unveils Instinct MI455X Datacenter AI Accelerator",
+              "blurb": "AMD announced the Instinct MI455X GPU with enhanced scale-out bandwidth to directly challenge Nvidia's dominance in massive datacenter model training.",
+              "url": "https://www.microprocessorreport.com/p/amd-instinct-mi455x-scales-up-and-out"
+            },
+            {
+              "headline": "High-Temp Liquid Cooling Technology Eliminates Datacenter Chillers",
+              "blurb": "Datacenters implementing 45°C liquid inlet cooling are phasing out legacy mechanical chillers, driving massive reductions in infrastructure energy consumption.",
+              "url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831"
+            }
+          ]
+        },
+        {
+          "name": "Dev Tools & Tech Ecosystem",
+          "stories": [
+            {
+              "headline": "Deno Acquired for $26.5M Following $25.9M Funding",
+              "blurb": "JavaScript runtime vendor Deno was acquired for $26.5 million—just above its venture capital investment total—securing operational funding for its open-source runtime for another year.",
+              "url": "https://vela.partners/blog/deno-github-history"
+            },
+            {
+              "headline": "Neuralink Receives FDA Approval for Pivotal Human Trial",
+              "blurb": "Neuralink secured FDA authorization to advance to pivotal clinical trials, establishing a key regulatory milestone for commercial brain-computer interface deployments.",
+              "url": "https://neuralink.com/updates/neuralink-receives-fda-approval-to-launch-link-pivotal-study"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
